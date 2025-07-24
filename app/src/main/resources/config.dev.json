@@ -3,7 +3,7 @@
   "serverPort": 3001,
   "jwtSecret": "super-secret-value",
   "realm": "Learning Service",
-  "issuer": "learning-service",
+  "issuer": "auth-service",
   "database": {
     "url": "jdbc:postgresql://localhost:5432/learningdb",
     "user": "postgres",

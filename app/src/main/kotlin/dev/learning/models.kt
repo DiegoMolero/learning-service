@@ -37,7 +37,7 @@ data class UserSettingsResponse(
     val nativeLanguage: String,
     val targetLanguage: String,
     val darkMode: Boolean,
-    val onboardingPhase: String
+    val onboardingStep: String
 )
 
 @Serializable
@@ -45,7 +45,7 @@ data class UpdateUserSettingsRequest(
     val nativeLanguage: String? = null,
     val targetLanguage: String? = null,
     val darkMode: Boolean? = null,
-    val onboardingPhase: String? = null
+    val onboardingStep: String? = null
 )
 
 // Response for settings update that includes warnings

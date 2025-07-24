@@ -22,8 +22,8 @@ interface LearningRepository {
     suspend fun getUserProgressForLevel(userId: String, levelId: String): UserProgressResponse?
     suspend fun updateUserProgress(userId: String, levelId: String, completedPhraseIds: List<String>): Boolean
     suspend fun getUserSettings(userId: String): UserSettingsResponse?
-    suspend fun updateUserSettings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingPhase: String?): Boolean
-    suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingPhase: String?): Pair<Boolean, List<String>>
+    suspend fun updateUserSettings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?): Boolean
+    suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?): Pair<Boolean, List<String>>
     suspend fun createDefaultUserSettings(userId: String): Boolean
 }
 
@@ -45,7 +45,7 @@ object UserSettings : UUIDTable("user_settings") {
     val nativeLanguage = varchar("native_language", 10).default("en")
     val targetLanguage = varchar("target_language", 10).default("es")
     val darkMode = bool("dark_mode").default(false)
-    val onboardingPhase = varchar("onboarding_phase", 20).default("native")
+    val onboardingStep = varchar("onboarding_step", 20).default("native")
     val createdAt = timestamp("created_at").defaultExpression(CurrentTimestamp())
     val updatedAt = timestamp("updated_at").defaultExpression(CurrentTimestamp())
 }
@@ -219,7 +219,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                             nativeLanguage = row[UserSettings.nativeLanguage],
                             targetLanguage = row[UserSettings.targetLanguage],
                             darkMode = row[UserSettings.darkMode],
-                            onboardingPhase = row[UserSettings.onboardingPhase]
+                            onboardingStep = row[UserSettings.onboardingStep]
                         )
                     }
             }
@@ -229,7 +229,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         }
     }
 
-    override suspend fun updateUserSettings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingPhase: String?): Boolean {
+    override suspend fun updateUserSettings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?): Boolean {
         return try {
             transaction {
                 val userUuid = UUID.fromString(userId)
@@ -268,21 +268,21 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                 
                 // Validate onboarding phase transitions
                 val validPhases = listOf("native", "learning", "complete")
-                onboardingPhase?.let { phase ->
+                onboardingStep?.let { phase ->
                     if (phase !in validPhases) {
                         throw IllegalArgumentException("Invalid onboarding phase: $phase. Valid phases: ${validPhases.joinToString()}")
                     }
                 }
                 
                 // Validate that onboarding can only progress if both languages are set
-                var finalOnboardingPhase = onboardingPhase
-                if (onboardingPhase == "complete") {
+                var finalOnboardingStep = onboardingStep
+                if (onboardingStep == "complete") {
                     val finalNative = nativeLanguage ?: (existing?.get(UserSettings.nativeLanguage))
                     val finalTarget = targetLanguage ?: (existing?.get(UserSettings.targetLanguage))
                     
                     if (finalNative.isNullOrBlank() || finalTarget.isNullOrBlank()) {
                         // Don't allow completion if languages are not set
-                        finalOnboardingPhase = null
+                        finalOnboardingStep = null
                         println("Warning: Ignoring onboarding completion request - languages not fully configured")
                     }
                 }
@@ -292,7 +292,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                         nativeLanguage?.let { lang -> it[UserSettings.nativeLanguage] = lang }
                         targetLanguage?.let { lang -> it[UserSettings.targetLanguage] = lang }
                         darkMode?.let { mode -> it[UserSettings.darkMode] = mode }
-                        finalOnboardingPhase?.let { phase -> it[UserSettings.onboardingPhase] = phase }
+                        finalOnboardingStep?.let { phase -> it[UserSettings.onboardingStep] = phase }
                         it[UserSettings.updatedAt] = kotlinx.datetime.Clock.System.now()
                     } > 0
                 } else {
@@ -306,9 +306,9 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     }
                     
                     // For new records, set default onboarding phase or validate provided phase
-                    var finalOnboardingPhase = onboardingPhase ?: "native"
-                    if (onboardingPhase == "complete" && (finalNative.isBlank() || finalTarget.isBlank())) {
-                        finalOnboardingPhase = "native"
+                    var finalOnboardingStep = onboardingStep ?: "native"
+                    if (onboardingStep == "complete" && (finalNative.isBlank() || finalTarget.isBlank())) {
+                        finalOnboardingStep = "native"
                         println("Warning: Setting onboarding phase to 'native' for new user - languages not fully configured")
                     }
                     
@@ -317,7 +317,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                         it[UserSettings.nativeLanguage] = finalNative
                         it[UserSettings.targetLanguage] = finalTarget
                         it[UserSettings.darkMode] = darkMode ?: false
-                        it[UserSettings.onboardingPhase] = finalOnboardingPhase
+                        it[UserSettings.onboardingStep] = finalOnboardingStep
                     }.insertedCount > 0
                 }
             }
@@ -330,7 +330,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         }
     }
 
-    override suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingPhase: String?): Pair<Boolean, List<String>> {
+    override suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?): Pair<Boolean, List<String>> {
         val warnings = mutableListOf<String>()
         
         return try {
@@ -382,21 +382,21 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                 
                 // Validate onboarding phase transitions
                 val validPhases = listOf("native", "learning", "complete")
-                onboardingPhase?.let { phase ->
+                onboardingStep?.let { phase ->
                     if (phase !in validPhases) {
                         throw IllegalArgumentException("Invalid onboarding phase: $phase. Valid phases: ${validPhases.joinToString()}")
                     }
                 }
                 
                 // Validate that onboarding can only progress to complete if both languages are set
-                var finalOnboardingPhase = onboardingPhase
-                if (onboardingPhase == "complete") {
+                var finalOnboardingStep = onboardingStep
+                if (onboardingStep == "complete") {
                     val finalNative = finalNativeLanguage ?: (existing?.get(UserSettings.nativeLanguage))
                     val finalTarget = finalTargetLanguage ?: (existing?.get(UserSettings.targetLanguage))
                     
                     if (finalNative.isNullOrBlank() || finalTarget.isNullOrBlank()) {
                         // Don't allow completion if languages are not set
-                        finalOnboardingPhase = null
+                        finalOnboardingStep = null
                         warnings.add("Onboarding completion ignored - both native and target languages must be selected first")
                     }
                 }
@@ -406,7 +406,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                         finalNativeLanguage?.let { lang -> it[UserSettings.nativeLanguage] = lang }
                         finalTargetLanguage?.let { lang -> it[UserSettings.targetLanguage] = lang }
                         darkMode?.let { mode -> it[UserSettings.darkMode] = mode }
-                        finalOnboardingPhase?.let { phase -> it[UserSettings.onboardingPhase] = phase }
+                        finalOnboardingStep?.let { phase -> it[UserSettings.onboardingStep] = phase }
                         it[UserSettings.updatedAt] = kotlinx.datetime.Clock.System.now()
                     } > 0
                 } else {
@@ -420,9 +420,9 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     }
                     
                     // For new records, set default onboarding phase or validate provided phase
-                    var newUserOnboardingPhase = finalOnboardingPhase ?: "native"
-                    if (onboardingPhase == "complete" && (finalNative.isBlank() || finalTarget.isBlank())) {
-                        newUserOnboardingPhase = "native"
+                    var newUserOnboardingStep = finalOnboardingStep ?: "native"
+                    if (onboardingStep == "complete" && (finalNative.isBlank() || finalTarget.isBlank())) {
+                        newUserOnboardingStep = "native"
                         warnings.add("Onboarding phase set to 'native' for new user - both languages must be selected first")
                     }
                     
@@ -431,7 +431,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                         it[UserSettings.nativeLanguage] = finalNative
                         it[UserSettings.targetLanguage] = finalTarget
                         it[UserSettings.darkMode] = darkMode ?: false
-                        it[UserSettings.onboardingPhase] = newUserOnboardingPhase
+                        it[UserSettings.onboardingStep] = newUserOnboardingStep
                     }.insertedCount > 0
                 }
                 
@@ -454,7 +454,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     it[UserSettings.nativeLanguage] = "en"
                     it[UserSettings.targetLanguage] = "es"
                     it[UserSettings.darkMode] = false
-                    it[UserSettings.onboardingPhase] = "native"
+                    it[UserSettings.onboardingStep] = "native"
                 }.insertedCount > 0
             }
         } catch (e: Exception) {

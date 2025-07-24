@@ -4,7 +4,7 @@
   "tokenExpirationMinutes": 60,
   "jwtSecret": "super-secret-value",
   "realm": "Learning Service",
-  "issuer": "learning-service",
+  "issuer": "auth-service",
   "domain": "befocomefluent.com",
   "database": {
     "url": "jdbc:postgresql://localhost:5432/learningdb",

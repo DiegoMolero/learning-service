@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5d2f3c-0133-42ec-9527-147ab554dc70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/models.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/models.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/LearningRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/LearningRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/config.default.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/config.default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/config.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/config.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/config.prod.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/config.prod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/config.test.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/config.test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/SettingsRouteTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/SettingsRouteTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/test/utils/JWTTestHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/test/utils/JWTTestHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753362008389</updated>
-      <workItem from="1753362010158" duration="2391000" />
+      <workItem from="1753362010158" duration="3737000" />
     </task>
     <servers />
   </component>
@@ -175,7 +176,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt</url>
-          <line>108</line>
+          <line>121</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

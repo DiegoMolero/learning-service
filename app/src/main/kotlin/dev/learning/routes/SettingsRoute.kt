@@ -11,15 +11,17 @@ import io.ktor.server.request.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import io.ktor.http.*
+import io.ktor.util.pipeline.*
 
 fun Route.settingsRoute(learningRepository: LearningRepository) {
-    authenticate("auth-jwt") {
-        route("/settings") {
-            
+    route("/settings") {
+        
+        authenticate("auth-jwt") {
             // Get user settings
             get {
                 val principal = call.principal<JWTPrincipal>()
-                val userId = principal?.subject
+                val userId = principal?.payload?.getClaim("userId")?.asString() 
+                    ?: principal?.subject // Fallback to subject if uuid claim not present
                 
                 if (userId.isNullOrBlank()) {
                     call.respond(
@@ -59,7 +61,8 @@ fun Route.settingsRoute(learningRepository: LearningRepository) {
             // Update user settings
             put {
                 val principal = call.principal<JWTPrincipal>()
-                val userId = principal?.subject
+                val userId = principal?.payload?.getClaim("userId")?.asString() 
+                    ?: principal?.subject // Fallback to subject if uuid claim not present
                 
                 if (userId.isNullOrBlank()) {
                     call.respond(
@@ -111,7 +114,7 @@ fun Route.settingsRoute(learningRepository: LearningRepository) {
                         nativeLanguage = request.nativeLanguage,
                         targetLanguage = request.targetLanguage,
                         darkMode = request.darkMode,
-                        onboardingPhase = request.onboardingPhase
+                        onboardingStep = request.onboardingStep
                     )
                     
                     if (success) {
