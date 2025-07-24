@@ -18,6 +18,19 @@ data class ErrorDetail(
     val path: String
 )
 
+object ErrorTypes {
+    const val INVALID_EMAIL = "INVALID_EMAIL"
+    const val INVALID_PASSWORD = "INVALID_PASSWORD"
+    const val INVALID_NAME = "INVALID_NAME"
+    const val INVALID_INPUT = "INVALID_INPUT"
+    const val USER_ALREADY_EXISTS = "USER_ALREADY_EXISTS"
+    const val USER_NOT_FOUND = "USER_NOT_FOUND"
+    const val USER_UPDATE_FAILED = "USER_UPDATE_FAILED"
+    const val INVALID_CREDENTIALS = "INVALID_CREDENTIALS"
+    const val USER_CREATION_FAILED = "USER_CREATION_FAILED"
+    const val VALIDATION_ERROR = "VALIDATION_ERROR"
+}
+
 fun createErrorResponse(
     type: String,
     message: String,

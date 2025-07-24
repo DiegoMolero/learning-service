@@ -22,6 +22,7 @@ import com.auth0.jwt.JWT
 import dev.learning.routes.*
 import dev.learning.repository.DatabaseLearningRepository
 import dev.learning.repository.LearningRepository
+import dev.learning.ErrorTypes
 import java.io.File
 import java.io.FileNotFoundException
 // Load cors plugin
@@ -182,9 +183,15 @@ fun Application.module(config: Config) {
             }
 
             challenge { _, _ ->
+                val errorResponse = createErrorResponse(
+                    type = ErrorTypes.INVALID_CREDENTIALS,
+                    message = "Token is not valid or has expired. Please log in again.",
+                    status = io.ktor.http.HttpStatusCode.Unauthorized.value,
+                    path = call.request.uri
+                )
                 call.respond(
                     io.ktor.http.HttpStatusCode.Unauthorized,
-                    "Token is not valid or has expired"
+                    errorResponse
                 )
             }
         }
