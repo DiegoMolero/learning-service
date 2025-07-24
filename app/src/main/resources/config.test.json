@@ -1,0 +1,13 @@
+{
+  "environmentName": "test",
+  "serverPort": 3001,
+  "jwtSecret": "test-secret-value",
+  "realm": "Test Learning Service",
+  "issuer": "learning-service-test",
+  "database": {
+    "url": "jdbc:h2:mem:testdb",
+    "user": "test",
+    "password": "test",
+    "dropOnStart": true
+  }
+}

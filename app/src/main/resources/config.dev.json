@@ -1,0 +1,13 @@
+{
+  "environmentName": "dev",
+  "serverPort": 3001,
+  "jwtSecret": "super-secret-value",
+  "realm": "Learning Service",
+  "issuer": "learning-service",
+  "database": {
+    "url": "jdbc:postgresql://localhost:5432/learningdb",
+    "user": "postgres",
+    "password": "postgres",
+    "dropOnStart": false
+  }
+}

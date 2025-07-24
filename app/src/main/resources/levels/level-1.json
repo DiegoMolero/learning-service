@@ -1,0 +1,30 @@
+{
+  "id": "level-1",
+  "title": {
+    "es": "Saludos básicos",
+    "en": "Basic Greetings"
+  },
+  "phrases": [
+    {
+      "id": "phrase-1",
+      "text": {
+        "es": "Hola",
+        "en": "Hello"
+      }
+    },
+    {
+      "id": "phrase-2",
+      "text": {
+        "es": "¿Cómo estás?",
+        "en": "How are you?"
+      }
+    },
+    {
+      "id": "phrase-3",
+      "text": {
+        "es": "Buenos días",
+        "en": "Good morning"
+      }
+    }
+  ]
+}

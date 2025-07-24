@@ -1,0 +1,44 @@
+{
+  "id": "level-2",
+  "title": {
+    "es": "Números básicos",
+    "en": "Basic Numbers"
+  },
+  "phrases": [
+    {
+      "id": "phrase-1",
+      "text": {
+        "es": "Uno",
+        "en": "One"
+      }
+    },
+    {
+      "id": "phrase-2",
+      "text": {
+        "es": "Dos",
+        "en": "Two"
+      }
+    },
+    {
+      "id": "phrase-3",
+      "text": {
+        "es": "Tres",
+        "en": "Three"
+      }
+    },
+    {
+      "id": "phrase-4",
+      "text": {
+        "es": "Cuatro",
+        "en": "Four"
+      }
+    },
+    {
+      "id": "phrase-5",
+      "text": {
+        "es": "Cinco",
+        "en": "Five"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "environmentName": "default",
+  "serverPort": 3001,
+  "tokenExpirationMinutes": 60,
+  "jwtSecret": "super-secret-value",
+  "realm": "Learning Service",
+  "issuer": "learning-service",
+  "domain": "befocomefluent.com",
+  "database": {
+    "url": "jdbc:postgresql://localhost:5432/learningdb",
+    "user": "postgres",
+    "password": "postgres",
+    "dropOnStart": false
+  }
+}
