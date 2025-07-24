@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4329081-441e-4d6f-aaf7-c229875d8ff2" name="Changes" comment="" />
+    <list default="true" id="5a5d2f3c-0133-42ec-9527-147ab554dc70" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/models.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/models.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/LearningRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/LearningRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/SettingsRouteTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/SettingsRouteTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/test/utils/JWTTestHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/test/utils/JWTTestHelper.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,145 +23,37 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="learning-service" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Kotlin Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2zUqBYqm66T5N2wRBSwA7JCzOMn" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="30K2aXepEUCkr5Edw45jTQv2xAu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.All Tests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AuthenticationIntegrationTest.complete authentication flow should work.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build learning-service.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build learning-service.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ErrorResponseTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.HealthRouteTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.LoginRouteTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MeRouteTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SettingsRouteTest.GET settings should return 401 without valid token.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SettingsRouteTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SignupRouteTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SignupRouteTest.should return 200 and JWT token on successful signup.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Tests in 'learning-service.app.test'.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ValidationUtilsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ValidationUtilsTest.should provide detailed password error messages.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.ValidationUtilsTest.should reject invalid email addresses.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ValidationUtilsTest.should reject weak passwords.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.learning-service [app:run].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.learning-service.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ApplicationKt.executor&quot;: &quot;Run&quot;,
-    &quot;Ktor.ApplicationKt.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Diego/Desktop/projects/learning-service&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.SettingsRouteTest.PUT settings should update native language successfully.executor": "Run",
+    "Gradle.SettingsRouteTest.executor": "Run",
+    "Gradle.Tests in 'learning-service.app.test'.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.Tests in 'learning-service.app.test'">
-    <configuration name="All Tests" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="env">
-          <map>
-            <entry key="APP_ENV" value="test" />
-          </map>
-        </option>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="AuthenticationIntegrationTest.complete authentication flow should work" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;dev.auth.integration.AuthenticationIntegrationTest.complete authentication flow should work&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Gradle.SettingsRouteTest">
     <configuration name="SettingsRouteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -178,7 +78,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SettingsRouteTest.GET settings should return 401 without valid token" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SettingsRouteTest.PUT settings should update native language successfully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -191,7 +91,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.SettingsRouteTest.GET settings should return 401 without valid token&quot;" />
+            <option value="&quot;dev.learning.routes.SettingsRouteTest.PUT settings should update native language successfully&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -224,68 +124,22 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="learning-service [app:run]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
-      <ExternalSystemSettings>
-        <option name="env">
-          <map>
-            <entry key="APP_ENV" value="dev" />
-          </map>
-        </option>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="app:run" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="All in learning-service.app.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learning-service.app.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="learning-service.app" />
+      <module name="learning-service" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="learning-service.app" />
+      <module name="learning-service" />
       <option name="filePath" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Gradle.All Tests" />
-      <item itemvalue="Gradle.learning-service [app:run]" />
-      <item itemvalue="Gradle.SettingsRouteTest" />
-      <item itemvalue="Gradle.SettingsRouteTest.GET settings should return 401 without valid token" />
-      <item itemvalue="Gradle.AuthenticationIntegrationTest.complete authentication flow should work" />
-      <item itemvalue="Gradle.Tests in 'learning-service.app.test'" />
-      <item itemvalue="JUnit.All in learning-service.app.test" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'learning-service.app.test'" />
         <item itemvalue="Gradle.SettingsRouteTest" />
-        <item itemvalue="JUnit.All in learning-service.app.test" />
-        <item itemvalue="Gradle.SettingsRouteTest.GET settings should return 401 without valid token" />
-        <item itemvalue="Gradle.AuthenticationIntegrationTest.complete authentication flow should work" />
+        <item itemvalue="Gradle.SettingsRouteTest.PUT settings should update native language successfully" />
+        <item itemvalue="Gradle.Tests in 'learning-service.app.test'" />
       </list>
     </recent_temporary>
   </component>
@@ -299,19 +153,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c4329081-441e-4d6f-aaf7-c229875d8ff2" name="Changes" comment="" />
-      <created>1751795865195</created>
+      <changelist id="5a5d2f3c-0133-42ec-9527-147ab554dc70" name="Changes" comment="" />
+      <created>1753362008389</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1751795865195</updated>
-      <workItem from="1751795867291" duration="1606000" />
-      <workItem from="1751797801377" duration="9097000" />
-      <workItem from="1752067953836" duration="329000" />
-      <workItem from="1753269088611" duration="8221000" />
-      <workItem from="1753360126409" duration="413000" />
-      <workItem from="1753360553655" duration="1210000" />
-      <workItem from="1753361787498" duration="50000" />
-      <workItem from="1753361846452" duration="86000" />
+      <updated>1753362008389</updated>
+      <workItem from="1753362010158" duration="2391000" />
     </task>
     <servers />
   </component>
@@ -322,9 +169,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/test/kotlin/dev/auth/ValidationUtilsTest.kt</url>
-          <line>70</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/LearningRepository.kt</url>
+          <line>341</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt</url>
+          <line>108</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -168,7 +168,7 @@ fun Application.module(config: Config) {
             verifier(
                 JWT
                     .require(Algorithm.HMAC256(config.jwtSecret))
-                    .withIssuer("learning-service") // This should match the auth service issuer
+                    .withIssuer(config.issuer)
                     .build()
             )
 

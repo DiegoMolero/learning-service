@@ -14,13 +14,13 @@ object JWTTestHelper {
      * Creates a valid JWT token for testing purposes
      * @param config The application configuration containing JWT settings
      * @param email The email to include in the token claims
-     * @param userId The user ID to use as the subject
+     * @param userId The user ID to use as the subject (must be a valid UUID)
      * @return A Bearer token string ready to use in Authorization headers
      */
     fun createTestJWT(
         config: Config,
         email: String = "test@example.com", 
-        userId: String = "test-user-123"
+        userId: String = "550e8400-e29b-41d4-a716-446655440000"
     ): String {
         val algorithm = Algorithm.HMAC256(config.jwtSecret)
         val token = JWT.create()
@@ -38,14 +38,14 @@ object JWTTestHelper {
      * Creates a JWT token with custom expiration time
      * @param config The application configuration containing JWT settings
      * @param email The email to include in the token claims
-     * @param userId The user ID to use as the subject
+     * @param userId The user ID to use as the subject (must be a valid UUID)
      * @param expirationMinutes Custom expiration time in minutes
      * @return A Bearer token string ready to use in Authorization headers
      */
     fun createTestJWTWithExpiration(
         config: Config,
         email: String = "test@example.com",
-        userId: String = "test-user-123",
+        userId: String = "550e8400-e29b-41d4-a716-446655440000",
         expirationMinutes: Int
     ): String {
         val algorithm = Algorithm.HMAC256(config.jwtSecret)
@@ -64,13 +64,13 @@ object JWTTestHelper {
      * Creates an expired JWT token for testing authentication failures
      * @param config The application configuration containing JWT settings
      * @param email The email to include in the token claims
-     * @param userId The user ID to use as the subject
+     * @param userId The user ID to use as the subject (must be a valid UUID)
      * @return An expired Bearer token string
      */
     fun createExpiredTestJWT(
         config: Config,
         email: String = "test@example.com",
-        userId: String = "test-user-123"
+        userId: String = "550e8400-e29b-41d4-a716-446655440000"
     ): String {
         val algorithm = Algorithm.HMAC256(config.jwtSecret)
         val token = JWT.create()

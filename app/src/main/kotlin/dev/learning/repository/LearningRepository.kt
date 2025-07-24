@@ -22,8 +22,8 @@ interface LearningRepository {
     suspend fun getUserProgressForLevel(userId: String, levelId: String): UserProgressResponse?
     suspend fun updateUserProgress(userId: String, levelId: String, completedPhraseIds: List<String>): Boolean
     suspend fun getUserSettings(userId: String): UserSettingsResponse?
-    suspend fun updateUserSettings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingCompleted: Boolean?): Boolean
-    suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingCompleted: Boolean?): Pair<Boolean, List<String>>
+    suspend fun updateUserSettings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingPhase: String?): Boolean
+    suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingPhase: String?): Pair<Boolean, List<String>>
     suspend fun createDefaultUserSettings(userId: String): Boolean
 }
 
@@ -45,7 +45,7 @@ object UserSettings : UUIDTable("user_settings") {
     val nativeLanguage = varchar("native_language", 10).default("en")
     val targetLanguage = varchar("target_language", 10).default("es")
     val darkMode = bool("dark_mode").default(false)
-    val onboardingCompleted = bool("onboarding_completed").default(false)
+    val onboardingPhase = varchar("onboarding_phase", 20).default("native")
     val createdAt = timestamp("created_at").defaultExpression(CurrentTimestamp())
     val updatedAt = timestamp("updated_at").defaultExpression(CurrentTimestamp())
 }
@@ -219,7 +219,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                             nativeLanguage = row[UserSettings.nativeLanguage],
                             targetLanguage = row[UserSettings.targetLanguage],
                             darkMode = row[UserSettings.darkMode],
-                            onboardingCompleted = row[UserSettings.onboardingCompleted]
+                            onboardingPhase = row[UserSettings.onboardingPhase]
                         )
                     }
             }
@@ -229,7 +229,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         }
     }
 
-    override suspend fun updateUserSettings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingCompleted: Boolean?): Boolean {
+    override suspend fun updateUserSettings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingPhase: String?): Boolean {
         return try {
             transaction {
                 val userUuid = UUID.fromString(userId)
@@ -266,16 +266,23 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     }
                 }
                 
-                // Validate that onboarding can only be completed if both languages are set
-                // If languages are missing, we'll ignore the onboarding completion request
-                var finalOnboardingCompleted = onboardingCompleted
-                if (onboardingCompleted == true) {
+                // Validate onboarding phase transitions
+                val validPhases = listOf("native", "learning", "complete")
+                onboardingPhase?.let { phase ->
+                    if (phase !in validPhases) {
+                        throw IllegalArgumentException("Invalid onboarding phase: $phase. Valid phases: ${validPhases.joinToString()}")
+                    }
+                }
+                
+                // Validate that onboarding can only progress if both languages are set
+                var finalOnboardingPhase = onboardingPhase
+                if (onboardingPhase == "complete") {
                     val finalNative = nativeLanguage ?: (existing?.get(UserSettings.nativeLanguage))
                     val finalTarget = targetLanguage ?: (existing?.get(UserSettings.targetLanguage))
                     
                     if (finalNative.isNullOrBlank() || finalTarget.isNullOrBlank()) {
-                        // Ignore the onboarding completion request if languages are not set
-                        finalOnboardingCompleted = null
+                        // Don't allow completion if languages are not set
+                        finalOnboardingPhase = null
                         println("Warning: Ignoring onboarding completion request - languages not fully configured")
                     }
                 }
@@ -285,7 +292,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                         nativeLanguage?.let { lang -> it[UserSettings.nativeLanguage] = lang }
                         targetLanguage?.let { lang -> it[UserSettings.targetLanguage] = lang }
                         darkMode?.let { mode -> it[UserSettings.darkMode] = mode }
-                        finalOnboardingCompleted?.let { completed -> it[UserSettings.onboardingCompleted] = completed }
+                        finalOnboardingPhase?.let { phase -> it[UserSettings.onboardingPhase] = phase }
                         it[UserSettings.updatedAt] = kotlinx.datetime.Clock.System.now()
                     } > 0
                 } else {
@@ -298,11 +305,11 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                         throw IllegalArgumentException("Native language and target language cannot be the same")
                     }
                     
-                    // For new records, ignore onboarding completion if languages are not set
-                    var finalOnboardingCompleted = onboardingCompleted ?: false
-                    if (onboardingCompleted == true && (finalNative.isBlank() || finalTarget.isBlank())) {
-                        finalOnboardingCompleted = false
-                        println("Warning: Ignoring onboarding completion request for new user - languages not fully configured")
+                    // For new records, set default onboarding phase or validate provided phase
+                    var finalOnboardingPhase = onboardingPhase ?: "native"
+                    if (onboardingPhase == "complete" && (finalNative.isBlank() || finalTarget.isBlank())) {
+                        finalOnboardingPhase = "native"
+                        println("Warning: Setting onboarding phase to 'native' for new user - languages not fully configured")
                     }
                     
                     UserSettings.insert {
@@ -310,7 +317,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                         it[UserSettings.nativeLanguage] = finalNative
                         it[UserSettings.targetLanguage] = finalTarget
                         it[UserSettings.darkMode] = darkMode ?: false
-                        it[UserSettings.onboardingCompleted] = finalOnboardingCompleted
+                        it[UserSettings.onboardingPhase] = finalOnboardingPhase
                     }.insertedCount > 0
                 }
             }
@@ -323,7 +330,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         }
     }
 
-    override suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingCompleted: Boolean?): Pair<Boolean, List<String>> {
+    override suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingPhase: String?): Pair<Boolean, List<String>> {
         val warnings = mutableListOf<String>()
         
         return try {
@@ -336,69 +343,87 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     throw IllegalArgumentException("Native language and target language cannot be the same")
                 }
                 
-                // If only one language is provided, validate against existing settings
+                // Auto-switch logic: if only one language is provided and it conflicts with the existing one,
+                // automatically switch the other language
+                var finalNativeLanguage = nativeLanguage
+                var finalTargetLanguage = targetLanguage
+                
                 if (existing != null) {
                     val currentNative = existing[UserSettings.nativeLanguage]
                     val currentTarget = existing[UserSettings.targetLanguage]
                     
-                    val finalNative = nativeLanguage ?: currentNative
-                    val finalTarget = targetLanguage ?: currentTarget
+                    // If only native language is provided and it conflicts with current target
+                    if (nativeLanguage != null && targetLanguage == null && nativeLanguage == currentTarget) {
+                        // Auto-switch target language
+                        finalTargetLanguage = if (nativeLanguage == "en") "es" else "en"
+                        warnings.add("Target language automatically changed to avoid conflict with native language")
+                    }
                     
-                    if (finalNative == finalTarget) {
-                        throw IllegalArgumentException("Native language and target language cannot be the same")
+                    // If only target language is provided and it conflicts with current native
+                    if (targetLanguage != null && nativeLanguage == null && targetLanguage == currentNative) {
+                        // Auto-switch native language
+                        finalNativeLanguage = if (targetLanguage == "en") "es" else "en"
+                        warnings.add("Native language automatically changed to avoid conflict with target language")
                     }
                 }
                 
                 // Validate supported languages
                 val supportedLanguages = listOf("en", "es")
-                nativeLanguage?.let { 
+                finalNativeLanguage?.let { 
                     if (it !in supportedLanguages) {
                         throw IllegalArgumentException("Unsupported native language: $it. Supported: ${supportedLanguages.joinToString()}")
                     }
                 }
-                targetLanguage?.let { 
+                finalTargetLanguage?.let { 
                     if (it !in supportedLanguages) {
                         throw IllegalArgumentException("Unsupported target language: $it. Supported: ${supportedLanguages.joinToString()}")
                     }
                 }
                 
-                // Validate that onboarding can only be completed if both languages are set
-                // If languages are missing, we'll ignore the onboarding completion request
-                var finalOnboardingCompleted = onboardingCompleted
-                if (onboardingCompleted == true) {
-                    val finalNative = nativeLanguage ?: (existing?.get(UserSettings.nativeLanguage))
-                    val finalTarget = targetLanguage ?: (existing?.get(UserSettings.targetLanguage))
+                // Validate onboarding phase transitions
+                val validPhases = listOf("native", "learning", "complete")
+                onboardingPhase?.let { phase ->
+                    if (phase !in validPhases) {
+                        throw IllegalArgumentException("Invalid onboarding phase: $phase. Valid phases: ${validPhases.joinToString()}")
+                    }
+                }
+                
+                // Validate that onboarding can only progress to complete if both languages are set
+                var finalOnboardingPhase = onboardingPhase
+                if (onboardingPhase == "complete") {
+                    val finalNative = finalNativeLanguage ?: (existing?.get(UserSettings.nativeLanguage))
+                    val finalTarget = finalTargetLanguage ?: (existing?.get(UserSettings.targetLanguage))
                     
                     if (finalNative.isNullOrBlank() || finalTarget.isNullOrBlank()) {
-                        // Ignore the onboarding completion request if languages are not set
-                        finalOnboardingCompleted = null
+                        // Don't allow completion if languages are not set
+                        finalOnboardingPhase = null
                         warnings.add("Onboarding completion ignored - both native and target languages must be selected first")
                     }
                 }
                 
                 val success = if (existing != null) {
                     UserSettings.update({ UserSettings.userId eq userUuid }) {
-                        nativeLanguage?.let { lang -> it[UserSettings.nativeLanguage] = lang }
-                        targetLanguage?.let { lang -> it[UserSettings.targetLanguage] = lang }
+                        finalNativeLanguage?.let { lang -> it[UserSettings.nativeLanguage] = lang }
+                        finalTargetLanguage?.let { lang -> it[UserSettings.targetLanguage] = lang }
                         darkMode?.let { mode -> it[UserSettings.darkMode] = mode }
-                        finalOnboardingCompleted?.let { completed -> it[UserSettings.onboardingCompleted] = completed }
+                        finalOnboardingPhase?.let { phase -> it[UserSettings.onboardingPhase] = phase }
                         it[UserSettings.updatedAt] = kotlinx.datetime.Clock.System.now()
                     } > 0
                 } else {
                     // Create default settings with provided updates
-                    val finalNative = nativeLanguage ?: "en"
-                    val finalTarget = targetLanguage ?: "es"
+                    val finalNative = finalNativeLanguage ?: "en"
+                    val finalTarget = finalTargetLanguage ?: if (finalNative == "es") "en" else "es"
                     
                     // Final validation for new records
                     if (finalNative == finalTarget) {
                         throw IllegalArgumentException("Native language and target language cannot be the same")
                     }
                     
-                    // For new records, ignore onboarding completion if languages are not set
-                    var newUserOnboardingCompleted = onboardingCompleted ?: false
-                    if (onboardingCompleted == true && (finalNative.isBlank() || finalTarget.isBlank())) {
-                        newUserOnboardingCompleted = false
-                        warnings.add("Onboarding completion ignored for new user - both native and target languages must be selected first")
+                    // For new records, set default onboarding phase or validate provided phase
+                    var newUserOnboardingPhase = finalOnboardingPhase ?: "native"
+                    if (onboardingPhase == "complete" && (finalNative.isBlank() || finalTarget.isBlank())) {
+                        newUserOnboardingPhase = "native"
+                        warnings.add("Onboarding phase set to 'native' for new user - both languages must be selected first")
                     }
                     
                     UserSettings.insert {
@@ -406,7 +431,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                         it[UserSettings.nativeLanguage] = finalNative
                         it[UserSettings.targetLanguage] = finalTarget
                         it[UserSettings.darkMode] = darkMode ?: false
-                        it[UserSettings.onboardingCompleted] = newUserOnboardingCompleted
+                        it[UserSettings.onboardingPhase] = newUserOnboardingPhase
                     }.insertedCount > 0
                 }
                 
@@ -429,7 +454,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     it[UserSettings.nativeLanguage] = "en"
                     it[UserSettings.targetLanguage] = "es"
                     it[UserSettings.darkMode] = false
-                    it[UserSettings.onboardingCompleted] = false
+                    it[UserSettings.onboardingPhase] = "native"
                 }.insertedCount > 0
             }
         } catch (e: Exception) {

@@ -111,7 +111,7 @@ fun Route.settingsRoute(learningRepository: LearningRepository) {
                         nativeLanguage = request.nativeLanguage,
                         targetLanguage = request.targetLanguage,
                         darkMode = request.darkMode,
-                        onboardingCompleted = request.onboardingCompleted
+                        onboardingPhase = request.onboardingPhase
                     )
                     
                     if (success) {

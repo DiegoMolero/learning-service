@@ -139,7 +139,7 @@ class SettingsRouteTest {
         // Assert
         assertEquals(HttpStatusCode.OK, response.status)
         val settings = json.decodeFromString<UserSettingsResponse>(response.bodyAsText())
-        assertEquals("test-user-123", settings.userId)
+        assertEquals("550e8400-e29b-41d4-a716-446655440000", settings.userId)
         assertTrue(listOf("en", "es").contains(settings.nativeLanguage))
         assertTrue(listOf("en", "es").contains(settings.targetLanguage))
         assertTrue(settings.nativeLanguage != settings.targetLanguage)
@@ -235,5 +235,146 @@ class SettingsRouteTest {
         assertEquals(email, decodedJWT.getClaim("email").asString())
         assertEquals(config.issuer, decodedJWT.issuer)
         assertTrue(decodedJWT.expiresAt.after(Date()))
+    }
+
+    @Test
+    fun `complete onboarding flow should progress through all phases correctly`() = testApplication {
+        application {
+            module(config)
+        }
+
+        val userJWT = JWTTestHelper.createTestJWT(config)
+
+        // Phase 1: Check initial state - should be 'native' phase by default
+        val initialResponse = client.get("/settings") {
+            header(HttpHeaders.Authorization, userJWT)
+        }
+        assertEquals(HttpStatusCode.OK, initialResponse.status)
+        val initialSettings = json.decodeFromString<UserSettingsResponse>(initialResponse.bodyAsText())
+        assertEquals("native", initialSettings.onboardingPhase)
+        assertEquals("550e8400-e29b-41d4-a716-446655440000", initialSettings.userId)
+
+        // Phase 2: User selects native language and progresses to 'learning' phase
+        val nativeLanguageRequest = UpdateUserSettingsRequest(
+            nativeLanguage = "es",
+            onboardingPhase = "learning"
+        )
+        val nativeResponse = client.put("/settings") {
+            header(HttpHeaders.Authorization, userJWT)
+            header(HttpHeaders.ContentType, ContentType.Application.Json)
+            setBody(json.encodeToString(nativeLanguageRequest))
+        }
+        assertEquals(HttpStatusCode.OK, nativeResponse.status)
+        
+        // Verify phase 2 state
+        val phase2Response = client.get("/settings") {
+            header(HttpHeaders.Authorization, userJWT)
+        }
+        assertEquals(HttpStatusCode.OK, phase2Response.status)
+        val phase2Settings = json.decodeFromString<UserSettingsResponse>(phase2Response.bodyAsText())
+        assertEquals("es", phase2Settings.nativeLanguage)
+        assertEquals("en", phase2Settings.targetLanguage) // Should auto-switch
+        assertEquals("learning", phase2Settings.onboardingPhase)
+
+        // Phase 3: User selects target language and completes onboarding
+        val completeRequest = UpdateUserSettingsRequest(
+            targetLanguage = "en",
+            onboardingPhase = "complete"
+        )
+        val completeResponse = client.put("/settings") {
+            header(HttpHeaders.Authorization, userJWT)
+            header(HttpHeaders.ContentType, ContentType.Application.Json)
+            setBody(json.encodeToString(completeRequest))
+        }
+        assertEquals(HttpStatusCode.OK, completeResponse.status)
+        
+        // Verify final completed state
+        val finalResponse = client.get("/settings") {
+            header(HttpHeaders.Authorization, userJWT)
+        }
+        assertEquals(HttpStatusCode.OK, finalResponse.status)
+        val finalSettings = json.decodeFromString<UserSettingsResponse>(finalResponse.bodyAsText())
+        assertEquals("es", finalSettings.nativeLanguage)
+        assertEquals("en", finalSettings.targetLanguage)
+        assertEquals("complete", finalSettings.onboardingPhase)
+
+        // Test that user can still update settings after onboarding completion
+        val postOnboardingRequest = UpdateUserSettingsRequest(darkMode = true)
+        val postOnboardingResponse = client.put("/settings") {
+            header(HttpHeaders.Authorization, userJWT)
+            header(HttpHeaders.ContentType, ContentType.Application.Json)
+            setBody(json.encodeToString(postOnboardingRequest))
+        }
+        assertEquals(HttpStatusCode.OK, postOnboardingResponse.status)
+        
+        // Verify dark mode was updated but onboarding phase remains complete
+        val postOnboardingGetResponse = client.get("/settings") {
+            header(HttpHeaders.Authorization, userJWT)
+        }
+        assertEquals(HttpStatusCode.OK, postOnboardingGetResponse.status)
+        val postOnboardingSettings = json.decodeFromString<UserSettingsResponse>(postOnboardingGetResponse.bodyAsText())
+        assertEquals(true, postOnboardingSettings.darkMode)
+        assertEquals("complete", postOnboardingSettings.onboardingPhase)
+    }
+
+    @Test
+    fun `onboarding should not allow completion without both languages set`() = testApplication {
+        application {
+            module(config)
+        }
+
+        val userJWT = JWTTestHelper.createTestJWT(config)
+
+        // Try to complete onboarding without setting both languages
+        val prematureCompleteRequest = UpdateUserSettingsRequest(
+            onboardingPhase = "complete"
+        )
+        val prematureResponse = client.put("/settings") {
+            header(HttpHeaders.Authorization, userJWT)
+            header(HttpHeaders.ContentType, ContentType.Application.Json)
+            setBody(json.encodeToString(prematureCompleteRequest))
+        }
+        
+        // Should still succeed but not actually complete onboarding
+        assertEquals(HttpStatusCode.OK, prematureResponse.status)
+        
+        // Verify onboarding phase was not changed to complete
+        val checkResponse = client.get("/settings") {
+            header(HttpHeaders.Authorization, userJWT)
+        }
+        assertEquals(HttpStatusCode.OK, checkResponse.status)
+        val settings = json.decodeFromString<UserSettingsResponse>(checkResponse.bodyAsText())
+        // Should still be in native phase since completion was ignored
+        assertTrue(settings.onboardingPhase != "complete")
+    }
+
+    @Test
+    fun `onboarding should validate phase values`() = testApplication {
+        application {
+            module(config)
+        }
+
+        val userJWT = JWTTestHelper.createTestJWT(config)
+
+        // Try to set an invalid onboarding phase
+        val invalidPhaseRequest = UpdateUserSettingsRequest(
+            onboardingPhase = "invalid_phase"
+        )
+        val invalidResponse = client.put("/settings") {
+            header(HttpHeaders.Authorization, userJWT)
+            header(HttpHeaders.ContentType, ContentType.Application.Json)
+            setBody(json.encodeToString(invalidPhaseRequest))
+        }
+        
+        // Should return 500 due to validation error
+        assertEquals(HttpStatusCode.InternalServerError, invalidResponse.status)
+        
+        // Verify original phase is unchanged
+        val checkResponse = client.get("/settings") {
+            header(HttpHeaders.Authorization, userJWT)
+        }
+        assertEquals(HttpStatusCode.OK, checkResponse.status)
+        val settings = json.decodeFromString<UserSettingsResponse>(checkResponse.bodyAsText())
+        assertEquals("native", settings.onboardingPhase) // Should remain default
     }
 }
