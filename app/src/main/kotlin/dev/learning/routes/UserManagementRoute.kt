@@ -1,5 +1,6 @@
 package dev.learning.routes
 
+import dev.learning.Config
 import dev.learning.CreateUserRequest
 import dev.learning.ErrorResponses
 import dev.learning.UserManagementResponse
@@ -14,17 +15,31 @@ import io.ktor.server.routing.*
  * Routes for user management - exclusively for auth service
  * These endpoints should only be accessible by the auth service, not end users
  */
-fun Route.userManagementRoute(learningRepository: LearningRepository) {
+fun Route.userManagementRoute(learningRepository: LearningRepository, config: Config) {
     route("/users") {
         
         /**
          * Create a new user in the learning service
          * POST /users
+         * Headers: X-Internal-Secret: <secret>
          * Body: { "userId": "uuid-string" }
          * 
          * This should be called when a user creates an account in the auth service
          */
         post {
+            // Validate internal secret
+            val internalSecret = call.request.headers["X-Internal-Secret"]
+            if (internalSecret != config.internalSecret) {
+                call.respond(
+                    HttpStatusCode.Unauthorized,
+                    UserManagementResponse(
+                        success = false,
+                        message = "Unauthorized access"
+                    )
+                )
+                return@post
+            }
+            
             try {
                 val request = call.receive<CreateUserRequest>()
                 
@@ -85,10 +100,24 @@ fun Route.userManagementRoute(learningRepository: LearningRepository) {
         /**
          * Delete a user and all their data
          * DELETE /users/:userId
+         * Headers: X-Internal-Secret: <secret>
          * 
          * This should be called when a user deletes their account in the auth service
          */
         delete("/{userId}") {
+            // Validate internal secret
+            val internalSecret = call.request.headers["X-Internal-Secret"]
+            if (internalSecret != config.internalSecret) {
+                call.respond(
+                    HttpStatusCode.Unauthorized,
+                    UserManagementResponse(
+                        success = false,
+                        message = "Unauthorized access"
+                    )
+                )
+                return@delete
+            }
+            
             val userId = call.parameters["userId"]
             
             if (userId.isNullOrBlank()) {

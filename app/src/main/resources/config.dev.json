@@ -4,6 +4,7 @@
   "jwtSecret": "super-secret-value",
   "realm": "Learning Service",
   "issuer": "auth-service",
+  "internalSecret": "internal-auth-secret-123",
   "database": {
     "url": "jdbc:postgresql://localhost:5432/learningdb",
     "user": "postgres",

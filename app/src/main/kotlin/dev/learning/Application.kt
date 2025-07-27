@@ -203,8 +203,8 @@ fun Application.module(config: Config) {
         progressRoute(learningRepository)
         settingsRoute(learningRepository)
         
-        // User management routes for auth service (no authentication required)
-        userManagementRoute(learningRepository)
+        // User management routes for auth service (X-Internal-Secret authentication required)
+        userManagementRoute(learningRepository, config)
     }
 
 }

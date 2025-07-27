@@ -11,6 +11,7 @@ data class Config(
     val realm: String,
     val issuer: String, 
     var domain: String,
+    val internalSecret: String,
     val database: DatabaseConfig
 )
 

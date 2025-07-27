@@ -6,6 +6,7 @@
   "realm": "Learning Service",
   "issuer": "auth-service",
   "domain": "befocomefluent.com",
+  "internalSecret": "internal-auth-secret-123",
   "database": {
     "url": "jdbc:postgresql://localhost:5432/learningdb",
     "user": "postgres",

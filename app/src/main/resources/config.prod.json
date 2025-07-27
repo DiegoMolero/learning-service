@@ -5,6 +5,7 @@
   "jwtSecret": "CHANGE_ME_IN_PRODUCTION",
   "realm": "Learning Service",
   "issuer": "auth-service",
+  "internalSecret": "CHANGE_ME_IN_PRODUCTION_INTERNAL_SECRET",
   "database": {
     "url": "jdbc:postgresql://postgres:5432/learningdb",
     "user": "postgres",

@@ -28,6 +28,81 @@ class UserManagementRouteTest {
         repository = DatabaseLearningRepository(config.database)
     }
 
+    private fun HttpRequestBuilder.addInternalSecret() {
+        header("X-Internal-Secret", config.internalSecret)
+    }
+
+    // AUTHENTICATION TESTS
+
+    @Test
+    fun `POST users should return 401 when X-Internal-Secret header is missing`() = testApplication {
+        // Arrange
+        val userId = UUID.randomUUID().toString()
+        val request = CreateUserRequest(userId = userId)
+
+        application {
+            module(config)
+        }
+
+        // Act
+        val response = client.post("/users") {
+            header(HttpHeaders.ContentType, ContentType.Application.Json)
+            setBody(json.encodeToString(request))
+        }
+
+        // Assert
+        assertEquals(HttpStatusCode.Unauthorized, response.status)
+        
+        val responseBody = json.decodeFromString<UserManagementResponse>(response.bodyAsText())
+        assertEquals(false, responseBody.success)
+        assertEquals("Unauthorized access", responseBody.message)
+    }
+
+    @Test
+    fun `POST users should return 401 when X-Internal-Secret header is incorrect`() = testApplication {
+        // Arrange
+        val userId = UUID.randomUUID().toString()
+        val request = CreateUserRequest(userId = userId)
+
+        application {
+            module(config)
+        }
+
+        // Act
+        val response = client.post("/users") {
+            header(HttpHeaders.ContentType, ContentType.Application.Json)
+            header("X-Internal-Secret", "wrong-secret")
+            setBody(json.encodeToString(request))
+        }
+
+        // Assert
+        assertEquals(HttpStatusCode.Unauthorized, response.status)
+        
+        val responseBody = json.decodeFromString<UserManagementResponse>(response.bodyAsText())
+        assertEquals(false, responseBody.success)
+        assertEquals("Unauthorized access", responseBody.message)
+    }
+
+    @Test
+    fun `DELETE users should return 401 when X-Internal-Secret header is missing`() = testApplication {
+        // Arrange
+        val userId = UUID.randomUUID().toString()
+
+        application {
+            module(config)
+        }
+
+        // Act
+        val response = client.delete("/users/$userId")
+
+        // Assert
+        assertEquals(HttpStatusCode.Unauthorized, response.status)
+        
+        val responseBody = json.decodeFromString<UserManagementResponse>(response.bodyAsText())
+        assertEquals(false, responseBody.success)
+        assertEquals("Unauthorized access", responseBody.message)
+    }
+
     // CREATE USER TESTS
 
     @Test
@@ -43,6 +118,7 @@ class UserManagementRouteTest {
         // Act
         val response = client.post("/users") {
             header(HttpHeaders.ContentType, ContentType.Application.Json)
+            addInternalSecret()
             setBody(json.encodeToString(request))
         }
 
@@ -67,6 +143,7 @@ class UserManagementRouteTest {
         // Act
         val response = client.post("/users") {
             header(HttpHeaders.ContentType, ContentType.Application.Json)
+            addInternalSecret()
             setBody(json.encodeToString(request))
         }
 
@@ -90,6 +167,7 @@ class UserManagementRouteTest {
         // Act
         val response = client.post("/users") {
             header(HttpHeaders.ContentType, ContentType.Application.Json)
+            addInternalSecret()
             setBody(json.encodeToString(request))
         }
 
@@ -110,6 +188,7 @@ class UserManagementRouteTest {
         // Act
         val response = client.post("/users") {
             header(HttpHeaders.ContentType, ContentType.Application.Json)
+            addInternalSecret()
             setBody("{ invalid json }")
         }
 
@@ -133,6 +212,7 @@ class UserManagementRouteTest {
         // Act
         val response = client.post("/users") {
             header(HttpHeaders.ContentType, ContentType.Application.Json)
+            addInternalSecret()
             setBody(json.encodeToString(request))
         }
 
@@ -157,12 +237,14 @@ class UserManagementRouteTest {
         // Act - Create user first time
         val firstResponse = client.post("/users") {
             header(HttpHeaders.ContentType, ContentType.Application.Json)
+            addInternalSecret()
             setBody(json.encodeToString(request))
         }
 
         // Act - Try to create same user again
         val secondResponse = client.post("/users") {
             header(HttpHeaders.ContentType, ContentType.Application.Json)
+            addInternalSecret()
             setBody(json.encodeToString(request))
         }
 
@@ -192,11 +274,14 @@ class UserManagementRouteTest {
         // Create user first
         client.post("/users") {
             header(HttpHeaders.ContentType, ContentType.Application.Json)
+            addInternalSecret()
             setBody(json.encodeToString(createRequest))
         }
 
         // Act - Delete user
-        val response = client.delete("/users/$userId")
+        val response = client.delete("/users/$userId") {
+            addInternalSecret()
+        }
 
         // Assert
         assertEquals(HttpStatusCode.OK, response.status)
@@ -227,7 +312,9 @@ class UserManagementRouteTest {
         }
 
         // Act - Use URL encoding for spaces to ensure they reach the handler
-        val response = client.delete("/users/%20%20%20")
+        val response = client.delete("/users/%20%20%20") {
+            addInternalSecret()
+        }
 
         // Assert
         assertEquals(HttpStatusCode.BadRequest, response.status)
@@ -244,7 +331,9 @@ class UserManagementRouteTest {
         }
 
         // Act
-        val response = client.delete("/users/invalid-uuid")
+        val response = client.delete("/users/invalid-uuid") {
+            addInternalSecret()
+        }
 
         // Assert
         assertEquals(HttpStatusCode.BadRequest, response.status)
@@ -264,7 +353,9 @@ class UserManagementRouteTest {
         }
 
         // Act
-        val response = client.delete("/users/$nonExistentUserId")
+        val response = client.delete("/users/$nonExistentUserId") {
+            addInternalSecret()
+        }
 
         // Assert - Should still return success for idempotency
         assertEquals(HttpStatusCode.OK, response.status)
@@ -290,17 +381,20 @@ class UserManagementRouteTest {
         // Act & Assert - Create user
         val createResponse = client.post("/users") {
             header(HttpHeaders.ContentType, ContentType.Application.Json)
+            addInternalSecret()
             setBody(json.encodeToString(createRequest))
         }
         assertEquals(HttpStatusCode.Created, createResponse.status)
 
         // Act & Assert - Delete user
-        val deleteResponse = client.delete("/users/$userId")
+        val deleteResponse = client.delete("/users/$userId") {
+            addInternalSecret()
+        }
         assertEquals(HttpStatusCode.OK, deleteResponse.status)
     }
 
     @Test
-    fun `User management endpoints should not require authentication`() = testApplication {
+    fun `User management endpoints should require X-Internal-Secret authentication`() = testApplication {
         // Arrange
         val userId = UUID.randomUUID().toString()
         val request = CreateUserRequest(userId = userId)
@@ -309,7 +403,7 @@ class UserManagementRouteTest {
             module(config)
         }
 
-        // Act - All requests without Authorization header should work
+        // Act - All requests without X-Internal-Secret header should return 401
         val createResponse = client.post("/users") {
             header(HttpHeaders.ContentType, ContentType.Application.Json)
             setBody(json.encodeToString(request))
@@ -317,8 +411,9 @@ class UserManagementRouteTest {
         
         val deleteResponse = client.delete("/users/$userId")
 
-        // Assert - None should return 401 Unauthorized
-        assertEquals(HttpStatusCode.Created, createResponse.status)
-        assertEquals(HttpStatusCode.OK, deleteResponse.status)
+        // Assert - All should return 401 Unauthorized
+        assertEquals(HttpStatusCode.Unauthorized, createResponse.status)
+        assertEquals(HttpStatusCode.Unauthorized, deleteResponse.status)
     }
 }
+
