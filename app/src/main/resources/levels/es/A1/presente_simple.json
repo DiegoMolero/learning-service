@@ -1,0 +1,40 @@
+{
+  "title": {
+    "es": "Presente Simple",
+    "en": "Simple Present"
+  },
+  "description": {
+    "es": "Aprende a formar y usar el presente simple en español.",
+    "en": "Learn to form and use the simple present in Spanish."
+  },
+  "level": "A1",
+  "targetLanguage": "es",
+  "exercises": [
+    {
+      "type": "translation",
+      "prompt": "I speak",
+      "solution": "Yo hablo"
+    },
+    {
+      "type": "translation",
+      "prompt": "You eat",
+      "solution": "Tú comes"
+    },
+    {
+      "type": "translation",
+      "prompt": "He lives",
+      "solution": "Él vive"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Yo ___ español (hablar)",
+      "solution": "hablo"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cómo se conjuga 'comer' para 'tú'?",
+      "options": ["como", "comes", "come", "comemos"],
+      "solution": "comes"
+    }
+  ]
+}

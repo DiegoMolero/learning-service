@@ -4,6 +4,12 @@ import dev.learning.DatabaseConfig
 import dev.learning.Level
 import dev.learning.UserProgressResponse
 import dev.learning.UserSettingsResponse
+import dev.learning.LevelOverviewResponse
+import dev.learning.LevelTopicsResponse
+import dev.learning.LevelSummary
+import dev.learning.LevelProgress
+import dev.learning.TopicSummary
+import dev.learning.TopicProgress
 import kotlinx.serialization.json.Json
 import org.jetbrains.exposed.dao.id.UUIDTable
 import org.jetbrains.exposed.sql.*
@@ -18,6 +24,13 @@ import java.util.*
 interface LearningRepository {
     suspend fun getLevel(levelId: String): Level?
     suspend fun getAllLevels(): List<Level>
+    suspend fun getLevelsByLanguageAndLevel(targetLanguage: String, level: String): List<Level>
+    suspend fun getAllAvailableLevels(): Map<String, Map<String, List<String>>> // language -> level -> files
+    
+    // New dashboard methods
+    suspend fun getLevelOverview(userId: String, targetLanguage: String): LevelOverviewResponse
+    suspend fun getLevelTopics(userId: String, targetLanguage: String, level: String): LevelTopicsResponse
+    
     suspend fun getUserProgress(userId: String): List<UserProgressResponse>
     suspend fun getUserProgressForLevel(userId: String, levelId: String): UserProgressResponse?
     suspend fun updateUserProgress(userId: String, levelId: String, completedPhraseIds: List<String>): Boolean
@@ -37,6 +50,23 @@ object UserProgress : UUIDTable("user_progress") {
     
     init {
         uniqueIndex(userId, levelId)
+    }
+}
+
+// New table for detailed topic progress
+object TopicProgressTable : UUIDTable("topic_progress") {
+    val userId = uuid("user_id")
+    val topicId = varchar("topic_id", 100) // e.g., "en-A1-basic_greetings"
+    val attemptedExercises = integer("attempted_exercises").default(0)
+    val completedExercises = integer("completed_exercises").default(0)
+    val correctAnswers = integer("correct_answers").default(0)
+    val wrongAnswers = integer("wrong_answers").default(0)
+    val lastAttempted = timestamp("last_attempted").nullable()
+    val createdAt = timestamp("created_at").defaultExpression(CurrentTimestamp())
+    val updatedAt = timestamp("updated_at").defaultExpression(CurrentTimestamp())
+    
+    init {
+        uniqueIndex(userId, topicId)
     }
 }
 
@@ -80,21 +110,40 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
     private fun initializeDatabase() {
         transaction {
             if (databaseConfig.dropOnStart) {
-                SchemaUtils.drop(UserProgress, UserSettings)
+                SchemaUtils.drop(UserProgress, UserSettings, TopicProgressTable)
             }
-            SchemaUtils.create(UserProgress, UserSettings)
+            SchemaUtils.create(UserProgress, UserSettings, TopicProgressTable)
         }
     }
 
     override suspend fun getLevel(levelId: String): Level? {
         return try {
-            val resource = {}::class.java.getResource("/levels/$levelId.json")
-            if (resource != null) {
-                val content = resource.readText()
-                json.decodeFromString<Level>(content)
-            } else {
-                null
+            // First try the old structure for backward compatibility
+            val oldResource = {}::class.java.getResource("/levels/$levelId.json")
+            if (oldResource != null) {
+                val content = oldResource.readText()
+                val level = json.decodeFromString<Level>(content)
+                return level.copy(id = levelId)
             }
+            
+            // If not found in old structure, try to find in new structure
+            // This requires parsing the levelId to extract language, level, and file
+            // Format expected: "en-A1-basic_greetings" or similar
+            val parts = levelId.split("-")
+            if (parts.size >= 3) {
+                val targetLanguage = parts[0]
+                val level = parts[1]
+                val fileName = parts.drop(2).joinToString("-")
+                
+                val newResource = {}::class.java.getResource("/levels/$targetLanguage/$level/$fileName.json")
+                if (newResource != null) {
+                    val content = newResource.readText()
+                    val levelData = json.decodeFromString<Level>(content)
+                    return levelData.copy(id = levelId)
+                }
+            }
+            
+            null
         } catch (e: Exception) {
             println("Error loading level $levelId: ${e.message}")
             null
@@ -103,23 +152,88 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
 
     override suspend fun getAllLevels(): List<Level> {
         return try {
-            val levelsDir = {}::class.java.getResource("/levels")
-            if (levelsDir != null) {
-                val levels = mutableListOf<Level>()
-                // For now, we'll manually list known levels
-                // In a real implementation, you might scan the directory
-                val knownLevels = listOf("level-1", "level-2") // Add more as you create them
-                
-                for (levelId in knownLevels) {
-                    getLevel(levelId)?.let { levels.add(it) }
-                }
-                levels
-            } else {
-                emptyList()
+            val levels = mutableListOf<Level>()
+            
+            // Load old structure levels for backward compatibility
+            val knownOldLevels = listOf("level-1", "level-2")
+            for (levelId in knownOldLevels) {
+                getLevel(levelId)?.let { levels.add(it) }
             }
+            
+            // Load new structure levels
+            val newLevels = getAllAvailableLevels()
+            for ((targetLanguage, levelMap) in newLevels) {
+                for ((level, files) in levelMap) {
+                    for (file in files) {
+                        val levelId = "$targetLanguage-$level-${file.removeSuffix(".json")}"
+                        getLevel(levelId)?.let { levels.add(it) }
+                    }
+                }
+            }
+            
+            levels
         } catch (e: Exception) {
             println("Error loading levels: ${e.message}")
             emptyList()
+        }
+    }
+
+    override suspend fun getLevelsByLanguageAndLevel(targetLanguage: String, level: String): List<Level> {
+        return try {
+            val levels = mutableListOf<Level>()
+            val resource = {}::class.java.getResource("/levels/$targetLanguage/$level")
+            
+            if (resource != null) {
+                val directory = java.io.File(resource.toURI())
+                if (directory.exists() && directory.isDirectory) {
+                    directory.listFiles { file -> file.name.endsWith(".json") }?.forEach { file ->
+                        try {
+                            val content = file.readText()
+                            val levelData = json.decodeFromString<Level>(content)
+                            val levelId = "$targetLanguage-$level-${file.nameWithoutExtension}"
+                            levels.add(levelData.copy(id = levelId))
+                        } catch (e: Exception) {
+                            println("Error loading level from ${file.name}: ${e.message}")
+                        }
+                    }
+                }
+            }
+            
+            levels
+        } catch (e: Exception) {
+            println("Error loading levels for $targetLanguage/$level: ${e.message}")
+            emptyList()
+        }
+    }
+
+    override suspend fun getAllAvailableLevels(): Map<String, Map<String, List<String>>> {
+        return try {
+            val result = mutableMapOf<String, MutableMap<String, MutableList<String>>>()
+            val levelsResource = {}::class.java.getResource("/levels")
+            
+            if (levelsResource != null) {
+                val levelsDir = java.io.File(levelsResource.toURI())
+                if (levelsDir.exists() && levelsDir.isDirectory) {
+                    levelsDir.listFiles { file -> file.isDirectory }?.forEach { languageDir ->
+                        val language = languageDir.name
+                        result[language] = mutableMapOf()
+                        
+                        languageDir.listFiles { file -> file.isDirectory }?.forEach { levelDir ->
+                            val level = levelDir.name
+                            result[language]!![level] = mutableListOf()
+                            
+                            levelDir.listFiles { file -> file.name.endsWith(".json") }?.forEach { jsonFile ->
+                                result[language]!![level]!!.add(jsonFile.name)
+                            }
+                        }
+                    }
+                }
+            }
+            
+            result
+        } catch (e: Exception) {
+            println("Error scanning available levels: ${e.message}")
+            emptyMap()
         }
     }
 
@@ -443,6 +557,164 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         } catch (e: Exception) {
             println("Error updating user settings: ${e.message}")
             Pair(false, listOf("Internal error updating settings"))
+        }
+    }
+
+    override suspend fun getLevelOverview(userId: String, targetLanguage: String): LevelOverviewResponse {
+        return try {
+            val availableLevels = getAllAvailableLevels()[targetLanguage] ?: emptyMap()
+            
+            transaction {
+                val levelSummaries = mutableListOf<LevelSummary>()
+                
+                // Define level order and titles
+                val levelOrder = listOf("A1", "A2", "B1", "B2", "C1", "C2")
+                val levelTitles = mapOf(
+                    "A1" to mapOf("en" to "Beginner", "es" to "Principiante"),
+                    "A2" to mapOf("en" to "Elementary", "es" to "Elemental"),
+                    "B1" to mapOf("en" to "Intermediate", "es" to "Intermedio"),
+                    "B2" to mapOf("en" to "Upper Intermediate", "es" to "Intermedio Alto"),
+                    "C1" to mapOf("en" to "Advanced", "es" to "Avanzado"),
+                    "C2" to mapOf("en" to "Proficiency", "es" to "Dominio")
+                )
+                
+                for (level in levelOrder) {
+                    val topicsInLevel = availableLevels[level] ?: emptyList()
+                    if (topicsInLevel.isNotEmpty()) {
+                        // Count completed topics for this level
+                        val userUuid = UUID.fromString(userId)
+                        val completedTopics = TopicProgressTable.select {
+                            (TopicProgressTable.userId eq userUuid) and
+                            TopicProgressTable.topicId.like("$targetLanguage-$level-%") and
+                            (TopicProgressTable.completedExercises greater 0)
+                        }.count().toInt()
+                        
+                        val totalTopics = topicsInLevel.size
+                        
+                        // Determine status
+                        val status = when {
+                            completedTopics == 0 && level != "A1" -> {
+                                // Check if previous level is completed
+                                val previousLevelIndex = levelOrder.indexOf(level) - 1
+                                if (previousLevelIndex >= 0) {
+                                    val previousLevel = levelOrder[previousLevelIndex]
+                                    val previousLevelTopics = availableLevels[previousLevel]?.size ?: 0
+                                    val previousLevelCompleted = if (previousLevelTopics > 0) {
+                                        TopicProgressTable.select {
+                                            (TopicProgressTable.userId eq userUuid) and
+                                            TopicProgressTable.topicId.like("$targetLanguage-$previousLevel-%") and
+                                            (TopicProgressTable.completedExercises greater 0)
+                                        }.count().toInt()
+                                    } else 0
+                                    
+                                    if (previousLevelCompleted < previousLevelTopics) "locked" else "in_progress"
+                                } else "locked"
+                            }
+                            completedTopics == totalTopics -> "completed"
+                            else -> "in_progress"
+                        }
+                        
+                        levelSummaries.add(
+                            LevelSummary(
+                                level = level,
+                                title = levelTitles[level] ?: mapOf("en" to level, "es" to level),
+                                progress = LevelProgress(
+                                    completedTopics = completedTopics,
+                                    totalTopics = totalTopics
+                                ),
+                                status = status
+                            )
+                        )
+                    }
+                }
+                
+                LevelOverviewResponse(levels = levelSummaries)
+            }
+        } catch (e: Exception) {
+            println("Error getting level overview: ${e.message}")
+            LevelOverviewResponse(levels = emptyList())
+        }
+    }
+
+    override suspend fun getLevelTopics(userId: String, targetLanguage: String, level: String): LevelTopicsResponse {
+        return try {
+            val topicsInLevel = getLevelsByLanguageAndLevel(targetLanguage, level)
+            
+            transaction {
+                val userUuid = UUID.fromString(userId)
+                val topicSummaries = mutableListOf<TopicSummary>()
+                
+                for (topic in topicsInLevel) {
+                    val topicId = topic.id ?: continue
+                    
+                    // Get progress for this topic
+                    val progress = TopicProgressTable.select {
+                        (TopicProgressTable.userId eq userUuid) and
+                        (TopicProgressTable.topicId eq topicId)
+                    }.singleOrNull()
+                    
+                    val topicProgress = if (progress != null) {
+                        TopicProgress(
+                            attemptedExercises = progress[TopicProgressTable.attemptedExercises],
+                            completedExercises = progress[TopicProgressTable.completedExercises],
+                            correctAnswers = progress[TopicProgressTable.correctAnswers],
+                            wrongAnswers = progress[TopicProgressTable.wrongAnswers],
+                            lastAttempted = progress[TopicProgressTable.lastAttempted]?.toString()
+                        )
+                    } else null
+                    
+                    // Determine status
+                    val status = when {
+                        progress == null || progress[TopicProgressTable.attemptedExercises] == 0 -> {
+                            // Check if this topic should be locked
+                            val topicIndex = topicsInLevel.indexOf(topic)
+                            if (topicIndex == 0) "in_progress" // First topic is always available
+                            else {
+                                // Check if previous topic is completed
+                                val previousTopic = topicsInLevel[topicIndex - 1]
+                                val previousTopicId = previousTopic.id ?: ""
+                                val previousProgress = TopicProgressTable.select {
+                                    (TopicProgressTable.userId eq userUuid) and
+                                    (TopicProgressTable.topicId eq previousTopicId)
+                                }.singleOrNull()
+                                
+                                if (previousProgress != null && previousProgress[TopicProgressTable.completedExercises] > 0) {
+                                    "in_progress"
+                                } else {
+                                    "locked"
+                                }
+                            }
+                        }
+                        progress[TopicProgressTable.completedExercises] > 0 -> "completed"
+                        else -> "in_progress"
+                    }
+                    
+                    val lockedReason = if (status == "locked") {
+                        mapOf(
+                            "en" to "Complete previous topic first",
+                            "es" to "Completa el tema anterior primero"
+                        )
+                    } else null
+                    
+                    topicSummaries.add(
+                        TopicSummary(
+                            id = topicId.substringAfterLast("-"), // Remove language-level prefix for cleaner ID
+                            title = topic.title,
+                            status = status,
+                            progress = topicProgress,
+                            lockedReason = lockedReason
+                        )
+                    )
+                }
+                
+                LevelTopicsResponse(
+                    level = level,
+                    topics = topicSummaries
+                )
+            }
+        } catch (e: Exception) {
+            println("Error getting level topics: ${e.message}")
+            LevelTopicsResponse(level = level, topics = emptyList())
         }
     }
 

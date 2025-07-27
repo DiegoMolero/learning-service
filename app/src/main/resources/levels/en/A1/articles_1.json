@@ -1,0 +1,35 @@
+{
+  "title": {
+    "en": "Articles",
+    "es": "Artículos"
+  },
+  "description": {
+    "en": "Learn to use definite and indefinite articles in English.",
+    "es": "Aprende a usar los artículos definidos e indefinidos en inglés."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ book is on the table.",
+      "solution": "The"
+    },
+    {
+      "type": "fill-in-the-blank", 
+      "prompt": "I need ___ pen to write.",
+      "solution": "a"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál es correcto? '___ apple is red'",
+      "options": ["A", "An", "The", "No article"],
+      "solution": "The"
+    },
+    {
+      "type": "translation",
+      "prompt": "El perro está corriendo",
+      "solution": "The dog is running"
+    }
+  ]
+}

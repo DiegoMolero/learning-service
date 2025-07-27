@@ -1,0 +1,50 @@
+{
+  "title": {
+    "en": "Basic Numbers",
+    "es": "Números Básicos"
+  },
+  "description": {
+    "en": "Learn numbers from one to ten in English.",
+    "es": "Aprende los números del uno al diez en inglés."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "type": "translation",
+      "prompt": "Uno",
+      "solution": "One"
+    },
+    {
+      "type": "translation",
+      "prompt": "Dos",
+      "solution": "Two"
+    },
+    {
+      "type": "translation",
+      "prompt": "Tres",
+      "solution": "Three"
+    },
+    {
+      "type": "translation",
+      "prompt": "Cuatro",
+      "solution": "Four"
+    },
+    {
+      "type": "translation",
+      "prompt": "Cinco",
+      "solution": "Five"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "One, two, ___, four, five",
+      "solution": "three"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cuál es el número 'three' en español?",
+      "options": ["Dos", "Tres", "Cuatro", "Cinco"],
+      "solution": "Tres"
+    }
+  ]
+}

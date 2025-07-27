@@ -1,0 +1,40 @@
+{
+  "title": {
+    "en": "Basic Greetings",
+    "es": "Saludos Básicos"
+  },
+  "description": {
+    "en": "Learn essential greetings and everyday expressions.",
+    "es": "Aprende saludos esenciales y expresiones cotidianas."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "type": "translation",
+      "prompt": "Hola",
+      "solution": "Hello"
+    },
+    {
+      "type": "translation",
+      "prompt": "¿Cómo estás?",
+      "solution": "How are you?"
+    },
+    {
+      "type": "translation",
+      "prompt": "Buenos días",
+      "solution": "Good morning"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ are you?",
+      "solution": "How"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "¿Cómo se dice 'Hola' en inglés?",
+      "options": ["Hello", "Goodbye", "Thank you", "Please"],
+      "solution": "Hello"
+    }
+  ]
+}

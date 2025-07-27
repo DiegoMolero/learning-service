@@ -1,0 +1,29 @@
+{
+  "title": {
+    "en": "Even (Part I)",
+    "es": "Even (Parte I)"
+  },
+  "description": {
+    "en": "Using 'even' before main verbs and auxiliaries.",
+    "es": "Usar 'even' antes de los verbos principales y auxiliares."
+  },
+  "level": "B1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "type": "translation",
+      "prompt": "John habla muchos idiomas. Incluso habla polaco.",
+      "solution": "John speaks many languages. He even speaks Polish."
+    },
+    {
+      "type": "translation",
+      "prompt": "Está lloviendo hoy en todas partes. Incluso está lloviendo en Sevilla.",
+      "solution": "It's raining everywhere today. It's even raining in Seville."
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "He ___ owns a Picasso.",
+      "solution": "even"
+    }
+  ]
+}
