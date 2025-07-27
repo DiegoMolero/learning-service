@@ -202,6 +202,9 @@ fun Application.module(config: Config) {
         levelsRoute(learningRepository)
         progressRoute(learningRepository)
         settingsRoute(learningRepository)
+        
+        // User management routes for auth service (no authentication required)
+        userManagementRoute(learningRepository)
     }
 
 }

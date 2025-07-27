@@ -111,3 +111,16 @@ data class UpdateUserSettingsResponse(
     val settings: UserSettingsResponse,
     val warnings: List<String> = emptyList()
 )
+
+// User management models for auth service
+@Serializable
+data class CreateUserRequest(
+    val userId: String
+)
+
+@Serializable
+data class UserManagementResponse(
+    val success: Boolean,
+    val message: String,
+    val userId: String? = null
+)

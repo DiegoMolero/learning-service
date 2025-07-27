@@ -38,6 +38,11 @@ interface LearningRepository {
     suspend fun updateUserSettings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?): Boolean
     suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?): Pair<Boolean, List<String>>
     suspend fun createDefaultUserSettings(userId: String): Boolean
+    
+    // User management methods for auth service
+    suspend fun createUser(userId: String): Boolean
+    suspend fun deleteUser(userId: String): Boolean
+    suspend fun deleteUserProgress(userId: String): Boolean
 }
 
 // Database tables
@@ -731,6 +736,82 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
             }
         } catch (e: Exception) {
             println("Error creating default user settings: ${e.message}")
+            false
+        }
+    }
+
+    // User management methods for auth service
+    override suspend fun createUser(userId: String): Boolean {
+        return try {
+            val userUuid = UUID.fromString(userId) // This will throw IllegalArgumentException for invalid UUID
+            
+            transaction {
+                // Check if user already exists
+                val existingUser = UserSettings.select { UserSettings.userId eq userUuid }.count()
+                if (existingUser > 0) {
+                    return@transaction false // User already exists
+                }
+                
+                // Create default user settings
+                UserSettings.insert {
+                    it[UserSettings.userId] = userUuid
+                    it[UserSettings.nativeLanguage] = "en"
+                    it[UserSettings.targetLanguage] = "es"
+                    it[UserSettings.darkMode] = false
+                    it[UserSettings.onboardingStep] = "language_selection"
+                }.insertedCount > 0
+            }
+        } catch (e: IllegalArgumentException) {
+            // Re-throw UUID format exceptions to be handled by the route
+            throw e
+        } catch (e: Exception) {
+            println("Error creating user: ${e.message}")
+            false
+        }
+    }
+
+    override suspend fun deleteUser(userId: String): Boolean {
+        return try {
+            val userUuid = UUID.fromString(userId) // This will throw IllegalArgumentException for invalid UUID
+            
+            transaction {
+                // Delete all user data in order (foreign key constraints)
+                TopicProgressTable.deleteWhere { TopicProgressTable.userId eq userUuid }
+                UserProgress.deleteWhere { UserProgress.userId eq userUuid }
+                UserSettings.deleteWhere { UserSettings.userId eq userUuid }
+                
+                true
+            }
+        } catch (e: IllegalArgumentException) {
+            // Re-throw UUID format exceptions to be handled by the route
+            throw e
+        } catch (e: Exception) {
+            println("Error deleting user: ${e.message}")
+            false
+        }
+    }
+
+    override suspend fun deleteUserProgress(userId: String): Boolean {
+        return try {
+            val userUuid = UUID.fromString(userId) // This will throw IllegalArgumentException for invalid UUID
+            
+            transaction {
+                // Delete only progress data, keep user settings
+                TopicProgressTable.deleteWhere { TopicProgressTable.userId eq userUuid }
+                UserProgress.deleteWhere { UserProgress.userId eq userUuid }
+                
+                // Reset onboarding step to restart learning
+                UserSettings.update({ UserSettings.userId eq userUuid }) {
+                    it[UserSettings.onboardingStep] = "language_selection"
+                }
+                
+                true
+            }
+        } catch (e: IllegalArgumentException) {
+            // Re-throw UUID format exceptions to be handled by the route
+            throw e
+        } catch (e: Exception) {
+            println("Error deleting user progress: ${e.message}")
             false
         }
     }

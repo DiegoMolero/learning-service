@@ -144,6 +144,45 @@ fun Route.settingsRoute(learningRepository: LearningRepository) {
                     )
                 }
             }
+            
+            // Reset user progress
+            delete("/progress") {
+                val principal = call.principal<JWTPrincipal>()
+                val userId = principal?.payload?.getClaim("userId")?.asString() 
+                    ?: principal?.subject // Fallback to subject if uuid claim not present
+                
+                if (userId.isNullOrBlank()) {
+                    call.respond(
+                        HttpStatusCode.Unauthorized,
+                        ErrorResponses.unauthorized("Invalid token", call.request.local.uri)
+                    )
+                    return@delete
+                }
+                
+                try {
+                    val success = learningRepository.deleteUserProgress(userId)
+                    
+                    if (success) {
+                        call.respond(
+                            HttpStatusCode.OK,
+                            mapOf(
+                                "success" to true,
+                                "message" to "User progress reset successfully"
+                            )
+                        )
+                    } else {
+                        call.respond(
+                            HttpStatusCode.InternalServerError,
+                            ErrorResponses.internalServerError("Failed to reset user progress", call.request.local.uri)
+                        )
+                    }
+                } catch (e: Exception) {
+                    call.respond(
+                        HttpStatusCode.InternalServerError,
+                        ErrorResponses.internalServerError("Failed to reset user progress", call.request.local.uri)
+                    )
+                }
+            }
         }
     }
 }
