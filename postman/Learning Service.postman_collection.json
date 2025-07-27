@@ -1,0 +1,216 @@
+{
+  "info": {
+    "name": "Learning Service API",
+    "description": "Colección de peticiones para probar los endpoints del servicio de aprendizaje",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{jwt_token}}",
+        "type": "string"
+      }
+    ]
+  },
+  "item": [
+    {
+      "name": "Dashboard Endpoints",
+      "item": [
+        {
+          "name": "Get Level Overview",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/levels?targetLanguage=en",
+              "host": ["{{base_url}}"],
+              "path": ["levels"],
+              "query": [
+                {
+                  "key": "targetLanguage",
+                  "value": "en",
+                  "description": "Idioma objetivo (en, es, fr, etc.)"
+                }
+              ]
+            },
+            "description": "Obtiene un resumen de todos los niveles disponibles con el progreso del usuario"
+          },
+          "response": [
+            {
+              "name": "Level Overview Success",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"levels\": [\n    {\n      \"levelId\": \"A1\",\n      \"name\": \"Beginner A1\",\n      \"description\": \"Basic concepts and vocabulary for beginners\",\n      \"totalTopics\": 4,\n      \"completedTopics\": 2,\n      \"status\": \"in_progress\",\n      \"progressPercentage\": 50,\n      \"estimatedTimeMinutes\": 120\n    },\n    {\n      \"levelId\": \"A2\",\n      \"name\": \"Elementary A2\",\n      \"description\": \"Elementary level with more complex structures\",\n      \"totalTopics\": 5,\n      \"completedTopics\": 0,\n      \"status\": \"locked\",\n      \"progressPercentage\": 0,\n      \"estimatedTimeMinutes\": 150\n    }\n  ]\n}"
+            }
+          ]
+        },
+        {
+          "name": "Get Level Topics",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/levels/A1/topics?targetLanguage=en",
+              "host": ["{{base_url}}"],
+              "path": ["levels", "A1", "topics"],
+              "query": [
+                {
+                  "key": "targetLanguage",
+                  "value": "en",
+                  "description": "Idioma objetivo (en, es, fr, etc.)"
+                }
+              ]
+            },
+            "description": "Obtiene todos los temas disponibles para un nivel específico con progreso detallado"
+          },
+          "response": [
+            {
+              "name": "Level Topics Success",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"levelId\": \"A1\",\n  \"levelName\": \"Beginner A1\",\n  \"topics\": [\n    {\n      \"topicId\": \"even_1\",\n      \"name\": \"Basic Numbers\",\n      \"description\": \"Learn basic even numbers in English\",\n      \"totalExercises\": 3,\n      \"completedExercises\": 3,\n      \"status\": \"completed\",\n      \"progressPercentage\": 100,\n      \"estimatedTimeMinutes\": 15\n    },\n    {\n      \"topicId\": \"basic_greetings\",\n      \"name\": \"Basic Greetings\",\n      \"description\": \"Common greeting expressions\",\n      \"totalExercises\": 4,\n      \"completedExercises\": 2,\n      \"status\": \"in_progress\",\n      \"progressPercentage\": 50,\n      \"estimatedTimeMinutes\": 20\n    }\n  ]\n}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legacy Endpoints",
+      "item": [
+        {
+          "name": "Get Topic Details",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/levels/en/A1/even_1",
+              "host": ["{{base_url}}"],
+              "path": ["levels", "en", "A1", "even_1"]
+            },
+            "description": "Obtiene los detalles completos de un tema específico con ejercicios"
+          },
+          "response": [
+            {
+              "name": "Topic Details Success",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"topicId\": \"even_1\",\n  \"title\": \"Basic Numbers\",\n  \"description\": \"Learn basic even numbers in English\",\n  \"targetLanguage\": \"en\",\n  \"level\": \"A1\",\n  \"estimatedTimeMinutes\": 15,\n  \"exercises\": [\n    {\n      \"exerciseId\": \"ex1\",\n      \"type\": \"translation\",\n      \"question\": \"Translate: dos\",\n      \"correctAnswer\": \"two\",\n      \"options\": [\"one\", \"two\", \"three\", \"four\"]\n    }\n  ]\n}"
+            }
+          ]
+        },
+        {
+          "name": "Submit Exercise Answer",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"exerciseId\": \"ex1\",\n  \"userAnswer\": \"two\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/levels/en/A1/even_1/submit",
+              "host": ["{{base_url}}"],
+              "path": ["levels", "en", "A1", "even_1", "submit"]
+            },
+            "description": "Envía la respuesta de un usuario para un ejercicio específico"
+          },
+          "response": [
+            {
+              "name": "Correct Answer",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"correct\": true,\n  \"correctAnswer\": \"two\",\n  \"explanation\": \"Great! 'dos' translates to 'two' in English.\"\n}"
+            },
+            {
+              "name": "Incorrect Answer",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"correct\": false,\n  \"correctAnswer\": \"two\",\n  \"explanation\": \"The correct translation of 'dos' is 'two'.\"\n}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "User Progress",
+      "item": [
+        {
+          "name": "Get User Progress",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/progress?targetLanguage=en",
+              "host": ["{{base_url}}"],
+              "path": ["progress"],
+              "query": [
+                {
+                  "key": "targetLanguage",
+                  "value": "en",
+                  "description": "Idioma objetivo para filtrar progreso"
+                }
+              ]
+            },
+            "description": "Obtiene el progreso general del usuario autenticado"
+          },
+          "response": [
+            {
+              "name": "User Progress Success",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"userId\": \"testuser123\",\n  \"onboardingStep\": \"language_selection\",\n  \"totalTopicsCompleted\": 5,\n  \"totalTopicsAvailable\": 20,\n  \"overallProgressPercentage\": 25,\n  \"targetLanguage\": \"en\"\n}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:3001"
+    },
+    {
+      "key": "jwt_token",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiJ0ZXN0dXNlcjEyMyIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsInVzZXJJZCI6InRlc3R1c2VyMTIzIiwiZXhwIjoxNzM4MDE1MjAwLCJpYXQiOjE3Mzc5Mjg4MDB9.4K5VQ5VgZKJgZXcW_ZrGgxzNbKm7XZZd8kKHJhNzAaU",
+      "description": "Token JWT válido hardcodeado para testing (válido hasta enero 2025)"
+    }
+  ]
+}
