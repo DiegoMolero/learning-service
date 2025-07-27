@@ -11,24 +11,30 @@
   "targetLanguage": "en",
   "exercises": [
     {
+      "id": "ex_1",
       "type": "fill-in-the-blank",
       "prompt": "___ book is on the table.",
       "solution": "The"
     },
     {
+      "id": "ex_2",
       "type": "fill-in-the-blank", 
       "prompt": "I need ___ pen to write.",
       "solution": "a"
     },
     {
+      "id": "ex_3",
       "type": "multiple-choice",
       "prompt": "¿Cuál es correcto? '___ apple is red'",
       "options": ["A", "An", "The", "No article"],
       "solution": "The"
     },
     {
+      "id": "ex_4",
       "type": "translation",
-      "prompt": "El perro está corriendo",
+      "prompt": {
+        "es": "El perro está corriendo"
+      },
       "solution": "The dog is running"
     }
   ]

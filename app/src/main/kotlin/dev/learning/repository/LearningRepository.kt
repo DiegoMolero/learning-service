@@ -6,6 +6,7 @@ import dev.learning.UserProgressResponse
 import dev.learning.UserSettingsResponse
 import dev.learning.LevelOverviewResponse
 import dev.learning.LevelTopicsResponse
+import dev.learning.ExerciseResponse
 import dev.learning.LevelSummary
 import dev.learning.LevelProgress
 import dev.learning.TopicSummary
@@ -19,23 +20,21 @@ import org.jetbrains.exposed.sql.kotlin.datetime.timestamp
 import org.jetbrains.exposed.sql.transactions.transaction
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import java.util.*
 
 interface LearningRepository {
-    suspend fun getLevel(levelId: String): Level?
-    suspend fun getAllLevels(): List<Level>
-    suspend fun getLevelsByLanguageAndLevel(targetLanguage: String, level: String): List<Level>
-    suspend fun getAllAvailableLevels(): Map<String, Map<String, List<String>>> // language -> level -> files
-    
     // New dashboard methods
     suspend fun getLevelOverview(userId: String, targetLanguage: String): LevelOverviewResponse
     suspend fun getLevelTopics(userId: String, targetLanguage: String, level: String): LevelTopicsResponse
+    suspend fun getExercise(userId: String, targetLanguage: String, level: String, topicId: String, exerciseId: String): ExerciseResponse?
+    suspend fun getNextExercise(userId: String, targetLanguage: String, level: String, topicId: String): ExerciseResponse?
     
     suspend fun getUserProgress(userId: String): List<UserProgressResponse>
     suspend fun getUserProgressForLevel(userId: String, levelId: String): UserProgressResponse?
     suspend fun updateUserProgress(userId: String, levelId: String, completedPhraseIds: List<String>): Boolean
     suspend fun getUserSettings(userId: String): UserSettingsResponse?
-    suspend fun updateUserSettings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?): Boolean
     suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?): Pair<Boolean, List<String>>
     suspend fun createDefaultUserSettings(userId: String): Boolean
     
@@ -62,7 +61,6 @@ object UserProgress : UUIDTable("user_progress") {
 object TopicProgressTable : UUIDTable("topic_progress") {
     val userId = uuid("user_id")
     val topicId = varchar("topic_id", 100) // e.g., "en-A1-basic_greetings"
-    val attemptedExercises = integer("attempted_exercises").default(0)
     val completedExercises = integer("completed_exercises").default(0)
     val correctAnswers = integer("correct_answers").default(0)
     val wrongAnswers = integer("wrong_answers").default(0)
@@ -121,7 +119,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         }
     }
 
-    override suspend fun getLevel(levelId: String): Level? {
+    private suspend fun getLevel(levelId: String): Level? {
         return try {
             // First try the old structure for backward compatibility
             val oldResource = {}::class.java.getResource("/levels/$levelId.json")
@@ -155,35 +153,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         }
     }
 
-    override suspend fun getAllLevels(): List<Level> {
-        return try {
-            val levels = mutableListOf<Level>()
-            
-            // Load old structure levels for backward compatibility
-            val knownOldLevels = listOf("level-1", "level-2")
-            for (levelId in knownOldLevels) {
-                getLevel(levelId)?.let { levels.add(it) }
-            }
-            
-            // Load new structure levels
-            val newLevels = getAllAvailableLevels()
-            for ((targetLanguage, levelMap) in newLevels) {
-                for ((level, files) in levelMap) {
-                    for (file in files) {
-                        val levelId = "$targetLanguage-$level-${file.removeSuffix(".json")}"
-                        getLevel(levelId)?.let { levels.add(it) }
-                    }
-                }
-            }
-            
-            levels
-        } catch (e: Exception) {
-            println("Error loading levels: ${e.message}")
-            emptyList()
-        }
-    }
-
-    override suspend fun getLevelsByLanguageAndLevel(targetLanguage: String, level: String): List<Level> {
+    private suspend fun getLevelsByLanguageAndLevel(targetLanguage: String, level: String): List<Level> {
         return try {
             val levels = mutableListOf<Level>()
             val resource = {}::class.java.getResource("/levels/$targetLanguage/$level")
@@ -211,7 +181,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         }
     }
 
-    override suspend fun getAllAvailableLevels(): Map<String, Map<String, List<String>>> {
+    private suspend fun getAllAvailableLevels(): Map<String, Map<String, List<String>>> {
         return try {
             val result = mutableMapOf<String, MutableMap<String, MutableList<String>>>()
             val levelsResource = {}::class.java.getResource("/levels")
@@ -345,107 +315,6 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         } catch (e: Exception) {
             println("Error getting user settings: ${e.message}")
             null
-        }
-    }
-
-    override suspend fun updateUserSettings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?): Boolean {
-        return try {
-            transaction {
-                val userUuid = UUID.fromString(userId)
-                val existing = UserSettings.select { UserSettings.userId eq userUuid }.singleOrNull()
-                
-                // Validate that nativeLanguage and targetLanguage are different if both are provided
-                if (nativeLanguage != null && targetLanguage != null && nativeLanguage == targetLanguage) {
-                    throw IllegalArgumentException("Native language and target language cannot be the same")
-                }
-                
-                // If only one language is provided, validate against existing settings
-                if (existing != null) {
-                    val currentNative = existing[UserSettings.nativeLanguage]
-                    val currentTarget = existing[UserSettings.targetLanguage]
-                    
-                    val finalNative = nativeLanguage ?: currentNative
-                    val finalTarget = targetLanguage ?: currentTarget
-                    
-                    if (finalNative == finalTarget) {
-                        throw IllegalArgumentException("Native language and target language cannot be the same")
-                    }
-                }
-                
-                // Validate supported languages
-                val supportedLanguages = listOf("en", "es")
-                nativeLanguage?.let { 
-                    if (it !in supportedLanguages) {
-                        throw IllegalArgumentException("Unsupported native language: $it. Supported: ${supportedLanguages.joinToString()}")
-                    }
-                }
-                targetLanguage?.let { 
-                    if (it !in supportedLanguages) {
-                        throw IllegalArgumentException("Unsupported target language: $it. Supported: ${supportedLanguages.joinToString()}")
-                    }
-                }
-                
-                // Validate onboarding phase transitions
-                val validPhases = listOf("native", "learning", "complete")
-                onboardingStep?.let { phase ->
-                    if (phase !in validPhases) {
-                        throw IllegalArgumentException("Invalid onboarding phase: $phase. Valid phases: ${validPhases.joinToString()}")
-                    }
-                }
-                
-                // Validate that onboarding can only progress if both languages are set
-                var finalOnboardingStep = onboardingStep
-                if (onboardingStep == "complete") {
-                    val finalNative = nativeLanguage ?: (existing?.get(UserSettings.nativeLanguage))
-                    val finalTarget = targetLanguage ?: (existing?.get(UserSettings.targetLanguage))
-                    
-                    if (finalNative.isNullOrBlank() || finalTarget.isNullOrBlank()) {
-                        // Don't allow completion if languages are not set
-                        finalOnboardingStep = null
-                        println("Warning: Ignoring onboarding completion request - languages not fully configured")
-                    }
-                }
-                
-                if (existing != null) {
-                    UserSettings.update({ UserSettings.userId eq userUuid }) {
-                        nativeLanguage?.let { lang -> it[UserSettings.nativeLanguage] = lang }
-                        targetLanguage?.let { lang -> it[UserSettings.targetLanguage] = lang }
-                        darkMode?.let { mode -> it[UserSettings.darkMode] = mode }
-                        finalOnboardingStep?.let { phase -> it[UserSettings.onboardingStep] = phase }
-                        it[UserSettings.updatedAt] = kotlinx.datetime.Clock.System.now()
-                    } > 0
-                } else {
-                    // Create default settings with provided updates
-                    val finalNative = nativeLanguage ?: "en"
-                    val finalTarget = targetLanguage ?: "es"
-                    
-                    // Final validation for new records
-                    if (finalNative == finalTarget) {
-                        throw IllegalArgumentException("Native language and target language cannot be the same")
-                    }
-                    
-                    // For new records, set default onboarding phase or validate provided phase
-                    var finalOnboardingStep = onboardingStep ?: "native"
-                    if (onboardingStep == "complete" && (finalNative.isBlank() || finalTarget.isBlank())) {
-                        finalOnboardingStep = "native"
-                        println("Warning: Setting onboarding phase to 'native' for new user - languages not fully configured")
-                    }
-                    
-                    UserSettings.insert {
-                        it[UserSettings.userId] = userUuid
-                        it[UserSettings.nativeLanguage] = finalNative
-                        it[UserSettings.targetLanguage] = finalTarget
-                        it[UserSettings.darkMode] = darkMode ?: false
-                        it[UserSettings.onboardingStep] = finalOnboardingStep
-                    }.insertedCount > 0
-                }
-            }
-        } catch (e: IllegalArgumentException) {
-            println("Validation error updating user settings: ${e.message}")
-            false
-        } catch (e: Exception) {
-            println("Error updating user settings: ${e.message}")
-            false
         }
     }
 
@@ -652,6 +521,9 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                 for (topic in topicsInLevel) {
                     val topicId = topic.id ?: continue
                     
+                    // Calculate total exercises in this topic
+                    val totalExercises = (topic.exercises?.size ?: 0) + (topic.phrases?.size ?: 0)
+                    
                     // Get progress for this topic
                     val progress = TopicProgressTable.select {
                         (TopicProgressTable.userId eq userUuid) and
@@ -660,20 +532,30 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     
                     val topicProgress = if (progress != null) {
                         TopicProgress(
-                            attemptedExercises = progress[TopicProgressTable.attemptedExercises],
                             completedExercises = progress[TopicProgressTable.completedExercises],
                             correctAnswers = progress[TopicProgressTable.correctAnswers],
                             wrongAnswers = progress[TopicProgressTable.wrongAnswers],
+                            totalExercises = totalExercises,
                             lastAttempted = progress[TopicProgressTable.lastAttempted]?.toString()
                         )
-                    } else null
+                    } else {
+                        // Even without progress, show the total exercises
+                        TopicProgress(
+                            completedExercises = 0,
+                            correctAnswers = 0,
+                            wrongAnswers = 0,
+                            totalExercises = totalExercises,
+                            lastAttempted = null
+                        )
+                    }
                     
                     // Determine status
                     val status = when {
-                        progress == null || progress[TopicProgressTable.attemptedExercises] == 0 -> {
+                        progress != null && progress[TopicProgressTable.completedExercises] > 0 -> "completed"
+                        progress == null -> {
                             // Check if this topic should be locked
                             val topicIndex = topicsInLevel.indexOf(topic)
-                            if (topicIndex == 0) "in_progress" // First topic is always available
+                            if (topicIndex == 0) "available" // First topic is always available
                             else {
                                 // Check if previous topic is completed
                                 val previousTopic = topicsInLevel[topicIndex - 1]
@@ -684,13 +566,12 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                                 }.singleOrNull()
                                 
                                 if (previousProgress != null && previousProgress[TopicProgressTable.completedExercises] > 0) {
-                                    "in_progress"
+                                    "available"
                                 } else {
                                     "locked"
                                 }
                             }
                         }
-                        progress[TopicProgressTable.completedExercises] > 0 -> "completed"
                         else -> "in_progress"
                     }
                     
@@ -705,8 +586,9 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                         TopicSummary(
                             id = topicId.substringAfterLast("-"), // Remove language-level prefix for cleaner ID
                             title = topic.title,
+                            description = topic.description,
                             status = status,
-                            progress = topicProgress,
+                            progress = topicProgress, // Always include progress now
                             lockedReason = lockedReason
                         )
                     )
@@ -720,6 +602,97 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         } catch (e: Exception) {
             println("Error getting level topics: ${e.message}")
             LevelTopicsResponse(level = level, topics = emptyList())
+        }
+    }
+
+    override suspend fun getExercise(userId: String, targetLanguage: String, level: String, topicId: String, exerciseId: String): ExerciseResponse? {
+        return try {
+            withContext(Dispatchers.IO) {
+                // Load the topic file
+                val resource = {}::class.java.getResource("/levels/$targetLanguage/$level/$topicId.json")
+                if (resource == null) return@withContext null
+                
+                val topicFile = resource.readText()
+                val topic = json.decodeFromString<Level>(topicFile)
+                
+                // Find the specific exercise
+                val exercise = topic.exercises?.find { it.id == exerciseId } ?: return@withContext null
+                
+                // Get user progress for this topic
+                val topicProgress = transaction {
+                    TopicProgressTable.select {
+                        (TopicProgressTable.userId eq UUID.fromString(userId)) and
+                        (TopicProgressTable.topicId eq "$targetLanguage-$level-$topicId")
+                    }.singleOrNull()
+                }
+                
+                // Check if this exercise was completed
+                val completedExercises = topicProgress?.get(TopicProgressTable.completedExercises) ?: 0
+                val exerciseIndex = topic.exercises.indexOf(exercise)
+                val isCompleted = exerciseIndex < completedExercises
+                
+                ExerciseResponse(
+                    id = exercise.id,
+                    topicId = topicId,
+                    type = exercise.type,
+                    prompt = exercise.prompt,
+                    solution = if (isCompleted) exercise.solution else null, // Only show solution if completed
+                    options = exercise.options,
+                    previousAttempts = 0, // TODO: Track individual exercise attempts if needed
+                    isCompleted = isCompleted
+                )
+            }
+        } catch (e: Exception) {
+            println("Error getting exercise: ${e.message}")
+            null
+        }
+    }
+
+    override suspend fun getNextExercise(userId: String, targetLanguage: String, level: String, topicId: String): ExerciseResponse? {
+        return try {
+            withContext(Dispatchers.IO) {
+                // Load the topic file
+                val resource = {}::class.java.getResource("/levels/$targetLanguage/$level/$topicId.json")
+                if (resource == null) return@withContext null
+                
+                val topicFile = resource.readText()
+                val topic = json.decodeFromString<Level>(topicFile)
+                
+                if (topic.exercises.isNullOrEmpty()) return@withContext null
+                
+                // Get user progress for this topic
+                val topicProgress = transaction {
+                    TopicProgressTable.select {
+                        (TopicProgressTable.userId eq UUID.fromString(userId)) and
+                        (TopicProgressTable.topicId eq "$targetLanguage-$level-$topicId")
+                    }.singleOrNull()
+                }
+                
+                // Get the number of completed exercises for this topic
+                val completedExercises = topicProgress?.get(TopicProgressTable.completedExercises) ?: 0
+                
+                // Return the next exercise (the one at index = completedExercises)
+                if (completedExercises >= topic.exercises.size) {
+                    // All exercises in this topic are completed
+                    return@withContext null
+                }
+                
+                val nextExercise = topic.exercises[completedExercises]
+                
+                ExerciseResponse(
+                    id = nextExercise.id,
+                    topicId = topicId,
+                    type = nextExercise.type,
+                    prompt = nextExercise.prompt,
+                    solution = null, // Don't show solution until completed
+                    options = nextExercise.options,
+                    previousAttempts = 0, // TODO: Track individual exercise attempts if needed
+                    isCompleted = false
+                )
+            }
+        } catch (e: Exception) {
+            println("Error getting next exercise: ${e.message}")
+            null
         }
     }
 

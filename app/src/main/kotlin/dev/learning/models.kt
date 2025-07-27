@@ -1,6 +1,15 @@
 package dev.learning
 
 import kotlinx.serialization.Serializable
+import kotlinx.serialization.SerializationException
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.KSerializer
+import kotlinx.serialization.descriptors.SerialDescriptor
+import kotlinx.serialization.descriptors.buildClassSerialDescriptor
+import kotlinx.serialization.descriptors.element
+import kotlinx.serialization.encoding.Decoder
+import kotlinx.serialization.encoding.Encoder
+import kotlinx.serialization.json.*
 
 // Level models
 @Serializable
@@ -22,11 +31,66 @@ data class Phrase(
 
 @Serializable
 data class Exercise(
+    val id: String,
     val type: String, // "translation", "fill-in-the-blank", "multiple-choice"
-    val prompt: String,
+    val prompt: ExercisePrompt,
     val solution: String,
     val options: List<String>? = null // For multiple-choice
 )
+
+@Serializable(with = ExercisePromptSerializer::class)
+data class ExercisePrompt(
+    val en: String? = null,
+    val es: String? = null
+) {
+    // Constructor for simple string prompts (backward compatibility)
+    constructor(text: String) : this(en = text, es = null)
+    
+    // Get text for a specific language, fallback to first available
+    fun getText(language: String = "en"): String {
+        return when (language) {
+            "en" -> en ?: es ?: ""
+            "es" -> es ?: en ?: ""
+            else -> en ?: es ?: ""
+        }
+    }
+}
+
+object ExercisePromptSerializer : KSerializer<ExercisePrompt> {
+    override val descriptor: SerialDescriptor = buildClassSerialDescriptor("ExercisePrompt") {
+        element<String>("text", isOptional = true)
+        element<String>("en", isOptional = true) 
+        element<String>("es", isOptional = true)
+    }
+
+    override fun serialize(encoder: Encoder, value: ExercisePrompt) {
+        val jsonEncoder = encoder as JsonEncoder
+        val element = if (value.es != null || value.en != null) {
+            buildJsonObject {
+                value.en?.let { put("en", it) }
+                value.es?.let { put("es", it) }
+            }
+        } else {
+            JsonPrimitive(value.en ?: "")
+        }
+        jsonEncoder.encodeJsonElement(element)
+    }
+
+    override fun deserialize(decoder: Decoder): ExercisePrompt {
+        val jsonDecoder = decoder as JsonDecoder
+        val element = jsonDecoder.decodeJsonElement()
+        
+        return when (element) {
+            is JsonPrimitive -> ExercisePrompt(text = element.content)
+            is JsonObject -> {
+                val en = element["en"]?.jsonPrimitive?.content
+                val es = element["es"]?.jsonPrimitive?.content
+                ExercisePrompt(en = en, es = es)
+            }
+            else -> throw SerializationException("Invalid prompt format")
+        }
+    }
+}
 
 // Dashboard level overview models
 @Serializable
@@ -59,6 +123,7 @@ data class LevelTopicsResponse(
 data class TopicSummary(
     val id: String,
     val title: Map<String, String>,
+    val description: Map<String, String>? = null,
     val status: String, // "locked", "in_progress", "completed"
     val progress: TopicProgress? = null,
     val lockedReason: Map<String, String>? = null
@@ -66,11 +131,24 @@ data class TopicSummary(
 
 @Serializable
 data class TopicProgress(
-    val attemptedExercises: Int,
     val completedExercises: Int,
     val correctAnswers: Int,
     val wrongAnswers: Int,
+    val totalExercises: Int,
     val lastAttempted: String? = null // ISO 8601 timestamp
+)
+
+// Exercise detail response
+@Serializable
+data class ExerciseResponse(
+    val id: String,
+    val topicId: String,
+    val type: String,
+    val prompt: ExercisePrompt,
+    val solution: String? = null, // Only include in practice mode
+    val options: List<String>? = null, // For multiple-choice
+    val previousAttempts: Int = 0,
+    val isCompleted: Boolean = false
 )
 
 // User progress models

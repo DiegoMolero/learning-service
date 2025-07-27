@@ -13,10 +13,11 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
     authenticate("auth-jwt") {
         route("/levels") {
             
-            // New dashboard endpoint - GET /levels (level overview)
-            get {
+            // Level overview endpoint - GET /levels/{language}
+            get("/{language}") {
                 val principal = call.principal<JWTPrincipal>()
                 val userId = principal?.getClaim("userId", String::class)
+                val targetLanguage = call.parameters["language"]
                 
                 if (userId.isNullOrBlank()) {
                     call.respond(
@@ -26,7 +27,13 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                     return@get
                 }
                 
-                val targetLanguage = call.request.queryParameters["targetLanguage"] ?: "en"
+                if (targetLanguage.isNullOrBlank()) {
+                    call.respond(
+                        HttpStatusCode.BadRequest,
+                        ErrorResponses.badRequest("Language is required", call.request.local.uri)
+                    )
+                    return@get
+                }
                 
                 try {
                     val levelOverview = learningRepository.getLevelOverview(userId, targetLanguage)
@@ -39,11 +46,12 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                 }
             }
             
-            // New dashboard endpoint - GET /levels/:levelId/topics
-            get("/{levelId}/topics") {
+            // Level topics endpoint - GET /levels/{language}/{level}/topics
+            get("/{language}/{level}/topics") {
                 val principal = call.principal<JWTPrincipal>()
                 val userId = principal?.getClaim("userId", String::class)
-                val levelId = call.parameters["levelId"]
+                val targetLanguage = call.parameters["language"]
+                val level = call.parameters["level"]
                 
                 if (userId.isNullOrBlank()) {
                     call.respond(
@@ -53,18 +61,24 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                     return@get
                 }
                 
-                if (levelId.isNullOrBlank()) {
+                if (targetLanguage.isNullOrBlank()) {
                     call.respond(
                         HttpStatusCode.BadRequest,
-                        ErrorResponses.badRequest("Level ID is required", call.request.local.uri)
+                        ErrorResponses.badRequest("Language is required", call.request.local.uri)
                     )
                     return@get
                 }
                 
-                val targetLanguage = call.request.queryParameters["targetLanguage"] ?: "en"
+                if (level.isNullOrBlank()) {
+                    call.respond(
+                        HttpStatusCode.BadRequest,
+                        ErrorResponses.badRequest("Level is required", call.request.local.uri)
+                    )
+                    return@get
+                }
                 
                 try {
-                    val levelTopics = learningRepository.getLevelTopics(userId, targetLanguage, levelId)
+                    val levelTopics = learningRepository.getLevelTopics(userId, targetLanguage, level)
                     call.respond(HttpStatusCode.OK, levelTopics)
                 } catch (e: Exception) {
                     call.respond(
@@ -74,81 +88,87 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                 }
             }
             
-            // Get available levels structure
-            get("/available") {
-                try {
-                    val availableLevels = learningRepository.getAllAvailableLevels()
-                    call.respond(HttpStatusCode.OK, availableLevels)
-                } catch (e: Exception) {
-                    call.respond(
-                        HttpStatusCode.InternalServerError,
-                        ErrorResponses.internalServerError("Failed to fetch available levels", call.request.local.uri)
-                    )
-                }
-            }
-            
-            // Get all levels (legacy endpoint)
-            get("/all") {
-                try {
-                    val levels = learningRepository.getAllLevels()
-                    call.respond(HttpStatusCode.OK, levels)
-                } catch (e: Exception) {
-                    call.respond(
-                        HttpStatusCode.InternalServerError,
-                        ErrorResponses.internalServerError("Failed to fetch levels", call.request.local.uri)
-                    )
-                }
-            }
-            
-            // Get levels by language and level
-            get("/{targetLanguage}/{level}") {
-                val targetLanguage = call.parameters["targetLanguage"]
+            // Exercise endpoint - GET /levels/{language}/{level}/{topicId}/{exerciseId}
+            get("/{language}/{level}/{topicId}/{exerciseId}") {
+                val principal = call.principal<JWTPrincipal>()
+                val userId = principal?.getClaim("userId", String::class)
+                val targetLanguage = call.parameters["language"]
                 val level = call.parameters["level"]
+                val topicId = call.parameters["topicId"]
+                val exerciseId = call.parameters["exerciseId"]
                 
-                if (targetLanguage.isNullOrBlank() || level.isNullOrBlank()) {
+                if (userId.isNullOrBlank()) {
+                    call.respond(
+                        HttpStatusCode.Unauthorized,
+                        ErrorResponses.unauthorized("Invalid token", call.request.local.uri)
+                    )
+                    return@get
+                }
+                
+                if (targetLanguage.isNullOrBlank() || level.isNullOrBlank() || topicId.isNullOrBlank() || exerciseId.isNullOrBlank()) {
                     call.respond(
                         HttpStatusCode.BadRequest,
-                        ErrorResponses.badRequest("Target language and level are required", call.request.local.uri)
+                        ErrorResponses.badRequest("Language, level, topicId and exerciseId are required", call.request.local.uri)
                     )
                     return@get
                 }
                 
                 try {
-                    val levels = learningRepository.getLevelsByLanguageAndLevel(targetLanguage, level)
-                    call.respond(HttpStatusCode.OK, levels)
-                } catch (e: Exception) {
-                    call.respond(
-                        HttpStatusCode.InternalServerError,
-                        ErrorResponses.internalServerError("Failed to fetch levels", call.request.local.uri)
-                    )
-                }
-            }
-            
-            // Get specific level (legacy endpoint)
-            get("/{levelId}") {
-                val levelId = call.parameters["levelId"]
-                if (levelId.isNullOrBlank()) {
-                    call.respond(
-                        HttpStatusCode.BadRequest,
-                        ErrorResponses.badRequest("Level ID is required", call.request.local.uri)
-                    )
-                    return@get
-                }
-                
-                try {
-                    val level = learningRepository.getLevel(levelId)
-                    if (level != null) {
-                        call.respond(HttpStatusCode.OK, level)
+                    val exercise = learningRepository.getExercise(userId, targetLanguage, level, topicId, exerciseId)
+                    if (exercise != null) {
+                        call.respond(HttpStatusCode.OK, exercise)
                     } else {
                         call.respond(
                             HttpStatusCode.NotFound,
-                            ErrorResponses.notFound("Level not found", call.request.local.uri)
+                            ErrorResponses.notFound("Exercise not found", call.request.local.uri)
                         )
                     }
                 } catch (e: Exception) {
                     call.respond(
                         HttpStatusCode.InternalServerError,
-                        ErrorResponses.internalServerError("Failed to fetch level", call.request.local.uri)
+                        ErrorResponses.internalServerError("Failed to fetch exercise", call.request.local.uri)
+                    )
+                }
+            }
+            
+            // Next exercise endpoint - GET /levels/{language}/{level}/{topicId}
+            get("/{language}/{level}/{topicId}") {
+                val principal = call.principal<JWTPrincipal>()
+                val userId = principal?.getClaim("userId", String::class)
+                val targetLanguage = call.parameters["language"]
+                val level = call.parameters["level"]
+                val topicId = call.parameters["topicId"]
+                
+                if (userId.isNullOrBlank()) {
+                    call.respond(
+                        HttpStatusCode.Unauthorized,
+                        ErrorResponses.unauthorized("Invalid token", call.request.local.uri)
+                    )
+                    return@get
+                }
+                
+                if (targetLanguage.isNullOrBlank() || level.isNullOrBlank() || topicId.isNullOrBlank()) {
+                    call.respond(
+                        HttpStatusCode.BadRequest,
+                        ErrorResponses.badRequest("Language, level and topicId are required", call.request.local.uri)
+                    )
+                    return@get
+                }
+                
+                try {
+                    val exercise = learningRepository.getNextExercise(userId, targetLanguage, level, topicId)
+                    if (exercise != null) {
+                        call.respond(HttpStatusCode.OK, exercise)
+                    } else {
+                        call.respond(
+                            HttpStatusCode.NotFound,
+                            ErrorResponses.notFound("No more exercises available in this topic", call.request.local.uri)
+                        )
+                    }
+                } catch (e: Exception) {
+                    call.respond(
+                        HttpStatusCode.InternalServerError,
+                        ErrorResponses.internalServerError("Failed to fetch next exercise", call.request.local.uri)
                     )
                 }
             }

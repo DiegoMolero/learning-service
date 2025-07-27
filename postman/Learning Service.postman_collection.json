@@ -30,25 +30,18 @@
               }
             ],
             "url": {
-              "raw": "{{base_url}}/levels?targetLanguage=en",
+              "raw": "{{base_url}}/levels/{{target_language}}",
               "host": ["{{base_url}}"],
-              "path": ["levels"],
-              "query": [
-                {
-                  "key": "targetLanguage",
-                  "value": "en",
-                  "description": "Idioma objetivo (en, es, fr, etc.)"
-                }
-              ]
+              "path": ["levels", "{{target_language}}"]
             },
-            "description": "Obtiene un resumen de todos los niveles disponibles con el progreso del usuario"
+            "description": "Obtiene un resumen de todos los niveles disponibles con el progreso del usuario para un idioma específico"
           },
           "response": [
             {
               "name": "Level Overview Success",
               "status": "OK",
               "code": 200,
-              "body": "{\n  \"levels\": [\n    {\n      \"levelId\": \"A1\",\n      \"name\": \"Beginner A1\",\n      \"description\": \"Basic concepts and vocabulary for beginners\",\n      \"totalTopics\": 4,\n      \"completedTopics\": 2,\n      \"status\": \"in_progress\",\n      \"progressPercentage\": 50,\n      \"estimatedTimeMinutes\": 120\n    },\n    {\n      \"levelId\": \"A2\",\n      \"name\": \"Elementary A2\",\n      \"description\": \"Elementary level with more complex structures\",\n      \"totalTopics\": 5,\n      \"completedTopics\": 0,\n      \"status\": \"locked\",\n      \"progressPercentage\": 0,\n      \"estimatedTimeMinutes\": 150\n    }\n  ]\n}"
+              "body": "{\n  \"levels\": [\n    {\n      \"level\": \"A1\",\n      \"title\": {\n        \"en\": \"Beginner\",\n        \"es\": \"Principiante\"\n      },\n      \"progress\": {\n        \"completedTopics\": 2,\n        \"totalTopics\": 4\n      },\n      \"status\": \"in_progress\"\n    },\n    {\n      \"level\": \"A2\",\n      \"title\": {\n        \"en\": \"Elementary\",\n        \"es\": \"Elemental\"\n      },\n      \"progress\": {\n        \"completedTopics\": 0,\n        \"totalTopics\": 5\n      },\n      \"status\": \"locked\"\n    }\n  ]\n}"
             }
           ]
         },
@@ -64,16 +57,9 @@
               }
             ],
             "url": {
-              "raw": "{{base_url}}/levels/A1/topics?targetLanguage=en",
+              "raw": "{{base_url}}/levels/{{target_language}}/{{level}}/topics",
               "host": ["{{base_url}}"],
-              "path": ["levels", "A1", "topics"],
-              "query": [
-                {
-                  "key": "targetLanguage",
-                  "value": "en",
-                  "description": "Idioma objetivo (en, es, fr, etc.)"
-                }
-              ]
+              "path": ["levels", "{{target_language}}", "{{level}}", "topics"]
             },
             "description": "Obtiene todos los temas disponibles para un nivel específico con progreso detallado"
           },
@@ -82,7 +68,79 @@
               "name": "Level Topics Success",
               "status": "OK",
               "code": 200,
-              "body": "{\n  \"levelId\": \"A1\",\n  \"levelName\": \"Beginner A1\",\n  \"topics\": [\n    {\n      \"topicId\": \"even_1\",\n      \"name\": \"Basic Numbers\",\n      \"description\": \"Learn basic even numbers in English\",\n      \"totalExercises\": 3,\n      \"completedExercises\": 3,\n      \"status\": \"completed\",\n      \"progressPercentage\": 100,\n      \"estimatedTimeMinutes\": 15\n    },\n    {\n      \"topicId\": \"basic_greetings\",\n      \"name\": \"Basic Greetings\",\n      \"description\": \"Common greeting expressions\",\n      \"totalExercises\": 4,\n      \"completedExercises\": 2,\n      \"status\": \"in_progress\",\n      \"progressPercentage\": 50,\n      \"estimatedTimeMinutes\": 20\n    }\n  ]\n}"
+              "body": "{\n  \"level\": \"A1\",\n  \"topics\": [\n    {\n      \"id\": \"articles_1\",\n      \"title\": {\n        \"en\": \"Articles\",\n        \"es\": \"Artículos\"\n      },\n      \"description\": {\n        \"en\": \"Learn to use definite and indefinite articles in English.\",\n        \"es\": \"Aprende a usar los artículos definidos e indefinidos en inglés.\"\n      },\n      \"status\": \"completed\",\n      \"progress\": {\n        \"completedExercises\": 4,\n        \"correctAnswers\": 4,\n        \"wrongAnswers\": 0,\n        \"totalExercises\": 4,\n        \"lastAttempted\": \"2024-01-15T10:30:00Z\"\n      },\n      \"lockedReason\": null\n    },\n    {\n      \"id\": \"basic_greetings\",\n      \"title\": {\n        \"en\": \"Basic Greetings\",\n        \"es\": \"Saludos Básicos\"\n      },\n      \"description\": {\n        \"en\": \"Common greeting expressions\",\n        \"es\": \"Expresiones comunes de saludo\"\n      },\n      \"status\": \"in_progress\",\n      \"progress\": {\n        \"completedExercises\": 2,\n        \"correctAnswers\": 2,\n        \"wrongAnswers\": 1,\n        \"totalExercises\": 4,\n        \"lastAttempted\": \"2024-01-16T14:20:00Z\"\n      },\n      \"lockedReason\": null\n    }\n  ]\n}"
+            }
+          ]
+        },
+        {
+          "name": "Get Specific Exercise",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/levels/{{target_language}}/{{level}}/{{topic_id}}/{{exercise_id}}",
+              "host": ["{{base_url}}"],
+              "path": ["levels", "{{target_language}}", "{{level}}", "{{topic_id}}", "{{exercise_id}}"]
+            },
+            "description": "Obtiene un ejercicio específico por su ID. Incluye la solución solo si ya fue completado."
+          },
+          "response": [
+            {
+              "name": "Specific Exercise Success",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"id\": \"ex_1\",\n  \"topicId\": \"articles_1\",\n  \"type\": \"fill-in-the-blank\",\n  \"prompt\": {\n    \"en\": \"___ book is on the table.\"\n  },\n  \"solution\": \"The\",\n  \"options\": null,\n  \"previousAttempts\": 0,\n  \"isCompleted\": true\n}"
+            },
+            {
+              "name": "Exercise Not Found",
+              "status": "Not Found",
+              "code": 404,
+              "body": "{\n  \"success\": false,\n  \"message\": \"Exercise not found\",\n  \"path\": \"/levels/en/A1/articles_1/ex_999\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Get Next Exercise (Practice Mode)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{jwt_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/levels/{{target_language}}/{{level}}/{{topic_id}}",
+              "host": ["{{base_url}}"],
+              "path": ["levels", "{{target_language}}", "{{level}}", "{{topic_id}}"]
+            },
+            "description": "Obtiene el siguiente ejercicio que el usuario debe completar en un tema específico. Devuelve el ejercicio basado en su progreso actual."
+          },
+          "response": [
+            {
+              "name": "Next Exercise Success",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"id\": \"ex_3\",\n  \"topicId\": \"articles_1\",\n  \"type\": \"multiple-choice\",\n  \"prompt\": {\n    \"es\": \"¿Cuál es correcto? '___ apple is red'\"\n  },\n  \"solution\": null,\n  \"options\": [\"A\", \"An\", \"The\", \"No article\"],\n  \"previousAttempts\": 0,\n  \"isCompleted\": false\n}"
+            },
+            {
+              "name": "Translation Exercise Example",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"id\": \"ex_4\",\n  \"topicId\": \"articles_1\",\n  \"type\": \"translation\",\n  \"prompt\": {\n    \"es\": \"El perro está corriendo\"\n  },\n  \"solution\": null,\n  \"options\": null,\n  \"previousAttempts\": 0,\n  \"isCompleted\": false\n}"
+            },
+            {
+              "name": "No More Exercises",
+              "status": "Not Found",
+              "code": 404,
+              "body": "{\n  \"success\": false,\n  \"message\": \"No more exercises available in this topic\",\n  \"path\": \"/levels/en/A1/articles_1\"\n}"
             }
           ]
         }
@@ -307,6 +365,31 @@
       "key": "jwt_token",
       "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiJ0ZXN0dXNlcjEyMyIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsInVzZXJJZCI6InRlc3R1c2VyMTIzIiwiZXhwIjoxNzM4MDE1MjAwLCJpYXQiOjE3Mzc5Mjg4MDB9.4K5VQ5VgZKJgZXcW_ZrGgxzNbKm7XZZd8kKHJhNzAaU",
       "description": "Token JWT válido hardcodeado para testing (válido hasta enero 2025)"
+    },
+    {
+      "key": "target_language",
+      "value": "en",
+      "description": "Idioma objetivo (en, es)"
+    },
+    {
+      "key": "level",
+      "value": "A1",
+      "description": "Nivel de aprendizaje (A1, A2, B1, B2, C1, C2)"
+    },
+    {
+      "key": "topic_id",
+      "value": "articles_1",
+      "description": "ID del tema (articles_1, basic_greetings, etc.)"
+    },
+    {
+      "key": "exercise_id",
+      "value": "ex_1",
+      "description": "ID del ejercicio específico (ex_1, ex_2, etc.)"
+    },
+    {
+      "key": "user_id",
+      "value": "testuser123",
+      "description": "ID del usuario para pruebas"
     }
   ]
 }
