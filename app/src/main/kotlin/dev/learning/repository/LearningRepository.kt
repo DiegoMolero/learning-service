@@ -587,6 +587,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                             id = topicId.substringAfterLast("-"), // Remove language-level prefix for cleaner ID
                             title = topic.title,
                             description = topic.description,
+                            tip = topic.tip,
                             status = status,
                             progress = topicProgress, // Always include progress now
                             lockedReason = lockedReason
@@ -639,7 +640,8 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     solution = if (isCompleted) exercise.solution else null, // Only show solution if completed
                     options = exercise.options,
                     previousAttempts = 0, // TODO: Track individual exercise attempts if needed
-                    isCompleted = isCompleted
+                    isCompleted = isCompleted,
+                    tip = exercise.tip // Include the educational tip
                 )
             }
         } catch (e: Exception) {
@@ -687,7 +689,8 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     solution = null, // Don't show solution until completed
                     options = nextExercise.options,
                     previousAttempts = 0, // TODO: Track individual exercise attempts if needed
-                    isCompleted = false
+                    isCompleted = false,
+                    tip = nextExercise.tip // Include the educational tip
                 )
             }
         } catch (e: Exception) {

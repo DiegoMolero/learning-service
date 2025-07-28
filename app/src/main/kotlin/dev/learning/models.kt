@@ -17,6 +17,7 @@ data class Level(
     val id: String? = null, // Optional for backward compatibility
     val title: Map<String, String>,
     val description: Map<String, String>? = null,
+    val tip: Map<String, String>? = null, // Optional tip for the topic
     val level: String? = null, // A1, A2, B1, etc.
     val targetLanguage: String? = null,
     val phrases: List<Phrase>? = null, // For backward compatibility
@@ -35,7 +36,8 @@ data class Exercise(
     val type: String, // "translation", "fill-in-the-blank", "multiple-choice"
     val prompt: ExercisePrompt,
     val solution: String,
-    val options: List<String>? = null // For multiple-choice
+    val options: List<String>? = null, // For multiple-choice
+    val tip: Map<String, String>? = null // Educational tip for this exercise
 )
 
 @Serializable(with = ExercisePromptSerializer::class)
@@ -124,6 +126,7 @@ data class TopicSummary(
     val id: String,
     val title: Map<String, String>,
     val description: Map<String, String>? = null,
+    val tip: Map<String, String>? = null,
     val status: String, // "locked", "in_progress", "completed"
     val progress: TopicProgress? = null,
     val lockedReason: Map<String, String>? = null
@@ -148,7 +151,8 @@ data class ExerciseResponse(
     val solution: String? = null, // Only include in practice mode
     val options: List<String>? = null, // For multiple-choice
     val previousAttempts: Int = 0,
-    val isCompleted: Boolean = false
+    val isCompleted: Boolean = false,
+    val tip: Map<String, String>? = null // Educational tip for this exercise
 )
 
 // User progress models

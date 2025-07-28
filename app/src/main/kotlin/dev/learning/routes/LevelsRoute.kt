@@ -88,8 +88,8 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                 }
             }
             
-            // Exercise endpoint - GET /levels/{language}/{level}/{topicId}/{exerciseId}
-            get("/{language}/{level}/{topicId}/{exerciseId}") {
+            // Exercise endpoint - GET /levels/{language}/{level}/topics/{topicId}/exercises/{exerciseId}
+            get("/{language}/{level}/topics/{topicId}/exercises/{exerciseId}") {
                 val principal = call.principal<JWTPrincipal>()
                 val userId = principal?.getClaim("userId", String::class)
                 val targetLanguage = call.parameters["language"]
@@ -130,9 +130,9 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                     )
                 }
             }
-            
-            // Next exercise endpoint - GET /levels/{language}/{level}/{topicId}
-            get("/{language}/{level}/{topicId}") {
+
+            // Next exercise endpoint - GET /levels/{language}/{level}/topics/{topicId}/exercises/next
+            get("/{language}/{level}/topics/{topicId}/exercises/next") {
                 val principal = call.principal<JWTPrincipal>()
                 val userId = principal?.getClaim("userId", String::class)
                 val targetLanguage = call.parameters["language"]

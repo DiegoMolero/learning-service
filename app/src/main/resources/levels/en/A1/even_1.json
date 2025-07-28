@@ -1,0 +1,74 @@
+{
+  "title": {
+    "en": "Using 'Even'",
+    "es": "Uso de 'Even' (Incluso)"
+  },
+  "description": {
+    "en": "Learn how to use 'even' to emphasize surprising or unexpected information.",
+    "es": "Aprende a usar 'even' para enfatizar información sorprendente o inesperada."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "John habla muchos idiomas. Incluso habla polaco."
+      },
+      "solution": "John speaks many languages. He even speaks Polish.",
+      "tip": {
+        "en": "The word 'even' usually goes before regular and irregular verbs to emphasize something surprising or unexpected.",
+        "es": "La palabra 'even' (incluso) suele ir antes de los verbos regulares e irregulares para enfatizar algo sorprendente o inesperado."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella fue a muchos países diferentes. Incluso fue a Djibuti."
+      },
+      "solution": "She went to many different countries. She even went to Djibuti.",
+      "tip": {
+        "en": "The word 'even' usually goes before regular and irregular verbs to emphasize something surprising or unexpected.",
+        "es": "La palabra 'even' (incluso) suele ir antes de los verbos regulares e irregulares para enfatizar algo sorprendente o inesperado."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Él tiene una gran colección de cuadros. Incluso posee un Picasso."
+      },
+      "solution": "He has a huge collection of paintings. He even owns a Picasso.",
+      "tip": {
+        "en": "The word 'even' usually goes before regular and irregular verbs to emphasize something surprising or unexpected.",
+        "es": "La palabra 'even' (incluso) suele ir antes de los verbos regulares e irregulares para enfatizar algo sorprendente o inesperado."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Vi a muchos antiguos amigos. Incluso vi a Paul."
+      },
+      "solution": "I saw hundreds of old friends. I even saw Paul.",
+      "tip": {
+        "en": "The word 'even' usually goes before regular and irregular verbs to emphasize something surprising or unexpected.",
+        "es": "La palabra 'even' (incluso) suele ir antes de los verbos regulares e irregulares para enfatizar algo sorprendente o inesperado."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Él tiene todo tipo de reptiles. Incluso tiene serpientes."
+      },
+      "solution": "He keeps all sorts of reptiles. He even keeps snakes.",
+      "tip": {
+        "en": "The word 'even' usually goes before regular and irregular verbs to emphasize something surprising or unexpected.",
+        "es": "La palabra 'even' (incluso) suele ir antes de los verbos regulares e irregulares para enfatizar algo sorprendente o inesperado."
+      }
+    }
+  ]
+}

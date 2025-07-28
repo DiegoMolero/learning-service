@@ -84,9 +84,9 @@
               }
             ],
             "url": {
-              "raw": "{{base_url}}/levels/{{target_language}}/{{level}}/{{topic_id}}/{{exercise_id}}",
+              "raw": "{{base_url}}/levels/{{target_language}}/{{level}}/topics/{{topic_id}}/exercises/{{exercise_id}}",
               "host": ["{{base_url}}"],
-              "path": ["levels", "{{target_language}}", "{{level}}", "{{topic_id}}", "{{exercise_id}}"]
+              "path": ["levels", "{{target_language}}", "{{level}}", "topics", "{{topic_id}}", "exercises", "{{exercise_id}}"]
             },
             "description": "Obtiene un ejercicio específico por su ID. Incluye la solución solo si ya fue completado."
           },
@@ -101,7 +101,7 @@
               "name": "Exercise Not Found",
               "status": "Not Found",
               "code": 404,
-              "body": "{\n  \"success\": false,\n  \"message\": \"Exercise not found\",\n  \"path\": \"/levels/en/A1/articles_1/ex_999\"\n}"
+              "body": "{\n  \"success\": false,\n  \"message\": \"Exercise not found\",\n  \"path\": \"/levels/en/A1/topics/articles_1/exercises/ex_999\"\n}"
             }
           ]
         },
@@ -117,9 +117,9 @@
               }
             ],
             "url": {
-              "raw": "{{base_url}}/levels/{{target_language}}/{{level}}/{{topic_id}}",
+              "raw": "{{base_url}}/levels/{{target_language}}/{{level}}/topics/{{topic_id}}/exercises/next",
               "host": ["{{base_url}}"],
-              "path": ["levels", "{{target_language}}", "{{level}}", "{{topic_id}}"]
+              "path": ["levels", "{{target_language}}", "{{level}}", "topics", "{{topic_id}}", "exercises", "next"]
             },
             "description": "Obtiene el siguiente ejercicio que el usuario debe completar en un tema específico. Devuelve el ejercicio basado en su progreso actual."
           },
@@ -140,7 +140,7 @@
               "name": "No More Exercises",
               "status": "Not Found",
               "code": 404,
-              "body": "{\n  \"success\": false,\n  \"message\": \"No more exercises available in this topic\",\n  \"path\": \"/levels/en/A1/articles_1\"\n}"
+              "body": "{\n  \"success\": false,\n  \"message\": \"No more exercises available in this topic\",\n  \"path\": \"/levels/en/A1/topics/articles_1/exercises/next\"\n}"
             }
           ]
         }
