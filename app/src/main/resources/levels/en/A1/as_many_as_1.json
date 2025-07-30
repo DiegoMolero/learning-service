@@ -1,0 +1,254 @@
+{
+  "title": {
+    "en": "As Many As",
+    "es": "As Many As (Tantos/as...Como con contables)"
+  },
+  "description": {
+    "en": "Learn how to use 'as many as' for comparisons with countable plural nouns.",
+    "es": "Aprende a usar 'as many as' para comparaciones con sustantivos contables en plural."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo tantos hijos como Paco."
+      },
+      "solution": "I don't have as many children as Paco.",
+      "tip": {
+        "en": "Use 'as many as' with countable plural nouns: as many + plural noun + as.",
+        "es": "Usa 'as many as' con sustantivos contables en plural: as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "No hablo tantos idiomas como Silvia."
+      },
+      "solution": "I don't speak as many languages as Silvia.",
+      "tip": {
+        "en": "Use 'as many as' with countable plural nouns: as many + plural noun + as.",
+        "es": "Usa 'as many as' con sustantivos contables en plural: as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo tantos problemas como Paula."
+      },
+      "solution": "I have as many problems as Paula.",
+      "tip": {
+        "en": "Use 'as many as' with countable plural nouns: as many + plural noun + as.",
+        "es": "Usa 'as many as' con sustantivos contables en plural: as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Te puedo dar todas las clases que necesites."
+      },
+      "solution": "I can give you as many classes as you need.",
+      "tip": {
+        "en": "Use 'as many as' with countable plural nouns: as many + plural noun + as.",
+        "es": "Usa 'as many as' con sustantivos contables en plural: as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "En mi empresa hay tantas mujeres como hombres."
+      },
+      "solution": "In my company, there are as many women as men.",
+      "tip": {
+        "en": "Use 'as many as' with countable plural nouns: as many + plural noun + as.",
+        "es": "Usa 'as many as' con sustantivos contables en plural: as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "He ido al doble de países que mi primo."
+      },
+      "solution": "I have been to twice as many countries as my cousin.",
+      "tip": {
+        "en": "For multiples with countable nouns: number + times + as many + plural noun + as.",
+        "es": "Para múltiplos con sustantivos contables: número + times + as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Londres tiene el doble de habitantes que Madrid."
+      },
+      "solution": "London has twice as many inhabitants as Madrid.",
+      "tip": {
+        "en": "For multiples with countable nouns: number + times + as many + plural noun + as.",
+        "es": "Para múltiplos con sustantivos contables: número + times + as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "He comprado el doble de libros este año que el año pasado."
+      },
+      "solution": "I've bought twice as many books this year as last year.",
+      "tip": {
+        "en": "For multiples with countable nouns: number + times + as many + plural noun + as.",
+        "es": "Para múltiplos con sustantivos contables: número + times + as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "En Inglaterra hay tres veces más no fumadores que fumadores."
+      },
+      "solution": "In England, there are three times as many non-smokers as smokers.",
+      "tip": {
+        "en": "For multiples with countable nouns: number + times + as many + plural noun + as.",
+        "es": "Para múltiplos con sustantivos contables: número + times + as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella tiene tantos como yo."
+      },
+      "solution": "She has as many as I do.",
+      "tip": {
+        "en": "For multiples with countable nouns: number + times + as many + plural noun + as.",
+        "es": "Para múltiplos con sustantivos contables: número + times + as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo tantos amigos como mi hermana."
+      },
+      "solution": "I don't have as many friends as my sister.",
+      "tip": {
+        "en": "Use 'as many as' with countable plural nouns: as many + plural noun + as.",
+        "es": "Usa 'as many as' con sustantivos contables en plural: as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella no lee tantas novelas como yo."
+      },
+      "solution": "She doesn't read as many novels as I do.",
+      "tip": {
+        "en": "Use 'as many as' with countable plural nouns: as many + plural noun + as.",
+        "es": "Usa 'as many as' con sustantivos contables en plural: as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "No veo tantas películas como antes."
+      },
+      "solution": "I don't watch as many films as I used to.",
+      "tip": {
+        "en": "Use 'as many as' with countable plural nouns: as many + plural noun + as.",
+        "es": "Usa 'as many as' con sustantivos contables en plural: as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Él no tiene tantas responsabilidades como su jefe."
+      },
+      "solution": "He doesn't have as many responsibilities as his boss.",
+      "tip": {
+        "en": "Use 'as many as' with countable plural nouns: as many + plural noun + as.",
+        "es": "Usa 'as many as' con sustantivos contables en plural: as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "No recibo tantos emails como mi colega."
+      },
+      "solution": "I don't receive as many emails as my colleague.",
+      "tip": {
+        "en": "Use 'as many as' with countable plural nouns: as many + plural noun + as.",
+        "es": "Usa 'as many as' con sustantivos contables en plural: as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi ciudad tiene el triple de restaurantes que la tuya."
+      },
+      "solution": "My city has three times as many restaurants as yours.",
+      "tip": {
+        "en": "For multiples with countable nouns: number + times + as many + plural noun + as.",
+        "es": "Para múltiplos con sustantivos contables: número + times + as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo el doble de plantas que mi vecina."
+      },
+      "solution": "I have twice as many plants as my neighbour.",
+      "tip": {
+        "en": "For multiples with countable nouns: number + times + as many + plural noun + as.",
+        "es": "Para múltiplos con sustantivos contables: número + times + as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella conoce cinco veces más personas que yo."
+      },
+      "solution": "She knows five times as many people as I do.",
+      "tip": {
+        "en": "For multiples with countable nouns: number + times + as many + plural noun + as.",
+        "es": "Para múltiplos con sustantivos contables: número + times + as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Esta universidad tiene el doble de estudiantes que la anterior."
+      },
+      "solution": "This university has twice as many students as the previous one.",
+      "tip": {
+        "en": "For multiples with countable nouns: number + times + as many + plural noun + as.",
+        "es": "Para múltiplos con sustantivos contables: número + times + as many + sustantivo plural + as."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Él tiene cuatro veces más coches que su hermano."
+      },
+      "solution": "He has four times as many cars as his brother.",
+      "tip": {
+        "en": "For multiples with countable nouns: number + times + as many + plural noun + as.",
+        "es": "Para múltiplos con sustantivos contables: número + times + as many + sustantivo plural + as."
+      }
+    }
+  ]
+}

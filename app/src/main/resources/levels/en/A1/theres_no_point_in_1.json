@@ -1,0 +1,469 @@
+{
+  "title": {
+    "en": "There's no point in... (No sirve de nada...)",
+    "es": "There's no point in... (No sirve de nada...)"
+  },
+  "description": {
+    "en": "Learn how to express that something is useless or pointless using 'There's no point in...' with gerunds.",
+    "es": "Aprende a expresar que algo es inútil o no tiene sentido usando 'There's no point in...' con gerundios."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in pretending.",
+        "es": "No sirve de nada fingir."
+      },
+      "solution": "There's no point in pretending.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in getting here before six as nobody will be here.",
+        "es": "No sirve de nada llegar aquí antes de las 6.00 porque no va a haber nadie."
+      },
+      "solution": "There's no point in getting here before six as nobody will be here.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in going to University if you're not prepared to study hard.",
+        "es": "No sirve de nada ir a la universidad si no estás dispuesto a estudiar mucho."
+      },
+      "solution": "There's no point in going to University if you're not prepared to study hard.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in driving to work in this snow!",
+        "es": "¡No sirve de nada ir en coche al trabajo con esta nevada!"
+      },
+      "solution": "There's no point in driving to work in this snow!",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in beeping your horn. You won't get there any quicker.",
+        "es": "No sirve de nada pitar. No vas a llegar antes."
+      },
+      "solution": "There's no point in beeping your horn. You won't get there any quicker.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in waiting if he's not coming.",
+        "es": "No sirve de nada esperar si él no va a venir."
+      },
+      "solution": "There's no point in waiting if he's not coming.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in arguing with him.",
+        "es": "No sirve de nada discutir con él."
+      },
+      "solution": "There's no point in arguing with him.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in crying over spilt milk.",
+        "es": "No sirve de nada llorar por la leche derramada."
+      },
+      "solution": "There's no point in crying over spilt milk.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in complaining about the weather.",
+        "es": "No sirve de nada quejarse del tiempo."
+      },
+      "solution": "There's no point in complaining about the weather.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in trying to fix it. It's completely broken.",
+        "es": "No sirve de nada intentar arreglarlo. Está completamente roto."
+      },
+      "solution": "There's no point in trying to fix it. It's completely broken.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in lying to me. I already know the truth.",
+        "es": "No sirve de nada mentirme. Ya sé la verdad."
+      },
+      "solution": "There's no point in lying to me. I already know the truth.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in rushing. We're already late.",
+        "es": "No sirve de nada darse prisa. Ya llegamos tarde."
+      },
+      "solution": "There's no point in rushing. We're already late.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in worrying about things you can't control.",
+        "es": "No sirve de nada preocuparse por cosas que no puedes controlar."
+      },
+      "solution": "There's no point in worrying about things you can't control.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in buying expensive things if you can't afford them.",
+        "es": "No sirve de nada comprar cosas caras si no te las puedes permitir."
+      },
+      "solution": "There's no point in buying expensive things if you can't afford them.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in studying if you're not going to concentrate.",
+        "es": "No sirve de nada estudiar si no te vas a concentrar."
+      },
+      "solution": "There's no point in studying if you're not going to concentrate.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in apologizing if you're going to do it again.",
+        "es": "No sirve de nada disculparse si lo vas a volver a hacer."
+      },
+      "solution": "There's no point in apologizing if you're going to do it again.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in calling her. She never answers.",
+        "es": "No sirve de nada llamarla. Nunca contesta."
+      },
+      "solution": "There's no point in calling her. She never answers.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in hiding the truth from them.",
+        "es": "No sirve de nada ocultarles la verdad."
+      },
+      "solution": "There's no point in hiding the truth from them.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in exercising if you eat junk food all day.",
+        "es": "No sirve de nada hacer ejercicio si comes comida basura todo el día."
+      },
+      "solution": "There's no point in exercising if you eat junk food all day.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in saving money if you never use it.",
+        "es": "No sirve de nada ahorrar dinero si nunca lo usas."
+      },
+      "solution": "There's no point in saving money if you never use it.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in making plans if they always change.",
+        "es": "No sirve de nada hacer planes si siempre cambian."
+      },
+      "solution": "There's no point in making plans if they always change.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in cleaning the house if the children are still playing.",
+        "es": "No sirve de nada limpiar la casa si los niños aún están jugando."
+      },
+      "solution": "There's no point in cleaning the house if the children are still playing.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in working overtime if you're not getting paid for it.",
+        "es": "No sirve de nada trabajar horas extra si no te pagan por ello."
+      },
+      "solution": "There's no point in working overtime if you're not getting paid for it.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in asking him. He doesn't know anything.",
+        "es": "No sirve de nada preguntarle. No sabe nada."
+      },
+      "solution": "There's no point in asking him. He doesn't know anything.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in cooking dinner. Nobody's hungry.",
+        "es": "No sirve de nada preparar la cena. Nadie tiene hambre."
+      },
+      "solution": "There's no point in cooking dinner. Nobody's hungry.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in going to the cinema if the film is sold out.",
+        "es": "No sirve de nada ir al cine si la película está agotada."
+      },
+      "solution": "There's no point in going to the cinema if the film is sold out.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in looking for your keys here. You lost them at work.",
+        "es": "No sirve de nada buscar tus llaves aquí. Las perdiste en el trabajo."
+      },
+      "solution": "There's no point in looking for your keys here. You lost them at work.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in getting angry about it now.",
+        "es": "No sirve de nada enfadarse por eso ahora."
+      },
+      "solution": "There's no point in getting angry about it now.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in buying a car if you don't have a driving license.",
+        "es": "No sirve de nada comprar un coche si no tienes carnet de conducir."
+      },
+      "solution": "There's no point in buying a car if you don't have a driving license.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in learning a language if you never practice it.",
+        "es": "No sirve de nada aprender un idioma si nunca lo practicas."
+      },
+      "solution": "There's no point in learning a language if you never practice it.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in denying it. Everyone knows what happened.",
+        "es": "No sirve de nada negarlo. Todo el mundo sabe lo que pasó."
+      },
+      "solution": "There's no point in denying it. Everyone knows what happened.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in running to the station. The train has already left.",
+        "es": "No sirve de nada correr a la estación. El tren ya se ha ido."
+      },
+      "solution": "There's no point in running to the station. The train has already left.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in wearing a coat. It's really warm outside.",
+        "es": "No sirve de nada llevar abrigo. Hace mucho calor fuera."
+      },
+      "solution": "There's no point in wearing a coat. It's really warm outside.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in shouting. He can't hear you from here.",
+        "es": "No sirve de nada gritar. No puede oírte desde aquí."
+      },
+      "solution": "There's no point in shouting. He can't hear you from here.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "en": "There's no point in regretting what you did. You can't change the past.",
+        "es": "No sirve de nada lamentarse por lo que hiciste. No puedes cambiar el pasado."
+      },
+      "solution": "There's no point in regretting what you did. You can't change the past.",
+      "tip": {
+        "en": "Remember that after the preposition 'in' we need a verb in the gerund form (-ing). This expression means something is useless or pointless.",
+        "es": "No olvides que después de la preposición 'in' hace falta un verbo en gerundio (-ing). Esta expresión significa que algo es inútil o no tiene sentido."
+      }
+    }
+  ]
+}

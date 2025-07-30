@@ -1,0 +1,404 @@
+{
+  "title": {
+    "en": "How long? (¿Cuánto tiempo?)",
+    "es": "How long? (¿Cuánto tiempo?)"
+  },
+  "description": {
+    "en": "Learn to use 'How long?' correctly with Present Perfect for ongoing actions and Past Simple for completed actions. Master the natural English way to ask about duration.",
+    "es": "Aprende a usar 'How long?' correctamente con Present Perfect para acciones continuas y Past Simple para acciones completadas. Domina la forma natural inglesa de preguntar sobre duración."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you lived in Spain?",
+        "es": "¿Cuánto tiempo llevas viviendo en España?"
+      },
+      "solution": "How long have you lived in Spain?",
+      "tip": {
+        "en": "Use 'How long?' (not 'How much time?') for duration questions. With Present Perfect for actions that started in the past and continue to the present.",
+        "es": "Usa 'How long?' (no 'How much time?') para preguntas de duración. Con Present Perfect para acciones que empezaron en el pasado y continúan en el presente."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you worked for your company?",
+        "es": "¿Desde cuándo trabajas en tu empresa?"
+      },
+      "solution": "How long have you worked for your company?",
+      "tip": {
+        "en": "Use 'How long?' (not 'How much time?') for duration questions. With Present Perfect for actions that started in the past and continue to the present.",
+        "es": "Usa 'How long?' (no 'How much time?') para preguntas de duración. Con Present Perfect para acciones que empezaron en el pasado y continúan en el presente."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have they been selling ice cream here?",
+        "es": "¿Desde cuándo se vende helado aquí?"
+      },
+      "solution": "How long have they been selling ice cream here?",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions that started in the past and continue now. 'How long?' is the natural way to ask about duration in English.",
+        "es": "Usa Present Perfect Continuous para acciones continuas que empezaron en el pasado y continúan ahora. 'How long?' es la forma natural de preguntar sobre duración en inglés."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you been waiting for me?",
+        "es": "¿Cuánto tiempo llevas esperándome?"
+      },
+      "solution": "How long have you been waiting for me?",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions that started in the past and continue now. 'How long?' is the natural way to ask about duration in English.",
+        "es": "Usa Present Perfect Continuous para acciones continuas que empezaron en el pasado y continúan ahora. 'How long?' es la forma natural de preguntar sobre duración en inglés."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you been studying English?",
+        "es": "¿Desde cuándo estudias inglés?"
+      },
+      "solution": "How long have you been studying English?",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions that started in the past and continue now. 'How long?' is the natural way to ask about duration in English.",
+        "es": "Usa Present Perfect Continuous para acciones continuas que empezaron en el pasado y continúan ahora. 'How long?' es la forma natural de preguntar sobre duración en inglés."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you known her?",
+        "es": "¿Desde hace cuánto que la conoces?"
+      },
+      "solution": "How long have you known her?",
+      "tip": {
+        "en": "Use Present Perfect for states or conditions that started in the past and continue to the present. Some verbs like 'know', 'have', 'like' don't usually take continuous forms.",
+        "es": "Usa Present Perfect para estados o condiciones que empezaron en el pasado y continúan en el presente. Algunos verbos como 'know', 'have', 'like' no suelen usar formas continuas."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you had that cold?",
+        "es": "¿Cuánto tiempo llevas con ese resfriado?"
+      },
+      "solution": "How long have you had that cold?",
+      "tip": {
+        "en": "Use Present Perfect for states or conditions that started in the past and continue to the present. Some verbs like 'know', 'have', 'like' don't usually take continuous forms.",
+        "es": "Usa Present Perfect para estados o condiciones que empezaron en el pasado y continúan en el presente. Algunos verbos como 'know', 'have', 'like' no suelen usar formas continuas."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you liked football?",
+        "es": "¿Desde cuándo te gusta a ti el fútbol?"
+      },
+      "solution": "How long have you liked football?",
+      "tip": {
+        "en": "Use Present Perfect for states or conditions that started in the past and continue to the present. Some verbs like 'know', 'have', 'like' don't usually take continuous forms.",
+        "es": "Usa Present Perfect para estados o condiciones que empezaron en el pasado y continúan en el presente. Algunos verbos como 'know', 'have', 'like' no suelen usar formas continuas."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "How long has it been raining?",
+        "es": "¿Cuánto tiempo lleva lloviendo?"
+      },
+      "solution": "How long has it been raining?",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions that started in the past and continue now. 'How long?' is the natural way to ask about duration in English.",
+        "es": "Usa Present Perfect Continuous para acciones continuas que empezaron en el pasado y continúan ahora. 'How long?' es la forma natural de preguntar sobre duración en inglés."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you been here?",
+        "es": "¿Desde cuándo estás aquí?"
+      },
+      "solution": "How long have you been here?",
+      "tip": {
+        "en": "Use Present Perfect for states or conditions that started in the past and continue to the present. Being in a place is considered a state, not an action.",
+        "es": "Usa Present Perfect para estados o condiciones que empezaron en el pasado y continúan en el presente. Estar en un lugar se considera un estado, no una acción."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the meeting last this morning?",
+        "es": "¿Cuánto tiempo duró la reunión de esta mañana?"
+      },
+      "solution": "How long did the meeting last this morning?",
+      "tip": {
+        "en": "Use Past Simple for completed actions in a closed time period. The verb 'last' means 'durar'. The meeting is finished, so we use past tense.",
+        "es": "Usa Past Simple para acciones completadas en un período de tiempo cerrado. El verbo 'last' significa 'durar'. La reunión terminó, así que usamos pasado."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the match last yesterday?",
+        "es": "¿Cuánto tiempo duró el partido de ayer?"
+      },
+      "solution": "How long did the match last yesterday?",
+      "tip": {
+        "en": "Use Past Simple for completed actions in a closed time period. The verb 'last' means 'durar'. The match is finished, so we use past tense.",
+        "es": "Usa Past Simple para acciones completadas en un período de tiempo cerrado. El verbo 'last' significa 'durar'. El partido terminó, así que usamos pasado."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the film last last Saturday?",
+        "es": "¿Cuánto duró la película el sábado pasado?"
+      },
+      "solution": "How long did the film last last Saturday?",
+      "tip": {
+        "en": "Use Past Simple for completed actions in a closed time period. Note: two different meanings of 'last' - the verb 'last' (durar) and the adjective 'last' (pasado).",
+        "es": "Usa Past Simple para acciones completadas en un período de tiempo cerrado. Nota: dos significados diferentes de 'last' - el verbo 'last' (durar) y el adjetivo 'last' (pasado)."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the speech last on Monday?",
+        "es": "¿Cuánto duró el discurso del lunes?"
+      },
+      "solution": "How long did the speech last on Monday?",
+      "tip": {
+        "en": "Use Past Simple for completed actions in a closed time period. The verb 'last' means 'durar'. The speech is finished, so we use past tense.",
+        "es": "Usa Past Simple para acciones completadas en un período de tiempo cerrado. El verbo 'last' significa 'durar'. El discurso terminó, así que usamos pasado."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the conversation last this afternoon?",
+        "es": "¿Cuánto ha durado la conversación esta tarde?"
+      },
+      "solution": "How long did the conversation last this afternoon?",
+      "tip": {
+        "en": "Use Past Simple for completed actions in a closed time period. The verb 'last' means 'durar'. The conversation is finished, so we use past tense.",
+        "es": "Usa Past Simple para acciones completadas en un período de tiempo cerrado. El verbo 'last' significa 'durar'. La conversación terminó, así que usamos pasado."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did their marriage last?",
+        "es": "¿Cuánto tiempo duró su matrimonio?"
+      },
+      "solution": "How long did their marriage last?",
+      "tip": {
+        "en": "Use Past Simple for completed actions. Context shows the marriage is over (they're divorced), making it a closed time period.",
+        "es": "Usa Past Simple para acciones completadas. El contexto muestra que el matrimonio terminó (están divorciados), haciéndolo un período de tiempo cerrado."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the strike last?",
+        "es": "¿Cuánto tiempo duró la huelga?"
+      },
+      "solution": "How long did the strike last?",
+      "tip": {
+        "en": "Use Past Simple for completed actions. Context shows the strike is over (finished three months ago), making it a closed time period.",
+        "es": "Usa Past Simple para acciones completadas. El contexto muestra que la huelga terminó (hace tres meses), haciéndolo un período de tiempo cerrado."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the concert last?",
+        "es": "¿Cuánto duró el concierto?"
+      },
+      "solution": "How long did the concert last?",
+      "tip": {
+        "en": "Use Past Simple for completed actions. Context shows the concert is over (was yesterday), making it a closed time period.",
+        "es": "Usa Past Simple para acciones completadas. El contexto muestra que el concierto terminó (fue ayer), haciéndolo un período de tiempo cerrado."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the trip last?",
+        "es": "¿Cuánto tiempo duró el viaje?"
+      },
+      "solution": "How long did the trip last?",
+      "tip": {
+        "en": "Use Past Simple for completed actions. Context shows the trip is over (was two months ago), making it a closed time period.",
+        "es": "Usa Past Simple para acciones completadas. El contexto muestra que el viaje terminó (hace dos meses), haciéndolo un período de tiempo cerrado."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the argument last?",
+        "es": "¿Cuánto tiempo duró la discusión?"
+      },
+      "solution": "How long did the argument last?",
+      "tip": {
+        "en": "Use Past Simple for completed actions. Context shows the argument is over (took place yesterday), making it a closed time period.",
+        "es": "Usa Past Simple para acciones completadas. El contexto muestra que la discusión terminó (fue ayer), haciéndolo un período de tiempo cerrado."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you been living here?",
+        "es": "¿Cuánto tiempo llevas viviendo aquí?"
+      },
+      "solution": "How long have you been living here?",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions that started in the past and continue now. The person still lives here.",
+        "es": "Usa Present Perfect Continuous para acciones continuas que empezaron en el pasado y continúan ahora. La persona todavía vive aquí."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you been married?",
+        "es": "¿Cuánto tiempo lleváis casados?"
+      },
+      "solution": "How long have you been married?",
+      "tip": {
+        "en": "Use Present Perfect for states that started in the past and continue to the present. Being married is a state, not an action.",
+        "es": "Usa Present Perfect para estados que empezaron en el pasado y continúan en el presente. Estar casado es un estado, no una acción."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you been working there?",
+        "es": "¿Cuánto tiempo llevas trabajando allí?"
+      },
+      "solution": "How long have you been working there?",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions that started in the past and continue now. The person still works there.",
+        "es": "Usa Present Perfect Continuous para acciones continuas que empezaron en el pasado y continúan ahora. La persona todavía trabaja allí."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the party last?",
+        "es": "¿Cuánto duró la fiesta?"
+      },
+      "solution": "How long did the party last?",
+      "tip": {
+        "en": "Use Past Simple for completed actions. The party is over, making it a closed time period. Use the verb 'last' for duration of completed events.",
+        "es": "Usa Past Simple para acciones completadas. La fiesta terminó, haciéndolo un período de tiempo cerrado. Usa el verbo 'last' para duración de eventos completados."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you been driving?",
+        "es": "¿Cuánto tiempo llevas conduciendo?"
+      },
+      "solution": "How long have you been driving?",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions that started in the past and continue now. The person still drives (has the ability/license).",
+        "es": "Usa Present Perfect Continuous para acciones continuas que empezaron en el pasado y continúan ahora. La persona todavía conduce (tiene la habilidad/licencia)."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the exam last?",
+        "es": "¿Cuánto duró el examen?"
+      },
+      "solution": "How long did the exam last?",
+      "tip": {
+        "en": "Use Past Simple for completed actions. The exam is over, making it a closed time period. Use the verb 'last' for duration of completed events.",
+        "es": "Usa Past Simple para acciones completadas. El examen terminó, haciéndolo un período de tiempo cerrado. Usa el verbo 'last' para duración de eventos completados."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you been learning Spanish?",
+        "es": "¿Cuánto tiempo llevas aprendiendo español?"
+      },
+      "solution": "How long have you been learning Spanish?",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions that started in the past and continue now. The person is still learning Spanish.",
+        "es": "Usa Present Perfect Continuous para acciones continuas que empezaron en el pasado y continúan ahora. La persona todavía está aprendiendo español."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the flight last?",
+        "es": "¿Cuánto duró el vuelo?"
+      },
+      "solution": "How long did the flight last?",
+      "tip": {
+        "en": "Use Past Simple for completed actions. The flight is over, making it a closed time period. Use the verb 'last' for duration of completed events.",
+        "es": "Usa Past Simple para acciones completadas. El vuelo terminó, haciéndolo un período de tiempo cerrado. Usa el verbo 'last' para duración de eventos completados."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "How long have you owned this car?",
+        "es": "¿Cuánto tiempo llevas con este coche?"
+      },
+      "solution": "How long have you owned this car?",
+      "tip": {
+        "en": "Use Present Perfect for states that started in the past and continue to the present. Owning something is a state, not an action. The person still owns the car.",
+        "es": "Usa Present Perfect para estados que empezaron en el pasado y continúan en el presente. Poseer algo es un estado, no una acción. La persona todavía tiene el coche."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "How long did the meeting last yesterday?",
+        "es": "¿Cuánto duró la reunión de ayer?"
+      },
+      "solution": "How long did the meeting last yesterday?",
+      "tip": {
+        "en": "Use Past Simple for completed actions. The meeting is over (was yesterday), making it a closed time period. Use the verb 'last' for duration.",
+        "es": "Usa Past Simple para acciones completadas. La reunión terminó (fue ayer), haciéndolo un período de tiempo cerrado. Usa el verbo 'last' para duración."
+      }
+    }
+  ]
+}

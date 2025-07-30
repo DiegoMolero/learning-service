@@ -1,0 +1,134 @@
+{
+  "title": {
+    "en": "Even if & Even though",
+    "es": "Even if & Even though (Aunque)"
+  },
+  "description": {
+    "en": "Learn the difference between 'even if' (conditional) and 'even though' (factual) in English.",
+    "es": "Aprende la diferencia entre 'even if' (condicional) y 'even though' (factual) en inglés."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Aunque llueva, saldré."
+      },
+      "solution": "Even if it rains, I'll go out.",
+      "tip": {
+        "en": "'Even if' means 'aunque/incluso si' and uses conditional structures. It refers to hypothetical situations.",
+        "es": "'Even if' significa 'aunque/incluso si' y usa estructuras condicionales. Se refiere a situaciones hipotéticas."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Aunque fueses rico, no serías más feliz."
+      },
+      "solution": "Even if you were rich, you wouldn't be any happier.",
+      "tip": {
+        "en": "'Even if' means 'aunque/incluso si' and uses conditional structures. It refers to hypothetical situations.",
+        "es": "'Even if' significa 'aunque/incluso si' y usa estructuras condicionales. Se refiere a situaciones hipotéticas."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Nunca llegarás a ser presidente, aunque trabajes mucho."
+      },
+      "solution": "You will never become President, even if you work hard.",
+      "tip": {
+        "en": "'Even if' means 'aunque/incluso si' and uses conditional structures. It refers to hypothetical situations.",
+        "es": "'Even if' significa 'aunque/incluso si' y usa estructuras condicionales. Se refiere a situaciones hipotéticas."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Aunque lo hubiera sabido, no te lo habría dicho."
+      },
+      "solution": "Even if I had known, I wouldn't have told you.",
+      "tip": {
+        "en": "'Even if' means 'aunque/incluso si' and uses conditional structures. It refers to hypothetical situations.",
+        "es": "'Even if' significa 'aunque/incluso si' y usa estructuras condicionales. Se refiere a situaciones hipotéticas."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Aunque hubieses estado allí, no habrías sido capaz de hacer nada."
+      },
+      "solution": "Even if you had been there, you wouldn't have been able to do anything.",
+      "tip": {
+        "en": "'Even if' means 'aunque/incluso si' and uses conditional structures. It refers to hypothetical situations.",
+        "es": "'Even if' significa 'aunque/incluso si' y usa estructuras condicionales. Se refiere a situaciones hipotéticas."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que estaba nevando, fuí al concierto."
+      },
+      "solution": "Even though it was snowing, I went to the concert.",
+      "tip": {
+        "en": "'Even though' means 'a pesar de que' and refers to real, factual situations. It's another way to say 'in spite of the fact that'.",
+        "es": "'Even though' significa 'a pesar de que' y se refiere a situaciones reales y factuales. Es otra forma de decir 'in spite of the fact that'."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que es duro, no me voy a rendir."
+      },
+      "solution": "Even though it's hard, I'm not going to give up.",
+      "tip": {
+        "en": "'Even though' means 'a pesar de que' and refers to real, factual situations. It's another way to say 'in spite of the fact that'.",
+        "es": "'Even though' significa 'a pesar de que' y se refiere a situaciones reales y factuales. Es otra forma de decir 'in spite of the fact that'."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no te gusta, merece la pena ir."
+      },
+      "solution": "Even though you don't enjoy it, it's worth going.",
+      "tip": {
+        "en": "'Even though' means 'a pesar de que' and refers to real, factual situations. It's another way to say 'in spite of the fact that'.",
+        "es": "'Even though' significa 'a pesar de que' y se refiere a situaciones reales y factuales. Es otra forma de decir 'in spite of the fact that'."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que él no estaba de acuerdo, aceptó la decisión."
+      },
+      "solution": "Even though he didn't agree, he accepted the decision.",
+      "tip": {
+        "en": "'Even though' means 'a pesar de que' and refers to real, factual situations. It's another way to say 'in spite of the fact that'.",
+        "es": "'Even though' significa 'a pesar de que' y se refiere a situaciones reales y factuales. Es otra forma de decir 'in spite of the fact that'."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que ya era tarde, conseguimos encontrar dónde comer."
+      },
+      "solution": "Even though it was late, we managed to find somewhere to eat.",
+      "tip": {
+        "en": "'Even though' means 'a pesar de que' and refers to real, factual situations. It's another way to say 'in spite of the fact that'.",
+        "es": "'Even though' significa 'a pesar de que' y se refiere a situaciones reales y factuales. Es otra forma de decir 'in spite of the fact that'."
+      }
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "title": {
+    "en": "As...As Comparisons",
+    "es": "Comparaciones con As...As (Tan...Como)"
+  },
+  "description": {
+    "en": "Learn how to make equal comparisons using 'as...as' with adjectives and adverbs.",
+    "es": "Aprende a hacer comparaciones de igualdad usando 'as...as' con adjetivos y adverbios."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Pablo no es tan alto como Arthur."
+      },
+      "solution": "Pablo isn't as tall as Arthur.",
+      "tip": {
+        "en": "The secret is balance! You need 'as' on each side of the adjective: as + adjective + as.",
+        "es": "¡El secreto está en el equilibrio! Necesitas 'as' a cada lado del adjetivo: as + adjetivo + as."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "No hace tanto calor como ayer."
+      },
+      "solution": "It isn't as hot as it was yesterday.",
+      "tip": {
+        "en": "The secret is balance! You need 'as' on each side of the adjective: as + adjective + as.",
+        "es": "¡El secreto está en el equilibrio! Necesitas 'as' a cada lado del adjetivo: as + adjetivo + as."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Los aviones no son tan peligrosos como los coches."
+      },
+      "solution": "Planes are not as dangerous as cars.",
+      "tip": {
+        "en": "The secret is balance! You need 'as' on each side of the adjective: as + adjective + as.",
+        "es": "¡El secreto está en el equilibrio! Necesitas 'as' a cada lado del adjetivo: as + adjetivo + as."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "El libro fue tan fascinante como pensaba."
+      },
+      "solution": "The book was as enthralling as I thought.",
+      "tip": {
+        "en": "The secret is balance! You need 'as' on each side of the adjective: as + adjective + as.",
+        "es": "¡El secreto está en el equilibrio! Necesitas 'as' a cada lado del adjetivo: as + adjetivo + as."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "El inglés no es tan difícil como la astrofísica."
+      },
+      "solution": "English isn't as difficult as astrophysics.",
+      "tip": {
+        "en": "The secret is balance! You need 'as' on each side of the adjective: as + adjective + as.",
+        "es": "¡El secreto está en el equilibrio! Necesitas 'as' a cada lado del adjetivo: as + adjetivo + as."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "La Torre Picasso es diez veces más alta que mi oficina."
+      },
+      "solution": "The Picasso Tower is ten times as tall as my office block.",
+      "tip": {
+        "en": "For multiples, use: number + times + as + adjective + as (e.g., twice as big as, ten times as tall as).",
+        "es": "Para múltiplos, usa: número + times + as + adjetivo + as (ej., twice as big as, ten times as tall as)."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Francia es dos veces más grande que el Reino Unido."
+      },
+      "solution": "France is twice as big as the UK.",
+      "tip": {
+        "en": "For multiples, use: number + times + as + adjective + as (e.g., twice as big as, ten times as tall as).",
+        "es": "Para múltiplos, usa: número + times + as + adjetivo + as (ej., twice as big as, ten times as tall as)."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "El coche de mi vecino es el doble de caro que el mío."
+      },
+      "solution": "My neighbour's car is twice as expensive as mine.",
+      "tip": {
+        "en": "For multiples, use: number + times + as + adjective + as (e.g., twice as big as, ten times as tall as).",
+        "es": "Para múltiplos, usa: número + times + as + adjetivo + as (ej., twice as big as, ten times as tall as)."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi amigo Ted es el doble de inteligente que yo."
+      },
+      "solution": "My friend Ted is twice as intelligent as I am.",
+      "tip": {
+        "en": "For multiples, use: number + times + as + adjective + as (e.g., twice as big as, ten times as tall as).",
+        "es": "Para múltiplos, usa: número + times + as + adjetivo + as (ej., twice as big as, ten times as tall as)."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "La población de Alemania es el doble de la de España."
+      },
+      "solution": "The population of Germany is twice as big as that of Spain.",
+      "tip": {
+        "en": "For multiples, use: number + times + as + adjective + as (e.g., twice as big as, ten times as tall as).",
+        "es": "Para múltiplos, usa: número + times + as + adjetivo + as (ej., twice as big as, ten times as tall as)."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "No juego al golf tan bien como Laura."
+      },
+      "solution": "I can't play golf as well as Laura.",
+      "tip": {
+        "en": "With adverbs, the structure is the same: as + adverb + as. You need 'as' on each side of the adverb.",
+        "es": "Con adverbios, la estructura es igual: as + adverbio + as. Necesitas 'as' a cada lado del adverbio."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "No hablo el español con tanta soltura como mi suegra."
+      },
+      "solution": "I don't speak Spanish as fluently as my mother-in-law.",
+      "tip": {
+        "en": "With adverbs, the structure is the same: as + adverb + as. You need 'as' on each side of the adverb.",
+        "es": "Con adverbios, la estructura es igual: as + adverbio + as. Necesitas 'as' a cada lado del adverbio."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Nadie canta tan mal como yo."
+      },
+      "solution": "Nobody sings as badly as I do.",
+      "tip": {
+        "en": "With adverbs, the structure is the same: as + adverb + as. You need 'as' on each side of the adverb.",
+        "es": "Con adverbios, la estructura es igual: as + adverbio + as. Necesitas 'as' a cada lado del adverbio."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "No conduzco tan rápido como mi hermano."
+      },
+      "solution": "I don't drive as fast as my brother.",
+      "tip": {
+        "en": "With adverbs, the structure is the same: as + adverb + as. You need 'as' on each side of the adverb.",
+        "es": "Con adverbios, la estructura es igual: as + adverbio + as. Necesitas 'as' a cada lado del adverbio."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "No como de forma tan ruidosa como mi perro."
+      },
+      "solution": "I don't eat as noisily as my dog.",
+      "tip": {
+        "en": "With adverbs, the structure is the same: as + adverb + as. You need 'as' on each side of the adverb.",
+        "es": "Con adverbios, la estructura es igual: as + adverbio + as. Necesitas 'as' a cada lado del adverbio."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo hablo el doble de rápido que mi hermano."
+      },
+      "solution": "I talk twice as fast as my brother.",
+      "tip": {
+        "en": "For multiples with adverbs: number + times + as + adverb + as (e.g., twice as fast as, ten times as well as).",
+        "es": "Para múltiplos con adverbios: número + times + as + adverbio + as (ej., twice as fast as, ten times as well as)."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Él pinta el doble de bien que yo."
+      },
+      "solution": "He paints twice as well as I do.",
+      "tip": {
+        "en": "For multiples with adverbs: number + times + as + adverb + as (e.g., twice as fast as, ten times as well as).",
+        "es": "Para múltiplos con adverbios: número + times + as + adverbio + as (ej., twice as fast as, ten times as well as)."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi contable trabaja el doble de despacio que el tuyo."
+      },
+      "solution": "My accountant works twice as slowly as yours.",
+      "tip": {
+        "en": "For multiples with adverbs: number + times + as + adverb + as (e.g., twice as fast as, ten times as well as).",
+        "es": "Para múltiplos con adverbios: número + times + as + adverbio + as (ej., twice as fast as, ten times as well as)."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "La reunión duró el doble de lo previsto."
+      },
+      "solution": "The meeting lasted twice as long as scheduled.",
+      "tip": {
+        "en": "For multiples with adverbs: number + times + as + adverb + as (e.g., twice as fast as, ten times as well as).",
+        "es": "Para múltiplos con adverbios: número + times + as + adverbio + as (ej., twice as fast as, ten times as well as)."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella estudia diez veces más que su hermana."
+      },
+      "solution": "She studies ten times as hard as her sister.",
+      "tip": {
+        "en": "For multiples with adverbs: number + times + as + adverb + as (e.g., twice as fast as, ten times as well as).",
+        "es": "Para múltiplos con adverbios: número + times + as + adverbio + as (ej., twice as fast as, ten times as well as)."
+      }
+    }
+  ]
+}

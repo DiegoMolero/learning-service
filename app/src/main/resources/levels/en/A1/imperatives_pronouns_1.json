@@ -1,0 +1,664 @@
+{
+  "title": {
+    "en": "Imperatives with Personal Pronouns",
+    "es": "Imperativos con Pronombres Personales"
+  },
+  "description": {
+    "en": "Learn how to use imperatives (commands) with personal pronouns and possessive pronouns. Practice the structure: verb + indirect object + direct object.",
+    "es": "Aprende a usar imperativos (órdenes) con pronombres personales y posesivos. Practica la estructura: verbo + objeto indirecto + objeto directo."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "Give me mine.",
+        "es": "Dame el mío."
+      },
+      "solution": "Give me mine.",
+      "tip": {
+        "en": "In imperatives, use the base form of the verb. The structure is: verb + indirect object (me) + direct object (mine). Personal pronouns come before possessive pronouns.",
+        "es": "En imperativos, usa la forma básica del verbo. La estructura es: verbo + objeto indirecto (me) + objeto directo (mine). Los pronombres personales van antes que los posesivos."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "Give him his.",
+        "es": "Dale (a él) el suyo."
+      },
+      "solution": "Give him his.",
+      "tip": {
+        "en": "In imperatives, use the base form of the verb. The structure is: verb + indirect object (him) + direct object (his). Personal pronouns come before possessive pronouns.",
+        "es": "En imperativos, usa la forma básica del verbo. La estructura es: verbo + objeto indirecto (him) + objeto directo (his). Los pronombres personales van antes que los posesivos."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "Give her hers.",
+        "es": "Dale (a ella) el suyo."
+      },
+      "solution": "Give her hers.",
+      "tip": {
+        "en": "In imperatives, use the base form of the verb. The structure is: verb + indirect object (her) + direct object (hers). Personal pronouns come before possessive pronouns.",
+        "es": "En imperativos, usa la forma básica del verbo. La estructura es: verbo + objeto indirecto (her) + objeto directo (hers). Los pronombres personales van antes que los posesivos."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "Give us ours.",
+        "es": "Danos el nuestro."
+      },
+      "solution": "Give us ours.",
+      "tip": {
+        "en": "In imperatives, use the base form of the verb. The structure is: verb + indirect object (us) + direct object (ours). Personal pronouns come before possessive pronouns.",
+        "es": "En imperativos, usa la forma básica del verbo. La estructura es: verbo + objeto indirecto (us) + objeto directo (ours). Los pronombres personales van antes que los posesivos."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "Give them theirs.",
+        "es": "Dales el suyo."
+      },
+      "solution": "Give them theirs.",
+      "tip": {
+        "en": "In imperatives, use the base form of the verb. The structure is: verb + indirect object (them) + direct object (theirs). Personal pronouns come before possessive pronouns.",
+        "es": "En imperativos, usa la forma básica del verbo. La estructura es: verbo + objeto indirecto (them) + objeto directo (theirs). Los pronombres personales van antes que los posesivos."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "Show me yours.",
+        "es": "Enséñame el tuyo."
+      },
+      "solution": "Show me yours.",
+      "tip": {
+        "en": "The verb 'show' follows the same pattern: verb + indirect object (me) + direct object (yours). Remember that imperatives use the base form of the verb.",
+        "es": "El verbo 'show' sigue el mismo patrón: verbo + objeto indirecto (me) + objeto directo (yours). Recuerda que los imperativos usan la forma básica del verbo."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "Show her his.",
+        "es": "Enséñale (a ella) el suyo (de él)."
+      },
+      "solution": "Show her his.",
+      "tip": {
+        "en": "The verb 'show' follows the same pattern: verb + indirect object (her) + direct object (his). Remember that imperatives use the base form of the verb.",
+        "es": "El verbo 'show' sigue el mismo patrón: verbo + objeto indirecto (her) + objeto directo (his). Recuerda que los imperativos usan la forma básica del verbo."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "Show them ours.",
+        "es": "Enséñales el nuestro."
+      },
+      "solution": "Show them ours.",
+      "tip": {
+        "en": "The verb 'show' follows the same pattern: verb + indirect object (them) + direct object (ours). Remember that imperatives use the base form of the verb.",
+        "es": "El verbo 'show' sigue el mismo patrón: verbo + objeto indirecto (them) + objeto directo (ours). Recuerda que los imperativos usan la forma básica del verbo."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "Show us theirs.",
+        "es": "Enséñanos el suyo (de ellos)."
+      },
+      "solution": "Show us theirs.",
+      "tip": {
+        "en": "The verb 'show' follows the same pattern: verb + indirect object (us) + direct object (theirs). Remember that imperatives use the base form of the verb.",
+        "es": "El verbo 'show' sigue el mismo patrón: verbo + objeto indirecto (us) + objeto directo (theirs). Recuerda que los imperativos usan la forma básica del verbo."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "Show him mine.",
+        "es": "Enséñale (a él) el mío."
+      },
+      "solution": "Show him mine.",
+      "tip": {
+        "en": "The verb 'show' follows the same pattern: verb + indirect object (him) + direct object (mine). Remember that imperatives use the base form of the verb.",
+        "es": "El verbo 'show' sigue el mismo patrón: verbo + objeto indirecto (him) + objeto directo (mine). Recuerda que los imperativos usan la forma básica del verbo."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "Tell me yours.",
+        "es": "Dime el tuyo."
+      },
+      "solution": "Tell me yours.",
+      "tip": {
+        "en": "The verb 'tell' follows the same imperative pattern: verb + indirect object (me) + direct object (yours). All imperatives use the base form of the verb.",
+        "es": "El verbo 'tell' sigue el mismo patrón imperativo: verbo + objeto indirecto (me) + objeto directo (yours). Todos los imperativos usan la forma básica del verbo."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "Tell him hers.",
+        "es": "Dile (a él) el suyo (de ella)."
+      },
+      "solution": "Tell him hers.",
+      "tip": {
+        "en": "The verb 'tell' follows the same imperative pattern: verb + indirect object (him) + direct object (hers). All imperatives use the base form of the verb.",
+        "es": "El verbo 'tell' sigue el mismo patrón imperativo: verbo + objeto indirecto (him) + objeto directo (hers). Todos los imperativos usan la forma básica del verbo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "Tell her mine.",
+        "es": "Dile (a ella) el mío."
+      },
+      "solution": "Tell her mine.",
+      "tip": {
+        "en": "The verb 'tell' follows the same imperative pattern: verb + indirect object (her) + direct object (mine). All imperatives use the base form of the verb.",
+        "es": "El verbo 'tell' sigue el mismo patrón imperativo: verbo + objeto indirecto (her) + objeto directo (mine). Todos los imperativos usan la forma básica del verbo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "Tell us his.",
+        "es": "Dinos el suyo (de él)."
+      },
+      "solution": "Tell us his.",
+      "tip": {
+        "en": "The verb 'tell' follows the same imperative pattern: verb + indirect object (us) + direct object (his). All imperatives use the base form of the verb.",
+        "es": "El verbo 'tell' sigue el mismo patrón imperativo: verbo + objeto indirecto (us) + objeto directo (his). Todos los imperativos usan la forma básica del verbo."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "Tell them ours.",
+        "es": "Diles el nuestro."
+      },
+      "solution": "Tell them ours.",
+      "tip": {
+        "en": "The verb 'tell' follows the same imperative pattern: verb + indirect object (them) + direct object (ours). All imperatives use the base form of the verb.",
+        "es": "El verbo 'tell' sigue el mismo patrón imperativo: verbo + objeto indirecto (them) + objeto directo (ours). Todos los imperativos usan la forma básica del verbo."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "Bring me mine.",
+        "es": "Tráeme el mío."
+      },
+      "solution": "Bring me mine.",
+      "tip": {
+        "en": "The verb 'bring' follows the same imperative pattern: verb + indirect object (me) + direct object (mine). Remember the consistent structure across all verbs.",
+        "es": "El verbo 'bring' sigue el mismo patrón imperativo: verbo + objeto indirecto (me) + objeto directo (mine). Recuerda la estructura consistente en todos los verbos."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "Bring him yours.",
+        "es": "Tráele (a él) el tuyo."
+      },
+      "solution": "Bring him yours.",
+      "tip": {
+        "en": "The verb 'bring' follows the same imperative pattern: verb + indirect object (him) + direct object (yours). Remember the consistent structure across all verbs.",
+        "es": "El verbo 'bring' sigue el mismo patrón imperativo: verbo + objeto indirecto (him) + objeto directo (yours). Recuerda la estructura consistente en todos los verbos."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "Bring her theirs.",
+        "es": "Tráele (a ella) el suyo (de ellos)."
+      },
+      "solution": "Bring her theirs.",
+      "tip": {
+        "en": "The verb 'bring' follows the same imperative pattern: verb + indirect object (her) + direct object (theirs). Remember the consistent structure across all verbs.",
+        "es": "El verbo 'bring' sigue el mismo patrón imperativo: verbo + objeto indirecto (her) + objeto directo (theirs). Recuerda la estructura consistente en todos los verbos."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "Bring us his.",
+        "es": "Tráenos el suyo (de él)."
+      },
+      "solution": "Bring us his.",
+      "tip": {
+        "en": "The verb 'bring' follows the same imperative pattern: verb + indirect object (us) + direct object (his). Remember the consistent structure across all verbs.",
+        "es": "El verbo 'bring' sigue el mismo patrón imperativo: verbo + objeto indirecto (us) + objeto directo (his). Recuerda la estructura consistente en todos los verbos."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "Bring them hers.",
+        "es": "Tráeles el suyo (de ella)."
+      },
+      "solution": "Bring them hers.",
+      "tip": {
+        "en": "The verb 'bring' follows the same imperative pattern: verb + indirect object (them) + direct object (hers). Remember the consistent structure across all verbs.",
+        "es": "El verbo 'bring' sigue el mismo patrón imperativo: verbo + objeto indirecto (them) + objeto directo (hers). Recuerda la estructura consistente en todos los verbos."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "Send me yours.",
+        "es": "Envíame el tuyo."
+      },
+      "solution": "Send me yours.",
+      "tip": {
+        "en": "The verb 'send' follows the same imperative pattern: verb + indirect object (me) + direct object (yours). Practice this structure to master imperatives with pronouns.",
+        "es": "El verbo 'send' sigue el mismo patrón imperativo: verbo + objeto indirecto (me) + objeto directo (yours). Practica esta estructura para dominar los imperativos con pronombres."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "Send him mine.",
+        "es": "Envíale (a él) el mío."
+      },
+      "solution": "Send him mine.",
+      "tip": {
+        "en": "The verb 'send' follows the same imperative pattern: verb + indirect object (him) + direct object (mine). Practice this structure to master imperatives with pronouns.",
+        "es": "El verbo 'send' sigue el mismo patrón imperativo: verbo + objeto indirecto (him) + objeto directo (mine). Practica esta estructura para dominar los imperativos con pronombres."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "Send her ours.",
+        "es": "Envíale (a ella) el nuestro."
+      },
+      "solution": "Send her ours.",
+      "tip": {
+        "en": "The verb 'send' follows the same imperative pattern: verb + indirect object (her) + direct object (ours). Practice this structure to master imperatives with pronouns.",
+        "es": "El verbo 'send' sigue el mismo patrón imperativo: verbo + objeto indirecto (her) + objeto directo (ours). Practica esta estructura para dominar los imperativos con pronombres."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "Send us theirs.",
+        "es": "Envíanos el suyo (de ellos)."
+      },
+      "solution": "Send us theirs.",
+      "tip": {
+        "en": "The verb 'send' follows the same imperative pattern: verb + indirect object (us) + direct object (theirs). Practice this structure to master imperatives with pronouns.",
+        "es": "El verbo 'send' sigue el mismo patrón imperativo: verbo + objeto indirecto (us) + objeto directo (theirs). Practica esta estructura para dominar los imperativos con pronombres."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "Send them his.",
+        "es": "Envíales el suyo (de él)."
+      },
+      "solution": "Send them his.",
+      "tip": {
+        "en": "The verb 'send' follows the same imperative pattern: verb + indirect object (them) + direct object (his). Practice this structure to master imperatives with pronouns.",
+        "es": "El verbo 'send' sigue el mismo patrón imperativo: verbo + objeto indirecto (them) + objeto directo (his). Practica esta estructura para dominar los imperativos con pronombres."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "Lend me yours.",
+        "es": "Préstame el tuyo."
+      },
+      "solution": "Lend me yours.",
+      "tip": {
+        "en": "The verb 'lend' follows the same imperative pattern: verb + indirect object (me) + direct object (yours). This structure works with all verbs that take two objects.",
+        "es": "El verbo 'lend' sigue el mismo patrón imperativo: verbo + objeto indirecto (me) + objeto directo (yours). Esta estructura funciona con todos los verbos que toman dos objetos."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "Lend him hers.",
+        "es": "Préstale (a él) el suyo (de ella)."
+      },
+      "solution": "Lend him hers.",
+      "tip": {
+        "en": "The verb 'lend' follows the same imperative pattern: verb + indirect object (him) + direct object (hers). This structure works with all verbs that take two objects.",
+        "es": "El verbo 'lend' sigue el mismo patrón imperativo: verbo + objeto indirecto (him) + objeto directo (hers). Esta estructura funciona con todos los verbos que toman dos objetos."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "Lend her mine.",
+        "es": "Préstale (a ella) el mío."
+      },
+      "solution": "Lend her mine.",
+      "tip": {
+        "en": "The verb 'lend' follows the same imperative pattern: verb + indirect object (her) + direct object (mine). This structure works with all verbs that take two objects.",
+        "es": "El verbo 'lend' sigue el mismo patrón imperativo: verbo + objeto indirecto (her) + objeto directo (mine). Esta estructura funciona con todos los verbos que toman dos objetos."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "Lend us his.",
+        "es": "Préstanos el suyo (de él)."
+      },
+      "solution": "Lend us his.",
+      "tip": {
+        "en": "The verb 'lend' follows the same imperative pattern: verb + indirect object (us) + direct object (his). This structure works with all verbs that take two objects.",
+        "es": "El verbo 'lend' sigue el mismo patrón imperativo: verbo + objeto indirecto (us) + objeto directo (his). Esta estructura funciona con todos los verbos que toman dos objetos."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "Lend them ours.",
+        "es": "Préstales el nuestro."
+      },
+      "solution": "Lend them ours.",
+      "tip": {
+        "en": "The verb 'lend' follows the same imperative pattern: verb + indirect object (them) + direct object (ours). This structure works with all verbs that take two objects.",
+        "es": "El verbo 'lend' sigue el mismo patrón imperativo: verbo + objeto indirecto (them) + objeto directo (ours). Esta estructura funciona con todos los verbos que toman dos objetos."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "en": "Teach me yours.",
+        "es": "Enséñame el tuyo."
+      },
+      "solution": "Teach me yours.",
+      "tip": {
+        "en": "The verb 'teach' can also follow this pattern when referring to methods, techniques, or approaches: verb + indirect object (me) + direct object (yours).",
+        "es": "El verbo 'teach' también puede seguir este patrón cuando se refiere a métodos, técnicas o enfoques: verbo + objeto indirecto (me) + objeto directo (yours)."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "en": "Teach him mine.",
+        "es": "Enséñale (a él) el mío."
+      },
+      "solution": "Teach him mine.",
+      "tip": {
+        "en": "The verb 'teach' can also follow this pattern when referring to methods, techniques, or approaches: verb + indirect object (him) + direct object (mine).",
+        "es": "El verbo 'teach' también puede seguir este patrón cuando se refiere a métodos, técnicas o enfoques: verbo + objeto indirecto (him) + objeto directo (mine)."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "en": "Teach her his.",
+        "es": "Enséñale (a ella) el suyo (de él)."
+      },
+      "solution": "Teach her his.",
+      "tip": {
+        "en": "The verb 'teach' can also follow this pattern when referring to methods, techniques, or approaches: verb + indirect object (her) + direct object (his).",
+        "es": "El verbo 'teach' también puede seguir este patrón cuando se refiere a métodos, técnicas o enfoques: verbo + objeto indirecto (her) + objeto directo (his)."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "en": "Teach us theirs.",
+        "es": "Enséñanos el suyo (de ellos)."
+      },
+      "solution": "Teach us theirs.",
+      "tip": {
+        "en": "The verb 'teach' can also follow this pattern when referring to methods, techniques, or approaches: verb + indirect object (us) + direct object (theirs).",
+        "es": "El verbo 'teach' también puede seguir este patrón cuando se refiere a métodos, técnicas o enfoques: verbo + objeto indirecto (us) + objeto directo (theirs)."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "en": "Teach them hers.",
+        "es": "Enséñales el suyo (de ella)."
+      },
+      "solution": "Teach them hers.",
+      "tip": {
+        "en": "The verb 'teach' can also follow this pattern when referring to methods, techniques, or approaches: verb + indirect object (them) + direct object (hers).",
+        "es": "El verbo 'teach' también puede seguir este patrón cuando se refiere a métodos, técnicas o enfoques: verbo + objeto indirecto (them) + objeto directo (hers)."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "en": "Buy me mine.",
+        "es": "Cómprame el mío."
+      },
+      "solution": "Buy me mine.",
+      "tip": {
+        "en": "The verb 'buy' follows the same imperative pattern: verb + indirect object (me) + direct object (mine). This works when referring to specific items already discussed.",
+        "es": "El verbo 'buy' sigue el mismo patrón imperativo: verbo + objeto indirecto (me) + objeto directo (mine). Esto funciona cuando se refiere a artículos específicos ya discutidos."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "en": "Buy him yours.",
+        "es": "Cómprale (a él) el tuyo."
+      },
+      "solution": "Buy him yours.",
+      "tip": {
+        "en": "The verb 'buy' follows the same imperative pattern: verb + indirect object (him) + direct object (yours). This works when referring to specific items already discussed.",
+        "es": "El verbo 'buy' sigue el mismo patrón imperativo: verbo + objeto indirecto (him) + objeto directo (yours). Esto funciona cuando se refiere a artículos específicos ya discutidos."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "en": "Buy her his.",
+        "es": "Cómprale (a ella) el suyo (de él)."
+      },
+      "solution": "Buy her his.",
+      "tip": {
+        "en": "The verb 'buy' follows the same imperative pattern: verb + indirect object (her) + direct object (his). This works when referring to specific items already discussed.",
+        "es": "El verbo 'buy' sigue el mismo patrón imperativo: verbo + objeto indirecto (her) + objeto directo (his). Esto funciona cuando se refiere a artículos específicos ya discutidos."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "en": "Buy us ours.",
+        "es": "Cómpranos el nuestro."
+      },
+      "solution": "Buy us ours.",
+      "tip": {
+        "en": "The verb 'buy' follows the same imperative pattern: verb + indirect object (us) + direct object (ours). This works when referring to specific items already discussed.",
+        "es": "El verbo 'buy' sigue el mismo patrón imperativo: verbo + objeto indirecto (us) + objeto directo (ours). Esto funciona cuando se refiere a artículos específicos ya discutidos."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "en": "Buy them theirs.",
+        "es": "Cómprales el suyo (de ellos)."
+      },
+      "solution": "Buy them theirs.",
+      "tip": {
+        "en": "The verb 'buy' follows the same imperative pattern: verb + indirect object (them) + direct object (theirs). This works when referring to specific items already discussed.",
+        "es": "El verbo 'buy' sigue el mismo patrón imperativo: verbo + objeto indirecto (them) + objeto directo (theirs). Esto funciona cuando se refiere a artículos específicos ya discutidos."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "en": "Read me yours.",
+        "es": "Léeme el tuyo."
+      },
+      "solution": "Read me yours.",
+      "tip": {
+        "en": "The verb 'read' can follow this pattern when referring to texts, letters, or documents: verb + indirect object (me) + direct object (yours).",
+        "es": "El verbo 'read' puede seguir este patrón cuando se refiere a textos, cartas o documentos: verbo + objeto indirecto (me) + objeto directo (yours)."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "en": "Read him hers.",
+        "es": "Léele (a él) el suyo (de ella)."
+      },
+      "solution": "Read him hers.",
+      "tip": {
+        "en": "The verb 'read' can follow this pattern when referring to texts, letters, or documents: verb + indirect object (him) + direct object (hers).",
+        "es": "El verbo 'read' puede seguir este patrón cuando se refiere a textos, cartas o documentos: verbo + objeto indirecto (him) + objeto directo (hers)."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "en": "Read her mine.",
+        "es": "Léele (a ella) el mío."
+      },
+      "solution": "Read her mine.",
+      "tip": {
+        "en": "The verb 'read' can follow this pattern when referring to texts, letters, or documents: verb + indirect object (her) + direct object (mine).",
+        "es": "El verbo 'read' puede seguir este patrón cuando se refiere a textos, cartas o documentos: verbo + objeto indirecto (her) + objeto directo (mine)."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "en": "Read us his.",
+        "es": "Léenos el suyo (de él)."
+      },
+      "solution": "Read us his.",
+      "tip": {
+        "en": "The verb 'read' can follow this pattern when referring to texts, letters, or documents: verb + indirect object (us) + direct object (his).",
+        "es": "El verbo 'read' puede seguir este patrón cuando se refiere a textos, cartas o documentos: verbo + objeto indirecto (us) + objeto directo (his)."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "en": "Read them ours.",
+        "es": "Léeles el nuestro."
+      },
+      "solution": "Read them ours.",
+      "tip": {
+        "en": "The verb 'read' can follow this pattern when referring to texts, letters, or documents: verb + indirect object (them) + direct object (ours).",
+        "es": "El verbo 'read' puede seguir este patrón cuando se refiere a textos, cartas o documentos: verbo + objeto indirecto (them) + objeto directo (ours)."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "en": "Sell me yours.",
+        "es": "Véndeme el tuyo."
+      },
+      "solution": "Sell me yours.",
+      "tip": {
+        "en": "The verb 'sell' follows the same imperative pattern: verb + indirect object (me) + direct object (yours). Master this structure for clear, concise commands.",
+        "es": "El verbo 'sell' sigue el mismo patrón imperativo: verbo + objeto indirecto (me) + objeto directo (yours). Domina esta estructura para órdenes claras y concisas."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "en": "Sell him mine.",
+        "es": "Véndele (a él) el mío."
+      },
+      "solution": "Sell him mine.",
+      "tip": {
+        "en": "The verb 'sell' follows the same imperative pattern: verb + indirect object (him) + direct object (mine). Master this structure for clear, concise commands.",
+        "es": "El verbo 'sell' sigue el mismo patrón imperativo: verbo + objeto indirecto (him) + objeto directo (mine). Domina esta estructura para órdenes claras y concisas."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "en": "Sell her theirs.",
+        "es": "Véndele (a ella) el suyo (de ellos)."
+      },
+      "solution": "Sell her theirs.",
+      "tip": {
+        "en": "The verb 'sell' follows the same imperative pattern: verb + indirect object (her) + direct object (theirs). Master this structure for clear, concise commands.",
+        "es": "El verbo 'sell' sigue el mismo patrón imperativo: verbo + objeto indirecto (her) + objeto directo (theirs). Domina esta estructura para órdenes claras y concisas."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "en": "Sell us his.",
+        "es": "Véndenos el suyo (de él)."
+      },
+      "solution": "Sell us his.",
+      "tip": {
+        "en": "The verb 'sell' follows the same imperative pattern: verb + indirect object (us) + direct object (his). Master this structure for clear, concise commands.",
+        "es": "El verbo 'sell' sigue el mismo patrón imperativo: verbo + objeto indirecto (us) + objeto directo (his). Domina esta estructura para órdenes claras y concisas."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "en": "Sell them hers.",
+        "es": "Véndeles el suyo (de ella)."
+      },
+      "solution": "Sell them hers.",
+      "tip": {
+        "en": "The verb 'sell' follows the same imperative pattern: verb + indirect object (them) + direct object (hers). Master this structure for clear, concise commands.",
+        "es": "El verbo 'sell' sigue el mismo patrón imperativo: verbo + objeto indirecto (them) + objeto directo (hers). Domina esta estructura para órdenes claras y concisas."
+      }
+    }
+  ]
+}

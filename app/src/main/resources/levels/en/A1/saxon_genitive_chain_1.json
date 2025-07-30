@@ -1,0 +1,274 @@
+{
+  "title": {
+    "en": "Saxon Genitive Chain (Genitivo Sajón en cadena)",
+    "es": "Saxon Genitive Chain (Genitivo Sajón en cadena)"
+  },
+  "description": {
+    "en": "Learn to form complex possessive chains using the Saxon genitive. Master the reverse order: what comes first in Spanish goes last in English.",
+    "es": "Aprende a formar cadenas posesivas complejas usando el genitivo sajón. Domina el orden inverso: lo que va primero en español, va último en inglés."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "My uncle's neighbour's dog is blind.",
+        "es": "El perro del vecino de mi tío es ciego."
+      },
+      "solution": "My uncle's neighbour's dog is blind.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (my uncle's) and end with what comes first (dog). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (my uncle's) y termina con lo que va primero (dog). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "My boss's boss's desk is messy.",
+        "es": "La mesa de trabajo de la jefa de mi jefe está desordenada."
+      },
+      "solution": "My boss's boss's desk is messy.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (my boss's) and end with what comes first (desk). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (my boss's) y termina con lo que va primero (desk). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "I met my husband's colleague's cousin in the street market.",
+        "es": "Encontré al primo del compañero de mi marido en el mercadillo."
+      },
+      "solution": "I met my husband's colleague's cousin in the street market.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (my husband's) and end with what comes first (cousin). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (my husband's) y termina con lo que va primero (cousin). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't know my wife's friend's aunt.",
+        "es": "No conozco a la tía de la amiga de mi mujer."
+      },
+      "solution": "I don't know my wife's friend's aunt.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (my wife's) and end with what comes first (aunt). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (my wife's) y termina con lo que va primero (aunt). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "My friend's father's car doesn't work.",
+        "es": "El coche del padre de mi amigo no anda."
+      },
+      "solution": "My friend's father's car doesn't work.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (my friend's) and end with what comes first (car). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (my friend's) y termina con lo que va primero (car). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "My cat ate my boss's wife's aunt's neighbour's canary.",
+        "es": "Mi gato se comió al canario del vecino de la tía de la mujer de mi jefe."
+      },
+      "solution": "My cat ate my boss's wife's aunt's neighbour's canary.",
+      "tip": {
+        "en": "Complex chains require careful reversal. Start from the end in Spanish (my boss's) and work backwards to the beginning (canary). Practice step by step with longer chains.",
+        "es": "Las cadenas complejas requieren inversión cuidadosa. Empieza desde el final en español (my boss's) y ve hacia atrás hasta el principio (canary). Practica paso a paso con cadenas más largas."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "Yesterday I had lunch with the King's gardener's brother-in-law's friend.",
+        "es": "Ayer comí con el amigo del cuñado del jardinero del Rey."
+      },
+      "solution": "Yesterday I had lunch with the King's gardener's brother-in-law's friend.",
+      "tip": {
+        "en": "Complex chains require careful reversal. Start from the end in Spanish (the King's) and work backwards to the beginning (friend). Practice step by step with longer chains.",
+        "es": "Las cadenas complejas requieren inversión cuidadosa. Empieza desde el final en español (the King's) y ve hacia atrás hasta el principio (friend). Practica paso a paso con cadenas más largas."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "The mayor of Madrid's cousin's son's toy train has disappeared.",
+        "es": "El trenecito del hijo del primo del alcalde de Madrid ha desaparecido."
+      },
+      "solution": "The mayor of Madrid's cousin's son's toy train has disappeared.",
+      "tip": {
+        "en": "With titles and places, use 'of' within the possessive chain (mayor of Madrid's). Then continue the Saxon genitive pattern for the rest of the chain.",
+        "es": "Con títulos y lugares, usa 'of' dentro de la cadena posesiva (mayor of Madrid's). Luego continúa el patrón del genitivo sajón para el resto de la cadena."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "Carlos's sister's doctor's girlfriend is pregnant.",
+        "es": "La novia del médico de la hermana de Carlos está embarazada."
+      },
+      "solution": "Carlos's sister's doctor's girlfriend is pregnant.",
+      "tip": {
+        "en": "Complex chains require careful reversal. Start from the end in Spanish (Carlos's) and work backwards to the beginning (girlfriend). Practice step by step with longer chains.",
+        "es": "Las cadenas complejas requieren inversión cuidadosa. Empieza desde el final en español (Carlos's) y ve hacia atrás hasta el principio (girlfriend). Practica paso a paso con cadenas más largas."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "My boss's boss is loaded.",
+        "es": "El jefe del jefe de mi jefe está forrado."
+      },
+      "solution": "My boss's is loaded.",
+      "tip": {
+        "en": "Even with repetitive chains, follow the same rule. Start with the deepest possessor (my boss's) and add each level. While extreme, it shows the pattern clearly.",
+        "es": "Incluso con cadenas repetitivas, sigue la misma regla. Empieza con el poseedor más profundo (my boss's) y añade cada nivel. Aunque extremo, muestra el patrón claramente."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "My teacher's daughter's boyfriend's car is red.",
+        "es": "El coche del novio de la hija de mi profesor es rojo."
+      },
+      "solution": "My teacher's daughter's boyfriend's car is red.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (my teacher's) and end with what comes first (car). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (my teacher's) y termina con lo que va primero (car). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "The president's secretary's husband's job is important.",
+        "es": "El trabajo del marido de la secretaria del presidente es importante."
+      },
+      "solution": "The president's secretary's husband's job is important.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (the president's) and end with what comes first (job). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (the president's) y termina con lo que va primero (job). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "My grandmother's neighbor's cat's toy is broken.",
+        "es": "El juguete del gato del vecino de mi abuela está roto."
+      },
+      "solution": "My grandmother's neighbor's cat's toy is broken.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (my grandmother's) and end with what comes first (toy). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (my grandmother's) y termina con lo que va primero (toy). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "The doctor's assistant's brother's house is beautiful.",
+        "es": "La casa del hermano de la asistente del doctor es preciosa."
+      },
+      "solution": "The doctor's assistant's brother's house is beautiful.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (the doctor's) and end with what comes first (house). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (the doctor's) y termina con lo que va primero (house). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "My cousin's friend's mother's recipe is delicious.",
+        "es": "La receta de la madre de la amiga de mi prima es deliciosa."
+      },
+      "solution": "My cousin's friend's mother's recipe is delicious.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (my cousin's) and end with what comes first (recipe). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (my cousin's) y termina con lo que va primero (recipe). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "The mayor's wife's sister's dog is very friendly.",
+        "es": "El perro de la hermana de la mujer del alcalde es muy amigable."
+      },
+      "solution": "The mayor's wife's sister's dog is very friendly.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (the mayor's) and end with what comes first (dog). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (the mayor's) y termina con lo que va primero (dog). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "My neighbor's son's girlfriend's bicycle was stolen.",
+        "es": "La bicicleta de la novia del hijo de mi vecino fue robada."
+      },
+      "solution": "My neighbor's son's girlfriend's bicycle was stolen.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (my neighbor's) and end with what comes first (bicycle). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (my neighbor's) y termina con lo que va primero (bicycle). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "The librarian's daughter's teacher's book is interesting.",
+        "es": "El libro del profesor de la hija de la bibliotecaria es interesante."
+      },
+      "solution": "The librarian's daughter's teacher's book is interesting.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (the librarian's) and end with what comes first (book). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (the librarian's) y termina con lo que va primero (book). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "My brother's classmate's father's company is successful.",
+        "es": "La empresa del padre del compañero de mi hermano es exitosa."
+      },
+      "solution": "My brother's classmate's father's company is successful.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (my brother's) and end with what comes first (company). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (my brother's) y termina con lo que va primero (company). Cada poseedor añade 's."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "The chef's assistant's wife's garden is magnificent.",
+        "es": "El jardín de la mujer del asistente del chef es magnífico."
+      },
+      "solution": "The chef's assistant's wife's garden is magnificent.",
+      "tip": {
+        "en": "In Saxon genitive chains, reverse the Spanish order. Start with what comes last in Spanish (the chef's) and end with what comes first (garden). Each possessor adds 's.",
+        "es": "En cadenas del genitivo sajón, invierte el orden español. Empieza con lo que va último en español (the chef's) y termina con lo que va primero (garden). Cada poseedor añade 's."
+      }
+    }
+  ]
+}

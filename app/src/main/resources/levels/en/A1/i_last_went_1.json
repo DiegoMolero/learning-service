@@ -1,0 +1,214 @@
+{
+  "title": {
+    "en": "I last went... / I first went...",
+    "es": "I last went... / I first went... (Expresiones de tiempo)"
+  },
+  "description": {
+    "en": "Learn how to rephrase 'The last time I...' and 'The first time I...' using natural structures.",
+    "es": "Aprende a reformular 'The last time I...' y 'The first time I...' usando estructuras naturales."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "rephrasing",
+      "prompt": "The last time I went there was three years ago.",
+      "solution": "I last went there three years ago.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + last + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + last.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + last + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + last."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "rephrasing",
+      "prompt": "The last time I ate squid was two months ago.",
+      "solution": "I last ate squid two months ago.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + last + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + last.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + last + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + last."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "rephrasing",
+      "prompt": "The last time they spoke Italian was eight years ago.",
+      "solution": "They last spoke Italian eight years ago.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + last + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + last.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + last + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + last."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "rephrasing",
+      "prompt": "The last time I won a prize was fifteen years ago.",
+      "solution": "I last won a prize fifteen years ago.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + last + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + last.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + last + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + last."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "rephrasing",
+      "prompt": "The last time I was in Valencia was three weeks ago.",
+      "solution": "I was last in Valencia three weeks ago.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + last + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + last.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + last + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + last."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "rephrasing",
+      "prompt": "The first time I went to Paris was twenty years ago.",
+      "solution": "I first went to Paris twenty years ago.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + first + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + first.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + first + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + first."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "rephrasing",
+      "prompt": "The first time I met her was at a ball.",
+      "solution": "I first met her at a ball.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + first + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + first.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + first + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + first."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "rephrasing",
+      "prompt": "The first time I spoke in public was ten years ago.",
+      "solution": "I first spoke in public ten years ago.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + first + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + first.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + first + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + first."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "rephrasing",
+      "prompt": "The first time he got married was three years ago.",
+      "solution": "He first got married three years ago.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + first + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + first.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + first + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + first."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "rephrasing",
+      "prompt": "The first time she was in hospital was five years ago.",
+      "solution": "She was first in hospital five years ago.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + first + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + first.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + first + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + first."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "rephrasing",
+      "prompt": "The last time we visited London was last summer.",
+      "solution": "We last visited London last summer.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + last + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + last.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + last + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + last."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "rephrasing",
+      "prompt": "The last time she had a holiday was six months ago.",
+      "solution": "She last had a holiday six months ago.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + last + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + last.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + last + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + last."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "rephrasing",
+      "prompt": "The last time they were happy was before the accident.",
+      "solution": "They were last happy before the accident.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + last + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + last.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + last + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + last."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "rephrasing",
+      "prompt": "The last time I played tennis was two years ago.",
+      "solution": "I last played tennis two years ago.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + last + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + last.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + last + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + last."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "rephrasing",
+      "prompt": "The last time he could swim was before his injury.",
+      "solution": "He could last swim before his injury.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + last + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + last.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + last + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + last."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "rephrasing",
+      "prompt": "The first time I drove a car was when I was eighteen.",
+      "solution": "I first drove a car when I was eighteen.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + first + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + first.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + first + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + first."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "rephrasing",
+      "prompt": "The first time they lived abroad was in Germany.",
+      "solution": "They first lived abroad in Germany.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + first + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + first.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + first + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + first."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "rephrasing",
+      "prompt": "The first time she was pregnant was at twenty-five.",
+      "solution": "She was first pregnant at twenty-five.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + first + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + first.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + first + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + first."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "rephrasing",
+      "prompt": "The first time I ate sushi was in Tokyo.",
+      "solution": "I first ate sushi in Tokyo.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + first + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + first.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + first + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + first."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "rephrasing",
+      "prompt": "The first time we were able to travel was after graduation.",
+      "solution": "We were first able to travel after graduation.",
+      "tip": {
+        "en": "For all verbs except auxiliaries: subject + first + verb (past simple). For auxiliary verbs including 'to be': subject + verb (past simple) + first.",
+        "es": "Para todos los verbos salvo auxiliares: sujeto + first + verbo (pasado simple). Para verbos auxiliares incluyendo 'to be': sujeto + verbo (pasado simple) + first."
+      }
+    }
+  ]
+}

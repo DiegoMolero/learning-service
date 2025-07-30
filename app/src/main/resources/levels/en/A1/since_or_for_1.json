@@ -1,0 +1,664 @@
+{
+  "title": {
+    "en": "Since or For (Desde o Desde hace)",
+    "es": "Since or For (Desde o Desde hace)"
+  },
+  "description": {
+    "en": "Learn when to use 'since' for specific points in time and 'for' for periods of time. Practice with Present Perfect and Present Perfect Continuous tenses.",
+    "es": "Aprende cuándo usar 'since' para puntos específicos en el tiempo y 'for' para períodos de tiempo. Practica con Present Perfect y Present Perfect Continuous."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "I've lived in Spain since 1999.",
+        "es": "Vivo en España desde 1999."
+      },
+      "solution": "I've lived in Spain since 1999.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "I've worked in this company since March.",
+        "es": "Trabajo en esta empresa desde marzo."
+      },
+      "solution": "I've worked in this company since March.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "I've known her since 1989.",
+        "es": "La conozco desde 1989."
+      },
+      "solution": "I've known her since 1989.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "England hasn't won the World Cup since 1966.",
+        "es": "Inglaterra no gana el mundial desde 1966."
+      },
+      "solution": "England hasn't won the World Cup since 1966.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "She hasn't worked since last week.",
+        "es": "Ella no trabaja desde la semana pasada."
+      },
+      "solution": "She hasn't worked since last week.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "My computer hasn't been working since Tuesday.",
+        "es": "Mi ordenador no funciona desde el martes."
+      },
+      "solution": "My computer hasn't been working since Tuesday.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' + specific point in time (Tuesday).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' + punto específico en el tiempo (martes)."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been working since first thing this morning.",
+        "es": "Llevo desde primera hora de la mañana trabajando."
+      },
+      "solution": "I've been working since first thing this morning.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' + specific point in time (this morning).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' + punto específico en el tiempo (esta mañana)."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been trying to speak to her since Monday.",
+        "es": "Llevo desde el lunes intentando hablar con ella."
+      },
+      "solution": "I've been trying to speak to her since Monday.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' + specific point in time (Monday).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' + punto específico en el tiempo (lunes)."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been playing the lottery since I came to Spain.",
+        "es": "Juego a la lotería desde que vine a España."
+      },
+      "solution": "I've been playing the lottery since I came to Spain.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' can also be followed by a clause (since I came...).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' también puede ir seguido de una cláusula (since I came...)."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been drinking wine since 2002.",
+        "es": "Bebo vino desde 2002."
+      },
+      "solution": "I've been drinking wine since 2002.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' + specific point in time (2002).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' + punto específico en el tiempo (2002)."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "I've lived in Spain for three years.",
+        "es": "Vivo en España desde hace tres años."
+      },
+      "solution": "I've lived in Spain for three years.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "I've worked in this company for four months.",
+        "es": "Trabajo en esta empresa desde hace cuatro meses."
+      },
+      "solution": "I've worked in this company for four months.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "I've known her for a year and a half.",
+        "es": "La conozco desde hace un año y medio."
+      },
+      "solution": "I've known her for a year and a half.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "England hasn't won the World Cup for years.",
+        "es": "Inglaterra no gana el mundial desde hace años."
+      },
+      "solution": "England hasn't won the World Cup for years.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "She hasn't worked for three weeks.",
+        "es": "Ella no trabaja desde hace tres semanas."
+      },
+      "solution": "She hasn't worked for three weeks.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "My computer hasn't been working for two weeks.",
+        "es": "Mi ordenador no funciona desde hace dos semanas."
+      },
+      "solution": "My computer hasn't been working for two weeks.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (two weeks).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (dos semanas)."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been working for twelve hours.",
+        "es": "Estoy trabajando desde hace doce horas."
+      },
+      "solution": "I've been working for twelve hours.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (twelve hours).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (doce horas)."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been trying to speak to her for hours.",
+        "es": "Llevo (desde hace) horas intentando hablar con ella."
+      },
+      "solution": "I've been trying to speak to her for hours.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (hours).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (horas)."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been playing the lottery for years.",
+        "es": "Juego a la lotería desde hace años."
+      },
+      "solution": "I've been playing the lottery for years.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (years).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (años)."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been drinking wine for ten years.",
+        "es": "Bebo vino desde hace diez años."
+      },
+      "solution": "I've been drinking wine for ten years.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (ten years).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (diez años)."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "I've lived here since 2010.",
+        "es": "Vivo aquí desde 2010."
+      },
+      "solution": "I've lived here since 2010.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "I've lived here for fifteen years.",
+        "es": "Vivo aquí desde hace quince años."
+      },
+      "solution": "I've lived here for fifteen years.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "She's been studying English since January.",
+        "es": "Estudia inglés desde enero."
+      },
+      "solution": "She's been studying English since January.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' + specific point in time (January).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' + punto específico en el tiempo (enero)."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "She's been studying English for six months.",
+        "es": "Estudia inglés desde hace seis meses."
+      },
+      "solution": "She's been studying English for six months.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (six months).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (seis meses)."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "We haven't seen him since Christmas.",
+        "es": "No lo vemos desde Navidad."
+      },
+      "solution": "We haven't seen him since Christmas.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "We haven't seen him for two months.",
+        "es": "No lo vemos desde hace dos meses."
+      },
+      "solution": "We haven't seen him for two months.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been waiting since nine o'clock.",
+        "es": "Estoy esperando desde las nueve."
+      },
+      "solution": "I've been waiting since nine o'clock.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' + specific point in time (nine o'clock).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' + punto específico en el tiempo (las nueve)."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been waiting for three hours.",
+        "es": "Estoy esperando desde hace tres horas."
+      },
+      "solution": "I've been waiting for three hours.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (three hours).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (tres horas)."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "He's been sick since last Friday.",
+        "es": "Está enfermo desde el viernes pasado."
+      },
+      "solution": "He's been sick since last Friday.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' + specific point in time (last Friday).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' + punto específico en el tiempo (el viernes pasado)."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "He's been sick for a week.",
+        "es": "Está enfermo desde hace una semana."
+      },
+      "solution": "He's been sick for a week.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (a week).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (una semana)."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "en": "They've lived in London since 2015.",
+        "es": "Viven en Londres desde 2015."
+      },
+      "solution": "They've lived in London since 2015.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "en": "They've lived in London for eight years.",
+        "es": "Viven en Londres desde hace ocho años."
+      },
+      "solution": "They've lived in London for eight years.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "en": "I haven't eaten since breakfast.",
+        "es": "No como desde el desayuno."
+      },
+      "solution": "I haven't eaten since breakfast.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "en": "I haven't eaten for five hours.",
+        "es": "No como desde hace cinco horas."
+      },
+      "solution": "I haven't eaten for five hours.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "en": "She's been driving since she was eighteen.",
+        "es": "Conduce desde que tenía dieciocho años."
+      },
+      "solution": "She's been driving since she was eighteen.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' can also be followed by a clause (since she was...).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' también puede ir seguido de una cláusula (since she was...)."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "en": "She's been driving for twenty years.",
+        "es": "Conduce desde hace veinte años."
+      },
+      "solution": "She's been driving for twenty years.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (twenty years).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (veinte años)."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "en": "We haven't traveled since the pandemic started.",
+        "es": "No viajamos desde que empezó la pandemia."
+      },
+      "solution": "We haven't traveled since the pandemic started.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). 'Since' can also be followed by a clause.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). 'Since' también puede ir seguido de una cláusula."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "en": "We haven't traveled for two years.",
+        "es": "No viajamos desde hace dos años."
+      },
+      "solution": "We haven't traveled for two years.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been learning guitar since September.",
+        "es": "Aprendo guitarra desde septiembre."
+      },
+      "solution": "I've been learning guitar since September.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' + specific point in time (September).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' + punto específico en el tiempo (septiembre)."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been learning guitar for four months.",
+        "es": "Aprendo guitarra desde hace cuatro meses."
+      },
+      "solution": "I've been learning guitar for four months.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (four months).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (cuatro meses)."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "en": "They've known each other since university.",
+        "es": "Se conocen desde la universidad."
+      },
+      "solution": "They've known each other since university.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "en": "They've known each other for fifteen years.",
+        "es": "Se conocen desde hace quince años."
+      },
+      "solution": "They've known each other for fifteen years.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "en": "It's been raining since this morning.",
+        "es": "Llueve desde esta mañana."
+      },
+      "solution": "It's been raining since this morning.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' + specific point in time (this morning).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' + punto específico en el tiempo (esta mañana)."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "en": "It's been raining for three hours.",
+        "es": "Llueve desde hace tres horas."
+      },
+      "solution": "It's been raining for three hours.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (three hours).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (tres horas)."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "en": "I haven't smoked since my birthday.",
+        "es": "No fumo desde mi cumpleaños."
+      },
+      "solution": "I haven't smoked since my birthday.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "en": "I haven't smoked for six months.",
+        "es": "No fumo desde hace seis meses."
+      },
+      "solution": "I haven't smoked for six months.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "en": "We've been married since 2018.",
+        "es": "Estamos casados desde 2018."
+      },
+      "solution": "We've been married since 2018.",
+      "tip": {
+        "en": "Use 'since' with specific points in time (dates, days, months, years). 'Since' = desde (a specific moment). We use Present Perfect when we started something in the past and continue until now.",
+        "es": "Usa 'since' con puntos específicos en el tiempo (fechas, días, meses, años). 'Since' = desde (un momento específico). Usamos Present Perfect cuando empezamos algo en el pasado y continúa hasta ahora."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "en": "We've been married for five years.",
+        "es": "Estamos casados desde hace cinco años."
+      },
+      "solution": "We've been married for five years.",
+      "tip": {
+        "en": "Use 'for' with periods of time (minutes, hours, days, weeks, months, years). 'For' = desde hace (a duration). We use Present Perfect for actions that started in the past and continue now.",
+        "es": "Usa 'for' con períodos de tiempo (minutos, horas, días, semanas, meses, años). 'For' = desde hace (una duración). Usamos Present Perfect para acciones que empezaron en el pasado y continúan ahora."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "en": "He's been running since dawn.",
+        "es": "Corre desde el amanecer."
+      },
+      "solution": "He's been running since dawn.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that started at a specific time. 'Since' + specific point in time (dawn).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que empezaron en un momento específico. 'Since' + punto específico en el tiempo (amanecer)."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "en": "He's been running for two hours.",
+        "es": "Corre desde hace dos horas."
+      },
+      "solution": "He's been running for two hours.",
+      "tip": {
+        "en": "Use Present Perfect Continuous for ongoing actions or states that have lasted for a period of time. 'For' + duration (two hours).",
+        "es": "Usa Present Perfect Continuous para acciones o estados continuos que han durado por un período de tiempo. 'For' + duración (dos horas)."
+      }
+    }
+  ]
+}

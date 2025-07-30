@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "No longer (Ya no...)",
+    "es": "No longer (Ya no...)"
+  },
+  "description": {
+    "en": "Learn to use 'no longer' to express 'ya no...' Position depends on verb type: before normal verbs, after auxiliary verbs (including 'to be').",
+    "es": "Aprende a usar 'no longer' para expresar 'ya no...' La posición depende del tipo de verbo: antes de verbos normales, después de verbos auxiliares (incluyendo 'to be')."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no lo considero un candidato viable."
+      },
+      "solution": "I no longer consider him a viable candidate.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no me tengo que levantar temprano."
+      },
+      "solution": "I no longer have to get up early.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no creo en las hadas."
+      },
+      "solution": "I no longer believe in fairies.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no me duele cuando hago ejercicio."
+      },
+      "solution": "It no longer hurts when I do exercise.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no como carne."
+      },
+      "solution": "I no longer eat meat.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no tiene importancia."
+      },
+      "solution": "It's no longer important.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no puede jugar a nivel profesional."
+      },
+      "solution": "He can no longer play professionally.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no es capitán de la selección."
+      },
+      "solution": "He is no longer captain of the national side.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no estoy aburrido en mi trabajo."
+      },
+      "solution": "I'm no longer bored at work.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no puedo quedarme por ahí hasta las tantas."
+      },
+      "solution": "I can no longer stay out late.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no trabajo los fines de semana."
+      },
+      "solution": "I no longer work at weekends.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no vive en esta ciudad."
+      },
+      "solution": "He no longer lives in this city.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no necesito tu ayuda."
+      },
+      "solution": "I no longer need your help.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no entiendo su comportamiento."
+      },
+      "solution": "I no longer understand his behaviour.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no me gusta este programa."
+      },
+      "solution": "I no longer like this programme.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no está disponible."
+      },
+      "solution": "It's no longer available.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no será un problema."
+      },
+      "solution": "It will no longer be a problem.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no podemos permitírnoslo."
+      },
+      "solution": "We can no longer afford it.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no están casados."
+      },
+      "solution": "They are no longer married.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no debería preocuparme."
+      },
+      "solution": "I should no longer worry.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no recuerdo su nombre."
+      },
+      "solution": "I no longer remember his name.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no veo la televisión."
+      },
+      "solution": "I no longer watch television.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no juegan juntos."
+      },
+      "solution": "They no longer play together.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no utiliza el ordenador."
+      },
+      "solution": "She no longer uses the computer.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no acepta invitaciones."
+      },
+      "solution": "He no longer accepts invitations.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no soy estudiante."
+      },
+      "solution": "I'm no longer a student.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no podrás entrar."
+      },
+      "solution": "You will no longer be able to enter.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no tienen hambre."
+      },
+      "solution": "They are no longer hungry.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no podría hacerlo."
+      },
+      "solution": "He could no longer do it.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no están contentos."
+      },
+      "solution": "They are no longer happy.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no confío en él."
+      },
+      "solution": "I no longer trust him.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no llama por teléfono."
+      },
+      "solution": "She no longer calls.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no viaja al extranjero."
+      },
+      "solution": "He no longer travels abroad.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no escribe cartas."
+      },
+      "solution": "She no longer writes letters.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no compra ropa cara."
+      },
+      "solution": "He no longer buys expensive clothes.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no es posible."
+      },
+      "solution": "It's no longer possible.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no estaremos aquí."
+      },
+      "solution": "We will no longer be here.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no pueden venir."
+      },
+      "solution": "They can no longer come.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no estoy preocupado."
+      },
+      "solution": "I'm no longer worried.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no deberías dudar."
+      },
+      "solution": "You should no longer doubt.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no usa gafas."
+      },
+      "solution": "She no longer wears glasses.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no contesta al teléfono."
+      },
+      "solution": "He no longer answers the phone.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no organizan fiestas."
+      },
+      "solution": "They no longer organize parties.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no estudia medicina."
+      },
+      "solution": "She no longer studies medicine.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no habla francés."
+      },
+      "solution": "He no longer speaks French.",
+      "tip": {
+        "en": "With normal verbs (not auxiliaries), place 'no longer' BEFORE the main verb, after the subject: Subject + no longer + verb.",
+        "es": "Con verbos normales (no auxiliares), coloca 'no longer' ANTES del verbo principal, después del sujeto: Sujeto + no longer + verbo."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no es joven."
+      },
+      "solution": "He's no longer young.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no estarán disponibles."
+      },
+      "solution": "They will no longer be available.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no pueden esperar."
+      },
+      "solution": "They can no longer wait.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no está enfermo."
+      },
+      "solution": "He's no longer ill.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Ya no deberíamos preocuparnos."
+      },
+      "solution": "We should no longer worry.",
+      "tip": {
+        "en": "With auxiliary verbs (including 'to be': am/is/are, can/could, will/would, etc.), place 'no longer' AFTER the auxiliary verb.",
+        "es": "Con verbos auxiliares (incluyendo 'to be': am/is/are, can/could, will/would, etc.), coloca 'no longer' DESPUÉS del verbo auxiliar."
+      }
+    }
+  ]
+}

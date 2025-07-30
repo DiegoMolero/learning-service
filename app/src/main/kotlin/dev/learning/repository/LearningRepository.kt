@@ -637,7 +637,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     topicId = topicId,
                     type = exercise.type,
                     prompt = exercise.prompt,
-                    solution = if (isCompleted) exercise.solution else null, // Only show solution if completed
+                    solution = exercise.solution, // Always show solution
                     options = exercise.options,
                     previousAttempts = 0, // TODO: Track individual exercise attempts if needed
                     isCompleted = isCompleted,
@@ -686,7 +686,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     topicId = topicId,
                     type = nextExercise.type,
                     prompt = nextExercise.prompt,
-                    solution = null, // Don't show solution until completed
+                    solution = nextExercise.solution, // Always show solution
                     options = nextExercise.options,
                     previousAttempts = 0, // TODO: Track individual exercise attempts if needed
                     isCompleted = false,

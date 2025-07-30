@@ -1,0 +1,664 @@
+{
+  "title": {
+    "en": "To be used to (estar acostumbrado a)",
+    "es": "To be used to (estar acostumbrado a)"
+  },
+  "description": {
+    "en": "Learn how to express being accustomed to something using 'to be used to' with nouns and gerunds.",
+    "es": "Aprende a expresar estar acostumbrado a algo usando 'to be used to' con sustantivos y gerundios."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm used to traffic jams.",
+        "es": "Estoy acostumbrado a los atascos."
+      },
+      "solution": "I'm used to traffic jams.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "He's used to stress.",
+        "es": "Él está acostumbrado al estrés."
+      },
+      "solution": "He's used to stress.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "Are you used to the noise?",
+        "es": "¿Estás acostumbrado al ruido?"
+      },
+      "solution": "Are you used to the noise?",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "They're not used to city life.",
+        "es": "No están acostumbrados a la vida de ciudad."
+      },
+      "solution": "They're not used to city life.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "Is she used to the heat?",
+        "es": "¿Ella está acostumbrada al calor?"
+      },
+      "solution": "Is she used to the heat?",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm used to getting up early.",
+        "es": "Estoy acostumbrado a levantarme temprano."
+      },
+      "solution": "I'm used to getting up early.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "He's used to working late.",
+        "es": "Él está acostumbrado a trabajar hasta tarde."
+      },
+      "solution": "He's used to working late.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "Are you used to driving in the city?",
+        "es": "¿Estás acostumbrado a conducir en la ciudad?"
+      },
+      "solution": "Are you used to driving in the city?",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "Is he used to speaking English?",
+        "es": "¿Él está acostumbrado a hablar en inglés?"
+      },
+      "solution": "Is he used to speaking English?",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "We're not used to using the Internet.",
+        "es": "No estamos acostumbrados a utilizar Internet."
+      },
+      "solution": "We're not used to using the Internet.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "She's used to the cold weather.",
+        "es": "Ella está acostumbrada al clima frío."
+      },
+      "solution": "She's used to the cold weather.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm not used to spicy food.",
+        "es": "No estoy acostumbrado a la comida picante."
+      },
+      "solution": "I'm not used to spicy food.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "Are they used to walking long distances?",
+        "es": "¿Están acostumbrados a caminar largas distancias?"
+      },
+      "solution": "Are they used to walking long distances?",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "He's not used to public transport.",
+        "es": "Él no está acostumbrado al transporte público."
+      },
+      "solution": "He's not used to public transport.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "We're used to eating dinner late.",
+        "es": "Estamos acostumbrados a cenar tarde."
+      },
+      "solution": "We're used to eating dinner late.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "Is she used to living alone?",
+        "es": "¿Está acostumbrada a vivir sola?"
+      },
+      "solution": "Is she used to living alone?",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "They're used to hard work.",
+        "es": "Están acostumbrados al trabajo duro."
+      },
+      "solution": "They're used to hard work.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm used to studying at night.",
+        "es": "Estoy acostumbrado a estudiar por la noche."
+      },
+      "solution": "I'm used to studying at night.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "Are you used to the humidity?",
+        "es": "¿Estás acostumbrado a la humedad?"
+      },
+      "solution": "Are you used to the humidity?",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "He's not used to waking up so early.",
+        "es": "No está acostumbrado a despertarse tan temprano."
+      },
+      "solution": "He's not used to waking up so early.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "She's used to the pressure.",
+        "es": "Ella está acostumbrada a la presión."
+      },
+      "solution": "She's used to the pressure.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "We're used to working weekends.",
+        "es": "Estamos acostumbrados a trabajar los fines de semana."
+      },
+      "solution": "We're used to working weekends.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "Are they used to the new schedule?",
+        "es": "¿Están acostumbrados al nuevo horario?"
+      },
+      "solution": "Are they used to the new schedule?",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm not used to drinking coffee.",
+        "es": "No estoy acostumbrado a beber café."
+      },
+      "solution": "I'm not used to drinking coffee.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "He's used to the long commute.",
+        "es": "Está acostumbrado al viaje largo al trabajo."
+      },
+      "solution": "He's used to the long commute.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "Is she used to cooking for herself?",
+        "es": "¿Está acostumbrada a cocinar para sí misma?"
+      },
+      "solution": "Is she used to cooking for herself?",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "They're not used to the silence.",
+        "es": "No están acostumbrados al silencio."
+      },
+      "solution": "They're not used to the silence.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "We're used to traveling a lot.",
+        "es": "Estamos acostumbrados a viajar mucho."
+      },
+      "solution": "We're used to traveling a lot.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "Am I used to this routine?",
+        "es": "¿Estoy acostumbrado a esta rutina?"
+      },
+      "solution": "Am I used to this routine?",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "He's not used to exercising daily.",
+        "es": "No está acostumbrado a hacer ejercicio diariamente."
+      },
+      "solution": "He's not used to exercising daily.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "en": "She's used to the fast pace.",
+        "es": "Está acostumbrada al ritmo rápido."
+      },
+      "solution": "She's used to the fast pace.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "en": "Are you used to sleeping alone?",
+        "es": "¿Estás acostumbrado a dormir solo?"
+      },
+      "solution": "Are you used to sleeping alone?",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "en": "They're used to the long hours.",
+        "es": "Están acostumbrados a las largas horas."
+      },
+      "solution": "They're used to the long hours.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm not used to being the boss.",
+        "es": "No estoy acostumbrado a ser el jefe."
+      },
+      "solution": "I'm not used to being the boss.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "en": "He's used to the responsibility.",
+        "es": "Está acostumbrado a la responsabilidad."
+      },
+      "solution": "He's used to the responsibility.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "en": "Is she used to making decisions?",
+        "es": "¿Está acostumbrada a tomar decisiones?"
+      },
+      "solution": "Is she used to making decisions?",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "en": "We're not used to the new system.",
+        "es": "No estamos acostumbrados al nuevo sistema."
+      },
+      "solution": "We're not used to the new system.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "en": "They're used to working under pressure.",
+        "es": "Están acostumbrados a trabajar bajo presión."
+      },
+      "solution": "They're used to working under pressure.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "en": "Am I used to the new environment?",
+        "es": "¿Estoy acostumbrado al nuevo ambiente?"
+      },
+      "solution": "Am I used to the new environment?",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "en": "He's not used to sharing his space.",
+        "es": "No está acostumbrado a compartir su espacio."
+      },
+      "solution": "He's not used to sharing his space.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "en": "She's used to the competition.",
+        "es": "Está acostumbrada a la competencia."
+      },
+      "solution": "She's used to the competition.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "en": "Are we used to dealing with complaints?",
+        "es": "¿Estamos acostumbrados a lidiar con quejas?"
+      },
+      "solution": "Are we used to dealing with complaints?",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "en": "They're not used to the technology.",
+        "es": "No están acostumbrados a la tecnología."
+      },
+      "solution": "They're not used to the technology.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm used to multitasking.",
+        "es": "Estoy acostumbrado a hacer varias tareas a la vez."
+      },
+      "solution": "I'm used to multitasking.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "en": "He's used to the constant changes.",
+        "es": "Está acostumbrado a los cambios constantes."
+      },
+      "solution": "He's used to the constant changes.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "en": "Is she used to presenting to large groups?",
+        "es": "¿Está acostumbrada a presentar ante grupos grandes?"
+      },
+      "solution": "Is she used to presenting to large groups?",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "en": "We're not used to the bureaucracy.",
+        "es": "No estamos acostumbrados a la burocracia."
+      },
+      "solution": "We're not used to the bureaucracy.",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "en": "They're used to negotiating contracts.",
+        "es": "Están acostumbrados a negociar contratos."
+      },
+      "solution": "They're used to negotiating contracts.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "en": "Am I used to this level of stress?",
+        "es": "¿Estoy acostumbrado a este nivel de estrés?"
+      },
+      "solution": "Am I used to this level of stress?",
+      "tip": {
+        "en": "'Used' is pronounced 'iust'. Remember that the main verb here is 'to be'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "'Used' se pronuncia 'iust'. No olvides que el verbo principal aquí es 'to be'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "en": "He's not used to managing a team.",
+        "es": "No está acostumbrado a dirigir un equipo."
+      },
+      "solution": "He's not used to managing a team.",
+      "tip": {
+        "en": "Notice that we use the gerund (verb + -ing) after 'used to'. This is one of the few times we use a gerund after the preposition 'to'.",
+        "es": "Fíjate que usamos el gerundio (verbo + -ing) después de 'used to'. Esta es una de las pocas veces que empleamos un verbo en gerundio después de la preposición 'to'."
+      }
+    }
+  ]
+}

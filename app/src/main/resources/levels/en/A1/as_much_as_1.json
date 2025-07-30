@@ -1,0 +1,254 @@
+{
+  "title": {
+    "en": "As Much As",
+    "es": "As Much As (Tanto...Como con incontables)"
+  },
+  "description": {
+    "en": "Learn how to use 'as much as' for comparisons with uncountable nouns.",
+    "es": "Aprende a usar 'as much as' para comparaciones con sustantivos incontables."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "No dispongo de tanto tiempo como antes."
+      },
+      "solution": "I don't have as much time as I used to.",
+      "tip": {
+        "en": "Use 'as much as' with uncountable nouns (time, money, water, etc.): as much + uncountable noun + as.",
+        "es": "Usa 'as much as' con sustantivos incontables (time, money, water, etc.): as much + sustantivo incontable + as."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Sarah no comió tanto como Simón."
+      },
+      "solution": "Sarah didn't eat as much as Simon.",
+      "tip": {
+        "en": "Use 'as much as' with uncountable nouns (time, money, water, etc.): as much + uncountable noun + as.",
+        "es": "Usa 'as much as' con sustantivos incontables (time, money, water, etc.): as much + sustantivo incontable + as."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "No sé tanto del tema como él."
+      },
+      "solution": "I don't know as much about it as he does.",
+      "tip": {
+        "en": "Use 'as much as' with uncountable nouns (time, money, water, etc.): as much + uncountable noun + as.",
+        "es": "Usa 'as much as' con sustantivos incontables (time, money, water, etc.): as much + sustantivo incontable + as."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Doy a mi hijo todo el amor y atención que necesita."
+      },
+      "solution": "I give my son as much love and attention as he needs.",
+      "tip": {
+        "en": "Use 'as much as' with uncountable nouns (time, money, water, etc.): as much + uncountable noun + as.",
+        "es": "Usa 'as much as' con sustantivos incontables (time, money, water, etc.): as much + sustantivo incontable + as."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Gasté tanto dinero como siempre."
+      },
+      "solution": "I spent as much money as always.",
+      "tip": {
+        "en": "Use 'as much as' with uncountable nouns (time, money, water, etc.): as much + uncountable noun + as.",
+        "es": "Usa 'as much as' con sustantivos incontables (time, money, water, etc.): as much + sustantivo incontable + as."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Hice el doble de trabajo la semana pasada que la anterior."
+      },
+      "solution": "I did twice as much work last week as the week before.",
+      "tip": {
+        "en": "For multiples with uncountable nouns: number + times + as much + noun + as (e.g., twice as much work as).",
+        "es": "Para múltiplos con sustantivos incontables: número + times + as much + sustantivo + as (ej., twice as much work as)."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo pongo el triple de azúcar en mi té que Henry."
+      },
+      "solution": "I take three times as much sugar in my tea as Henry does.",
+      "tip": {
+        "en": "For multiples with uncountable nouns: number + times + as much + noun + as (e.g., twice as much work as).",
+        "es": "Para múltiplos con sustantivos incontables: número + times + as much + sustantivo + as (ej., twice as much work as)."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Él gana cuatro veces lo que gano yo."
+      },
+      "solution": "He earns four times as much as me.",
+      "tip": {
+        "en": "For multiples with uncountable nouns: number + times + as much + noun + as (e.g., twice as much work as).",
+        "es": "Para múltiplos con sustantivos incontables: número + times + as much + sustantivo + as (ej., twice as much work as)."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Este año necesitamos el doble de lluvia que el año pasado."
+      },
+      "solution": "This year we need twice as much rain as last year.",
+      "tip": {
+        "en": "For multiples with uncountable nouns: number + times + as much + noun + as (e.g., twice as much work as).",
+        "es": "Para múltiplos con sustantivos incontables: número + times + as much + sustantivo + as (ej., twice as much work as)."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo peso siete veces lo que pesa mi bebé."
+      },
+      "solution": "I weigh seven times as much as my baby.",
+      "tip": {
+        "en": "For multiples with uncountable nouns: number + times + as much + noun + as (e.g., twice as much work as).",
+        "es": "Para múltiplos con sustantivos incontables: número + times + as much + sustantivo + as (ej., twice as much work as)."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "No bebo tanta agua como debería."
+      },
+      "solution": "I don't drink as much water as I should.",
+      "tip": {
+        "en": "Use 'as much as' with uncountable nouns (time, money, water, etc.): as much + uncountable noun + as.",
+        "es": "Usa 'as much as' con sustantivos incontables (time, money, water, etc.): as much + sustantivo incontable + as."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hermana no tiene tanta paciencia como mi madre."
+      },
+      "solution": "My sister doesn't have as much patience as my mother.",
+      "tip": {
+        "en": "Use 'as much as' with uncountable nouns (time, money, water, etc.): as much + uncountable noun + as.",
+        "es": "Usa 'as much as' con sustantivos incontables (time, money, water, etc.): as much + sustantivo incontable + as."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo tanta experiencia como él en este campo."
+      },
+      "solution": "I don't have as much experience as he does in this field.",
+      "tip": {
+        "en": "Use 'as much as' with uncountable nouns (time, money, water, etc.): as much + uncountable noun + as.",
+        "es": "Usa 'as much as' con sustantivos incontables (time, money, water, etc.): as much + sustantivo incontable + as."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella no recibe tanto apoyo como necesita."
+      },
+      "solution": "She doesn't get as much support as she needs.",
+      "tip": {
+        "en": "Use 'as much as' with uncountable nouns (time, money, water, etc.): as much + uncountable noun + as.",
+        "es": "Usa 'as much as' con sustantivos incontables (time, money, water, etc.): as much + sustantivo incontable + as."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "No uso tanto combustible como pensaba."
+      },
+      "solution": "I don't use as much fuel as I thought.",
+      "tip": {
+        "en": "Use 'as much as' with uncountable nouns (time, money, water, etc.): as much + uncountable noun + as.",
+        "es": "Usa 'as much as' con sustantivos incontables (time, money, water, etc.): as much + sustantivo incontable + as."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Él consume el doble de electricidad que yo."
+      },
+      "solution": "He uses twice as much electricity as I do.",
+      "tip": {
+        "en": "For multiples with uncountable nouns: number + times + as much + noun + as (e.g., twice as much work as).",
+        "es": "Para múltiplos con sustantivos incontables: número + times + as much + sustantivo + as (ej., twice as much work as)."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito el triple de café que tú para funcionar."
+      },
+      "solution": "I need three times as much coffee as you to function.",
+      "tip": {
+        "en": "For multiples with uncountable nouns: number + times + as much + noun + as (e.g., twice as much work as).",
+        "es": "Para múltiplos con sustantivos incontables: número + times + as much + sustantivo + as (ej., twice as much work as)."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Esta receta requiere el doble de sal que la anterior."
+      },
+      "solution": "This recipe requires twice as much salt as the previous one.",
+      "tip": {
+        "en": "For multiples with uncountable nouns: number + times + as much + noun + as (e.g., twice as much work as).",
+        "es": "Para múltiplos con sustantivos incontables: número + times + as much + sustantivo + as (ej., twice as much work as)."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi coche consume el doble de gasolina que el tuyo."
+      },
+      "solution": "My car uses twice as much petrol as yours.",
+      "tip": {
+        "en": "For multiples with uncountable nouns: number + times + as much + noun + as (e.g., twice as much work as).",
+        "es": "Para múltiplos con sustantivos incontables: número + times + as much + sustantivo + as (ej., twice as much work as)."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Dedico cinco veces más tiempo al estudio que al ocio."
+      },
+      "solution": "I spend five times as much time studying as I do on leisure.",
+      "tip": {
+        "en": "For multiples with uncountable nouns: number + times + as much + noun + as (e.g., twice as much work as).",
+        "es": "Para múltiplos con sustantivos incontables: número + times + as much + sustantivo + as (ej., twice as much work as)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "title": {
+    "en": "Frequency Adverbs (Adverbios de Frecuencia)",
+    "es": "Frequency Adverbs (Adverbios de Frecuencia)"
+  },
+  "description": {
+    "en": "Learn the correct placement of frequency adverbs (never, rarely, sometimes, often, always) before regular verbs and after auxiliary verbs.",
+    "es": "Aprende la colocación correcta de los adverbios de frecuencia (never, rarely, sometimes, often, always) antes de verbos normales y después de auxiliares."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "He never buys expensive clothes.",
+        "es": "Él nunca se compra ropa cara."
+      },
+      "solution": "He never buys expensive clothes.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "She rarely goes to the cinema.",
+        "es": "Rara vez ella va al cine."
+      },
+      "solution": "She rarely goes to the cinema.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "He sometimes goes out for a meal.",
+        "es": "A veces él sale a comer."
+      },
+      "solution": "He sometimes goes out for a meal.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "I often fall asleep on the sofa.",
+        "es": "Me duermo en el sofá a menudo."
+      },
+      "solution": "I often fall asleep on the sofa.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "I always have a shower first thing in the morning.",
+        "es": "Siempre me ducho a primera hora de la mañana."
+      },
+      "solution": "I always have a shower first thing in the morning.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "I am never late.",
+        "es": "Nunca llego tarde."
+      },
+      "solution": "I am never late.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "I can rarely get away.",
+        "es": "Rara vez me puedo escapar."
+      },
+      "solution": "I can rarely get away.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "He is sometimes wrong.",
+        "es": "Él a veces se equivoca."
+      },
+      "solution": "He is sometimes wrong.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "She is often right.",
+        "es": "Ella tiene razón a menudo."
+      },
+      "solution": "She is often right.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "I have always got time for you.",
+        "es": "Siempre tengo tiempo para ti."
+      },
+      "solution": "I have always got time for you.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "We never eat fast food.",
+        "es": "Nunca comemos comida rápida."
+      },
+      "solution": "We never eat fast food.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "They rarely visit their grandparents.",
+        "es": "Rara vez visitan a sus abuelos."
+      },
+      "solution": "They rarely visit their grandparents.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "She sometimes forgets her keys.",
+        "es": "A veces se olvida las llaves."
+      },
+      "solution": "She sometimes forgets her keys.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "My cat often sleeps all day.",
+        "es": "Mi gato a menudo duerme todo el día."
+      },
+      "solution": "My cat often sleeps all day.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "I always drink coffee in the morning.",
+        "es": "Siempre bebo café por la mañana."
+      },
+      "solution": "I always drink coffee in the morning.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "They are never ready on time.",
+        "es": "Nunca están listos a tiempo."
+      },
+      "solution": "They are never ready on time.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "We are rarely at home on weekends.",
+        "es": "Rara vez estamos en casa los fines de semana."
+      },
+      "solution": "We are rarely at home on weekends.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "The weather is sometimes unpredictable.",
+        "es": "El tiempo a veces es impredecible."
+      },
+      "solution": "The weather is sometimes unpredictable.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "My boss is often busy.",
+        "es": "Mi jefe a menudo está ocupado."
+      },
+      "solution": "My boss is often busy.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "You are always welcome here.",
+        "es": "Siempre eres bienvenido aquí."
+      },
+      "solution": "You are always welcome here.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "He never watches TV.",
+        "es": "Él nunca ve la televisión."
+      },
+      "solution": "He never watches TV.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "We rarely go to restaurants.",
+        "es": "Rara vez vamos a restaurantes."
+      },
+      "solution": "We rarely go to restaurants.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "I sometimes work on Saturdays.",
+        "es": "A veces trabajo los sábados."
+      },
+      "solution": "I sometimes work on Saturdays.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "She often listens to music while studying.",
+        "es": "A menudo escucha música mientras estudia."
+      },
+      "solution": "She often listens to music while studying.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "They always arrive early.",
+        "es": "Siempre llegan temprano."
+      },
+      "solution": "They always arrive early.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "I can never remember names.",
+        "es": "Nunca puedo recordar nombres."
+      },
+      "solution": "I can never remember names.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "She can rarely find time to relax.",
+        "es": "Rara vez puede encontrar tiempo para relajarse."
+      },
+      "solution": "She can rarely find time to relax.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "We can sometimes hear the neighbours.",
+        "es": "A veces podemos oír a los vecinos."
+      },
+      "solution": "We can sometimes hear the neighbours.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "He can often solve difficult problems.",
+        "es": "A menudo puede resolver problemas difíciles."
+      },
+      "solution": "He can often solve difficult problems.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "You can always call me if you need help.",
+        "es": "Siempre puedes llamarme si necesitas ayuda."
+      },
+      "solution": "You can always call me if you need help.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "en": "My dog never bites anyone.",
+        "es": "Mi perro nunca muerde a nadie."
+      },
+      "solution": "My dog never bites anyone.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "en": "Children rarely understand adult problems.",
+        "es": "Los niños rara vez entienden los problemas de adultos."
+      },
+      "solution": "Children rarely understand adult problems.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "en": "Students sometimes complain about homework.",
+        "es": "Los estudiantes a veces se quejan de los deberes."
+      },
+      "solution": "Students sometimes complain about homework.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "en": "Teachers often give too much homework.",
+        "es": "Los profesores a menudo dan demasiados deberes."
+      },
+      "solution": "Teachers often give too much homework.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "en": "Parents always worry about their children.",
+        "es": "Los padres siempre se preocupan por sus hijos."
+      },
+      "solution": "Parents always worry about their children.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "en": "I will never forget this moment.",
+        "es": "Nunca olvidaré este momento."
+      },
+      "solution": "I will never forget this moment.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "en": "She will rarely admit her mistakes.",
+        "es": "Rara vez admitirá sus errores."
+      },
+      "solution": "She will rarely admit her mistakes.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "en": "We will sometimes visit that restaurant.",
+        "es": "A veces visitaremos ese restaurante."
+      },
+      "solution": "We will sometimes visit that restaurant.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "en": "They will often ask for help.",
+        "es": "A menudo pedirán ayuda."
+      },
+      "solution": "They will often ask for help.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "en": "You will always be my friend.",
+        "es": "Siempre serás mi amigo."
+      },
+      "solution": "You will always be my friend.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "en": "He never tells lies.",
+        "es": "Él nunca dice mentiras."
+      },
+      "solution": "He never tells lies.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "en": "We rarely play video games.",
+        "es": "Rara vez jugamos videojuegos."
+      },
+      "solution": "We rarely play video games.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "en": "I sometimes read before bed.",
+        "es": "A veces leo antes de acostarme."
+      },
+      "solution": "I sometimes read before bed.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "en": "She often helps her neighbours.",
+        "es": "A menudo ayuda a sus vecinos."
+      },
+      "solution": "She often helps her neighbours.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "en": "They always clean their house on Sundays.",
+        "es": "Siempre limpian su casa los domingos."
+      },
+      "solution": "They always clean their house on Sundays.",
+      "tip": {
+        "en": "Frequency adverbs go BEFORE regular verbs: Subject + frequency adverb + verb. Never, rarely, sometimes, often, always.",
+        "es": "Los adverbios de frecuencia van ANTES de verbos normales: Sujeto + adverbio de frecuencia + verbo. Never, rarely, sometimes, often, always."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "en": "I have never been to Japan.",
+        "es": "Nunca he estado en Japón."
+      },
+      "solution": "I have never been to Japan.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "en": "We have rarely seen such beautiful weather.",
+        "es": "Rara vez hemos visto un tiempo tan hermoso."
+      },
+      "solution": "We have rarely seen such beautiful weather.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "en": "She has sometimes forgotten her password.",
+        "es": "A veces se ha olvidado de su contraseña."
+      },
+      "solution": "She has sometimes forgotten her password.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "en": "He has often travelled abroad for work.",
+        "es": "A menudo ha viajado al extranjero por trabajo."
+      },
+      "solution": "He has often travelled abroad for work.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "en": "They have always been good friends.",
+        "es": "Siempre han sido buenos amigos."
+      },
+      "solution": "They have always been good friends.",
+      "tip": {
+        "en": "With auxiliary verbs (be, have, can, will, etc.), frequency adverbs go AFTER the auxiliary: Subject + auxiliary + frequency adverb.",
+        "es": "Con verbos auxiliares (be, have, can, will, etc.), los adverbios de frecuencia van DESPUÉS del auxiliar: Sujeto + auxiliar + adverbio de frecuencia."
+      }
+    }
+  ]
+}

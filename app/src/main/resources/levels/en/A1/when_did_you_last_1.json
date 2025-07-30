@@ -1,0 +1,214 @@
+{
+  "title": {
+    "en": "When did you last...? / When did you first...?",
+    "es": "When did you last...? / When did you first...? (Preguntas concisas)"
+  },
+  "description": {
+    "en": "Learn to make concise questions using 'When did you last...?' and 'When did you first...?' instead of longer forms.",
+    "es": "Aprende a hacer preguntas concisas usando 'When did you last...?' y 'When did you first...?' en lugar de formas más largas."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "rephrasing",
+      "prompt": "When was the last time you ate spaghetti?",
+      "solution": "When did you last eat spaghetti?",
+      "tip": {
+        "en": "Use the concise form: When did you last + verb? It's more natural than the direct translation from Spanish.",
+        "es": "Usa la forma concisa: When did you last + verbo? Es más natural que la traducción directa del español."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "rephrasing",
+      "prompt": "When was the last time you read a Russian novel?",
+      "solution": "When did you last read a Russian novel?",
+      "tip": {
+        "en": "Use the concise form: When did you last + verb? It's more natural than the direct translation from Spanish.",
+        "es": "Usa la forma concisa: When did you last + verbo? Es más natural que la traducción directa del español."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "rephrasing",
+      "prompt": "When was the last time you were elected President?",
+      "solution": "When were you last elected President?",
+      "tip": {
+        "en": "With auxiliary verbs including 'to be': When were you last + past participle? or When did you last + verb?",
+        "es": "Con verbos auxiliares incluyendo 'to be': When were you last + participio pasado? o When did you last + verbo?"
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "rephrasing",
+      "prompt": "When was the last time you played the violin?",
+      "solution": "When did you last play the violin?",
+      "tip": {
+        "en": "Use the concise form: When did you last + verb? It's more natural than the direct translation from Spanish.",
+        "es": "Usa la forma concisa: When did you last + verbo? Es más natural que la traducción directa del español."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "rephrasing",
+      "prompt": "When was the last time you appeared on Television?",
+      "solution": "When did you last appear on Television?",
+      "tip": {
+        "en": "Use the concise form: When did you last + verb? It's more natural than the direct translation from Spanish.",
+        "es": "Usa la forma concisa: When did you last + verbo? Es más natural que la traducción directa del español."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "rephrasing",
+      "prompt": "When was the first time you drove a car?",
+      "solution": "When did you first drive a car?",
+      "tip": {
+        "en": "Use the concise form: When did you first + verb? Remember: 'first' here means 'the first time in your life'.",
+        "es": "Usa la forma concisa: When did you first + verbo? Recuerda: 'first' aquí significa 'la primera vez en la vida'."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "rephrasing",
+      "prompt": "When was the first time you used a credit card?",
+      "solution": "When did you first use a credit card?",
+      "tip": {
+        "en": "Use the concise form: When did you first + verb? Remember: 'first' here means 'the first time in your life'.",
+        "es": "Usa la forma concisa: When did you first + verbo? Recuerda: 'first' aquí significa 'la primera vez en la vida'."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "rephrasing",
+      "prompt": "When was the first time you spoke English?",
+      "solution": "When did you first speak English?",
+      "tip": {
+        "en": "Use the concise form: When did you first + verb? Remember: 'first' here means 'the first time in your life'.",
+        "es": "Usa la forma concisa: When did you first + verbo? Recuerda: 'first' aquí significa 'la primera vez en la vida'."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "rephrasing",
+      "prompt": "When was the first time you asked for a pay rise?",
+      "solution": "When did you first ask for a pay rise?",
+      "tip": {
+        "en": "Use the concise form: When did you first + verb? Remember: 'first' here means 'the first time in your life'.",
+        "es": "Usa la forma concisa: When did you first + verbo? Recuerda: 'first' aquí significa 'la primera vez en la vida'."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "rephrasing",
+      "prompt": "When was the first time you were promoted?",
+      "solution": "When were you first promoted?",
+      "tip": {
+        "en": "With auxiliary verbs including 'to be': When were you first + past participle? or When did you first + verb?",
+        "es": "Con verbos auxiliares incluyendo 'to be': When were you first + participio pasado? o When did you first + verbo?"
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "rephrasing",
+      "prompt": "When was the last time you visited Paris?",
+      "solution": "When did you last visit Paris?",
+      "tip": {
+        "en": "Use the concise form: When did you last + verb? It's more natural than the direct translation from Spanish.",
+        "es": "Usa la forma concisa: When did you last + verbo? Es más natural que la traducción directa del español."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "rephrasing",
+      "prompt": "When was the last time you went swimming?",
+      "solution": "When did you last go swimming?",
+      "tip": {
+        "en": "Use the concise form: When did you last + verb? It's more natural than the direct translation from Spanish.",
+        "es": "Usa la forma concisa: When did you last + verbo? Es más natural que la traducción directa del español."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "rephrasing",
+      "prompt": "When was the last time you were really angry?",
+      "solution": "When were you last really angry?",
+      "tip": {
+        "en": "With auxiliary verbs including 'to be': When were you last + adjective/past participle?",
+        "es": "Con verbos auxiliares incluyendo 'to be': When were you last + adjetivo/participio pasado?"
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "rephrasing",
+      "prompt": "When was the last time you cooked dinner?",
+      "solution": "When did you last cook dinner?",
+      "tip": {
+        "en": "Use the concise form: When did you last + verb? It's more natural than the direct translation from Spanish.",
+        "es": "Usa la forma concisa: When did you last + verbo? Es más natural que la traducción directa del español."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "rephrasing",
+      "prompt": "When was the last time you felt homesick?",
+      "solution": "When did you last feel homesick?",
+      "tip": {
+        "en": "Use the concise form: When did you last + verb? It's more natural than the direct translation from Spanish.",
+        "es": "Usa la forma concisa: When did you last + verbo? Es más natural que la traducción directa del español."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "rephrasing",
+      "prompt": "When was the first time you fell in love?",
+      "solution": "When did you first fall in love?",
+      "tip": {
+        "en": "Use the concise form: When did you first + verb? Remember: 'first' here means 'the first time in your life'.",
+        "es": "Usa la forma concisa: When did you first + verbo? Recuerda: 'first' aquí significa 'la primera vez en la vida'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "rephrasing",
+      "prompt": "When was the first time you travelled alone?",
+      "solution": "When did you first travel alone?",
+      "tip": {
+        "en": "Use the concise form: When did you first + verb? Remember: 'first' here means 'the first time in your life'.",
+        "es": "Usa la forma concisa: When did you first + verbo? Recuerda: 'first' aquí significa 'la primera vez en la vida'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "rephrasing",
+      "prompt": "When was the first time you were disappointed?",
+      "solution": "When were you first disappointed?",
+      "tip": {
+        "en": "With auxiliary verbs including 'to be': When were you first + past participle/adjective?",
+        "es": "Con verbos auxiliares incluyendo 'to be': When were you first + participio pasado/adjetivo?"
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "rephrasing",
+      "prompt": "When was the first time you tried sushi?",
+      "solution": "When did you first try sushi?",
+      "tip": {
+        "en": "Use the concise form: When did you first + verb? Remember: 'first' here means 'the first time in your life'.",
+        "es": "Usa la forma concisa: When did you first + verbo? Recuerda: 'first' aquí significa 'la primera vez en la vida'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "rephrasing",
+      "prompt": "When was the first time you were offered a job?",
+      "solution": "When were you first offered a job?",
+      "tip": {
+        "en": "With auxiliary verbs including 'to be': When were you first + past participle?",
+        "es": "Con verbos auxiliares incluyendo 'to be': When were you first + participio pasado?"
+      }
+    }
+  ]
+}

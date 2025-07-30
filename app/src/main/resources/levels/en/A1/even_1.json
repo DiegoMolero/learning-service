@@ -69,6 +69,186 @@
         "en": "The word 'even' usually goes before regular and irregular verbs to emphasize something surprising or unexpected.",
         "es": "La palabra 'even' (incluso) suele ir antes de los verbos regulares e irregulares para enfatizar algo sorprendente o inesperado."
       }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "He comido toda clase de pescado. Incluso he comido tiburón."
+      },
+      "solution": "I have eaten all kinds of fish. I have even eaten shark.",
+      "tip": {
+        "en": "The word 'even' can also go after auxiliary verbs including 'to be', 'have', 'can', 'might', etc.",
+        "es": "La palabra 'even' también puede ir después de los verbos auxiliares incluyendo 'to be', 'have', 'can', 'might', etc."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Sally sabe tocar todo tipo de instrumentos musicales. Incluso sabe tocar la gaita."
+      },
+      "solution": "Sally can play all types of musical instruments. She can even play the bagpipes.",
+      "tip": {
+        "en": "The word 'even' can also go after auxiliary verbs including 'to be', 'have', 'can', 'might', etc.",
+        "es": "La palabra 'even' también puede ir después de los verbos auxiliares incluyendo 'to be', 'have', 'can', 'might', etc."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Frank forma parte de cualquier equipo posible. Incluso está en el equipo de ping-pong del barrio."
+      },
+      "solution": "Frank is in every possible team imaginable. He's even in the local table tennis team.",
+      "tip": {
+        "en": "The word 'even' can also go after auxiliary verbs including 'to be', 'have', 'can', 'might', etc.",
+        "es": "La palabra 'even' también puede ir después de los verbos auxiliares incluyendo 'to be', 'have', 'can', 'might', etc."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Está lloviendo hoy en todas partes. Incluso está lloviendo en Sevilla."
+      },
+      "solution": "It's raining everywhere today. It's even raining in Seville.",
+      "tip": {
+        "en": "The word 'even' can also go after auxiliary verbs including 'to be', 'have', 'can', 'might', etc.",
+        "es": "La palabra 'even' también puede ir después de los verbos auxiliares incluyendo 'to be', 'have', 'can', 'might', etc."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "No sé lo que voy a hacer hoy. Igual incluso me quedo en casa."
+      },
+      "solution": "I'm not sure what I'm going to do today. I might even stay at home.",
+      "tip": {
+        "en": "The word 'even' can also go after auxiliary verbs including 'to be', 'have', 'can', 'might', etc.",
+        "es": "La palabra 'even' también puede ir después de los verbos auxiliares incluyendo 'to be', 'have', 'can', 'might', etc."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Soy un desastre en la cocina, pero hasta yo puedo preparar una tortilla."
+      },
+      "solution": "I'm a disaster in the kitchen, but even I can cook an omelette.",
+      "tip": {
+        "en": "To emphasize another aspect of a sentence, place 'even' just before what you want to emphasize, like in Spanish.",
+        "es": "Para hacer hincapié en otro aspecto de una frase, coloca 'even' justo antes de lo que queremos enfatizar, como en castellano."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Emily es antisocial, pero hasta ella se lo pasó bien."
+      },
+      "solution": "Emily is antisocial, but even she enjoyed herself.",
+      "tip": {
+        "en": "To emphasize another aspect of a sentence, place 'even' just before what you want to emphasize, like in Spanish.",
+        "es": "Para hacer hincapié en otro aspecto de una frase, coloca 'even' justo antes de lo que queremos enfatizar, como en castellano."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Paul era un alumno pésimo, pero hasta él logró aprobar."
+      },
+      "solution": "Paul was a terrible student, but even he managed to pass.",
+      "tip": {
+        "en": "To emphasize another aspect of a sentence, place 'even' just before what you want to emphasize, like in Spanish.",
+        "es": "Para hacer hincapié en otro aspecto de una frase, coloca 'even' justo antes de lo que queremos enfatizar, como en castellano."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Mis padres son reacios a la tecnología, pero hasta ellos utilizan Internet."
+      },
+      "solution": "My parents are technophobes, but even they use Internet.",
+      "tip": {
+        "en": "To emphasize another aspect of a sentence, place 'even' just before what you want to emphasize, like in Spanish.",
+        "es": "Para hacer hincapié en otro aspecto de una frase, coloca 'even' justo antes de lo que queremos enfatizar, como en castellano."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi mujer y yo no vamos al cine a menudo, pero incluso nosotros vimos aquella película."
+      },
+      "solution": "My wife and I don't go to the cinema often, but even we went to see that film.",
+      "tip": {
+        "en": "To emphasize another aspect of a sentence, place 'even' just before what you want to emphasize, like in Spanish.",
+        "es": "Para hacer hincapié en otro aspecto de una frase, coloca 'even' justo antes de lo que queremos enfatizar, como en castellano."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "En la sierra nieva con frecuencia, incluso en mayo."
+      },
+      "solution": "It often snows in the mountains, even in May.",
+      "tip": {
+        "en": "Sometimes 'even' is translated as 'hasta' in Spanish when emphasizing time, place, or extent.",
+        "es": "A veces 'even' se traduce por 'hasta' en español cuando enfatizamos tiempo, lugar o extensión."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hermano mayor es infantil, incluso ahora."
+      },
+      "solution": "My older brother is childish, even now.",
+      "tip": {
+        "en": "Sometimes 'even' is translated as 'hasta' in Spanish when emphasizing time, place, or extent.",
+        "es": "A veces 'even' se traduce por 'hasta' en español cuando enfatizamos tiempo, lugar o extensión."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Me comí todo lo que había en el plato, hasta la piel."
+      },
+      "solution": "I ate everything on the plate, even the skin.",
+      "tip": {
+        "en": "Sometimes 'even' is translated as 'hasta' in Spanish when emphasizing time, place, or extent.",
+        "es": "A veces 'even' se traduce por 'hasta' en español cuando enfatizamos tiempo, lugar o extensión."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Invitamos a la familia entera, hasta a mi primo el raro."
+      },
+      "solution": "We invited the whole family, even my strange cousin.",
+      "tip": {
+        "en": "Sometimes 'even' is translated as 'hasta' in Spanish when emphasizing time, place, or extent.",
+        "es": "A veces 'even' se traduce por 'hasta' en español cuando enfatizamos tiempo, lugar o extensión."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Hasta mi coche consiguió llegar a la cima de la montaña."
+      },
+      "solution": "Even my car managed to get to the top of the mountain.",
+      "tip": {
+        "en": "Sometimes 'even' is translated as 'hasta' in Spanish when emphasizing time, place, or extent.",
+        "es": "A veces 'even' se traduce por 'hasta' en español cuando enfatizamos tiempo, lugar o extensión."
+      }
     }
   ]
 }

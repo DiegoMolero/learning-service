@@ -1,0 +1,134 @@
+{
+  "title": {
+    "en": "Not even",
+    "es": "Not even (Ni siquiera)"
+  },
+  "description": {
+    "en": "Learn how to use 'not even' to express 'ni siquiera' in negative sentences.",
+    "es": "Aprende a usar 'not even' para expresar 'ni siquiera' en frases negativas."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Ni siquiera me gustan las películas italianas."
+      },
+      "solution": "I don't even like Italian films.",
+      "tip": {
+        "en": "'Not even' means 'ni siquiera' and goes after the auxiliary verb in negative sentences, just like 'even' with verbs.",
+        "es": "'Not even' significa 'ni siquiera' y va después del verbo auxiliar en frases negativas, igual que 'even' con los verbos."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Ni siquiera dió las gracias."
+      },
+      "solution": "He didn't even say thank you.",
+      "tip": {
+        "en": "'Not even' means 'ni siquiera' and goes after the auxiliary verb in negative sentences, just like 'even' with verbs.",
+        "es": "'Not even' significa 'ni siquiera' y va después del verbo auxiliar en frases negativas, igual que 'even' con los verbos."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Ni siquiera me acuerdo del día en que estamos."
+      },
+      "solution": "I can't even remember what day it is.",
+      "tip": {
+        "en": "'Not even' means 'ni siquiera' and goes after the auxiliary verb in negative sentences, just like 'even' with verbs.",
+        "es": "'Not even' significa 'ni siquiera' y va después del verbo auxiliar en frases negativas, igual que 'even' con los verbos."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Ni siquiera voy a decirte por qué."
+      },
+      "solution": "I'm not even going to tell you why.",
+      "tip": {
+        "en": "'Not even' means 'ni siquiera' and goes after the auxiliary verb in negative sentences, just like 'even' with verbs.",
+        "es": "'Not even' significa 'ni siquiera' y va después del verbo auxiliar en frases negativas, igual que 'even' con los verbos."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo en tu lugar, ni siquiera lo intentaría."
+      },
+      "solution": "If I were you, I wouldn't even try.",
+      "tip": {
+        "en": "'Not even' means 'ni siquiera' and goes after the auxiliary verb in negative sentences, just like 'even' with verbs.",
+        "es": "'Not even' significa 'ni siquiera' y va después del verbo auxiliar en frases negativas, igual que 'even' con los verbos."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Ni siquiera yo podría hacer eso."
+      },
+      "solution": "Not even I could do that.",
+      "tip": {
+        "en": "You can also use 'not even' to emphasize any other aspect of the sentence by placing it just before what you want to highlight.",
+        "es": "También puedes usar 'not even' para destacar cualquier otro aspecto de la frase colocándolo justo antes de lo que quieras recalcar."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "No me gustan los refrescos, ni siquiera la Coca-Cola."
+      },
+      "solution": "I don't like soft drinks, not even Coca-Cola.",
+      "tip": {
+        "en": "You can also use 'not even' to emphasize any other aspect of the sentence by placing it just before what you want to highlight.",
+        "es": "También puedes usar 'not even' para destacar cualquier otro aspecto de la frase colocándolo justo antes de lo que quieras recalcar."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "No me queda dinero para nada, ni siquiera para un café."
+      },
+      "solution": "I don't have any money left for anything, not even a coffee.",
+      "tip": {
+        "en": "You can also use 'not even' to emphasize any other aspect of the sentence by placing it just before what you want to highlight.",
+        "es": "También puedes usar 'not even' para destacar cualquier otro aspecto de la frase colocándolo justo antes de lo que quieras recalcar."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Nunca me ha gustado el fútbol, ni siquiera cuando era joven."
+      },
+      "solution": "I have never liked football, not even when I was young.",
+      "tip": {
+        "en": "You can also use 'not even' to emphasize any other aspect of the sentence by placing it just before what you want to highlight.",
+        "es": "También puedes usar 'not even' para destacar cualquier otro aspecto de la frase colocándolo justo antes de lo que quieras recalcar."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Nadie es más diplomático que los japoneses, ni siquiera los ingleses."
+      },
+      "solution": "Nobody is more diplomatic than the Japanese, not even the English.",
+      "tip": {
+        "en": "You can also use 'not even' to emphasize any other aspect of the sentence by placing it just before what you want to highlight.",
+        "es": "También puedes usar 'not even' para destacar cualquier otro aspecto de la frase colocándolo justo antes de lo que quieras recalcar."
+      }
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "title": {
+    "en": "To get used to (acostumbrarse a)",
+    "es": "To get used to (acostumbrarse a)"
+  },
+  "description": {
+    "en": "Learn how to express the process of becoming accustomed to something using 'to get used to' with nouns and gerunds.",
+    "es": "Aprende a expresar el proceso de acostumbrarse a algo usando 'to get used to' con sustantivos y gerundios."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm getting used to my new job.",
+        "es": "Me estoy acostumbrando a mi nuevo trabajo."
+      },
+      "solution": "I'm getting used to my new job.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "I got used to her accent immediately.",
+        "es": "Me acostumbré a su acento enseguida."
+      },
+      "solution": "I got used to her accent immediately.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "Do you get used to new situations easily?",
+        "es": "¿Te acostumbras fácilmente a las situaciones nuevas?"
+      },
+      "solution": "Do you get used to new situations easily?",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "Did you get used to your new car quickly?",
+        "es": "¿Te acostumbraste rápidamente a tu nuevo coche?"
+      },
+      "solution": "Did you get used to your new car quickly?",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "I can't get used to these shoes.",
+        "es": "No me puedo acostumbrar a estos zapatos."
+      },
+      "solution": "I can't get used to these shoes.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "He's getting used to living in England.",
+        "es": "Él se está acostumbrando a vivir en Inglaterra."
+      },
+      "solution": "He's getting used to living in England.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "I got used to wearing a tie immediately.",
+        "es": "Me acostumbré enseguida a llevar una corbata."
+      },
+      "solution": "I got used to wearing a tie immediately.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm sure you'll get used to working with him.",
+        "es": "Estoy seguro de que te acostumbrarás a trabajar con él."
+      },
+      "solution": "I'm sure you'll get used to working with him.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "Have you got used to driving on the right yet?",
+        "es": "¿Te has acostumbrado a conducir por la derecha ya?"
+      },
+      "solution": "Have you got used to driving on the right yet?",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "Did you get used to using a mobile quickly?",
+        "es": "¿Te acostumbraste deprisa a utilizar el móvil?"
+      },
+      "solution": "Did you get used to using a mobile quickly?",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "She's getting used to the new schedule.",
+        "es": "Se está acostumbrando al nuevo horario."
+      },
+      "solution": "She's getting used to the new schedule.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "We got used to the cold weather.",
+        "es": "Nos acostumbramos al clima frío."
+      },
+      "solution": "We got used to the cold weather.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "Are you getting used to cooking for yourself?",
+        "es": "¿Te estás acostumbrando a cocinar para ti mismo?"
+      },
+      "solution": "Are you getting used to cooking for yourself?",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "They won't get used to the noise.",
+        "es": "No se acostumbrarán al ruido."
+      },
+      "solution": "They won't get used to the noise.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "He's getting used to waking up early.",
+        "es": "Se está acostumbrando a despertarse temprano."
+      },
+      "solution": "He's getting used to waking up early.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "Will you get used to the new system?",
+        "es": "¿Te acostumbrarás al nuevo sistema?"
+      },
+      "solution": "Will you get used to the new system?",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "I got used to living alone.",
+        "es": "Me acostumbré a vivir solo."
+      },
+      "solution": "I got used to living alone.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "She's getting used to the pressure.",
+        "es": "Se está acostumbrando a la presión."
+      },
+      "solution": "She's getting used to the pressure.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "Did they get used to working from home?",
+        "es": "¿Se acostumbraron a trabajar desde casa?"
+      },
+      "solution": "Did they get used to working from home?",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "We can't get used to the humidity.",
+        "es": "No podemos acostumbrarnos a la humedad."
+      },
+      "solution": "We can't get used to the humidity.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "Are you getting used to studying at night?",
+        "es": "¿Te estás acostumbrando a estudiar por la noche?"
+      },
+      "solution": "Are you getting used to studying at night?",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "He got used to the new boss quickly.",
+        "es": "Se acostumbró rápidamente al nuevo jefe."
+      },
+      "solution": "He got used to the new boss quickly.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm getting used to eating less.",
+        "es": "Me estoy acostumbrando a comer menos."
+      },
+      "solution": "I'm getting used to eating less.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "She won't get used to the long commute.",
+        "es": "No se acostumbrará al viaje largo al trabajo."
+      },
+      "solution": "She won't get used to the long commute.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "Have they got used to the technology yet?",
+        "es": "¿Se han acostumbrado ya a la tecnología?"
+      },
+      "solution": "Have they got used to the technology yet?",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "We're getting used to multitasking.",
+        "es": "Nos estamos acostumbrando a hacer varias tareas a la vez."
+      },
+      "solution": "We're getting used to multitasking.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "Did you get used to the heat?",
+        "es": "¿Te acostumbraste al calor?"
+      },
+      "solution": "Did you get used to the heat?",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm getting used to speaking in public.",
+        "es": "Me estoy acostumbrando a hablar en público."
+      },
+      "solution": "I'm getting used to speaking in public.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "They got used to the silence.",
+        "es": "Se acostumbraron al silencio."
+      },
+      "solution": "They got used to the silence.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "Will she get used to managing people?",
+        "es": "¿Se acostumbrará a dirigir personas?"
+      },
+      "solution": "Will she get used to managing people?",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "en": "I can't get used to this routine.",
+        "es": "No puedo acostumbrarme a esta rutina."
+      },
+      "solution": "I can't get used to this routine.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "en": "Are you getting used to exercising daily?",
+        "es": "¿Te estás acostumbrando a hacer ejercicio diariamente?"
+      },
+      "solution": "Are you getting used to exercising daily?",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "en": "He got used to the fast pace.",
+        "es": "Se acostumbró al ritmo rápido."
+      },
+      "solution": "He got used to the fast pace.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "en": "We're getting used to working weekends.",
+        "es": "Nos estamos acostumbrando a trabajar los fines de semana."
+      },
+      "solution": "We're getting used to working weekends.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "en": "Did she get used to the responsibility?",
+        "es": "¿Se acostumbró a la responsabilidad?"
+      },
+      "solution": "Did she get used to the responsibility?",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm getting used to taking decisions.",
+        "es": "Me estoy acostumbrando a tomar decisiones."
+      },
+      "solution": "I'm getting used to taking decisions.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "en": "They won't get used to the new environment.",
+        "es": "No se acostumbrarán al nuevo ambiente."
+      },
+      "solution": "They won't get used to the new environment.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "en": "Have you got used to sharing your space?",
+        "es": "¿Te has acostumbrado a compartir tu espacio?"
+      },
+      "solution": "Have you got used to sharing your space?",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "en": "She's getting used to the competition.",
+        "es": "Se está acostumbrando a la competencia."
+      },
+      "solution": "She's getting used to the competition.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "en": "Will we get used to dealing with complaints?",
+        "es": "¿Nos acostumbraremos a lidiar con quejas?"
+      },
+      "solution": "Will we get used to dealing with complaints?",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "en": "I got used to the constant changes.",
+        "es": "Me acostumbré a los cambios constantes."
+      },
+      "solution": "I got used to the constant changes.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "en": "Are they getting used to presenting to groups?",
+        "es": "¿Se están acostumbrando a presentar ante grupos?"
+      },
+      "solution": "Are they getting used to presenting to groups?",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "en": "He can't get used to the bureaucracy.",
+        "es": "No puede acostumbrarse a la burocracia."
+      },
+      "solution": "He can't get used to the bureaucracy.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "en": "We're getting used to negotiating contracts.",
+        "es": "Nos estamos acostumbrando a negociar contratos."
+      },
+      "solution": "We're getting used to negotiating contracts.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "en": "Did you get used to this level of stress?",
+        "es": "¿Te acostumbraste a este nivel de estrés?"
+      },
+      "solution": "Did you get used to this level of stress?",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "en": "She's getting used to being in charge.",
+        "es": "Se está acostumbrando a estar a cargo."
+      },
+      "solution": "She's getting used to being in charge.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "en": "I won't get used to working nights.",
+        "es": "No me acostumbraré a trabajar de noche."
+      },
+      "solution": "I won't get used to working nights.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "en": "Have they got used to the new procedures?",
+        "es": "¿Se han acostumbrado a los nuevos procedimientos?"
+      },
+      "solution": "Have they got used to the new procedures?",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "en": "We're getting used to traveling frequently.",
+        "es": "Nos estamos acostumbrando a viajar frecuentemente."
+      },
+      "solution": "We're getting used to traveling frequently.",
+      "tip": {
+        "en": "Remember that both verbs related to 'getting accustomed' use the gerund (verb + -ing). This is another example of gerund after the preposition 'to'.",
+        "es": "Recuerda que los dos verbos que tienen que ver con 'acostumbrar' llevan el gerundio (verbo + -ing). Este es otro ejemplo de gerundio después de la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "en": "He got used to the irregular schedule.",
+        "es": "Se acostumbró al horario irregular."
+      },
+      "solution": "He got used to the irregular schedule.",
+      "tip": {
+        "en": "This expression describes the process of becoming accustomed to something. The main verb here is 'to get'. After 'used to' we use nouns or gerunds (verb + -ing).",
+        "es": "Esta expresión describe el proceso de acostumbrarse a algo. Aquí el verbo principal es 'to get'. Después de 'used to' usamos sustantivos o gerundios (verbo + -ing)."
+      }
+    }
+  ]
+}

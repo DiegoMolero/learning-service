@@ -1,0 +1,664 @@
+{
+  "title": {
+    "en": "Noun as Adjective (El sustantivo como adjetivo)",
+    "es": "Noun as Adjective (El sustantivo como adjetivo)"
+  },
+  "description": {
+    "en": "Learn to use nouns as adjectives in compound structures. Master the rules for pluralization and hyphenated expressions with numbers and duration.",
+    "es": "Aprende a usar sustantivos como adjetivos en estructuras compuestas. Domina las reglas de pluralización y expresiones con guión para números y duración."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "They bought their plants at a garden centre.",
+        "es": "Compraron sus plantas en un vivero."
+      },
+      "solution": "They bought their plants at a garden centre.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Garden' describes what type of centre. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Garden' describe qué tipo de centro. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "He has always been a book lover.",
+        "es": "Siempre ha sido un bibliófilo."
+      },
+      "solution": "He has always been a book lover.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Book' describes what type of lover. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Book' describe qué tipo de amante. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "She was in charge of the development costs.",
+        "es": "Ella se encargó de los costes de desarrollo."
+      },
+      "solution": "She was in charge of the development costs.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Development' describes what type of costs. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Development' describe qué tipo de costes. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "Most of the men on the island were pearl divers.",
+        "es": "La mayoría de los hombres de la isla eran pescadores de perlas."
+      },
+      "solution": "Most of the men on the island were pearl divers.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Pearl' describes what type of divers. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Pearl' describe qué tipo de buceadores. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "She cut herself with the potato peeler.",
+        "es": "Ella se cortó con el pelador."
+      },
+      "solution": "She cut herself with the potato peeler.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Potato' describes what type of peeler. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Potato' describe qué tipo de pelador. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "I've been in a three-hour meeting.",
+        "es": "He estado en una reunión de tres horas."
+      },
+      "solution": "I've been in a three-hour meeting.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (three-hour, not three-hours). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (three-hour, no three-hours). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "They went on a three-month trip.",
+        "es": "Fueron a un viaje de tres meses."
+      },
+      "solution": "They went on a three-month trip.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (three-month, not three-months). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (three-month, no three-months). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "I wrote him a nine-page letter.",
+        "es": "Le escribí una carta de nueve páginas."
+      },
+      "solution": "I wrote him a nine-page letter.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (nine-page, not nine-pages). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (nine-page, no nine-pages). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "It was an eight-hour flight.",
+        "es": "Fue un vuelo de ocho horas."
+      },
+      "solution": "It was an eight-hour flight.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (eight-hour, not eight-hours). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (eight-hour, no eight-hours). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "She bought a twelve-metre yacht.",
+        "es": "Ella se compró un yate de 12 metros."
+      },
+      "solution": "She bought a twelve-metre yacht.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (twelve-metre, not twelve-metres). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (twelve-metre, no twelve-metres). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "We need to go to the train station.",
+        "es": "Necesitamos ir a la estación de tren."
+      },
+      "solution": "We need to go to the train station.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Train' describes what type of station. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Train' describe qué tipo de estación. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "The coffee shop is closed today.",
+        "es": "La cafetería está cerrada hoy."
+      },
+      "solution": "The coffee shop is closed today.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Coffee' describes what type of shop. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Coffee' describe qué tipo de tienda. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "He works at a car factory.",
+        "es": "Él trabaja en una fábrica de coches."
+      },
+      "solution": "He works at a car factory.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Car' describes what type of factory. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Car' describe qué tipo de fábrica. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "She's studying computer science.",
+        "es": "Ella está estudiando informática."
+      },
+      "solution": "She's studying computer science.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Computer' describes what type of science. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Computer' describe qué tipo de ciencia. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "We visited the art museum yesterday.",
+        "es": "Visitamos el museo de arte ayer."
+      },
+      "solution": "We visited the art museum yesterday.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Art' describes what type of museum. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Art' describe qué tipo de museo. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "I need a new phone charger.",
+        "es": "Necesito un cargador de teléfono nuevo."
+      },
+      "solution": "I need a new phone charger.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Phone' describes what type of charger. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Phone' describe qué tipo de cargador. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "The shoe store has a sale.",
+        "es": "La zapatería tiene rebajas."
+      },
+      "solution": "The shoe store has a sale.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Shoe' describes what type of store. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Shoe' describe qué tipo de tienda. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "He's a basketball player.",
+        "es": "Él es un jugador de baloncesto."
+      },
+      "solution": "He's a basketball player.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Basketball' describes what type of player. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Basketball' describe qué tipo de jugador. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "We stayed at a beach hotel.",
+        "es": "Nos alojamos en un hotel de playa."
+      },
+      "solution": "We stayed at a beach hotel.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Beach' describes what type of hotel. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Beach' describe qué tipo de hotel. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "She loves ice cream.",
+        "es": "A ella le encanta el helado."
+      },
+      "solution": "She loves ice cream.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Ice' describes what type of cream. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Ice' describe qué tipo de crema. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "It was a five-minute walk.",
+        "es": "Fue un paseo de cinco minutos."
+      },
+      "solution": "It was a five-minute walk.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (five-minute, not five-minutes). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (five-minute, no five-minutes). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "They live in a ten-story building.",
+        "es": "Viven en un edificio de diez pisos."
+      },
+      "solution": "They live in a ten-story building.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (ten-story, not ten-stories). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (ten-story, no ten-stories). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "She bought a two-year warranty.",
+        "es": "Ella compró una garantía de dos años."
+      },
+      "solution": "She bought a two-year warranty.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (two-year, not two-years). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (two-year, no two-years). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "He gave a twenty-minute presentation.",
+        "es": "Él dio una presentación de veinte minutos."
+      },
+      "solution": "He gave a twenty-minute presentation.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (twenty-minute, not twenty-minutes). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (twenty-minute, no twenty-minutes). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "It's a six-kilometer race.",
+        "es": "Es una carrera de seis kilómetros."
+      },
+      "solution": "It's a six-kilometer race.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (six-kilometer, not six-kilometers). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (six-kilometer, no six-kilometers). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "She's reading a four-hundred-page book.",
+        "es": "Ella está leyendo un libro de cuatrocientas páginas."
+      },
+      "solution": "She's reading a four-hundred-page book.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (four-hundred-page, not four-hundred-pages). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (four-hundred-page, no four-hundred-pages). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "They ordered a fifteen-inch pizza.",
+        "es": "Pidieron una pizza de quince pulgadas."
+      },
+      "solution": "They ordered a fifteen-inch pizza.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (fifteen-inch, not fifteen-inches). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (fifteen-inch, no fifteen-inches). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "He bought a seven-seat car.",
+        "es": "Él compró un coche de siete asientos."
+      },
+      "solution": "He bought a seven-seat car.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (seven-seat, not seven-seats). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (seven-seat, no seven-seats). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "It was a thirty-second commercial.",
+        "es": "Fue un anuncio de treinta segundos."
+      },
+      "solution": "It was a thirty-second commercial.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (thirty-second, not thirty-seconds). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (thirty-second, no thirty-seconds). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "She has a three-bedroom apartment.",
+        "es": "Ella tiene un apartamento de tres dormitorios."
+      },
+      "solution": "She has a three-bedroom apartment.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (three-bedroom, not three-bedrooms). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (three-bedroom, no three-bedrooms). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "en": "He works at a news agency.",
+        "es": "Él trabaja en una agencia de noticias."
+      },
+      "solution": "He works at a news agency.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'News' describes what type of agency. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'News' describe qué tipo de agencia. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "en": "The music teacher is very patient.",
+        "es": "El profesor de música es muy paciente."
+      },
+      "solution": "The music teacher is very patient.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Music' describes what type of teacher. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Music' describe qué tipo de profesor. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "en": "She lost her house keys.",
+        "es": "Ella perdió las llaves de casa."
+      },
+      "solution": "She lost her house keys.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'House' describes what type of keys. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'House' describe qué tipo de llaves. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "en": "They bought new kitchen appliances.",
+        "es": "Compraron nuevos electrodomésticos de cocina."
+      },
+      "solution": "They bought new kitchen appliances.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Kitchen' describes what type of appliances. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Kitchen' describe qué tipo de electrodomésticos. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "en": "He's studying business administration.",
+        "es": "Él está estudiando administración de empresas."
+      },
+      "solution": "He's studying business administration.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Business' describes what type of administration. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Business' describe qué tipo de administración. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "en": "The water bottle is empty.",
+        "es": "La botella de agua está vacía."
+      },
+      "solution": "The water bottle is empty.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Water' describes what type of bottle. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Water' describe qué tipo de botella. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "en": "She works for a fashion magazine.",
+        "es": "Ella trabaja para una revista de moda."
+      },
+      "solution": "She works for a fashion magazine.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Fashion' describes what type of magazine. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Fashion' describe qué tipo de revista. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "en": "The football stadium is huge.",
+        "es": "El estadio de fútbol es enorme."
+      },
+      "solution": "The football stadium is huge.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Football' describes what type of stadium. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Football' describe qué tipo de estadio. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "en": "He needs new tennis shoes.",
+        "es": "Él necesita zapatos de tenis nuevos."
+      },
+      "solution": "He needs new tennis shoes.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Tennis' describes what type of shoes. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Tennis' describe qué tipo de zapatos. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "en": "The science laboratory is well-equipped.",
+        "es": "El laboratorio de ciencias está bien equipado."
+      },
+      "solution": "The science laboratory is well-equipped.",
+      "tip": {
+        "en": "When two nouns are together, the first describes the second. 'Science' describes what type of laboratory. Only the second noun gets plural 's' if needed.",
+        "es": "Cuando dos sustantivos van juntos, el primero describe al segundo. 'Science' describe qué tipo de laboratorio. Solo el segundo sustantivo lleva 's' de plural si es necesario."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "en": "It was a one-way ticket.",
+        "es": "Era un billete de ida."
+      },
+      "solution": "It was a one-way ticket.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (one-way, not one-ways). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (one-way, no one-ways). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "en": "She has a part-time job.",
+        "es": "Ella tiene un trabajo de medio tiempo."
+      },
+      "solution": "She has a part-time job.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (part-time, not part-times). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (part-time, no part-times). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "en": "He owns a four-door sedan.",
+        "es": "Él tiene un sedán de cuatro puertas."
+      },
+      "solution": "He owns a four-door sedan.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (four-door, not four-doors). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (four-door, no four-doors). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "en": "It's a high-speed train.",
+        "es": "Es un tren de alta velocidad."
+      },
+      "solution": "It's a high-speed train.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (high-speed, not high-speeds). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (high-speed, no high-speeds). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "en": "She bought a five-pound bag of sugar.",
+        "es": "Ella compró una bolsa de azúcar de cinco libras."
+      },
+      "solution": "She bought a five-pound bag of sugar.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (five-pound, not five-pounds). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (five-pound, no five-pounds). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "en": "He has a full-time position.",
+        "es": "Él tiene un puesto de tiempo completo."
+      },
+      "solution": "He has a full-time position.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (full-time, not full-times). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (full-time, no full-times). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "en": "They rented a two-room apartment.",
+        "es": "Alquilaron un apartamento de dos habitaciones."
+      },
+      "solution": "They rented a two-room apartment.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (two-room, not two-rooms). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (two-room, no two-rooms). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "en": "It's a fifty-dollar fine.",
+        "es": "Es una multa de cincuenta dólares."
+      },
+      "solution": "It's a fifty-dollar fine.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (fifty-dollar, not fifty-dollars). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (fifty-dollar, no fifty-dollars). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "en": "She gave a forty-five-minute lecture.",
+        "es": "Ella dio una conferencia de cuarenta y cinco minutos."
+      },
+      "solution": "She gave a forty-five-minute lecture.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (forty-five-minute, not forty-five-minutes). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (forty-five-minute, no forty-five-minutes). El compuesto actúa como un adjetivo."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "en": "He drives a sixteen-wheel truck.",
+        "es": "Él conduce un camión de dieciséis ruedas."
+      },
+      "solution": "He drives a sixteen-wheel truck.",
+      "tip": {
+        "en": "For duration/number + noun, use a hyphen and keep the first noun singular (sixteen-wheel, not sixteen-wheels). The compound acts as one adjective.",
+        "es": "Para duración/número + sustantivo, usa guión y mantén el primer sustantivo en singular (sixteen-wheel, no sixteen-wheels). El compuesto actúa como un adjetivo."
+      }
+    }
+  ]
+}

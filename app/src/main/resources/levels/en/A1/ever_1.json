@@ -1,0 +1,664 @@
+{
+  "title": {
+    "en": "Ever (Nunca/Alguna vez)",
+    "es": "Ever (Nunca/Alguna vez)"
+  },
+  "description": {
+    "en": "Learn to use 'ever' in negative sentences (meaning 'never') and in questions (meaning 'ever/at any time'). Master the placement after auxiliaries.",
+    "es": "Aprende a usar 'ever' en frases negativas (significando 'nunca') y en preguntas (significando 'alguna vez'). Domina la colocación después de auxiliares."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't ever remember promising that!",
+        "es": "¡No recuerdo haber prometido eso nunca!"
+      },
+      "solution": "I don't ever remember promising that!",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "He doesn't ever speak.",
+        "es": "Él nunca habla."
+      },
+      "solution": "He doesn't ever speak.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "They aren't ever there when you need them.",
+        "es": "Nunca están cuando los necesitas."
+      },
+      "solution": "They aren't ever there when you need them.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "They probably won't ever get married.",
+        "es": "Probablemente nunca se casarán."
+      },
+      "solution": "They probably won't ever get married.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "They don't ever do things like that.",
+        "es": "Nunca hacen cosas de ese estilo."
+      },
+      "solution": "They don't ever do things like that.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "Do you ever speak to your friends in Canada?",
+        "es": "¿Hablas alguna vez con tus amigos en Canadá?"
+      },
+      "solution": "Do you ever speak to your friends in Canada?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "Have you ever been to Guarromán?",
+        "es": "¿Has ido alguna vez a Guarromán?"
+      },
+      "solution": "Have you ever been to Guarromán?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "Are you ever at home on Tuesdays?",
+        "es": "¿Estás en casa alguna vez los martes?"
+      },
+      "solution": "Are you ever at home on Tuesdays?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "Does he ever say anything interesting?",
+        "es": "¿Alguna vez él dice algo interesante?"
+      },
+      "solution": "Does he ever say anything interesting?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "Will Spain ever win the World Cup?",
+        "es": "¿Ganará España alguna vez el Mundial?"
+      },
+      "solution": "Will Spain ever win the World Cup?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't ever want to see him again.",
+        "es": "No quiero verle nunca más."
+      },
+      "solution": "I don't ever want to see him again.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "She doesn't ever eat meat.",
+        "es": "Ella nunca come carne."
+      },
+      "solution": "She doesn't ever eat meat.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "We won't ever forget this day.",
+        "es": "Nunca olvidaremos este día."
+      },
+      "solution": "We won't ever forget this day.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "They aren't ever happy with the results.",
+        "es": "Nunca están contentos con los resultados."
+      },
+      "solution": "They aren't ever happy with the results.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "I haven't ever seen such a beautiful sunset.",
+        "es": "Nunca he visto una puesta de sol tan hermosa."
+      },
+      "solution": "I haven't ever seen such a beautiful sunset.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "Do you ever go to the cinema alone?",
+        "es": "¿Vas alguna vez al cine solo?"
+      },
+      "solution": "Do you ever go to the cinema alone?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "Have you ever tried sushi?",
+        "es": "¿Has probado alguna vez el sushi?"
+      },
+      "solution": "Have you ever tried sushi?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "Does she ever smile?",
+        "es": "¿Sonríe ella alguna vez?"
+      },
+      "solution": "Does she ever smile?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "Will you ever learn to drive?",
+        "es": "¿Aprenderás alguna vez a conducir?"
+      },
+      "solution": "Will you ever learn to drive?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "Are they ever on time?",
+        "es": "¿Llegan alguna vez a tiempo?"
+      },
+      "solution": "Are they ever on time?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "He doesn't ever listen to advice.",
+        "es": "Él nunca escucha consejos."
+      },
+      "solution": "He doesn't ever listen to advice.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "We don't ever stay up late on weekdays.",
+        "es": "Nunca nos acostamos tarde entre semana."
+      },
+      "solution": "We don't ever stay up late on weekdays.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "They won't ever understand our culture.",
+        "es": "Nunca entenderán nuestra cultura."
+      },
+      "solution": "They won't ever understand our culture.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "She isn't ever worried about money.",
+        "es": "Ella nunca se preocupa por el dinero."
+      },
+      "solution": "She isn't ever worried about money.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "I can't ever remember his name.",
+        "es": "Nunca puedo recordar su nombre."
+      },
+      "solution": "I can't ever remember his name.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "Have you ever been to Asia?",
+        "es": "¿Has estado alguna vez en Asia?"
+      },
+      "solution": "Have you ever been to Asia?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "Do you ever regret your decisions?",
+        "es": "¿Te arrepientes alguna vez de tus decisiones?"
+      },
+      "solution": "Do you ever regret your decisions?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "Has he ever apologized for his behaviour?",
+        "es": "¿Se ha disculpado alguna vez por su comportamiento?"
+      },
+      "solution": "Has he ever apologized for his behaviour?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "Will she ever find true love?",
+        "es": "¿Encontrará alguna vez el amor verdadero?"
+      },
+      "solution": "Will she ever find true love?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "Are you ever jealous of your friends?",
+        "es": "¿Tienes alguna vez envidia de tus amigos?"
+      },
+      "solution": "Are you ever jealous of your friends?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "en": "They don't ever complain about anything.",
+        "es": "Nunca se quejan de nada."
+      },
+      "solution": "They don't ever complain about anything.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "en": "I won't ever trust him again.",
+        "es": "Nunca volveré a confiar en él."
+      },
+      "solution": "I won't ever trust him again.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "en": "She doesn't ever lose her temper.",
+        "es": "Ella nunca pierde los estribos."
+      },
+      "solution": "She doesn't ever lose her temper.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "en": "We aren't ever invited to their parties.",
+        "es": "Nunca nos invitan a sus fiestas."
+      },
+      "solution": "We aren't ever invited to their parties.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "en": "He hasn't ever been abroad.",
+        "es": "Él nunca ha estado en el extranjero."
+      },
+      "solution": "He hasn't ever been abroad.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "en": "Do you ever feel homesick?",
+        "es": "¿Sientes alguna vez nostalgia?"
+      },
+      "solution": "Do you ever feel homesick?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "en": "Have you ever met a famous person?",
+        "es": "¿Has conocido alguna vez a una persona famosa?"
+      },
+      "solution": "Have you ever met a famous person?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "en": "Does he ever call his parents?",
+        "es": "¿Llama alguna vez a sus padres?"
+      },
+      "solution": "Does he ever call his parents?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "en": "Will technology ever replace human teachers?",
+        "es": "¿Reemplazará alguna vez la tecnología a los profesores humanos?"
+      },
+      "solution": "Will technology ever replace human teachers?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "en": "Are you ever completely satisfied with your work?",
+        "es": "¿Estás alguna vez completamente satisfecho con tu trabajo?"
+      },
+      "solution": "Are you ever completely satisfied with your work?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "en": "My grandmother doesn't ever use the internet.",
+        "es": "Mi abuela nunca usa internet."
+      },
+      "solution": "My grandmother doesn't ever use the internet.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "en": "The weather isn't ever perfect here.",
+        "es": "El tiempo nunca es perfecto aquí."
+      },
+      "solution": "The weather isn't ever perfect here.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "en": "Children don't ever appreciate their parents enough.",
+        "es": "Los niños nunca aprecian lo suficiente a sus padres."
+      },
+      "solution": "Children don't ever appreciate their parents enough.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "en": "I won't ever give up on my dreams.",
+        "es": "Nunca renunciaré a mis sueños."
+      },
+      "solution": "I won't ever give up on my dreams.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "en": "Politicians don't ever tell the whole truth.",
+        "es": "Los políticos nunca dicen toda la verdad."
+      },
+      "solution": "Politicians don't ever tell the whole truth.",
+      "tip": {
+        "en": "In negative sentences, 'ever' means 'never'. Place it after the auxiliary and 'not': don't/won't/aren't + ever. This is more emphatic than just 'never'.",
+        "es": "En frases negativas, 'ever' significa 'nunca'. Colócalo después del auxiliar y 'not': don't/won't/aren't + ever. Es más enfático que solo 'never'."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "en": "Have you ever skipped school?",
+        "es": "¿Te has saltado alguna vez las clases?"
+      },
+      "solution": "Have you ever skipped school?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "en": "Do you ever talk to yourself?",
+        "es": "¿Hablas alguna vez contigo mismo?"
+      },
+      "solution": "Do you ever talk to yourself?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "en": "Has she ever admitted she was wrong?",
+        "es": "¿Ha admitido alguna vez que se equivocó?"
+      },
+      "solution": "Has she ever admitted she was wrong?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "en": "Will humans ever live on Mars?",
+        "es": "¿Vivirán alguna vez los humanos en Marte?"
+      },
+      "solution": "Will humans ever live on Mars?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "en": "Are you ever afraid of the dark?",
+        "es": "¿Tienes alguna vez miedo de la oscuridad?"
+      },
+      "solution": "Are you ever afraid of the dark?",
+      "tip": {
+        "en": "In questions, 'ever' means 'at any time/alguna vez'. Place it after the auxiliary and subject: Do/Have/Are + you + ever. It asks about any occasion in life.",
+        "es": "En preguntas, 'ever' significa 'alguna vez'. Colócalo después del auxiliar y sujeto: Do/Have/Are + you + ever. Pregunta sobre cualquier ocasión en la vida."
+      }
+    }
+  ]
+}

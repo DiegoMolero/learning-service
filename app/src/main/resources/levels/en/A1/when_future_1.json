@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "When + Future (When + Present Simple)",
+    "es": "When + Futuro (When + Presente Simple)"
+  },
+  "description": {
+    "en": "Learn that 'when' talking about the future is ALWAYS followed by present simple, never future tense. 'Will' goes in the other clause.",
+    "es": "Aprende que 'when' hablando del futuro SIEMPRE va seguido de presente simple, nunca futuro. 'Will' va en la otra cláusula."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando me jubile, iré a pescar todos los días."
+      },
+      "solution": "When I retire, I will go fishing every day.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando ella llegue, estará cansada."
+      },
+      "solution": "When she arrives, she'll be tired.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando tenga 40 años, estaré más gordo que ahora."
+      },
+      "solution": "When I'm forty I'll be fatter than I am now.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando empiecen, ¿me avisarás?"
+      },
+      "solution": "When they start, will you let me know?",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando deje de llover, ¿vendrás a dar un paseo?"
+      },
+      "solution": "When it stops raining, will you come out for a walk?",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Te lo diré cuando te necesite."
+      },
+      "solution": "I'll tell you when I need you.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella te echará una mano cuando pueda."
+      },
+      "solution": "She'll give you a hand when she can.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Será demasiado tarde cuando tengas 50 años."
+      },
+      "solution": "It will be too late when you are fifty.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Bajaré cuando termine."
+      },
+      "solution": "I'll come down when I finish.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Maullará cuando tenga hambre."
+      },
+      "solution": "He'll miaow when he's hungry.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando vuelva de vacaciones, te llamaré."
+      },
+      "solution": "When I get back from holiday, I'll call you.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando sea mayor, seré médico."
+      },
+      "solution": "When I'm older, I'll be a doctor.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando termines el trabajo, ¿podrás ayudarme?"
+      },
+      "solution": "When you finish work, will you be able to help me?",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando abran la tienda, iré de compras."
+      },
+      "solution": "When the shop opens, I'll go shopping.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando haga buen tiempo, saldremos al jardín."
+      },
+      "solution": "When the weather's nice, we'll go out into the garden.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Me iré cuando llegues."
+      },
+      "solution": "I'll leave when you arrive.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Te ayudará cuando tengas tiempo."
+      },
+      "solution": "He'll help you when you have time.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Será más fácil cuando entiendas las reglas."
+      },
+      "solution": "It will be easier when you understand the rules.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaremos contentos cuando vuelvas a casa."
+      },
+      "solution": "We'll be happy when you come back home.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Te sentiránbien cuando descanses."
+      },
+      "solution": "You'll feel better when you rest.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando se acabe el verano, volveremos al trabajo."
+      },
+      "solution": "When summer ends, we'll go back to work.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando compre el coche, te llevaré a dar una vuelta."
+      },
+      "solution": "When I buy the car, I'll take you for a drive.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando encuentre las llaves, podremos irnos."
+      },
+      "solution": "When I find the keys, we'll be able to leave.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando vengan los invitados, ¿estarás listo?"
+      },
+      "solution": "When the guests come, will you be ready?",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando aprendas inglés, conseguirás un trabajo mejor."
+      },
+      "solution": "When you learn English, you'll get a better job.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Nos iremos cuando sea de noche."
+      },
+      "solution": "We'll leave when it's dark.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Te escribiré cuando esté en París."
+      },
+      "solution": "I'll write to you when I'm in Paris.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Será diferente cuando vivas solo."
+      },
+      "solution": "It will be different when you live alone.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Nos mudamos cuando vendamos la casa."
+      },
+      "solution": "We'll move when we sell the house.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Te lo contaré cuando me acuerde."
+      },
+      "solution": "I'll tell you when I remember.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando salga el sol, iremos a la playa."
+      },
+      "solution": "When the sun comes out, we'll go to the beach.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando cumpla 18 años, podré conducir."
+      },
+      "solution": "When I turn eighteen, I'll be able to drive.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando llegue el tren, subiremos rápido."
+      },
+      "solution": "When the train arrives, we'll get on quickly.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando haga frío, ¿encenderás la calefacción?"
+      },
+      "solution": "When it's cold, will you turn on the heating?",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando tengamos dinero, compraremos una casa nueva."
+      },
+      "solution": "When we have money, we'll buy a new house.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Me casaré cuando encuentre a la persona adecuada."
+      },
+      "solution": "I'll get married when I find the right person.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Se enfadará cuando vea el desastre."
+      },
+      "solution": "She'll get angry when she sees the mess.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Será más barato cuando haya ofertas."
+      },
+      "solution": "It will be cheaper when there are sales.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Te llamaremos cuando sepamos algo."
+      },
+      "solution": "We'll call you when we know something.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Me sentiré mejor cuando duerna bien."
+      },
+      "solution": "I'll feel better when I sleep well.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando construyan el puente, será más fácil llegar."
+      },
+      "solution": "When they build the bridge, it will be easier to get there.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando reparen el ordenador, podrás trabajar."
+      },
+      "solution": "When they fix the computer, you'll be able to work.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando publiquen el libro, lo compraré."
+      },
+      "solution": "When they publish the book, I'll buy it.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando pasen las vacaciones, ¿volverás al gimnasio?"
+      },
+      "solution": "When the holidays are over, will you go back to the gym?",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando cambien las leyes, habrá más oportunidades."
+      },
+      "solution": "When the laws change, there will be more opportunities.",
+      "tip": {
+        "en": "CRITICAL RULE: After 'when' (future context), ALWAYS use present simple, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "REGLA CRÍTICA: Después de 'when' (contexto futuro), SIEMPRE usa presente simple, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Nos reiremos cuando veamos la película."
+      },
+      "solution": "We'll laugh when we watch the film.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Te gustará cuando pruebes este postre."
+      },
+      "solution": "You'll like it when you try this dessert.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Será perfecto cuando añadas sal."
+      },
+      "solution": "It will be perfect when you add salt.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Te echaré de menos cuando te vayas."
+      },
+      "solution": "I'll miss you when you leave.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaremos orgullosos cuando ganes el premio."
+      },
+      "solution": "We'll be proud when you win the prize.",
+      "tip": {
+        "en": "You can reverse the clauses! The rule stays the same: 'when' + present simple, 'will' in the other clause (regardless of order).",
+        "es": "¡Puedes invertir las cláusulas! La regla sigue igual: 'when' + presente simple, 'will' en la otra cláusula (sin importar el orden)."
+      }
+    }
+  ]
+}

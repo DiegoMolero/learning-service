@@ -1,0 +1,404 @@
+{
+  "title": {
+    "en": "Negative Imperatives (Don't + verb)",
+    "es": "Imperativos Negativos (Don't + verbo)"
+  },
+  "description": {
+    "en": "Learn how to form negative commands using 'Don't' + base verb. Practice polite requests, warnings, and official prohibitions.",
+    "es": "Aprende a formar órdenes negativas usando 'Don't' + verbo básico. Practica peticiones corteses, advertencias y prohibiciones oficiales."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't annoy me!",
+        "es": "¡No me molestes!"
+      },
+      "solution": "Don't annoy me!",
+      "tip": {
+        "en": "Negative imperatives are formed with 'Don't' + base verb (never 'Not' + verb). This structure is used for commands, requests, and prohibitions.",
+        "es": "Los imperativos negativos se forman con 'Don't' + verbo básico (nunca 'Not' + verbo). Esta estructura se usa para órdenes, peticiones y prohibiciones."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't do it please.",
+        "es": "No lo hagas por favor."
+      },
+      "solution": "Don't do it please.",
+      "tip": {
+        "en": "Negative imperatives are formed with 'Don't' + base verb (never 'Not' + verb). This structure is used for commands, requests, and prohibitions.",
+        "es": "Los imperativos negativos se forman con 'Don't' + verbo básico (nunca 'Not' + verbo). Esta estructura se usa para órdenes, peticiones y prohibiciones."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't go.",
+        "es": "No te vayas."
+      },
+      "solution": "Don't go.",
+      "tip": {
+        "en": "Negative imperatives are formed with 'Don't' + base verb (never 'Not' + verb). This structure is used for commands, requests, and prohibitions.",
+        "es": "Los imperativos negativos se forman con 'Don't' + verbo básico (nunca 'Not' + verbo). Esta estructura se usa para órdenes, peticiones y prohibiciones."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't eat that!",
+        "es": "¡No comas eso!"
+      },
+      "solution": "Don't eat that!",
+      "tip": {
+        "en": "Negative imperatives are formed with 'Don't' + base verb (never 'Not' + verb). This structure is used for commands, requests, and prohibitions.",
+        "es": "Los imperativos negativos se forman con 'Don't' + verbo básico (nunca 'Not' + verbo). Esta estructura se usa para órdenes, peticiones y prohibiciones."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't forget to call me.",
+        "es": "No olvides llamarme."
+      },
+      "solution": "Don't forget to call me.",
+      "tip": {
+        "en": "After 'Don't + verb', you can add infinitives (to + verb) or other complements. The structure remains: Don't + base verb + complement.",
+        "es": "Después de 'Don't + verbo', puedes añadir infinitivos (to + verbo) u otros complementos. La estructura sigue siendo: Don't + verbo básico + complemento."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't be rude.",
+        "es": "No seas impertinente."
+      },
+      "solution": "Don't be rude.",
+      "tip": {
+        "en": "The verb 'be' in negative imperatives becomes 'Don't be'. This is commonly used for behavioral instructions and advice.",
+        "es": "El verbo 'be' en imperativos negativos se convierte en 'Don't be'. Esto se usa comúnmente para instrucciones de comportamiento y consejos."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't walk on the grass.",
+        "es": "Prohibido pisar el césped."
+      },
+      "solution": "Don't walk on the grass.",
+      "tip": {
+        "en": "Negative imperatives are common in official signs and prohibitions. Though considered impolite in requests, they're standard for public notices.",
+        "es": "Los imperativos negativos son comunes en señales oficiales y prohibiciones. Aunque se consideran descorteses en peticiones, son estándar para avisos públicos."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't talk in the chapel.",
+        "es": "Prohibido hablar en la capilla."
+      },
+      "solution": "Don't talk in the chapel.",
+      "tip": {
+        "en": "Negative imperatives are common in official signs and prohibitions. Though considered impolite in requests, they're standard for public notices.",
+        "es": "Los imperativos negativos son comunes en señales oficiales y prohibiciones. Aunque se consideran descorteses en peticiones, son estándar para avisos públicos."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't cross the road.",
+        "es": "Prohibido cruzar la calle."
+      },
+      "solution": "Don't cross the road.",
+      "tip": {
+        "en": "Negative imperatives are common in official signs and prohibitions. Though considered impolite in requests, they're standard for public notices.",
+        "es": "Los imperativos negativos son comunes en señales oficiales y prohibiciones. Aunque se consideran descorteses en peticiones, son estándar para avisos públicos."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't drink from the fountain.",
+        "es": "Prohibido beber de la fuente."
+      },
+      "solution": "Don't drink from the fountain.",
+      "tip": {
+        "en": "Negative imperatives are common in official signs and prohibitions. Though considered impolite in requests, they're standard for public notices.",
+        "es": "Los imperativos negativos son comunes en señales oficiales y prohibiciones. Aunque se consideran descorteses en peticiones, son estándar para avisos públicos."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't open the door whilst the train is in motion.",
+        "es": "Prohibido abrir la puerta mientras el tren esté en marcha."
+      },
+      "solution": "Don't open the door whilst the train is in motion.",
+      "tip": {
+        "en": "Negative imperatives can be followed by complex phrases and clauses. The basic structure 'Don't + verb' remains the same regardless of what follows.",
+        "es": "Los imperativos negativos pueden ir seguidos de frases y cláusulas complejas. La estructura básica 'Don't + verbo' sigue siendo la misma independientemente de lo que siga."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't touch the paintings.",
+        "es": "No toques los cuadros."
+      },
+      "solution": "Don't touch the paintings.",
+      "tip": {
+        "en": "Negative imperatives are common in official signs and prohibitions. Though considered impolite in requests, they're standard for public notices.",
+        "es": "Los imperativos negativos son comunes en señales oficiales y prohibiciones. Aunque se consideran descorteses en peticiones, son estándar para avisos públicos."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't smoke here.",
+        "es": "No fumes aquí."
+      },
+      "solution": "Don't smoke here.",
+      "tip": {
+        "en": "Negative imperatives are common in official signs and prohibitions. Though considered impolite in requests, they're standard for public notices.",
+        "es": "Los imperativos negativos son comunes en señales oficiales y prohibiciones. Aunque se consideran descorteses en peticiones, son estándar para avisos públicos."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't park in front of the entrance.",
+        "es": "No aparques delante de la entrada."
+      },
+      "solution": "Don't park in front of the entrance.",
+      "tip": {
+        "en": "Negative imperatives are common in official signs and prohibitions. Though considered impolite in requests, they're standard for public notices.",
+        "es": "Los imperativos negativos son comunes en señales oficiales y prohibiciones. Aunque se consideran descorteses en peticiones, son estándar para avisos públicos."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't feed the animals.",
+        "es": "No alimentes a los animales."
+      },
+      "solution": "Don't feed the animals.",
+      "tip": {
+        "en": "Negative imperatives are common in official signs and prohibitions. Though considered impolite in requests, they're standard for public notices.",
+        "es": "Los imperativos negativos son comunes en señales oficiales y prohibiciones. Aunque se consideran descorteses en peticiones, son estándar para avisos públicos."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't worry about it.",
+        "es": "No te preocupes por eso."
+      },
+      "solution": "Don't worry about it.",
+      "tip": {
+        "en": "Negative imperatives can also express reassurance and comfort. 'Don't worry' is a common way to calm someone down.",
+        "es": "Los imperativos negativos también pueden expresar tranquilidad y consuelo. 'Don't worry' es una forma común de calmar a alguien."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't tell anyone.",
+        "es": "No se lo digas a nadie."
+      },
+      "solution": "Don't tell anyone.",
+      "tip": {
+        "en": "Negative imperatives are used for confidential instructions and requests for secrecy. The structure remains 'Don't + base verb'.",
+        "es": "Los imperativos negativos se usan para instrucciones confidenciales y peticiones de secreto. La estructura sigue siendo 'Don't + verbo básico'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't run in the corridors.",
+        "es": "No corras por los pasillos."
+      },
+      "solution": "Don't run in the corridors.",
+      "tip": {
+        "en": "Negative imperatives are common in schools, hospitals, and public buildings for safety instructions.",
+        "es": "Los imperativos negativos son comunes en escuelas, hospitales y edificios públicos para instrucciones de seguridad."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't use your phone during the exam.",
+        "es": "No uses el teléfono durante el examen."
+      },
+      "solution": "Don't use your phone during the exam.",
+      "tip": {
+        "en": "Negative imperatives are used for rules and regulations, especially in academic and professional settings.",
+        "es": "Los imperativos negativos se usan para reglas y regulaciones, especialmente en entornos académicos y profesionales."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't be late.",
+        "es": "No llegues tarde."
+      },
+      "solution": "Don't be late.",
+      "tip": {
+        "en": "The verb 'be' in negative imperatives becomes 'Don't be'. This is commonly used for behavioral instructions and advice.",
+        "es": "El verbo 'be' en imperativos negativos se convierte en 'Don't be'. Esto se usa comúnmente para instrucciones de comportamiento y consejos."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't shout in the library.",
+        "es": "No grites en la biblioteca."
+      },
+      "solution": "Don't shout in the library.",
+      "tip": {
+        "en": "Negative imperatives are common for maintaining quiet and order in public spaces like libraries, museums, and hospitals.",
+        "es": "Los imperativos negativos son comunes para mantener silencio y orden en espacios públicos como bibliotecas, museos y hospitales."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't leave your bags unattended.",
+        "es": "No dejes las bolsas desatendidas."
+      },
+      "solution": "Don't leave your bags unattended.",
+      "tip": {
+        "en": "Negative imperatives are used for security warnings and safety instructions in airports, stations, and public places.",
+        "es": "Los imperativos negativos se usan para advertencias de seguridad e instrucciones de seguridad en aeropuertos, estaciones y lugares públicos."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't enter without permission.",
+        "es": "No entres sin permiso."
+      },
+      "solution": "Don't enter without permission.",
+      "tip": {
+        "en": "Negative imperatives are used for access control and security measures in restricted areas.",
+        "es": "Los imperativos negativos se usan para control de acceso y medidas de seguridad en áreas restringidas."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't lean out of the window.",
+        "es": "No te asomes por la ventana."
+      },
+      "solution": "Don't lean out of the window.",
+      "tip": {
+        "en": "Negative imperatives are common in transportation safety warnings and building safety instructions.",
+        "es": "Los imperativos negativos son comunes en advertencias de seguridad del transporte e instrucciones de seguridad de edificios."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't take photographs.",
+        "es": "No hagas fotografías."
+      },
+      "solution": "Don't take photographs.",
+      "tip": {
+        "en": "Negative imperatives are used to prohibit photography in museums, private areas, and secure locations.",
+        "es": "Los imperativos negativos se usan para prohibir la fotografía en museos, áreas privadas y lugares seguros."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't disturb the neighbors.",
+        "es": "No molestes a los vecinos."
+      },
+      "solution": "Don't disturb the neighbors.",
+      "tip": {
+        "en": "Negative imperatives are used for social courtesy and maintaining good relationships in residential areas.",
+        "es": "Los imperativos negativos se usan para cortesía social y mantener buenas relaciones en áreas residenciales."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't waste water.",
+        "es": "No desperdicies agua."
+      },
+      "solution": "Don't waste water.",
+      "tip": {
+        "en": "Negative imperatives are used in environmental and conservation messages to promote responsible behavior.",
+        "es": "Los imperativos negativos se usan en mensajes ambientales y de conservación para promover comportamiento responsable."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't throw litter on the ground.",
+        "es": "No tires basura al suelo."
+      },
+      "solution": "Don't throw litter on the ground.",
+      "tip": {
+        "en": "Negative imperatives are used in environmental and conservation messages to promote responsible behavior.",
+        "es": "Los imperativos negativos se usan en mensajes ambientales y de conservación para promover comportamiento responsable."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't hesitate to ask.",
+        "es": "No dudes en preguntar."
+      },
+      "solution": "Don't hesitate to ask.",
+      "tip": {
+        "en": "Negative imperatives can also encourage action by removing barriers. 'Don't hesitate' encourages someone to act confidently.",
+        "es": "Los imperativos negativos también pueden alentar la acción eliminando barreras. 'Don't hesitate' anima a alguien a actuar con confianza."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "Don't give up.",
+        "es": "No te rindas."
+      },
+      "solution": "Don't give up.",
+      "tip": {
+        "en": "Negative imperatives can express encouragement and motivation. 'Don't give up' is a common way to inspire perseverance.",
+        "es": "Los imperativos negativos pueden expresar aliento y motivación. 'Don't give up' es una forma común de inspirar perseverancia."
+      }
+    }
+  ]
+}

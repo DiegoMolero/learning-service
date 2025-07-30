@@ -1,0 +1,469 @@
+{
+  "title": {
+    "en": "What's the point of...? (¿De qué sirve...?)",
+    "es": "What's the point of...? (¿De qué sirve...?)"
+  },
+  "description": {
+    "en": "Learn how to question the usefulness or purpose of something using 'What's the point of...?' with gerunds.",
+    "es": "Aprende a cuestionar la utilidad o propósito de algo usando 'What's the point of...?' con gerundios."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of getting up early if it makes you feel sleepy later in the day?",
+        "es": "¿De qué sirve levantarte temprano si luego te entra sueño?"
+      },
+      "solution": "What's the point of getting up early if it makes you feel sleepy later in the day?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of working if you don't enjoy it?",
+        "es": "¿De qué sirve trabajar si no te gusta?"
+      },
+      "solution": "What's the point of working if you don't enjoy it?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of studying English if you're not prepared to use it in real life situations?",
+        "es": "¿De qué sirve estudiar inglés si no estás dispuesto a utilizarlo en la vida real?"
+      },
+      "solution": "What's the point of studying English if you're not prepared to use it in real life situations?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of being punctual if everyone else is late?",
+        "es": "¿De qué sirve ser puntual si los demás llegan tarde?"
+      },
+      "solution": "What's the point of being punctual if everyone else is late?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of getting angry about it?",
+        "es": "¿De qué sirve enfadarse por eso?"
+      },
+      "solution": "What's the point of getting angry about it?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of saving money if you never spend it?",
+        "es": "¿De qué sirve ahorrar dinero si nunca lo gastas?"
+      },
+      "solution": "What's the point of saving money if you never spend it?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of exercising if you eat junk food all the time?",
+        "es": "¿De qué sirve hacer ejercicio si comes comida basura todo el tiempo?"
+      },
+      "solution": "What's the point of exercising if you eat junk food all the time?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of learning to drive if you can't afford a car?",
+        "es": "¿De qué sirve aprender a conducir si no puedes permitirte un coche?"
+      },
+      "solution": "What's the point of learning to drive if you can't afford a car?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of making plans if they always change?",
+        "es": "¿De qué sirve hacer planes si siempre cambian?"
+      },
+      "solution": "What's the point of making plans if they always change?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of buying expensive clothes if you only wear them once?",
+        "es": "¿De qué sirve comprar ropa cara si solo te la pones una vez?"
+      },
+      "solution": "What's the point of buying expensive clothes if you only wear them once?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of complaining if nobody listens?",
+        "es": "¿De qué sirve quejarse si nadie escucha?"
+      },
+      "solution": "What's the point of complaining if nobody listens?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of cooking if you're not hungry?",
+        "es": "¿De qué sirve cocinar si no tienes hambre?"
+      },
+      "solution": "What's the point of cooking if you're not hungry?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of apologizing if you're going to do it again?",
+        "es": "¿De qué sirve disculparse si lo vas a volver a hacer?"
+      },
+      "solution": "What's the point of apologizing if you're going to do it again?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of waiting if he's not coming?",
+        "es": "¿De qué sirve esperar si él no va a venir?"
+      },
+      "solution": "What's the point of waiting if he's not coming?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of pretending everything is fine?",
+        "es": "¿De qué sirve fingir que todo está bien?"
+      },
+      "solution": "What's the point of pretending everything is fine?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of having a phone if you never answer it?",
+        "es": "¿De qué sirve tener un teléfono si nunca lo contestas?"
+      },
+      "solution": "What's the point of having a phone if you never answer it?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of worrying about things you can't control?",
+        "es": "¿De qué sirve preocuparse por cosas que no puedes controlar?"
+      },
+      "solution": "What's the point of worrying about things you can't control?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of reading the news if it only makes you depressed?",
+        "es": "¿De qué sirve leer las noticias si solo te deprimen?"
+      },
+      "solution": "What's the point of reading the news if it only makes you depressed?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of buying a gym membership if you never go?",
+        "es": "¿De qué sirve comprar una membresía del gimnasio si nunca vas?"
+      },
+      "solution": "What's the point of buying a gym membership if you never go?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of lying if the truth always comes out?",
+        "es": "¿De qué sirve mentir si la verdad siempre sale a la luz?"
+      },
+      "solution": "What's the point of lying if the truth always comes out?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of cleaning if it gets dirty again?",
+        "es": "¿De qué sirve limpiar si se vuelve a ensuciar?"
+      },
+      "solution": "What's the point of cleaning if it gets dirty again?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of arguing if neither of you will change your mind?",
+        "es": "¿De qué sirve discutir si ninguno de los dos va a cambiar de opinión?"
+      },
+      "solution": "What's the point of arguing if neither of you will change your mind?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of buying books if you never read them?",
+        "es": "¿De qué sirve comprar libros si nunca los lees?"
+      },
+      "solution": "What's the point of buying books if you never read them?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of trying if you're going to give up anyway?",
+        "es": "¿De qué sirve intentarlo si vas a rendirte de todas formas?"
+      },
+      "solution": "What's the point of trying if you're going to give up anyway?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of asking if you already know the answer?",
+        "es": "¿De qué sirve preguntar si ya sabes la respuesta?"
+      },
+      "solution": "What's the point of asking if you already know the answer?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of rushing if you're going to be late anyway?",
+        "es": "¿De qué sirve darse prisa si vas a llegar tarde de todas formas?"
+      },
+      "solution": "What's the point of rushing if you're going to be late anyway?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of buying insurance if it doesn't cover anything?",
+        "es": "¿De qué sirve comprar un seguro si no cubre nada?"
+      },
+      "solution": "What's the point of buying insurance if it doesn't cover anything?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of dieting if you're going to eat cake later?",
+        "es": "¿De qué sirve hacer dieta si vas a comer pastel después?"
+      },
+      "solution": "What's the point of dieting if you're going to eat cake later?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of watching the weather forecast if it's always wrong?",
+        "es": "¿De qué sirve ver el pronóstico del tiempo si siempre está mal?"
+      },
+      "solution": "What's the point of watching the weather forecast if it's always wrong?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of following rules if nobody else does?",
+        "es": "¿De qué sirve seguir las reglas si nadie más lo hace?"
+      },
+      "solution": "What's the point of following rules if nobody else does?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of going to bed early if you can't sleep?",
+        "es": "¿De qué sirve acostarse temprano si no puedes dormir?"
+      },
+      "solution": "What's the point of going to bed early if you can't sleep?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of hiding if everyone knows where you are?",
+        "es": "¿De qué sirve esconderse si todos saben dónde estás?"
+      },
+      "solution": "What's the point of hiding if everyone knows where you are?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of singing if nobody's listening?",
+        "es": "¿De qué sirve cantar si nadie está escuchando?"
+      },
+      "solution": "What's the point of singing if nobody's listening?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of remembering if you're going to forget anyway?",
+        "es": "¿De qué sirve recordar si vas a olvidar de todas formas?"
+      },
+      "solution": "What's the point of remembering if you're going to forget anyway?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "en": "What's the point of dreaming if dreams don't come true?",
+        "es": "¿De qué sirve soñar si los sueños no se hacen realidad?"
+      },
+      "solution": "What's the point of dreaming if dreams don't come true?",
+      "tip": {
+        "en": "Remember that after the preposition 'of' we need a verb in the gerund form (-ing). This expression is used to question the usefulness or purpose of something.",
+        "es": "No olvides que después de la preposición 'of' hace falta un verbo en gerundio (-ing). Esta expresión se usa para cuestionar la utilidad o propósito de algo."
+      }
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "title": {
+    "en": "Any more (Ya no...)",
+    "es": "Any more (Ya no...)"
+  },
+  "description": {
+    "en": "Learn to use 'any more' with negative verbs to express 'ya no...' (no longer). Always place 'any more' at the end of the sentence.",
+    "es": "Aprende a usar 'any more' con verbos negativos para expresar 'ya no...' (no longer). Siempre coloca 'any more' al final de la frase."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't play sport any more.",
+        "es": "Ya no practico deporte."
+      },
+      "solution": "I don't play sport any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't go to school any more.",
+        "es": "Ya no voy al colegio."
+      },
+      "solution": "I don't go to school any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't believe in perfection any more.",
+        "es": "Ya no creo en la perfección."
+      },
+      "solution": "I don't believe in perfection any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't live in England any more.",
+        "es": "Ya no vivo en Inglaterra."
+      },
+      "solution": "I don't live in England any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't smoke any more.",
+        "es": "Ya no fumo."
+      },
+      "solution": "I don't smoke any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "en": "You can't trust her any more.",
+        "es": "Ya no te puedes fiar de ella."
+      },
+      "solution": "You can't trust her any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "en": "I'm not unemployed any more.",
+        "es": "Ya no soy desempleado."
+      },
+      "solution": "I'm not unemployed any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "en": "My father shouldn't drive any more.",
+        "es": "Mi padre ya no debería conducir."
+      },
+      "solution": "My father shouldn't drive any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "en": "My telephone doesn't work any more.",
+        "es": "Mi teléfono ya no funciona."
+      },
+      "solution": "My telephone doesn't work any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "en": "They won't ask you for it any more.",
+        "es": "Ya no te lo pedirán."
+      },
+      "solution": "They won't ask you for it any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "en": "We don't watch TV any more.",
+        "es": "Ya no vemos la televisión."
+      },
+      "solution": "We don't watch TV any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "en": "She doesn't study French any more.",
+        "es": "Ya no estudia francés."
+      },
+      "solution": "She doesn't study French any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "en": "They don't live here any more.",
+        "es": "Ya no viven aquí."
+      },
+      "solution": "They don't live here any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't eat meat any more.",
+        "es": "Ya no como carne."
+      },
+      "solution": "I don't eat meat any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "en": "He doesn't work there any more.",
+        "es": "Ya no trabaja allí."
+      },
+      "solution": "He doesn't work there any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "en": "We can't afford it any more.",
+        "es": "Ya no nos lo podemos permitir."
+      },
+      "solution": "We can't afford it any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "en": "She isn't happy any more.",
+        "es": "Ya no está contenta."
+      },
+      "solution": "She isn't happy any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "en": "I won't tolerate this any more.",
+        "es": "Ya no toleraré esto."
+      },
+      "solution": "I won't tolerate this any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "en": "They aren't friends any more.",
+        "es": "Ya no son amigos."
+      },
+      "solution": "They aren't friends any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "en": "You shouldn't worry any more.",
+        "es": "Ya no deberías preocuparte."
+      },
+      "solution": "You shouldn't worry any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't drink coffee any more.",
+        "es": "Ya no bebo café."
+      },
+      "solution": "I don't drink coffee any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "en": "She doesn't call me any more.",
+        "es": "Ya no me llama."
+      },
+      "solution": "She doesn't call me any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "en": "We don't go to the gym any more.",
+        "es": "Ya no vamos al gimnasio."
+      },
+      "solution": "We don't go to the gym any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "en": "He doesn't play football any more.",
+        "es": "Ya no juega al fútbol."
+      },
+      "solution": "He doesn't play football any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "en": "They don't speak to each other any more.",
+        "es": "Ya no se hablan."
+      },
+      "solution": "They don't speak to each other any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "en": "I can't sleep any more.",
+        "es": "Ya no puedo dormir."
+      },
+      "solution": "I can't sleep any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "en": "She isn't teaching any more.",
+        "es": "Ya no enseña."
+      },
+      "solution": "She isn't teaching any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "en": "We won't see them any more.",
+        "es": "Ya no los veremos."
+      },
+      "solution": "We won't see them any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "en": "He isn't single any more.",
+        "es": "Ya no está soltero."
+      },
+      "solution": "He isn't single any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "en": "I shouldn't complain any more.",
+        "es": "Ya no debería quejarme."
+      },
+      "solution": "I shouldn't complain any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't remember his name any more.",
+        "es": "Ya no recuerdo su nombre."
+      },
+      "solution": "I don't remember his name any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "en": "She doesn't love him any more.",
+        "es": "Ya no le quiere."
+      },
+      "solution": "She doesn't love him any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "en": "We don't have time any more.",
+        "es": "Ya no tenemos tiempo."
+      },
+      "solution": "We don't have time any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "en": "He doesn't listen to music any more.",
+        "es": "Ya no escucha música."
+      },
+      "solution": "He doesn't listen to music any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "en": "They don't rent that apartment any more.",
+        "es": "Ya no alquilan ese apartamento."
+      },
+      "solution": "They don't rent that apartment any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "en": "You can't hide the truth any more.",
+        "es": "Ya no puedes ocultar la verdad."
+      },
+      "solution": "You can't hide the truth any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "en": "She isn't a student any more.",
+        "es": "Ya no es estudiante."
+      },
+      "solution": "She isn't a student any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "en": "We won't wait any more.",
+        "es": "Ya no esperaremos."
+      },
+      "solution": "We won't wait any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "en": "He isn't young any more.",
+        "es": "Ya no es joven."
+      },
+      "solution": "He isn't young any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "en": "I shouldn't stay here any more.",
+        "es": "Ya no debería quedarme aquí."
+      },
+      "solution": "I shouldn't stay here any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "en": "I don't read newspapers any more.",
+        "es": "Ya no leo periódicos."
+      },
+      "solution": "I don't read newspapers any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "en": "She doesn't cook dinner any more.",
+        "es": "Ya no cocina la cena."
+      },
+      "solution": "She doesn't cook dinner any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "en": "We don't visit our grandparents any more.",
+        "es": "Ya no visitamos a nuestros abuelos."
+      },
+      "solution": "We don't visit our grandparents any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "en": "He doesn't wear glasses any more.",
+        "es": "Ya no lleva gafas."
+      },
+      "solution": "He doesn't wear glasses any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "en": "They don't own a car any more.",
+        "es": "Ya no tienen coche."
+      },
+      "solution": "They don't own a car any more.",
+      "tip": {
+        "en": "'Any more' with negative verbs means 'ya no...' (no longer). Always place it at the END of the sentence, regardless of verb type.",
+        "es": "'Any more' con verbos negativos significa 'ya no...' (no longer). Siempre colócalo al FINAL de la frase, sin importar el tipo de verbo."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "en": "I can't concentrate any more.",
+        "es": "Ya no puedo concentrarme."
+      },
+      "solution": "I can't concentrate any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "en": "She isn't afraid any more.",
+        "es": "Ya no tiene miedo."
+      },
+      "solution": "She isn't afraid any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "en": "We won't argue any more.",
+        "es": "Ya no discutiremos."
+      },
+      "solution": "We won't argue any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "en": "He isn't my boss any more.",
+        "es": "Ya no es mi jefe."
+      },
+      "solution": "He isn't my boss any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "en": "You shouldn't doubt yourself any more.",
+        "es": "Ya no deberías dudar de ti mismo."
+      },
+      "solution": "You shouldn't doubt yourself any more.",
+      "tip": {
+        "en": "Even with auxiliary verbs (can't, won't, shouldn't), 'any more' still goes at the END of the sentence. The position never changes.",
+        "es": "Incluso con verbos auxiliares (can't, won't, shouldn't), 'any more' sigue yendo al FINAL de la frase. La posición nunca cambia."
+      }
+    }
+  ]
+}
