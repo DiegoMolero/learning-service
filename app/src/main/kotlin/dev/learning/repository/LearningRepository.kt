@@ -42,6 +42,9 @@ interface LearningRepository {
     suspend fun createUser(userId: String): Boolean
     suspend fun deleteUser(userId: String): Boolean
     suspend fun deleteUserProgress(userId: String): Boolean
+    
+    // Exercise answer submission
+    suspend fun submitExerciseAnswer(userId: String, targetLanguage: String, level: String, topicId: String, exerciseId: String, userAnswer: String, isCorrect: Boolean): Pair<Boolean, TopicProgress?>
 }
 
 // Database tables
@@ -71,6 +74,16 @@ object TopicProgressTable : UUIDTable("topic_progress") {
     init {
         uniqueIndex(userId, topicId)
     }
+}
+
+// Table for individual exercise attempts
+object ExerciseAttempts : UUIDTable("exercise_attempts") {
+    val userId = uuid("user_id")
+    val topicId = varchar("topic_id", 100)
+    val exerciseId = varchar("exercise_id", 100)
+    val userAnswer = text("user_answer")
+    val isCorrect = bool("is_correct")
+    val attemptedAt = timestamp("attempted_at").defaultExpression(CurrentTimestamp())
 }
 
 object UserSettings : UUIDTable("user_settings") {
@@ -113,9 +126,9 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
     private fun initializeDatabase() {
         transaction {
             if (databaseConfig.dropOnStart) {
-                SchemaUtils.drop(UserProgress, UserSettings, TopicProgressTable)
+                SchemaUtils.drop(UserProgress, UserSettings, TopicProgressTable, ExerciseAttempts)
             }
-            SchemaUtils.create(UserProgress, UserSettings, TopicProgressTable)
+            SchemaUtils.create(UserProgress, UserSettings, TopicProgressTable, ExerciseAttempts)
         }
     }
 
@@ -752,6 +765,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
             
             transaction {
                 // Delete all user data in order (foreign key constraints)
+                ExerciseAttempts.deleteWhere { ExerciseAttempts.userId eq userUuid }
                 TopicProgressTable.deleteWhere { TopicProgressTable.userId eq userUuid }
                 UserProgress.deleteWhere { UserProgress.userId eq userUuid }
                 UserSettings.deleteWhere { UserSettings.userId eq userUuid }
@@ -775,6 +789,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                 // Delete only progress data, keep user settings
                 TopicProgressTable.deleteWhere { TopicProgressTable.userId eq userUuid }
                 UserProgress.deleteWhere { UserProgress.userId eq userUuid }
+                ExerciseAttempts.deleteWhere { ExerciseAttempts.userId eq userUuid }
                 
                 // Reset onboarding step to restart learning
                 UserSettings.update({ UserSettings.userId eq userUuid }) {
@@ -789,6 +804,133 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         } catch (e: Exception) {
             println("Error deleting user progress: ${e.message}")
             false
+        }
+    }
+
+    override suspend fun submitExerciseAnswer(
+        userId: String, 
+        targetLanguage: String, 
+        level: String, 
+        topicId: String, 
+        exerciseId: String, 
+        userAnswer: String, 
+        isCorrect: Boolean
+    ): Pair<Boolean, TopicProgress?> {
+        return try {
+            val userUuid = UUID.fromString(userId)
+            val fullTopicId = "$targetLanguage-$level-$topicId"
+            
+            transaction {
+                // 1. Record the exercise attempt
+                ExerciseAttempts.insert {
+                    it[ExerciseAttempts.userId] = userUuid
+                    it[ExerciseAttempts.topicId] = fullTopicId
+                    it[ExerciseAttempts.exerciseId] = exerciseId
+                    it[ExerciseAttempts.userAnswer] = userAnswer
+                    it[ExerciseAttempts.isCorrect] = isCorrect
+                }
+                
+                // 2. Update topic progress
+                val existing = TopicProgressTable.select {
+                    (TopicProgressTable.userId eq userUuid) and
+                    (TopicProgressTable.topicId eq fullTopicId)
+                }.singleOrNull()
+                
+                val topicProgress = if (existing != null) {
+                    // Update existing progress
+                    val currentCorrect = existing[TopicProgressTable.correctAnswers]
+                    val currentWrong = existing[TopicProgressTable.wrongAnswers]
+                    val currentCompleted = existing[TopicProgressTable.completedExercises]
+                    
+                    val newCorrect = if (isCorrect) currentCorrect + 1 else currentCorrect
+                    val newWrong = if (!isCorrect) currentWrong + 1 else currentWrong
+                    
+                    // Get exercise index to determine if this advances completion
+                    val exerciseIndex = getExerciseIndex(targetLanguage, level, topicId, exerciseId)
+                    val newCompleted = if (isCorrect && exerciseIndex != null && exerciseIndex >= currentCompleted) {
+                        exerciseIndex + 1
+                    } else currentCompleted
+                    
+                    TopicProgressTable.update({
+                        (TopicProgressTable.userId eq userUuid) and
+                        (TopicProgressTable.topicId eq fullTopicId)
+                    }) {
+                        it[TopicProgressTable.correctAnswers] = newCorrect
+                        it[TopicProgressTable.wrongAnswers] = newWrong
+                        it[TopicProgressTable.completedExercises] = newCompleted
+                        it[TopicProgressTable.lastAttempted] = kotlinx.datetime.Clock.System.now()
+                        it[TopicProgressTable.updatedAt] = kotlinx.datetime.Clock.System.now()
+                    }
+                    
+                    // Get total exercises count
+                    val totalExercises = getTotalExercisesCount(targetLanguage, level, topicId)
+                    
+                    TopicProgress(
+                        completedExercises = newCompleted,
+                        correctAnswers = newCorrect,
+                        wrongAnswers = newWrong,
+                        totalExercises = totalExercises,
+                        lastAttempted = kotlinx.datetime.Clock.System.now().toString()
+                    )
+                } else {
+                    // Create new progress record
+                    val exerciseIndex = getExerciseIndex(targetLanguage, level, topicId, exerciseId)
+                    val completedExercises = if (isCorrect && exerciseIndex == 0) 1 else 0
+                    val totalExercises = getTotalExercisesCount(targetLanguage, level, topicId)
+                    
+                    TopicProgressTable.insert {
+                        it[TopicProgressTable.userId] = userUuid
+                        it[TopicProgressTable.topicId] = fullTopicId
+                        it[TopicProgressTable.correctAnswers] = if (isCorrect) 1 else 0
+                        it[TopicProgressTable.wrongAnswers] = if (!isCorrect) 1 else 0
+                        it[TopicProgressTable.completedExercises] = completedExercises
+                        it[TopicProgressTable.lastAttempted] = kotlinx.datetime.Clock.System.now()
+                    }
+                    
+                    TopicProgress(
+                        completedExercises = completedExercises,
+                        correctAnswers = if (isCorrect) 1 else 0,
+                        wrongAnswers = if (!isCorrect) 1 else 0,
+                        totalExercises = totalExercises,
+                        lastAttempted = kotlinx.datetime.Clock.System.now().toString()
+                    )
+                }
+                
+                Pair(true, topicProgress)
+            }
+        } catch (e: Exception) {
+            println("Error submitting exercise answer: ${e.message}")
+            Pair(false, null)
+        }
+    }
+    
+    private fun getExerciseIndex(targetLanguage: String, level: String, topicId: String, exerciseId: String): Int? {
+        return try {
+            val resource = {}::class.java.getResource("/levels/$targetLanguage/$level/$topicId.json")
+            if (resource == null) return null
+            
+            val topicFile = resource.readText()
+            val topic = json.decodeFromString<Level>(topicFile)
+            
+            topic.exercises?.indexOfFirst { it.id == exerciseId }
+        } catch (e: Exception) {
+            println("Error getting exercise index: ${e.message}")
+            null
+        }
+    }
+    
+    private fun getTotalExercisesCount(targetLanguage: String, level: String, topicId: String): Int {
+        return try {
+            val resource = {}::class.java.getResource("/levels/$targetLanguage/$level/$topicId.json")
+            if (resource == null) return 0
+            
+            val topicFile = resource.readText()
+            val topic = json.decodeFromString<Level>(topicFile)
+            
+            topic.exercises?.size ?: 0
+        } catch (e: Exception) {
+            println("Error getting total exercises count: ${e.message}")
+            0
         }
     }
 }

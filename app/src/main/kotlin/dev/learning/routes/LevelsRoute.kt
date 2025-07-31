@@ -5,6 +5,7 @@ import dev.learning.repository.LearningRepository
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
 import io.ktor.server.auth.jwt.*
+import io.ktor.server.request.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import io.ktor.http.*
@@ -169,6 +170,87 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                     call.respond(
                         HttpStatusCode.InternalServerError,
                         ErrorResponses.internalServerError("Failed to fetch next exercise", call.request.local.uri)
+                    )
+                }
+            }
+            
+            // Submit exercise answer endpoint - POST /levels/{language}/{level}/topics/{topicId}/exercises/{exerciseId}/submit
+            post("/{language}/{level}/topics/{topicId}/exercises/{exerciseId}/submit") {
+                val principal = call.principal<JWTPrincipal>()
+                val userId = principal?.getClaim("userId", String::class)
+                val targetLanguage = call.parameters["language"]
+                val level = call.parameters["level"]
+                val topicId = call.parameters["topicId"]
+                val exerciseId = call.parameters["exerciseId"]
+                
+                if (userId.isNullOrBlank()) {
+                    call.respond(
+                        HttpStatusCode.Unauthorized,
+                        ErrorResponses.unauthorized("Invalid token", call.request.local.uri)
+                    )
+                    return@post
+                }
+                
+                if (targetLanguage.isNullOrBlank() || level.isNullOrBlank() || topicId.isNullOrBlank() || exerciseId.isNullOrBlank()) {
+                    call.respond(
+                        HttpStatusCode.BadRequest,
+                        ErrorResponses.badRequest("Language, level, topicId and exerciseId are required", call.request.local.uri)
+                    )
+                    return@post
+                }
+                
+                try {
+                    val request = call.receive<dev.learning.SubmitAnswerRequest>()
+                    
+                    // Validate that the topicId and exerciseId in the request match the URL
+                    if (request.topicId != topicId || request.exerciseId != exerciseId) {
+                        call.respond(
+                            HttpStatusCode.BadRequest,
+                            ErrorResponses.badRequest("Topic ID and exercise ID in request body must match URL parameters", call.request.local.uri)
+                        )
+                        return@post
+                    }
+                    
+                    // Get the exercise to get the correct answer and tip
+                    val exercise = learningRepository.getExercise(userId, targetLanguage, level, topicId, exerciseId)
+                    if (exercise == null) {
+                        call.respond(
+                            HttpStatusCode.NotFound,
+                            ErrorResponses.notFound("Exercise not found", call.request.local.uri)
+                        )
+                        return@post
+                    }
+                    
+                    // Submit the answer
+                    val (success, progress) = learningRepository.submitExerciseAnswer(
+                        userId = userId,
+                        targetLanguage = targetLanguage,
+                        level = level,
+                        topicId = topicId,
+                        exerciseId = exerciseId,
+                        userAnswer = request.userAnswer,
+                        isCorrect = request.isCorrect
+                    )
+                    
+                    if (success && progress != null) {
+                        val response = dev.learning.SubmitAnswerResponse(
+                            success = true,
+                            isCorrect = request.isCorrect,
+                            correctAnswer = exercise.solution ?: "",
+                            explanation = exercise.tip,
+                            progress = progress
+                        )
+                        call.respond(HttpStatusCode.OK, response)
+                    } else {
+                        call.respond(
+                            HttpStatusCode.InternalServerError,
+                            ErrorResponses.internalServerError("Failed to submit answer", call.request.local.uri)
+                        )
+                    }
+                } catch (e: Exception) {
+                    call.respond(
+                        HttpStatusCode.BadRequest,
+                        ErrorResponses.badRequest("Invalid request body", call.request.local.uri)
                     )
                 }
             }

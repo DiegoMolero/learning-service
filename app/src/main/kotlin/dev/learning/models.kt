@@ -206,3 +206,21 @@ data class UserManagementResponse(
     val message: String,
     val userId: String? = null
 )
+
+// Exercise answer submission models
+@Serializable
+data class SubmitAnswerRequest(
+    val topicId: String,
+    val exerciseId: String,
+    val userAnswer: String,
+    val isCorrect: Boolean
+)
+
+@Serializable
+data class SubmitAnswerResponse(
+    val success: Boolean,
+    val isCorrect: Boolean,
+    val correctAnswer: String,
+    val explanation: Map<String, String>? = null, // Educational tip
+    val progress: TopicProgress
+)
