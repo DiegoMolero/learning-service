@@ -27,6 +27,7 @@ object JWTTestHelper {
             .withIssuer(config.issuer)
             .withSubject(userId)
             .withClaim("email", email)
+            .withClaim("userId", userId)
             .withExpiresAt(Date(System.currentTimeMillis() + (config.tokenExpirationMinutes * 60 * 1000)))
             .withIssuedAt(Date())
             .sign(algorithm)
@@ -53,6 +54,7 @@ object JWTTestHelper {
             .withIssuer(config.issuer)
             .withSubject(userId)
             .withClaim("email", email)
+            .withClaim("userId", userId)
             .withExpiresAt(Date(System.currentTimeMillis() + (expirationMinutes * 60 * 1000)))
             .withIssuedAt(Date())
             .sign(algorithm)
@@ -77,6 +79,7 @@ object JWTTestHelper {
             .withIssuer(config.issuer)
             .withSubject(userId)
             .withClaim("email", email)
+            .withClaim("userId", userId)
             .withExpiresAt(Date(System.currentTimeMillis() - 3600000)) // Expired 1 hour ago
             .withIssuedAt(Date(System.currentTimeMillis() - 7200000)) // Issued 2 hours ago
             .sign(algorithm)
