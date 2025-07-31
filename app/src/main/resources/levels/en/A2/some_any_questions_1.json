@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "Some & Any (ii) - Questions with Uncountable Nouns (Preguntas con sustantivos incontables)",
+    "es": "Some & Any (ii) - Questions with Uncountable Nouns (Preguntas con sustantivos incontables)"
+  },
+  "description": {
+    "en": "Learn to use 'any' in general questions and 'some' when offering something. Understand when to use each in questions with uncountable nouns.",
+    "es": "Aprende a usar 'any' en preguntas generales y 'some' cuando ofreces algo. Entiende cuándo usar cada uno en preguntas con sustantivos incontables."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes pegamento?"
+      },
+      "solution": "Do you have any glue?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay miel en el armario?"
+      },
+      "solution": "Is there any honey in the cupboard?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Comiste marisco cuando estuviste en Galicia?"
+      },
+      "solution": "Did you eat any seafood when you were in Galicia?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había nieve en la sierra?"
+      },
+      "solution": "Was there any snow in the mountains?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Compraste agua mineral?"
+      },
+      "solution": "Did you buy any mineral water?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un té?"
+      },
+      "solution": "Would you like some tea?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de caviar?"
+      },
+      "solution": "Would you care for some caviar?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un café?"
+      },
+      "solution": "Do you feel like some coffee?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece algo de comer?"
+      },
+      "solution": "Do you fancy some food?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de champagne?"
+      },
+      "solution": "How about some champagne?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay leche en la nevera?"
+      },
+      "solution": "Is there any milk in the fridge?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres un poco de sopa?"
+      },
+      "solution": "Would you like some soup?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes azúcar para el café?"
+      },
+      "solution": "Do you have any sugar for the coffee?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de vino?"
+      },
+      "solution": "Would you care for some wine?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Compraste pan en la panadería?"
+      },
+      "solution": "Did you buy any bread at the bakery?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de queso?"
+      },
+      "solution": "Do you fancy some cheese?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay sal en la mesa?"
+      },
+      "solution": "Is there any salt on the table?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres un poco de agua?"
+      },
+      "solution": "Would you like some water?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes aceite de oliva?"
+      },
+      "solution": "Do you have any olive oil?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de chocolate?"
+      },
+      "solution": "How about some chocolate?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había tráfico en la carretera?"
+      },
+      "solution": "Was there any traffic on the road?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres un poco de mantequilla?"
+      },
+      "solution": "Would you like some butter?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes información sobre ese hotel?"
+      },
+      "solution": "Do you have any information about that hotel?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de helado?"
+      },
+      "solution": "Do you feel like some ice cream?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay música en la fiesta?"
+      },
+      "solution": "Is there any music at the party?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres un poco de jamón?"
+      },
+      "solution": "Would you care for some ham?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes experiencia en ese campo?"
+      },
+      "solution": "Do you have any experience in that field?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de pescado?"
+      },
+      "solution": "How about some fish?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay ruido en tu habitación?"
+      },
+      "solution": "Is there any noise in your room?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres un poco de arroz?"
+      },
+      "solution": "Would you like some rice?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes dinero en efectivo?"
+      },
+      "solution": "Do you have any cash?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de pasta?"
+      },
+      "solution": "Do you fancy some pasta?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay espacio en el coche?"
+      },
+      "solution": "Is there any space in the car?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres un poco de mermelada?"
+      },
+      "solution": "Would you care for some jam?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes conocimiento sobre ese tema?"
+      },
+      "solution": "Do you have any knowledge about that topic?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de carne?"
+      },
+      "solution": "How about some meat?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay trabajo en esa empresa?"
+      },
+      "solution": "Is there any work at that company?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres un poco de yogur?"
+      },
+      "solution": "Would you like some yogurt?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes gasolina en el depósito?"
+      },
+      "solution": "Do you have any petrol in the tank?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de fruta?"
+      },
+      "solution": "Do you feel like some fruit?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay equipaje en el maletero?"
+      },
+      "solution": "Is there any luggage in the boot?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres un poco de ensalada?"
+      },
+      "solution": "Would you care for some salad?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes tiempo libre este fin de semana?"
+      },
+      "solution": "Do you have any free time this weekend?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de pollo?"
+      },
+      "solution": "How about some chicken?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay aire acondicionado en el hotel?"
+      },
+      "solution": "Is there any air conditioning in the hotel?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres un poco de miel?"
+      },
+      "solution": "Would you like some honey?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes ayuda con la mudanza?"
+      },
+      "solution": "Do you have any help with the move?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetece un poco de postre?"
+      },
+      "solution": "Do you fancy some dessert?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay progreso en el proyecto?"
+      },
+      "solution": "Is there any progress on the project?",
+      "tip": {
+        "en": "Use 'any' in general questions with uncountable nouns when asking for information, not offering something.",
+        "es": "Usa 'any' en preguntas generales con sustantivos incontables cuando pides información, no cuando ofreces algo."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres un poco de zumo?"
+      },
+      "solution": "Would you care for some juice?",
+      "tip": {
+        "en": "Use 'some' when offering something in a question, especially when you expect a 'yes' answer.",
+        "es": "Usa 'some' cuando ofreces algo en una pregunta, especialmente cuando esperas una respuesta afirmativa."
+      }
+    }
+  ]
+}

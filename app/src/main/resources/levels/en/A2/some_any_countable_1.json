@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "Some & Any (iii) - Countable Nouns (Sustantivos contables)",
+    "es": "Some & Any (iii) - Countable Nouns (Sustantivos contables)"
+  },
+  "description": {
+    "en": "Learn to use 'some' with countable nouns in positive sentences (meaning 'unos/algunos') and 'any' in negative sentences. Master pronunciation and understand obligatory usage in English.",
+    "es": "Aprende a usar 'some' con sustantivos contables en oraciones positivas (significando 'unos/algunos') y 'any' en negativas. Domina la pronunciación y entiende el uso obligatorio en inglés."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Él ha salido a comprar clavos."
+      },
+      "solution": "He's gone out to buy some nails.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella quiere que yo saque a relucir algunos temas en la reunión."
+      },
+      "solution": "She wants me to bring up some points at the meeting.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Vi unos jilgueros en el parque el otro día."
+      },
+      "solution": "I saw some goldfinches in the park the other day.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Queremos comprar unas toallas cuando vayamos a Portugal."
+      },
+      "solution": "We want to buy some towels when we go to Portugal.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi tío tiene algunos libros valiosos en su biblioteca."
+      },
+      "solution": "My uncle has some valuable books in his library.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "No encontré zapatos de mi gusto."
+      },
+      "solution": "I couldn't find any shoes I liked.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "No tuvieron problemas."
+      },
+      "solution": "They didn't have any problems.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Es asombroso! Él no tiene libros."
+      },
+      "solution": "It's amazing; he doesn't have any books!",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "No veo hormigas por ninguna parte."
+      },
+      "solution": "I can't see any ants anywhere.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "No han marcado goles en toda la temporada."
+      },
+      "solution": "They haven't scored any goals all season.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Compré unas flores para mi madre."
+      },
+      "solution": "I bought some flowers for my mother.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo sellos para enviar la carta."
+      },
+      "solution": "I don't have any stamps to send the letter.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito comprar unos pantalones nuevos."
+      },
+      "solution": "I need to buy some new trousers.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "No había estudiantes en el aula."
+      },
+      "solution": "There weren't any students in the classroom.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Encontramos algunas setas en el bosque."
+      },
+      "solution": "We found some mushrooms in the forest.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "No vi coches en la carretera."
+      },
+      "solution": "I didn't see any cars on the road.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo algunos amigos en Londres."
+      },
+      "solution": "I have some friends in London.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "No recibimos cartas esta semana."
+      },
+      "solution": "We haven't received any letters this week.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Compraremos unas sillas para el comedor."
+      },
+      "solution": "We'll buy some chairs for the dining room.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "No encontramos errores en el documento."
+      },
+      "solution": "We didn't find any errors in the document.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Vi algunas películas interesantes el mes pasado."
+      },
+      "solution": "I saw some interesting films last month.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay nubes en el cielo."
+      },
+      "solution": "There aren't any clouds in the sky.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesitamos comprar unos platos nuevos."
+      },
+      "solution": "We need to buy some new plates.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "No conocemos restaurantes buenos en esta ciudad."
+      },
+      "solution": "We don't know any good restaurants in this city.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algunos gatos en el jardín."
+      },
+      "solution": "There are some cats in the garden.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo monedas en el bolsillo."
+      },
+      "solution": "I don't have any coins in my pocket.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Compramos algunos regalos para los niños."
+      },
+      "solution": "We bought some presents for the children.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay ventanas abiertas en la casa."
+      },
+      "solution": "There aren't any open windows in the house.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Encontré unas llaves en la calle."
+      },
+      "solution": "I found some keys in the street.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "No vimos pájaros en el parque."
+      },
+      "solution": "We didn't see any birds in the park.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo algunas ideas para el proyecto."
+      },
+      "solution": "I have some ideas for the project.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay mensajes en mi teléfono."
+      },
+      "solution": "There aren't any messages on my phone.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Compramos unas plantas para el balcón."
+      },
+      "solution": "We bought some plants for the balcony.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo ejercicios que hacer esta noche."
+      },
+      "solution": "I don't have any exercises to do tonight.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Vi algunos deportes interesantes en la televisión."
+      },
+      "solution": "I saw some interesting sports on television.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "No había turistas en el museo."
+      },
+      "solution": "There weren't any tourists in the museum.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesitamos algunas herramientas para este trabajo."
+      },
+      "solution": "We need some tools for this job.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "No conocemos canciones de ese grupo."
+      },
+      "solution": "We don't know any songs by that band.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algunos cuadros bonitos en la galería."
+      },
+      "solution": "There are some beautiful paintings in the gallery.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay asientos libres en el autobús."
+      },
+      "solution": "There aren't any free seats on the bus.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Compramos algunas revistas en el aeropuerto."
+      },
+      "solution": "We bought some magazines at the airport.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "No escuchamos ruidos extraños anoche."
+      },
+      "solution": "We didn't hear any strange noises last night.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Encontramos unas conchas bonitas en la playa."
+      },
+      "solution": "We found some beautiful shells on the beach.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay ingredientes suficientes en la nevera."
+      },
+      "solution": "There aren't any ingredients left in the fridge.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo algunos discos antiguos en el desván."
+      },
+      "solution": "I have some old records in the attic.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "No vemos estrellas por la contaminación lumínica."
+      },
+      "solution": "We can't see any stars because of light pollution.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Compramos unas botellas de vino para la cena."
+      },
+      "solution": "We bought some bottles of wine for dinner.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay opciones disponibles en el menú."
+      },
+      "solution": "There aren't any options available on the menu.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Vimos algunos animales salvajes en el safari."
+      },
+      "solution": "We saw some wild animals on the safari.",
+      "tip": {
+        "en": "Use 'some' with countable nouns in positive sentences. It means 'unos/algunos'. Pronounce it 'sáam', not 'som'.",
+        "es": "Usa 'some' con sustantivos contables en oraciones positivas. Significa 'unos/algunos'. Se pronuncia 'sáam', no 'som'."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo recuerdos de esa época."
+      },
+      "solution": "I don't have any memories of that time.",
+      "tip": {
+        "en": "Use 'any' with countable nouns in negative sentences. Although Spanish often doesn't need an equivalent, 'any' is almost obligatory in English.",
+        "es": "Usa 'any' con sustantivos contables en oraciones negativas. Aunque el español a menudo no necesita equivalente, 'any' es casi obligatorio en inglés."
+      }
+    }
+  ]
+}

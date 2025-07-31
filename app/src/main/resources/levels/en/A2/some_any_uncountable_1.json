@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "Some & Any (i) - Uncountable Nouns (Sustantivos incontables)",
+    "es": "Some & Any (i) - Uncountable Nouns (Sustantivos incontables)"
+  },
+  "description": {
+    "en": "Learn to use 'some' with uncountable nouns in positive sentences and 'any' in negative sentences. Understand pronunciation and which nouns are uncountable in English but countable in Spanish.",
+    "es": "Aprende a usar 'some' con sustantivos incontables en oraciones positivas y 'any' en negativas. Entiende la pronunciación y qué sustantivos son incontables en inglés pero contables en español."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí ahorrar algo de dinero el mes pasado."
+      },
+      "solution": "I managed to save some money last month.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay azúcar en la estantería de arriba."
+      },
+      "solution": "There's some sugar on the top shelf.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Me apetece mucho tomar vino con la cena."
+      },
+      "solution": "I really feel like some wine with dinner.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Te has manchado la camisa con tinta."
+      },
+      "solution": "You've spilt some ink on your shirt.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Creo que necesito agua; me siento algo mareado."
+      },
+      "solution": "I think I need some water; I'm feeling a bit faint.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "No me queda cerveza en la nevera."
+      },
+      "solution": "I don't have any beer left in the fridge.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Todavía no tenemos muebles en el piso."
+      },
+      "solution": "We haven't got any furniture in the flat yet.",
+      "tip": {
+        "en": "'Furniture' is uncountable in English (countable in Spanish). Use 'any' in negative sentences. Pronounce 'any' as 'eni'.",
+        "es": "'Furniture' es incontable en inglés (contable en español). Usa 'any' en oraciones negativas. Pronuncia 'any' como 'eni'."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay leña en la leñera."
+      },
+      "solution": "There isn't any wood in the woodshed.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "No quiero hielo en mi ginebra."
+      },
+      "solution": "I don't want any ice in my gin.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "No me dieron ningún buen consejo."
+      },
+      "solution": "They didn't give me any good advice.",
+      "tip": {
+        "en": "'Advice' is uncountable in English (countable in Spanish). Use 'any' in negative sentences. Pronounce 'any' as 'eni'.",
+        "es": "'Advice' es incontable en inglés (contable en español). Usa 'any' en oraciones negativas. Pronuncia 'any' como 'eni'."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito comprar algo de pan para el desayuno."
+      },
+      "solution": "I need to buy some bread for breakfast.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay música en esta fiesta."
+      },
+      "solution": "There isn't any music at this party.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algo de leche en la nevera."
+      },
+      "solution": "There's some milk in the fridge.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "No tenemos información sobre ese tema."
+      },
+      "solution": "We don't have any information about that topic.",
+      "tip": {
+        "en": "'Information' is uncountable in English (countable in Spanish). Use 'any' in negative sentences. Pronounce 'any' as 'eni'.",
+        "es": "'Information' es incontable en inglés (contable en español). Usa 'any' en oraciones negativas. Pronuncia 'any' como 'eni'."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Quiero tomar algo de café después de comer."
+      },
+      "solution": "I want to have some coffee after lunch.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay arroz en la despensa."
+      },
+      "solution": "There isn't any rice in the pantry.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algo de tráfico en la carretera."
+      },
+      "solution": "There's some traffic on the road.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "No me dieron trabajo en esa empresa."
+      },
+      "solution": "They didn't give me any work at that company.",
+      "tip": {
+        "en": "'Work' is uncountable in English (can be countable in Spanish). Use 'any' in negative sentences. Pronounce 'any' as 'eni'.",
+        "es": "'Work' es incontable en inglés (puede ser contable en español). Usa 'any' en oraciones negativas. Pronuncia 'any' como 'eni'."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito comprar algo de queso para la pasta."
+      },
+      "solution": "I need to buy some cheese for the pasta.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay sal en la cocina."
+      },
+      "solution": "There isn't any salt in the kitchen.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Me ofrecieron algo de ayuda con la mudanza."
+      },
+      "solution": "They offered me some help with the move.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo experiencia en ese campo."
+      },
+      "solution": "I don't have any experience in that field.",
+      "tip": {
+        "en": "'Experience' is uncountable in English (countable in Spanish). Use 'any' in negative sentences. Pronounce 'any' as 'eni'.",
+        "es": "'Experience' es incontable en inglés (contable en español). Usa 'any' en oraciones negativas. Pronuncia 'any' como 'eni'."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algo de nieve en las montañas."
+      },
+      "solution": "There's some snow in the mountains.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay aire acondicionado en mi habitación."
+      },
+      "solution": "There isn't any air conditioning in my room.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito algo de tiempo para pensar."
+      },
+      "solution": "I need some time to think.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo dinero en efectivo."
+      },
+      "solution": "I don't have any cash.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algo de aceite en la botella."
+      },
+      "solution": "There's some oil in the bottle.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay equipaje en el maletero."
+      },
+      "solution": "There isn't any luggage in the boot.",
+      "tip": {
+        "en": "'Luggage' is uncountable in English (countable in Spanish). Use 'any' in negative sentences. Pronounce 'any' as 'eni'.",
+        "es": "'Luggage' es incontable en inglés (contable en español). Usa 'any' en oraciones negativas. Pronuncia 'any' como 'eni'."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Compramos algo de carne para la barbacoa."
+      },
+      "solution": "We bought some meat for the barbecue.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo gasolina en el depósito."
+      },
+      "solution": "I don't have any petrol in the tank.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algo de polvo en los estantes."
+      },
+      "solution": "There's some dust on the shelves.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay investigación sobre ese medicamento."
+      },
+      "solution": "There isn't any research on that medicine.",
+      "tip": {
+        "en": "'Research' is uncountable in English (countable in Spanish). Use 'any' in negative sentences. Pronounce 'any' as 'eni'.",
+        "es": "'Research' es incontable en inglés (contable en español). Usa 'any' en oraciones negativas. Pronuncia 'any' como 'eni'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito algo de harina para hacer el pastel."
+      },
+      "solution": "I need some flour to make the cake.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay ruido en esta zona."
+      },
+      "solution": "There isn't any noise in this area.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algo de humedad en el sótano."
+      },
+      "solution": "There's some moisture in the basement.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo conocimiento sobre ese programa."
+      },
+      "solution": "I don't have any knowledge about that programme.",
+      "tip": {
+        "en": "'Knowledge' is uncountable in English (countable in Spanish). Use 'any' in negative sentences. Pronounce 'any' as 'eni'.",
+        "es": "'Knowledge' es incontable en inglés (contable en español). Usa 'any' en oraciones negativas. Pronuncia 'any' como 'eni'."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Compramos algo de pescado fresco en el mercado."
+      },
+      "solution": "We bought some fresh fish at the market.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay espacio en el armario."
+      },
+      "solution": "There isn't any space in the wardrobe.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algo de humo saliendo de la chimenea."
+      },
+      "solution": "There's some smoke coming from the chimney.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo progreso en mis estudios."
+      },
+      "solution": "I don't have any progress in my studies.",
+      "tip": {
+        "en": "'Progress' is uncountable in English (countable in Spanish). Use 'any' in negative sentences. Pronounce 'any' as 'eni'.",
+        "es": "'Progress' es incontable en inglés (contable en español). Usa 'any' en oraciones negativas. Pronuncia 'any' como 'eni'."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito algo de jabón para lavarme las manos."
+      },
+      "solution": "I need some soap to wash my hands.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay electricidad en el pueblo."
+      },
+      "solution": "There isn't any electricity in the village.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algo de contaminación en el río."
+      },
+      "solution": "There's some pollution in the river.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo equipamiento para hacer ejercicio."
+      },
+      "solution": "I don't have any equipment for exercising.",
+      "tip": {
+        "en": "'Equipment' is uncountable in English (countable in Spanish). Use 'any' in negative sentences. Pronounce 'any' as 'eni'.",
+        "es": "'Equipment' es incontable en inglés (contable en español). Usa 'any' en oraciones negativas. Pronuncia 'any' como 'eni'."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Compramos algo de fruta en el supermercado."
+      },
+      "solution": "We bought some fruit at the supermarket.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay transporte público los domingos."
+      },
+      "solution": "There isn't any public transport on Sundays.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algo de basura en la playa."
+      },
+      "solution": "There's some rubbish on the beach.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengo paciencia para esto."
+      },
+      "solution": "I don't have any patience for this.",
+      "tip": {
+        "en": "Use 'any' with uncountable nouns in negative sentences. Pronounce it 'eni', not 'ani'. 'Some' becomes 'any' in negatives.",
+        "es": "Usa 'any' con sustantivos incontables en oraciones negativas. Se pronuncia 'eni', no 'ani'. 'Some' se convierte en 'any' en negativas."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito algo de silencio para concentrarme."
+      },
+      "solution": "I need some silence to concentrate.",
+      "tip": {
+        "en": "Use 'some' with uncountable nouns in positive sentences. Pronounce it 'sáam', not 'som'. Uncountable nouns take singular verbs.",
+        "es": "Usa 'some' con sustantivos incontables en oraciones positivas. Se pronuncia 'sáam', no 'som'. Los sustantivos incontables llevan verbos en singular."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay evidencia de que eso sea cierto."
+      },
+      "solution": "There isn't any evidence that this is true.",
+      "tip": {
+        "en": "'Evidence' is uncountable in English (countable in Spanish). Use 'any' in negative sentences. Pronounce 'any' as 'eni'.",
+        "es": "'Evidence' es incontable en inglés (contable en español). Usa 'any' en oraciones negativas. Pronuncia 'any' como 'eni'."
+      }
+    }
+  ]
+}

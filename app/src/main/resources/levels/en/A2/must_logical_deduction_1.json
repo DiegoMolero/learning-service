@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "Must (iii) - Logical Deduction (Conclusiones lógicas)",
+    "es": "Must (iii) - Logical Deduction (Conclusiones lógicas)"
+  },
+  "description": {
+    "en": "Learn to use 'must' for logical conclusions and deductions (90% certainty). CRITICAL: Use 'can't' (NOT 'mustn't') for negative deductions.",
+    "es": "Aprende a usar 'must' para conclusiones lógicas y deducciones (90% de certeza). CRÍTICO: Usa 'can't' (NO 'mustn't') para deducciones negativas."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Paul llegó a la fiesta en helicóptero. Debe de estar forrado."
+      },
+      "solution": "Paul arrived at the party by helicopter. He must be loaded.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "\"No he comido en tres días.\" Debes de tener mucha hambre."
+      },
+      "solution": "\"I haven't eaten for three days.\" You must be very hungry.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "\"No he dormido en 48 horas.\" Debes de tener mucho sueño."
+      },
+      "solution": "\"I haven't slept for 48 hours.\" You must be very tired.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Ellos no cogen el teléfono de su casa. Deben de estar fuera."
+      },
+      "solution": "They aren't answering their phone at home. They must be out.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella va a misa todos los domingos. Debe de ser católica."
+      },
+      "solution": "She goes to mass every Sunday. She must be Catholic.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabo de comer tres platos y digo \"tengo hambre.\" ¡No puedes tener hambre!"
+      },
+      "solution": "I've just eaten a three-course meal and say \"I'm hungry.\" You can't be hungry!",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "He dormido 16 horas seguidas y digo \"Tengo sueño.\" ¡No puedes tener sueño!"
+      },
+      "solution": "I've slept for 16 hours and say \"I'm tired.\" You can't be tired!",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Hablo de mi primo que lleva 15 años trabajando como escritor inédito. No debe de ser muy bueno."
+      },
+      "solution": "I talk about my cousin who's worked as an unpublished writer for 15 years. He can't be very good!",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Hablo de mi prima que odia su trabajo, a su marido y a su suegra pero que está feliz. No puede estar tan feliz."
+      },
+      "solution": "I talk about my cousin who hates her job, her husband and her mother-in-law but is happy. She can't be that happy!",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Hablo de mi tío millonario y ¡comunista! ¡No puede ser comunista!"
+      },
+      "solution": "I speak about my millionaire communist uncle. He can't be a communist!",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Tiene tres Ferraris en el garaje. Debe de ser rico."
+      },
+      "solution": "He has three Ferraris in his garage. He must be rich.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Llueve mucho y no lleva paraguas. Debe de estar empapado."
+      },
+      "solution": "It's raining heavily and he doesn't have an umbrella. He must be soaked.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Estudia medicina desde hace siete años. Debe de ser muy inteligente."
+      },
+      "solution": "She's been studying medicine for seven years. She must be very intelligent.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Su casa está completamente a oscuras. Deben de estar durmiendo."
+      },
+      "solution": "Their house is completely dark. They must be sleeping.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Habla cinco idiomas perfectamente. Debe de tener mucho talento."
+      },
+      "solution": "He speaks five languages perfectly. He must be very talented.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que vive en un palacio pero lleva ropa de segunda mano. No puede ser rico."
+      },
+      "solution": "He says he lives in a palace but wears second-hand clothes. He can't be rich.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Acaba de correr una maratón y dice que no está cansado. No puede ser verdad."
+      },
+      "solution": "He's just run a marathon and says he's not tired. That can't be true.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Es millonario pero vive en una caravana. No puede estar contento así."
+      },
+      "solution": "He's a millionaire but lives in a caravan. He can't be happy like that.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que no habla inglés pero acaba de graduarse en Oxford. No puede ser cierto."
+      },
+      "solution": "She says she doesn't speak English but just graduated from Oxford. That can't be true.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Lleva trabajando 20 horas seguidas. No puede tener energía."
+      },
+      "solution": "He's been working for 20 hours straight. He can't have any energy left.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Ganó la lotería ayer. Debe de estar eufórico."
+      },
+      "solution": "He won the lottery yesterday. He must be over the moon.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre llega puntual a todo. Debe de ser muy organizada."
+      },
+      "solution": "She's always punctual for everything. She must be very organized.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "El coche no arranca y llueve mucho. Debe de estar frustrado."
+      },
+      "solution": "His car won't start and it's pouring with rain. He must be frustrated.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Trabaja 14 horas al día, 7 días a la semana. Debe de estar agotado."
+      },
+      "solution": "He works 14 hours a day, 7 days a week. He must be exhausted.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Acaban de tener gemelos después de 10 años intentándolo. Deben de estar contentísimos."
+      },
+      "solution": "They've just had twins after trying for 10 years. They must be delighted.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que es vegetariano pero lo veo comiendo una hamburguesa. No puede ser vegetariano."
+      },
+      "solution": "He says he's vegetarian but I see him eating a burger. He can't be vegetarian.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Suspendió todos los exámenes pero dice que estudió mucho. No puede haber estudiado tanto."
+      },
+      "solution": "He failed all his exams but says he studied hard. He can't have studied that much.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que le encanta su trabajo pero siempre está quejándose. No puede estar tan contenta."
+      },
+      "solution": "She says she loves her job but she's always complaining. She can't be that happy.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Lleva viviendo en España 20 años pero dice que no habla español. No puede ser verdad."
+      },
+      "solution": "He's been living in Spain for 20 years but says he doesn't speak Spanish. That can't be true.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Gana 20.000 euros al mes pero dice que no tiene dinero. No puede estar sin dinero."
+      },
+      "solution": "He earns 20,000 euros a month but says he has no money. He can't be broke.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Su padre es médico y su madre abogada. Debe de tener una buena educación."
+      },
+      "solution": "His father is a doctor and his mother is a lawyer. He must have a good education.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must have + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must have + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Lleva el mismo traje desde hace una semana. Debe de estar pasando por dificultades."
+      },
+      "solution": "He's been wearing the same suit for a week. He must be going through hard times.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Vive en una mansión pero nunca tiene dinero para el café. No puede estar tan arruinado."
+      },
+      "solution": "He lives in a mansion but never has money for coffee. He can't be that broke.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Es actriz famosa pero dice que es tímida. No puede ser tan tímida."
+      },
+      "solution": "She's a famous actress but says she's shy. She can't be that shy.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Nunca sale de casa y siempre está estudiando. Debe de ser muy académico."
+      },
+      "solution": "He never leaves the house and is always studying. He must be very academic.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Trabaja en un banco desde hace 30 años. Debe de entender mucho de finanzas."
+      },
+      "solution": "She's worked in a bank for 30 years. She must understand a lot about finance.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must + [verb] + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must + [verbo] + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Come en restaurantes caros todos los días. Debe de ganar mucho dinero."
+      },
+      "solution": "He eats at expensive restaurants every day. He must earn a lot of money.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must + [verb] + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must + [verbo] + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Nunca tiene tiempo libre y siempre está ocupado. Debe de tener mucho trabajo."
+      },
+      "solution": "He never has free time and is always busy. He must have a lot of work.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must have + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must have + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que conduce desde los 16 años pero no sabe aparcar. No puede tener mucha experiencia."
+      },
+      "solution": "He says he's been driving since he was 16 but can't park. He can't have much experience.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que es chef profesional pero quemó el agua hirviendo. No puede saber cocinar."
+      },
+      "solution": "He says he's a professional chef but burned boiling water. He can't know how to cook.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Su perro está siempre perfectamente entrenado. Debe de ser muy paciente."
+      },
+      "solution": "His dog is always perfectly trained. He must be very patient.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Lleva 5 años aprendiendo piano y toca como un principiante. No puede practicar mucho."
+      },
+      "solution": "He's been learning piano for 5 years and plays like a beginner. He can't practice much.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Su jardín está siempre perfecto. Debe de dedicarle mucho tiempo."
+      },
+      "solution": "Her garden is always perfect. She must spend a lot of time on it.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must + [verb] + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must + [verbo] + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Terminó la universidad en 3 años en lugar de 4. Debe de ser muy inteligente."
+      },
+      "solution": "She finished university in 3 years instead of 4. She must be very intelligent.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must be + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must be + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que es deportista profesional pero no puede subir las escaleras. No puede estar en forma."
+      },
+      "solution": "He says he's a professional athlete but can't climb stairs. He can't be fit.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre llega tarde aunque sale de casa temprano. Debe de perderse mucho."
+      },
+      "solution": "He's always late even though he leaves home early. He must get lost a lot.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must + [verb] + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must + [verbo] + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Tiene 90 años y corre maratones. Debe de tener una salud increíble."
+      },
+      "solution": "He's 90 years old and runs marathons. He must have incredible health.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must have + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must have + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que nunca ha estado en el extranjero pero habla inglés perfectamente. No puede ser verdad."
+      },
+      "solution": "She says she's never been abroad but speaks perfect English. That can't be true.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Trabaja de noche y duerme de día. Debe de tener un horario muy raro."
+      },
+      "solution": "He works at night and sleeps during the day. He must have a very strange schedule.",
+      "tip": {
+        "en": "Use 'must' for logical deduction when you're 90% certain based on evidence. Pattern: [evidence] + He/She/It/They must have + [conclusion]",
+        "es": "Usa 'must' para deducción lógica cuando estás 90% seguro basado en evidencia. Patrón: [evidencia] + He/She/It/They must have + [conclusión]"
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que es introvertido pero está siempre organizando fiestas. No puede ser tan introvertido."
+      },
+      "solution": "He says he's introverted but he's always organizing parties. He can't be that introverted.",
+      "tip": {
+        "en": "CRITICAL: For negative deductions, use 'can't' (NOT 'mustn't'). 'Mustn't' is only for prohibition, never for negative logical conclusions.",
+        "es": "CRÍTICO: Para deducciones negativas, usa 'can't' (NO 'mustn't'). 'Mustn't' es solo para prohibición, nunca para conclusiones lógicas negativas."
+      }
+    }
+  ]
+}

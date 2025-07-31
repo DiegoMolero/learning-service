@@ -1,0 +1,494 @@
+{
+  "title": {
+    "en": "Look like / Sound like (Parecerse a)",
+    "es": "Look like / Sound like (Parecerse a)"
+  },
+  "description": {
+    "en": "Learn to use 'look like + noun/adjective' for physical resemblance and 'sound like' for vocal similarity. Master 'Who does [person] look like?' for asking about resemblance.",
+    "es": "Aprende a usar 'look like + sustantivo/adjetivo' para parecido físico y 'sound like' para similitud vocal. Domina 'Who does [persona] look like?' para preguntar sobre parecidos."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella se parece a su madre."
+      },
+      "solution": "She looks like her mother.",
+      "tip": {
+        "en": "Use 'look like + noun' to say someone resembles another person physically. 'Look like' is for visual similarity or resemblance.",
+        "es": "Usa 'look like + sustantivo' para decir que alguien se parece físicamente a otra persona. 'Look like' es para similitud visual o parecido."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Alfonso XIII se parecía a Alfonso XII."
+      },
+      "solution": "Alfonso XIII looked like Alfonso XII.",
+      "tip": {
+        "en": "Use 'look like + noun' to say someone resembles another person physically. 'Look like' is for visual similarity or resemblance.",
+        "es": "Usa 'look like + sustantivo' para decir que alguien se parece físicamente a otra persona. 'Look like' es para similitud visual o parecido."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un nuevo rascacielos en Londres que parece un pepinillo enorme."
+      },
+      "solution": "There's a new skyscraper in London that looks like a giant gherkin.",
+      "tip": {
+        "en": "Use 'look like + adjective + noun' when describing what something resembles. The structure is 'look like + description'.",
+        "es": "Usa 'look like + adjetivo + sustantivo' al describir a qué se parece algo. La estructura es 'look like + descripción'."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "¿A quién se parece tu hija?"
+      },
+      "solution": "Who does your daughter look like?",
+      "tip": {
+        "en": "For resemblance questions, use 'Who does [person] look like?' The structure is: Who + does + subject + look like?",
+        "es": "Para preguntas de parecido, usa 'Who does [persona] look like?' La estructura es: Who + does + sujeto + look like?"
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tu hermano se parece a ti?"
+      },
+      "solution": "Does your brother look like you?",
+      "tip": {
+        "en": "For yes/no resemblance questions, use 'Does [person] look like [person]?' Start with 'Does' for present tense questions.",
+        "es": "Para preguntas de sí/no sobre parecido, usa 'Does [persona] look like [persona]?' Empieza con 'Does' para preguntas en presente."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Me parezco mucho a mi hermano al teléfono."
+      },
+      "solution": "I sound just like my brother on the phone.",
+      "tip": {
+        "en": "'Sound like' is for vocal similarity - when voices are similar or speech patterns are the same. Use for phone conversations or speaking style.",
+        "es": "'Sound like' es para similitud vocal - cuando las voces son similares o los patrones de habla son iguales. Usa para conversaciones telefónicas o estilo de hablar."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Hablas como tu madre."
+      },
+      "solution": "You sound like your mother.",
+      "tip": {
+        "en": "'Sound like' is for vocal similarity - when voices are similar or speech patterns are the same. Use for phone conversations or speaking style.",
+        "es": "'Sound like' es para similitud vocal - cuando las voces son similares o los patrones de habla son iguales. Usa para conversaciones telefónicas o estilo de hablar."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "La voz de Jessica suena como la de un pato."
+      },
+      "solution": "Jessica's voice sounds like a duck.",
+      "tip": {
+        "en": "'Sound like' is for vocal similarity - when voices are similar or speech patterns are the same. Use for phone conversations or speaking style.",
+        "es": "'Sound like' es para similitud vocal - cuando las voces son similares o los patrones de habla son iguales. Usa para conversaciones telefónicas o estilo de hablar."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Empiezas a hablar como un político."
+      },
+      "solution": "You're beginning to sound like a politician.",
+      "tip": {
+        "en": "'Sound like' is for vocal similarity - when voices are similar or speech patterns are the same. Use for phone conversations or speaking style.",
+        "es": "'Sound like' es para similitud vocal - cuando las voces son similares o los patrones de habla son iguales. Usa para conversaciones telefónicas o estilo de hablar."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Eso tiene pinta de ser una tarea difícil."
+      },
+      "solution": "That sounds like a difficult task.",
+      "tip": {
+        "en": "'Sound like' can also mean 'seems like' when talking about ideas, plans, or situations that you hear about.",
+        "es": "'Sound like' también puede significar 'parece que' al hablar de ideas, planes o situaciones de las que escuchas hablar."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hijo se parece mucho a su abuelo."
+      },
+      "solution": "My son looks a lot like his grandfather.",
+      "tip": {
+        "en": "Use 'look like + noun' to say someone resembles another person physically. 'Look like' is for visual similarity or resemblance.",
+        "es": "Usa 'look like + sustantivo' para decir que alguien se parece físicamente a otra persona. 'Look like' es para similitud visual o parecido."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Esta casa se parece a la mía."
+      },
+      "solution": "This house looks like mine.",
+      "tip": {
+        "en": "Use 'look like + noun' to say someone resembles another person physically. 'Look like' is for visual similarity or resemblance.",
+        "es": "Usa 'look like + sustantivo' para decir que alguien se parece físicamente a otra persona. 'Look like' es para similitud visual o parecido."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Ese edificio parece un castillo medieval."
+      },
+      "solution": "That building looks like a medieval castle.",
+      "tip": {
+        "en": "Use 'look like + adjective + noun' when describing what something resembles. The structure is 'look like + description'.",
+        "es": "Usa 'look like + adjetivo + sustantivo' al describir a qué se parece algo. La estructura es 'look like + descripción'."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿A quién se parece el bebé?"
+      },
+      "solution": "Who does the baby look like?",
+      "tip": {
+        "en": "For resemblance questions, use 'Who does [person] look like?' The structure is: Who + does + subject + look like?",
+        "es": "Para preguntas de parecido, usa 'Who does [persona] look like?' La estructura es: Who + does + sujeto + look like?"
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te pareces a tu padre?"
+      },
+      "solution": "Do you look like your father?",
+      "tip": {
+        "en": "For yes/no resemblance questions, use 'Does [person] look like [person]?' Start with 'Does' for present tense questions.",
+        "es": "Para preguntas de sí/no sobre parecido, usa 'Does [persona] look like [persona]?' Empieza con 'Does' para preguntas en presente."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Ese coche parece un tanque."
+      },
+      "solution": "That car looks like a tank.",
+      "tip": {
+        "en": "Use 'look like + noun' to say someone resembles another person physically. 'Look like' is for visual similarity or resemblance.",
+        "es": "Usa 'look like + sustantivo' para decir que alguien se parece físicamente a otra persona. 'Look like' es para similitud visual o parecido."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Mis gemelos se parecen exactamente."
+      },
+      "solution": "My twins look exactly alike.",
+      "tip": {
+        "en": "When two people look similar to each other, use 'look alike' (not 'look like each other').",
+        "es": "Cuando dos personas se parecen entre sí, usa 'look alike' (no 'look like each other')."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Esa nube parece un elefante."
+      },
+      "solution": "That cloud looks like an elephant.",
+      "tip": {
+        "en": "Use 'look like + noun' to say someone resembles another person physically. 'Look like' is for visual similarity or resemblance.",
+        "es": "Usa 'look like + sustantivo' para decir que alguien se parece físicamente a otra persona. 'Look like' es para similitud visual o parecido."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "¿A quién se parecía tu bisabuela?"
+      },
+      "solution": "Who did your great-grandmother look like?",
+      "tip": {
+        "en": "For past resemblance questions, use 'Who did [person] look like?' Change 'does' to 'did' for past tense.",
+        "es": "Para preguntas de parecido en pasado, usa 'Who did [persona] look like?' Cambia 'does' a 'did' para tiempo pasado."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te parecías a tu madre cuando eras joven?"
+      },
+      "solution": "Did you look like your mother when you were young?",
+      "tip": {
+        "en": "For past yes/no resemblance questions, use 'Did [person] look like [person]?' Use 'did' for past tense questions.",
+        "es": "Para preguntas de sí/no sobre parecido en pasado, usa 'Did [persona] look like [persona]?' Usa 'did' para preguntas en pasado."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Suenas exactamente como tu hermana por teléfono."
+      },
+      "solution": "You sound exactly like your sister on the phone.",
+      "tip": {
+        "en": "'Sound like' is for vocal similarity - when voices are similar or speech patterns are the same. Use for phone conversations or speaking style.",
+        "es": "'Sound like' es para similitud vocal - cuando las voces son similares o los patrones de habla son iguales. Usa para conversaciones telefónicas o estilo de hablar."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando hablas en inglés suenas como un americano."
+      },
+      "solution": "When you speak English you sound like an American.",
+      "tip": {
+        "en": "'Sound like' is for vocal similarity - when voices are similar or speech patterns are the same. Use for phone conversations or speaking style.",
+        "es": "'Sound like' es para similitud vocal - cuando las voces son similares o los patrones de habla son iguales. Usa para conversaciones telefónicas o estilo de hablar."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Esa propuesta suena como una buena idea."
+      },
+      "solution": "That proposal sounds like a good idea.",
+      "tip": {
+        "en": "'Sound like' can also mean 'seems like' when talking about ideas, plans, or situations that you hear about.",
+        "es": "'Sound like' también puede significar 'parece que' al hablar de ideas, planes o situaciones de las que escuchas hablar."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Su risa suena como la de un niño pequeño."
+      },
+      "solution": "His laugh sounds like a little child's.",
+      "tip": {
+        "en": "'Sound like' is for vocal similarity - when voices are similar or speech patterns are the same. Use for phone conversations or speaking style.",
+        "es": "'Sound like' es para similitud vocal - cuando las voces son similares o los patrones de habla son iguales. Usa para conversaciones telefónicas o estilo de hablar."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Eso suena como una película de terror."
+      },
+      "solution": "That sounds like a horror film.",
+      "tip": {
+        "en": "'Sound like' can also mean 'seems like' when talking about ideas, plans, or situations that you hear about.",
+        "es": "'Sound like' también puede significar 'parece que' al hablar de ideas, planes o situaciones de las que escuchas hablar."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Esta comida se parece a la que hace mi abuela."
+      },
+      "solution": "This food looks like the one my grandmother makes.",
+      "tip": {
+        "en": "Use 'look like + noun' to say someone resembles another person physically. 'Look like' is for visual similarity or resemblance.",
+        "es": "Usa 'look like + sustantivo' para decir que alguien se parece físicamente a otra persona. 'Look like' es para similitud visual o parecido."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Ese perro parece un oso pequeño."
+      },
+      "solution": "That dog looks like a small bear.",
+      "tip": {
+        "en": "Use 'look like + adjective + noun' when describing what something resembles. The structure is 'look like + description'.",
+        "es": "Usa 'look like + adjetivo + sustantivo' al describir a qué se parece algo. La estructura es 'look like + descripción'."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿A quién se parece más, a su madre o a su padre?"
+      },
+      "solution": "Who does he look more like, his mother or his father?",
+      "tip": {
+        "en": "For comparison questions, use 'Who does [person] look more like, [option] or [option]?' Use 'more like' for comparisons.",
+        "es": "Para preguntas de comparación, usa 'Who does [persona] look more like, [opción] or [opción]?' Usa 'more like' para comparaciones."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Su hermana se parece a ella?"
+      },
+      "solution": "Does her sister look like her?",
+      "tip": {
+        "en": "For yes/no resemblance questions, use 'Does [person] look like [person]?' Start with 'Does' for present tense questions.",
+        "es": "Para preguntas de sí/no sobre parecido, usa 'Does [persona] look like [persona]?' Empieza con 'Does' para preguntas en presente."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "No me parezco nada a mi hermano."
+      },
+      "solution": "I don't look anything like my brother.",
+      "tip": {
+        "en": "For negative resemblance, use 'don't look anything like' or 'don't look like at all'. 'Anything like' emphasizes no resemblance.",
+        "es": "Para parecido negativo, usa 'don't look anything like' o 'don't look like at all'. 'Anything like' enfatiza que no hay parecido."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando era joven, me parecía mucho a mi madre."
+      },
+      "solution": "When I was young, I looked a lot like my mother.",
+      "tip": {
+        "en": "For past resemblance, use 'looked like'. The structure stays the same, just change 'look' to 'looked'.",
+        "es": "Para parecido en pasado, usa 'looked like'. La estructura sigue igual, solo cambia 'look' a 'looked'."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Ese árbol parece una persona gigante."
+      },
+      "solution": "That tree looks like a giant person.",
+      "tip": {
+        "en": "Use 'look like + adjective + noun' when describing what something resembles. The structure is 'look like + description'.",
+        "es": "Usa 'look like + adjetivo + sustantivo' al describir a qué se parece algo. La estructura es 'look like + descripción'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando habla por teléfono suena como un robot."
+      },
+      "solution": "When he talks on the phone he sounds like a robot.",
+      "tip": {
+        "en": "'Sound like' is for vocal similarity - when voices are similar or speech patterns are the same. Use for phone conversations or speaking style.",
+        "es": "'Sound like' es para similitud vocal - cuando las voces son similares o los patrones de habla son iguales. Usa para conversaciones telefónicas o estilo de hablar."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Tu plan suena como una aventura emocionante."
+      },
+      "solution": "Your plan sounds like an exciting adventure.",
+      "tip": {
+        "en": "'Sound like' can also mean 'seems like' when talking about ideas, plans, or situations that you hear about.",
+        "es": "'Sound like' también puede significar 'parece que' al hablar de ideas, planes o situaciones de las que escuchas hablar."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Ese cantante suena exactamente como Elvis."
+      },
+      "solution": "That singer sounds exactly like Elvis.",
+      "tip": {
+        "en": "'Sound like' is for vocal similarity - when voices are similar or speech patterns are the same. Use for phone conversations or speaking style.",
+        "es": "'Sound like' es para similitud vocal - cuando las voces son similares o los patrones de habla son iguales. Usa para conversaciones telefónicas o estilo de hablar."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Esas dos casas se parecen mucho."
+      },
+      "solution": "Those two houses look very much alike.",
+      "tip": {
+        "en": "When two people look similar to each other, use 'look alike' (not 'look like each other').",
+        "es": "Cuando dos personas se parecen entre sí, usa 'look alike' (no 'look like each other')."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Tu nueva novia se parece un poco a tu ex."
+      },
+      "solution": "Your new girlfriend looks a bit like your ex.",
+      "tip": {
+        "en": "Use 'look like + noun' to say someone resembles another person physically. 'Look like' is for visual similarity or resemblance.",
+        "es": "Usa 'look like + sustantivo' para decir que alguien se parece físicamente a otra persona. 'Look like' es para similitud visual o parecido."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando estás enfadado suenas como tu padre."
+      },
+      "solution": "When you're angry you sound like your father.",
+      "tip": {
+        "en": "'Sound like' is for vocal similarity - when voices are similar or speech patterns are the same. Use for phone conversations or speaking style.",
+        "es": "'Sound like' es para similitud vocal - cuando las voces son similares o los patrones de habla son iguales. Usa para conversaciones telefónicas o estilo de hablar."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Esa historia suena como una mentira."
+      },
+      "solution": "That story sounds like a lie.",
+      "tip": {
+        "en": "'Sound like' can also mean 'seems like' when talking about ideas, plans, or situations that you hear about.",
+        "es": "'Sound like' también puede significar 'parece que' al hablar de ideas, planes o situaciones de las que escuchas hablar."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Esta canción se parece mucho a otra que conozco."
+      },
+      "solution": "This song sounds very much like another one I know.",
+      "tip": {
+        "en": "For songs, music, or sounds, you can use 'sound like' to describe similarity in what you hear.",
+        "es": "Para canciones, música o sonidos, puedes usar 'sound like' para describir similitud en lo que escuchas."
+      }
+    }
+  ]
+}

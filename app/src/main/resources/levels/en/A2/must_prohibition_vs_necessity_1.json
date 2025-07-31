@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "Must (ii) - Mustn't vs Don't have to (Prohibición vs No necesario)",
+    "es": "Must (ii) - Mustn't vs Don't have to (Prohibición vs No necesario)"
+  },
+  "description": {
+    "en": "Learn to use 'mustn't' for prohibition (forbidden) vs 'don't have to' for lack of necessity (not required). Master the critical difference between these negative forms.",
+    "es": "Aprende a usar 'mustn't' para prohibición (prohibido) vs 'don't have to' para falta de necesidad (no requerido). Domina la diferencia crítica entre estas formas negativas."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes pisar el césped."
+      },
+      "solution": "You mustn't walk on the grass.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "No debo olvidar hacer mi declaración de la renta."
+      },
+      "solution": "I mustn't forget to do my tax return.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes discutir con tu profesora."
+      },
+      "solution": "You mustn't argue with your teacher.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes olvidar ponerte el cinturón."
+      },
+      "solution": "You mustn't forget to wear a seatbelt.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes sobrepasar el límite de velocidad."
+      },
+      "solution": "You mustn't break the speed limit.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que estar allí temprano para conseguir una entrada."
+      },
+      "solution": "You don't have to be there early to get a ticket.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que matarte para que te asciendan."
+      },
+      "solution": "You don't have to kill yourself to get promoted.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Él no tiene que ser guapo para impresionar a Jane."
+      },
+      "solution": "He doesn't have to be good-looking to impress Jane.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que volverte loco para perder unos kilos."
+      },
+      "solution": "You don't have to go crazy in order to lose weight.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que llevar corbata a la reunión."
+      },
+      "solution": "You don't have to wear a tie to the meeting.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes fumar en el hospital."
+      },
+      "solution": "You mustn't smoke in the hospital.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que cocinar esta noche; podemos pedir comida."
+      },
+      "solution": "You don't have to cook tonight; we can order food.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes usar el teléfono durante el examen."
+      },
+      "solution": "You mustn't use your phone during the exam.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que venir si estás enfermo."
+      },
+      "solution": "You don't have to come if you're ill.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "No debo contarle a nadie tu secreto."
+      },
+      "solution": "I mustn't tell anyone your secret.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que quedarte hasta tarde; puedes irte cuando quieras."
+      },
+      "solution": "You don't have to stay late; you can leave whenever you want.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes tocar las obras de arte en el museo."
+      },
+      "solution": "You mustn't touch the artwork in the museum.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que comprar un regalo caro; algo simple está bien."
+      },
+      "solution": "You don't have to buy an expensive gift; something simple is fine.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes llegar tarde a la entrevista."
+      },
+      "solution": "You mustn't be late for the interview.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que lavar los platos; yo los haré más tarde."
+      },
+      "solution": "You don't have to wash the dishes; I'll do them later.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes mentir a tus padres."
+      },
+      "solution": "You mustn't lie to your parents.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que pagar por el café; yo invito."
+      },
+      "solution": "You don't have to pay for the coffee; it's my treat.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes aparcar en la zona de discapacitados."
+      },
+      "solution": "You mustn't park in the disabled area.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que estudiar este fin de semana si no quieres."
+      },
+      "solution": "You don't have to study this weekend if you don't want to.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "No debo olvidar llamar a mi dentista mañana."
+      },
+      "solution": "I mustn't forget to call my dentist tomorrow.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que venir a recogerme; puedo tomar el autobús."
+      },
+      "solution": "You don't have to pick me up; I can take the bus.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes hablar durante la película."
+      },
+      "solution": "You mustn't talk during the film.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que vestirte elegante; es una fiesta informal."
+      },
+      "solution": "You don't have to dress formally; it's a casual party.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes copiar en el examen."
+      },
+      "solution": "You mustn't cheat in the exam.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que preocuparte por el dinero; yo me encargo."
+      },
+      "solution": "You don't have to worry about money; I'll take care of it.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes beber alcohol si vas a conducir."
+      },
+      "solution": "You mustn't drink alcohol if you're going to drive.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que hacer ejercicio todos los días; tres veces por semana está bien."
+      },
+      "solution": "You don't have to exercise every day; three times a week is fine.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes revelar información confidencial."
+      },
+      "solution": "You mustn't reveal confidential information.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que terminar todo hoy; puedes hacerlo mañana."
+      },
+      "solution": "You don't have to finish everything today; you can do it tomorrow.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes correr en la piscina."
+      },
+      "solution": "You mustn't run around the pool.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que llamarme esta noche; puedes hacerlo mañana."
+      },
+      "solution": "You don't have to call me tonight; you can do it tomorrow.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes perder la paciencia con los niños."
+      },
+      "solution": "You mustn't lose your temper with the children.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que ser perfecto; solo haz lo mejor que puedas."
+      },
+      "solution": "You don't have to be perfect; just do your best.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes entrar sin permiso."
+      },
+      "solution": "You mustn't enter without permission.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que respondeme ahora; puedes pensarlo."
+      },
+      "solution": "You don't have to answer me now; you can think about it.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes interrumpir cuando otros están hablando."
+      },
+      "solution": "You mustn't interrupt when others are speaking.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que esperar por mí; puedes irte."
+      },
+      "solution": "You don't have to wait for me; you can go.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes dar tu contraseña a extraños."
+      },
+      "solution": "You mustn't give your password to strangers.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que hacer todo tú solo; puedes pedir ayuda."
+      },
+      "solution": "You don't have to do everything yourself; you can ask for help.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes comer en el laboratorio."
+      },
+      "solution": "You mustn't eat in the laboratory.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que comprar nada especial; lo que tengas está bien."
+      },
+      "solution": "You don't have to buy anything special; whatever you have is fine.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "No debes desperdiciar comida."
+      },
+      "solution": "You mustn't waste food.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que levantarte temprano mañana; es sábado."
+      },
+      "solution": "You don't have to get up early tomorrow; it's Saturday.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "No debo ser demasiado crítico conmigo mismo."
+      },
+      "solution": "I mustn't be too critical of myself.",
+      "tip": {
+        "en": "'Mustn't' expresses prohibition - something is forbidden or not allowed. Use for rules, laws, or strong personal restrictions.",
+        "es": "'Mustn't' expresa prohibición - algo está prohibido o no está permitido. Usa para reglas, leyes o restricciones personales fuertes."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "No tienes que disculparte; no hiciste nada malo."
+      },
+      "solution": "You don't have to apologize; you didn't do anything wrong.",
+      "tip": {
+        "en": "'Don't have to' means not necessary - you have a choice, it's optional. Something is not required but not forbidden either.",
+        "es": "'Don't have to' significa no necesario - tienes opción, es opcional. Algo no es requerido pero tampoco está prohibido."
+      }
+    }
+  ]
+}

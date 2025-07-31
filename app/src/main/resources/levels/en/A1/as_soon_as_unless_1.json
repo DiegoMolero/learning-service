@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "As soon as / Unless + Future",
+    "es": "As soon as / Unless + Futuro"
+  },
+  "description": {
+    "en": "Learn that 'as soon as' and 'unless' in future contexts are followed by present simple, never future tense. 'Unless' means 'if not' - don't add extra 'not'.",
+    "es": "Aprende que 'as soon as' y 'unless' en contextos futuros van seguidos de presente simple, nunca futuro. 'Unless' significa 'si no' - no añadas 'no' extra."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Te llamaré en cuanto llegue allí."
+      },
+      "solution": "I'll call you as soon as I get there.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Le mandaremos su pedido en cuanto esté en stock."
+      },
+      "solution": "We'll send you your order as soon as it's in stock.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Me avisarás en cuanto lo sepas?"
+      },
+      "solution": "Will you let me know as soon as you know?",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Me despertarás en cuanto suene tu despertador?"
+      },
+      "solution": "Will you wake me up as soon as your alarm clock goes off?",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Él le llamará en cuanto llegue a Zaragoza."
+      },
+      "solution": "He'll give her a ring as soon as he gets to Zaragoza.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "No iré a no ser que vaya ella."
+      },
+      "solution": "I won't go unless she goes.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "No te lo dirán a no ser que les pagues."
+      },
+      "solution": "They won't tell you unless you pay them.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "No la apoyaremos a no ser que ella se disculpe."
+      },
+      "solution": "We won't support her unless she apologizes.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "No saltaré si no saltas tú primero."
+      },
+      "solution": "I won't jump unless you jump first.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella no se acordará a no ser que tú se lo recuerdes."
+      },
+      "solution": "She won't remember unless you remind her.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Te escribiré en cuanto tenga tiempo."
+      },
+      "solution": "I'll write to you as soon as I have time.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezaremos en cuanto lleguen todos."
+      },
+      "solution": "We'll start as soon as everyone arrives.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Se lo daré en cuanto lo vea."
+      },
+      "solution": "I'll give it to him as soon as I see him.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Me ayudarás en cuanto termine esto?"
+      },
+      "solution": "Will you help me as soon as I finish this?",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Te contestaré en cuanto lea tu mensaje."
+      },
+      "solution": "I'll reply to you as soon as I read your message.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "No vendrá a no ser que le invites."
+      },
+      "solution": "He won't come unless you invite him.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "No ganaremos a no ser que entrenemos más."
+      },
+      "solution": "We won't win unless we train more.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "No lo entenderás a no ser que estudies la teoría."
+      },
+      "solution": "You won't understand it unless you study the theory.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "No podrás entrar a no ser que tengas invitación."
+      },
+      "solution": "You won't be able to get in unless you have an invitation.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "No mejorará a no ser que practique todos los días."
+      },
+      "solution": "She won't improve unless she practices every day.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Saldremos en cuanto pare de llover."
+      },
+      "solution": "We'll go out as soon as it stops raining.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Te llamará en cuanto se levante."
+      },
+      "solution": "He'll call you as soon as he wakes up.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Nos vamos en cuanto termine la película."
+      },
+      "solution": "We're leaving as soon as the film finishes.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Me dirás en cuanto sepas el resultado?"
+      },
+      "solution": "Will you tell me as soon as you know the result?",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezaré en cuanto llegues tú."
+      },
+      "solution": "I'll start as soon as you arrive.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "No lo haré a no ser que me pagues."
+      },
+      "solution": "I won't do it unless you pay me.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "No funcionará a no ser que conectes el cable."
+      },
+      "solution": "It won't work unless you connect the cable.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "No llegaremos a tiempo a no ser que nos demos prisa."
+      },
+      "solution": "We won't arrive on time unless we hurry up.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "No te creerán a no ser que tengas pruebas."
+      },
+      "solution": "They won't believe you unless you have proof.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "No se curará a no ser que tome la medicina."
+      },
+      "solution": "He won't get better unless he takes the medicine.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Te enviaré las fotos en cuanto las tenga listas."
+      },
+      "solution": "I'll send you the photos as soon as I have them ready.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Cerraremos en cuanto se vaya el último cliente."
+      },
+      "solution": "We'll close as soon as the last customer leaves.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Me iré en cuanto termine mi trabajo."
+      },
+      "solution": "I'll leave as soon as I finish my work.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Vendrás en cuanto puedas?"
+      },
+      "solution": "Will you come as soon as you can?",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Te avisaré en cuanto haya noticias."
+      },
+      "solution": "I'll let you know as soon as there's news.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "No abrirán a no ser que tengas cita."
+      },
+      "solution": "They won't open unless you have an appointment.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "No te dejarán entrar a no ser que lleves corbata."
+      },
+      "solution": "They won't let you in unless you wear a tie.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "No aprenderás a no ser que practiques más."
+      },
+      "solution": "You won't learn unless you practice more.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "No terminaremos a no ser que trabajemos hasta tarde."
+      },
+      "solution": "We won't finish unless we work late.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "No lo encontrarás a no ser que busques bien."
+      },
+      "solution": "You won't find it unless you look carefully.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Cambiaremos de planes en cuanto mejore el tiempo."
+      },
+      "solution": "We'll change our plans as soon as the weather improves.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Te devolveré el dinero en cuanto cobre."
+      },
+      "solution": "I'll pay you back as soon as I get paid.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Reservaremos mesa en cuanto decidamos el restaurante."
+      },
+      "solution": "We'll book a table as soon as we decide on the restaurant.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Me acompañarás en cuanto termine tu reunión?"
+      },
+      "solution": "Will you come with me as soon as your meeting finishes?",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Se lo explicaré en cuanto entienda yo mismo."
+      },
+      "solution": "I'll explain it to him as soon as I understand it myself.",
+      "tip": {
+        "en": "'As soon as' (like 'when') is ALWAYS followed by present simple in future contexts, NEVER future tense. 'Will' goes in the other clause.",
+        "es": "'As soon as' (como 'when') SIEMPRE va seguido de presente simple en contextos futuros, NUNCA futuro. 'Will' va en la otra cláusula."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "No cambiarán de opinión a no ser que les presentes evidencia."
+      },
+      "solution": "They won't change their mind unless you present evidence.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "No te escucharán a no ser que hables más alto."
+      },
+      "solution": "They won't hear you unless you speak louder.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "No conseguirás el trabajo a no ser que tengas experiencia."
+      },
+      "solution": "You won't get the job unless you have experience.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "No se recuperará a no ser que descanse completamente."
+      },
+      "solution": "She won't recover unless she rests completely.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "No podremos ir a no ser que arreglen el coche."
+      },
+      "solution": "We won't be able to go unless they fix the car.",
+      "tip": {
+        "en": "'Unless' means 'if not'. DON'T add extra 'not' after 'unless' - it's already negative! Use present simple after 'unless' in future contexts.",
+        "es": "'Unless' significa 'si no'. NO añadas 'not' extra después de 'unless' - ¡ya es negativo! Usa presente simple después de 'unless' en contextos futuros."
+      }
+    }
+  ]
+}

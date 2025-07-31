@@ -1,0 +1,494 @@
+{
+  "title": {
+    "en": "What's it like? (¿Qué tal? / ¿Cómo es?)",
+    "es": "What's it like? (¿Qué tal? / ¿Cómo es?)"
+  },
+  "description": {
+    "en": "Learn to use 'What's it like?' for asking about things and situations, 'What's [person] like?' for personality, and 'What does [person] look like?' for physical appearance.",
+    "es": "Aprende a usar 'What's it like?' para preguntar sobre cosas y situaciones, 'What's [persona] like?' para personalidad, y 'What does [persona] look like?' para apariencia física."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo está el tráfico en el centro de la ciudad?"
+      },
+      "solution": "What's the traffic like in the city centre?",
+      "tip": {
+        "en": "Use 'What's [thing] like?' to ask about conditions, situations, or general descriptions. 'Like' here is NOT the verb - it's part of the structure meaning '¿cómo es?' or '¿qué tal?'",
+        "es": "Usa 'What's [cosa] like?' para preguntar sobre condiciones, situaciones o descripciones generales. 'Like' aquí NO es el verbo - es parte de la estructura que significa '¿cómo es?' o '¿qué tal?'"
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tiempo hace donde estás?"
+      },
+      "solution": "What's the weather like where you are?",
+      "tip": {
+        "en": "Use 'What's [thing] like?' to ask about conditions, situations, or general descriptions. 'Like' here is NOT the verb - it's part of the structure meaning '¿cómo es?' or '¿qué tal?'",
+        "es": "Usa 'What's [cosa] like?' para preguntar sobre condiciones, situaciones o descripciones generales. 'Like' aquí NO es el verbo - es parte de la estructura que significa '¿cómo es?' o '¿qué tal?'"
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuál es la situación en Oriente Medio en este momento?"
+      },
+      "solution": "What's the situation in the Middle East like at the moment?",
+      "tip": {
+        "en": "Use 'What's [thing] like?' to ask about conditions, situations, or general descriptions. 'Like' here is NOT the verb - it's part of the structure meaning '¿cómo es?' or '¿qué tal?'",
+        "es": "Usa 'What's [cosa] like?' para preguntar sobre condiciones, situaciones o descripciones generales. 'Like' aquí NO es el verbo - es parte de la estructura que significa '¿cómo es?' o '¿qué tal?'"
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tal tu libro?"
+      },
+      "solution": "What's your book like?",
+      "tip": {
+        "en": "Use 'What's [thing] like?' to ask about conditions, situations, or general descriptions. 'Like' here is NOT the verb - it's part of the structure meaning '¿cómo es?' or '¿qué tal?'",
+        "es": "Usa 'What's [cosa] like?' para preguntar sobre condiciones, situaciones o descripciones generales. 'Like' aquí NO es el verbo - es parte de la estructura que significa '¿cómo es?' o '¿qué tal?'"
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuáles son las perspectivas en tu trabajo nuevo?"
+      },
+      "solution": "What are the prospects like in your new job?",
+      "tip": {
+        "en": "Use 'What's [thing] like?' to ask about conditions, situations, or general descriptions. 'Like' here is NOT the verb - it's part of the structure meaning '¿cómo es?' or '¿qué tal?'",
+        "es": "Usa 'What's [cosa] like?' para preguntar sobre condiciones, situaciones o descripciones generales. 'Like' aquí NO es el verbo - es parte de la estructura que significa '¿cómo es?' o '¿qué tal?'"
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tal tu reunión?"
+      },
+      "solution": "What was your meeting like?",
+      "tip": {
+        "en": "For past situations, use 'What was [thing] like?' or 'What were [things] like?'. The structure stays the same, just change the verb 'to be' to past.",
+        "es": "Para situaciones pasadas, usa 'What was [cosa] like?' o 'What were [cosas] like?'. La estructura sigue igual, solo cambia el verbo 'to be' al pasado."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tal la película?"
+      },
+      "solution": "What was the film like?",
+      "tip": {
+        "en": "For past situations, use 'What was [thing] like?' or 'What were [things] like?'. The structure stays the same, just change the verb 'to be' to past.",
+        "es": "Para situaciones pasadas, usa 'What was [cosa] like?' o 'What were [cosas] like?'. La estructura sigue igual, solo cambia el verbo 'to be' al pasado."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tal el viaje?"
+      },
+      "solution": "What was the journey like?",
+      "tip": {
+        "en": "For past situations, use 'What was [thing] like?' or 'What were [things] like?'. The structure stays the same, just change the verb 'to be' to past.",
+        "es": "Para situaciones pasadas, usa 'What was [cosa] like?' o 'What were [cosas] like?'. La estructura sigue igual, solo cambia el verbo 'to be' al pasado."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo fue la presentación?"
+      },
+      "solution": "What was the presentation like?",
+      "tip": {
+        "en": "For past situations, use 'What was [thing] like?' or 'What were [things] like?'. The structure stays the same, just change the verb 'to be' to past.",
+        "es": "Para situaciones pasadas, usa 'What was [cosa] like?' o 'What were [cosas] like?'. La estructura sigue igual, solo cambia el verbo 'to be' al pasado."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo fueron las preguntas?"
+      },
+      "solution": "What were the questions like?",
+      "tip": {
+        "en": "For past situations, use 'What was [thing] like?' or 'What were [things] like?'. The structure stays the same, just change the verb 'to be' to past.",
+        "es": "Para situaciones pasadas, usa 'What was [cosa] like?' o 'What were [cosas] like?'. La estructura sigue igual, solo cambia el verbo 'to be' al pasado."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es tu padre? Es serio pero tiene bastante sentido del humor."
+      },
+      "solution": "What's your father like? He's serious but has a good sense of humour.",
+      "tip": {
+        "en": "For personality: 'What's [person] like?' asks about character traits. When answering, don't use 'like' - just describe with adjectives or phrases.",
+        "es": "Para personalidad: 'What's [persona] like?' pregunta sobre rasgos de carácter. Al responder, no uses 'like' - solo describe con adjetivos o frases."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tal es tu jefa? Es muy exigente."
+      },
+      "solution": "What's your boss like? She's very demanding.",
+      "tip": {
+        "en": "For personality: 'What's [person] like?' asks about character traits. When answering, don't use 'like' - just describe with adjectives or phrases.",
+        "es": "Para personalidad: 'What's [persona] like?' pregunta sobre rasgos de carácter. Al responder, no uses 'like' - solo describe con adjetivos o frases."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo son tus vecinos? Son simpáticos."
+      },
+      "solution": "What are your neighbours like? They're nice.",
+      "tip": {
+        "en": "For personality: 'What's [person] like?' asks about character traits. When answering, don't use 'like' - just describe with adjectives or phrases.",
+        "es": "Para personalidad: 'What's [persona] like?' pregunta sobre rasgos de carácter. Al responder, no uses 'like' - solo describe con adjetivos o frases."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo era tu abuela? Era encantadora."
+      },
+      "solution": "What was your grandmother like? She was lovely.",
+      "tip": {
+        "en": "For personality: 'What's [person] like?' asks about character traits. When answering, don't use 'like' - just describe with adjectives or phrases.",
+        "es": "Para personalidad: 'What's [persona] like?' pregunta sobre rasgos de carácter. Al responder, no uses 'like' - solo describe con adjetivos o frases."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo eras de niño? Era bastante travieso."
+      },
+      "solution": "What were you like as a child? I was quite naughty.",
+      "tip": {
+        "en": "For personality: 'What's [person] like?' asks about character traits. When answering, don't use 'like' - just describe with adjectives or phrases.",
+        "es": "Para personalidad: 'What's [persona] like?' pregunta sobre rasgos de carácter. Al responder, no uses 'like' - solo describe con adjetivos o frases."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es tu hermano físicamente? Es alto y rubio."
+      },
+      "solution": "What does your brother look like? He's tall and blonde.",
+      "tip": {
+        "en": "For physical appearance: 'What does [person] look like?' NOT 'What is [person] like?'. Use 'look like' specifically for describing how someone appears physically.",
+        "es": "Para apariencia física: 'What does [persona] look like?' NO 'What is [persona] like?'. Usa 'look like' específicamente para describir cómo se ve alguien físicamente."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es tu mujer físicamente? Es guapa con fuertes rasgos españoles."
+      },
+      "solution": "What does your wife look like? She's beautiful and very Spanish-looking.",
+      "tip": {
+        "en": "For physical appearance: 'What does [person] look like?' NOT 'What is [person] like?'. Use 'look like' specifically for describing how someone appears physically.",
+        "es": "Para apariencia física: 'What does [persona] look like?' NO 'What is [persona] like?'. Usa 'look like' específicamente para describir cómo se ve alguien físicamente."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es tu jefe físicamente? Es bajo, gordo y calvo."
+      },
+      "solution": "What does your boss look like? He's short, fat and bald.",
+      "tip": {
+        "en": "For physical appearance: 'What does [person] look like?' NOT 'What is [person] like?'. Use 'look like' specifically for describing how someone appears physically.",
+        "es": "Para apariencia física: 'What does [persona] look like?' NO 'What is [persona] like?'. Usa 'look like' específicamente para describir cómo se ve alguien físicamente."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es tu profesora de inglés físicamente? Es castaña y lleva gafas."
+      },
+      "solution": "What does your English teacher look like? She has brown hair and wears glasses.",
+      "tip": {
+        "en": "For physical appearance: 'What does [person] look like?' NOT 'What is [person] like?'. Use 'look like' specifically for describing how someone appears physically.",
+        "es": "Para apariencia física: 'What does [persona] look like?' NO 'What is [persona] like?'. Usa 'look like' específicamente para describir cómo se ve alguien físicamente."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué aspecto tenía tu bisabuelo? No sé qué aspecto tenía."
+      },
+      "solution": "What did your great-grandfather look like? I don't know what he looked like.",
+      "tip": {
+        "en": "For physical appearance: 'What does [person] look like?' NOT 'What is [person] like?'. Use 'look like' specifically for describing how someone appears physically.",
+        "es": "Para apariencia física: 'What does [persona] look like?' NO 'What is [persona] like?'. Usa 'look like' específicamente para describir cómo se ve alguien físicamente."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tal está el clima en tu ciudad?"
+      },
+      "solution": "What's the climate like in your city?",
+      "tip": {
+        "en": "Use 'What's [thing] like?' to ask about conditions, situations, or general descriptions. 'Like' here is NOT the verb - it's part of the structure meaning '¿cómo es?' or '¿qué tal?'",
+        "es": "Usa 'What's [cosa] like?' para preguntar sobre condiciones, situaciones o descripciones generales. 'Like' aquí NO es el verbo - es parte de la estructura que significa '¿cómo es?' o '¿qué tal?'"
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es la comida en ese restaurante?"
+      },
+      "solution": "What's the food like at that restaurant?",
+      "tip": {
+        "en": "Use 'What's [thing] like?' to ask about conditions, situations, or general descriptions. 'Like' here is NOT the verb - it's part of the structure meaning '¿cómo es?' or '¿qué tal?'",
+        "es": "Usa 'What's [cosa] like?' para preguntar sobre condiciones, situaciones o descripciones generales. 'Like' aquí NO es el verbo - es parte de la estructura que significa '¿cómo es?' o '¿qué tal?'"
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tal fue el concierto?"
+      },
+      "solution": "What was the concert like?",
+      "tip": {
+        "en": "For past situations, use 'What was [thing] like?' or 'What were [things] like?'. The structure stays the same, just change the verb 'to be' to past.",
+        "es": "Para situaciones pasadas, usa 'What was [cosa] like?' o 'What were [cosas] like?'. La estructura sigue igual, solo cambia el verbo 'to be' al pasado."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo fueron las vacaciones?"
+      },
+      "solution": "What were the holidays like?",
+      "tip": {
+        "en": "For past situations, use 'What was [thing] like?' or 'What were [things] like?'. The structure stays the same, just change the verb 'to be' to past.",
+        "es": "Para situaciones pasadas, usa 'What was [cosa] like?' o 'What were [cosas] like?'. La estructura sigue igual, solo cambia el verbo 'to be' al pasado."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es tu nuevo profesor? Es muy paciente."
+      },
+      "solution": "What's your new teacher like? He's very patient.",
+      "tip": {
+        "en": "For personality: 'What's [person] like?' asks about character traits. When answering, don't use 'like' - just describe with adjectives or phrases.",
+        "es": "Para personalidad: 'What's [persona] like?' pregunta sobre rasgos de carácter. Al responder, no uses 'like' - solo describe con adjetivos o frases."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo son tus padres? Son muy cariñosos."
+      },
+      "solution": "What are your parents like? They're very loving.",
+      "tip": {
+        "en": "For personality: 'What's [person] like?' asks about character traits. When answering, don't use 'like' - just describe with adjectives or phrases.",
+        "es": "Para personalidad: 'What's [persona] like?' pregunta sobre rasgos de carácter. Al responder, no uses 'like' - solo describe con adjetivos o frases."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es tu hermana físicamente? Es morena y tiene los ojos verdes."
+      },
+      "solution": "What does your sister look like? She has dark hair and green eyes.",
+      "tip": {
+        "en": "For physical appearance: 'What does [person] look like?' NOT 'What is [person] like?'. Use 'look like' specifically for describing how someone appears physically.",
+        "es": "Para apariencia física: 'What does [persona] look like?' NO 'What is [persona] like?'. Usa 'look like' específicamente para describir cómo se ve alguien físicamente."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es tu novio físicamente? Es muy guapo y atlético."
+      },
+      "solution": "What does your boyfriend look like? He's very handsome and athletic.",
+      "tip": {
+        "en": "For physical appearance: 'What does [person] look like?' NOT 'What is [person] like?'. Use 'look like' specifically for describing how someone appears physically.",
+        "es": "Para apariencia física: 'What does [persona] look like?' NO 'What is [persona] like?'. Usa 'look like' específicamente para describir cómo se ve alguien físicamente."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tal es el transporte público en tu ciudad?"
+      },
+      "solution": "What's public transport like in your city?",
+      "tip": {
+        "en": "Use 'What's [thing] like?' to ask about conditions, situations, or general descriptions. 'Like' here is NOT the verb - it's part of the structure meaning '¿cómo es?' or '¿qué tal?'",
+        "es": "Usa 'What's [cosa] like?' para preguntar sobre condiciones, situaciones o descripciones generales. 'Like' aquí NO es el verbo - es parte de la estructura que significa '¿cómo es?' o '¿qué tal?'"
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es trabajar desde casa?"
+      },
+      "solution": "What's working from home like?",
+      "tip": {
+        "en": "Use 'What's [thing] like?' to ask about conditions, situations, or general descriptions. 'Like' here is NOT the verb - it's part of the structure meaning '¿cómo es?' or '¿qué tal?'",
+        "es": "Usa 'What's [cosa] like?' para preguntar sobre condiciones, situaciones o descripciones generales. 'Like' aquí NO es el verbo - es parte de la estructura que significa '¿cómo es?' o '¿qué tal?'"
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tal fue el examen?"
+      },
+      "solution": "What was the exam like?",
+      "tip": {
+        "en": "For past situations, use 'What was [thing] like?' or 'What were [things] like?'. The structure stays the same, just change the verb 'to be' to past.",
+        "es": "Para situaciones pasadas, usa 'What was [cosa] like?' o 'What were [cosas] like?'. La estructura sigue igual, solo cambia el verbo 'to be' al pasado."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo era tu colegio? Era muy estricto."
+      },
+      "solution": "What was your school like? It was very strict.",
+      "tip": {
+        "en": "For past situations, use 'What was [thing] like?' or 'What were [things] like?'. The structure stays the same, just change the verb 'to be' to past.",
+        "es": "Para situaciones pasadas, usa 'What was [cosa] like?' o 'What were [cosas] like?'. La estructura sigue igual, solo cambia el verbo 'to be' al pasado."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es tu compañero de piso? Es muy desordenado."
+      },
+      "solution": "What's your flatmate like? He's very messy.",
+      "tip": {
+        "en": "For personality: 'What's [person] like?' asks about character traits. When answering, don't use 'like' - just describe with adjectives or phrases.",
+        "es": "Para personalidad: 'What's [persona] like?' pregunta sobre rasgos de carácter. Al responder, no uses 'like' - solo describe con adjetivos o frases."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo era tu primer jefe? Era muy comprensivo."
+      },
+      "solution": "What was your first boss like? He was very understanding.",
+      "tip": {
+        "en": "For personality: 'What's [person] like?' asks about character traits. When answering, don't use 'like' - just describe with adjectives or phrases.",
+        "es": "Para personalidad: 'What's [persona] like?' pregunta sobre rasgos de carácter. Al responder, no uses 'like' - solo describe con adjetivos o frases."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es tu dentista físicamente? Es una mujer mayor con pelo gris."
+      },
+      "solution": "What does your dentist look like? She's an older woman with grey hair.",
+      "tip": {
+        "en": "For physical appearance: 'What does [person] look like?' NOT 'What is [person] like?'. Use 'look like' specifically for describing how someone appears physically.",
+        "es": "Para apariencia física: 'What does [persona] look like?' NO 'What is [persona] like?'. Usa 'look like' específicamente para describir cómo se ve alguien físicamente."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo era tu primer profesor físicamente? Era muy alto con barba."
+      },
+      "solution": "What did your first teacher look like? He was very tall with a beard.",
+      "tip": {
+        "en": "For physical appearance: 'What does [person] look like?' NOT 'What is [person] like?'. Use 'look like' specifically for describing how someone appears physically.",
+        "es": "Para apariencia física: 'What does [persona] look like?' NO 'What is [persona] like?'. Usa 'look like' específicamente para describir cómo se ve alguien físicamente."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tal es el nuevo restaurante chino?"
+      },
+      "solution": "What's the new Chinese restaurant like?",
+      "tip": {
+        "en": "Use 'What's [thing] like?' to ask about conditions, situations, or general descriptions. 'Like' here is NOT the verb - it's part of the structure meaning '¿cómo es?' or '¿qué tal?'",
+        "es": "Usa 'What's [cosa] like?' para preguntar sobre condiciones, situaciones o descripciones generales. 'Like' aquí NO es el verbo - es parte de la estructura que significa '¿cómo es?' o '¿qué tal?'"
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo es vivir en el extranjero?"
+      },
+      "solution": "What's living abroad like?",
+      "tip": {
+        "en": "Use 'What's [thing] like?' to ask about conditions, situations, or general descriptions. 'Like' here is NOT the verb - it's part of the structure meaning '¿cómo es?' or '¿qué tal?'",
+        "es": "Usa 'What's [cosa] like?' para preguntar sobre condiciones, situaciones o descripciones generales. 'Like' aquí NO es el verbo - es parte de la estructura que significa '¿cómo es?' o '¿qué tal?'"
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué tal fueron los resultados del proyecto?"
+      },
+      "solution": "What were the project results like?",
+      "tip": {
+        "en": "For past situations, use 'What was [thing] like?' or 'What were [things] like?'. The structure stays the same, just change the verb 'to be' to past.",
+        "es": "Para situaciones pasadas, usa 'What was [cosa] like?' o 'What were [cosas] like?'. La estructura sigue igual, solo cambia el verbo 'to be' al pasado."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo fue crecer en una familia grande?"
+      },
+      "solution": "What was growing up in a big family like?",
+      "tip": {
+        "en": "For past situations, use 'What was [thing] like?' or 'What were [things] like?'. The structure stays the same, just change the verb 'to be' to past.",
+        "es": "Para situaciones pasadas, usa 'What was [cosa] like?' o 'What were [cosas] like?'. La estructura sigue igual, solo cambia el verbo 'to be' al pasado."
+      }
+    }
+  ]
+}

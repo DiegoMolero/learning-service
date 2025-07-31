@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "Ask a Question / Indirect Questions (Preguntar / Preguntas indirectas)",
+    "es": "Ask a Question / Indirect Questions (Preguntar / Preguntas indirectas)"
+  },
+  "description": {
+    "en": "Learn to use 'ask a question' (NEVER 'make a question') and master indirect question structure. Understand how word order changes in reported questions.",
+    "es": "Aprende a usar 'ask a question' (NUNCA 'make a question') y domina la estructura de preguntas indirectas. Entiende cómo cambia el orden de palabras en preguntas reportadas."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te puedo hacer una pregunta?"
+      },
+      "solution": "Can I ask you a question?",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Alguien hizo una pregunta?"
+      },
+      "solution": "Did anyone ask a question?",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabas de hacer una pregunta interesante."
+      },
+      "solution": "That's an interesting question you've just asked.",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Hacedme unas preguntas."
+      },
+      "solution": "Ask me some questions.",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Sólo pregunto."
+      },
+      "solution": "I'm only asking.",
+      "tip": {
+        "en": "The verb 'ask' without any additions simply means 'preguntar'.",
+        "es": "El verbo 'ask' sin añadidos simplemente significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó cómo me llamaba."
+      },
+      "solution": "She asked me what my name was.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Le preguntaré dónde vive."
+      },
+      "solution": "I'll ask him where he lives.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Le preguntaste (a ella) la hora?"
+      },
+      "solution": "Did you ask her what time it was?",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te puedo preguntar qué opinas?"
+      },
+      "solution": "Can I ask you what you think?",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté a Fiona qué parte cambiaría."
+      },
+      "solution": "I asked Fiona what part she would change.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Puedo hacerte otra pregunta?"
+      },
+      "solution": "Can I ask you another question?",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté por qué llegó tarde."
+      },
+      "solution": "I asked him why he was late.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "El profesor hizo una pregunta difícil."
+      },
+      "solution": "The teacher asked a difficult question.",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó si tenía hambre."
+      },
+      "solution": "She asked me if I was hungry.",
+      "tip": {
+        "en": "For yes/no indirect questions, use 'if' or 'whether'. Use normal word order (subject + verb) after 'if/whether'.",
+        "es": "Para preguntas indirectas de sí/no, usa 'if' o 'whether'. Usa orden normal de palabras (sujeto + verbo) después de 'if/whether'."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Le preguntaste cuándo viene?"
+      },
+      "solution": "Did you ask him when he's coming?",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Nadie hizo preguntas después de la presentación."
+      },
+      "solution": "Nobody asked any questions after the presentation.",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté dónde había puesto las llaves."
+      },
+      "solution": "I asked her where she had put the keys.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Puedes hacerme una pregunta personal?"
+      },
+      "solution": "Can you ask me a personal question?",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó si conocía a su hermano."
+      },
+      "solution": "She asked me if I knew her brother.",
+      "tip": {
+        "en": "For yes/no indirect questions, use 'if' or 'whether'. Use normal word order (subject + verb) after 'if/whether'.",
+        "es": "Para preguntas indirectas de sí/no, usa 'if' o 'whether'. Usa orden normal de palabras (sujeto + verbo) después de 'if/whether'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté cuánto costaba el coche."
+      },
+      "solution": "I asked him how much the car cost.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Los estudiantes hicieron muchas preguntas interesantes."
+      },
+      "solution": "The students asked many interesting questions.",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Le preguntaste si podía ayudarnos?"
+      },
+      "solution": "Did you ask him if he could help us?",
+      "tip": {
+        "en": "For yes/no indirect questions, use 'if' or 'whether'. Use normal word order (subject + verb) after 'if/whether'.",
+        "es": "Para preguntas indirectas de sí/no, usa 'if' o 'whether'. Usa orden normal de palabras (sujeto + verbo) después de 'if/whether'."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó quién era mi profesor favorito."
+      },
+      "solution": "She asked me who my favourite teacher was.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "No me atrevo a hacer esa pregunta."
+      },
+      "solution": "I don't dare to ask that question.",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté por qué no vino a la fiesta."
+      },
+      "solution": "I asked her why she didn't come to the party.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Alguien más quiere hacer una pregunta?"
+      },
+      "solution": "Does anyone else want to ask a question?",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó si había terminado mi trabajo."
+      },
+      "solution": "She asked me if I had finished my work.",
+      "tip": {
+        "en": "For yes/no indirect questions, use 'if' or 'whether'. Use normal word order (subject + verb) after 'if/whether'.",
+        "es": "Para preguntas indirectas de sí/no, usa 'if' o 'whether'. Usa orden normal de palabras (sujeto + verbo) después de 'if/whether'."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté cómo había llegado tan rápido."
+      },
+      "solution": "I asked him how he had arrived so quickly.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes alguna pregunta sobre el examen?"
+      },
+      "solution": "Do you have any questions about the exam?",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó dónde había aprendido español."
+      },
+      "solution": "She asked me where I had learned Spanish.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Voy a hacer una pregunta importante."
+      },
+      "solution": "I'm going to ask an important question.",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté si le gustaba la comida italiana."
+      },
+      "solution": "I asked him if he liked Italian food.",
+      "tip": {
+        "en": "For yes/no indirect questions, use 'if' or 'whether'. Use normal word order (subject + verb) after 'if/whether'.",
+        "es": "Para preguntas indirectas de sí/no, usa 'if' o 'whether'. Usa orden normal de palabras (sujeto + verbo) después de 'if/whether'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó cuándo empezaba la película."
+      },
+      "solution": "She asked me when the film started.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Puedo hacer una pregunta rápida?"
+      },
+      "solution": "Can I ask a quick question?",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté por qué estaba tan triste."
+      },
+      "solution": "I asked her why she was so sad.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Los periodistas hicieron preguntas difíciles."
+      },
+      "solution": "The journalists asked difficult questions.",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó si había visto a su gato."
+      },
+      "solution": "She asked me if I had seen her cat.",
+      "tip": {
+        "en": "For yes/no indirect questions, use 'if' or 'whether'. Use normal word order (subject + verb) after 'if/whether'.",
+        "es": "Para preguntas indirectas de sí/no, usa 'if' o 'whether'. Usa orden normal de palabras (sujeto + verbo) después de 'if/whether'."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté cuántos hermanos tenía."
+      },
+      "solution": "I asked him how many brothers he had.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te importa si hago una pregunta personal?"
+      },
+      "solution": "Do you mind if I ask a personal question?",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó dónde trabajaba mi padre."
+      },
+      "solution": "She asked me where my father worked.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Esa fue una buena pregunta que hiciste."
+      },
+      "solution": "That was a good question you asked.",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté si quería venir con nosotros."
+      },
+      "solution": "I asked her if she wanted to come with us.",
+      "tip": {
+        "en": "For yes/no indirect questions, use 'if' or 'whether'. Use normal word order (subject + verb) after 'if/whether'.",
+        "es": "Para preguntas indirectas de sí/no, usa 'if' o 'whether'. Usa orden normal de palabras (sujeto + verbo) después de 'if/whether'."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó cómo había conocido a mi esposa."
+      },
+      "solution": "She asked me how I had met my wife.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "No tengas miedo de hacer preguntas."
+      },
+      "solution": "Don't be afraid to ask questions.",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté por qué no había venido ayer."
+      },
+      "solution": "I asked him why he hadn't come yesterday.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay alguna pregunta sobre la tarea?"
+      },
+      "solution": "Are there any questions about the homework?",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó si conocía algún buen restaurante."
+      },
+      "solution": "She asked me if I knew any good restaurants.",
+      "tip": {
+        "en": "For yes/no indirect questions, use 'if' or 'whether'. Use normal word order (subject + verb) after 'if/whether'.",
+        "es": "Para preguntas indirectas de sí/no, usa 'if' o 'whether'. Usa orden normal de palabras (sujeto + verbo) después de 'if/whether'."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pregunté qué pensaba sobre la película."
+      },
+      "solution": "I asked her what she thought about the film.",
+      "tip": {
+        "en": "In indirect questions, use normal word order (subject + verb) after question words. No inversion like in direct questions.",
+        "es": "En preguntas indirectas, usa orden normal de palabras (sujeto + verbo) después de palabras interrogativas. Sin inversión como en preguntas directas."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre haces preguntas inteligentes."
+      },
+      "solution": "You always ask intelligent questions.",
+      "tip": {
+        "en": "NEVER say 'make a question'! Always use 'ask a question'. The verb 'ask' means 'preguntar'.",
+        "es": "¡NUNCA digas 'make a question'! Siempre usa 'ask a question'. El verbo 'ask' significa 'preguntar'."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me preguntó si podía quedarme un poco más."
+      },
+      "solution": "She asked me if I could stay a bit longer.",
+      "tip": {
+        "en": "For yes/no indirect questions, use 'if' or 'whether'. Use normal word order (subject + verb) after 'if/whether'.",
+        "es": "Para preguntas indirectas de sí/no, usa 'if' o 'whether'. Usa orden normal de palabras (sujeto + verbo) después de 'if/whether'."
+      }
+    }
+  ]
+}

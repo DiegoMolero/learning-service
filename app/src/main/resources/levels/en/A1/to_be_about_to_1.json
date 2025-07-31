@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "To be about to (Estar a punto de)",
+    "es": "To be about to (Estar a punto de)"
+  },
+  "description": {
+    "en": "Learn to use 'to be about to' to express 'estar a punto de hacer algo'. Only the verb 'to be' changes according to person and tense.",
+    "es": "Aprende a usar 'to be about to' para expresar 'estar a punto de hacer algo'. Solo el verbo 'to be' cambia según la persona y el tiempo."
+  },
+  "level": "A1",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Creo que estoy a punto de estornudar."
+      },
+      "solution": "I think I'm about to sneeze.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Él está a punto de cometer un grave error."
+      },
+      "solution": "He's about to make a big mistake.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Están a punto de casarse."
+      },
+      "solution": "They're about to get married.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Estamos a punto de irnos de vacaciones."
+      },
+      "solution": "We're about to go on holiday.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "La fábrica está a punto de cerrar."
+      },
+      "solution": "The factory is about to close down.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba a punto de irme cuando ella llegó."
+      },
+      "solution": "I was about to leave when she arrived.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Estábamos a punto de firmar el contrato cuando mi mujer leyó la letra pequeña."
+      },
+      "solution": "We were about to sign the contract when my wife read the small print.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo estaba a punto de llamarte cuando me llamaste."
+      },
+      "solution": "I was about to call you when you phoned.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaban a punto de celebrar la victoria cuando encajaron un gol."
+      },
+      "solution": "They were about to celebrate winning when they let in a goal.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba a punto de dormirme cuando llamaste."
+      },
+      "solution": "I was about to go to sleep when you rang.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Estoy a punto de terminar el trabajo."
+      },
+      "solution": "I'm about to finish work.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella está a punto de graduarse."
+      },
+      "solution": "She's about to graduate.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estás a punto de salir?"
+      },
+      "solution": "Are you about to leave?",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Estamos a punto de mudarnos a una casa nueva."
+      },
+      "solution": "We're about to move to a new house.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "El tren está a punto de llegar."
+      },
+      "solution": "The train is about to arrive.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba a punto de rendirme cuando encontré la solución."
+      },
+      "solution": "I was about to give up when I found the solution.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella estaba a punto de llorar cuando le dieron la noticia."
+      },
+      "solution": "She was about to cry when they gave her the news.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estabas a punto de decirme algo?"
+      },
+      "solution": "Were you about to tell me something?",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Estábamos a punto de cenar cuando llegaron los invitados."
+      },
+      "solution": "We were about to have dinner when the guests arrived.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "El avión estaba a punto de despegar cuando cancelaron el vuelo."
+      },
+      "solution": "The plane was about to take off when they cancelled the flight.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Estoy a punto de perder la paciencia."
+      },
+      "solution": "I'm about to lose my patience.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Él está a punto de jubilarse."
+      },
+      "solution": "He's about to retire.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estás a punto de tomar una decisión?"
+      },
+      "solution": "Are you about to make a decision?",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Estamos a punto de empezar la reunión."
+      },
+      "solution": "We're about to start the meeting.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "La película está a punto de comenzar."
+      },
+      "solution": "The film is about to begin.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba a punto de comprar el coche cuando vi el precio."
+      },
+      "solution": "I was about to buy the car when I saw the price.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella estaba a punto de aceptar el trabajo cuando le ofrecieron otro mejor."
+      },
+      "solution": "She was about to accept the job when they offered her a better one.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estabas a punto de marcharte sin despedirte?"
+      },
+      "solution": "Were you about to leave without saying goodbye?",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Estábamos a punto de cancelar el viaje cuando mejoraron las condiciones."
+      },
+      "solution": "We were about to cancel the trip when conditions improved.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "El ordenador estaba a punto de fallar cuando lo reinicié."
+      },
+      "solution": "The computer was about to crash when I restarted it.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Estoy a punto de cambiar de trabajo."
+      },
+      "solution": "I'm about to change jobs.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella está a punto de tener un bebé."
+      },
+      "solution": "She's about to have a baby.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estás a punto de cometer el mismo error otra vez?"
+      },
+      "solution": "Are you about to make the same mistake again?",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Estamos a punto de descubrir la verdad."
+      },
+      "solution": "We're about to discover the truth.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "El sol está a punto de ponerse."
+      },
+      "solution": "The sun is about to set.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba a punto de olvidar tu cumpleaños cuando me acordé."
+      },
+      "solution": "I was about to forget your birthday when I remembered.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella estaba a punto de confesar la verdad cuando cambió de opinión."
+      },
+      "solution": "She was about to confess the truth when she changed her mind.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estabas a punto de preguntarme lo mismo?"
+      },
+      "solution": "Were you about to ask me the same thing?",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Estábamos a punto de abandonar la búsqueda cuando lo encontramos."
+      },
+      "solution": "We were about to give up the search when we found it.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "La tienda estaba a punto de cerrar cuando entré."
+      },
+      "solution": "The shop was about to close when I went in.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Estoy a punto de explotar de rabia."
+      },
+      "solution": "I'm about to explode with anger.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Él está a punto de cumplir treinta años."
+      },
+      "solution": "He's about to turn thirty.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estás a punto de entender la lección?"
+      },
+      "solution": "Are you about to understand the lesson?",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Estamos a punto de alcanzar nuestro objetivo."
+      },
+      "solution": "We're about to reach our goal.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "La batería está a punto de agotarse."
+      },
+      "solution": "The battery is about to run out.",
+      "tip": {
+        "en": "Structure: subject + to be + about to + base verb. Only 'to be' changes for person/tense: I'm/you're/he's about to...",
+        "es": "Estructura: sujeto + to be + about to + verbo base. Solo 'to be' cambia según persona/tiempo: I'm/you're/he's about to..."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba a punto de contarte mi secreto cuando sonó el teléfono."
+      },
+      "solution": "I was about to tell you my secret when the phone rang.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella estaba a punto de ganar la carrera cuando se cayó."
+      },
+      "solution": "She was about to win the race when she fell down.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estabas a punto de sugerir lo mismo?"
+      },
+      "solution": "Were you about to suggest the same thing?",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Estábamos a punto de resolver el problema cuando se fue la luz."
+      },
+      "solution": "We were about to solve the problem when the power went out.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "El concierto estaba a punto de empezar cuando llegamos."
+      },
+      "solution": "The concert was about to start when we arrived.",
+      "tip": {
+        "en": "For past context, use 'was/were about to'. The structure stays the same, only 'to be' changes to past form.",
+        "es": "Para contexto pasado, usa 'was/were about to'. La estructura sigue igual, solo 'to be' cambia a forma pasada."
+      }
+    }
+  ]
+}

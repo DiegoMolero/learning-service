@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "Some & Any (iv) - Questions with Countable Nouns (Preguntas con sustantivos contables)",
+    "es": "Some & Any (iv) - Questions with Countable Nouns (Preguntas con sustantivos contables)"
+  },
+  "description": {
+    "en": "Learn to use 'any' in questions with countable nouns (obligatory even when not represented in Spanish) and 'some' when expecting a positive answer.",
+    "es": "Aprende a usar 'any' en preguntas con sustantivos contables (obligatorio aunque no se represente en español) y 'some' cuando esperas una respuesta positiva."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te compraste ropa?"
+      },
+      "solution": "Did you buy any clothes?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Has visto unos trapos en el garaje?"
+      },
+      "solution": "Have you seen any cloths in the garage?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tu gato perdió uñas en la pelea?"
+      },
+      "solution": "Did your cat lose any claws in the fight?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay clavo (culinario) en el armario?"
+      },
+      "solution": "Are there any cloves in the cupboard?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Mozart escribió conciertos para teclado?"
+      },
+      "solution": "Did Mozart write any keyboard concertos?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetecen unos profiteroles?"
+      },
+      "solution": "Would you like some profiteroles?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te trajo Papá Noel regalos bonitos?"
+      },
+      "solution": "Did you get some nice presents from Father Christmas?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Viste buenos partidos durante el Mundial?"
+      },
+      "solution": "Did you see some good matches during the World Cup?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes cerillas para las velas?"
+      },
+      "solution": "Do you have some matches for the candles?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Encontraste alguna ganga en las rebajas?"
+      },
+      "solution": "Did you find some bargains in the sales?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Compraste libros en la feria?"
+      },
+      "solution": "Did you buy any books at the fair?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres galletas con el té?"
+      },
+      "solution": "Would you like some biscuits with your tea?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay errores en el documento?"
+      },
+      "solution": "Are there any errors in the document?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustan patatas fritas?"
+      },
+      "solution": "Would you like some chips?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Viste películas interesantes este año?"
+      },
+      "solution": "Did you see any interesting films this year?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Necesitas pastillas para el dolor de cabeza?"
+      },
+      "solution": "Do you need some pills for your headache?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes hermanos?"
+      },
+      "solution": "Do you have any brothers?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetecen bombones?"
+      },
+      "solution": "Would you like some chocolates?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había estudiantes en la biblioteca?"
+      },
+      "solution": "Were there any students in the library?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres nueces para la ensalada?"
+      },
+      "solution": "Do you want some nuts for the salad?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Encontraste llaves en la calle?"
+      },
+      "solution": "Did you find any keys in the street?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetecen aceitunas?"
+      },
+      "solution": "Would you like some olives?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay problemas con el proyecto?"
+      },
+      "solution": "Are there any problems with the project?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Necesitas toallas limpias?"
+      },
+      "solution": "Do you need some clean towels?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conoces restaurantes buenos en esta zona?"
+      },
+      "solution": "Do you know any good restaurants in this area?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres caramelos?"
+      },
+      "solution": "Would you like some sweets?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes monedas para el parquímetro?"
+      },
+      "solution": "Do you have any coins for the parking meter?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetecen fresas con nata?"
+      },
+      "solution": "Would you like some strawberries with cream?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay mensajes en el contestador?"
+      },
+      "solution": "Are there any messages on the answering machine?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Necesitas aspirinas?"
+      },
+      "solution": "Do you need some aspirins?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Compraste sellos en correos?"
+      },
+      "solution": "Did you buy any stamps at the post office?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustan uvas?"
+      },
+      "solution": "Would you like some grapes?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay turistas en el museo?"
+      },
+      "solution": "Are there any tourists in the museum?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres almendras tostadas?"
+      },
+      "solution": "Do you want some roasted almonds?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Viste pájaros en el parque?"
+      },
+      "solution": "Did you see any birds in the park?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetecen palomitas?"
+      },
+      "solution": "Would you like some popcorn?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay asientos libres en el teatro?"
+      },
+      "solution": "Are there any free seats in the theatre?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Necesitas pilas para la linterna?"
+      },
+      "solution": "Do you need some batteries for the torch?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conoces canciones de ese grupo?"
+      },
+      "solution": "Do you know any songs by that band?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustan cerezas?"
+      },
+      "solution": "Would you like some cherries?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay ofertas de trabajo en el periódico?"
+      },
+      "solution": "Are there any job offers in the newspaper?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres vitaminas?"
+      },
+      "solution": "Do you want some vitamins?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes amigos en París?"
+      },
+      "solution": "Do you have any friends in Paris?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te apetecen mejillones?"
+      },
+      "solution": "Would you like some mussels?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay cartas para mí?"
+      },
+      "solution": "Are there any letters for me?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Necesitas clips para los papeles?"
+      },
+      "solution": "Do you need some clips for the papers?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Viste estrellas anoche?"
+      },
+      "solution": "Did you see any stars last night?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustan dátiles?"
+      },
+      "solution": "Would you like some dates?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay opciones vegetarianas en el menú?"
+      },
+      "solution": "Are there any vegetarian options on the menu?",
+      "tip": {
+        "en": "Use 'any' in questions with countable nouns. It's obligatory in English even when not represented in Spanish.",
+        "es": "Usa 'any' en preguntas con sustantivos contables. Es obligatorio en inglés aunque no se represente en español."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres pendientes para la fiesta?"
+      },
+      "solution": "Do you want some earrings for the party?",
+      "tip": {
+        "en": "Use 'some' in questions when you assume a positive answer, though 'any' works for all cases.",
+        "es": "Usa 'some' en preguntas cuando asumes una respuesta positiva, aunque 'any' funciona para todos los casos."
+      }
+    }
+  ]
+}

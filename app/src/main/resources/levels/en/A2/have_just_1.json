@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "Have just... (Acabo de...)",
+    "es": "Have just... (Acabo de...)"
+  },
+  "description": {
+    "en": "Learn to use 'have/has just + past participle' for 'acabo de hacer' and 'had just + past participle' for 'acababa de hacer'.",
+    "es": "Aprende a usar 'have/has just + participio pasado' para 'acabo de hacer' y 'had just + participio pasado' para 'acababa de hacer'."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabo de hablar con él."
+      },
+      "solution": "I have just spoken to him.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Le acaban de ascender."
+      },
+      "solution": "He's just been promoted.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Él acaba de pedir su mano."
+      },
+      "solution": "He's just asked her to marry him.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Acaban de marcharse."
+      },
+      "solution": "They've just left.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Nuestra empresa acaba de ganar un premio."
+      },
+      "solution": "Our company has just won a prize.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Acababan de irse cuando llegué."
+      },
+      "solution": "They had just left when I arrived.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella acababa de dejar de hablar cuando se desmayó."
+      },
+      "solution": "She had just finished speaking when she fainted.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Acababa de empezar el partido cuando explotó la bomba."
+      },
+      "solution": "The match had just begun when the bomb went off.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo acababa de comprar unas acciones cuando la bolsa se desplomó."
+      },
+      "solution": "I had just bought some shares when the stock market crashed.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo acababa de terminar la cena cuando sonó el timbre."
+      },
+      "solution": "I had just finished my dinner when the door bell rang.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabo de llegar a casa."
+      },
+      "solution": "I have just arrived home.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella acaba de terminar sus estudios."
+      },
+      "solution": "She has just finished her studies.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Acabas de despertar?"
+      },
+      "solution": "Have you just woken up?",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabamos de recibir tu mensaje."
+      },
+      "solution": "We have just received your message.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "El médico acaba de irse."
+      },
+      "solution": "The doctor has just left.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Acababa de salir de casa cuando empezó a llover."
+      },
+      "solution": "I had just left the house when it started to rain.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella acababa de aprobar el examen cuando le dieron la mala noticia."
+      },
+      "solution": "She had just passed the exam when they gave her the bad news.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Acababa de llegar cuando te fuiste?"
+      },
+      "solution": "Had he just arrived when you left?",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabábamos de sentarnos cuando llegó el camarero."
+      },
+      "solution": "We had just sat down when the waiter arrived.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "El avión acababa de despegar cuando se canceló el vuelo de conexión."
+      },
+      "solution": "The plane had just taken off when the connecting flight was cancelled.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabo de encontrar las llaves."
+      },
+      "solution": "I have just found the keys.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Él acaba de comprar un coche nuevo."
+      },
+      "solution": "He has just bought a new car.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Acabas de ver esa película?"
+      },
+      "solution": "Have you just seen that film?",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabamos de mudarnos a esta ciudad."
+      },
+      "solution": "We have just moved to this city.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "La reunión acaba de terminar."
+      },
+      "solution": "The meeting has just finished.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Acababa de encender la televisión cuando se fue la luz."
+      },
+      "solution": "I had just turned on the television when the power went out.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella acababa de colgar el teléfono cuando volvió a sonar."
+      },
+      "solution": "She had just hung up the phone when it rang again.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Acababa de empezar a nevar cuando saliste?"
+      },
+      "solution": "Had it just started snowing when you went out?",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabábamos de pagar la cuenta cuando nos dimos cuenta del error."
+      },
+      "solution": "We had just paid the bill when we noticed the mistake.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "El tren acababa de partir cuando llegamos a la estación."
+      },
+      "solution": "The train had just departed when we arrived at the station.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabo de recordar algo importante."
+      },
+      "solution": "I have just remembered something important.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella acaba de graduarse de la universidad."
+      },
+      "solution": "She has just graduated from university.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Acabas de oír ese ruido?"
+      },
+      "solution": "Have you just heard that noise?",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabamos de cerrar el negocio."
+      },
+      "solution": "We have just closed the deal.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hermano acaba de llamar."
+      },
+      "solution": "My brother has just called.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Acababa de quedarme dormido cuando sonó la alarma."
+      },
+      "solution": "I had just fallen asleep when the alarm went off.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella acababa de servir la cena cuando llegaron los invitados."
+      },
+      "solution": "She had just served dinner when the guests arrived.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Acababa de terminar de hablar cuando te interrumpieron?"
+      },
+      "solution": "Had you just finished speaking when they interrupted you?",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabábamos de abrir la tienda cuando entró el primer cliente."
+      },
+      "solution": "We had just opened the shop when the first customer came in.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "El bebé acababa de dormirse cuando empezó la tormenta."
+      },
+      "solution": "The baby had just fallen asleep when the storm started.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabo de entender lo que quieres decir."
+      },
+      "solution": "I have just understood what you mean.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Él acaba de conseguir un nuevo empleo."
+      },
+      "solution": "He has just got a new job.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Acabas de hacer ejercicio? Estás sudando."
+      },
+      "solution": "Have you just exercised? You're sweating.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabamos de decidir irnos de vacaciones."
+      },
+      "solution": "We have just decided to go on holiday.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "El presidente acaba de anunciar su dimisión."
+      },
+      "solution": "The president has just announced his resignation.",
+      "tip": {
+        "en": "Structure: have/has + just + past participle. 'Just' goes between the auxiliary and the participle to express 'acabo de hacer'.",
+        "es": "Estructura: have/has + just + participio pasado. 'Just' va entre el auxiliar y el participio para expresar 'acabo de hacer'."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Acababa de aparcar el coche cuando empezó a granizar."
+      },
+      "solution": "I had just parked the car when it started to hail.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella acababa de enviar el correo cuando se dio cuenta del error."
+      },
+      "solution": "She had just sent the email when she realized the mistake.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Acababa de irse tu jefe cuando llegué?"
+      },
+      "solution": "Had your boss just left when I arrived?",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabábamos de entrar en el cine cuando empezó la película."
+      },
+      "solution": "We had just entered the cinema when the film started.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "La ambulancia acababa de llegar cuando salí corriendo del edificio."
+      },
+      "solution": "The ambulance had just arrived when I ran out of the building.",
+      "tip": {
+        "en": "For past context, use 'had just + past participle'. Simply change 'have/has' to 'had' to express 'acababa de hacer'.",
+        "es": "Para contexto pasado, usa 'had just + participio pasado'. Simplemente cambia 'have/has' a 'had' para expresar 'acababa de hacer'."
+      }
+    }
+  ]
+}

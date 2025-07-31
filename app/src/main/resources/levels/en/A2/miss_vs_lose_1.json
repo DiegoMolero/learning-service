@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "Miss vs Lose (Perder - diferentes significados)",
+    "es": "Miss vs Lose (Perder - diferentes significados)"
+  },
+  "description": {
+    "en": "Learn the difference between 'miss' (fail to catch/see/hear, long for) and 'lose' (can't find, fail to win, bereavement). Master 'get lost' for being lost and other key distinctions.",
+    "es": "Aprende la diferencia entre 'miss' (fallar al coger/ver/oír, echar de menos) y 'lose' (no encontrar, no ganar, fallecimiento). Domina 'get lost' para perderse y otras distinciones clave."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Se le pasaron tres errores en el texto."
+      },
+      "solution": "She missed three mistakes in the text.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido al tráfico, perdimos el partido."
+      },
+      "solution": "Due to the traffic jam, we missed the match.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdió una oportunidad de oro."
+      },
+      "solution": "He missed a golden opportunity.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "No puedo creer que fallara el penalti."
+      },
+      "solution": "I can't believe he missed the penalty.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo siento, no oí lo que me dijiste."
+      },
+      "solution": "Sorry, I missed what you said.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdí el autobús así que tuve que coger un taxi."
+      },
+      "solution": "I missed the bus so I had to get a taxi.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Al final, nos perdimos la reunión."
+      },
+      "solution": "In the end, we missed the meeting.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Echo mucho de menos a mis amigos del pueblo."
+      },
+      "solution": "I really miss my friends from back home.",
+      "tip": {
+        "en": "'Miss' also means 'to long for' or 'feel the absence of someone/something'. Use when you feel nostalgic or want someone/something back.",
+        "es": "'Miss' también significa 'añorar' o 'sentir la ausencia de alguien/algo'. Usa cuando sientes nostalgia o quieres a alguien/algo de vuelta."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Echo de menos gente con valores tradicionales."
+      },
+      "solution": "I miss people with traditional values.",
+      "tip": {
+        "en": "'Miss' also means 'to long for' or 'feel the absence of someone/something'. Use when you feel nostalgic or want someone/something back.",
+        "es": "'Miss' también significa 'añorar' o 'sentir la ausencia de alguien/algo'. Usa cuando sientes nostalgia o quieres a alguien/algo de vuelta."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Echo de menos la comida de mi madre."
+      },
+      "solution": "I miss my mother's cooking.",
+      "tip": {
+        "en": "'Miss' also means 'to long for' or 'feel the absence of someone/something'. Use when you feel nostalgic or want someone/something back.",
+        "es": "'Miss' también significa 'añorar' o 'sentir la ausencia de alguien/algo'. Usa cuando sientes nostalgia o quieres a alguien/algo de vuelta."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "He perdido las llaves de mi coche. No las encuentro en ninguna parte."
+      },
+      "solution": "I've lost my car keys. I can't find them anywhere.",
+      "tip": {
+        "en": "'Lose' means 'unable to find' or 'misplace'. Use when something was in your possession but now you can't locate it.",
+        "es": "'Lose' significa 'no poder encontrar' o 'extraviar'. Usa cuando algo estaba en tu posesión pero ahora no puedes localizarlo."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdí el papelito que me diste."
+      },
+      "solution": "I lost the piece of paper you gave me.",
+      "tip": {
+        "en": "'Lose' means 'unable to find' or 'misplace'. Use when something was in your possession but now you can't locate it.",
+        "es": "'Lose' significa 'no poder encontrar' o 'extraviar'. Usa cuando algo estaba en tu posesión pero ahora no puedes localizarlo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Soy tan despistado! Siempre estoy perdiendo cosas."
+      },
+      "solution": "I'm so absent-minded! I'm always losing things.",
+      "tip": {
+        "en": "'Lose' means 'unable to find' or 'misplace'. Use when something was in your possession but now you can't locate it.",
+        "es": "'Lose' significa 'no poder encontrar' o 'extraviar'. Usa cuando algo estaba en tu posesión pero ahora no puedes localizarlo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella siempre pierde jugando a las cartas."
+      },
+      "solution": "She always loses at cards.",
+      "tip": {
+        "en": "'Lose' also means 'fail to win' in competitions, games, or contests. Use for defeats or unsuccessful outcomes.",
+        "es": "'Lose' también significa 'no ganar' en competiciones, juegos o concursos. Usa para derrotas o resultados no exitosos."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdieron el partido en el último minuto."
+      },
+      "solution": "They lost the match in the last minute.",
+      "tip": {
+        "en": "'Lose' also means 'fail to win' in competitions, games, or contests. Use for defeats or unsuccessful outcomes.",
+        "es": "'Lose' también significa 'no ganar' en competiciones, juegos o concursos. Usa para derrotas o resultados no exitosos."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdí a mi abuela cuando tenía 20 años."
+      },
+      "solution": "I lost my grandmother when I was twenty.",
+      "tip": {
+        "en": "'Lose' is used for bereavement - when someone dies. This is a sensitive but important meaning of 'lose'.",
+        "es": "'Lose' se usa para duelo - cuando alguien muere. Este es un significado sensible pero importante de 'lose'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "En el desastre perecieron 15 personas."
+      },
+      "solution": "Fifteen lives were lost in the disaster.",
+      "tip": {
+        "en": "'Lose' is used for bereavement - when someone dies. This is a sensitive but important meaning of 'lose'.",
+        "es": "'Lose' se usa para duelo - cuando alguien muere. Este es un significado sensible pero importante de 'lose'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Me perdí en los barrios pobres de Barcelona."
+      },
+      "solution": "I got lost in the back streets of Barcelona.",
+      "tip": {
+        "en": "For being lost (not knowing where you are), use 'get lost', NOT 'lose myself'. 'Get lost' means you don't know your location.",
+        "es": "Para estar perdido (no saber dónde estás), usa 'get lost', NO 'lose myself'. 'Get lost' significa que no sabes tu ubicación."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Cada vez que se pierde ella siempre pide ayuda."
+      },
+      "solution": "Whenever she gets lost she always asks for help.",
+      "tip": {
+        "en": "For being lost (not knowing where you are), use 'get lost', NOT 'lose myself'. 'Get lost' means you don't know your location.",
+        "es": "Para estar perdido (no saber dónde estás), usa 'get lost', NO 'lose myself'. 'Get lost' significa que no sabes tu ubicación."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Me lo puedes repetir? Me estás liando."
+      },
+      "solution": "Can you repeat that? You're losing me.",
+      "tip": {
+        "en": "'You're losing me' means 'I'm getting confused' or 'I don't understand'. It's an idiomatic use of 'lose'.",
+        "es": "'You're losing me' significa 'me estoy confundiendo' o 'no entiendo'. Es un uso idiomático de 'lose'."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdimos el vuelo porque llegamos tarde."
+      },
+      "solution": "We missed the flight because we were late.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Echo de menos mi ciudad natal."
+      },
+      "solution": "I miss my hometown.",
+      "tip": {
+        "en": "'Miss' also means 'to long for' or 'feel the absence of someone/something'. Use when you feel nostalgic or want someone/something back.",
+        "es": "'Miss' también significa 'añorar' o 'sentir la ausencia de alguien/algo'. Usa cuando sientes nostalgia o quieres a alguien/algo de vuelta."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Falló el tiro y la pelota se fue fuera."
+      },
+      "solution": "He missed the shot and the ball went wide.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "He perdido mi cartera. ¿La has visto?"
+      },
+      "solution": "I've lost my wallet. Have you seen it?",
+      "tip": {
+        "en": "'Lose' means 'unable to find' or 'misplace'. Use when something was in your possession but now you can't locate it.",
+        "es": "'Lose' significa 'no poder encontrar' o 'extraviar'. Usa cuando algo estaba en tu posesión pero ahora no puedes localizarlo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Nuestro equipo perdió por 3-1."
+      },
+      "solution": "Our team lost 3-1.",
+      "tip": {
+        "en": "'Lose' also means 'fail to win' in competitions, games, or contests. Use for defeats or unsuccessful outcomes.",
+        "es": "'Lose' también significa 'no ganar' en competiciones, juegos o concursos. Usa para derrotas o resultados no exitosos."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Me perdí el principio de la película."
+      },
+      "solution": "I missed the beginning of the film.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Echo mucho de menos a mi hermano."
+      },
+      "solution": "I really miss my brother.",
+      "tip": {
+        "en": "'Miss' also means 'to long for' or 'feel the absence of someone/something'. Use when you feel nostalgic or want someone/something back.",
+        "es": "'Miss' también significa 'añorar' o 'sentir la ausencia de alguien/algo'. Usa cuando sientes nostalgia o quieres a alguien/algo de vuelta."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "He perdido peso recientemente."
+      },
+      "solution": "I've lost weight recently.",
+      "tip": {
+        "en": "'Lose' can mean 'reduce' or 'decrease' when talking about weight, time, money, etc.",
+        "es": "'Lose' puede significar 'reducir' o 'disminuir' al hablar de peso, tiempo, dinero, etc."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Me perdí en el centro comercial."
+      },
+      "solution": "I got lost in the shopping centre.",
+      "tip": {
+        "en": "For being lost (not knowing where you are), use 'get lost', NOT 'lose myself'. 'Get lost' means you don't know your location.",
+        "es": "Para estar perdido (no saber dónde estás), usa 'get lost', NO 'lose myself'. 'Get lost' significa que no sabes tu ubicación."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "No te pierdas el programa de esta noche."
+      },
+      "solution": "Don't miss tonight's programme.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdimos mucho dinero en la bolsa."
+      },
+      "solution": "We lost a lot of money on the stock market.",
+      "tip": {
+        "en": "'Lose' can mean 'reduce' or 'decrease' when talking about weight, time, money, etc.",
+        "es": "'Lose' puede significar 'reducir' o 'disminuir' al hablar de peso, tiempo, dinero, etc."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Echo de menos los veranos de mi infancia."
+      },
+      "solution": "I miss the summers of my childhood.",
+      "tip": {
+        "en": "'Miss' also means 'to long for' or 'feel the absence of someone/something'. Use when you feel nostalgic or want someone/something back.",
+        "es": "'Miss' también significa 'añorar' o 'sentir la ausencia de alguien/algo'. Usa cuando sientes nostalgia o quieres a alguien/algo de vuelta."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Se perdió una parte importante de la conferencia."
+      },
+      "solution": "He missed an important part of the conference.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdió la memoria después del accidente."
+      },
+      "solution": "He lost his memory after the accident.",
+      "tip": {
+        "en": "'Lose' can mean to no longer have something (memory, sight, hearing, etc.) due to injury or illness.",
+        "es": "'Lose' puede significar ya no tener algo (memoria, vista, oído, etc.) debido a lesión o enfermedad."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Los turistas se perdieron en las montañas."
+      },
+      "solution": "The tourists got lost in the mountains.",
+      "tip": {
+        "en": "For being lost (not knowing where you are), use 'get lost', NOT 'lose myself'. 'Get lost' means you don't know your location.",
+        "es": "Para estar perdido (no saber dónde estás), usa 'get lost', NO 'lose myself'. 'Get lost' significa que no sabes tu ubicación."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "No puedo creer que perdiera esa oportunidad de trabajo."
+      },
+      "solution": "I can't believe he missed that job opportunity.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdimos el control del coche en la curva."
+      },
+      "solution": "We lost control of the car on the bend.",
+      "tip": {
+        "en": "'Lose' can mean to no longer have something (memory, sight, hearing, etc.) due to injury or illness.",
+        "es": "'Lose' puede significar ya no tener algo (memoria, vista, oído, etc.) debido a lesión o enfermedad."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Echo de menos cuando éramos jóvenes."
+      },
+      "solution": "I miss when we were young.",
+      "tip": {
+        "en": "'Miss' also means 'to long for' or 'feel the absence of someone/something'. Use when you feel nostalgic or want someone/something back.",
+        "es": "'Miss' también significa 'añorar' o 'sentir la ausencia de alguien/algo'. Usa cuando sientes nostalgia o quieres a alguien/algo de vuelta."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdió los nervios durante la entrevista."
+      },
+      "solution": "He lost his nerves during the interview.",
+      "tip": {
+        "en": "'Lose' can mean to no longer have something (memory, sight, hearing, etc.) due to injury or illness.",
+        "es": "'Lose' puede significar ya no tener algo (memoria, vista, oído, etc.) debido a lesión o enfermedad."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Por favor, no te pierdas mi cumpleaños."
+      },
+      "solution": "Please don't miss my birthday.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Estoy perdiendo la paciencia contigo."
+      },
+      "solution": "I'm losing patience with you.",
+      "tip": {
+        "en": "'Lose' can mean 'reduce' or 'decrease' when talking about weight, time, money, etc.",
+        "es": "'Lose' puede significar 'reducir' o 'disminuir' al hablar de peso, tiempo, dinero, etc."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Me perdí cuando empezaste a hablar de matemáticas."
+      },
+      "solution": "You lost me when you started talking about maths.",
+      "tip": {
+        "en": "'You lost me' means 'I got confused' or 'I stopped understanding'. It's an idiomatic use of 'lose'.",
+        "es": "'You lost me' significa 'me confundí' o 'dejé de entender'. Es un uso idiomático de 'lose'."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Echo de menos los tiempos en que todo era más simple."
+      },
+      "solution": "I miss the times when everything was simpler.",
+      "tip": {
+        "en": "'Miss' also means 'to long for' or 'feel the absence of someone/something'. Use when you feel nostalgic or want someone/something back.",
+        "es": "'Miss' también significa 'añorar' o 'sentir la ausencia de alguien/algo'. Usa cuando sientes nostalgia o quieres a alguien/algo de vuelta."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdí el tren por dos minutos."
+      },
+      "solution": "I missed the train by two minutes.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdieron la esperanza después de tantos intentos."
+      },
+      "solution": "They lost hope after so many attempts.",
+      "tip": {
+        "en": "'Lose' can mean to no longer have something (memory, sight, hearing, etc.) due to injury or illness.",
+        "es": "'Lose' puede significar ya no tener algo (memoria, vista, oído, etc.) debido a lesión o enfermedad."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Me perdí los primeros cinco minutos de la clase."
+      },
+      "solution": "I missed the first five minutes of the class.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdió el conocimiento durante la operación."
+      },
+      "solution": "He lost consciousness during the operation.",
+      "tip": {
+        "en": "'Lose' can mean to no longer have something (memory, sight, hearing, etc.) due to injury or illness.",
+        "es": "'Lose' puede significar ya no tener algo (memoria, vista, oído, etc.) debido a lesión o enfermedad."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Los niños se perdieron en el parque."
+      },
+      "solution": "The children got lost in the park.",
+      "tip": {
+        "en": "For being lost (not knowing where you are), use 'get lost', NOT 'lose myself'. 'Get lost' means you don't know your location.",
+        "es": "Para estar perdido (no saber dónde estás), usa 'get lost', NO 'lose myself'. 'Get lost' significa que no sabes tu ubicación."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Echo de menos nuestras largas conversaciones."
+      },
+      "solution": "I miss our long conversations.",
+      "tip": {
+        "en": "'Miss' also means 'to long for' or 'feel the absence of someone/something'. Use when you feel nostalgic or want someone/something back.",
+        "es": "'Miss' también significa 'añorar' o 'sentir la ausencia de alguien/algo'. Usa cuando sientes nostalgia o quieres a alguien/algo de vuelta."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "No quiero perderme ningún detalle de tu historia."
+      },
+      "solution": "I don't want to miss any detail of your story.",
+      "tip": {
+        "en": "'Miss' means 'fail to catch, see, hear, notice, or take advantage of'. Use for opportunities not taken or things not noticed.",
+        "es": "'Miss' significa 'fallar al coger, ver, oír, notar o aprovechar'. Usa para oportunidades no aprovechadas o cosas no notadas."
+      }
+    }
+  ]
+}

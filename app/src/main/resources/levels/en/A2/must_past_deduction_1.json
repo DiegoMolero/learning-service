@@ -1,0 +1,374 @@
+{
+  "title": {
+    "en": "Must (iv) - Past Deduction (Suposiciones sobre el pasado)",
+    "es": "Must (iv) - Past Deduction (Suposiciones sobre el pasado)"
+  },
+  "description": {
+    "en": "Learn to use 'must have + past participle' for logical deductions about the past (90% certainty). Use 'can't have + past participle' for negative past deductions (disbelief).",
+    "es": "Aprende a usar 'must have + participio pasado' para deducciones lógicas sobre el pasado (90% de certeza). Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad)."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabas de ver en un museo un pantalón de Napoleón. Debe de haber sido muy bajito."
+      },
+      "solution": "You've just seen a pair of Napoleon's trousers in a museum. He must have been short.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Un amigo te cuenta la noche que pasó bajo la nieve en la montaña. Debes de haber pasado mucho frío."
+      },
+      "solution": "A friend tells you of the night he spent in the snow in the mountains. You must have been freezing.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Otro amigo te cuenta como vio a un tiburón mientras nadaba. Debes de haber pasado mucho miedo."
+      },
+      "solution": "Another friend tells you of how he saw a shark whilst swimming. You must have been terrified.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Tu mujer te cuenta como su abuelo comía ocho churros al día. Debe de haber estado muy gordo."
+      },
+      "solution": "Your wife tells you how her grandfather used to eat eight churros a day. He must have been fat.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Tus amigos deberían haber llegado a las 19.00. Ahora son las 21.15. Deben de haberse perdido."
+      },
+      "solution": "Your friends should have arrived at 7:00 p.m. It's now 9:15 p.m. They must have got lost.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Te acaban de contar que el Real Aranjuez ha ganado contra el Valencia. ¡No pueden haberle ganado al Valencia!"
+      },
+      "solution": "You've just been told that Real Aranjuez has beaten Valencia. They can't have beaten Valencia!",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Tu marido te cuenta que no encuentra su coche. No puedes haber perdido el coche."
+      },
+      "solution": "Your husband tells you he can't find his car. You can't have lost your car.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Después de cinco minutos tu hija te dice que ya ha acabado sus deberes. No puedes haber terminado tus deberes ya."
+      },
+      "solution": "After five minutes your daughter tells you she has finished her homework. You can't have finished your homework yet.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Tu mujer te cuenta su horrible experiencia en el supermercado. ¡No puede haber sido tan horrible!"
+      },
+      "solution": "Your wife tells you of her awful experience in the supermarket. It can't have been that bad!",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Un compañero te cuenta como vuestro jefe le insultó. No puede haber dicho eso."
+      },
+      "solution": "A colleague tells you how your boss insulted him. He can't have said that!",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Ves su coche destrozado después del accidente. Debe de haber sido horrible."
+      },
+      "solution": "You see his car destroyed after the accident. It must have been horrible.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Llegó a casa a las 3 de la madrugada completamente empapado. Debe de haber llovido mucho."
+      },
+      "solution": "He arrived home at 3 a.m. completely soaked. It must have rained heavily.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Encontraron su pasaporte en el aeropuerto. Debe de habérsele caído."
+      },
+      "solution": "They found his passport at the airport. He must have dropped it.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Aprobó todos los exámenes sin estudiar apenas. Debe de haber tenido mucha suerte."
+      },
+      "solution": "He passed all his exams without hardly studying. He must have been very lucky.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Gastó todo su sueldo en una semana. Debe de haber comprado algo muy caro."
+      },
+      "solution": "He spent his entire salary in one week. He must have bought something very expensive.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que corrió 10 kilómetros en 20 minutos. No puede haber corrido tan rápido."
+      },
+      "solution": "He says he ran 10 kilometres in 20 minutes. He can't have run that fast.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que vio a Elvis Presley en el supermercado. No puede haberlo visto."
+      },
+      "solution": "He says he saw Elvis Presley at the supermarket. He can't have seen him.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que leyó todo el libro en 10 minutos. No puede haberlo leído tan rápido."
+      },
+      "solution": "She says she read the whole book in 10 minutes. She can't have read it that fast.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que se comió una pizza entera en un minuto. No puede habérsela comido tan rápido."
+      },
+      "solution": "He says he ate a whole pizza in one minute. He can't have eaten it that fast.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que no estudió para el examen pero sacó un 10. No puede haber sacado esa nota sin estudiar."
+      },
+      "solution": "She says she didn't study for the exam but got top marks. She can't have got that grade without studying.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Su casa está completamente limpia después de la fiesta. Debe de haber trabajado toda la noche."
+      },
+      "solution": "His house is completely clean after the party. He must have worked all night.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Llegó al trabajo con ojeras terribles. Debe de haber dormido muy poco."
+      },
+      "solution": "He arrived at work with terrible dark circles. He must have slept very little.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdió 10 kilos en un mes. Debe de haber hecho mucha dieta."
+      },
+      "solution": "She lost 10 kilos in one month. She must have been on a strict diet.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Su jardín está perfecto después del huracán. Debe de haber trabajado durísimo."
+      },
+      "solution": "His garden is perfect after the hurricane. He must have worked extremely hard.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Encontramos huellas de animales grandes en el jardín. Debe de haber venido un oso."
+      },
+      "solution": "We found large animal tracks in the garden. A bear must have come.",
+      "tip": {
+        "en": "Use 'must have + past participle' for logical deductions about the past. Structure: Subject + must have + been/done/had + complement.",
+        "es": "Usa 'must have + participio pasado' para deducciones lógicas sobre el pasado. Estructura: Sujeto + must have + been/done/had + complemento."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que nadó desde España hasta África. No puede haber nadado tan lejos."
+      },
+      "solution": "He says he swam from Spain to Africa. He can't have swum that far.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que construyó su casa en un día. No puede haberla construido tan rápido."
+      },
+      "solution": "He says he built his house in one day. He can't have built it that quickly.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que habló con el presidente ayer. No puede haber hablado con él."
+      },
+      "solution": "She says she spoke to the president yesterday. She can't have spoken to him.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que voló sin avión. No puede haber volado sin avión."
+      },
+      "solution": "He says he flew without a plane. He can't have flown without a plane.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Dice que ganó la lotería cinco veces seguidas. No puede haberla ganado tantas veces."
+      },
+      "solution": "She says she won the lottery five times in a row. She can't have won it that many times.",
+      "tip": {
+        "en": "Use 'can't have + past participle' for negative past deductions (disbelief/incredulity). NEVER use 'mustn't have' for this purpose.",
+        "es": "Usa 'can't have + participio pasado' para deducciones pasadas negativas (incredulidad). NUNCA uses 'mustn't have' para este propósito."
+      }
+    }
+  ]
+}

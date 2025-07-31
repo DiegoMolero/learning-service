@@ -1,0 +1,614 @@
+{
+  "title": {
+    "en": "Ask for vs Ask + Infinitive (Pedir algo vs Pedir que hagan algo)",
+    "es": "Ask for vs Ask + Infinitive (Pedir algo vs Pedir que hagan algo)"
+  },
+  "description": {
+    "en": "Learn the difference between 'ask for' (to request something) and 'ask + infinitive' (to request that someone do something). Master the correct preposition and structure for each context.",
+    "es": "Aprende la diferencia entre 'ask for' (pedir algo) y 'ask + infinitivo' (pedir que alguien haga algo). Domina la preposición y estructura correcta para cada contexto."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Voy a pedir la cuenta."
+      },
+      "solution": "I'm going to ask for the bill.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Pediré un bolígrafo."
+      },
+      "solution": "I'll ask for a pen.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella me pidió un favor."
+      },
+      "solution": "She asked me for a favour.",
+      "tip": {
+        "en": "When there's an indirect object, place it between 'ask' and 'for'. Pattern: ask + person + for + thing.",
+        "es": "Cuando hay complemento indirecto, colócalo entre 'ask' y 'for'. Patrón: ask + persona + for + cosa."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Pregunta por Juan en recepción."
+      },
+      "solution": "Ask for Juan at reception.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Los trabajadores piden un aumento de sueldo."
+      },
+      "solution": "The workers are asking for a pay rise.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité ir."
+      },
+      "solution": "I asked to go.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pedí a ella que me acompañara."
+      },
+      "solution": "I asked her to come with me.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Nos pidieron que volviésemos más tarde."
+      },
+      "solution": "They asked us to come back later.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella solicitó ser considerada para el puesto."
+      },
+      "solution": "She asked to be considered for the position.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Le pedirás (a él) que me llame?"
+      },
+      "solution": "Will you ask him to call me?",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Pedí un café con leche."
+      },
+      "solution": "I asked for a coffee with milk.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pedí al camarero que trajera más pan."
+      },
+      "solution": "I asked the waiter to bring more bread.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella pidió ayuda con las maletas."
+      },
+      "solution": "She asked for help with the suitcases.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité hablar con el gerente."
+      },
+      "solution": "I asked to speak to the manager.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pedimos al conductor que parara en la esquina."
+      },
+      "solution": "We asked the driver to stop at the corner.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Pedí una habitación con vista al mar."
+      },
+      "solution": "I asked for a room with a sea view.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi madre me pidió que comprara pan."
+      },
+      "solution": "My mother asked me to buy bread.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité un día libre el viernes."
+      },
+      "solution": "I asked for a day off on Friday.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Les pedimos que llegaran puntuales."
+      },
+      "solution": "We asked them to arrive on time.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Pidió permiso para salir temprano."
+      },
+      "solution": "He asked for permission to leave early.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité reunirme con el director."
+      },
+      "solution": "I asked to meet with the director.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pedí a mi hermano que me prestara dinero."
+      },
+      "solution": "I asked my brother to lend me money.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella pidió una explicación detallada."
+      },
+      "solution": "She asked for a detailed explanation.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité trabajar desde casa los viernes."
+      },
+      "solution": "I asked to work from home on Fridays.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pedimos al profesor que explicara la lección otra vez."
+      },
+      "solution": "We asked the teacher to explain the lesson again.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Pedí un descuento por comprar al por mayor."
+      },
+      "solution": "I asked for a discount for buying in bulk.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Te pidieron que trajeras tu pasaporte."
+      },
+      "solution": "They asked you to bring your passport.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité más información sobre el curso."
+      },
+      "solution": "I asked for more information about the course.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité cambiar mi horario de trabajo."
+      },
+      "solution": "I asked to change my work schedule.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pedí a la enfermera que trajera más almohadas."
+      },
+      "solution": "I asked the nurse to bring more pillows.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Pidieron una mesa cerca de la ventana."
+      },
+      "solution": "They asked for a table near the window.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella solicitó ser transferida a otra oficina."
+      },
+      "solution": "She asked to be transferred to another office.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Les pedimos a los niños que fueran más silenciosos."
+      },
+      "solution": "We asked the children to be quieter.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Pedí consejos sobre cómo invertir mi dinero."
+      },
+      "solution": "I asked for advice on how to invest my money.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité participar en el proyecto nuevo."
+      },
+      "solution": "I asked to participate in the new project.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pedí al mecánico que revisara los frenos."
+      },
+      "solution": "I asked the mechanic to check the brakes.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella pidió una segunda oportunidad."
+      },
+      "solution": "She asked for a second chance.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité usar la sala de conferencias para la reunión."
+      },
+      "solution": "I asked to use the conference room for the meeting.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pedimos al taxista que nos llevara al aeropuerto."
+      },
+      "solution": "We asked the taxi driver to take us to the airport.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Pidió un reembolso completo por el producto defectuoso."
+      },
+      "solution": "He asked for a full refund for the defective product.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité extender mi visa de trabajo."
+      },
+      "solution": "I asked to extend my work visa.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pedimos al cocinero que preparara algo sin gluten."
+      },
+      "solution": "We asked the chef to prepare something gluten-free.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Pedí las llaves de repuesto de mi apartamento."
+      },
+      "solution": "I asked for spare keys to my apartment.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella solicitó revisar su examen antes de la calificación final."
+      },
+      "solution": "She asked to review her exam before the final grade.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pedimos al vecino que bajara el volumen de la música."
+      },
+      "solution": "We asked the neighbour to turn down the music.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Pedí una copia del contrato para revisarlo."
+      },
+      "solution": "I asked for a copy of the contract to review it.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité postular para la beca de estudios."
+      },
+      "solution": "I asked to apply for the study scholarship.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Le pedimos al guía que nos mostrara los lugares más interesantes."
+      },
+      "solution": "We asked the guide to show us the most interesting places.",
+      "tip": {
+        "en": "Use 'ask + person + to infinitive' when requesting someone else to do something. Pattern: ask + object pronoun/person + to + verb.",
+        "es": "Usa 'ask + persona + to infinitivo' cuando pidas a alguien que haga algo. Patrón: ask + pronombre objeto/persona + to + verbo."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella pidió una prórroga para entregar el proyecto."
+      },
+      "solution": "She asked for an extension to submit the project.",
+      "tip": {
+        "en": "Use 'ask for' when requesting things/objects. Pattern: ask (someone) for + thing. Don't forget the preposition 'for'!",
+        "es": "Usa 'ask for' cuando pidas cosas/objetos. Patrón: ask (alguien) for + cosa. ¡No olvides la preposición 'for'!"
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Solicité presentar mi propuesta en la próxima reunión."
+      },
+      "solution": "I asked to present my proposal at the next meeting.",
+      "tip": {
+        "en": "Use 'ask + to infinitive' when requesting to do something yourself. Pattern: ask + to + verb (no 'for' needed).",
+        "es": "Usa 'ask + to infinitivo' cuando solicites hacer algo tú mismo. Patrón: ask + to + verbo (no necesitas 'for')."
+      }
+    }
+  ]
+}

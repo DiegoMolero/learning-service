@@ -1,0 +1,494 @@
+{
+  "title": {
+    "en": "Pick up = Recoger (objetos o personas)",
+    "es": "Pick up = Recoger (objetos o personas)"
+  },
+  "description": {
+    "en": "Learn to use the phrasal verb 'pick up' meaning 'recoger' (to collect objects or people). Master object placement: nouns can go after the verb or preposition, but pronouns must go between them.",
+    "es": "Aprende a usar el phrasal verb 'pick up' que significa 'recoger' (objetos o personas). Domina la posición del objeto: los sustantivos pueden ir después del verbo o preposición, pero los pronombres van siempre en el medio."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Recogí a mis padres en el aeropuerto."
+      },
+      "solution": "I picked up my parents at the airport.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up parents' or 'pick parents up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up parents' o 'pick parents up'."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste recoger tu pasaporte?"
+      },
+      "solution": "Did you manage to pick up your passport?",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up passport' or 'pick passport up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up passport' o 'pick passport up'."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Él recogió sus llaves del suelo."
+      },
+      "solution": "He picked his keys up off the floor.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up keys' or 'pick keys up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up keys' o 'pick keys up'."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Un taxi recogerá a su jefe en el hotel."
+      },
+      "solution": "A taxi will pick your boss up at the hotel.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up boss' or 'pick boss up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up boss' o 'pick boss up'."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Recoge tus juguetes!"
+      },
+      "solution": "Pick up your toys!",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up toys' or 'pick toys up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up toys' o 'pick toys up'."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Acaban de llamar desde la estación. ¿Puedes ir a recogerles?"
+      },
+      "solution": "They've just phoned from the station. Can you go and pick them up?",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick THEM up', never 'pick up them'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick THEM up', nunca 'pick up them'."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Me puedes recoger a las seis?"
+      },
+      "solution": "Can you pick me up at 6:00 p.m?",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick ME up', never 'pick up me'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick ME up', nunca 'pick up me'."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Se me cayó el libro y lo recogí."
+      },
+      "solution": "I dropped my book and picked it up.",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick IT up', never 'pick up it'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick IT up', nunca 'pick up it'."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Si deja el abrigo en el guardarropa, no olvide recogerlo después de la función."
+      },
+      "solution": "If you leave your coat in the cloakroom, don't forget to pick it up after the performance.",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick IT up', never 'pick up it'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick IT up', nunca 'pick up it'."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Te puedo recoger a las tres si quieres."
+      },
+      "solution": "I can pick you up at three o'clock if you like.",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick YOU up', never 'pick up you'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick YOU up', nunca 'pick up you'."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Voy a recoger a los niños del colegio."
+      },
+      "solution": "I'm going to pick up the children from school.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up children' or 'pick children up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up children' o 'pick children up'."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Puedes recoger mi maleta en recepción?"
+      },
+      "solution": "Can you pick up my suitcase at reception?",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up suitcase' or 'pick suitcase up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up suitcase' o 'pick suitcase up'."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella recogió todas las cartas del buzón."
+      },
+      "solution": "She picked up all the letters from the mailbox.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up letters' or 'pick letters up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up letters' o 'pick letters up'."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que recoger mi coche del taller."
+      },
+      "solution": "I have to pick up my car from the garage.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up car' or 'pick car up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up car' o 'pick car up'."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Recoge esos papeles del suelo, por favor."
+      },
+      "solution": "Pick up those papers from the floor, please.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up papers' or 'pick papers up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up papers' o 'pick papers up'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Los recogiste en la estación?"
+      },
+      "solution": "Did you pick them up at the station?",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick THEM up', never 'pick up them'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick THEM up', nunca 'pick up them'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo recogí del aeropuerto esta mañana."
+      },
+      "solution": "I picked him up from the airport this morning.",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick HIM up', never 'pick up him'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick HIM up', nunca 'pick up him'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Me recogerás después del trabajo?"
+      },
+      "solution": "Will you pick me up after work?",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick ME up', never 'pick up me'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick ME up', nunca 'pick up me'."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "La recogimos en casa de su madre."
+      },
+      "solution": "We picked her up at her mother's house.",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick HER up', never 'pick up her'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick HER up', nunca 'pick up her'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quién os recogió anoche?"
+      },
+      "solution": "Who picked you up last night?",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick YOU up', never 'pick up you'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick YOU up', nunca 'pick up you'."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella recoge a su marido todos los días a las cinco."
+      },
+      "solution": "She picks up her husband every day at five o'clock.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up husband' or 'pick husband up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up husband' o 'pick husband up'."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Dónde tienes que recoger el paquete?"
+      },
+      "solution": "Where do you have to pick up the package?",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up package' or 'pick package up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up package' o 'pick package up'."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hermano recogió a todos los invitados del hotel."
+      },
+      "solution": "My brother picked up all the guests from the hotel.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up guests' or 'pick guests up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up guests' o 'pick guests up'."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Recogimos nuestras fotos de la tienda."
+      },
+      "solution": "We picked up our photos from the shop.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up photos' or 'pick photos up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up photos' o 'pick photos up'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Puedes recoger a mi madre de la peluquería?"
+      },
+      "solution": "Can you pick up my mother from the hairdresser's?",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up mother' or 'pick mother up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up mother' o 'pick mother up'."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "No olvides recogerlos a las ocho."
+      },
+      "solution": "Don't forget to pick them up at eight.",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick THEM up', never 'pick up them'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick THEM up', nunca 'pick up them'."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¿A qué hora la recogiste?"
+      },
+      "solution": "What time did you pick her up?",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick HER up', never 'pick up her'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick HER up', nunca 'pick up her'."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi padre nos recogió después de la fiesta."
+      },
+      "solution": "My father picked us up after the party.",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick US up', never 'pick up us'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick US up', nunca 'pick up us'."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Dónde lo recogiste?"
+      },
+      "solution": "Where did you pick it up?",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick IT up', never 'pick up it'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick IT up', nunca 'pick up it'."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Te recogeré en la esquina."
+      },
+      "solution": "I'll pick you up on the corner.",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick YOU up', never 'pick up you'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick YOU up', nunca 'pick up you'."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "El conductor recoge a los pasajeros en diferentes paradas."
+      },
+      "solution": "The driver picks up passengers at different stops.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up passengers' or 'pick passengers up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up passengers' o 'pick passengers up'."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Recogiste tu medicamento de la farmacia?"
+      },
+      "solution": "Did you pick up your medicine from the pharmacy?",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up medicine' or 'pick medicine up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up medicine' o 'pick medicine up'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Vamos a recoger a los abuelos para la cena."
+      },
+      "solution": "We're going to pick up the grandparents for dinner.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up grandparents' or 'pick grandparents up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up grandparents' o 'pick grandparents up'."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella recogió las llaves de la mesa."
+      },
+      "solution": "She picked the keys up from the table.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up keys' or 'pick keys up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up keys' o 'pick keys up'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito recoger mi bicicleta del taller."
+      },
+      "solution": "I need to pick up my bicycle from the repair shop.",
+      "tip": {
+        "en": "Phrasal verb 'pick up' = recoger. With nouns, object can go after verb OR after preposition: 'pick up bicycle' or 'pick bicycle up'.",
+        "es": "Phrasal verb 'pick up' = recoger. Con sustantivos, el objeto puede ir después del verbo O después de la preposición: 'pick up bicycle' o 'pick bicycle up'."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo los vas a recoger?"
+      },
+      "solution": "When are you going to pick them up?",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick THEM up', never 'pick up them'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick THEM up', nunca 'pick up them'."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "La recogí temprano porque estaba lloviendo."
+      },
+      "solution": "I picked her up early because it was raining.",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick HER up', never 'pick up her'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick HER up', nunca 'pick up her'."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Me puedes recoger en el centro comercial?"
+      },
+      "solution": "Can you pick me up at the shopping centre?",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick ME up', never 'pick up me'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick ME up', nunca 'pick up me'."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Los recogimos en el puerto después del crucero."
+      },
+      "solution": "We picked them up at the port after the cruise.",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick THEM up', never 'pick up them'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick THEM up', nunca 'pick up them'."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿A qué hora lo tienes que recoger?"
+      },
+      "solution": "What time do you have to pick it up?",
+      "tip": {
+        "en": "CRITICAL: With pronouns (them, me, you, etc.), the pronoun MUST go between the verb and preposition: 'pick IT up', never 'pick up it'.",
+        "es": "CRÍTICO: Con pronombres (them, me, you, etc.), el pronombre DEBE ir entre el verbo y la preposición: 'pick IT up', nunca 'pick up it'."
+      }
+    }
+  ]
+}

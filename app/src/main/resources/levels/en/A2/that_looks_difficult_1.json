@@ -1,0 +1,494 @@
+{
+  "title": {
+    "en": "That looks difficult (Eso parece difícil)",
+    "es": "That looks difficult (Eso parece difícil)"
+  },
+  "description": {
+    "en": "Learn to use 'look + adjective' for visible appearance, 'seem + adjective' for abstract impressions, and 'sound + adjective' for auditory impressions. Master 'How does that look/sound?' for asking opinions.",
+    "es": "Aprende a usar 'look + adjetivo' para apariencia visible, 'seem + adjetivo' para impresiones abstractas, y 'sound + adjetivo' para impresiones auditivas. Domina 'How does that look/sound?' para pedir opiniones."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Eso parece difícil."
+      },
+      "solution": "That looks difficult.",
+      "tip": {
+        "en": "Use 'look + adjective' for visible appearance - what you can see with your eyes. 'Look' is for things that are visually apparent.",
+        "es": "Usa 'look + adjetivo' para apariencia visible - lo que puedes ver con los ojos. 'Look' es para cosas visualmente aparentes."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Ese cuadro parece antiguo."
+      },
+      "solution": "That painting looks old.",
+      "tip": {
+        "en": "Use 'look + adjective' for visible appearance - what you can see with your eyes. 'Look' is for things that are visually apparent.",
+        "es": "Usa 'look + adjetivo' para apariencia visible - lo que puedes ver con los ojos. 'Look' es para cosas visualmente aparentes."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Parecían cansados."
+      },
+      "solution": "They looked tired.",
+      "tip": {
+        "en": "Use 'look + adjective' for visible appearance - what you can see with your eyes. 'Look' is for things that are visually apparent.",
+        "es": "Usa 'look + adjetivo' para apariencia visible - lo que puedes ver con los ojos. 'Look' es para cosas visualmente aparentes."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Parecía interesada pero no estoy seguro."
+      },
+      "solution": "She seemed interested but I'm not sure.",
+      "tip": {
+        "en": "'Seem + adjective' is for abstract impressions or superficial opinions without clear evidence. More subjective than 'look'.",
+        "es": "'Seem + adjetivo' es para impresiones abstractas u opiniones superficiales sin evidencia clara. Más subjetivo que 'look'."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué te parece eso?"
+      },
+      "solution": "How does that look?",
+      "tip": {
+        "en": "Use 'How does that look/sound?' when asking for someone's opinion about something visible or audible. Start with 'How' for opinion questions.",
+        "es": "Usa 'How does that look/sound?' al pedir la opinión de alguien sobre algo visible o audible. Empieza con 'How' para preguntas de opinión."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Eso parece interesante."
+      },
+      "solution": "That sounds interesting.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella parecía interesada. (por teléfono)"
+      },
+      "solution": "She sounded interested.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Pareces cansado. (por teléfono)"
+      },
+      "solution": "You sound tired.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Parece simpática. (por teléfono)"
+      },
+      "solution": "She sounds nice.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué te parece eso? (sobre una idea)"
+      },
+      "solution": "How does that sound?",
+      "tip": {
+        "en": "Use 'How does that look/sound?' when asking for someone's opinion about something visible or audible. Start with 'How' for opinion questions.",
+        "es": "Usa 'How does that look/sound?' al pedir la opinión de alguien sobre algo visible o audible. Empieza con 'How' para preguntas de opinión."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Este ejercicio parece fácil."
+      },
+      "solution": "This exercise looks easy.",
+      "tip": {
+        "en": "Use 'look + adjective' for visible appearance - what you can see with your eyes. 'Look' is for things that are visually apparent.",
+        "es": "Usa 'look + adjetivo' para apariencia visible - lo que puedes ver con los ojos. 'Look' es para cosas visualmente aparentes."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "La comida parece deliciosa."
+      },
+      "solution": "The food looks delicious.",
+      "tip": {
+        "en": "Use 'look + adjective' for visible appearance - what you can see with your eyes. 'Look' is for things that are visually apparent.",
+        "es": "Usa 'look + adjetivo' para apariencia visible - lo que puedes ver con los ojos. 'Look' es para cosas visualmente aparentes."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Pareces feliz hoy."
+      },
+      "solution": "You look happy today.",
+      "tip": {
+        "en": "Use 'look + adjective' for visible appearance - what you can see with your eyes. 'Look' is for things that are visually apparent.",
+        "es": "Usa 'look + adjetivo' para apariencia visible - lo que puedes ver con los ojos. 'Look' es para cosas visualmente aparentes."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Ese coche parece caro."
+      },
+      "solution": "That car looks expensive.",
+      "tip": {
+        "en": "Use 'look + adjective' for visible appearance - what you can see with your eyes. 'Look' is for things that are visually apparent.",
+        "es": "Usa 'look + adjetivo' para apariencia visible - lo que puedes ver con los ojos. 'Look' es para cosas visualmente aparentes."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Las nubes parecen oscuras."
+      },
+      "solution": "The clouds look dark.",
+      "tip": {
+        "en": "Use 'look + adjective' for visible appearance - what you can see with your eyes. 'Look' is for things that are visually apparent.",
+        "es": "Usa 'look + adjetivo' para apariencia visible - lo que puedes ver con los ojos. 'Look' es para cosas visualmente aparentes."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Parece que está enfadado, pero no estoy seguro."
+      },
+      "solution": "He seems angry, but I'm not sure.",
+      "tip": {
+        "en": "'Seem + adjective' is for abstract impressions or superficial opinions without clear evidence. More subjective than 'look'.",
+        "es": "'Seem + adjetivo' es para impresiones abstractas u opiniones superficiales sin evidencia clara. Más subjetivo que 'look'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Parecía una buena idea en ese momento."
+      },
+      "solution": "It seemed like a good idea at the time.",
+      "tip": {
+        "en": "'Seem + adjective' is for abstract impressions or superficial opinions without clear evidence. More subjective than 'look'.",
+        "es": "'Seem + adjetivo' es para impresiones abstractas u opiniones superficiales sin evidencia clara. Más subjetivo que 'look'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Parece que no le gusta la idea."
+      },
+      "solution": "She seems to dislike the idea.",
+      "tip": {
+        "en": "'Seem + adjective' is for abstract impressions or superficial opinions without clear evidence. More subjective than 'look'.",
+        "es": "'Seem + adjetivo' es para impresiones abstractas u opiniones superficiales sin evidencia clara. Más subjetivo que 'look'."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Parecía muy seguro de sí mismo."
+      },
+      "solution": "He seemed very confident.",
+      "tip": {
+        "en": "'Seem + adjective' is for abstract impressions or superficial opinions without clear evidence. More subjective than 'look'.",
+        "es": "'Seem + adjetivo' es para impresiones abstractas u opiniones superficiales sin evidencia clara. Más subjetivo que 'look'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Parece que tiene prisa."
+      },
+      "solution": "She seems to be in a hurry.",
+      "tip": {
+        "en": "'Seem + adjective' is for abstract impressions or superficial opinions without clear evidence. More subjective than 'look'.",
+        "es": "'Seem + adjetivo' es para impresiones abstractas u opiniones superficiales sin evidencia clara. Más subjetivo que 'look'."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Esa propuesta parece atractiva. (por teléfono)"
+      },
+      "solution": "That proposal sounds attractive.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Pareces preocupado. (por teléfono)"
+      },
+      "solution": "You sound worried.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Su plan parece complicado. (explicado verbalmente)"
+      },
+      "solution": "His plan sounds complicated.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Parecía emocionada cuando me llamó."
+      },
+      "solution": "She sounded excited when she called me.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Esa idea parece genial. (explicada verbalmente)"
+      },
+      "solution": "That idea sounds great.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué te parece mi vestido nuevo?"
+      },
+      "solution": "How does my new dress look?",
+      "tip": {
+        "en": "Use 'How does that look/sound?' when asking for someone's opinion about something visible or audible. Start with 'How' for opinion questions.",
+        "es": "Usa 'How does that look/sound?' al pedir la opinión de alguien sobre algo visible o audible. Empieza con 'How' para preguntas de opinión."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué te parece este plan? (explicado verbalmente)"
+      },
+      "solution": "How does this plan sound?",
+      "tip": {
+        "en": "Use 'How does that look/sound?' when asking for someone's opinion about something visible or audible. Start with 'How' for opinion questions.",
+        "es": "Usa 'How does that look/sound?' al pedir la opinión de alguien sobre algo visible o audible. Empieza con 'How' para preguntas de opinión."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué te parece mi peinado?"
+      },
+      "solution": "How does my hairstyle look?",
+      "tip": {
+        "en": "Use 'How does that look/sound?' when asking for someone's opinion about something visible or audible. Start with 'How' for opinion questions.",
+        "es": "Usa 'How does that look/sound?' al pedir la opinión de alguien sobre algo visible o audible. Empieza con 'How' para preguntas de opinión."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué te parece la propuesta? (por teléfono)"
+      },
+      "solution": "How does the proposal sound?",
+      "tip": {
+        "en": "Use 'How does that look/sound?' when asking for someone's opinion about something visible or audible. Start with 'How' for opinion questions.",
+        "es": "Usa 'How does that look/sound?' al pedir la opinión de alguien sobre algo visible o audible. Empieza con 'How' para preguntas de opinión."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué te parece este color?"
+      },
+      "solution": "How does this colour look?",
+      "tip": {
+        "en": "Use 'How does that look/sound?' when asking for someone's opinion about something visible or audible. Start with 'How' for opinion questions.",
+        "es": "Usa 'How does that look/sound?' al pedir la opinión de alguien sobre algo visible o audible. Empieza con 'How' para preguntas de opinión."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Tu hermana parece muy inteligente."
+      },
+      "solution": "Your sister looks very intelligent.",
+      "tip": {
+        "en": "Use 'look + adjective' for visible appearance - what you can see with your eyes. 'Look' is for things that are visually apparent.",
+        "es": "Usa 'look + adjetivo' para apariencia visible - lo que puedes ver con los ojos. 'Look' es para cosas visualmente aparentes."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Esta tarea parece imposible."
+      },
+      "solution": "This task looks impossible.",
+      "tip": {
+        "en": "Use 'look + adjective' for visible appearance - what you can see with your eyes. 'Look' is for things that are visually apparent.",
+        "es": "Usa 'look + adjetivo' para apariencia visible - lo que puedes ver con los ojos. 'Look' es para cosas visualmente aparentes."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Parece que va a llover."
+      },
+      "solution": "It looks like it's going to rain.",
+      "tip": {
+        "en": "Use 'look + adjective' for visible appearance - what you can see with your eyes. 'Look' is for things that are visually apparent.",
+        "es": "Usa 'look + adjetivo' para apariencia visible - lo que puedes ver con los ojos. 'Look' es para cosas visualmente aparentes."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Parecía confundido sobre las instrucciones."
+      },
+      "solution": "He seemed confused about the instructions.",
+      "tip": {
+        "en": "'Seem + adjective' is for abstract impressions or superficial opinions without clear evidence. More subjective than 'look'.",
+        "es": "'Seem + adjetivo' es para impresiones abstractas u opiniones superficiales sin evidencia clara. Más subjetivo que 'look'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "No parece estar muy contento con el resultado."
+      },
+      "solution": "He doesn't seem very happy with the result.",
+      "tip": {
+        "en": "'Seem + adjective' is for abstract impressions or superficial opinions without clear evidence. More subjective than 'look'.",
+        "es": "'Seem + adjetivo' es para impresiones abstractas u opiniones superficiales sin evidencia clara. Más subjetivo que 'look'."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Su voz parecía nerviosa por teléfono."
+      },
+      "solution": "Her voice sounded nervous on the phone.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Esa reunión parece aburrida. (por lo que escuchaste)"
+      },
+      "solution": "That meeting sounds boring.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Tu idea parece perfecta. (explicada verbalmente)"
+      },
+      "solution": "Your idea sounds perfect.",
+      "tip": {
+        "en": "'Sound + adjective' is for auditory impressions - things you hear (like phone conversations, ideas explained verbally, etc.).",
+        "es": "'Sound + adjetivo' es para impresiones auditivas - cosas que escuchas (como conversaciones telefónicas, ideas explicadas verbalmente, etc.)."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué te parece mi pronunciación?"
+      },
+      "solution": "How does my pronunciation sound?",
+      "tip": {
+        "en": "Use 'How does that look/sound?' when asking for someone's opinion about something visible or audible. Start with 'How' for opinion questions.",
+        "es": "Usa 'How does that look/sound?' al pedir la opinión de alguien sobre algo visible o audible. Empieza con 'How' para preguntas de opinión."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué te parece esta foto?"
+      },
+      "solution": "How does this photo look?",
+      "tip": {
+        "en": "Use 'How does that look/sound?' when asking for someone's opinion about something visible or audible. Start with 'How' for opinion questions.",
+        "es": "Usa 'How does that look/sound?' al pedir la opinión de alguien sobre algo visible o audible. Empieza con 'How' para preguntas de opinión."
+      }
+    }
+  ]
+}
