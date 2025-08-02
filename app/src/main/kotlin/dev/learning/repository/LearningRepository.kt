@@ -44,7 +44,7 @@ interface LearningRepository {
     suspend fun deleteUserProgress(userId: String): Boolean
     
     // Exercise answer submission
-    suspend fun submitExerciseAnswer(userId: String, targetLanguage: String, level: String, topicId: String, exerciseId: String, userAnswer: String, isCorrect: Boolean): Pair<Boolean, TopicProgress?>
+    suspend fun submitExerciseAnswer(userId: String, targetLanguage: String, level: String, topicId: String, exerciseId: String, userAnswer: String, answerStatus: dev.learning.AnswerStatus): Pair<Boolean, TopicProgress?>
 }
 
 // Database tables
@@ -82,7 +82,7 @@ object ExerciseAttempts : UUIDTable("exercise_attempts") {
     val topicId = varchar("topic_id", 100)
     val exerciseId = varchar("exercise_id", 100)
     val userAnswer = text("user_answer")
-    val isCorrect = bool("is_correct")
+    val answerStatus = varchar("answer_status", 20) // CORRECT, INCORRECT, SKIPPED, REVEALED
     val attemptedAt = timestamp("attempted_at").defaultExpression(CurrentTimestamp())
 }
 
@@ -814,7 +814,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         topicId: String, 
         exerciseId: String, 
         userAnswer: String, 
-        isCorrect: Boolean
+        answerStatus: dev.learning.AnswerStatus
     ): Pair<Boolean, TopicProgress?> {
         return try {
             val userUuid = UUID.fromString(userId)
@@ -827,7 +827,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     it[ExerciseAttempts.topicId] = fullTopicId
                     it[ExerciseAttempts.exerciseId] = exerciseId
                     it[ExerciseAttempts.userAnswer] = userAnswer
-                    it[ExerciseAttempts.isCorrect] = isCorrect
+                    it[ExerciseAttempts.answerStatus] = answerStatus.name
                 }
                 
                 // 2. Update topic progress
@@ -842,12 +842,12 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     val currentWrong = existing[TopicProgressTable.wrongAnswers]
                     val currentCompleted = existing[TopicProgressTable.completedExercises]
                     
-                    val newCorrect = if (isCorrect) currentCorrect + 1 else currentCorrect
-                    val newWrong = if (!isCorrect) currentWrong + 1 else currentWrong
+                    val newCorrect = if (answerStatus == dev.learning.AnswerStatus.CORRECT) currentCorrect + 1 else currentCorrect
+                    val newWrong = if (answerStatus == dev.learning.AnswerStatus.INCORRECT) currentWrong + 1 else currentWrong
                     
                     // Get exercise index to determine if this advances completion
                     val exerciseIndex = getExerciseIndex(targetLanguage, level, topicId, exerciseId)
-                    val newCompleted = if (isCorrect && exerciseIndex != null && exerciseIndex >= currentCompleted) {
+                    val newCompleted = if (answerStatus == dev.learning.AnswerStatus.CORRECT && exerciseIndex != null && exerciseIndex >= currentCompleted) {
                         exerciseIndex + 1
                     } else currentCompleted
                     
@@ -875,22 +875,22 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                 } else {
                     // Create new progress record
                     val exerciseIndex = getExerciseIndex(targetLanguage, level, topicId, exerciseId)
-                    val completedExercises = if (isCorrect && exerciseIndex == 0) 1 else 0
+                    val completedExercises = if (answerStatus == dev.learning.AnswerStatus.CORRECT && exerciseIndex == 0) 1 else 0
                     val totalExercises = getTotalExercisesCount(targetLanguage, level, topicId)
                     
                     TopicProgressTable.insert {
                         it[TopicProgressTable.userId] = userUuid
                         it[TopicProgressTable.topicId] = fullTopicId
-                        it[TopicProgressTable.correctAnswers] = if (isCorrect) 1 else 0
-                        it[TopicProgressTable.wrongAnswers] = if (!isCorrect) 1 else 0
+                        it[TopicProgressTable.correctAnswers] = if (answerStatus == dev.learning.AnswerStatus.CORRECT) 1 else 0
+                        it[TopicProgressTable.wrongAnswers] = if (answerStatus == dev.learning.AnswerStatus.INCORRECT) 1 else 0
                         it[TopicProgressTable.completedExercises] = completedExercises
                         it[TopicProgressTable.lastAttempted] = kotlinx.datetime.Clock.System.now()
                     }
                     
                     TopicProgress(
                         completedExercises = completedExercises,
-                        correctAnswers = if (isCorrect) 1 else 0,
-                        wrongAnswers = if (!isCorrect) 1 else 0,
+                        correctAnswers = if (answerStatus == dev.learning.AnswerStatus.CORRECT) 1 else 0,
+                        wrongAnswers = if (answerStatus == dev.learning.AnswerStatus.INCORRECT) 1 else 0,
                         totalExercises = totalExercises,
                         lastAttempted = kotlinx.datetime.Clock.System.now().toString()
                     )

@@ -209,17 +209,25 @@ data class UserManagementResponse(
 
 // Exercise answer submission models
 @Serializable
+enum class AnswerStatus {
+    CORRECT,     // Usuario respondió correctamente
+    INCORRECT,   // Usuario respondió incorrectamente
+    SKIPPED,     // Usuario saltó la pregunta
+    REVEALED     // Usuario pidió ver la respuesta sin intentar
+}
+
+@Serializable
 data class SubmitAnswerRequest(
     val topicId: String,
     val exerciseId: String,
     val userAnswer: String,
-    val isCorrect: Boolean
+    val answerStatus: AnswerStatus
 )
 
 @Serializable
 data class SubmitAnswerResponse(
     val success: Boolean,
-    val isCorrect: Boolean,
+    val answerStatus: AnswerStatus,
     val correctAnswer: String,
     val explanation: Map<String, String>? = null, // Educational tip
     val progress: TopicProgress

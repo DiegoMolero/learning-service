@@ -229,13 +229,13 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                         topicId = topicId,
                         exerciseId = exerciseId,
                         userAnswer = request.userAnswer,
-                        isCorrect = request.isCorrect
+                        answerStatus = request.answerStatus
                     )
                     
                     if (success && progress != null) {
                         val response = dev.learning.SubmitAnswerResponse(
                             success = true,
-                            isCorrect = request.isCorrect,
+                            answerStatus = request.answerStatus,
                             correctAnswer = exercise.solution ?: "",
                             explanation = exercise.tip,
                             progress = progress

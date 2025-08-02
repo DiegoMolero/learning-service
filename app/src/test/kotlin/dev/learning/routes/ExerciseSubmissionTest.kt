@@ -49,7 +49,7 @@ class ExerciseSubmissionTest {
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "I must get my hair cut.",
-            isCorrect = true
+            answerStatus = dev.learning.AnswerStatus.CORRECT
         )
 
         application {
@@ -68,7 +68,7 @@ class ExerciseSubmissionTest {
         
         val responseBody = json.decodeFromString<SubmitAnswerResponse>(response.bodyAsText())
         assertTrue(responseBody.success)
-        assertTrue(responseBody.isCorrect)
+        assertTrue(responseBody.answerStatus == dev.learning.AnswerStatus.CORRECT)
         assertEquals("I must get my hair cut.", responseBody.correctAnswer)
         assertEquals(1, responseBody.progress.correctAnswers)
         assertEquals(0, responseBody.progress.wrongAnswers)
@@ -88,7 +88,7 @@ class ExerciseSubmissionTest {
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "I have to get my hair cut.",
-            isCorrect = false
+            answerStatus = dev.learning.AnswerStatus.INCORRECT
         )
 
         application {
@@ -107,7 +107,7 @@ class ExerciseSubmissionTest {
         
         val responseBody = json.decodeFromString<SubmitAnswerResponse>(response.bodyAsText())
         assertTrue(responseBody.success)
-        assertEquals(false, responseBody.isCorrect)
+        assertEquals(false, responseBody.answerStatus == dev.learning.AnswerStatus.CORRECT)
         assertEquals("I must get my hair cut.", responseBody.correctAnswer)
         assertEquals(0, responseBody.progress.correctAnswers)
         assertEquals(1, responseBody.progress.wrongAnswers)
@@ -126,7 +126,7 @@ class ExerciseSubmissionTest {
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "I must get my hair cut.",
-            isCorrect = true
+            answerStatus = dev.learning.AnswerStatus.CORRECT
         )
 
         application {
@@ -156,7 +156,7 @@ class ExerciseSubmissionTest {
             topicId = "different_topic",
             exerciseId = exerciseId,
             userAnswer = "I must get my hair cut.",
-            isCorrect = true
+            answerStatus = dev.learning.AnswerStatus.CORRECT
         )
 
         application {
@@ -187,7 +187,7 @@ class ExerciseSubmissionTest {
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "Some answer",
-            isCorrect = true
+            answerStatus = dev.learning.AnswerStatus.CORRECT
         )
 
         application {
@@ -222,7 +222,7 @@ class ExerciseSubmissionTest {
             topicId = topicId,
             exerciseId = "ex_1",
             userAnswer = "I must get my hair cut.",
-            isCorrect = true
+            answerStatus = dev.learning.AnswerStatus.CORRECT
         )
 
         val response1 = client.post("/levels/$targetLanguage/$level/topics/$topicId/exercises/ex_1/submit") {
@@ -236,7 +236,7 @@ class ExerciseSubmissionTest {
             topicId = topicId,
             exerciseId = "ex_2",
             userAnswer = "Wrong answer",
-            isCorrect = false
+            answerStatus = dev.learning.AnswerStatus.INCORRECT
         )
 
         val response2 = client.post("/levels/$targetLanguage/$level/topics/$topicId/exercises/ex_2/submit") {
@@ -250,7 +250,7 @@ class ExerciseSubmissionTest {
             topicId = topicId,
             exerciseId = "ex_2",
             userAnswer = "My optician says I must wear glasses for reading.",
-            isCorrect = true
+            answerStatus = dev.learning.AnswerStatus.CORRECT
         )
 
         val response3 = client.post("/levels/$targetLanguage/$level/topics/$topicId/exercises/ex_2/submit") {
