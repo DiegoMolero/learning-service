@@ -157,15 +157,8 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                 }
                 
                 try {
-                    val exercise = learningRepository.getNextExercise(userId, targetLanguage, level, topicId)
-                    if (exercise != null) {
-                        call.respond(HttpStatusCode.OK, exercise)
-                    } else {
-                        call.respond(
-                            HttpStatusCode.NotFound,
-                            ErrorResponses.notFound("No more exercises available in this topic", call.request.local.uri)
-                        )
-                    }
+                    val response = learningRepository.getNextExercise(userId, targetLanguage, level, topicId)
+                    call.respond(HttpStatusCode.OK, response)
                 } catch (e: Exception) {
                     call.respond(
                         HttpStatusCode.InternalServerError,
@@ -174,14 +167,10 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                 }
             }
             
-            // Submit exercise answer endpoint - POST /levels/{language}/{level}/topics/{topicId}/exercises/{exerciseId}/submit
-            post("/{language}/{level}/topics/{topicId}/exercises/{exerciseId}/submit") {
+            // Submit exercise answer endpoint - POST /levels/submit
+            post("/submit") {
                 val principal = call.principal<JWTPrincipal>()
                 val userId = principal?.getClaim("userId", String::class)
-                val targetLanguage = call.parameters["language"]
-                val level = call.parameters["level"]
-                val topicId = call.parameters["topicId"]
-                val exerciseId = call.parameters["exerciseId"]
                 
                 if (userId.isNullOrBlank()) {
                     call.respond(
@@ -191,25 +180,14 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                     return@post
                 }
                 
-                if (targetLanguage.isNullOrBlank() || level.isNullOrBlank() || topicId.isNullOrBlank() || exerciseId.isNullOrBlank()) {
-                    call.respond(
-                        HttpStatusCode.BadRequest,
-                        ErrorResponses.badRequest("Language, level, topicId and exerciseId are required", call.request.local.uri)
-                    )
-                    return@post
-                }
-                
                 try {
                     val request = call.receive<dev.learning.SubmitAnswerRequest>()
                     
-                    // Validate that the topicId and exerciseId in the request match the URL
-                    if (request.topicId != topicId || request.exerciseId != exerciseId) {
-                        call.respond(
-                            HttpStatusCode.BadRequest,
-                            ErrorResponses.badRequest("Topic ID and exercise ID in request body must match URL parameters", call.request.local.uri)
-                        )
-                        return@post
-                    }
+                    // All required parameters now come from the request body
+                    val targetLanguage = request.targetLanguage
+                    val level = request.level
+                    val topicId = request.topicId
+                    val exerciseId = request.exerciseId
                     
                     // Get the exercise to get the correct answer and tip
                     val exercise = learningRepository.getExercise(userId, targetLanguage, level, topicId, exerciseId)

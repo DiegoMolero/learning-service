@@ -155,6 +155,13 @@ data class ExerciseResponse(
     val tip: Map<String, String>? = null // Educational tip for this exercise
 )
 
+@Serializable
+data class NextExerciseResponse(
+    val exercise: ExerciseResponse? = null,
+    val hasMoreExercises: Boolean,
+    val message: String? = null
+)
+
 // User progress models
 @Serializable
 data class UserProgressResponse(
@@ -218,6 +225,8 @@ enum class AnswerStatus {
 
 @Serializable
 data class SubmitAnswerRequest(
+    val targetLanguage: String,
+    val level: String,
     val topicId: String,
     val exerciseId: String,
     val userAnswer: String,

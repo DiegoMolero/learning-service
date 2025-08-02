@@ -7,6 +7,7 @@ import dev.learning.UserSettingsResponse
 import dev.learning.LevelOverviewResponse
 import dev.learning.LevelTopicsResponse
 import dev.learning.ExerciseResponse
+import dev.learning.NextExerciseResponse
 import dev.learning.LevelSummary
 import dev.learning.LevelProgress
 import dev.learning.TopicSummary
@@ -29,7 +30,7 @@ interface LearningRepository {
     suspend fun getLevelOverview(userId: String, targetLanguage: String): LevelOverviewResponse
     suspend fun getLevelTopics(userId: String, targetLanguage: String, level: String): LevelTopicsResponse
     suspend fun getExercise(userId: String, targetLanguage: String, level: String, topicId: String, exerciseId: String): ExerciseResponse?
-    suspend fun getNextExercise(userId: String, targetLanguage: String, level: String, topicId: String): ExerciseResponse?
+    suspend fun getNextExercise(userId: String, targetLanguage: String, level: String, topicId: String): NextExerciseResponse
     
     suspend fun getUserProgress(userId: String): List<UserProgressResponse>
     suspend fun getUserProgressForLevel(userId: String, levelId: String): UserProgressResponse?
@@ -632,18 +633,28 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                 // Find the specific exercise
                 val exercise = topic.exercises?.find { it.id == exerciseId } ?: return@withContext null
                 
-                // Get user progress for this topic
-                val topicProgress = transaction {
-                    TopicProgressTable.select {
-                        (TopicProgressTable.userId eq UUID.fromString(userId)) and
-                        (TopicProgressTable.topicId eq "$targetLanguage-$level-$topicId")
-                    }.singleOrNull()
-                }
+                val userUuid = UUID.fromString(userId)
+                val fullTopicId = "$targetLanguage-$level-$topicId"
                 
-                // Check if this exercise was completed
-                val completedExercises = topicProgress?.get(TopicProgressTable.completedExercises) ?: 0
-                val exerciseIndex = topic.exercises.indexOf(exercise)
-                val isCompleted = exerciseIndex < completedExercises
+                // Get exercise attempts and completion status
+                val (previousAttempts, isCompleted) = transaction {
+                    // Count attempts for this specific exercise
+                    val attemptCount = ExerciseAttempts.select {
+                        (ExerciseAttempts.userId eq userUuid) and
+                        (ExerciseAttempts.topicId eq fullTopicId) and
+                        (ExerciseAttempts.exerciseId eq exerciseId)
+                    }.count().toInt()
+                    
+                    // Check if user has completed this exercise successfully
+                    val hasCorrectAttempt = ExerciseAttempts.select {
+                        (ExerciseAttempts.userId eq userUuid) and
+                        (ExerciseAttempts.topicId eq fullTopicId) and
+                        (ExerciseAttempts.exerciseId eq exerciseId) and
+                        (ExerciseAttempts.answerStatus eq "CORRECT")
+                    }.count() > 0
+                    
+                    Pair(attemptCount, hasCorrectAttempt)
+                }
                 
                 ExerciseResponse(
                     id = exercise.id,
@@ -652,7 +663,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                     prompt = exercise.prompt,
                     solution = exercise.solution, // Always show solution
                     options = exercise.options,
-                    previousAttempts = 0, // TODO: Track individual exercise attempts if needed
+                    previousAttempts = previousAttempts,
                     isCompleted = isCompleted,
                     tip = exercise.tip // Include the educational tip
                 )
@@ -663,52 +674,87 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         }
     }
 
-    override suspend fun getNextExercise(userId: String, targetLanguage: String, level: String, topicId: String): ExerciseResponse? {
+    override suspend fun getNextExercise(userId: String, targetLanguage: String, level: String, topicId: String): NextExerciseResponse {
         return try {
             withContext(Dispatchers.IO) {
                 // Load the topic file
                 val resource = {}::class.java.getResource("/levels/$targetLanguage/$level/$topicId.json")
-                if (resource == null) return@withContext null
+                if (resource == null) {
+                    return@withContext NextExerciseResponse(
+                        exercise = null,
+                        hasMoreExercises = false,
+                        message = "Topic not found"
+                    )
+                }
                 
                 val topicFile = resource.readText()
                 val topic = json.decodeFromString<Level>(topicFile)
                 
-                if (topic.exercises.isNullOrEmpty()) return@withContext null
-                
-                // Get user progress for this topic
-                val topicProgress = transaction {
-                    TopicProgressTable.select {
-                        (TopicProgressTable.userId eq UUID.fromString(userId)) and
-                        (TopicProgressTable.topicId eq "$targetLanguage-$level-$topicId")
-                    }.singleOrNull()
+                if (topic.exercises.isNullOrEmpty()) {
+                    return@withContext NextExerciseResponse(
+                        exercise = null,
+                        hasMoreExercises = false,
+                        message = "No exercises available in this topic"
+                    )
                 }
                 
-                // Get the number of completed exercises for this topic
-                val completedExercises = topicProgress?.get(TopicProgressTable.completedExercises) ?: 0
+                val userUuid = UUID.fromString(userId)
+                val fullTopicId = "$targetLanguage-$level-$topicId"
                 
-                // Return the next exercise (the one at index = completedExercises)
-                if (completedExercises >= topic.exercises.size) {
-                    // All exercises in this topic are completed
-                    return@withContext null
+                // Get all exercise attempts for this user and topic
+                val (attemptedExercises, exerciseAttemptCounts) = transaction {
+                    val attempts = ExerciseAttempts.select {
+                        (ExerciseAttempts.userId eq userUuid) and
+                        (ExerciseAttempts.topicId eq fullTopicId)
+                    }.map { row ->
+                        row[ExerciseAttempts.exerciseId]
+                    }
+                    
+                    val attemptedSet = attempts.toSet()
+                    val attemptCounts = attempts.groupingBy { it }.eachCount()
+                    
+                    Pair(attemptedSet, attemptCounts)
                 }
                 
-                val nextExercise = topic.exercises[completedExercises]
+                // Find the first exercise that hasn't been attempted yet
+                val nextExercise = topic.exercises.find { exercise ->
+                    exercise.id !in attemptedExercises
+                }
                 
-                ExerciseResponse(
+                if (nextExercise == null) {
+                    // All exercises have been attempted at least once
+                    return@withContext NextExerciseResponse(
+                        exercise = null,
+                        hasMoreExercises = false,
+                        message = "All exercises in this topic have been completed"
+                    )
+                }
+                
+                val exerciseResponse = ExerciseResponse(
                     id = nextExercise.id,
                     topicId = topicId,
                     type = nextExercise.type,
                     prompt = nextExercise.prompt,
                     solution = nextExercise.solution, // Always show solution
                     options = nextExercise.options,
-                    previousAttempts = 0, // TODO: Track individual exercise attempts if needed
-                    isCompleted = false,
+                    previousAttempts = exerciseAttemptCounts[nextExercise.id] ?: 0, // Actual attempt count
+                    isCompleted = false, // This exercise hasn't been attempted yet
                     tip = nextExercise.tip // Include the educational tip
+                )
+                
+                NextExerciseResponse(
+                    exercise = exerciseResponse,
+                    hasMoreExercises = true,
+                    message = null
                 )
             }
         } catch (e: Exception) {
             println("Error getting next exercise: ${e.message}")
-            null
+            NextExerciseResponse(
+                exercise = null,
+                hasMoreExercises = false,
+                message = "Error occurred while fetching next exercise"
+            )
         }
     }
 

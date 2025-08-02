@@ -9,6 +9,6 @@
     "url": "jdbc:postgresql://localhost:5432/learningdb",
     "user": "postgres",
     "password": "postgres",
-    "dropOnStart": false
+    "dropOnStart": true
   }
 }
