@@ -1,0 +1,39 @@
+{
+  "topicId": "test_topic_1",
+  "title": {
+    "en": "Test Topic - Basic Phrases",
+    "es": "Tema de Prueba - Frases Básicas"
+  },
+  "description": {
+    "en": "A test topic with basic phrases for unit testing",
+    "es": "Un tema de prueba con frases básicas para pruebas unitarias"
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Hola mundo"
+      },
+      "solution": "Hello world"
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo estás?"
+      },
+      "solution": "How are you?"
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo hambre"
+      },
+      "solution": "I am hungry"
+    }
+  ]
+}

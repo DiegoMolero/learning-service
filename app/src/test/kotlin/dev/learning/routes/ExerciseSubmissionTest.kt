@@ -28,7 +28,7 @@ class ExerciseSubmissionTest {
     @BeforeEach
     fun setUp() {
         config = loadConfig("test")
-        repository = DatabaseLearningRepository(config.database)
+        repository = DatabaseLearningRepository(config.database, config.environmentName)
     }
 
     private fun createTestUser(): Pair<String, String> {

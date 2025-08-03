@@ -97,10 +97,21 @@ object UserSettings : UUIDTable("user_settings") {
     val updatedAt = timestamp("updated_at").defaultExpression(CurrentTimestamp())
 }
 
-class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : LearningRepository {
+class DatabaseLearningRepository(
+    private val databaseConfig: DatabaseConfig,
+    private val environmentName: String
+) : LearningRepository {
     
     private val dataSource: HikariDataSource
     private val json = Json { ignoreUnknownKeys = true }
+    
+    /**
+     * Get the base path for resources depending on the environment.
+     * In test mode, use "/test/levels", otherwise use "/levels"
+     */
+    private fun getResourceBasePath(): String {
+        return if (environmentName == "test") "/test/levels" else "/levels"
+    }
     
     init {
         val hikariConfig = HikariConfig().apply {
@@ -136,7 +147,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
     private suspend fun getLevel(levelId: String): Level? {
         return try {
             // First try the old structure for backward compatibility
-            val oldResource = {}::class.java.getResource("/levels/$levelId.json")
+            val oldResource = {}::class.java.getResource("${getResourceBasePath()}/$levelId.json")
             if (oldResource != null) {
                 val content = oldResource.readText()
                 val level = json.decodeFromString<Level>(content)
@@ -152,7 +163,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
                 val level = parts[1]
                 val fileName = parts.drop(2).joinToString("-")
                 
-                val newResource = {}::class.java.getResource("/levels/$targetLanguage/$level/$fileName.json")
+                val newResource = {}::class.java.getResource("${getResourceBasePath()}/$targetLanguage/$level/$fileName.json")
                 if (newResource != null) {
                     val content = newResource.readText()
                     val levelData = json.decodeFromString<Level>(content)
@@ -170,7 +181,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
     private suspend fun getLevelsByLanguageAndLevel(targetLanguage: String, level: String): List<Level> {
         return try {
             val levels = mutableListOf<Level>()
-            val resource = {}::class.java.getResource("/levels/$targetLanguage/$level")
+            val resource = {}::class.java.getResource("${getResourceBasePath()}/$targetLanguage/$level")
             
             if (resource != null) {
                 val directory = java.io.File(resource.toURI())
@@ -624,7 +635,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         return try {
             withContext(Dispatchers.IO) {
                 // Load the topic file
-                val resource = {}::class.java.getResource("/levels/$targetLanguage/$level/$topicId.json")
+                val resource = {}::class.java.getResource("${getResourceBasePath()}/$targetLanguage/$level/$topicId.json")
                 if (resource == null) return@withContext null
                 
                 val topicFile = resource.readText()
@@ -678,7 +689,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
         return try {
             withContext(Dispatchers.IO) {
                 // Load the topic file
-                val resource = {}::class.java.getResource("/levels/$targetLanguage/$level/$topicId.json")
+                val resource = {}::class.java.getResource("${getResourceBasePath()}/$targetLanguage/$level/$topicId.json")
                 if (resource == null) {
                     return@withContext NextExerciseResponse(
                         exercise = null,
@@ -952,7 +963,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
     
     private fun getExerciseIndex(targetLanguage: String, level: String, topicId: String, exerciseId: String): Int? {
         return try {
-            val resource = {}::class.java.getResource("/levels/$targetLanguage/$level/$topicId.json")
+            val resource = {}::class.java.getResource("${getResourceBasePath()}/$targetLanguage/$level/$topicId.json")
             if (resource == null) return null
             
             val topicFile = resource.readText()
@@ -967,7 +978,7 @@ class DatabaseLearningRepository(private val databaseConfig: DatabaseConfig) : L
     
     private fun getTotalExercisesCount(targetLanguage: String, level: String, topicId: String): Int {
         return try {
-            val resource = {}::class.java.getResource("/levels/$targetLanguage/$level/$topicId.json")
+            val resource = {}::class.java.getResource("${getResourceBasePath()}/$targetLanguage/$level/$topicId.json")
             if (resource == null) return 0
             
             val topicFile = resource.readText()

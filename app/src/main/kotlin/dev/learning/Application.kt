@@ -146,7 +146,7 @@ fun Application.module(config: Config) {
     configureCors(config)
 
     // Use learning repository instead of user repository
-    val learningRepository: LearningRepository = DatabaseLearningRepository(config.database)
+    val learningRepository: LearningRepository = DatabaseLearningRepository(config.database, config.environmentName)
 
     if (config.environmentName == "dev") {
         install(CallLogging) {
