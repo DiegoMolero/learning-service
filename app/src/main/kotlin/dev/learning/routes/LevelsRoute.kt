@@ -185,7 +185,7 @@ fun Route.levelsRoute(learningRepository: LearningRepository) {
                     
                     // All required parameters now come from the request body
                     val targetLanguage = request.targetLanguage
-                    val level = request.level
+                    val level = request.levelId
                     val topicId = request.topicId
                     val exerciseId = request.exerciseId
                     

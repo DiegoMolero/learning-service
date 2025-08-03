@@ -48,7 +48,7 @@ class ExerciseSubmissionTest {
         
         val request = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "Hello world",
@@ -89,7 +89,7 @@ class ExerciseSubmissionTest {
         
         val request = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "Hi world",
@@ -129,7 +129,7 @@ class ExerciseSubmissionTest {
         
         val request = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "Hello world",
@@ -161,7 +161,7 @@ class ExerciseSubmissionTest {
         
         val request = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "Hello world",
@@ -219,7 +219,7 @@ class ExerciseSubmissionTest {
         // First submission (incorrect)
         val request1 = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "Wrong answer",
@@ -235,7 +235,7 @@ class ExerciseSubmissionTest {
         // Second submission (incorrect again)
         val request2 = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "Still wrong",
@@ -251,7 +251,7 @@ class ExerciseSubmissionTest {
         // Third submission (correct)
         val request3 = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "Hello world",
@@ -285,7 +285,7 @@ class ExerciseSubmissionTest {
         
         val request = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = exerciseId,
             userAnswer = "",

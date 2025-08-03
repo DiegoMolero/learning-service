@@ -226,7 +226,7 @@ enum class AnswerStatus {
 @Serializable
 data class SubmitAnswerRequest(
     val targetLanguage: String,
-    val level: String,
+    val levelId: String,
     val topicId: String,
     val exerciseId: String,
     val userAnswer: String,

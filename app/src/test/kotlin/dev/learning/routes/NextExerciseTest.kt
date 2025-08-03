@@ -87,7 +87,7 @@ class NextExerciseTest {
         // Submit first exercise
         val request1 = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = "ex_1",
             userAnswer = "Hello world",
@@ -103,7 +103,7 @@ class NextExerciseTest {
         // Submit third exercise (skip ex_2)
         val request3 = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = "ex_3",
             userAnswer = "Wrong answer",
@@ -152,7 +152,7 @@ class NextExerciseTest {
         for (exerciseId in exerciseIds) {
             val request = SubmitAnswerRequest(
                 targetLanguage = targetLanguage,
-                level = level,
+                levelId = level,
                 topicId = topicId,
                 exerciseId = exerciseId,
                 userAnswer = "Test answer",
@@ -202,7 +202,7 @@ class NextExerciseTest {
         // Submit first exercise correctly
         val request1 = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = "ex_1",
             userAnswer = "Hello world",
@@ -218,7 +218,7 @@ class NextExerciseTest {
         // Skip second exercise
         val request2 = SubmitAnswerRequest(
             targetLanguage = targetLanguage,
-            level = level,
+            levelId = level,
             topicId = topicId,
             exerciseId = "ex_2",
             userAnswer = "",
