@@ -273,4 +273,46 @@ class ExerciseSubmissionTest {
         // Should reflect multiple attempts
         assertTrue(responseBody3.progress.completedExercises >= 1)
     }
+
+    @Test
+    fun `POST submit answer should handle SKIPPED status successfully`() = testApplication {
+        // Arrange
+        val (_, userJWT) = createTestUser()
+        val targetLanguage = "en"
+        val level = "A2"
+        val topicId = "test_topic_1"
+        val exerciseId = "ex_1"
+        
+        val request = SubmitAnswerRequest(
+            targetLanguage = targetLanguage,
+            level = level,
+            topicId = topicId,
+            exerciseId = exerciseId,
+            userAnswer = "",
+            answerStatus = dev.learning.AnswerStatus.SKIPPED
+        )
+
+        application {
+            module(config)
+        }
+
+        // Act
+        val response = client.post("/levels/submit") {
+            header(HttpHeaders.Authorization, userJWT)
+            header(HttpHeaders.ContentType, ContentType.Application.Json)
+            setBody(json.encodeToString(request))
+        }
+
+        // Assert
+        assertEquals(HttpStatusCode.OK, response.status)
+        
+        val responseBody = json.decodeFromString<SubmitAnswerResponse>(response.bodyAsText())
+        assertTrue(responseBody.success)
+        assertTrue(responseBody.answerStatus == dev.learning.AnswerStatus.SKIPPED)
+        assertEquals("Hello world", responseBody.correctAnswer)
+        assertEquals(0, responseBody.progress.correctAnswers)
+        assertEquals(0, responseBody.progress.wrongAnswers)
+        // Skipped exercises still count as attempted but not completed
+        assertEquals(0, responseBody.progress.completedExercises)
+    }
 }
