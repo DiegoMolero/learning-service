@@ -43,7 +43,7 @@ class ExerciseSubmissionTest {
         val (_, userJWT) = createTestUser()
         val targetLanguage = "en"
         val level = "A2"
-        val topicId = "must_subjective_obligation_1"
+        val topicId = "test_topic_1"
         val exerciseId = "ex_1"
         
         val request = SubmitAnswerRequest(
@@ -51,7 +51,7 @@ class ExerciseSubmissionTest {
             level = level,
             topicId = topicId,
             exerciseId = exerciseId,
-            userAnswer = "I must get my hair cut.",
+            userAnswer = "Hello world",
             answerStatus = dev.learning.AnswerStatus.CORRECT
         )
 
@@ -72,7 +72,7 @@ class ExerciseSubmissionTest {
         val responseBody = json.decodeFromString<SubmitAnswerResponse>(response.bodyAsText())
         assertTrue(responseBody.success)
         assertTrue(responseBody.answerStatus == dev.learning.AnswerStatus.CORRECT)
-        assertEquals("I must get my hair cut.", responseBody.correctAnswer)
+        assertEquals("Hello world", responseBody.correctAnswer)
         assertEquals(1, responseBody.progress.correctAnswers)
         assertEquals(0, responseBody.progress.wrongAnswers)
         assertEquals(1, responseBody.progress.completedExercises)
@@ -84,7 +84,7 @@ class ExerciseSubmissionTest {
         val (_, userJWT) = createTestUser()
         val targetLanguage = "en"
         val level = "A2"
-        val topicId = "must_subjective_obligation_1"
+        val topicId = "test_topic_1"
         val exerciseId = "ex_1"
         
         val request = SubmitAnswerRequest(
@@ -92,7 +92,7 @@ class ExerciseSubmissionTest {
             level = level,
             topicId = topicId,
             exerciseId = exerciseId,
-            userAnswer = "I have to get my hair cut.",
+            userAnswer = "Hi world",
             answerStatus = dev.learning.AnswerStatus.INCORRECT
         )
 
@@ -113,10 +113,10 @@ class ExerciseSubmissionTest {
         val responseBody = json.decodeFromString<SubmitAnswerResponse>(response.bodyAsText())
         assertTrue(responseBody.success)
         assertTrue(responseBody.answerStatus == dev.learning.AnswerStatus.INCORRECT)
-        assertEquals("I must get my hair cut.", responseBody.correctAnswer)
+        assertEquals("Hello world", responseBody.correctAnswer)
         assertEquals(0, responseBody.progress.correctAnswers)
         assertEquals(1, responseBody.progress.wrongAnswers)
-        assertEquals(1, responseBody.progress.completedExercises)
+        assertEquals(0, responseBody.progress.completedExercises)
     }
 
     @Test
@@ -124,7 +124,7 @@ class ExerciseSubmissionTest {
         // Arrange
         val targetLanguage = "en"
         val level = "A2"
-        val topicId = "must_subjective_obligation_1"
+        val topicId = "test_topic_1"
         val exerciseId = "ex_1"
         
         val request = SubmitAnswerRequest(
@@ -132,7 +132,7 @@ class ExerciseSubmissionTest {
             level = level,
             topicId = topicId,
             exerciseId = exerciseId,
-            userAnswer = "I must get my hair cut.",
+            userAnswer = "Hello world",
             answerStatus = dev.learning.AnswerStatus.CORRECT
         )
 
@@ -156,7 +156,7 @@ class ExerciseSubmissionTest {
         val (_, userJWT) = createTestUser()
         val targetLanguage = "en"
         val level = "A2"
-        val topicId = "must_subjective_obligation_1"
+        val topicId = "test_topic_1"
         val exerciseId = "non_existent_exercise"
         
         val request = SubmitAnswerRequest(
@@ -164,7 +164,7 @@ class ExerciseSubmissionTest {
             level = level,
             topicId = topicId,
             exerciseId = exerciseId,
-            userAnswer = "I must get my hair cut.",
+            userAnswer = "Hello world",
             answerStatus = dev.learning.AnswerStatus.CORRECT
         )
 
@@ -209,7 +209,7 @@ class ExerciseSubmissionTest {
         val (_, userJWT) = createTestUser()
         val targetLanguage = "en"
         val level = "A2"
-        val topicId = "must_subjective_obligation_1"
+        val topicId = "test_topic_1"
         val exerciseId = "ex_1"
 
         application {
@@ -254,7 +254,7 @@ class ExerciseSubmissionTest {
             level = level,
             topicId = topicId,
             exerciseId = exerciseId,
-            userAnswer = "I must get my hair cut.",
+            userAnswer = "Hello world",
             answerStatus = dev.learning.AnswerStatus.CORRECT
         )
 

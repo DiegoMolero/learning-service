@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5d2f3c-0133-42ec-9527-147ab554dc70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/LearningRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/LearningRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/ExerciseSubmissionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/ExerciseSubmissionTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/NextExerciseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/NextExerciseTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/SettingsRouteTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/SettingsRouteTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/UserManagementRouteTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/UserManagementRouteTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +33,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Download Sources.executor": "Run",
-    "Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully.executor": "Debug",
+    "Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully.executor": "Run",
+    "Gradle.ExerciseSubmissionTest.POST submit answer should record wrong answer successfully.executor": "Debug",
     "Gradle.ExerciseSubmissionTest.executor": "Run",
     "Gradle.NextExerciseTest.GET next exercise should return first exercise when no progress.executor": "Debug",
     "Gradle.NextExerciseTest.executor": "Run",
@@ -57,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully">
+  <component name="RunManager" selected="Gradle.ExerciseSubmissionTest">
     <configuration name="ExerciseSubmissionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -96,6 +92,30 @@
             <option value=":app:test" />
             <option value="--tests" />
             <option value="&quot;dev.learning.routes.ExerciseSubmissionTest.POST submit answer should record correct answer successfully&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExerciseSubmissionTest.POST submit answer should record wrong answer successfully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;dev.learning.routes.ExerciseSubmissionTest.POST submit answer should record wrong answer successfully&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -154,30 +174,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SettingsRouteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;dev.learning.routes.SettingsRouteTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="learning-service" />
       <method v="2">
@@ -191,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully" />
         <item itemvalue="Gradle.ExerciseSubmissionTest" />
+        <item itemvalue="Gradle.ExerciseSubmissionTest.POST submit answer should record wrong answer successfully" />
+        <item itemvalue="Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully" />
         <item itemvalue="Gradle.NextExerciseTest" />
         <item itemvalue="Gradle.NextExerciseTest.GET next exercise should return first exercise when no progress" />
-        <item itemvalue="Gradle.SettingsRouteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +212,7 @@
       <updated>1753362008389</updated>
       <workItem from="1753362010158" duration="4946000" />
       <workItem from="1753436181644" duration="624000" />
-      <workItem from="1754211047319" duration="911000" />
+      <workItem from="1754211047319" duration="2557000" />
     </task>
     <servers />
   </component>
