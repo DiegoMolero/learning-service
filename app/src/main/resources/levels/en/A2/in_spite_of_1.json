@@ -1,0 +1,615 @@
+{
+  "topicId": "in_spite_of_1",
+  "title": {
+    "en": "In spite of - A pesar de (con preposición y 'in spite of the fact that')",
+    "es": "In spite of - A pesar de (con preposición y 'in spite of the fact that')"
+  },
+  "description": {
+    "en": "Learn to use 'in spite of' correctly: with nouns (requires 'of') and with verbs (use 'in spite of the fact that'). Unlike 'despite', 'in spite of' requires the preposition 'of'.",
+    "es": "Aprende a usar 'in spite of' correctamente: con sustantivos (requiere 'of') y con verbos (usar 'in spite of the fact that'). A diferencia de 'despite', 'in spite of' requiere la preposición 'of'."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de los nervios, tocó muy bien."
+      },
+      "solution": "In spite of his nerves, he played very well.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del ruido, ella terminó la novela."
+      },
+      "solution": "In spite of the noise, she finished the novel.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la confusión, firmaron el contrato."
+      },
+      "solution": "In spite of the confusion, they signed the contract.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la cantidad de trabajo, se fue de la oficina temprano."
+      },
+      "solution": "In spite of the amount of work, he left the office early.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de las distancias que les separan, se ven a menudo."
+      },
+      "solution": "In spite of the distance that separates them, they see each other often.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que mi marido no fue, me lo pasé muy bien."
+      },
+      "solution": "In spite of the fact that my husband didn't go, I had a good time.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que las matemáticas no son mi fuerte, aprobé el examen."
+      },
+      "solution": "In spite of the fact that maths isn't my strong point, I passed the exam.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que el libro era gordo, lo terminé en una semana."
+      },
+      "solution": "In spite of the fact that the book was thick, I finished it in a week.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que el árbol les cayó encima del coche, salieron ilesos."
+      },
+      "solution": "In spite of the fact that the tree fell on their car, they escaped unhurt.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que el tipo hipotecario ha subido mucho, dispongo de más dinero ahora que hace tres años."
+      },
+      "solution": "In spite of the fact that the mortgage rate has gone up a lot, I have more money now than three years ago.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del calor, decidimos caminar."
+      },
+      "solution": "In spite of the heat, we decided to walk.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que llovía, fuimos al parque."
+      },
+      "solution": "In spite of the fact that it was raining, we went to the park.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de los problemas, terminaron el proyecto."
+      },
+      "solution": "In spite of the problems, they finished the project.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no tenía experiencia, consiguió el trabajo."
+      },
+      "solution": "In spite of the fact that she had no experience, she got the job.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del tráfico, llegamos a tiempo."
+      },
+      "solution": "In spite of the traffic, we arrived on time.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era muy caro, lo compramos."
+      },
+      "solution": "In spite of the fact that it was very expensive, we bought it.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de las críticas, siguió con su plan."
+      },
+      "solution": "In spite of the criticism, he continued with his plan.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que estaba cansada, siguió trabajando."
+      },
+      "solution": "In spite of the fact that she was tired, she kept working.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del precio, decidimos comprarlo."
+      },
+      "solution": "In spite of the price, we decided to buy it.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no hablaba inglés bien, se mudó a Londres."
+      },
+      "solution": "In spite of the fact that he didn't speak English well, he moved to London.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del frío, salimos a caminar."
+      },
+      "solution": "In spite of the cold, we went out for a walk.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era domingo, trabajó toda la mañana."
+      },
+      "solution": "In spite of the fact that it was Sunday, he worked all morning.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de las dificultades, no se rindieron."
+      },
+      "solution": "In spite of the difficulties, they didn't give up.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que nevaba mucho, fuimos a esquiar."
+      },
+      "solution": "In spite of the fact that it was snowing heavily, we went skiing.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de su edad, corre maratones."
+      },
+      "solution": "In spite of his age, he runs marathons.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no tenía dinero, se fue de vacaciones."
+      },
+      "solution": "In spite of the fact that he had no money, he went on holiday.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de los obstáculos, alcanzó su meta."
+      },
+      "solution": "In spite of the obstacles, she reached her goal.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era muy joven, dirigía la empresa."
+      },
+      "solution": "In spite of the fact that he was very young, he ran the company.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del ruido, pudo concentrarse."
+      },
+      "solution": "In spite of the noise, she was able to concentrate.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que había mucho tráfico, llegamos temprano."
+      },
+      "solution": "In spite of the fact that there was heavy traffic, we arrived early.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la crisis, abrieron una nueva tienda."
+      },
+      "solution": "In spite of the crisis, they opened a new shop.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no sabía cocinar, preparó una cena deliciosa."
+      },
+      "solution": "In spite of the fact that she couldn't cook, she prepared a delicious dinner.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del peligro, escalaron la montaña."
+      },
+      "solution": "In spite of the danger, they climbed the mountain.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que estaba enfermo, vino a trabajar."
+      },
+      "solution": "In spite of the fact that he was ill, he came to work.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de las advertencias, siguieron adelante."
+      },
+      "solution": "In spite of the warnings, they went ahead.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que llovía torrencialmente, salieron de casa."
+      },
+      "solution": "In spite of the fact that it was pouring with rain, they left the house.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la distancia, vienen a visitarnos."
+      },
+      "solution": "In spite of the distance, they come to visit us.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no tenían permiso, construyeron la casa."
+      },
+      "solution": "In spite of the fact that they had no permission, they built the house.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de su timidez, habló en público."
+      },
+      "solution": "In spite of her shyness, she spoke in public.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era de noche, salimos a correr."
+      },
+      "solution": "In spite of the fact that it was night, we went out running.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la oposición, aprobaron la ley."
+      },
+      "solution": "In spite of the opposition, they passed the law.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no le gustaba volar, tomó el avión."
+      },
+      "solution": "In spite of the fact that he didn't like flying, he took the plane.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la confusión, resolvieron el problema."
+      },
+      "solution": "In spite of the confusion, they solved the problem.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era muy difícil, lo intentó."
+      },
+      "solution": "In spite of the fact that it was very difficult, he tried.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la presión, tomó la decisión correcta."
+      },
+      "solution": "In spite of the pressure, he made the right decision.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que llovía, el partido continuó."
+      },
+      "solution": "In spite of the fact that it was raining, the match continued.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de los rumores, siguió trabajando allí."
+      },
+      "solution": "In spite of the rumours, she kept working there.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era tarde, decidieron quedarse."
+      },
+      "solution": "In spite of the fact that it was late, they decided to stay.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del éxito, se mantuvo humilde."
+      },
+      "solution": "In spite of the success, she remained humble.",
+      "tip": {
+        "en": "Use 'in spite of' + noun (preposition 'of' is required, unlike 'despite').",
+        "es": "Usa 'in spite of' + sustantivo (la preposición 'of' es necesaria, a diferencia de 'despite')."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era muy tarde, siguieron trabajando."
+      },
+      "solution": "In spite of the fact that it was very late, they kept working.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'in spite of the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'in spite of the fact that' + sujeto + verbo."
+      }
+    }
+  ]
+}

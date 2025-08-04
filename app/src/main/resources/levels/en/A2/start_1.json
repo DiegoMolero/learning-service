@@ -1,0 +1,615 @@
+{
+  "topicId": "start_1",
+  "title": {
+    "en": "Start + Gerund/Infinitive - Both Forms Valid (Empezar a + gerundio/infinitivo)",
+    "es": "Start + Gerund/Infinitive - Both Forms Valid (Empezar a + gerundio/infinitivo)"
+  },
+  "description": {
+    "en": "Learn to use 'start' with both gerunds (-ing) and infinitives (to + verb). Both forms are equally correct and mean the same thing. British English prefers gerunds, American English uses both equally.",
+    "es": "Aprende a usar 'start' con gerundios (-ing) e infinitivos (to + verbo). Ambas formas son igualmente correctas y significan lo mismo. El inglés británico prefiere gerundios, el americano usa ambos por igual."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Acabo de empezar a asistir a clases de yoga."
+      },
+      "solution": "I've just started going to yoga classes.",
+      "tip": {
+        "en": "Both 'started going' and 'started to go' are correct.",
+        "es": "Tanto 'started going' como 'started to go' son correctos."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezad a escribir cuando os lo diga."
+      },
+      "solution": "Start writing when I say so.",
+      "tip": {
+        "en": "Both 'start writing' and 'start to write' are correct.",
+        "es": "Tanto 'start writing' como 'start to write' son correctos."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Podéis empezar a quitar la mesa?"
+      },
+      "solution": "Can you start clearing the table?",
+      "tip": {
+        "en": "Both 'start clearing' and 'start to clear' are correct.",
+        "es": "Tanto 'start clearing' como 'start to clear' son correctos."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "No empecé a aprender inglés hasta que tenía 20 años."
+      },
+      "solution": "I didn't start learning English until I was 20.",
+      "tip": {
+        "en": "Both 'start learning' and 'start to learn' are correct.",
+        "es": "Tanto 'start learning' como 'start to learn' son correctos."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "El alcalde ha empezado a combatir el fraude fiscal."
+      },
+      "solution": "The mayor has started fighting tax fraud.",
+      "tip": {
+        "en": "Both 'started fighting' and 'started to fight' are correct.",
+        "es": "Tanto 'started fighting' como 'started to fight' son correctos."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando llegamos al parque, empezó a llover."
+      },
+      "solution": "When we got to the park, it started to rain.",
+      "tip": {
+        "en": "Both 'started to rain' and 'started raining' are correct.",
+        "es": "Tanto 'started to rain' como 'started raining' son correctos."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella empezó a llorar cuando le conté la noticia."
+      },
+      "solution": "She started to cry when I told her the news.",
+      "tip": {
+        "en": "Both 'started to cry' and 'started crying' are correct.",
+        "es": "Tanto 'started to cry' como 'started crying' son correctos."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezamos a tener miedo cuando vimos las medusas."
+      },
+      "solution": "We started to feel afraid when we saw the jelly fish.",
+      "tip": {
+        "en": "Both 'started to feel' and 'started feeling' are correct.",
+        "es": "Tanto 'started to feel' como 'started feeling' son correctos."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Puedes empezar a prestar un poco más de atención, por favor?"
+      },
+      "solution": "Can you start to pay a bit more attention, please?",
+      "tip": {
+        "en": "Both 'start to pay' and 'start paying' are correct.",
+        "es": "Tanto 'start to pay' como 'start paying' son correctos."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Él sólo empezará a relajarse después de un par de días de vacaciones."
+      },
+      "solution": "He'll only start to relax after a couple of days on holiday.",
+      "tip": {
+        "en": "Both 'start to relax' and 'start relaxing' are correct.",
+        "es": "Tanto 'start to relax' como 'start relaxing' son correctos."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Voy a empezar a correr por las mañanas."
+      },
+      "solution": "I'm going to start running in the mornings.",
+      "tip": {
+        "en": "Both 'start running' and 'start to run' are correct.",
+        "es": "Tanto 'start running' como 'start to run' son correctos."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo empezaste a estudiar medicina?"
+      },
+      "solution": "When did you start studying medicine?",
+      "tip": {
+        "en": "Both 'start studying' and 'start to study' are correct.",
+        "es": "Tanto 'start studying' como 'start to study' son correctos."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Los niños empezaron a jugar en el jardín."
+      },
+      "solution": "The children started to play in the garden.",
+      "tip": {
+        "en": "Both 'started to play' and 'started playing' are correct.",
+        "es": "Tanto 'started to play' como 'started playing' son correctos."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezó a nevar muy temprano esta mañana."
+      },
+      "solution": "It started snowing very early this morning.",
+      "tip": {
+        "en": "Both 'started snowing' and 'started to snow' are correct.",
+        "es": "Tanto 'started snowing' como 'started to snow' son correctos."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella empezó a trabajar aquí hace tres años."
+      },
+      "solution": "She started working here three years ago.",
+      "tip": {
+        "en": "Both 'started working' and 'started to work' are correct.",
+        "es": "Tanto 'started working' como 'started to work' son correctos."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ya empezaste a leer el nuevo libro?"
+      },
+      "solution": "Have you started to read the new book yet?",
+      "tip": {
+        "en": "Both 'started to read' and 'started reading' are correct.",
+        "es": "Tanto 'started to read' como 'started reading' son correctos."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezaron a construir la casa el mes pasado."
+      },
+      "solution": "They started building the house last month.",
+      "tip": {
+        "en": "Both 'started building' and 'started to build' are correct.",
+        "es": "Tanto 'started building' como 'started to build' son correctos."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hermano empezó a tocar la guitarra a los diez años."
+      },
+      "solution": "My brother started to play guitar when he was ten.",
+      "tip": {
+        "en": "Both 'started to play' and 'started playing' are correct.",
+        "es": "Tanto 'started to play' como 'started playing' son correctos."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Empecé a sentirme mejor después de tomar la medicina."
+      },
+      "solution": "I started feeling better after taking the medicine.",
+      "tip": {
+        "en": "Both 'started feeling' and 'started to feel' are correct.",
+        "es": "Tanto 'started feeling' como 'started to feel' son correctos."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo empezará a funcionar el nuevo sistema?"
+      },
+      "solution": "When will the new system start to work?",
+      "tip": {
+        "en": "Both 'start to work' and 'start working' are correct.",
+        "es": "Tanto 'start to work' como 'start working' son correctos."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezó a caminar muy lentamente después del accidente."
+      },
+      "solution": "He started walking very slowly after the accident.",
+      "tip": {
+        "en": "Both 'started walking' and 'started to walk' are correct.",
+        "es": "Tanto 'started walking' como 'started to walk' son correctos."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Los estudiantes empezaron a quejarse del examen."
+      },
+      "solution": "The students started to complain about the exam.",
+      "tip": {
+        "en": "Both 'started to complain' and 'started complaining' are correct.",
+        "es": "Tanto 'started to complain' como 'started complaining' son correctos."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezamos a planificar las vacaciones en enero."
+      },
+      "solution": "We started planning our holidays in January.",
+      "tip": {
+        "en": "Both 'started planning' and 'started to plan' are correct.",
+        "es": "Tanto 'started planning' como 'started to plan' son correctos."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ya empezó a hacer ejercicio otra vez?"
+      },
+      "solution": "Has he started to exercise again yet?",
+      "tip": {
+        "en": "Both 'started to exercise' and 'started exercising' are correct.",
+        "es": "Tanto 'started to exercise' como 'started exercising' son correctos."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezó a hablar en voz muy baja."
+      },
+      "solution": "She started speaking very quietly.",
+      "tip": {
+        "en": "Both 'started speaking' and 'started to speak' are correct.",
+        "es": "Tanto 'started speaking' como 'started to speak' son correctos."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Los precios empezaron a subir el año pasado."
+      },
+      "solution": "Prices started to rise last year.",
+      "tip": {
+        "en": "Both 'started to rise' and 'started rising' are correct.",
+        "es": "Tanto 'started to rise' como 'started rising' son correctos."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo empezaste a cocinar comida italiana?"
+      },
+      "solution": "When did you start cooking Italian food?",
+      "tip": {
+        "en": "Both 'start cooking' and 'start to cook' are correct.",
+        "es": "Tanto 'start cooking' como 'start to cook' son correctos."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "El bebé empezó a caminar a los once meses."
+      },
+      "solution": "The baby started to walk at eleven months.",
+      "tip": {
+        "en": "Both 'started to walk' and 'started walking' are correct.",
+        "es": "Tanto 'started to walk' como 'started walking' son correctos."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezaron a discutir sobre dinero otra vez."
+      },
+      "solution": "They started arguing about money again.",
+      "tip": {
+        "en": "Both 'started arguing' and 'started to argue' are correct.",
+        "es": "Tanto 'started arguing' como 'started to argue' son correctos."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿A qué hora empezaste a preparar la cena?"
+      },
+      "solution": "What time did you start to prepare dinner?",
+      "tip": {
+        "en": "Both 'start to prepare' and 'start preparing' are correct.",
+        "es": "Tanto 'start to prepare' como 'start preparing' son correctos."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "La compañía empezó a perder dinero en 2020."
+      },
+      "solution": "The company started losing money in 2020.",
+      "tip": {
+        "en": "Both 'started losing' and 'started to lose' are correct.",
+        "es": "Tanto 'started losing' como 'started to lose' son correctos."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezó a entender la gramática después de mucha práctica."
+      },
+      "solution": "He started to understand grammar after a lot of practice.",
+      "tip": {
+        "en": "Both 'started to understand' and 'started understanding' are correct.",
+        "es": "Tanto 'started to understand' como 'started understanding' son correctos."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ya empezaste a buscar trabajo?"
+      },
+      "solution": "Have you started looking for a job yet?",
+      "tip": {
+        "en": "Both 'started looking' and 'started to look' are correct.",
+        "es": "Tanto 'started looking' como 'started to look' son correctos."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezamos a ver mejoras después del cambio."
+      },
+      "solution": "We started to see improvements after the change.",
+      "tip": {
+        "en": "Both 'started to see' and 'started seeing' are correct.",
+        "es": "Tanto 'started to see' como 'started seeing' son correctos."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "El perro empezó a ladrar a medianoche."
+      },
+      "solution": "The dog started barking at midnight.",
+      "tip": {
+        "en": "Both 'started barking' and 'started to bark' are correct.",
+        "es": "Tanto 'started barking' como 'started to bark' son correctos."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo empezó a dolerle la cabeza?"
+      },
+      "solution": "When did your head start to hurt?",
+      "tip": {
+        "en": "Both 'start to hurt' and 'start hurting' are correct.",
+        "es": "Tanto 'start to hurt' como 'start hurting' son correctos."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezó a interesarse por el arte muy joven."
+      },
+      "solution": "She started getting interested in art very young.",
+      "tip": {
+        "en": "Both 'started getting' and 'started to get' are correct.",
+        "es": "Tanto 'started getting' como 'started to get' son correctos."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Los turistas empezaron a llegar muy temprano."
+      },
+      "solution": "Tourists started to arrive very early.",
+      "tip": {
+        "en": "Both 'started to arrive' and 'started arriving' are correct.",
+        "es": "Tanto 'started to arrive' como 'started arriving' son correctos."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Empecé a dudar de mis decisiones."
+      },
+      "solution": "I started doubting my decisions.",
+      "tip": {
+        "en": "Both 'started doubting' and 'started to doubt' are correct.",
+        "es": "Tanto 'started doubting' como 'started to doubt' son correctos."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ya empezó a funcionar el aire acondicionado?"
+      },
+      "solution": "Has the air conditioning started to work yet?",
+      "tip": {
+        "en": "Both 'started to work' and 'started working' are correct.",
+        "es": "Tanto 'started to work' como 'started working' son correctos."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezó a llover justo cuando salimos de casa."
+      },
+      "solution": "It started raining just as we left the house.",
+      "tip": {
+        "en": "Both 'started raining' and 'started to rain' are correct.",
+        "es": "Tanto 'started raining' como 'started to rain' son correctos."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Los empleados empezaron a protestar por los salarios."
+      },
+      "solution": "The employees started to protest about salaries.",
+      "tip": {
+        "en": "Both 'started to protest' and 'started protesting' are correct.",
+        "es": "Tanto 'started to protest' como 'started protesting' son correctos."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezó a ahorrar dinero para el viaje."
+      },
+      "solution": "She started saving money for the trip.",
+      "tip": {
+        "en": "Both 'started saving' and 'started to save' are correct.",
+        "es": "Tanto 'started saving' como 'started to save' son correctos."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo empezaste a vivir en esta ciudad?"
+      },
+      "solution": "When did you start to live in this city?",
+      "tip": {
+        "en": "Both 'start to live' and 'start living' are correct.",
+        "es": "Tanto 'start to live' como 'start living' son correctos."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezamos a notar los cambios inmediatamente."
+      },
+      "solution": "We started noticing the changes immediately.",
+      "tip": {
+        "en": "Both 'started noticing' and 'started to notice' are correct.",
+        "es": "Tanto 'started noticing' como 'started to notice' son correctos."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "El coche empezó a hacer ruidos extraños."
+      },
+      "solution": "The car started to make strange noises.",
+      "tip": {
+        "en": "Both 'started to make' and 'started making' are correct.",
+        "es": "Tanto 'started to make' como 'started making' son correctos."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ya empezaste a prepararte para el examen?"
+      },
+      "solution": "Have you started preparing for the exam yet?",
+      "tip": {
+        "en": "Both 'started preparing' and 'started to prepare' are correct.",
+        "es": "Tanto 'started preparing' como 'started to prepare' son correctos."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Empezó a mejorar su inglés después del curso."
+      },
+      "solution": "He started to improve his English after the course.",
+      "tip": {
+        "en": "Both 'started to improve' and 'started improving' are correct.",
+        "es": "Tanto 'started to improve' como 'started improving' son correctos."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Los problemas empezaron a aparecer después de la actualización."
+      },
+      "solution": "Problems started appearing after the update.",
+      "tip": {
+        "en": "Both 'started appearing' and 'started to appear' are correct.",
+        "es": "Tanto 'started appearing' como 'started to appear' son correctos."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo empezó a interesarte la fotografía?"
+      },
+      "solution": "When did you start to get interested in photography?",
+      "tip": {
+        "en": "Both 'start to get interested' and 'start getting interested' are correct.",
+        "es": "Tanto 'start to get interested' como 'start getting interested' son correctos."
+      }
+    }
+  ]
+}

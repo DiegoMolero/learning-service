@@ -1,0 +1,615 @@
+{
+  "topicId": "until_vs_up_to_1",
+  "title": {
+    "en": "Until vs. Up To - Different Uses of 'Hasta' (Hasta en tiempo vs espacio/cantidad)",
+    "es": "Until vs. Up To - Different Uses of 'Hasta' (Hasta en tiempo vs espacio/cantidad)"
+  },
+  "description": {
+    "en": "Learn when to use 'until' vs 'up to' for 'hasta'. UNTIL = time reference (day, hour, action). UP TO = physical point, quantity, or time period. Critical distinction Spanish speakers must master.",
+    "es": "Aprende cuándo usar 'until' vs 'up to' para 'hasta'. UNTIL = referencia temporal (día, hora, acción). UP TO = punto físico, cantidad, o periodo de tiempo. Distinción crítica que deben dominar los hispanohablantes."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Tienes hasta el próximo viernes para terminar el proyecto."
+      },
+      "solution": "You've got until next Friday to finish the project.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "No me iré hasta que llegues."
+      },
+      "solution": "I won't go until you arrive.",
+      "tip": {
+        "en": "Use 'until' for specific actions or events in time.",
+        "es": "Usa 'until' para acciones o eventos específicos en el tiempo."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Se quedará allí hasta que se muera."
+      },
+      "solution": "He will stay there until he dies.",
+      "tip": {
+        "en": "Use 'until' for specific actions or events in time.",
+        "es": "Usa 'until' para acciones o eventos específicos en el tiempo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "No lo sabré hasta que no se publiquen los resultados."
+      },
+      "solution": "I won't know until the results are published.",
+      "tip": {
+        "en": "Use 'until' for specific actions or events in time.",
+        "es": "Usa 'until' para acciones o eventos específicos en el tiempo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Te esperaremos hasta las cinco."
+      },
+      "solution": "We'll wait for you until five o'clock.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "A veces tengo que esperar hasta 30 minutos."
+      },
+      "solution": "Sometimes I have to wait for up to 30 minutes.",
+      "tip": {
+        "en": "Use 'up to' for time periods/quantities (not specific times).",
+        "es": "Usa 'up to' para periodos de tiempo/cantidades (no tiempos específicos)."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Llegó hasta la cumbre sin oxígeno."
+      },
+      "solution": "He climbed up to the summit without oxygen.",
+      "tip": {
+        "en": "Use 'up to' for physical points or destinations.",
+        "es": "Usa 'up to' para puntos físicos o destinos."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Tuvimos que reenviar el documento hasta 20 veces."
+      },
+      "solution": "We had to resend the document up to 20 times.",
+      "tip": {
+        "en": "Use 'up to' for quantities or amounts.",
+        "es": "Usa 'up to' para cantidades o montos."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Tienes seis meses para mejorar tu inglés."
+      },
+      "solution": "You have up to six months to improve your English.",
+      "tip": {
+        "en": "Use 'up to' for time periods/quantities (not specific times).",
+        "es": "Usa 'up to' para periodos de tiempo/cantidades (no tiempos específicos)."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "El agua me llegó a las rodillas."
+      },
+      "solution": "The water came up to my knees.",
+      "tip": {
+        "en": "Use 'up to' for physical points or destinations.",
+        "es": "Usa 'up to' para puntos físicos o destinos."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Trabajé hasta las diez anoche."
+      },
+      "solution": "I worked until ten o'clock last night.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Puede costar hasta 500 euros."
+      },
+      "solution": "It can cost up to 500 euros.",
+      "tip": {
+        "en": "Use 'up to' for quantities or amounts.",
+        "es": "Usa 'up to' para cantidades o montos."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "No volveré hasta el lunes."
+      },
+      "solution": "I won't be back until Monday.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Caminé hasta la estación."
+      },
+      "solution": "I walked up to the station.",
+      "tip": {
+        "en": "Use 'up to' for physical points or destinations.",
+        "es": "Usa 'up to' para puntos físicos o destinos."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperaré hasta que me llames."
+      },
+      "solution": "I'll wait until you call me.",
+      "tip": {
+        "en": "Use 'until' for specific actions or events in time.",
+        "es": "Usa 'until' para acciones o eventos específicos en el tiempo."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Pueden venir hasta 50 personas."
+      },
+      "solution": "Up to 50 people can come.",
+      "tip": {
+        "en": "Use 'up to' for quantities or amounts.",
+        "es": "Usa 'up to' para cantidades o montos."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Estudiaré hasta medianoche."
+      },
+      "solution": "I'll study until midnight.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "El ascensor sube hasta el piso 20."
+      },
+      "solution": "The lift goes up to the 20th floor.",
+      "tip": {
+        "en": "Use 'up to' for physical points or destinations.",
+        "es": "Usa 'up to' para puntos físicos o destinos."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "No abren hasta las nueve."
+      },
+      "solution": "They don't open until nine o'clock.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Tardé hasta dos horas en llegar."
+      },
+      "solution": "It took me up to two hours to get there.",
+      "tip": {
+        "en": "Use 'up to' for time periods/quantities (not specific times).",
+        "es": "Usa 'up to' para periodos de tiempo/cantidades (no tiempos específicos)."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "No salgas hasta que termine de llover."
+      },
+      "solution": "Don't go out until it stops raining.",
+      "tip": {
+        "en": "Use 'until' for specific actions or events in time.",
+        "es": "Usa 'until' para acciones o eventos específicos en el tiempo."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Corrió hasta la meta sin parar."
+      },
+      "solution": "He ran up to the finish line without stopping.",
+      "tip": {
+        "en": "Use 'up to' for physical points or destinations.",
+        "es": "Usa 'up to' para puntos físicos o destinos."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaré ocupado hasta el martes."
+      },
+      "solution": "I'll be busy until Tuesday.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Puedes ganar hasta 1000 euros al mes."
+      },
+      "solution": "You can earn up to 1000 euros a month.",
+      "tip": {
+        "en": "Use 'up to' for quantities or amounts.",
+        "es": "Usa 'up to' para cantidades o montos."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "No me moveré hasta que me des una respuesta."
+      },
+      "solution": "I won't move until you give me an answer.",
+      "tip": {
+        "en": "Use 'until' for specific actions or events in time.",
+        "es": "Usa 'until' para acciones o eventos específicos en el tiempo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "El río llega hasta el mar."
+      },
+      "solution": "The river goes up to the sea.",
+      "tip": {
+        "en": "Use 'up to' for physical points or destinations.",
+        "es": "Usa 'up to' para puntos físicos o destinos."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "La tienda está abierta hasta las ocho."
+      },
+      "solution": "The shop is open until eight o'clock.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Puede llevar hasta tres semanas."
+      },
+      "solution": "It can take up to three weeks.",
+      "tip": {
+        "en": "Use 'up to' for time periods/quantities (not specific times).",
+        "es": "Usa 'up to' para periodos de tiempo/cantidades (no tiempos específicos)."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Quedé en encontrarme con él hasta las seis."
+      },
+      "solution": "I agreed to meet him until six o'clock.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "El termómetro marca hasta 40 grados."
+      },
+      "solution": "The thermometer reads up to 40 degrees.",
+      "tip": {
+        "en": "Use 'up to' for quantities or amounts.",
+        "es": "Usa 'up to' para cantidades o montos."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "No habrá noticias hasta mañana."
+      },
+      "solution": "There won't be any news until tomorrow.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Subió hasta la torre más alta."
+      },
+      "solution": "He climbed up to the highest tower.",
+      "tip": {
+        "en": "Use 'up to' for physical points or destinations.",
+        "es": "Usa 'up to' para puntos físicos o destinos."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "No podrás salir hasta que hagas los deberes."
+      },
+      "solution": "You can't go out until you do your homework.",
+      "tip": {
+        "en": "Use 'until' for specific actions or events in time.",
+        "es": "Usa 'until' para acciones o eventos específicos en el tiempo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Acepta hasta 10 personas en el grupo."
+      },
+      "solution": "It accepts up to 10 people in the group.",
+      "tip": {
+        "en": "Use 'up to' for quantities or amounts.",
+        "es": "Usa 'up to' para cantidades o montos."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "La reunión durará hasta las cuatro."
+      },
+      "solution": "The meeting will last until four o'clock.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "El cable llega hasta el tejado."
+      },
+      "solution": "The cable reaches up to the roof.",
+      "tip": {
+        "en": "Use 'up to' for physical points or destinations.",
+        "es": "Usa 'up to' para puntos físicos o destinos."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "No veré la televisión hasta que termine este libro."
+      },
+      "solution": "I won't watch TV until I finish this book.",
+      "tip": {
+        "en": "Use 'until' for specific actions or events in time.",
+        "es": "Usa 'until' para acciones o eventos específicos en el tiempo."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Puede durar hasta cinco horas."
+      },
+      "solution": "It can last up to five hours.",
+      "tip": {
+        "en": "Use 'up to' for time periods/quantities (not specific times).",
+        "es": "Usa 'up to' para periodos de tiempo/cantidades (no tiempos específicos)."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Trabajaremos hasta el viernes."
+      },
+      "solution": "We'll work until Friday.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "La fila llegaba hasta la esquina."
+      },
+      "solution": "The queue went up to the corner.",
+      "tip": {
+        "en": "Use 'up to' for physical points or destinations.",
+        "es": "Usa 'up to' para puntos físicos o destinos."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "No podrá conducir hasta que no cumpla 18 años."
+      },
+      "solution": "He can't drive until he turns 18.",
+      "tip": {
+        "en": "Use 'until' for specific actions or events in time.",
+        "es": "Usa 'until' para acciones o eventos específicos en el tiempo."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Pueden participar hasta 100 estudiantes."
+      },
+      "solution": "Up to 100 students can participate.",
+      "tip": {
+        "en": "Use 'up to' for quantities or amounts.",
+        "es": "Usa 'up to' para cantidades o montos."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "El restaurante está cerrado hasta nuevo aviso."
+      },
+      "solution": "The restaurant is closed until further notice.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "El precio puede subir hasta un 20%."
+      },
+      "solution": "The price can go up to 20%.",
+      "tip": {
+        "en": "Use 'up to' for quantities or amounts.",
+        "es": "Usa 'up to' para cantidades o montos."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Seguiré intentando hasta que lo consiga."
+      },
+      "solution": "I'll keep trying until I succeed.",
+      "tip": {
+        "en": "Use 'until' for specific actions or events in time.",
+        "es": "Usa 'until' para acciones o eventos específicos en el tiempo."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "La escalera llega hasta el segundo piso."
+      },
+      "solution": "The stairs go up to the second floor.",
+      "tip": {
+        "en": "Use 'up to' for physical points or destinations.",
+        "es": "Usa 'up to' para puntos físicos o destinos."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "No hablaré hasta que me pidas perdón."
+      },
+      "solution": "I won't speak until you apologise.",
+      "tip": {
+        "en": "Use 'until' for specific actions or events in time.",
+        "es": "Usa 'until' para acciones o eventos específicos en el tiempo."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Puede pesar hasta 50 kilos."
+      },
+      "solution": "It can weigh up to 50 kilos.",
+      "tip": {
+        "en": "Use 'up to' for quantities or amounts.",
+        "es": "Usa 'up to' para cantidades o montos."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "El hospital está abierto hasta medianoche."
+      },
+      "solution": "The hospital is open until midnight.",
+      "tip": {
+        "en": "Use 'until' for specific time references (days, dates, hours).",
+        "es": "Usa 'until' para referencias de tiempo específicas (días, fechas, horas)."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "El sendero va hasta la cima de la montaña."
+      },
+      "solution": "The path goes up to the top of the mountain.",
+      "tip": {
+        "en": "Use 'up to' for physical points or destinations.",
+        "es": "Usa 'up to' para puntos físicos o destinos."
+      }
+    }
+  ]
+}

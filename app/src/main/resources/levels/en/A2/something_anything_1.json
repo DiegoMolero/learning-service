@@ -1,0 +1,675 @@
+{
+  "topicId": "something_anything_1",
+  "title": {
+    "en": "Something & Anything - Basic Usage (Algo en afirmativo y preguntas)",
+    "es": "Something & Anything - Basic Usage (Algo en afirmativo y preguntas)"
+  },
+  "description": {
+    "en": "Learn to use 'something' in affirmative sentences and 'anything' in questions. 'Something' is used in positive statements, while 'anything' is used in questions and negative sentences.",
+    "es": "Aprende a usar 'something' en frases afirmativas y 'anything' en preguntas. 'Something' se usa en afirmaciones positivas, mientras que 'anything' se usa en preguntas y frases negativas."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Comeré algo en la estación."
+      },
+      "solution": "I'll eat something at the station.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Quiero hacer algo al respecto."
+      },
+      "solution": "I want to do something about it.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay que hacer algo respecto a este problema."
+      },
+      "solution": "Something has to be done about this problem.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algo en él que no me gusta."
+      },
+      "solution": "There's something about him I don't like.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Tienes algo entre los dientes!"
+      },
+      "solution": "You've got something in your teeth!",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Viste algo?"
+      },
+      "solution": "Did you see anything?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Pasó algo interesante?"
+      },
+      "solution": "Did anything interesting happen?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Aprendiste algo?"
+      },
+      "solution": "Did you learn anything?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay algo que te da miedo?"
+      },
+      "solution": "Does anything scare you?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay algo que pueda hacer?"
+      },
+      "solution": "Is there anything I can do?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito decirte algo importante."
+      },
+      "solution": "I need to tell you something important.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Escuchaste algo raro anoche?"
+      },
+      "solution": "Did you hear anything strange last night?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Algo huele mal en la cocina."
+      },
+      "solution": "Something smells bad in the kitchen.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Encontraste algo interesante en el desván?"
+      },
+      "solution": "Did you find anything interesting in the attic?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Voy a comprar algo para cenar."
+      },
+      "solution": "I'm going to buy something for dinner.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay algo que no entiendes?"
+      },
+      "solution": "Is there anything you don't understand?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Algo está pasando aquí."
+      },
+      "solution": "Something is happening here.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Necesitas algo del supermercado?"
+      },
+      "solution": "Do you need anything from the supermarket?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que contarte algo."
+      },
+      "solution": "I have to tell you something.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te molesta algo?"
+      },
+      "solution": "Is anything bothering you?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Algo me dice que esto no va a funcionar."
+      },
+      "solution": "Something tells me this isn't going to work.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Viste algo sospechoso?"
+      },
+      "solution": "Did you see anything suspicious?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Quiero hacer algo especial por tu cumpleaños."
+      },
+      "solution": "I want to do something special for your birthday.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay algo que quieras decirme?"
+      },
+      "solution": "Is there anything you want to tell me?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Algo va mal con el ordenador."
+      },
+      "solution": "Something is wrong with the computer.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Compraste algo en el centro comercial?"
+      },
+      "solution": "Did you buy anything at the shopping centre?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito hacer algo para relajarme."
+      },
+      "solution": "I need to do something to relax.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te preocupa algo?"
+      },
+      "solution": "Does anything worry you?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Algo extraño pasó ayer."
+      },
+      "solution": "Something strange happened yesterday.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Recuerdas algo del accidente?"
+      },
+      "solution": "Do you remember anything about the accident?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que preparar algo para la fiesta."
+      },
+      "solution": "I have to prepare something for the party.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Sabes algo sobre el nuevo proyecto?"
+      },
+      "solution": "Do you know anything about the new project?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Algo me parece familiar en esta habitación."
+      },
+      "solution": "Something seems familiar about this room.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Perdiste algo en el taxi?"
+      },
+      "solution": "Did you lose anything in the taxi?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Voy a cocinar algo delicioso."
+      },
+      "solution": "I'm going to cook something delicious.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te duele algo?"
+      },
+      "solution": "Does anything hurt?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Algo bueno va a pasar pronto."
+      },
+      "solution": "Something good is going to happen soon.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay algo que te guste de esta ciudad?"
+      },
+      "solution": "Is there anything you like about this city?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que buscar algo en internet."
+      },
+      "solution": "I have to look for something on the internet.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Notaste algo diferente en su comportamiento?"
+      },
+      "solution": "Did you notice anything different about his behaviour?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Algo me dice que deberíamos irnos."
+      },
+      "solution": "Something tells me we should leave.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay algo que podamos hacer para ayudar?"
+      },
+      "solution": "Is there anything we can do to help?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Quiero cambiar algo en mi vida."
+      },
+      "solution": "I want to change something in my life.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te falta algo para completar el trabajo?"
+      },
+      "solution": "Do you need anything to complete the work?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Algo brillante está en el suelo."
+      },
+      "solution": "Something shiny is on the floor.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Olvidaste algo en casa?"
+      },
+      "solution": "Did you forget anything at home?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Voy a regalar algo especial a mi madre."
+      },
+      "solution": "I'm going to give something special to my mother.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te interesa algo en particular?"
+      },
+      "solution": "Are you interested in anything in particular?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Algo emocionante va a ocurrir mañana."
+      },
+      "solution": "Something exciting is going to happen tomorrow.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Puedes hacer algo por mí?"
+      },
+      "solution": "Can you do anything for me?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_51",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito encontrar algo para leer."
+      },
+      "solution": "I need to find something to read.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    },
+    {
+      "id": "ex_52",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gusta algo de esta música?"
+      },
+      "solution": "Do you like anything about this music?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_53",
+      "type": "translation",
+      "prompt": {
+        "es": "Algo me preocupa sobre este plan."
+      },
+      "solution": "Something worries me about this plan.",
+      "tip": {
+        "en": "When 'something' is the subject, use singular verb form.",
+        "es": "Cuando 'something' es el sujeto, usa la forma singular del verbo."
+      }
+    },
+    {
+      "id": "ex_54",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay algo más que necesites?"
+      },
+      "solution": "Is there anything else you need?",
+      "tip": {
+        "en": "Use 'anything' in questions instead of 'something'.",
+        "es": "Usa 'anything' en preguntas en lugar de 'something'."
+      }
+    },
+    {
+      "id": "ex_55",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que arreglar algo en mi habitación."
+      },
+      "solution": "I have to fix something in my room.",
+      "tip": {
+        "en": "Use 'something' in affirmative sentences to express 'algo'.",
+        "es": "Usa 'something' en frases afirmativas para expresar 'algo'."
+      }
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "topicId": "there_are_1",
+  "title": {
+    "en": "There are - Plural, Negative & Questions (Hay plural, negativo y preguntas)",
+    "es": "There are - Plural, Negative & Questions (Hay plural, negativo y preguntas)"
+  },
+  "description": {
+    "en": "Learn 'there are' for plural nouns, negative 'there aren't', and questions 'Are there...?'. Spanish speakers often miss the singular/plural distinction in 'hay', but English requires different forms for different quantities.",
+    "es": "Aprende 'there are' para sustantivos en plural, negativo 'there aren't', y preguntas 'Are there...?'. Los hispanohablantes a menudo pierden la distinción singular/plural en 'hay', pero el inglés requiere formas diferentes para diferentes cantidades."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay cientos de moscas volando por el aire."
+      },
+      "solution": "There are hundreds of flies flying about.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay miles de personas esperando tu respuesta."
+      },
+      "solution": "There are thousands of people waiting for your answer.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Hay millones de personas leyendo esta página ahora mismo!"
+      },
+      "solution": "There are millions of people reading this page right now!",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay pasos de cebra en mi calle."
+      },
+      "solution": "There aren't any zebra crossings on my street.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay soluciones indoloras para aprender inglés."
+      },
+      "solution": "There aren't any painless solutions to learn English.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántas personas zurdas hay en tu barrio?"
+      },
+      "solution": "How many left-handed people are there in your neighbourhood?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántos mosquitos muertos hay en tu parabrisas?"
+      },
+      "solution": "How many dead mosquitos are there on your windscreen?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántos submarinos nucleares hay en la Armada Norteamericana?"
+      },
+      "solution": "How many nuclear submarines are there in the American Navy?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay traumatólogos en aquel hospital?"
+      },
+      "solution": "Are there any bone-specialists in that hospital?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay muchas máquinas de fax en tu oficina?"
+      },
+      "solution": "Are there many fax machines in your office?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay tres coches aparcados fuera."
+      },
+      "solution": "There are three cars parked outside.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay estudiantes en la biblioteca?"
+      },
+      "solution": "Are there any students in the library?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay ventanas en este sótano."
+      },
+      "solution": "There aren't any windows in this basement.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay muchos libros en esa estantería."
+      },
+      "solution": "There are many books on that shelf.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay baños públicos en este parque?"
+      },
+      "solution": "Are there any public toilets in this park?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay tiendas abiertas los domingos."
+      },
+      "solution": "There aren't any shops open on Sundays.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay dos gatos durmiendo en el sofá."
+      },
+      "solution": "There are two cats sleeping on the sofa.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántos teatros hay en el centro de la ciudad?"
+      },
+      "solution": "How many theatres are there in the city centre?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay suficientes sillas para todos."
+      },
+      "solution": "There aren't enough chairs for everyone.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay varios restaurantes en esta calle."
+      },
+      "solution": "There are several restaurants on this street.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay errores en este informe?"
+      },
+      "solution": "Are there any mistakes in this report?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay autobuses nocturnos en mi ciudad."
+      },
+      "solution": "There aren't any night buses in my city.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay muchas nubes en el cielo hoy."
+      },
+      "solution": "There are many clouds in the sky today.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay médicos disponibles los fines de semana?"
+      },
+      "solution": "Are there any doctors available at weekends?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay problemas con tu solicitud."
+      },
+      "solution": "There aren't any problems with your application.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay cinco universidades en esta región."
+      },
+      "solution": "There are five universities in this region.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay plazas libres en el curso?"
+      },
+      "solution": "Are there any places available on the course?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay razones para preocuparse."
+      },
+      "solution": "There aren't any reasons to worry.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay muchos turistas en la plaza principal."
+      },
+      "solution": "There are many tourists in the main square.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántas personas hay en la sala de espera?"
+      },
+      "solution": "How many people are there in the waiting room?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay ascensores en este edificio antiguo."
+      },
+      "solution": "There aren't any lifts in this old building.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay cuatro estaciones de metro cerca."
+      },
+      "solution": "There are four underground stations nearby.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay ofertas especiales esta semana?"
+      },
+      "solution": "Are there any special offers this week?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay suficientes profesores en esta escuela."
+      },
+      "solution": "There aren't enough teachers in this school.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay muchas flores en el jardín."
+      },
+      "solution": "There are many flowers in the garden.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay cámaras de seguridad en el edificio?"
+      },
+      "solution": "Are there any security cameras in the building?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay farmacias abiertas por la noche."
+      },
+      "solution": "There aren't any pharmacies open at night.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay varios museos interesantes en la ciudad."
+      },
+      "solution": "There are several interesting museums in the city.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántos parques hay en tu barrio?"
+      },
+      "solution": "How many parks are there in your neighbourhood?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay entradas disponibles para el concierto."
+      },
+      "solution": "There aren't any tickets available for the concert.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay diez estudiantes en mi clase de inglés."
+      },
+      "solution": "There are ten students in my English class.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay alternativas a este plan?"
+      },
+      "solution": "Are there any alternatives to this plan?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay suficientes habitaciones en el hotel."
+      },
+      "solution": "There aren't enough rooms in the hotel.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay muchas opciones en el menú."
+      },
+      "solution": "There are many options on the menu.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay conexiones de tren directas a Londres?"
+      },
+      "solution": "Are there any direct train connections to London?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay semáforos en esta carretera rural."
+      },
+      "solution": "There aren't any traffic lights on this country road.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay muchos coches aparcados en la calle."
+      },
+      "solution": "There are many cars parked on the street.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántas oficinas de correos hay en el centro?"
+      },
+      "solution": "How many post offices are there in the centre?",
+      "tip": {
+        "en": "Invert 'there' and 'are' to form questions: 'Are there...?'",
+        "es": "Invierte 'there' y 'are' para formar preguntas: 'Are there...?'"
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay restaurantes vegetarianos en esta zona."
+      },
+      "solution": "There aren't any vegetarian restaurants in this area.",
+      "tip": {
+        "en": "Use 'there aren't' for negative plural. No contraction for positive.",
+        "es": "Usa 'there aren't' para plural negativo. No hay contracción para positivo."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay veinte empleados trabajando en esta oficina."
+      },
+      "solution": "There are twenty employees working in this office.",
+      "tip": {
+        "en": "Use 'there are' for plural countable nouns.",
+        "es": "Usa 'there are' para sustantivos contables en plural."
+      }
+    }
+  ]
+}

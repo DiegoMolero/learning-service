@@ -1,0 +1,615 @@
+{
+  "topicId": "to_want_1",
+  "title": {
+    "en": "To Want - Object + Infinitive Structure (Querer que + subjuntivo)",
+    "es": "To Want - Object + Infinitive Structure (Querer que + subjuntivo)"
+  },
+  "description": {
+    "en": "Learn the correct English structure: want + object pronoun + to + infinitive. English doesn't use 'that' clauses after 'want' like Spanish does with subjunctive.",
+    "es": "Aprende la estructura correcta en inglés: want + pronombre objeto + to + infinitivo. El inglés no usa cláusulas con 'that' después de 'want' como el español con subjuntivo."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Quiero que él me eche una mano."
+      },
+      "solution": "I want him to give me a hand.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'I want that he...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'I want that he...'"
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella quiere que yo preste más atención."
+      },
+      "solution": "She wants me to pay more attention.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'She wants that I...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'She wants that I...'"
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "No queremos que sepan nada al respecto."
+      },
+      "solution": "We don't want them to know about it.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'We don't want that they...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'We don't want that they...'"
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "No quieren que estropeemos la sorpresa."
+      },
+      "solution": "They don't want us to spoil the surprise.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'They don't want that we...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'They don't want that we...'"
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Él quiere que ella firme el contrato."
+      },
+      "solution": "He wants her to sign the contract.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'He wants that she...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'He wants that she...'"
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que él guarde la compra?"
+      },
+      "solution": "Do you want him to put away the shopping?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ella quiere que yo doble mi ropa?"
+      },
+      "solution": "Does she want me to fold my clothes?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieren que doblemos las sillas del jardín?"
+      },
+      "solution": "Do they want us to fold up the garden chairs?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Él quiere duplicar las ventas del mes pasado?"
+      },
+      "solution": "Does he want them to double last month's sales?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que yo haga copias por duplicado?"
+      },
+      "solution": "Do you want me to make duplicate copies?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Quiero que tú vengas conmigo."
+      },
+      "solution": "I want you to come with me.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'I want that you...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'I want that you...'"
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que él espere fuera?"
+      },
+      "solution": "Do you want him to wait outside?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella quiere que nosotros lleguemos temprano."
+      },
+      "solution": "She wants us to arrive early.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'She wants that we...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'She wants that we...'"
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieren que ella cierre la puerta?"
+      },
+      "solution": "Do they want her to close the door?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "No quiero que ellos se preocupen."
+      },
+      "solution": "I don't want them to worry.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'I don't want that they...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'I don't want that they...'"
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Él quiere que tú conduzcas?"
+      },
+      "solution": "Does he want you to drive?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Queremos que él termine el trabajo."
+      },
+      "solution": "We want him to finish the work.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'We want that he...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'We want that he...'"
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que yo llame más tarde?"
+      },
+      "solution": "Do you want me to call later?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella no quiere que nosotros gastemos tanto."
+      },
+      "solution": "She doesn't want us to spend so much.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'She doesn't want that we...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'She doesn't want that we...'"
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieren que ella participe en la reunión?"
+      },
+      "solution": "Do they want her to participate in the meeting?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Quiero que tú entiendas la situación."
+      },
+      "solution": "I want you to understand the situation.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'I want that you...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'I want that you...'"
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Él quiere que nosotros vayamos también?"
+      },
+      "solution": "Does he want us to go too?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "No queremos que él se sienta mal."
+      },
+      "solution": "We don't want him to feel bad.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'We don't want that he...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'We don't want that he...'"
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que ellos vengan a la fiesta?"
+      },
+      "solution": "Do you want them to come to the party?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella quiere que yo aprenda francés."
+      },
+      "solution": "She wants me to learn French.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'She wants that I...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'She wants that I...'"
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieren que ella prepare la cena?"
+      },
+      "solution": "Do they want her to prepare dinner?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "No quiero que tú te canses."
+      },
+      "solution": "I don't want you to get tired.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'I don't want that you...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'I don't want that you...'"
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Él quiere que yo traiga algo?"
+      },
+      "solution": "Does he want me to bring something?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Queremos que ellos se queden más tiempo."
+      },
+      "solution": "We want them to stay longer.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'We want that they...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'We want that they...'"
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que ella te ayude?"
+      },
+      "solution": "Do you want her to help you?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella no quiere que él sepa la verdad."
+      },
+      "solution": "She doesn't want him to know the truth.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'She doesn't want that he...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'She doesn't want that he...'"
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieren que nosotros empezemos ahora?"
+      },
+      "solution": "Do they want us to start now?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Quiero que tú seas feliz."
+      },
+      "solution": "I want you to be happy.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'I want that you...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'I want that you...'"
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Él quiere que ella venga temprano?"
+      },
+      "solution": "Does he want her to come early?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "No queremos que ellos gasten más dinero."
+      },
+      "solution": "We don't want them to spend more money.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'We don't want that they...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'We don't want that they...'"
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que yo hable con él?"
+      },
+      "solution": "Do you want me to talk to him?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella quiere que nosotros estudiemos más."
+      },
+      "solution": "She wants us to study more.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'She wants that we...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'She wants that we...'"
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieren que él tome una decisión?"
+      },
+      "solution": "Do they want him to make a decision?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "No quiero que tú te preocupes por mí."
+      },
+      "solution": "I don't want you to worry about me.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'I don't want that you...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'I don't want that you...'"
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ella quiere que yo cocine esta noche?"
+      },
+      "solution": "Does she want me to cook tonight?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Queremos que ella se sienta cómoda."
+      },
+      "solution": "We want her to feel comfortable.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'We want that she...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'We want that she...'"
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que ellos nos visiten?"
+      },
+      "solution": "Do you want them to visit us?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Él no quiere que yo maneje su coche."
+      },
+      "solution": "He doesn't want me to drive his car.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'He doesn't want that I...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'He doesn't want that I...'"
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieren que nosotros limpiemos la casa?"
+      },
+      "solution": "Do they want us to clean the house?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Quiero que él tenga éxito."
+      },
+      "solution": "I want him to succeed.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'I want that he...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'I want that he...'"
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ella quiere que tú vayas con ella?"
+      },
+      "solution": "Does she want you to go with her?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "No queremos que ellos se vayan todavía."
+      },
+      "solution": "We don't want them to leave yet.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'We don't want that they...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'We don't want that they...'"
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que yo te recoja?"
+      },
+      "solution": "Do you want me to pick you up?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella quiere que nosotros entendamos sus razones."
+      },
+      "solution": "She wants us to understand her reasons.",
+      "tip": {
+        "en": "Use want + object pronoun + to + infinitive. Never 'She wants that we...'",
+        "es": "Usa want + pronombre objeto + to + infinitivo. Nunca 'She wants that we...'"
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Él quiere que ella acepte la oferta?"
+      },
+      "solution": "Does he want her to accept the offer?",
+      "tip": {
+        "en": "In questions: Do/Does + subject + want + object + to + infinitive",
+        "es": "En preguntas: Do/Does + sujeto + want + objeto + to + infinitivo"
+      }
+    }
+  ]
+}

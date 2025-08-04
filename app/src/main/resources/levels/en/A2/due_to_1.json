@@ -1,0 +1,615 @@
+{
+  "topicId": "due_to_1",
+  "title": {
+    "en": "Due to - Expressing Causation (Debido a / debido a que)",
+    "es": "Due to - Expressing Causation (Debido a / debido a que)"
+  },
+  "description": {
+    "en": "Learn to use 'due to' for expressing causation. Use 'due to + noun' for 'debido a', and 'due to the fact that + clause' for 'debido a que'. Often replaced by 'as' or 'because of' in informal speech.",
+    "es": "Aprende a usar 'due to' para expresar causalidad. Usa 'due to + sustantivo' para 'debido a', y 'due to the fact that + oración' para 'debido a que'. A menudo se sustituye por 'as' o 'because of' en el habla informal."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido al tráfico, llegué tarde."
+      },
+      "solution": "Due to the traffic, I arrived late.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la manifestación, la calle se cortó."
+      },
+      "solution": "Due to the demonstration, the street was cut.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a su actitud, perdimos."
+      },
+      "solution": "Due to his attitude, we lost.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a las altas temperaturas, mucha gente se desmayó."
+      },
+      "solution": "Due to the high temperatures, many people fainted.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la fuerte carga de trabajo, tuvimos que quedarnos hasta más tarde."
+      },
+      "solution": "Due to the heavy workload, we had to stay later.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Como tengo una reunión, me perderé el partido."
+      },
+      "solution": "Due to the fact that I have a meeting, I will miss the match.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "El avión no pudo despegar, debido a que hubo una tormenta."
+      },
+      "solution": "Due to the fact that there was a storm, the plane couldn't take off.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Como odio volar, siempre viajo en tren."
+      },
+      "solution": "Due to the fact that I hate flying, I always travel by train.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Como huele a pescado en esa zona, prefiero pasear a mi perro en otra parte."
+      },
+      "solution": "Due to the fact that it smells of fish in that part, I prefer to walk my dog elsewhere.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Como ese establecimiento es caro, iremos al de enfrente."
+      },
+      "solution": "Due to the fact that that establishment is expensive, we'll go to the one opposite.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la lluvia, cancelaron el evento."
+      },
+      "solution": "Due to the rain, they cancelled the event.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Como estaba enfermo, no vino a trabajar."
+      },
+      "solution": "Due to the fact that he was ill, he didn't come to work.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a los problemas técnicos, el vuelo se retrasó."
+      },
+      "solution": "Due to technical problems, the flight was delayed.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Como no tenía dinero suficiente, no pude comprar el coche."
+      },
+      "solution": "Due to the fact that I didn't have enough money, I couldn't buy the car.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la huelga, los autobuses no funcionaban."
+      },
+      "solution": "Due to the strike, the buses weren't running.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Como llegamos tarde, perdimos el tren."
+      },
+      "solution": "Due to the fact that we arrived late, we missed the train.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido al mal tiempo, cerraron el aeropuerto."
+      },
+      "solution": "Due to bad weather, they closed the airport.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Como el restaurante estaba lleno, fuimos a otro sitio."
+      },
+      "solution": "Due to the fact that the restaurant was full, we went somewhere else.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a un accidente, la carretera estaba cortada."
+      },
+      "solution": "Due to an accident, the road was closed.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Como no había sitio para aparcar, llegué tarde."
+      },
+      "solution": "Due to the fact that there was no parking space, I arrived late.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la crisis económica, muchas empresas cerraron."
+      },
+      "solution": "Due to the economic crisis, many companies closed down.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Como el profesor estaba enfermo, cancelaron la clase."
+      },
+      "solution": "Due to the fact that the teacher was sick, they cancelled the class.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la falta de personal, el servicio era muy lento."
+      },
+      "solution": "Due to the lack of staff, the service was very slow.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Como olvidé las llaves, no pude entrar en casa."
+      },
+      "solution": "Due to the fact that I forgot my keys, I couldn't get into the house.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la niebla, hubo muchos accidentes."
+      },
+      "solution": "Due to the fog, there were many accidents.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Como no tenía experiencia, no me dieron el trabajo."
+      },
+      "solution": "Due to the fact that I had no experience, they didn't give me the job.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido al ruido, no pude dormir bien."
+      },
+      "solution": "Due to the noise, I couldn't sleep well.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Como el precio subió mucho, decidimos no comprarlo."
+      },
+      "solution": "Due to the fact that the price went up a lot, we decided not to buy it.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a los recortes presupuestarios, despidieron a muchos empleados."
+      },
+      "solution": "Due to budget cuts, they fired many employees.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Como no sabía la dirección, me perdí."
+      },
+      "solution": "Due to the fact that I didn't know the address, I got lost.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la contaminación, cerraron la playa."
+      },
+      "solution": "Due to pollution, they closed the beach.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Como el ascensor no funcionaba, subimos por las escaleras."
+      },
+      "solution": "Due to the fact that the lift wasn't working, we took the stairs.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la sequía, racionaron el agua."
+      },
+      "solution": "Due to the drought, they rationed water.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Como perdí el autobús, tuve que caminar."
+      },
+      "solution": "Due to the fact that I missed the bus, I had to walk.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la pandemia, trabajamos desde casa."
+      },
+      "solution": "Due to the pandemic, we worked from home.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Como no había luz, cenamos a la luz de las velas."
+      },
+      "solution": "Due to the fact that there was no electricity, we had dinner by candlelight.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a su lesión, no pudo jugar el partido."
+      },
+      "solution": "Due to his injury, he couldn't play the match.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Como era muy tarde, decidimos quedarnos en casa."
+      },
+      "solution": "Due to the fact that it was very late, we decided to stay at home.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la alta demanda, agotaron las entradas."
+      },
+      "solution": "Due to high demand, they sold out the tickets.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Como el café estaba muy caliente, me quemé la lengua."
+      },
+      "solution": "Due to the fact that the coffee was very hot, I burnt my tongue.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la reforma, la tienda estará cerrada una semana."
+      },
+      "solution": "Due to renovations, the shop will be closed for a week.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Como no entendía las instrucciones, pedí ayuda."
+      },
+      "solution": "Due to the fact that I didn't understand the instructions, I asked for help.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la inflación, los precios subieron mucho."
+      },
+      "solution": "Due to inflation, prices went up a lot.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Como tenía mucho trabajo, no pude salir con mis amigos."
+      },
+      "solution": "Due to the fact that I had a lot of work, I couldn't go out with my friends.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a las obras, el tráfico era terrible."
+      },
+      "solution": "Due to roadworks, the traffic was terrible.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Como el hotel estaba completo, tuvimos que buscar otro."
+      },
+      "solution": "Due to the fact that the hotel was full, we had to find another one.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido a la emergencia, evacuaron el edificio."
+      },
+      "solution": "Due to the emergency, they evacuated the building.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Como no tenía cita, tuve que esperar mucho tiempo."
+      },
+      "solution": "Due to the fact that I didn't have an appointment, I had to wait a long time.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Debido al error del sistema, perdimos todos los datos."
+      },
+      "solution": "Due to a system error, we lost all the data.",
+      "tip": {
+        "en": "Use 'due to + noun' for expressing causation (debido a).",
+        "es": "Usa 'due to + sustantivo' para expresar causalidad (debido a)."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Como el tiempo cambió de repente, nos mojamos todos."
+      },
+      "solution": "Due to the fact that the weather changed suddenly, we all got soaked.",
+      "tip": {
+        "en": "Use 'due to the fact that + clause' for 'debido a que' (formal).",
+        "es": "Usa 'due to the fact that + oración' para 'debido a que' (formal)."
+      }
+    }
+  ]
+}

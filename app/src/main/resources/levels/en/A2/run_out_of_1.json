@@ -1,0 +1,615 @@
+{
+  "topicId": "run_out_of_1",
+  "title": {
+    "en": "Run Out (Of) - Finishing Something (Quedarse sin / Acabarse)",
+    "es": "Run Out (Of) - Finishing Something (Quedarse sin / Acabarse)"
+  },
+  "description": {
+    "en": "Learn to use 'run out of' when something finishes or you have no more of it. With object: 'run out of something'. Without object: 'run out'. Also means 'expire' (caducar) when used intransitively.",
+    "es": "Aprende a usar 'run out of' cuando algo se acaba o no tienes más. Con objeto: 'run out of something'. Sin objeto: 'run out'. También significa 'caducar' cuando se usa intransitivamente."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Me he quedado sin leche."
+      },
+      "solution": "I've run out of milk.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Se me están acabando las ideas."
+      },
+      "solution": "I'm running out of ideas.",
+      "tip": {
+        "en": "Use 'running out of' for something that's finishing gradually.",
+        "es": "Usa 'running out of' para algo que se está acabando gradualmente."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Se quedaron sin gasolina en la autopista."
+      },
+      "solution": "They ran out of petrol on the motorway.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Me quedé sin dinero a las diez así que tuve que ir a un cajero automático."
+      },
+      "solution": "I ran out of money at ten so I had to go to a cash machine.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué harías si te quedaras sin agua en medio del Sahara?"
+      },
+      "solution": "What would you do if you ran out of water in the middle of the Sahara desert?",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes azúcar? - No, se me acabó ayer."
+      },
+      "solution": "Do you have any sugar? - No, I ran out yesterday.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Llevas dinero encima? - No, se me ha acabado."
+      },
+      "solution": "Have you got any cash on you? - No, I've run out.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tuvisteis bastante gasolina para volver a casa? - No, nos quedamos a cinco kilómetros de casa."
+      },
+      "solution": "Did you have enough petrol to get back home? - No, we ran out five miles short of our house.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Me caduca el visado al final de este mes."
+      },
+      "solution": "My visa runs out at the end of this month.",
+      "tip": {
+        "en": "'Run out' also means 'expire' (caducar) for documents, subscriptions.",
+        "es": "'Run out' también significa 'caducar' para documentos, suscripciones."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que renovar mi suscripción ya que caduca el mes que viene."
+      },
+      "solution": "I must renew my subscription as it runs out next month.",
+      "tip": {
+        "en": "'Run out' also means 'expire' (caducar) for documents, subscriptions.",
+        "es": "'Run out' también significa 'caducar' para documentos, suscripciones."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Se me está acabando el café."
+      },
+      "solution": "I'm running out of coffee.",
+      "tip": {
+        "en": "Use 'running out of' for something that's finishing gradually.",
+        "es": "Usa 'running out of' para algo que se está acabando gradualmente."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te quedaste sin batería en el móvil?"
+      },
+      "solution": "Did you run out of battery on your mobile?",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Se nos acabó la comida durante el viaje."
+      },
+      "solution": "We ran out of food during the trip.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes más papel? - No, se me acabó esta mañana."
+      },
+      "solution": "Do you have more paper? - No, I ran out this morning.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Me estoy quedando sin tiempo para terminar."
+      },
+      "solution": "I'm running out of time to finish.",
+      "tip": {
+        "en": "Use 'running out of' for something that's finishing gradually.",
+        "es": "Usa 'running out of' para algo que se está acabando gradualmente."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Se quedaron sin agua caliente en el hotel."
+      },
+      "solution": "They ran out of hot water at the hotel.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Le caduca el pasaporte la semana que viene."
+      },
+      "solution": "His passport runs out next week.",
+      "tip": {
+        "en": "'Run out' also means 'expire' (caducar) for documents, subscriptions.",
+        "es": "'Run out' también significa 'caducar' para documentos, suscripciones."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tienes tinta para la impresora? - No, se acabó ayer."
+      },
+      "solution": "Do you have ink for the printer? - No, it ran out yesterday.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Me he quedado sin paciencia con este proyecto."
+      },
+      "solution": "I've run out of patience with this project.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Se nos está acabando el espacio en el disco duro."
+      },
+      "solution": "We're running out of space on the hard drive.",
+      "tip": {
+        "en": "Use 'running out of' for something that's finishing gradually.",
+        "es": "Usa 'running out of' para algo que se está acabando gradualmente."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Compraste más sal? - Sí, porque se nos acabó."
+      },
+      "solution": "Did you buy more salt? - Yes, because we ran out.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Me quedé sin crédito en el móvil."
+      },
+      "solution": "I ran out of credit on my mobile.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Se me acabaron las fuerzas después del maratón."
+      },
+      "solution": "I ran out of energy after the marathon.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Tenemos más pan? - No, se acabó en el desayuno."
+      },
+      "solution": "Do we have more bread? - No, it ran out at breakfast.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Se me está acabando la memoria del teléfono."
+      },
+      "solution": "I'm running out of memory on my phone.",
+      "tip": {
+        "en": "Use 'running out of' for something that's finishing gradually.",
+        "es": "Usa 'running out of' para algo que se está acabando gradualmente."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Les caduca el contrato de alquiler en junio."
+      },
+      "solution": "Their rental contract runs out in June.",
+      "tip": {
+        "en": "'Run out' also means 'expire' (caducar) for documents, subscriptions.",
+        "es": "'Run out' también significa 'caducar' para documentos, suscripciones."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Se quedaron sin entradas para el concierto."
+      },
+      "solution": "They ran out of tickets for the concert.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Queda champú? - No, se acabó la semana pasada."
+      },
+      "solution": "Is there any shampoo left? - No, it ran out last week.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Me he quedado sin palabras para describir esto."
+      },
+      "solution": "I've run out of words to describe this.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Se nos está acabando el plazo para entregar el proyecto."
+      },
+      "solution": "We're running out of time to submit the project.",
+      "tip": {
+        "en": "Use 'running out of' for something that's finishing gradually.",
+        "es": "Usa 'running out of' para algo que se está acabando gradualmente."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay más servilletas? - No, se acabaron con la comida."
+      },
+      "solution": "Are there more napkins? - No, they ran out during the meal.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Me quedé sin gasolina a mitad de camino."
+      },
+      "solution": "I ran out of petrol halfway there.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Se me acabaron las excusas para no ir."
+      },
+      "solution": "I ran out of excuses not to go.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Compraste más detergente? - Sí, porque se había acabado."
+      },
+      "solution": "Did you buy more detergent? - Yes, because it had run out.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Me estoy quedando sin espacio en la maleta."
+      },
+      "solution": "I'm running out of space in my suitcase.",
+      "tip": {
+        "en": "Use 'running out of' for something that's finishing gradually.",
+        "es": "Usa 'running out of' para algo que se está acabando gradualmente."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi suscripción al gimnasio caduca en diciembre."
+      },
+      "solution": "My gym membership runs out in December.",
+      "tip": {
+        "en": "'Run out' also means 'expire' (caducar) for documents, subscriptions.",
+        "es": "'Run out' también significa 'caducar' para documentos, suscripciones."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Se quedaron sin sitio en el aparcamiento."
+      },
+      "solution": "They ran out of space in the car park.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Queda jabón? - No, se acabó esta mañana."
+      },
+      "solution": "Is there any soap left? - No, it ran out this morning.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Me he quedado sin argumentos para convencerle."
+      },
+      "solution": "I've run out of arguments to convince him.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Se nos está acabando el presupuesto para este proyecto."
+      },
+      "solution": "We're running out of budget for this project.",
+      "tip": {
+        "en": "Use 'running out of' for something that's finishing gradually.",
+        "es": "Usa 'running out of' para algo que se está acabando gradualmente."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay más toallas limpias? - No, se acabaron en la lavandería."
+      },
+      "solution": "Are there more clean towels? - No, they ran out at the laundry.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Me quedé sin datos en el móvil."
+      },
+      "solution": "I ran out of data on my mobile.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Se me acabaron las ideas para el regalo."
+      },
+      "solution": "I ran out of ideas for the present.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Necesitas más cartuchos de tinta? - Sí, se acabaron ayer."
+      },
+      "solution": "Do you need more ink cartridges? - Yes, they ran out yesterday.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Me estoy quedando sin opciones para resolver esto."
+      },
+      "solution": "I'm running out of options to solve this.",
+      "tip": {
+        "en": "Use 'running out of' for something that's finishing gradually.",
+        "es": "Usa 'running out of' para algo que se está acabando gradualmente."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi carné de conducir caduca el año que viene."
+      },
+      "solution": "My driving licence runs out next year.",
+      "tip": {
+        "en": "'Run out' also means 'expire' (caducar) for documents, subscriptions.",
+        "es": "'Run out' también significa 'caducar' para documentos, suscripciones."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Se quedaron sin cerveza en la fiesta."
+      },
+      "solution": "They ran out of beer at the party.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Queda papel higiénico? - No, se acabó anoche."
+      },
+      "solution": "Is there any toilet paper left? - No, it ran out last night.",
+      "tip": {
+        "en": "Without object, use 'run out' (no 'of'). Object already mentioned.",
+        "es": "Sin objeto, usa 'run out' (sin 'of'). El objeto ya se mencionó."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Me he quedado sin esperanza de encontrar trabajo."
+      },
+      "solution": "I've run out of hope of finding a job.",
+      "tip": {
+        "en": "Use 'run out of' + object when you have no more of something.",
+        "es": "Usa 'run out of' + objeto cuando no tienes más de algo."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Se nos está acabando el aire acondicionado en el coche."
+      },
+      "solution": "We're running out of air conditioning in the car.",
+      "tip": {
+        "en": "Use 'running out of' for something that's finishing gradually.",
+        "es": "Usa 'running out of' para algo que se está acabando gradualmente."
+      }
+    }
+  ]
+}

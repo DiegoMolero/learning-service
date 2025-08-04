@@ -1,0 +1,615 @@
+{
+  "topicId": "despite_1",
+  "title": {
+    "en": "Despite - A pesar de (sin preposición y con 'despite the fact that')",
+    "es": "Despite - A pesar de (sin preposición y con 'despite the fact that')"
+  },
+  "description": {
+    "en": "Learn to use 'despite' correctly: with nouns (no preposition needed) and with verbs (use 'despite the fact that'). Unlike Spanish, 'despite' doesn't take a preposition.",
+    "es": "Aprende a usar 'despite' correctamente: con sustantivos (sin preposición) y con verbos (usar 'despite the fact that'). A diferencia del español, 'despite' no lleva preposición."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del calor, fueron a dar un paseo."
+      },
+      "solution": "Despite the heat, they went for a walk.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de mi acento, me puedes entender."
+      },
+      "solution": "Despite my accent, you can understand me.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la demora, llegaremos a tiempo."
+      },
+      "solution": "Despite the delay, we'll arrive on time.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de las quejas, no dejaron de construir."
+      },
+      "solution": "Despite the complaints, they didn't stop building.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de todos los problemas, lo hiciste."
+      },
+      "solution": "Despite all the problems, you did it.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que hacía calor, fueron a dar un paseo."
+      },
+      "solution": "Despite the fact that it was hot, they went for a walk.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que tengo acento, me puedes entender."
+      },
+      "solution": "Despite the fact that I have an accent, you can understand me.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que mi equipo era el favorito, el equipo de mi hermano ganó el partido."
+      },
+      "solution": "Despite the fact that my team was the favourite, my brother's team won the match.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que el director estaba en contra, la huelga se celebró."
+      },
+      "solution": "Despite the fact that the director was against it, the strike went ahead.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que está lloviendo, voy a trabajar en el jardín."
+      },
+      "solution": "Despite the fact that it's raining, I'm going to do some gardening.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la lluvia, salieron de excursión."
+      },
+      "solution": "Despite the rain, they went on a trip.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era tarde, decidimos ir al cine."
+      },
+      "solution": "Despite the fact that it was late, we decided to go to the cinema.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del tráfico, llegamos puntuales."
+      },
+      "solution": "Despite the traffic, we arrived on time.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no tenía experiencia, consiguió el trabajo."
+      },
+      "solution": "Despite the fact that he had no experience, he got the job.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del precio, compramos el coche."
+      },
+      "solution": "Despite the price, we bought the car.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que estaba cansada, siguió trabajando."
+      },
+      "solution": "Despite the fact that she was tired, she kept working.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de las dificultades, terminaron el proyecto."
+      },
+      "solution": "Despite the difficulties, they finished the project.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no hablaba inglés bien, se mudó a Londres."
+      },
+      "solution": "Despite the fact that he didn't speak English well, he moved to London.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de su edad, corre maratones."
+      },
+      "solution": "Despite his age, he runs marathons.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que nevaba mucho, fuimos a esquiar."
+      },
+      "solution": "Despite the fact that it was snowing heavily, we went skiing.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del ruido, pudo dormir bien."
+      },
+      "solution": "Despite the noise, he was able to sleep well.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era muy caro, lo compramos."
+      },
+      "solution": "Despite the fact that it was very expensive, we bought it.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de mis errores, me apoyó."
+      },
+      "solution": "Despite my mistakes, she supported me.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que habían perdido, celebraron."
+      },
+      "solution": "Despite the fact that they had lost, they celebrated.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del frío, salimos a caminar."
+      },
+      "solution": "Despite the cold, we went out for a walk.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no tenía dinero, se fue de vacaciones."
+      },
+      "solution": "Despite the fact that he had no money, he went on holiday.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de las críticas, siguió con su plan."
+      },
+      "solution": "Despite the criticism, he continued with his plan.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era domingo, trabajó toda la mañana."
+      },
+      "solution": "Despite the fact that it was Sunday, he worked all morning.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la crisis, abrieron una nueva tienda."
+      },
+      "solution": "Despite the crisis, they opened a new shop.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que llovía torrencialmente, salieron de casa."
+      },
+      "solution": "Despite the fact that it was pouring with rain, they left the house.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de los obstáculos, alcanzó su meta."
+      },
+      "solution": "Despite the obstacles, she reached her goal.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no sabía cocinar, preparó una cena deliciosa."
+      },
+      "solution": "Despite the fact that she couldn't cook, she prepared a delicious dinner.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la distancia, vienen a visitarnos."
+      },
+      "solution": "Despite the distance, they come to visit us.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era muy joven, dirigía la empresa."
+      },
+      "solution": "Despite the fact that he was very young, he ran the company.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de su timidez, habló en público."
+      },
+      "solution": "Despite her shyness, she spoke in public.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que había mucho tráfico, llegamos temprano."
+      },
+      "solution": "Despite the fact that there was heavy traffic, we arrived early.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del peligro, escalaron la montaña."
+      },
+      "solution": "Despite the danger, they climbed the mountain.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que estaba enfermo, vino a trabajar."
+      },
+      "solution": "Despite the fact that he was ill, he came to work.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de las advertencias, siguieron adelante."
+      },
+      "solution": "Despite the warnings, they went ahead.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no tenían permiso, construyeron la casa."
+      },
+      "solution": "Despite the fact that they had no permission, they built the house.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la oposición, aprobaron la ley."
+      },
+      "solution": "Despite the opposition, they passed the law.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era de noche, salimos a correr."
+      },
+      "solution": "Despite the fact that it was night, we went out running.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la confusión, resolvieron el problema."
+      },
+      "solution": "Despite the confusion, they solved the problem.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que no le gustaba volar, tomó el avión."
+      },
+      "solution": "Despite the fact that he didn't like flying, he took the plane.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de la presión, tomó la decisión correcta."
+      },
+      "solution": "Despite the pressure, he made the right decision.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que llovía, el partido continuó."
+      },
+      "solution": "Despite the fact that it was raining, the match continued.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de los rumores, siguió trabajando allí."
+      },
+      "solution": "Despite the rumours, she kept working there.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era muy difícil, lo intentó."
+      },
+      "solution": "Despite the fact that it was very difficult, he tried.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar del éxito, se mantuvo humilde."
+      },
+      "solution": "Despite the success, she remained humble.",
+      "tip": {
+        "en": "Use 'despite' + noun (no preposition needed, unlike Spanish).",
+        "es": "Usa 'despite' + sustantivo (sin preposición, a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de que era tarde, decidieron quedarse."
+      },
+      "solution": "Despite the fact that it was late, they decided to stay.",
+      "tip": {
+        "en": "When followed by a verb/clause, use 'despite the fact that' + subject + verb.",
+        "es": "Cuando va seguido de verbo/cláusula, usa 'despite the fact that' + sujeto + verbo."
+      }
+    }
+  ]
+}

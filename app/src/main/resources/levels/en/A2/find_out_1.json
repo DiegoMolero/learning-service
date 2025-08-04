@@ -1,0 +1,615 @@
+{
+  "topicId": "find_out_1",
+  "title": {
+    "en": "Find Out - Discovering Information (Enterarse y Averiguar)",
+    "es": "Find Out - Discovering Information (Enterarse y Averiguar)"
+  },
+  "description": {
+    "en": "Learn to use 'find out' for discovering or learning information. This phrasal verb means 'enterarse' (learn about something) or 'averiguar' (investigate/discover). Note: 'Have you heard?' not 'Have you found out?' for '¿Te has enterado?'",
+    "es": "Aprende a usar 'find out' para descubrir o aprender información. Este verbo compuesto significa 'enterarse' (saber de algo) o 'averiguar' (investigar/descubrir). Nota: 'Have you heard?' no 'Have you found out?' para '¿Te has enterado?'"
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo te enteraste de la verdad?"
+      },
+      "solution": "When did you find out the truth?",
+      "tip": {
+        "en": "Use 'find out' for discovering or learning information (enterarse).",
+        "es": "Usa 'find out' para descubrir o aprender información (enterarse)."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Por quién te enteraste?"
+      },
+      "solution": "Who did you find out from?",
+      "tip": {
+        "en": "Use 'find out from someone' to specify the source of information.",
+        "es": "Usa 'find out from someone' para especificar la fuente de información."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Me enteré por Susan."
+      },
+      "solution": "I found out from Susan.",
+      "tip": {
+        "en": "Use 'find out from someone' to specify the source of information.",
+        "es": "Usa 'find out from someone' para especificar la fuente de información."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Él no se enteró hasta la semana pasada!"
+      },
+      "solution": "He only found out last week!",
+      "tip": {
+        "en": "Past tense of 'find out' is 'found out' (irregular verb).",
+        "es": "El pasado de 'find out' es 'found out' (verbo irregular)."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Se enteraron del resultado escuchando la radio."
+      },
+      "solution": "They found out about the result by listening to the radio.",
+      "tip": {
+        "en": "Use 'find out about something' when specifying what you discovered.",
+        "es": "Usa 'find out about something' al especificar qué descubriste."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué has podido averiguar?"
+      },
+      "solution": "What have you been able to find out?",
+      "tip": {
+        "en": "'Find out' also means 'averiguar' (investigate/discover).",
+        "es": "'Find out' también significa 'averiguar' (investigar/descubrir)."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Ve a ver si puedes averiguar por qué hay todo ese ruido."
+      },
+      "solution": "Go and see if you can find out what all that noise is about.",
+      "tip": {
+        "en": "Use 'find out' + question word for investigating something.",
+        "es": "Usa 'find out' + palabra interrogativa para investigar algo."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito averiguar qué está causando la gotera."
+      },
+      "solution": "I need to find out what's causing the leak.",
+      "tip": {
+        "en": "Use 'find out' + question word for investigating something.",
+        "es": "Usa 'find out' + palabra interrogativa para investigar algo."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Buscando en los archivos, pude averiguar la profesión de mi bisabuelo."
+      },
+      "solution": "By looking through the archives I was able to find out my great grandfather's profession.",
+      "tip": {
+        "en": "'Find out' works for discovering information through investigation.",
+        "es": "'Find out' funciona para descubrir información mediante investigación."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Averigua si tu hijo es un superdotado."
+      },
+      "solution": "Find out if your child is highly gifted.",
+      "tip": {
+        "en": "Use 'find out if/whether' for investigating a possibility.",
+        "es": "Usa 'find out if/whether' para investigar una posibilidad."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te has enterado? (de las noticias)"
+      },
+      "solution": "Have you heard? (about the news)",
+      "tip": {
+        "en": "IMPORTANT: Use 'Have you heard?' not 'Have you found out?' for '¿Te has enterado?'",
+        "es": "IMPORTANTE: Usa 'Have you heard?' no 'Have you found out?' para '¿Te has enterado?'"
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Me enteré de la noticia esta mañana."
+      },
+      "solution": "I found out about the news this morning.",
+      "tip": {
+        "en": "Use 'find out about something' when specifying what you discovered.",
+        "es": "Usa 'find out about something' al especificar qué descubriste."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo te enteraste de mi cumpleaños?"
+      },
+      "solution": "How did you find out about my birthday?",
+      "tip": {
+        "en": "Use 'find out' + question word for asking about discovery method.",
+        "es": "Usa 'find out' + palabra interrogativa para preguntar sobre el método de descubrimiento."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que averiguar quién rompió la ventana."
+      },
+      "solution": "I have to find out who broke the window.",
+      "tip": {
+        "en": "Use 'find out' + question word for investigating something.",
+        "es": "Usa 'find out' + palabra interrogativa para investigar algo."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Se enteró del accidente por las noticias."
+      },
+      "solution": "He found out about the accident from the news.",
+      "tip": {
+        "en": "Use 'find out about something from source' for complete information.",
+        "es": "Usa 'find out about something from source' para información completa."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Has averiguado dónde vive ahora?"
+      },
+      "solution": "Have you found out where he lives now?",
+      "tip": {
+        "en": "Present perfect of 'find out' is 'have/has found out'.",
+        "es": "El presente perfecto de 'find out' es 'have/has found out'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Me enteré de tu boda por casualidad."
+      },
+      "solution": "I found out about your wedding by chance.",
+      "tip": {
+        "en": "Use 'find out about something' when specifying what you discovered.",
+        "es": "Usa 'find out about something' al especificar qué descubriste."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito averiguar cuánto cuesta el viaje."
+      },
+      "solution": "I need to find out how much the trip costs.",
+      "tip": {
+        "en": "Use 'find out' + question word for investigating something.",
+        "es": "Usa 'find out' + palabra interrogativa para investigar algo."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo se enteraron de la verdad?"
+      },
+      "solution": "When did they find out the truth?",
+      "tip": {
+        "en": "Past tense of 'find out' is 'found out' (irregular verb).",
+        "es": "El pasado de 'find out' es 'found out' (verbo irregular)."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Averigüé la respuesta buscando en internet."
+      },
+      "solution": "I found out the answer by searching on the internet.",
+      "tip": {
+        "en": "'Find out' works for discovering information through investigation.",
+        "es": "'Find out' funciona para descubrir información mediante investigación."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te enteraste del problema con el profesor?"
+      },
+      "solution": "Did you find out about the problem with the teacher?",
+      "tip": {
+        "en": "Use 'find out about something' when specifying what you discovered.",
+        "es": "Usa 'find out about something' al especificar qué descubriste."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Voy a averiguar si está abierto el museo."
+      },
+      "solution": "I'm going to find out if the museum is open.",
+      "tip": {
+        "en": "Use 'find out if/whether' for investigating a possibility.",
+        "es": "Usa 'find out if/whether' para investigar una posibilidad."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Me enteré de su muerte ayer."
+      },
+      "solution": "I found out about his death yesterday.",
+      "tip": {
+        "en": "Use 'find out about something' when specifying what you discovered.",
+        "es": "Usa 'find out about something' al especificar qué descubriste."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Pudiste averiguar la dirección correcta?"
+      },
+      "solution": "Were you able to find out the correct address?",
+      "tip": {
+        "en": "'Find out' also means 'averiguar' (investigate/discover).",
+        "es": "'Find out' también significa 'averiguar' (investigar/descubrir)."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Se enteraron de la noticia por la televisión."
+      },
+      "solution": "They found out about the news from television.",
+      "tip": {
+        "en": "Use 'find out about something from source' for complete information.",
+        "es": "Usa 'find out about something from source' para información completa."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que averiguar a qué hora llega el tren."
+      },
+      "solution": "I have to find out what time the train arrives.",
+      "tip": {
+        "en": "Use 'find out' + question word for investigating something.",
+        "es": "Usa 'find out' + palabra interrogativa para investigar algo."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo se enteró de nuestro secreto?"
+      },
+      "solution": "How did she find out about our secret?",
+      "tip": {
+        "en": "Use 'find out' + question word for asking about discovery method.",
+        "es": "Usa 'find out' + palabra interrogativa para preguntar sobre el método de descubrimiento."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Me enteré de tu promoción por tu hermana."
+      },
+      "solution": "I found out about your promotion from your sister.",
+      "tip": {
+        "en": "Use 'find out about something from source' for complete information.",
+        "es": "Usa 'find out about something from source' para información completa."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito averiguar si puedo cambiar mi vuelo."
+      },
+      "solution": "I need to find out if I can change my flight.",
+      "tip": {
+        "en": "Use 'find out if/whether' for investigating a possibility.",
+        "es": "Usa 'find out if/whether' para investigar una posibilidad."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ya te enteraste de lo que pasó?"
+      },
+      "solution": "Have you already found out what happened?",
+      "tip": {
+        "en": "Present perfect of 'find out' is 'have/has found out'.",
+        "es": "El presente perfecto de 'find out' es 'have/has found out'."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Averigué que el examen es mañana."
+      },
+      "solution": "I found out that the exam is tomorrow.",
+      "tip": {
+        "en": "Use 'find out that + clause' for discovered information.",
+        "es": "Usa 'find out that + cláusula' para información descubierta."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te has enterado de las nuevas normas?"
+      },
+      "solution": "Have you heard about the new rules?",
+      "tip": {
+        "en": "For general awareness, use 'Have you heard?' not 'Have you found out?'",
+        "es": "Para conocimiento general, usa 'Have you heard?' no 'Have you found out?'"
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Voy a averiguar quién es el responsable."
+      },
+      "solution": "I'm going to find out who is responsible.",
+      "tip": {
+        "en": "Use 'find out' + question word for investigating something.",
+        "es": "Usa 'find out' + palabra interrogativa para investigar algo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Me enteré de tu nuevo trabajo por Facebook."
+      },
+      "solution": "I found out about your new job from Facebook.",
+      "tip": {
+        "en": "Use 'find out about something from source' for complete information.",
+        "es": "Usa 'find out about something from source' para información completa."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Pudiste averiguar por qué está cerrado?"
+      },
+      "solution": "Were you able to find out why it's closed?",
+      "tip": {
+        "en": "Use 'find out' + question word for investigating something.",
+        "es": "Usa 'find out' + palabra interrogativa para investigar algo."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Se enteró del problema demasiado tarde."
+      },
+      "solution": "He found out about the problem too late.",
+      "tip": {
+        "en": "Past tense of 'find out' is 'found out' (irregular verb).",
+        "es": "El pasado de 'find out' es 'found out' (verbo irregular)."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que averiguar dónde está la oficina."
+      },
+      "solution": "I have to find out where the office is.",
+      "tip": {
+        "en": "Use 'find out' + question word for investigating something.",
+        "es": "Usa 'find out' + palabra interrogativa para investigar algo."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿De quién te enteraste de la fiesta?"
+      },
+      "solution": "Who did you find out about the party from?",
+      "tip": {
+        "en": "Use 'find out from someone' to specify the source of information.",
+        "es": "Usa 'find out from someone' para especificar la fuente de información."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Averigüé que había un error en mi factura."
+      },
+      "solution": "I found out that there was an error in my bill.",
+      "tip": {
+        "en": "Use 'find out that + clause' for discovered information.",
+        "es": "Usa 'find out that + cláusula' para información descubierta."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo se enteraron de la cancelación?"
+      },
+      "solution": "When did they find out about the cancellation?",
+      "tip": {
+        "en": "Use 'find out about something' when specifying what you discovered.",
+        "es": "Usa 'find out about something' al especificar qué descubriste."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito averiguar si acepta tarjetas de crédito."
+      },
+      "solution": "I need to find out if they accept credit cards.",
+      "tip": {
+        "en": "Use 'find out if/whether' for investigating a possibility.",
+        "es": "Usa 'find out if/whether' para investigar una posibilidad."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Me enteré de tu viaje por casualidad."
+      },
+      "solution": "I found out about your trip by accident.",
+      "tip": {
+        "en": "Use 'find out about something' when specifying what you discovered.",
+        "es": "Usa 'find out about something' al especificar qué descubriste."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Has averiguado cuánto cuesta el curso?"
+      },
+      "solution": "Have you found out how much the course costs?",
+      "tip": {
+        "en": "Present perfect of 'find out' is 'have/has found out'.",
+        "es": "El presente perfecto de 'find out' es 'have/has found out'."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Se enteró de la verdad investigando por su cuenta."
+      },
+      "solution": "She found out the truth by investigating on her own.",
+      "tip": {
+        "en": "'Find out' works for discovering information through investigation.",
+        "es": "'Find out' funciona para descubrir información mediante investigación."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Voy a averiguar si está disponible la habitación."
+      },
+      "solution": "I'm going to find out if the room is available.",
+      "tip": {
+        "en": "Use 'find out if/whether' for investigating a possibility.",
+        "es": "Usa 'find out if/whether' para investigar una posibilidad."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cómo te enteraste de mi dirección?"
+      },
+      "solution": "How did you find out my address?",
+      "tip": {
+        "en": "Use 'find out' + question word for asking about discovery method.",
+        "es": "Usa 'find out' + palabra interrogativa para preguntar sobre el método de descubrimiento."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Me enteré de su compromiso por Instagram."
+      },
+      "solution": "I found out about their engagement from Instagram.",
+      "tip": {
+        "en": "Use 'find out about something from source' for complete information.",
+        "es": "Usa 'find out about something from source' para información completa."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que averiguar qué documentos necesito."
+      },
+      "solution": "I have to find out what documents I need.",
+      "tip": {
+        "en": "Use 'find out' + question word for investigating something.",
+        "es": "Usa 'find out' + palabra interrogativa para investigar algo."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ya se enteraron de los resultados?"
+      },
+      "solution": "Have they already found out about the results?",
+      "tip": {
+        "en": "Present perfect of 'find out' is 'have/has found out'.",
+        "es": "El presente perfecto de 'find out' es 'have/has found out'."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Averigüé que el banco cierra a las cinco."
+      },
+      "solution": "I found out that the bank closes at five.",
+      "tip": {
+        "en": "Use 'find out that + clause' for discovered information.",
+        "es": "Usa 'find out that + cláusula' para información descubierta."
+      }
+    }
+  ]
+}

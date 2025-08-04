@@ -1,0 +1,615 @@
+{
+  "topicId": "to_hope_1",
+  "title": {
+    "en": "To Hope - Expressing Wishes and Desires (Esperar con esperanza)",
+    "es": "To Hope - Expressing Wishes and Desires (Esperar con esperanza)"
+  },
+  "description": {
+    "en": "Learn to use 'hope' for wishes and desires. HOPE = esperar with uncertainty/wish (not knowing if it will happen). Different from WAIT (esperar físicamente) and EXPECT (esperar con certeza). 'That' is often omitted.",
+    "es": "Aprende a usar 'hope' para deseos y esperanzas. HOPE = esperar con incertidumbre/deseo (sin saber si pasará). Diferente de WAIT (esperar físicamente) y EXPECT (esperar con certeza). 'That' se suele omitir."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que me toque la lotería."
+      },
+      "solution": "I hope I win the lottery.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero poder ir a la fiesta."
+      },
+      "solution": "I hope I can go to the party.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero tener bastante tiempo para hacer todo."
+      },
+      "solution": "I hope I have enough time to do everything.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero acordarme de su nombre (ella)."
+      },
+      "solution": "I hope I remember her name.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero no tener que hablar español en la reunión."
+      },
+      "solution": "I hope I don't have to speak Spanish at the meeting.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que haga buen tiempo mañana."
+      },
+      "solution": "I hope the weather's nice tomorrow.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no hayas cometido un error."
+      },
+      "solution": "I hope you didn't make a mistake.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que ella no se ofenda."
+      },
+      "solution": "I hope she won't be offended.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no haya problema."
+      },
+      "solution": "I hope there isn't a problem.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no hayas tenido problemas."
+      },
+      "solution": "I hope you didn't have any problems.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero conseguir el trabajo."
+      },
+      "solution": "I hope I get the job.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que te guste el regalo."
+      },
+      "solution": "I hope you like the present.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero no llegar tarde."
+      },
+      "solution": "I hope I'm not late.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que él entienda mi explicación."
+      },
+      "solution": "I hope he understands my explanation.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero encontrar las llaves."
+      },
+      "solution": "I hope I find the keys.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no llueva este fin de semana."
+      },
+      "solution": "I hope it doesn't rain this weekend.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que tengas un buen viaje."
+      },
+      "solution": "I hope you have a good trip.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero aprobar el examen."
+      },
+      "solution": "I hope I pass the exam.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que ella se sienta mejor."
+      },
+      "solution": "I hope she feels better.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no sea demasiado caro."
+      },
+      "solution": "I hope it's not too expensive.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que funcione el plan."
+      },
+      "solution": "I hope the plan works.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero no olvidar la cita."
+      },
+      "solution": "I hope I don't forget the appointment.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que vengas a la fiesta."
+      },
+      "solution": "I hope you come to the party.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que todo salga bien."
+      },
+      "solution": "I hope everything goes well.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero dormir bien esta noche."
+      },
+      "solution": "I hope I sleep well tonight.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no haya tráfico."
+      },
+      "solution": "I hope there's no traffic.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que reciba mi mensaje."
+      },
+      "solution": "I hope he receives my message.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero tener suerte."
+      },
+      "solution": "I hope I'm lucky.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no se cancele el vuelo."
+      },
+      "solution": "I hope the flight isn't cancelled.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que mi hermana esté bien."
+      },
+      "solution": "I hope my sister is OK.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero no perderme."
+      },
+      "solution": "I hope I don't get lost.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que el restaurante esté abierto."
+      },
+      "solution": "I hope the restaurant is open.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que me entiendan."
+      },
+      "solution": "I hope they understand me.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero encontrar aparcamiento."
+      },
+      "solution": "I hope I find parking.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no sea muy difícil."
+      },
+      "solution": "I hope it's not too difficult.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que puedas venir."
+      },
+      "solution": "I hope you can come.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no sea una pérdida de tiempo."
+      },
+      "solution": "I hope it's not a waste of time.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero no llegar tarde al trabajo."
+      },
+      "solution": "I hope I'm not late for work.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que tengas razón."
+      },
+      "solution": "I hope you're right.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que la comida esté buena."
+      },
+      "solution": "I hope the food is good.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero no molestar."
+      },
+      "solution": "I hope I'm not bothering you.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que funcione el ascensor."
+      },
+      "solution": "I hope the lift works.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no se me olvide."
+      },
+      "solution": "I hope I don't forget.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no haya problemas con el ordenador."
+      },
+      "solution": "I hope there are no problems with the computer.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que mejore pronto."
+      },
+      "solution": "I hope it gets better soon.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero poder ayudarte."
+      },
+      "solution": "I hope I can help you.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no sea muy tarde."
+      },
+      "solution": "I hope it's not too late.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que seas feliz."
+      },
+      "solution": "I hope you're happy.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que no cueste mucho dinero."
+      },
+      "solution": "I hope it doesn't cost a lot of money.",
+      "tip": {
+        "en": "Use 'hope' for wishes about other people/things. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos sobre otras personas/cosas. 'That' se suele omitir."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero tener una buena semana."
+      },
+      "solution": "I hope I have a good week.",
+      "tip": {
+        "en": "Use 'hope' for wishes/desires with uncertainty. 'That' is often omitted.",
+        "es": "Usa 'hope' para deseos/esperanzas con incertidumbre. 'That' se suele omitir."
+      }
+    }
+  ]
+}

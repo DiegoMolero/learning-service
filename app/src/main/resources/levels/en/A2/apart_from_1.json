@@ -1,0 +1,615 @@
+{
+  "topicId": "apart_from_1",
+  "title": {
+    "en": "Apart From - Exceptions with Nouns and Clauses (Aparte de/Excepto)",
+    "es": "Apart From - Exceptions with Nouns and Clauses (Aparte de/Excepto)"
+  },
+  "description": {
+    "en": "Learn to use 'apart from' with nouns and 'apart from the fact that' with clauses. 'Apart from' means 'except for' or 'besides', while 'apart from the fact that' introduces exception clauses.",
+    "es": "Aprende a usar 'apart from' con sustantivos y 'apart from the fact that' con cláusulas. 'Apart from' significa 'excepto' o 'aparte de', mientras que 'apart from the fact that' introduce cláusulas de excepción."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte del trabajo, todo va bien."
+      },
+      "solution": "Apart from work, everything is fine.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Excepto la cocina, el piso es precioso."
+      },
+      "solution": "Apart from the kitchen, the flat is lovely.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de las moscas, comimos bien."
+      },
+      "solution": "Apart from the flies, we had a good lunch.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de la lluvia, nos lo pasamos muy bien."
+      },
+      "solution": "Apart from the rain, we had a great time.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de los nervios, la boda me hace mucha ilusión."
+      },
+      "solution": "Apart from the nerves, I'm really looking forward to the wedding.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que tengo mucho estrés en el trabajo, todo va bien."
+      },
+      "solution": "Apart from the fact that I'm under a lot of stress at work, everything is fine.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que la cocina es muy pequeña, el piso es precioso."
+      },
+      "solution": "Apart from the fact that the kitchen is very small, the flat is lovely.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que soy alérgico al marisco, como de todo."
+      },
+      "solution": "Apart from the fact that I'm allergic to seafood, I eat everything.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que la pantalla me resulta un poco pequeña, me gusta mi portátil."
+      },
+      "solution": "Apart from the fact that I find the screen a bit small, I like my laptop.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que había muchos turistas, nos las arreglamos para ver muchas cosas."
+      },
+      "solution": "Apart from the fact that there were a lot of tourists, we managed to see many things.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Excepto el precio, me encanta este coche."
+      },
+      "solution": "Apart from the price, I love this car.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que está muy lejos, es un buen restaurante."
+      },
+      "solution": "Apart from the fact that it's very far, it's a good restaurant.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte del ruido, el hotel es perfecto."
+      },
+      "solution": "Apart from the noise, the hotel is perfect.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que no me gusta madrugar, es un trabajo estupendo."
+      },
+      "solution": "Apart from the fact that I don't like getting up early, it's a wonderful job.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Excepto las matemáticas, me gustan todas las asignaturas."
+      },
+      "solution": "Apart from maths, I like all subjects.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que me da miedo volar, me encantan las vacaciones."
+      },
+      "solution": "Apart from the fact that I'm scared of flying, I love holidays.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte del tráfico, Madrid es una ciudad fantástica."
+      },
+      "solution": "Apart from the traffic, Madrid is a fantastic city.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que llueve mucho, me gusta vivir aquí."
+      },
+      "solution": "Apart from the fact that it rains a lot, I like living here.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Excepto los lunes, todos los días son buenos para mí."
+      },
+      "solution": "Apart from Mondays, all days are good for me.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que está un poco salado, el pollo está delicioso."
+      },
+      "solution": "Apart from the fact that it's a bit salty, the chicken is delicious.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte del frío, el invierno tiene sus ventajas."
+      },
+      "solution": "Apart from the cold, winter has its advantages.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que no tengo experiencia, creo que puedo hacer este trabajo."
+      },
+      "solution": "Apart from the fact that I have no experience, I think I can do this job.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Excepto mi hermano, toda mi familia vive cerca."
+      },
+      "solution": "Apart from my brother, all my family lives nearby.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que me levanto tarde los fines de semana, soy muy puntual."
+      },
+      "solution": "Apart from the fact that I get up late at weekends, I'm very punctual.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de los exámenes, me gusta estudiar."
+      },
+      "solution": "Apart from exams, I like studying.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que cuesta mucho dinero, viajar es maravilloso."
+      },
+      "solution": "Apart from the fact that it costs a lot of money, travelling is wonderful.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Excepto la música alta, la fiesta estuvo genial."
+      },
+      "solution": "Apart from the loud music, the party was great.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que no me gusta el chocolate, como de todo."
+      },
+      "solution": "Apart from the fact that I don't like chocolate, I eat everything.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte del calor, el verano es mi estación favorita."
+      },
+      "solution": "Apart from the heat, summer is my favourite season.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que es muy tímido, mi hijo es un niño normal."
+      },
+      "solution": "Apart from the fact that he's very shy, my son is a normal child.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Excepto los deportes, no me gusta ver la televisión."
+      },
+      "solution": "Apart from sports, I don't like watching television.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que no tengo coche, puedo ir a cualquier sitio."
+      },
+      "solution": "Apart from the fact that I don't have a car, I can go anywhere.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de mi jefe, me llevo bien con todos mis compañeros."
+      },
+      "solution": "Apart from my boss, I get on well with all my colleagues.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que me duele la cabeza, me siento bien."
+      },
+      "solution": "Apart from the fact that I have a headache, I feel fine.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Excepto las verduras, me gusta toda la comida."
+      },
+      "solution": "Apart from vegetables, I like all food.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que hace mucho viento, es un día precioso."
+      },
+      "solution": "Apart from the fact that it's very windy, it's a beautiful day.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de los deberes, los niños no tienen responsabilidades."
+      },
+      "solution": "Apart from homework, children have no responsibilities.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que está cerrado los domingos, es mi supermercado favorito."
+      },
+      "solution": "Apart from the fact that it's closed on Sundays, it's my favourite supermarket.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Excepto la gramática, el inglés me resulta fácil."
+      },
+      "solution": "Apart from grammar, I find English easy.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que me pongo nervioso cuando hablo en público, soy bastante seguro."
+      },
+      "solution": "Apart from the fact that I get nervous when speaking in public, I'm quite confident.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte del final, la película me gustó mucho."
+      },
+      "solution": "Apart from the ending, I really liked the film.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que no me gusta el fútbol, veo todos los deportes."
+      },
+      "solution": "Apart from the fact that I don't like football, I watch all sports.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Excepto mi edad, no me importa nada de mí."
+      },
+      "solution": "Apart from my age, nothing bothers me about myself.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que me canso fácilmente, estoy en buena forma."
+      },
+      "solution": "Apart from the fact that I get tired easily, I'm in good shape.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de las mañanas, me gusta todo el día."
+      },
+      "solution": "Apart from mornings, I like the whole day.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que prefiero el té, me gusta todo tipo de bebidas."
+      },
+      "solution": "Apart from the fact that I prefer tea, I like all kinds of drinks.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Excepto los gatos, me gustan todos los animales."
+      },
+      "solution": "Apart from cats, I like all animals.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que odio las multitudes, me gusta ir de compras."
+      },
+      "solution": "Apart from the fact that I hate crowds, I like going shopping.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte del dinero, no me falta nada en la vida."
+      },
+      "solution": "Apart from money, I don't lack anything in life.",
+      "tip": {
+        "en": "Use 'apart from + noun' for exceptions with nouns.",
+        "es": "Usa 'apart from + sustantivo' para excepciones con sustantivos."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Aparte de que no me gusta conducir por la noche, conduzco a todas horas."
+      },
+      "solution": "Apart from the fact that I don't like driving at night, I drive at all hours.",
+      "tip": {
+        "en": "Use 'apart from the fact that + clause' when followed by a verb.",
+        "es": "Usa 'apart from the fact that + cláusula' cuando le sigue un verbo."
+      }
+    }
+  ]
+}

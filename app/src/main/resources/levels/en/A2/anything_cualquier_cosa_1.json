@@ -1,0 +1,615 @@
+{
+  "topicId": "anything_cualquier_cosa_1",
+  "title": {
+    "en": "Anything - Positive Meaning (Cualquier cosa en afirmativo)",
+    "es": "Anything - Positive Meaning (Cualquier cosa en afirmativo)"
+  },
+  "description": {
+    "en": "Learn to use 'anything' with positive meaning as 'cualquier cosa' in affirmative sentences. When 'anything' starts a sentence or is used with affirmative verbs, it means 'cualquier cosa', not 'nada'.",
+    "es": "Aprende a usar 'anything' con significado positivo como 'cualquier cosa' en frases afirmativas. Cuando 'anything' empieza una frase o se usa con verbos afirmativos, significa 'cualquier cosa', no 'nada'."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Cualquier cosa es mejor que trabajar los domingos!"
+      },
+      "solution": "Anything is better than working on Sundays!",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede afectar al rendimiento de las acciones."
+      },
+      "solution": "Anything can affect share performance.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Cualquier cosa valdrá!"
+      },
+      "solution": "Anything will do!",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede dañar la moral de los empleados."
+      },
+      "solution": "Anything can damage employee morale.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Cualquier cosa es mejor que ir a trabajar!"
+      },
+      "solution": "Anything beats going to work!",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Con tu talento eres capaz de hacer cualquier cosa."
+      },
+      "solution": "With your talent, you're capable of doing anything.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Él no es quisquilloso, come cualquier cosa."
+      },
+      "solution": "He's not fussy at all; he'll eat anything.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella está loca por cualquier cosa que tenga que ver con el cine italiano."
+      },
+      "solution": "She's passionate about anything to do with Italian films.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo haría cualquier cosa por poder jugar al tenis como él."
+      },
+      "solution": "I'd do anything to be able to play tennis like him.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Él hará lo que ella quiera."
+      },
+      "solution": "He'll do anything she wants.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede suceder en el futuro."
+      },
+      "solution": "Anything can happen in the future.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Él comprará cualquier cosa que le guste."
+      },
+      "solution": "He'll buy anything he likes.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa es posible si trabajas duro."
+      },
+      "solution": "Anything is possible if you work hard.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella leerá cualquier cosa sobre historia."
+      },
+      "solution": "She'll read anything about history.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede inspirar a un artista."
+      },
+      "solution": "Anything can inspire an artist.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo probaré cualquier cosa que cocines."
+      },
+      "solution": "I'll try anything you cook.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede cambiar tu vida."
+      },
+      "solution": "Anything can change your life.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Nosotros discutiremos cualquier cosa que propongás."
+      },
+      "solution": "We'll discuss anything you propose.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa vale la pena si te hace feliz."
+      },
+      "solution": "Anything is worth it if it makes you happy.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella colecciona cualquier cosa relacionada con gatos."
+      },
+      "solution": "She collects anything related to cats.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa es mejor que quedarse en casa aburrido."
+      },
+      "solution": "Anything is better than staying home bored.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo escucharé cualquier cosa que tengas que decir."
+      },
+      "solution": "I'll listen to anything you have to say.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede servir como inspiración."
+      },
+      "solution": "Anything can serve as inspiration.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Él comprenderá cualquier cosa que le expliques."
+      },
+      "solution": "He'll understand anything you explain to him.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede convertirse en una oportunidad."
+      },
+      "solution": "Anything can become an opportunity.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Nosotros aprenderemos cualquier cosa que nos enseñes."
+      },
+      "solution": "We'll learn anything you teach us.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa es preferible a la rutina diaria."
+      },
+      "solution": "Anything is preferable to the daily routine.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella aceptará cualquier cosa que le ofrezcas."
+      },
+      "solution": "She'll accept anything you offer her.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede ser la solución."
+      },
+      "solution": "Anything could be the solution.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo intentaré cualquier cosa para ayudarte."
+      },
+      "solution": "I'll try anything to help you.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede ocurrir durante las vacaciones."
+      },
+      "solution": "Anything can happen during holidays.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Él memorizará cualquier cosa que le interese."
+      },
+      "solution": "He'll memorise anything that interests him.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa es mejor que estar desempleado."
+      },
+      "solution": "Anything is better than being unemployed.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Nosotros celebraremos cualquier cosa que sea una buena noticia."
+      },
+      "solution": "We'll celebrate anything that's good news.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede ser un regalo perfecto."
+      },
+      "solution": "Anything can be a perfect gift.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella recordará cualquier cosa que sea importante."
+      },
+      "solution": "She'll remember anything that's important.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa es mejor que una película aburrida."
+      },
+      "solution": "Anything is better than a boring film.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo creeré cualquier cosa que me digas con sinceridad."
+      },
+      "solution": "I'll believe anything you tell me sincerely.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede volverse viral en internet."
+      },
+      "solution": "Anything can go viral on the internet.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Él construirá cualquier cosa que puedas imaginar."
+      },
+      "solution": "He'll build anything you can imagine.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede motivarte si tienes la actitud correcta."
+      },
+      "solution": "Anything can motivate you if you have the right attitude.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Nosotros apoyaremos cualquier cosa que decidas."
+      },
+      "solution": "We'll support anything you decide.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa es posible con determinación."
+      },
+      "solution": "Anything is possible with determination.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella dibujará cualquier cosa que le pidas."
+      },
+      "solution": "She'll draw anything you ask for.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede ser una aventura si tienes imaginación."
+      },
+      "solution": "Anything can be an adventure if you have imagination.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Yo guardaré cualquier cosa que sea importante para ti."
+      },
+      "solution": "I'll keep anything that's important to you.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa puede ser un nuevo comienzo."
+      },
+      "solution": "Anything can be a new beginning.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Él reparará cualquier cosa que esté roto."
+      },
+      "solution": "He'll fix anything that's broken.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Cualquier cosa es mejor que la soledad."
+      },
+      "solution": "Anything is better than loneliness.",
+      "tip": {
+        "en": "When 'anything' starts a sentence with affirmative verb, it means 'cualquier cosa'.",
+        "es": "Cuando 'anything' empieza una frase con verbo afirmativo, significa 'cualquier cosa'."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Nosotros consideraremos cualquier cosa que proponga el equipo."
+      },
+      "solution": "We'll consider anything the team proposes.",
+      "tip": {
+        "en": "As object with affirmative verb, 'anything' means 'cualquier cosa'.",
+        "es": "Como objeto con verbo afirmativo, 'anything' significa 'cualquier cosa'."
+      }
+    }
+  ]
+}

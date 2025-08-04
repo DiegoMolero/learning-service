@@ -1,0 +1,615 @@
+{
+  "topicId": "to_get_1",
+  "title": {
+    "en": "To Get - Obtaining Objects & Things (Conseguir objetos)",
+    "es": "To Get - Obtaining Objects & Things (Conseguir objetos)"
+  },
+  "description": {
+    "en": "Learn to use 'to get' for obtaining objects, things, and results. Use 'to get' when you obtain or acquire something physical or abstract, not for managing to do actions.",
+    "es": "Aprende a usar 'to get' para obtener objetos, cosas y resultados. Usa 'to get' cuando obtienes o adquieres algo físico o abstracto, no para conseguir hacer acciones."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Él consiguió las últimas dos entradas que quedaban."
+      },
+      "solution": "He got the last two tickets left.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Consigue los últimos éxitos en este fantástico disco recopilatorio!"
+      },
+      "solution": "Get the latest hits on this great compilation album!",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella consiguió lo que quería."
+      },
+      "solution": "She got what she wanted.",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Al final consiguieron un descuento bárbaro."
+      },
+      "solution": "They got a massive discount in the end.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Consiguieron lo que se merecían."
+      },
+      "solution": "They got what they deserved.",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste lo que estabas buscando?"
+      },
+      "solution": "Did you get what you were looking for?",
+      "tip": {
+        "en": "In questions, use 'Did you get what...' for past tense.",
+        "es": "En preguntas, usa 'Did you get what...' para pasado."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ella consiguió lo que pedía?"
+      },
+      "solution": "Did she get what she asked for?",
+      "tip": {
+        "en": "In questions, use 'Did you get what...' for past tense.",
+        "es": "En preguntas, usa 'Did you get what...' para pasado."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Consiguieron lo que querían?"
+      },
+      "solution": "Did they get what they wanted?",
+      "tip": {
+        "en": "In questions, use 'Did you get what...' for past tense.",
+        "es": "En preguntas, usa 'Did you get what...' para pasado."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Consiguieron los libros que buscaban?"
+      },
+      "solution": "Did they get the books they were after?",
+      "tip": {
+        "en": "'Were after' means 'were looking for' or 'wanted to get'.",
+        "es": "'Were after' significa 'estaban buscando' o 'querían conseguir'."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste el disco que estabas buscando?"
+      },
+      "solution": "Did you get the record you were searching for?",
+      "tip": {
+        "en": "In questions, use 'Did you get what...' for past tense.",
+        "es": "En preguntas, usa 'Did you get what...' para pasado."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí un trabajo nuevo la semana pasada."
+      },
+      "solution": "I got a new job last week.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste las llaves del coche?"
+      },
+      "solution": "Did you get the car keys?",
+      "tip": {
+        "en": "In questions, use 'Did you get' for past tense with objects.",
+        "es": "En preguntas, usa 'Did you get' para pasado con objetos."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella consiguió una beca para la universidad."
+      },
+      "solution": "She got a scholarship for university.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste la información que necesitabas?"
+      },
+      "solution": "Did you get the information you needed?",
+      "tip": {
+        "en": "Information is treated like an object with 'to get'.",
+        "es": "La información se trata como un objeto con 'to get'."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Consiguieron una mesa en el mejor restaurante."
+      },
+      "solution": "They got a table at the best restaurant.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste el número de teléfono de María?"
+      },
+      "solution": "Did you get Maria's phone number?",
+      "tip": {
+        "en": "Phone numbers are treated like objects with 'to get'.",
+        "es": "Los números de teléfono se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí una respuesta rápida del director."
+      },
+      "solution": "I got a quick response from the director.",
+      "tip": {
+        "en": "Responses are treated like objects with 'to get'.",
+        "es": "Las respuestas se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste lo que esperabas del curso?"
+      },
+      "solution": "Did you get what you expected from the course?",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella consiguió el permiso de sus padres."
+      },
+      "solution": "She got permission from her parents.",
+      "tip": {
+        "en": "Permission is treated like an object with 'to get'.",
+        "es": "El permiso se trata como un objeto con 'to get'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste una cita con el médico?"
+      },
+      "solution": "Did you get an appointment with the doctor?",
+      "tip": {
+        "en": "Appointments are treated like objects with 'to get'.",
+        "es": "Las citas se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguimos buenos asientos para el concierto."
+      },
+      "solution": "We got good seats for the concert.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste el regalo que querías?"
+      },
+      "solution": "Did you get the present you wanted?",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Él consiguió una promoción en el trabajo."
+      },
+      "solution": "He got a promotion at work.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste ayuda de tus compañeros?"
+      },
+      "solution": "Did you get help from your colleagues?",
+      "tip": {
+        "en": "Help is treated like an object with 'to get'.",
+        "es": "La ayuda se trata como un objeto con 'to get'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí un descuento del veinte por ciento."
+      },
+      "solution": "I got a twenty percent discount.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste una habitación con vistas al mar?"
+      },
+      "solution": "Did you get a room with sea views?",
+      "tip": {
+        "en": "Rooms are treated like objects with 'to get'.",
+        "es": "Las habitaciones se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella consiguió lo que buscaba en la tienda."
+      },
+      "solution": "She got what she was looking for at the shop.",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste buenas notas en el examen?"
+      },
+      "solution": "Did you get good marks on the exam?",
+      "tip": {
+        "en": "Marks/grades are treated like objects with 'to get'.",
+        "es": "Las notas/calificaciones se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguimos una oferta increíble en el hotel."
+      },
+      "solution": "We got an incredible offer at the hotel.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste la dirección del nuevo restaurante?"
+      },
+      "solution": "Did you get the address of the new restaurant?",
+      "tip": {
+        "en": "Addresses are treated like objects with 'to get'.",
+        "es": "Las direcciones se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Él consiguió todo lo que necesitaba para el proyecto."
+      },
+      "solution": "He got everything he needed for the project.",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste una respuesta del jefe?"
+      },
+      "solution": "Did you get an answer from the boss?",
+      "tip": {
+        "en": "Answers are treated like objects with 'to get'.",
+        "es": "Las respuestas se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí un precio mejor en la otra tienda."
+      },
+      "solution": "I got a better price at the other shop.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste lo que te prometieron?"
+      },
+      "solution": "Did you get what they promised you?",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella consiguió una entrevista de trabajo."
+      },
+      "solution": "She got a job interview.",
+      "tip": {
+        "en": "Interviews are treated like objects with 'to get'.",
+        "es": "Las entrevistas se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste el dinero que necesitabas?"
+      },
+      "solution": "Did you get the money you needed?",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguimos un taxi inmediatamente."
+      },
+      "solution": "We got a taxi immediately.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste una opinión del experto?"
+      },
+      "solution": "Did you get an opinion from the expert?",
+      "tip": {
+        "en": "Opinions are treated like objects with 'to get'.",
+        "es": "Las opiniones se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Él consiguió el resultado que esperaba."
+      },
+      "solution": "He got the result he expected.",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste una solución al problema?"
+      },
+      "solution": "Did you get a solution to the problem?",
+      "tip": {
+        "en": "Solutions are treated like objects with 'to get'.",
+        "es": "Las soluciones se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí una oportunidad única."
+      },
+      "solution": "I got a unique opportunity.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste lo que viniste a buscar?"
+      },
+      "solution": "Did you get what you came looking for?",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella consiguió un consejo muy útil."
+      },
+      "solution": "She got very useful advice.",
+      "tip": {
+        "en": "Advice is treated like an object with 'to get'.",
+        "es": "Los consejos se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste una confirmación por escrito?"
+      },
+      "solution": "Did you get written confirmation?",
+      "tip": {
+        "en": "Confirmations are treated like objects with 'to get'.",
+        "es": "Las confirmaciones se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguimos lo mejor de ambos mundos."
+      },
+      "solution": "We got the best of both worlds.",
+      "tip": {
+        "en": "'To get the best of...' is a common expression.",
+        "es": "'To get the best of...' es una expresión común."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste una explicación clara?"
+      },
+      "solution": "Did you get a clear explanation?",
+      "tip": {
+        "en": "Explanations are treated like objects with 'to get'.",
+        "es": "Las explicaciones se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Él consiguió una segunda oportunidad."
+      },
+      "solution": "He got a second chance.",
+      "tip": {
+        "en": "Use 'to get' when obtaining objects or things, not actions.",
+        "es": "Usa 'to get' cuando obtienes objetos o cosas, no acciones."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste los resultados que querías?"
+      },
+      "solution": "Did you get the results you wanted?",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí una impresión muy positiva."
+      },
+      "solution": "I got a very positive impression.",
+      "tip": {
+        "en": "Impressions are treated like objects with 'to get'.",
+        "es": "Las impresiones se tratan como objetos con 'to get'."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste todo lo que necesitabas?"
+      },
+      "solution": "Did you get everything you needed?",
+      "tip": {
+        "en": "'To get what...' is very common for obtaining desired things.",
+        "es": "'To get what...' es muy común para obtener cosas deseadas."
+      }
+    }
+  ]
+}

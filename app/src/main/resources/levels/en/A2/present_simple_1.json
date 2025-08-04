@@ -1,0 +1,615 @@
+{
+  "topicId": "present_simple_1",
+  "title": {
+    "en": "Present Simple - States, Facts & vs Present Continuous (Presente simple)",
+    "es": "Present Simple - States, Facts & vs Present Continuous (Presente simple)"
+  },
+  "description": {
+    "en": "Learn to use Present Simple for stable states and unchangeable facts. Understand when Spanish uses present tense but English requires Present Continuous for momentary actions.",
+    "es": "Aprende a usar Present Simple para estados estables y hechos inmutables. Entiende cuándo el español usa presente pero el inglés requiere Present Continuous para acciones momentáneas."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Vivo en España."
+      },
+      "solution": "I live in Spain.",
+      "tip": {
+        "en": "Use Present Simple for stable states and situations.",
+        "es": "Usa Present Simple para estados y situaciones estables."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Él tiene un coche sueco."
+      },
+      "solution": "He has a Swedish car.",
+      "tip": {
+        "en": "Use Present Simple for facts and possessions.",
+        "es": "Usa Present Simple para hechos y posesiones."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella habla cuatro idiomas."
+      },
+      "solution": "She speaks four languages.",
+      "tip": {
+        "en": "Use Present Simple for abilities and facts.",
+        "es": "Usa Present Simple para habilidades y hechos."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Ganan mucho dinero."
+      },
+      "solution": "They earn a lot of money.",
+      "tip": {
+        "en": "Use Present Simple for general facts and realities.",
+        "es": "Usa Present Simple para hechos generales y realidades."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Hace calor en verano en Madrid."
+      },
+      "solution": "It's hot in Madrid in the summer.",
+      "tip": {
+        "en": "Use Present Simple for unchangeable truths.",
+        "es": "Usa Present Simple para verdades inmutables."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué haces?"
+      },
+      "solution": "What are you doing?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Con quién hablas?"
+      },
+      "solution": "Who are you talking to?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿De qué hablas?"
+      },
+      "solution": "What are you talking about?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿A quién escribes?"
+      },
+      "solution": "Who are you writing to?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué dices?"
+      },
+      "solution": "What are you saying?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Trabajo en un banco."
+      },
+      "solution": "I work in a bank.",
+      "tip": {
+        "en": "Use Present Simple for stable job situations.",
+        "es": "Usa Present Simple para situaciones laborales estables."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué comes?"
+      },
+      "solution": "What are you eating?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hermana vive en Londres."
+      },
+      "solution": "My sister lives in London.",
+      "tip": {
+        "en": "Use Present Simple for stable living situations.",
+        "es": "Usa Present Simple para situaciones de vivienda estables."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué bebes?"
+      },
+      "solution": "What are you drinking?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Tienen dos hijos."
+      },
+      "solution": "They have two children.",
+      "tip": {
+        "en": "Use Present Simple for family facts and possessions.",
+        "es": "Usa Present Simple para hechos familiares y posesiones."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué lees?"
+      },
+      "solution": "What are you reading?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Estudia medicina en la universidad."
+      },
+      "solution": "She studies medicine at university.",
+      "tip": {
+        "en": "Use Present Simple for stable study situations.",
+        "es": "Usa Present Simple para situaciones de estudio estables."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Dónde trabajas?"
+      },
+      "solution": "Where do you work?",
+      "tip": {
+        "en": "Use Present Simple for general work situations.",
+        "es": "Usa Present Simple para situaciones laborales generales."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "El agua hierve a 100 grados."
+      },
+      "solution": "Water boils at 100 degrees.",
+      "tip": {
+        "en": "Use Present Simple for scientific facts and truths.",
+        "es": "Usa Present Simple para hechos científicos y verdades."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué miras?"
+      },
+      "solution": "What are you looking at?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi padre conduce un taxi."
+      },
+      "solution": "My father drives a taxi.",
+      "tip": {
+        "en": "Use Present Simple for regular job activities.",
+        "es": "Usa Present Simple para actividades laborales regulares."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quién llama?"
+      },
+      "solution": "Who's calling?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Conoce a mucha gente interesante."
+      },
+      "solution": "He knows a lot of interesting people.",
+      "tip": {
+        "en": "Use Present Simple for states of knowing people.",
+        "es": "Usa Present Simple para estados de conocer gente."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Por qué lloras?"
+      },
+      "solution": "Why are you crying?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Los domingos no trabajo."
+      },
+      "solution": "I don't work on Sundays.",
+      "tip": {
+        "en": "Use Present Simple for regular schedules and routines.",
+        "es": "Usa Present Simple para horarios regulares y rutinas."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué piensas?"
+      },
+      "solution": "What are you thinking?",
+      "tip": {
+        "en": "Use Present Continuous for momentary thoughts, not Present Simple.",
+        "es": "Usa Present Continuous para pensamientos momentáneos, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Entiende español perfectamente."
+      },
+      "solution": "She understands Spanish perfectly.",
+      "tip": {
+        "en": "Use Present Simple for abilities and understanding.",
+        "es": "Usa Present Simple para habilidades y comprensión."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Adónde vas?"
+      },
+      "solution": "Where are you going?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Prefiere el té al café."
+      },
+      "solution": "He prefers tea to coffee.",
+      "tip": {
+        "en": "Use Present Simple for preferences and general tastes.",
+        "es": "Usa Present Simple para preferencias y gustos generales."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Con quién vienes?"
+      },
+      "solution": "Who are you coming with?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuesta cincuenta euros."
+      },
+      "solution": "It costs fifty euros.",
+      "tip": {
+        "en": "Use Present Simple for prices and costs.",
+        "es": "Usa Present Simple para precios y costes."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué cocinas?"
+      },
+      "solution": "What are you cooking?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Pertenece a mi hermano."
+      },
+      "solution": "It belongs to my brother.",
+      "tip": {
+        "en": "Use Present Simple for ownership and belonging.",
+        "es": "Usa Present Simple para propiedad y pertenencia."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué buscas?"
+      },
+      "solution": "What are you looking for?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesitan ayuda con el proyecto."
+      },
+      "solution": "They need help with the project.",
+      "tip": {
+        "en": "Use Present Simple for needs and requirements.",
+        "es": "Usa Present Simple para necesidades y requerimientos."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Por qué gritas?"
+      },
+      "solution": "Why are you shouting?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Contiene mucha vitamina C."
+      },
+      "solution": "It contains a lot of vitamin C.",
+      "tip": {
+        "en": "Use Present Simple for contents and composition.",
+        "es": "Usa Present Simple para contenidos y composición."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué esperas?"
+      },
+      "solution": "What are you waiting for?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Recuerda todo perfectamente."
+      },
+      "solution": "She remembers everything perfectly.",
+      "tip": {
+        "en": "Use Present Simple for memory and mental states.",
+        "es": "Usa Present Simple para memoria y estados mentales."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Dónde compras?"
+      },
+      "solution": "Where are you shopping?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Depende del tiempo."
+      },
+      "solution": "It depends on the weather.",
+      "tip": {
+        "en": "Use Present Simple for dependencies and conditions.",
+        "es": "Usa Present Simple para dependencias y condiciones."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué preparas?"
+      },
+      "solution": "What are you preparing?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Significa mucho para mí."
+      },
+      "solution": "It means a lot to me.",
+      "tip": {
+        "en": "Use Present Simple for meanings and significance.",
+        "es": "Usa Present Simple para significados e importancia."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué construyes?"
+      },
+      "solution": "What are you building?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Incluye desayuno y cena."
+      },
+      "solution": "It includes breakfast and dinner.",
+      "tip": {
+        "en": "Use Present Simple for what's included or excluded.",
+        "es": "Usa Present Simple para lo que se incluye o excluye."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿A quién llamas?"
+      },
+      "solution": "Who are you calling?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Odia los lunes."
+      },
+      "solution": "He hates Mondays.",
+      "tip": {
+        "en": "Use Present Simple for feelings and emotions as general states.",
+        "es": "Usa Present Simple para sentimientos y emociones como estados generales."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué estudias?"
+      },
+      "solution": "What are you studying?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Parece muy cansado."
+      },
+      "solution": "He looks very tired.",
+      "tip": {
+        "en": "Use Present Simple for appearance and how things seem.",
+        "es": "Usa Present Simple para apariencia y cómo parecen las cosas."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué vendes?"
+      },
+      "solution": "What are you selling?",
+      "tip": {
+        "en": "Use Present Continuous for momentary actions, not Present Simple.",
+        "es": "Usa Present Continuous para acciones momentáneas, no Present Simple."
+      }
+    }
+  ]
+}

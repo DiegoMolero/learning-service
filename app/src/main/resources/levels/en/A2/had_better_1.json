@@ -1,0 +1,615 @@
+{
+  "topicId": "had_better_1",
+  "title": {
+    "en": "Had Better - Strong Warnings & Advice (Más vale que...)",
+    "es": "Had Better - Strong Warnings & Advice (Más vale que...)"
+  },
+  "description": {
+    "en": "Learn to use 'had better' to express strong warnings and advice. This structure means 'más vale que...' and shows consequences if the advice isn't followed. Always use: subject + had + better + base verb.",
+    "es": "Aprende a usar 'had better' para expresar advertencias y consejos fuertes. Esta estructura significa 'más vale que...' y muestra consecuencias si no se sigue el consejo. Siempre usa: sujeto + had + better + verbo básico."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que dejes de ver a esa chica!"
+      },
+      "solution": "You had better stop seeing that girl!",
+      "tip": {
+        "en": "Structure: subject + had + better + base verb (not infinitive).",
+        "es": "Estructura: sujeto + had + better + verbo básico (no infinitivo)."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que mires dónde vas la próxima vez!"
+      },
+      "solution": "You had better look where you're going next time!",
+      "tip": {
+        "en": "'Had better' expresses strong advice with implied consequences.",
+        "es": "'Had better' expresa consejo fuerte con consecuencias implícitas."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que tenga una buena excusa!"
+      },
+      "solution": "She had better have a good excuse!",
+      "tip": {
+        "en": "Use 'had better' for all persons - I, you, he, she, we, they.",
+        "es": "Usa 'had better' para todas las personas - I, you, he, she, we, they."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que me avisen si cambian de opinión!"
+      },
+      "solution": "They had better let me know if they change their mind!",
+      "tip": {
+        "en": "'Let me know' is common with 'had better' for communication warnings.",
+        "es": "'Let me know' es común con 'had better' para advertencias de comunicación."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que ella me diga dónde está el tesoro!"
+      },
+      "solution": "She had better tell me where the treasure is!",
+      "tip": {
+        "en": "The tone of voice conveys the strength of the warning.",
+        "es": "El tono de voz transmite la fuerza de la advertencia."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no vuelvas a decir eso!"
+      },
+      "solution": "You had better not say that again!",
+      "tip": {
+        "en": "Negative: subject + had + better + not + base verb.",
+        "es": "Negativo: sujeto + had + better + not + verbo básico."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no llegue tarde!"
+      },
+      "solution": "She had better not be late!",
+      "tip": {
+        "en": "'Had better not' shows what someone should avoid doing.",
+        "es": "'Had better not' muestra lo que alguien debe evitar hacer."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no nos defrauden!"
+      },
+      "solution": "They had better not let us down!",
+      "tip": {
+        "en": "'Let someone down' means to disappoint or fail someone.",
+        "es": "'Let someone down' significa decepcionar o fallar a alguien."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no perdamos el contrato por su culpa!"
+      },
+      "solution": "We had better not lose the contract because of him!",
+      "tip": {
+        "en": "'Because of him/her' shows who is responsible for potential problems.",
+        "es": "'Because of him/her' muestra quién es responsable de problemas potenciales."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no pierdas los estribos!"
+      },
+      "solution": "You had better not lose your temper!",
+      "tip": {
+        "en": "'Lose your temper' means to become angry and lose control.",
+        "es": "'Lose your temper' significa enfadarse y perder el control."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que estudies para el examen!"
+      },
+      "solution": "You had better study for the exam!",
+      "tip": {
+        "en": "'Had better' is stronger than 'should' - it implies consequences.",
+        "es": "'Had better' es más fuerte que 'should' - implica consecuencias."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no se olviden de la reunión!"
+      },
+      "solution": "They had better not forget about the meeting!",
+      "tip": {
+        "en": "'Forget about' is the correct preposition with 'forget'.",
+        "es": "'Forget about' es la preposición correcta con 'forget'."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que traiga el dinero mañana!"
+      },
+      "solution": "He had better bring the money tomorrow!",
+      "tip": {
+        "en": "'Bring' for movement towards the speaker, 'take' for movement away.",
+        "es": "'Bring' para movimiento hacia el hablante, 'take' para movimiento alejándose."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no hagamos ruido!"
+      },
+      "solution": "We had better not make noise!",
+      "tip": {
+        "en": "'Make noise' is the standard collocation in English.",
+        "es": "'Make noise' es la colocación estándar en inglés."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que cierres la puerta!"
+      },
+      "solution": "You had better close the door!",
+      "tip": {
+        "en": "Simple, direct commands work well with 'had better'.",
+        "es": "Comandos simples y directos funcionan bien con 'had better'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no mienta otra vez!"
+      },
+      "solution": "He had better not lie again!",
+      "tip": {
+        "en": "'Lie' (mentir) is irregular: lie, lied, lied.",
+        "es": "'Lie' (mentir) es irregular: lie, lied, lied."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que conteste el teléfono!"
+      },
+      "solution": "She had better answer the phone!",
+      "tip": {
+        "en": "'Answer the phone' not 'respond the phone'.",
+        "es": "'Answer the phone' no 'respond the phone'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no gastes todo el dinero!"
+      },
+      "solution": "You had better not spend all the money!",
+      "tip": {
+        "en": "'Spend money' is the correct verb for using money.",
+        "es": "'Spend money' es el verbo correcto para usar dinero."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que encuentren una solución!"
+      },
+      "solution": "They had better find a solution!",
+      "tip": {
+        "en": "'Find a solution' is a common business/problem-solving expression.",
+        "es": "'Find a solution' es una expresión común de negocios/resolución de problemas."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no toque mis cosas!"
+      },
+      "solution": "He had better not touch my things!",
+      "tip": {
+        "en": "'Touch' is often used with personal belongings and boundaries.",
+        "es": "'Touch' se usa a menudo con pertenencias personales y límites."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que limpiemos la casa antes de que lleguen!"
+      },
+      "solution": "We had better clean the house before they arrive!",
+      "tip": {
+        "en": "'Before they arrive' shows the time limit for the action.",
+        "es": "'Before they arrive' muestra el límite de tiempo para la acción."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no rompa nada!"
+      },
+      "solution": "He had better not break anything!",
+      "tip": {
+        "en": "'Break' is irregular: break, broke, broken.",
+        "es": "'Break' es irregular: break, broke, broken."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que me escuche!"
+      },
+      "solution": "She had better listen to me!",
+      "tip": {
+        "en": "'Listen to someone' requires the preposition 'to'.",
+        "es": "'Listen to someone' requiere la preposición 'to'."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no se queden dormidos!"
+      },
+      "solution": "They had better not fall asleep!",
+      "tip": {
+        "en": "'Fall asleep' is the phrasal verb for 'quedarse dormido'.",
+        "es": "'Fall asleep' es el phrasal verb para 'quedarse dormido'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que pagues la factura!"
+      },
+      "solution": "You had better pay the bill!",
+      "tip": {
+        "en": "'Pay the bill' is the standard expression for paying invoices.",
+        "es": "'Pay the bill' es la expresión estándar para pagar facturas."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no conduzca tan rápido!"
+      },
+      "solution": "He had better not drive so fast!",
+      "tip": {
+        "en": "'Drive fast' not 'drive fastly' - fast is both adjective and adverb.",
+        "es": "'Drive fast' no 'drive fastly' - fast es adjetivo y adverbio."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que terminemos el proyecto a tiempo!"
+      },
+      "solution": "We had better finish the project on time!",
+      "tip": {
+        "en": "'On time' means punctually, 'in time' means before the deadline.",
+        "es": "'On time' significa puntualmente, 'in time' significa antes del plazo."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no salga sin abrigo!"
+      },
+      "solution": "She had better not go out without a coat!",
+      "tip": {
+        "en": "'Go out' means to leave the house or building.",
+        "es": "'Go out' significa salir de la casa o edificio."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que guarde el secreto!"
+      },
+      "solution": "He had better keep the secret!",
+      "tip": {
+        "en": "'Keep a secret' not 'guard a secret' in English.",
+        "es": "'Keep a secret' no 'guard a secret' en inglés."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no pierdan las llaves!"
+      },
+      "solution": "They had better not lose the keys!",
+      "tip": {
+        "en": "'Lose' is irregular: lose, lost, lost. Don't confuse with 'loose'.",
+        "es": "'Lose' es irregular: lose, lost, lost. No confundir con 'loose'."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que compremos comida para la fiesta!"
+      },
+      "solution": "We had better buy food for the party!",
+      "tip": {
+        "en": "'Buy' is irregular: buy, bought, bought.",
+        "es": "'Buy' es irregular: buy, bought, bought."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no haga trampas!"
+      },
+      "solution": "He had better not cheat!",
+      "tip": {
+        "en": "'Cheat' can be used alone or with 'on' (in relationships).",
+        "es": "'Cheat' puede usarse solo o con 'on' (en relaciones)."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que llames antes de venir!"
+      },
+      "solution": "You had better call before you come!",
+      "tip": {
+        "en": "'Call' is more common than 'phone' in American English.",
+        "es": "'Call' es más común que 'phone' en inglés americano."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no desperdiciemos esta oportunidad!"
+      },
+      "solution": "We had better not waste this opportunity!",
+      "tip": {
+        "en": "'Waste an opportunity' means to not take advantage of it.",
+        "es": "'Waste an opportunity' significa no aprovecharla."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que arregle el coche!"
+      },
+      "solution": "He had better fix the car!",
+      "tip": {
+        "en": "'Fix' is more common than 'repair' for cars and machines.",
+        "es": "'Fix' es más común que 'repair' para coches y máquinas."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no se meta en problemas!"
+      },
+      "solution": "She had better not get into trouble!",
+      "tip": {
+        "en": "'Get into trouble' is the phrasal verb for 'meterse en problemas'.",
+        "es": "'Get into trouble' es el phrasal verb para 'meterse en problemas'."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que practiquemos antes del examen!"
+      },
+      "solution": "We had better practise before the exam!",
+      "tip": {
+        "en": "'Practise' (British) vs 'practice' (American) - both acceptable.",
+        "es": "'Practise' (británico) vs 'practice' (americano) - ambos aceptables."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no grite en el hospital!"
+      },
+      "solution": "He had better not shout in the hospital!",
+      "tip": {
+        "en": "'Shout' (British) and 'yell' (American) both mean 'gritar'.",
+        "es": "'Shout' (británico) y 'yell' (americano) ambos significan 'gritar'."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que reservemos mesa!"
+      },
+      "solution": "We had better book a table!",
+      "tip": {
+        "en": "'Book a table' is the standard expression for restaurant reservations.",
+        "es": "'Book a table' es la expresión estándar para reservas de restaurante."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no olvide el pasaporte!"
+      },
+      "solution": "She had better not forget her passport!",
+      "tip": {
+        "en": "Use possessive pronoun 'her passport' not 'the passport'.",
+        "es": "Usa pronombre posesivo 'her passport' no 'the passport'."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que ahorremos dinero!"
+      },
+      "solution": "We had better save money!",
+      "tip": {
+        "en": "'Save money' can mean both to economize and to put money aside.",
+        "es": "'Save money' puede significar economizar y apartar dinero."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no fume aquí!"
+      },
+      "solution": "He had better not smoke here!",
+      "tip": {
+        "en": "'Smoke' as a verb doesn't need an object when meaning cigarettes.",
+        "es": "'Smoke' como verbo no necesita objeto cuando significa cigarrillos."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que nos demos prisa!"
+      },
+      "solution": "We had better hurry up!",
+      "tip": {
+        "en": "'Hurry up' is the phrasal verb for 'darse prisa'.",
+        "es": "'Hurry up' es el phrasal verb para 'darse prisa'."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no beba y conduzca!"
+      },
+      "solution": "He had better not drink and drive!",
+      "tip": {
+        "en": "'Drink and drive' is a fixed expression for drunk driving.",
+        "es": "'Drink and drive' es una expresión fija para conducir bebido."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que compremos los billetes hoy!"
+      },
+      "solution": "We had better buy the tickets today!",
+      "tip": {
+        "en": "'Tickets' for transport, 'bills' for invoices, 'notes' for money.",
+        "es": "'Tickets' para transporte, 'bills' para facturas, 'notes' para dinero."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no pierda el tren!"
+      },
+      "solution": "She had better not miss the train!",
+      "tip": {
+        "en": "'Miss the train/bus/flight' means to arrive too late for it.",
+        "es": "'Miss the train/bus/flight' significa llegar demasiado tarde."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que cambiemos la contraseña!"
+      },
+      "solution": "We had better change the password!",
+      "tip": {
+        "en": "Modern security advice often uses 'had better' for urgency.",
+        "es": "Consejos de seguridad modernos usan 'had better' para urgencia."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no publique esa foto!"
+      },
+      "solution": "He had better not post that photo!",
+      "tip": {
+        "en": "'Post' for social media, 'send' for private messages.",
+        "es": "'Post' para redes sociales, 'send' para mensajes privados."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que apaguemos las luces!"
+      },
+      "solution": "We had better turn off the lights!",
+      "tip": {
+        "en": "'Turn off' for lights/devices, 'switch off' also acceptable.",
+        "es": "'Turn off' para luces/dispositivos, 'switch off' también aceptable."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no llegue tarde al trabajo!"
+      },
+      "solution": "She had better not be late for work!",
+      "tip": {
+        "en": "'Be late for' shows what you're late to, 'be late to' less common.",
+        "es": "'Be late for' muestra a qué llegas tarde, 'be late to' menos común."
+      }
+    }
+  ]
+}

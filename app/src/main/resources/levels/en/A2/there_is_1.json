@@ -1,0 +1,615 @@
+{
+  "topicId": "there_is_1",
+  "title": {
+    "en": "There is - Singular & Uncountable (Hay singular e incontables)",
+    "es": "There is - Singular & Uncountable (Hay singular e incontables)"
+  },
+  "description": {
+    "en": "Learn to use 'there is' for singular countable nouns and uncountable nouns. Spanish speakers often confuse singular/plural forms of 'hay', but English requires 'there is' (there's) for singular and uncountable nouns.",
+    "es": "Aprende a usar 'there is' para sustantivos contables en singular y sustantivos incontables. Los hispanohablantes a menudo confunden las formas singular/plural de 'hay', pero el inglés requiere 'there is' (there's) para sustantivos singulares e incontables."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay una gran nube negra en el horizonte."
+      },
+      "solution": "There's a big black cloud on the horizon.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un agujero en la suela de mi zapato."
+      },
+      "solution": "There's a hole in the sole of my shoe.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un arroyo al final de mi jardín."
+      },
+      "solution": "There's a stream at the end of my garden.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un supermercado al final de mi calle."
+      },
+      "solution": "There's a supermarket at the end of my street.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un volcán en actividad en aquella isla."
+      },
+      "solution": "There's an active volcano on that island.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Creo que hay azúcar en la estantería superior."
+      },
+      "solution": "I think there's some sugar on the top shelf.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'sugar'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'sugar'."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay algún dinero en el cajón inferior."
+      },
+      "solution": "There's some money in the bottom drawer.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'money'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'money'."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay vino debajo de las escaleras."
+      },
+      "solution": "There's some wine under the stairs.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'wine'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'wine'."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay mucho humo sobre la ciudad."
+      },
+      "solution": "There's a lot of smoke over the city.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'smoke'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'smoke'."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay arroz en la parte trasera de aquel armario."
+      },
+      "solution": "There's some rice at the back of that cupboard.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'rice'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'rice'."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un gato negro en el tejado."
+      },
+      "solution": "There's a black cat on the roof.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay agua en el frigorífico."
+      },
+      "solution": "There's some water in the fridge.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'water'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'water'."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un problema con mi ordenador."
+      },
+      "solution": "There's a problem with my computer.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay leche en la mesa de la cocina."
+      },
+      "solution": "There's some milk on the kitchen table.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'milk'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'milk'."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay una farmacia cerca del hospital."
+      },
+      "solution": "There's a pharmacy near the hospital.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay música muy alta en el piso de arriba."
+      },
+      "solution": "There's very loud music in the flat upstairs.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'music'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'music'."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un médico en la sala de espera."
+      },
+      "solution": "There's a doctor in the waiting room.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay pan fresco en la panadería."
+      },
+      "solution": "There's fresh bread at the bakery.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'bread'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'bread'."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay una carta para ti en la mesa."
+      },
+      "solution": "There's a letter for you on the table.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay café en la cafetera."
+      },
+      "solution": "There's some coffee in the coffee pot.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'coffee'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'coffee'."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un banco al otro lado de la calle."
+      },
+      "solution": "There's a bank across the street.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay aceite en el suelo del garaje."
+      },
+      "solution": "There's some oil on the garage floor.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'oil'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'oil'."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay una reunión importante mañana."
+      },
+      "solution": "There's an important meeting tomorrow.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay miel en el tarro de la despensa."
+      },
+      "solution": "There's some honey in the jar in the pantry.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'honey'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'honey'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay una ventana abierta en el salón."
+      },
+      "solution": "There's an open window in the living room.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay sal en el armario de la cocina."
+      },
+      "solution": "There's some salt in the kitchen cupboard.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'salt'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'salt'."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un teléfono público cerca de la estación."
+      },
+      "solution": "There's a public phone near the station.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay papel en la impresora."
+      },
+      "solution": "There's some paper in the printer.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'paper'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'paper'."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay una iglesia antigua en el centro del pueblo."
+      },
+      "solution": "There's an old church in the town centre.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay queso en el frigorífico."
+      },
+      "solution": "There's some cheese in the fridge.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'cheese'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'cheese'."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un parque muy bonito detrás del colegio."
+      },
+      "solution": "There's a very nice park behind the school.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay hielo en el congelador."
+      },
+      "solution": "There's some ice in the freezer.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'ice'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'ice'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay una tienda de ropa en la esquina."
+      },
+      "solution": "There's a clothes shop on the corner.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay mantequilla en la nevera."
+      },
+      "solution": "There's some butter in the fridge.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'butter'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'butter'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay una mesa libre en el restaurante."
+      },
+      "solution": "There's a free table at the restaurant.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay zumo de naranja en la botella."
+      },
+      "solution": "There's some orange juice in the bottle.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'juice'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'juice'."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un coche rojo aparcado fuera."
+      },
+      "solution": "There's a red car parked outside.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay harina en el bote de la cocina."
+      },
+      "solution": "There's some flour in the kitchen container.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'flour'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'flour'."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un hospital nuevo en las afueras."
+      },
+      "solution": "There's a new hospital on the outskirts.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay yogur en el estante superior."
+      },
+      "solution": "There's some yogurt on the top shelf.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'yogurt'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'yogurt'."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay una biblioteca pública en el centro."
+      },
+      "solution": "There's a public library in the centre.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay pasta en el armario de la despensa."
+      },
+      "solution": "There's some pasta in the pantry cupboard.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'pasta'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'pasta'."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un semáforo en esa intersección."
+      },
+      "solution": "There's a traffic light at that intersection.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay jabón en el dispensador del baño."
+      },
+      "solution": "There's some soap in the bathroom dispenser.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'soap'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'soap'."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay una piscina en el jardín trasero."
+      },
+      "solution": "There's a swimming pool in the back garden.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay gasolina en el depósito del coche."
+      },
+      "solution": "There's some petrol in the car tank.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'petrol'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'petrol'."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay un ascensor al final del pasillo."
+      },
+      "solution": "There's a lift at the end of the corridor.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay champú en la ducha."
+      },
+      "solution": "There's some shampoo in the shower.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'shampoo'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'shampoo'."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay una estación de tren cerca del aeropuerto."
+      },
+      "solution": "There's a train station near the airport.",
+      "tip": {
+        "en": "Use 'there's' (there is) for singular countable nouns.",
+        "es": "Usa 'there's' (there is) para sustantivos contables en singular."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Hay chocolate en el cajón de los dulces."
+      },
+      "solution": "There's some chocolate in the sweets drawer.",
+      "tip": {
+        "en": "Use 'there's' for uncountable nouns like 'chocolate'.",
+        "es": "Usa 'there's' para sustantivos incontables como 'chocolate'."
+      }
+    }
+  ]
+}

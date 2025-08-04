@@ -1,0 +1,615 @@
+{
+  "topicId": "compound_adjectives_numbers_1",
+  "title": {
+    "en": "Compound Adjectives with Numbers (Adjetivos compuestos con números)",
+    "es": "Compound Adjectives with Numbers (Adjetivos compuestos con números)"
+  },
+  "description": {
+    "en": "Learn to form compound adjectives with numbers where the first noun acts as an adjective and remains singular. The pattern is: number + singular noun + main noun. Unlike Spanish, the first noun never takes plural form.",
+    "es": "Aprende a formar adjetivos compuestos con números donde el primer sustantivo actúa como adjetivo y permanece singular. El patrón es: número + sustantivo singular + sustantivo principal. A diferencia del español, el primer sustantivo nunca toma forma plural."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Viajé en un tren de seis vagones."
+      },
+      "solution": "I travelled in a six-carriage train.",
+      "tip": {
+        "en": "Use 'carriage' (singular) not 'carriages'. The first noun acts as an adjective.",
+        "es": "Usa 'carriage' (singular) no 'carriages'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella recibió de él una carta de ocho páginas."
+      },
+      "solution": "She received an eight-page letter from him.",
+      "tip": {
+        "en": "Use 'page' (singular) not 'pages'. The first noun acts as an adjective.",
+        "es": "Usa 'page' (singular) no 'pages'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Mañana tengo que hacer un examen de tres horas."
+      },
+      "solution": "I have to sit a three-hour exam tomorrow.",
+      "tip": {
+        "en": "Use 'hour' (singular) not 'hours'. The first noun acts as an adjective.",
+        "es": "Usa 'hour' (singular) no 'hours'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Estoy reventado después de un vuelo de siete horas."
+      },
+      "solution": "I'm knackered after a seven-hour flight.",
+      "tip": {
+        "en": "Use 'hour' (singular) not 'hours'. The first noun acts as an adjective.",
+        "es": "Usa 'hour' (singular) no 'hours'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "La lucha por el poder en Europa terminó en un conflicto mundial de seis años."
+      },
+      "solution": "The struggle for power in Europe ended in a six-year World conflict.",
+      "tip": {
+        "en": "Use 'year' (singular) not 'years'. The first noun acts as an adjective.",
+        "es": "Usa 'year' (singular) no 'years'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "El rugby se juega entre dos equipos de 15 jugadores."
+      },
+      "solution": "Rugby is played between two fifteen-player teams.",
+      "tip": {
+        "en": "Use 'player' (singular). Note that 'teams' is plural as it's the main noun.",
+        "es": "Usa 'player' (singular). Nota que 'teams' es plural porque es el sustantivo principal."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "La semana que viene tenemos que ir a Lyon para una conferencia de tres días."
+      },
+      "solution": "Next week we have to go to Lyon for a three-day conference.",
+      "tip": {
+        "en": "Use 'day' (singular) not 'days'. The first noun acts as an adjective.",
+        "es": "Usa 'day' (singular) no 'days'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "El niño se asustó tanto de los gansos que saltó una valla de dos metros."
+      },
+      "solution": "The boy was so scared of the geese that he jumped over a two-metre fence.",
+      "tip": {
+        "en": "Use 'metre' (singular) not 'metres'. The first noun acts as an adjective.",
+        "es": "Usa 'metre' (singular) no 'metres'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "El magnate acaba de comprarse un yate de 20 metros."
+      },
+      "solution": "The magnate has just bought a twenty-metre yacht.",
+      "tip": {
+        "en": "Use 'metre' (singular) not 'metres'. The first noun acts as an adjective.",
+        "es": "Usa 'metre' (singular) no 'metres'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Más vale que nos acostemos. Mañana tenemos que hacer un viaje de nueve horas en coche."
+      },
+      "solution": "We had better go to bed. We have to make a nine-hour car journey tomorrow.",
+      "tip": {
+        "en": "Use 'hour' (singular) not 'hours'. The first noun acts as an adjective.",
+        "es": "Usa 'hour' (singular) no 'hours'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Compré un apartamento de dos dormitorios."
+      },
+      "solution": "I bought a two-bedroom flat.",
+      "tip": {
+        "en": "Use 'bedroom' (singular) not 'bedrooms'. The first noun acts as an adjective.",
+        "es": "Usa 'bedroom' (singular) no 'bedrooms'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito una mesa de cuatro patas para el jardín."
+      },
+      "solution": "I need a four-leg table for the garden.",
+      "tip": {
+        "en": "Use 'leg' (singular) not 'legs'. The first noun acts as an adjective.",
+        "es": "Usa 'leg' (singular) no 'legs'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hija está en una escuela de cinco pisos."
+      },
+      "solution": "My daughter is at a five-storey school.",
+      "tip": {
+        "en": "Use 'storey' (singular) not 'storeys'. The first noun acts as an adjective.",
+        "es": "Usa 'storey' (singular) no 'storeys'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Él escribió un libro de 300 páginas."
+      },
+      "solution": "He wrote a three-hundred-page book.",
+      "tip": {
+        "en": "Use 'page' (singular) not 'pages'. The first noun acts as an adjective.",
+        "es": "Usa 'page' (singular) no 'pages'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo una reunión de dos horas esta tarde."
+      },
+      "solution": "I have a two-hour meeting this afternoon.",
+      "tip": {
+        "en": "Use 'hour' (singular) not 'hours'. The first noun acts as an adjective.",
+        "es": "Usa 'hour' (singular) no 'hours'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Vivo en un edificio de diez plantas."
+      },
+      "solution": "I live in a ten-floor building.",
+      "tip": {
+        "en": "Use 'floor' (singular) not 'floors'. The first noun acts as an adjective.",
+        "es": "Usa 'floor' (singular) no 'floors'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella hizo una presentación de veinte minutos."
+      },
+      "solution": "She gave a twenty-minute presentation.",
+      "tip": {
+        "en": "Use 'minute' (singular) not 'minutes'. The first noun acts as an adjective.",
+        "es": "Usa 'minute' (singular) no 'minutes'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi padre conduce un camión de ocho ruedas."
+      },
+      "solution": "My father drives an eight-wheel truck.",
+      "tip": {
+        "en": "Use 'wheel' (singular) not 'wheels'. The first noun acts as an adjective.",
+        "es": "Usa 'wheel' (singular) no 'wheels'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Compramos una casa de tres baños."
+      },
+      "solution": "We bought a three-bathroom house.",
+      "tip": {
+        "en": "Use 'bathroom' (singular) not 'bathrooms'. The first noun acts as an adjective.",
+        "es": "Usa 'bathroom' (singular) no 'bathrooms'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito hacer un curso de seis meses."
+      },
+      "solution": "I need to do a six-month course.",
+      "tip": {
+        "en": "Use 'month' (singular) not 'months'. The first noun acts as an adjective.",
+        "es": "Usa 'month' (singular) no 'months'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella lleva un vestido de cinco colores."
+      },
+      "solution": "She's wearing a five-colour dress.",
+      "tip": {
+        "en": "Use 'colour' (singular) not 'colours'. The first noun acts as an adjective.",
+        "es": "Usa 'colour' (singular) no 'colours'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hermano compró una moto de dos cilindros."
+      },
+      "solution": "My brother bought a two-cylinder motorbike.",
+      "tip": {
+        "en": "Use 'cylinder' (singular) not 'cylinders'. The first noun acts as an adjective.",
+        "es": "Usa 'cylinder' (singular) no 'cylinders'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que escribir un ensayo de mil palabras."
+      },
+      "solution": "I have to write a thousand-word essay.",
+      "tip": {
+        "en": "Use 'word' (singular) not 'words'. The first noun acts as an adjective.",
+        "es": "Usa 'word' (singular) no 'words'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella trabaja en un hospital de cuatro plantas."
+      },
+      "solution": "She works at a four-storey hospital.",
+      "tip": {
+        "en": "Use 'storey' (singular) not 'storeys'. The first noun acts as an adjective.",
+        "es": "Usa 'storey' (singular) no 'storeys'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi jefe me dio un proyecto de tres semanas."
+      },
+      "solution": "My boss gave me a three-week project.",
+      "tip": {
+        "en": "Use 'week' (singular) not 'weeks'. The first noun acts as an adjective.",
+        "es": "Usa 'week' (singular) no 'weeks'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Compramos un sofá de cuatro plazas."
+      },
+      "solution": "We bought a four-seater sofa.",
+      "tip": {
+        "en": "Use 'seater' (singular). This is a compound word pattern for seats.",
+        "es": "Usa 'seater' (singular). Este es un patrón de palabra compuesta para asientos."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hijo está haciendo un programa de dos años."
+      },
+      "solution": "My son is doing a two-year programme.",
+      "tip": {
+        "en": "Use 'year' (singular) not 'years'. The first noun acts as an adjective.",
+        "es": "Usa 'year' (singular) no 'years'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella vive en un piso de un dormitorio."
+      },
+      "solution": "She lives in a one-bedroom flat.",
+      "tip": {
+        "en": "Use 'bedroom' (singular) not 'bedrooms'. The first noun acts as an adjective.",
+        "es": "Usa 'bedroom' (singular) no 'bedrooms'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito una cuerda de diez metros."
+      },
+      "solution": "I need a ten-metre rope.",
+      "tip": {
+        "en": "Use 'metre' (singular) not 'metres'. The first noun acts as an adjective.",
+        "es": "Usa 'metre' (singular) no 'metres'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi abuelo construyó una cerca de dos metros."
+      },
+      "solution": "My grandfather built a two-metre fence.",
+      "tip": {
+        "en": "Use 'metre' (singular) not 'metres'. The first noun acts as an adjective.",
+        "es": "Usa 'metre' (singular) no 'metres'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella compró un coche de cinco puertas."
+      },
+      "solution": "She bought a five-door car.",
+      "tip": {
+        "en": "Use 'door' (singular) not 'doors'. The first noun acts as an adjective.",
+        "es": "Usa 'door' (singular) no 'doors'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que tomar un descanso de quince minutos."
+      },
+      "solution": "I have to take a fifteen-minute break.",
+      "tip": {
+        "en": "Use 'minute' (singular) not 'minutes'. The first noun acts as an adjective.",
+        "es": "Usa 'minute' (singular) no 'minutes'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hermana estudia en una universidad de cuatro facultades."
+      },
+      "solution": "My sister studies at a four-faculty university.",
+      "tip": {
+        "en": "Use 'faculty' (singular) not 'faculties'. The first noun acts as an adjective.",
+        "es": "Usa 'faculty' (singular) no 'faculties'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Él hizo una caminata de ocho kilómetros."
+      },
+      "solution": "He did an eight-kilometre walk.",
+      "tip": {
+        "en": "Use 'kilometre' (singular) not 'kilometres'. The first noun acts as an adjective.",
+        "es": "Usa 'kilometre' (singular) no 'kilometres'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Compramos una mesa de seis sillas."
+      },
+      "solution": "We bought a six-chair table.",
+      "tip": {
+        "en": "Use 'chair' (singular) not 'chairs'. The first noun acts as an adjective.",
+        "es": "Usa 'chair' (singular) no 'chairs'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi madre hizo una tarta de tres capas."
+      },
+      "solution": "My mother made a three-layer cake.",
+      "tip": {
+        "en": "Use 'layer' (singular) not 'layers'. The first noun acts as an adjective.",
+        "es": "Usa 'layer' (singular) no 'layers'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito un cable de cinco metros."
+      },
+      "solution": "I need a five-metre cable.",
+      "tip": {
+        "en": "Use 'metre' (singular) not 'metres'. The first noun acts as an adjective.",
+        "es": "Usa 'metre' (singular) no 'metres'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella compró un bolso de tres compartimentos."
+      },
+      "solution": "She bought a three-compartment bag.",
+      "tip": {
+        "en": "Use 'compartment' (singular) not 'compartments'. The first noun acts as an adjective.",
+        "es": "Usa 'compartment' (singular) no 'compartments'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi padre trabaja en un turno de doce horas."
+      },
+      "solution": "My father works a twelve-hour shift.",
+      "tip": {
+        "en": "Use 'hour' (singular) not 'hours'. The first noun acts as an adjective.",
+        "es": "Usa 'hour' (singular) no 'hours'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que hacer una dieta de dos semanas."
+      },
+      "solution": "I have to go on a two-week diet.",
+      "tip": {
+        "en": "Use 'week' (singular) not 'weeks'. The first noun acts as an adjective.",
+        "es": "Usa 'week' (singular) no 'weeks'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella vive en una casa de dos plantas."
+      },
+      "solution": "She lives in a two-storey house.",
+      "tip": {
+        "en": "Use 'storey' (singular) not 'storeys'. The first noun acts as an adjective.",
+        "es": "Usa 'storey' (singular) no 'storeys'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hermano compró un barco de seis metros."
+      },
+      "solution": "My brother bought a six-metre boat.",
+      "tip": {
+        "en": "Use 'metre' (singular) not 'metres'. The first noun acts as an adjective.",
+        "es": "Usa 'metre' (singular) no 'metres'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Necesito hacer un entrenamiento de una hora."
+      },
+      "solution": "I need to do a one-hour workout.",
+      "tip": {
+        "en": "Use 'hour' (singular) not 'hours'. The first noun acts as an adjective.",
+        "es": "Usa 'hour' (singular) no 'hours'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella escribió un artículo de dos páginas."
+      },
+      "solution": "She wrote a two-page article.",
+      "tip": {
+        "en": "Use 'page' (singular) not 'pages'. The first noun acts as an adjective.",
+        "es": "Usa 'page' (singular) no 'pages'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi tío tiene un camión de diez toneladas."
+      },
+      "solution": "My uncle has a ten-tonne truck.",
+      "tip": {
+        "en": "Use 'tonne' (singular) not 'tonnes'. The first noun acts as an adjective.",
+        "es": "Usa 'tonne' (singular) no 'tonnes'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Compramos un televisor de 55 pulgadas."
+      },
+      "solution": "We bought a fifty-five-inch television.",
+      "tip": {
+        "en": "Use 'inch' (singular) not 'inches'. The first noun acts as an adjective.",
+        "es": "Usa 'inch' (singular) no 'inches'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella tiene que dar una conferencia de cuarenta minutos."
+      },
+      "solution": "She has to give a forty-minute lecture.",
+      "tip": {
+        "en": "Use 'minute' (singular) not 'minutes'. The first noun acts as an adjective.",
+        "es": "Usa 'minute' (singular) no 'minutes'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi padre construyó un cobertizo de cuatro metros."
+      },
+      "solution": "My father built a four-metre shed.",
+      "tip": {
+        "en": "Use 'metre' (singular) not 'metres'. The first noun acts as an adjective.",
+        "es": "Usa 'metre' (singular) no 'metres'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que hacer un viaje de siete días."
+      },
+      "solution": "I have to make a seven-day trip.",
+      "tip": {
+        "en": "Use 'day' (singular) not 'days'. The first noun acts as an adjective.",
+        "es": "Usa 'day' (singular) no 'days'. El primer sustantivo actúa como adjetivo."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella compró una maleta de cuatro ruedas."
+      },
+      "solution": "She bought a four-wheel suitcase.",
+      "tip": {
+        "en": "Use 'wheel' (singular) not 'wheels'. The first noun acts as an adjective.",
+        "es": "Usa 'wheel' (singular) no 'wheels'. El primer sustantivo actúa como adjetivo."
+      }
+    }
+  ]
+}

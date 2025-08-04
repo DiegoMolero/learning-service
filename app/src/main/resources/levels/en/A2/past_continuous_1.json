@@ -1,0 +1,615 @@
+{
+  "topicId": "past_continuous_1",
+  "title": {
+    "en": "Past Continuous - Interrupted Actions & Questions (Pasado continuo)",
+    "es": "Past Continuous - Interrupted Actions & Questions (Pasado continuo)"
+  },
+  "description": {
+    "en": "Learn to use Past Continuous (was/were + -ing) for actions that were happening when something else occurred. Master the interrogative form with subject-verb inversion.",
+    "es": "Aprende a usar Past Continuous (was/were + -ing) para acciones que estaban sucediendo cuando algo más ocurrió. Domina la forma interrogativa con inversión sujeto-verbo."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba viendo la televisión cuando llamaste."
+      },
+      "solution": "I was watching television when you called.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella estaba mirando su reloj cuando la bomba estalló."
+      },
+      "solution": "She was looking at her watch when the bomb went off.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaban contándole un cuento de hadas cuando su madre llegó."
+      },
+      "solution": "They were telling him a fairy tale when his mother arrived.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Estábamos escuchando el sermón cuando el cura se desmayó."
+      },
+      "solution": "We were listening to the sermon when the priest collapsed.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "John estaba intentando matar una mosca cuando se cayó del taburete."
+      },
+      "solution": "John was trying to swat a fly when he fell off the stool.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué estabas haciendo cuando atacaron la embajada?"
+      },
+      "solution": "What were you doing when the embassy was attacked?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿A dónde ibas cuando sufriste el accidente?"
+      },
+      "solution": "Where were you going when you had the accident?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué estabas diciendo antes de que te interrumpiera?"
+      },
+      "solution": "What were you saying before I interrupted you?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿A qué velocidad iba ella cuando perdió el control del vehículo?"
+      },
+      "solution": "What speed was she doing when she lost control of the vehicle?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estabas esquiando cuando te rompiste la pierna?"
+      },
+      "solution": "Were you skiing when you broke your leg?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba cocinando cuando empezó a llover."
+      },
+      "solution": "I was cooking when it started to rain.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué estaba haciendo él cuando llegaste?"
+      },
+      "solution": "What was he doing when you arrived?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaban durmiendo cuando sonó la alarma."
+      },
+      "solution": "They were sleeping when the alarm went off.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estaba lloviendo cuando saliste de casa?"
+      },
+      "solution": "Was it raining when you left home?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba leyendo cuando me llamaste."
+      },
+      "solution": "I was reading when you called me.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Dónde estabas trabajando cuando conociste a tu marido?"
+      },
+      "solution": "Where were you working when you met your husband?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Él estaba conduciendo cuando vio el accidente."
+      },
+      "solution": "He was driving when he saw the accident.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué estaban comiendo cuando llegó la policía?"
+      },
+      "solution": "What were they eating when the police arrived?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba duchándome cuando cortaron la luz."
+      },
+      "solution": "I was having a shower when the power went off.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estabas estudiando cuando te llamé anoche?"
+      },
+      "solution": "Were you studying when I called you last night?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaban jugando al fútbol cuando empezó a nevar."
+      },
+      "solution": "They were playing football when it started to snow.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué película estabas viendo cuando me perdí la llamada?"
+      },
+      "solution": "What film were you watching when I missed the call?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba esperando el autobús cuando empezó a llover."
+      },
+      "solution": "I was waiting for the bus when it started to rain.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estaba funcionando el aire acondicionado cuando llegaste?"
+      },
+      "solution": "Was the air conditioning working when you arrived?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella estaba hablando por teléfono cuando entré."
+      },
+      "solution": "She was talking on the phone when I came in.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Con quién estabas hablando cuando te vi?"
+      },
+      "solution": "Who were you talking to when I saw you?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Estábamos cenando cuando llegaron los invitados."
+      },
+      "solution": "We were having dinner when the guests arrived.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué estaba haciendo tu hermana cuando la visitaste?"
+      },
+      "solution": "What was your sister doing when you visited her?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba escribiendo un email cuando se fue la luz."
+      },
+      "solution": "I was writing an email when the lights went out.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estabas desayunando cuando recibiste la noticia?"
+      },
+      "solution": "Were you having breakfast when you received the news?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaban limpiando la casa cuando llegamos."
+      },
+      "solution": "They were cleaning the house when we arrived.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Dónde estabas viviendo cuando empezaste a trabajar allí?"
+      },
+      "solution": "Where were you living when you started working there?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Él estaba corriendo cuando se torció el tobillo."
+      },
+      "solution": "He was running when he twisted his ankle.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estaban viendo la televisión cuando se fue la luz?"
+      },
+      "solution": "Were they watching television when the power went out?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba pintando cuando me llamaste."
+      },
+      "solution": "I was painting when you called me.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué estaba comprando cuando la viste en el supermercado?"
+      },
+      "solution": "What was she buying when you saw her at the supermarket?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaban discutiendo cuando entré en la habitación."
+      },
+      "solution": "They were arguing when I entered the room.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estaba funcionando tu coche cuando fuiste al mecánico?"
+      },
+      "solution": "Was your car working when you went to the mechanic?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba soñando cuando sonó el despertador."
+      },
+      "solution": "I was dreaming when the alarm clock went off.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué estabas escuchando cuando llegué?"
+      },
+      "solution": "What were you listening to when I arrived?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella estaba bailando cuando empezó a llover."
+      },
+      "solution": "She was dancing when it started to rain.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estabas durmiendo cuando te llamé esta mañana?"
+      },
+      "solution": "Were you sleeping when I called you this morning?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Estábamos caminando cuando vimos el accidente."
+      },
+      "solution": "We were walking when we saw the accident.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué estaba haciendo el perro cuando lo encontraste?"
+      },
+      "solution": "What was the dog doing when you found it?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaba trabajando cuando recibí tu mensaje."
+      },
+      "solution": "I was working when I received your message.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estaban cantando cuando empezó la tormenta?"
+      },
+      "solution": "Were they singing when the storm started?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Él estaba afeitándose cuando sonó el teléfono."
+      },
+      "solution": "He was shaving when the phone rang.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué estabas pensando cuando tomaste esa decisión?"
+      },
+      "solution": "What were you thinking when you made that decision?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Estaban construyendo la casa cuando se mudaron."
+      },
+      "solution": "They were building the house when they moved.",
+      "tip": {
+        "en": "Use Past Continuous (was/were + -ing) for ongoing actions interrupted by another event.",
+        "es": "Usa Past Continuous (was/were + -ing) para acciones continuas interrumpidas por otro evento."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Estaba nevando cuando saliste esta mañana?"
+      },
+      "solution": "Was it snowing when you left this morning?",
+      "tip": {
+        "en": "In questions, invert subject and 'to be': were you doing, was she going, etc.",
+        "es": "En preguntas, invierte sujeto y 'to be': were you doing, was she going, etc."
+      }
+    }
+  ]
+}

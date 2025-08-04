@@ -1,0 +1,375 @@
+{
+  "topicId": "most_important_thing_1",
+  "title": {
+    "en": "The Most Important Thing Is... (Lo más importante es...)",
+    "es": "The Most Important Thing Is... (Lo más importante es...)"
+  },
+  "description": {
+    "en": "Learn to use 'The most + adjective + thing is...' for superlative expressions. CRITICAL: Always include 'thing' - without it, the sentence sounds terrible in English. Spanish speakers often omit this essential word.",
+    "es": "Aprende a usar 'The most + adjetivo + thing is...' para expresiones superlativas. CRÍTICO: Siempre incluye 'thing' - sin ella, la frase suena fatal en inglés. Los hispanohablantes suelen omitir esta palabra esencial."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más importante es estudiar a diario."
+      },
+      "solution": "The most important thing is to study daily.",
+      "tip": {
+        "en": "ALWAYS use 'thing' in superlative expressions. Never omit it!",
+        "es": "SIEMPRE usa 'thing' en expresiones superlativas. ¡Nunca la omitas!"
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más preocupante es el cambio climático."
+      },
+      "solution": "The most worrying thing is climate change.",
+      "tip": {
+        "en": "ALWAYS use 'thing' in superlative expressions. Never omit it!",
+        "es": "SIEMPRE usa 'thing' en expresiones superlativas. ¡Nunca la omitas!"
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más interesante de este tema es la historia."
+      },
+      "solution": "The most interesting thing about this topic is the history.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo mejor de la película fue el final."
+      },
+      "solution": "The best thing about the film was the ending.",
+      "tip": {
+        "en": "ALWAYS use 'thing' in superlative expressions. Never omit it!",
+        "es": "SIEMPRE usa 'thing' en expresiones superlativas. ¡Nunca la omitas!"
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo peor de la reunión fue la duración."
+      },
+      "solution": "The worst thing about the meeting was the duration.",
+      "tip": {
+        "en": "ALWAYS use 'thing' in superlative expressions. Never omit it!",
+        "es": "SIEMPRE usa 'thing' en expresiones superlativas. ¡Nunca la omitas!"
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más curioso de Madrid es el ambiente nocturno."
+      },
+      "solution": "The most intriguing thing about Madrid is the nightlife.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más frustrante del inglés es la pronunciación."
+      },
+      "solution": "The most frustrating thing about English is the pronunciation.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más difícil es entender."
+      },
+      "solution": "The most difficult thing is to understand.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más raro de los ingleses es su humor."
+      },
+      "solution": "The funniest thing about the English is their humour.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más fácil es rendirse."
+      },
+      "solution": "The easiest thing is to give up.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más emocionante es viajar al extranjero."
+      },
+      "solution": "The most exciting thing is to travel abroad.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más sorprendente de este lugar es la tranquilidad."
+      },
+      "solution": "The most surprising thing about this place is the tranquillity.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más molesto es esperar."
+      },
+      "solution": "The most annoying thing is to wait.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más hermoso de París son los monumentos."
+      },
+      "solution": "The most beautiful thing about Paris is the monuments.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más inteligente es planificar."
+      },
+      "solution": "The smartest thing is to plan.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más divertido del viaje fue la comida."
+      },
+      "solution": "The most fun thing about the trip was the food.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más útil es practicar todos los días."
+      },
+      "solution": "The most useful thing is to practise every day.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más extraño de esta ciudad es el silencio."
+      },
+      "solution": "The strangest thing about this city is the silence.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más complicado es comenzar."
+      },
+      "solution": "The most complicated thing is to start.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más impresionante del museo era la colección."
+      },
+      "solution": "The most impressive thing about the museum was the collection.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más peligroso es conducir sin cinturón."
+      },
+      "solution": "The most dangerous thing is to drive without a seatbelt.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más relajante de las vacaciones fue la playa."
+      },
+      "solution": "The most relaxing thing about the holidays was the beach.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más efectivo es estudiar con constancia."
+      },
+      "solution": "The most effective thing is to study consistently.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más característico de España es la siesta."
+      },
+      "solution": "The most characteristic thing about Spain is the siesta.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más lógico es empezar por lo básico."
+      },
+      "solution": "The most logical thing is to start with the basics.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más atractivo del trabajo es el horario flexible."
+      },
+      "solution": "The most attractive thing about the job is the flexible schedule.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más sabio es escuchar a los expertos."
+      },
+      "solution": "The wisest thing is to listen to the experts.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más increíble de la tecnología es la velocidad."
+      },
+      "solution": "The most incredible thing about technology is the speed.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más natural es respirar."
+      },
+      "solution": "The most natural thing is to breathe.",
+      "tip": {
+        "en": "Use infinitive 'to + verb' after superlative expressions.",
+        "es": "Usa infinitivo 'to + verbo' después de expresiones superlativas."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Lo más fascinante del espacio es la inmensidad."
+      },
+      "solution": "The most fascinating thing about space is the immensity.",
+      "tip": {
+        "en": "Use 'about' when specifying what the superlative refers to.",
+        "es": "Usa 'about' al especificar a qué se refiere el superlativo."
+      }
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "topicId": "to_manage_1",
+  "title": {
+    "en": "To Manage - Achieving Actions (Conseguir hacer algo)",
+    "es": "To Manage - Achieving Actions (Conseguir hacer algo)"
+  },
+  "description": {
+    "en": "Learn to use 'to manage to do something' for achieving actions with effort or difficulty. Use 'to manage' when you succeed in doing something, not for obtaining objects.",
+    "es": "Aprende a usar 'to manage to do something' para lograr acciones con esfuerzo o dificultad. Usa 'to manage' cuando logras hacer algo, no para obtener objetos."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella consigue ver a sus padres una vez cada quincena."
+      },
+      "solution": "She manages to see her parents once a fortnight.",
+      "tip": {
+        "en": "Use 'to manage to do something' for achieving actions with effort.",
+        "es": "Usa 'to manage to do something' para lograr acciones con esfuerzo."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Logré terminar el informe a tiempo para la reunión."
+      },
+      "solution": "I managed to finish the report in time for the meeting.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguimos hablar con la persona responsable del proyecto."
+      },
+      "solution": "We managed to talk to the person in charge of the project.",
+      "tip": {
+        "en": "Use 'to manage to do something' for achieving actions with effort.",
+        "es": "Usa 'to manage to do something' para lograr acciones con esfuerzo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Consiguieron impedir que se construyera la autopista."
+      },
+      "solution": "They managed to stop the motorway from being built.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Después de buscar durante tres horas, conseguí encontrar las llaves de mi coche."
+      },
+      "solution": "After searching for three hours, I managed to find my car keys.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te las arreglaste para hablar con los abogados?"
+      },
+      "solution": "Did you manage to speak to the lawyers?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Encontraron por fin un piso en esa zona?"
+      },
+      "solution": "Did they manage to find a new flat in that area?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Terminaste la contabilidad la semana pasada?"
+      },
+      "solution": "Did you manage to finish the accounts last week?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste reparar tu reloj al final?"
+      },
+      "solution": "Did you manage to repair your watch in the end?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Resolviste el problema al final?"
+      },
+      "solution": "Did you manage to solve the problem in the end?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí llegar al aeropuerto a tiempo."
+      },
+      "solution": "I managed to get to the airport on time.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste convencer a tu jefe?"
+      },
+      "solution": "Did you manage to convince your boss?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella consigue estudiar tres horas cada día."
+      },
+      "solution": "She manages to study three hours every day.",
+      "tip": {
+        "en": "Use 'to manage to do something' for achieving actions with effort.",
+        "es": "Usa 'to manage to do something' para lograr acciones con esfuerzo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Lograste escapar del tráfico?"
+      },
+      "solution": "Did you manage to escape the traffic?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguimos reservar una mesa en el restaurante."
+      },
+      "solution": "We managed to book a table at the restaurant.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste dormir bien anoche?"
+      },
+      "solution": "Did you manage to sleep well last night?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Él consigue trabajar desde casa dos días a la semana."
+      },
+      "solution": "He manages to work from home two days a week.",
+      "tip": {
+        "en": "Use 'to manage to do something' for achieving actions with effort.",
+        "es": "Usa 'to manage to do something' para lograr acciones con esfuerzo."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste entender lo que dijo el profesor?"
+      },
+      "solution": "Did you manage to understand what the teacher said?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí ahorrar suficiente dinero para las vacaciones."
+      },
+      "solution": "I managed to save enough money for the holidays.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste arreglar el problema con el ordenador?"
+      },
+      "solution": "Did you manage to fix the problem with the computer?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguimos evitar el atasco tomando otra ruta."
+      },
+      "solution": "We managed to avoid the traffic jam by taking another route.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste contactar con el servicio técnico?"
+      },
+      "solution": "Did you manage to contact technical support?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella consigue mantener la calma en situaciones difíciles."
+      },
+      "solution": "She manages to stay calm in difficult situations.",
+      "tip": {
+        "en": "Use 'to manage to do something' for achieving actions with effort.",
+        "es": "Usa 'to manage to do something' para lograr acciones con esfuerzo."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste completar todos los ejercicios?"
+      },
+      "solution": "Did you manage to complete all the exercises?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí persuadir a mis padres para que me dejaran ir."
+      },
+      "solution": "I managed to persuade my parents to let me go.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste explicar la situación claramente?"
+      },
+      "solution": "Did you manage to explain the situation clearly?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguimos llegar antes de que cerraran la tienda."
+      },
+      "solution": "We managed to arrive before the shop closed.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste recordar su nombre al final?"
+      },
+      "solution": "Did you manage to remember his name in the end?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Él consigue equilibrar el trabajo y la vida familiar."
+      },
+      "solution": "He manages to balance work and family life.",
+      "tip": {
+        "en": "Use 'to manage to do something' for achieving actions with effort.",
+        "es": "Usa 'to manage to do something' para lograr acciones con esfuerzo."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste instalar el programa correctamente?"
+      },
+      "solution": "Did you manage to install the program correctly?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí traducir todo el documento en una hora."
+      },
+      "solution": "I managed to translate the whole document in an hour.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste organizar la reunión para mañana?"
+      },
+      "solution": "Did you manage to organise the meeting for tomorrow?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguimos encontrar un apartamento en el centro."
+      },
+      "solution": "We managed to find an apartment in the centre.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste aprobar el examen de conducir?"
+      },
+      "solution": "Did you manage to pass your driving test?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella consigue levantarse temprano todos los días."
+      },
+      "solution": "She manages to get up early every day.",
+      "tip": {
+        "en": "Use 'to manage to do something' for achieving actions with effort.",
+        "es": "Usa 'to manage to do something' para lograr acciones con esfuerzo."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste cambiar la fecha de la cita?"
+      },
+      "solution": "Did you manage to change the appointment date?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí convencer al cliente de que comprara el producto."
+      },
+      "solution": "I managed to convince the client to buy the product.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste resolver el conflicto entre los empleados?"
+      },
+      "solution": "Did you manage to resolve the conflict between the employees?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguimos terminar el proyecto antes del plazo."
+      },
+      "solution": "We managed to finish the project before the deadline.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste negociar un mejor precio?"
+      },
+      "solution": "Did you manage to negotiate a better price?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Él consigue concentrarse incluso con ruido."
+      },
+      "solution": "He manages to concentrate even with noise.",
+      "tip": {
+        "en": "Use 'to manage to do something' for achieving actions with effort.",
+        "es": "Usa 'to manage to do something' para lograr acciones con esfuerzo."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste cancelar la reserva a tiempo?"
+      },
+      "solution": "Did you manage to cancel the booking in time?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí memorizar toda la presentación."
+      },
+      "solution": "I managed to memorise the whole presentation.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste adaptar el horario a tus necesidades?"
+      },
+      "solution": "Did you manage to adapt the schedule to your needs?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguimos recuperar todos los archivos perdidos."
+      },
+      "solution": "We managed to recover all the lost files.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste localizar la dirección correcta?"
+      },
+      "solution": "Did you manage to locate the correct address?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella consigue mantener una actitud positiva siempre."
+      },
+      "solution": "She manages to maintain a positive attitude always.",
+      "tip": {
+        "en": "Use 'to manage to do something' for achieving actions with effort.",
+        "es": "Usa 'to manage to do something' para lograr acciones con esfuerzo."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste superar tus miedos al final?"
+      },
+      "solution": "Did you manage to overcome your fears in the end?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Conseguí establecer una buena relación con mis colegas."
+      },
+      "solution": "I managed to establish a good relationship with my colleagues.",
+      "tip": {
+        "en": "Use 'managed to' for past achievements that required effort.",
+        "es": "Usa 'managed to' para logros pasados que requirieron esfuerzo."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Conseguiste implementar todas las mejoras sugeridas?"
+      },
+      "solution": "Did you manage to implement all the suggested improvements?",
+      "tip": {
+        "en": "Use 'Did you manage to...' for questions about past achievements.",
+        "es": "Usa 'Did you manage to...' para preguntas sobre logros pasados."
+      }
+    }
+  ]
+}

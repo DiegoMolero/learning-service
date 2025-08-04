@@ -1,0 +1,615 @@
+{
+  "topicId": "there_was_were_1",
+  "title": {
+    "en": "There was/were - Past Singular & Plural (Había singular y plural)",
+    "es": "There was/were - Past Singular & Plural (Había singular y plural)"
+  },
+  "description": {
+    "en": "Learn 'there was' for singular/uncountable nouns and 'there were' for plural nouns in the past. Spanish speakers often miss this distinction since 'había' doesn't change form, but English requires different past forms.",
+    "es": "Aprende 'there was' para sustantivos singulares/incontables y 'there were' para sustantivos plurales en el pasado. Los hispanohablantes a menudo pierden esta distinción ya que 'había' no cambia de forma, pero el inglés requiere formas pasadas diferentes."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Había un moscardón gordo en la pantalla de su ordenador."
+      },
+      "solution": "There was a big fat fly on his computer screen.",
+      "tip": {
+        "en": "Use 'there was' for singular countable nouns in the past.",
+        "es": "Usa 'there was' para sustantivos contables en singular en el pasado."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Había tres mil libras esterlinas sobre la mesa."
+      },
+      "solution": "There was three thousand pounds on the table.",
+      "tip": {
+        "en": "Use 'there was' for uncountable nouns like money, even with large amounts.",
+        "es": "Usa 'there was' para sustantivos incontables como dinero, incluso con cantidades grandes."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "No había nadie allí."
+      },
+      "solution": "There wasn't anybody there.",
+      "tip": {
+        "en": "Use 'there wasn't' for negative singular in the past.",
+        "es": "Usa 'there wasn't' para singular negativo en el pasado."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "No quedaba té en la tetera."
+      },
+      "solution": "There wasn't any tea left in the tea-pot.",
+      "tip": {
+        "en": "Use 'there wasn't' for uncountable nouns in negative.",
+        "es": "Usa 'there wasn't' para sustantivos incontables en negativo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "No había fertilizante en el cobertizo, pero había herbicida."
+      },
+      "solution": "There wasn't any fertilizer in the shed, but there was some weed-killer.",
+      "tip": {
+        "en": "Use 'there wasn't' and 'there was' for uncountable nouns in past.",
+        "es": "Usa 'there wasn't' y 'there was' para sustantivos incontables en pasado."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Había tres crías en el nido del águila."
+      },
+      "solution": "There were three chicks in the eagle's nest.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "No sé si había tanta gente."
+      },
+      "solution": "I don't know if there were that many people there.",
+      "tip": {
+        "en": "Use 'there were' for plural nouns, even with quantities.",
+        "es": "Usa 'there were' para sustantivos en plural, incluso con cantidades."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Creo que hubo unos contratiempos durante la fase inicial."
+      },
+      "solution": "I think there were some setbacks during the initial phase.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Había cincuenta errores en el texto."
+      },
+      "solution": "There were fifty mistakes in the text.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Había dos candidatos finalistas para el puesto."
+      },
+      "solution": "There were two candidates short-listed for the position.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Había una tormenta terrible anoche."
+      },
+      "solution": "There was a terrible storm last night.",
+      "tip": {
+        "en": "Use 'there was' for singular countable nouns in the past.",
+        "es": "Usa 'there was' para sustantivos contables en singular en el pasado."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "No había suficientes sillas para todos."
+      },
+      "solution": "There weren't enough chairs for everyone.",
+      "tip": {
+        "en": "Use 'there weren't' for plural nouns in negative past.",
+        "es": "Usa 'there weren't' para sustantivos en plural en pasado negativo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Había música muy alta en el piso de arriba."
+      },
+      "solution": "There was very loud music in the flat upstairs.",
+      "tip": {
+        "en": "Use 'there was' for uncountable nouns like music.",
+        "es": "Usa 'there was' para sustantivos incontables como música."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Había muchos estudiantes en la biblioteca ayer."
+      },
+      "solution": "There were many students in the library yesterday.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "No había agua caliente en el hotel."
+      },
+      "solution": "There wasn't any hot water in the hotel.",
+      "tip": {
+        "en": "Use 'there wasn't' for uncountable nouns in negative.",
+        "es": "Usa 'there wasn't' para sustantivos incontables en negativo."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Había un accidente en la autopista."
+      },
+      "solution": "There was an accident on the motorway.",
+      "tip": {
+        "en": "Use 'there was' for singular countable nouns in the past.",
+        "es": "Usa 'there was' para sustantivos contables en singular en el pasado."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "No había autobuses funcionando durante la huelga."
+      },
+      "solution": "There weren't any buses running during the strike.",
+      "tip": {
+        "en": "Use 'there weren't' for plural nouns in negative past.",
+        "es": "Usa 'there weren't' para sustantivos en plural en pasado negativo."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Había mucho tráfico en el centro esta mañana."
+      },
+      "solution": "There was a lot of traffic in the centre this morning.",
+      "tip": {
+        "en": "Use 'there was' for uncountable nouns like traffic.",
+        "es": "Usa 'there was' para sustantivos incontables como tráfico."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Había cinco restaurantes en esa calle."
+      },
+      "solution": "There were five restaurants on that street.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "No había electricidad en todo el barrio."
+      },
+      "solution": "There wasn't any electricity in the whole neighbourhood.",
+      "tip": {
+        "en": "Use 'there wasn't' for uncountable nouns in negative.",
+        "es": "Usa 'there wasn't' para sustantivos incontables en negativo."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Había una reunión importante ayer."
+      },
+      "solution": "There was an important meeting yesterday.",
+      "tip": {
+        "en": "Use 'there was' for singular countable nouns in the past.",
+        "es": "Usa 'there was' para sustantivos contables en singular en el pasado."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "No había problemas con el sistema."
+      },
+      "solution": "There weren't any problems with the system.",
+      "tip": {
+        "en": "Use 'there weren't' for plural nouns in negative past.",
+        "es": "Usa 'there weren't' para sustantivos en plural en pasado negativo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Había humo saliendo del edificio."
+      },
+      "solution": "There was smoke coming from the building.",
+      "tip": {
+        "en": "Use 'there was' for uncountable nouns like smoke.",
+        "es": "Usa 'there was' para sustantivos incontables como humo."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Había cientos de personas en el concierto."
+      },
+      "solution": "There were hundreds of people at the concert.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "No había tiempo suficiente para terminar."
+      },
+      "solution": "There wasn't enough time to finish.",
+      "tip": {
+        "en": "Use 'there wasn't' for uncountable nouns in negative.",
+        "es": "Usa 'there wasn't' para sustantivos incontables en negativo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Había un error en la factura."
+      },
+      "solution": "There was a mistake on the bill.",
+      "tip": {
+        "en": "Use 'there was' for singular countable nouns in the past.",
+        "es": "Usa 'there was' para sustantivos contables en singular en el pasado."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "No había tiendas abiertas el domingo."
+      },
+      "solution": "There weren't any shops open on Sunday.",
+      "tip": {
+        "en": "Use 'there weren't' for plural nouns in negative past.",
+        "es": "Usa 'there weren't' para sustantivos en plural en pasado negativo."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Había arena en mis zapatos."
+      },
+      "solution": "There was sand in my shoes.",
+      "tip": {
+        "en": "Use 'there was' for uncountable nouns like sand.",
+        "es": "Usa 'there was' para sustantivos incontables como arena."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Había tres coches aparcados fuera."
+      },
+      "solution": "There were three cars parked outside.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "No había leche en el frigorífico."
+      },
+      "solution": "There wasn't any milk in the fridge.",
+      "tip": {
+        "en": "Use 'there wasn't' for uncountable nouns in negative.",
+        "es": "Usa 'there wasn't' para sustantivos incontables en negativo."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Había una farmacia cerca del hospital."
+      },
+      "solution": "There was a pharmacy near the hospital.",
+      "tip": {
+        "en": "Use 'there was' for singular countable nouns in the past.",
+        "es": "Usa 'there was' para sustantivos contables en singular en el pasado."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "No había entradas disponibles para la función."
+      },
+      "solution": "There weren't any tickets available for the show.",
+      "tip": {
+        "en": "Use 'there weren't' for plural nouns in negative past.",
+        "es": "Usa 'there weren't' para sustantivos en plural en pasado negativo."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Había aceite derramado en el suelo del garaje."
+      },
+      "solution": "There was oil spilled on the garage floor.",
+      "tip": {
+        "en": "Use 'there was' for uncountable nouns like oil.",
+        "es": "Usa 'there was' para sustantivos incontables como aceite."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Había varios museos en el centro de la ciudad."
+      },
+      "solution": "There were several museums in the city centre.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "No había calefacción en el edificio."
+      },
+      "solution": "There wasn't any heating in the building.",
+      "tip": {
+        "en": "Use 'there wasn't' for uncountable nouns in negative.",
+        "es": "Usa 'there wasn't' para sustantivos incontables en negativo."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Había un mensaje en el contestador."
+      },
+      "solution": "There was a message on the answering machine.",
+      "tip": {
+        "en": "Use 'there was' for singular countable nouns in the past.",
+        "es": "Usa 'there was' para sustantivos contables en singular en el pasado."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "No había estudiantes en el aula."
+      },
+      "solution": "There weren't any students in the classroom.",
+      "tip": {
+        "en": "Use 'there weren't' for plural nouns in negative past.",
+        "es": "Usa 'there weren't' para sustantivos en plural en pasado negativo."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Había nieve en las montañas."
+      },
+      "solution": "There was snow on the mountains.",
+      "tip": {
+        "en": "Use 'there was' for uncountable nouns like snow.",
+        "es": "Usa 'there was' para sustantivos incontables como nieve."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Había diez personas esperando en la cola."
+      },
+      "solution": "There were ten people waiting in the queue.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "No había azúcar en el café."
+      },
+      "solution": "There wasn't any sugar in the coffee.",
+      "tip": {
+        "en": "Use 'there wasn't' for uncountable nouns in negative.",
+        "es": "Usa 'there wasn't' para sustantivos incontables en negativo."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Había una exposición interesante en el museo."
+      },
+      "solution": "There was an interesting exhibition at the museum.",
+      "tip": {
+        "en": "Use 'there was' for singular countable nouns in the past.",
+        "es": "Usa 'there was' para sustantivos contables en singular en el pasado."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "No había alternativas al plan original."
+      },
+      "solution": "There weren't any alternatives to the original plan.",
+      "tip": {
+        "en": "Use 'there weren't' for plural nouns in negative past.",
+        "es": "Usa 'there weren't' para sustantivos en plural en pasado negativo."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Había polvo por todas partes."
+      },
+      "solution": "There was dust everywhere.",
+      "tip": {
+        "en": "Use 'there was' for uncountable nouns like dust.",
+        "es": "Usa 'there was' para sustantivos incontables como polvo."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Había veinte empleados en la oficina el lunes."
+      },
+      "solution": "There were twenty employees in the office on Monday.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "No había información sobre el evento."
+      },
+      "solution": "There wasn't any information about the event.",
+      "tip": {
+        "en": "Use 'there wasn't' for uncountable nouns in negative.",
+        "es": "Usa 'there wasn't' para sustantivos incontables en negativo."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Había una biblioteca en el campus universitario."
+      },
+      "solution": "There was a library on the university campus.",
+      "tip": {
+        "en": "Use 'there was' for singular countable nouns in the past.",
+        "es": "Usa 'there was' para sustantivos contables en singular en el pasado."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "No había suficientes profesores para todas las clases."
+      },
+      "solution": "There weren't enough teachers for all the classes.",
+      "tip": {
+        "en": "Use 'there weren't' for plural nouns in negative past.",
+        "es": "Usa 'there weren't' para sustantivos en plural en pasado negativo."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Había miel en el tarro de la despensa."
+      },
+      "solution": "There was honey in the jar in the pantry.",
+      "tip": {
+        "en": "Use 'there was' for uncountable nouns like honey.",
+        "es": "Usa 'there was' para sustantivos incontables como miel."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Había muchas nubes en el cielo ayer por la tarde."
+      },
+      "solution": "There were many clouds in the sky yesterday afternoon.",
+      "tip": {
+        "en": "Use 'there were' for plural countable nouns in the past.",
+        "es": "Usa 'there were' para sustantivos contables en plural en el pasado."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "No había ruido en la biblioteca."
+      },
+      "solution": "There wasn't any noise in the library.",
+      "tip": {
+        "en": "Use 'there wasn't' for uncountable nouns in negative.",
+        "es": "Usa 'there wasn't' para sustantivos incontables en negativo."
+      }
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "topicId": "keep_burning_toast_1",
+  "title": {
+    "en": "I Keep Burning the Toast! - Autocrítica y torpezas (keep + -ing reflexivo)",
+    "es": "I Keep Burning the Toast! - Autocrítica y torpezas (keep + -ing reflexivo)"
+  },
+  "description": {
+    "en": "Learn to use 'I keep + -ing' to express self-criticism or acknowledge your own mistakes and clumsiness. This reflexive use is very common when talking about repeated personal failures or forgetfulness.",
+    "es": "Aprende a usar 'I keep + -ing' para expresar autocrítica o reconocer tus propios errores y torpezas. Este uso reflexivo es muy común al hablar de fallos personales repetidos u olvidos."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Qué torpe soy! No paro de quemar las tostadas."
+      },
+      "solution": "I'm such a disaster! I keep burning the toast!",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated mistakes.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre errores repetidos."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre me quedo dormido en el tren y me paso mi parada."
+      },
+      "solution": "I keep going to sleep on the train and missing my stop.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated mistakes.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre errores repetidos."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "No dejaba de llamarle Susan. (Se llama Jennifer)"
+      },
+      "solution": "I kept calling her Susan. (Her name is Jennifer)",
+      "tip": {
+        "en": "Use 'I kept + -ing' for past repeated mistakes you made about yourself.",
+        "es": "Usa 'I kept + -ing' para errores pasados repetidos que cometiste sobre ti mismo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "No dejo de marcar el número equivocado."
+      },
+      "solution": "I keep dialling the wrong number.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated mistakes.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre errores repetidos."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "No paro de tropezarme hoy."
+      },
+      "solution": "I keep tripping up today.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated mistakes.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre errores repetidos."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida echar la carta."
+      },
+      "solution": "I keep forgetting to post the letter.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about specific tasks.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre tareas específicas."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida llamarla para hablar de ello."
+      },
+      "solution": "I keep forgetting to call her about it.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about specific tasks.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre tareas específicas."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida su nombre."
+      },
+      "solution": "I keep forgetting his name.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about specific things.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre cosas específicas."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida que él ya no trabaja aquí."
+      },
+      "solution": "I keep forgetting he doesn't work here any more.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about facts or situations.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre hechos o situaciones."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Se me olvidaba que sólo era una película."
+      },
+      "solution": "I kept forgetting it was only a film.",
+      "tip": {
+        "en": "Use 'I kept forgetting' for past repeated forgetfulness about facts.",
+        "es": "Usa 'I kept forgetting' para olvidos pasados repetidos sobre hechos."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "No paro de perder las llaves de casa."
+      },
+      "solution": "I keep losing my house keys.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated mistakes.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre errores repetidos."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida dónde aparqué el coche."
+      },
+      "solution": "I keep forgetting where I parked the car.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about specific information.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre información específica."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "No dejo de cometer los mismos errores en el trabajo."
+      },
+      "solution": "I keep making the same mistakes at work.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated mistakes.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre errores repetidos."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida cerrar la puerta con llave."
+      },
+      "solution": "I keep forgetting to lock the door.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about specific tasks.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre tareas específicas."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "No paro de confundir a los gemelos."
+      },
+      "solution": "I keep confusing the twins.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated mistakes.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre errores repetidos."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida comprar leche."
+      },
+      "solution": "I keep forgetting to buy milk.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about specific tasks.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre tareas específicas."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "No dejo de derramar café en mi camisa."
+      },
+      "solution": "I keep spilling coffee on my shirt.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated clumsiness.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre torpezas repetidas."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida la contraseña del ordenador."
+      },
+      "solution": "I keep forgetting my computer password.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about specific information.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre información específica."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "No paro de llegar tarde a las citas."
+      },
+      "solution": "I keep arriving late for appointments.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated bad habits.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre malos hábitos repetidos."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida cargar el móvil."
+      },
+      "solution": "I keep forgetting to charge my phone.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about specific tasks.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre tareas específicas."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "No dejo de olvidarme de regar las plantas."
+      },
+      "solution": "I keep forgetting to water the plants.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about specific tasks.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre tareas específicas."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "No paro de chocarme con la mesa de cristal."
+      },
+      "solution": "I keep bumping into the glass table.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated clumsiness.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre torpezas repetidas."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida el cumpleaños de mi hermana."
+      },
+      "solution": "I keep forgetting my sister's birthday.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about important dates.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre fechas importantes."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "No dejo de meter la pata cuando hablo con mi jefe."
+      },
+      "solution": "I keep putting my foot in it when I talk to my boss.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated social mistakes.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre errores sociales repetidos."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida sacar la basura."
+      },
+      "solution": "I keep forgetting to take out the rubbish.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about household tasks.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre tareas domésticas."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "No paro de romper cosas en la cocina."
+      },
+      "solution": "I keep breaking things in the kitchen.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated accidents.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre accidentes repetidos."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida que tengo cita con el dentista."
+      },
+      "solution": "I keep forgetting I have a dentist appointment.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about appointments.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre citas."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "No dejo de pronunciar mal su apellido."
+      },
+      "solution": "I keep mispronouncing her surname.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated speech errors.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre errores de habla repetidos."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Siempre se me olvida que ella es vegetariana."
+      },
+      "solution": "I keep forgetting she's vegetarian.",
+      "tip": {
+        "en": "Use 'I keep forgetting' for repeated forgetfulness about personal details.",
+        "es": "Usa 'I keep forgetting' para olvidos repetidos sobre detalles personales."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "No paro de perderme en esta ciudad nueva."
+      },
+      "solution": "I keep getting lost in this new city.",
+      "tip": {
+        "en": "Use 'I keep + -ing' to express self-criticism about repeated navigation problems.",
+        "es": "Usa 'I keep + -ing' para expresar autocrítica sobre problemas repetidos de orientación."
+      }
+    }
+  ]
+}

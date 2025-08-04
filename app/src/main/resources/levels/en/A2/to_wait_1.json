@@ -1,0 +1,615 @@
+{
+  "topicId": "to_wait_1",
+  "title": {
+    "en": "To Wait - Physical Waiting and Duration (Esperar físicamente)",
+    "es": "To Wait - Physical Waiting and Duration (Esperar físicamente)"
+  },
+  "description": {
+    "en": "Learn to use 'wait' for physical waiting. WAIT = esperar physically for time/people/things. Use 'for' with duration (optional with numbers, mandatory with people/transport). Structure: wait + for + somebody + to do something.",
+    "es": "Aprende a usar 'wait' para esperar físicamente. WAIT = esperar físicamente por tiempo/personas/cosas. Usa 'for' con duración (opcional con números, obligatorio con personas/transporte). Estructura: wait + for + somebody + to do something."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperé el autobús durante tres horas."
+      },
+      "solution": "I waited for three hours for the bus.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is optional with duration but mandatory with people/transport.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es opcional con duración pero obligatorio con personas/transporte."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Llevo dos horas y media esperando a mi amigo."
+      },
+      "solution": "I've been waiting for my friend for two and a half hours.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is mandatory when waiting for people.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es obligatorio cuando esperas a personas."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Él esperó toda la tarde para conseguir una entrada."
+      },
+      "solution": "He waited all afternoon to get a ticket.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. Use 'to + infinitive' for purpose.",
+        "es": "Usa 'wait' para esperar físicamente. Usa 'to + infinitivo' para propósito."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Tendremos que esperar a ver lo que pasa."
+      },
+      "solution": "We'll have to wait and see what happens.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'Wait and see' is a common expression.",
+        "es": "Usa 'wait' para esperar físicamente. 'Wait and see' es una expresión común."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Puedes esperar un minuto?"
+      },
+      "solution": "Can you wait a minute?",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is optional with short durations.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es opcional con duraciones cortas."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Llevo toda la mañana esperando a que él me llame."
+      },
+      "solution": "I've been waiting for him to call me all morning.",
+      "tip": {
+        "en": "Use 'wait for somebody to do something' structure for waiting for actions.",
+        "es": "Usa la estructura 'wait for somebody to do something' para esperar acciones."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Esperaste a que terminara el programa?"
+      },
+      "solution": "Did you wait for the programme to end?",
+      "tip": {
+        "en": "Use 'wait for somebody to do something' structure for waiting for actions.",
+        "es": "Usa la estructura 'wait for somebody to do something' para esperar acciones."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Él no ve la hora de que su jefe se jubile!"
+      },
+      "solution": "He can't wait for his boss to retire!",
+      "tip": {
+        "en": "'Can't wait for' expresses eagerness. Still uses 'wait for somebody to do something' structure.",
+        "es": "'Can't wait for' expresa impaciencia. Sigue usando la estructura 'wait for somebody to do something'."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Me esperas, que voy a hacer unas llamadas?"
+      },
+      "solution": "Will you wait for me to make a few calls?",
+      "tip": {
+        "en": "Use 'wait for somebody to do something' structure for waiting for actions.",
+        "es": "Usa la estructura 'wait for somebody to do something' para esperar acciones."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella esperó tres años a que él volviese a casa."
+      },
+      "solution": "She waited three years for him to come home.",
+      "tip": {
+        "en": "Use 'wait for somebody to do something' structure for waiting for actions.",
+        "es": "Usa la estructura 'wait for somebody to do something' para esperar acciones."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperé el tren durante media hora."
+      },
+      "solution": "I waited for the train for half an hour.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is mandatory when waiting for transport.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es obligatorio cuando esperas transporte."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Puedes esperar cinco minutos más?"
+      },
+      "solution": "Can you wait five more minutes?",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is optional with duration.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es opcional con duración."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Estoy esperando a que abra la tienda."
+      },
+      "solution": "I'm waiting for the shop to open.",
+      "tip": {
+        "en": "Use 'wait for something to happen' structure for waiting for events.",
+        "es": "Usa la estructura 'wait for something to happen' para esperar eventos."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperamos a mi hermana en el aeropuerto."
+      },
+      "solution": "We waited for my sister at the airport.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is mandatory when waiting for people.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es obligatorio cuando esperas a personas."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "No puedo esperar a que llegue el fin de semana."
+      },
+      "solution": "I can't wait for the weekend to come.",
+      "tip": {
+        "en": "'Can't wait for' expresses eagerness. Still uses 'wait for something to happen' structure.",
+        "es": "'Can't wait for' expresa impaciencia. Sigue usando la estructura 'wait for something to happen'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperé dos horas en la cola."
+      },
+      "solution": "I waited two hours in the queue.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is optional with duration.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es opcional con duración."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Esperaste a que llegara el médico?"
+      },
+      "solution": "Did you wait for the doctor to arrive?",
+      "tip": {
+        "en": "Use 'wait for somebody to do something' structure for waiting for actions.",
+        "es": "Usa la estructura 'wait for somebody to do something' para esperar acciones."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Tengo que esperar a mi padre."
+      },
+      "solution": "I have to wait for my father.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is mandatory when waiting for people.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es obligatorio cuando esperas a personas."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperamos a que parara de llover."
+      },
+      "solution": "We waited for it to stop raining.",
+      "tip": {
+        "en": "Use 'wait for something to happen' structure for waiting for events.",
+        "es": "Usa la estructura 'wait for something to happen' para esperar eventos."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuánto tiempo tienes que esperar?"
+      },
+      "solution": "How long do you have to wait?",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. Simple structure for duration questions.",
+        "es": "Usa 'wait' para esperar físicamente. Estructura simple para preguntas de duración."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperaré a que me llames."
+      },
+      "solution": "I'll wait for you to call me.",
+      "tip": {
+        "en": "Use 'wait for somebody to do something' structure for waiting for actions.",
+        "es": "Usa la estructura 'wait for somebody to do something' para esperar acciones."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Espérame aquí."
+      },
+      "solution": "Wait for me here.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is mandatory when waiting for people.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es obligatorio cuando esperas a personas."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperamos el taxi durante veinte minutos."
+      },
+      "solution": "We waited for the taxi for twenty minutes.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is mandatory when waiting for transport.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es obligatorio cuando esperas transporte."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "No puedo esperar a ver la película."
+      },
+      "solution": "I can't wait to see the film.",
+      "tip": {
+        "en": "'Can't wait to do something' expresses eagerness for an action you'll do.",
+        "es": "'Can't wait to do something' expresa impaciencia por una acción que harás."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperé a que se decidiera."
+      },
+      "solution": "I waited for her to make up her mind.",
+      "tip": {
+        "en": "Use 'wait for somebody to do something' structure for waiting for actions.",
+        "es": "Usa la estructura 'wait for somebody to do something' para esperar acciones."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Esperaste mucho tiempo?"
+      },
+      "solution": "Did you wait a long time?",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. Simple structure for duration questions.",
+        "es": "Usa 'wait' para esperar físicamente. Estructura simple para preguntas de duración."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperamos el ascensor durante diez minutos."
+      },
+      "solution": "We waited for the lift for ten minutes.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is optional with duration but helpful for clarity.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es opcional con duración pero útil para claridad."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperamos a que abrieran las puertas."
+      },
+      "solution": "We waited for the doors to open.",
+      "tip": {
+        "en": "Use 'wait for something to happen' structure for waiting for events.",
+        "es": "Usa la estructura 'wait for something to happen' para esperar eventos."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "No puedo esperar a que termine el trabajo."
+      },
+      "solution": "I can't wait for work to finish.",
+      "tip": {
+        "en": "'Can't wait for something to happen' expresses eagerness for events.",
+        "es": "'Can't wait for something to happen' expresa impaciencia por eventos."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperé en la sala de espera."
+      },
+      "solution": "I waited in the waiting room.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. Simple structure for location.",
+        "es": "Usa 'wait' para esperar físicamente. Estructura simple para ubicación."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Esperaste a que terminara la reunión?"
+      },
+      "solution": "Did you wait for the meeting to end?",
+      "tip": {
+        "en": "Use 'wait for something to happen' structure for waiting for events.",
+        "es": "Usa la estructura 'wait for something to happen' para esperar eventos."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperaremos hasta las cinco."
+      },
+      "solution": "We'll wait until five o'clock.",
+      "tip": {
+        "en": "Use 'wait until' for specific time deadlines.",
+        "es": "Usa 'wait until' para límites de tiempo específicos."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperé a mi hermano en la estación."
+      },
+      "solution": "I waited for my brother at the station.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is mandatory when waiting for people.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es obligatorio cuando esperas a personas."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "No puedo esperar a las vacaciones."
+      },
+      "solution": "I can't wait for the holidays.",
+      "tip": {
+        "en": "'Can't wait for' expresses eagerness for upcoming events.",
+        "es": "'Can't wait for' expresa impaciencia por eventos próximos."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperé a que llegara mi turno."
+      },
+      "solution": "I waited for my turn to come.",
+      "tip": {
+        "en": "Use 'wait for something to happen' structure for waiting for events.",
+        "es": "Usa la estructura 'wait for something to happen' para esperar eventos."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Esperarás el próximo autobús?"
+      },
+      "solution": "Will you wait for the next bus?",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is mandatory when waiting for transport.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es obligatorio cuando esperas transporte."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperamos a que mejore el tiempo."
+      },
+      "solution": "We're waiting for the weather to improve.",
+      "tip": {
+        "en": "Use 'wait for something to happen' structure for waiting for events.",
+        "es": "Usa la estructura 'wait for something to happen' para esperar eventos."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperé toda la noche."
+      },
+      "solution": "I waited all night.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. Simple structure for duration.",
+        "es": "Usa 'wait' para esperar físicamente. Estructura simple para duración."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "No puedo esperar a conocerte."
+      },
+      "solution": "I can't wait to meet you.",
+      "tip": {
+        "en": "'Can't wait to do something' expresses eagerness for an action you'll do.",
+        "es": "'Can't wait to do something' expresa impaciencia por una acción que harás."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperamos a que viniera el técnico."
+      },
+      "solution": "We waited for the technician to come.",
+      "tip": {
+        "en": "Use 'wait for somebody to do something' structure for waiting for actions.",
+        "es": "Usa la estructura 'wait for somebody to do something' para esperar acciones."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Esperaste el metro mucho tiempo?"
+      },
+      "solution": "Did you wait for the underground for a long time?",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is mandatory when waiting for transport.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es obligatorio cuando esperas transporte."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperé a que me contestara."
+      },
+      "solution": "I waited for him to answer me.",
+      "tip": {
+        "en": "Use 'wait for somebody to do something' structure for waiting for actions.",
+        "es": "Usa la estructura 'wait for somebody to do something' para esperar acciones."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "No puedo esperar más."
+      },
+      "solution": "I can't wait any longer.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'Any longer' means 'more time'.",
+        "es": "Usa 'wait' para esperar físicamente. 'Any longer' significa 'más tiempo'."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperamos a que se calmara."
+      },
+      "solution": "We waited for him to calm down.",
+      "tip": {
+        "en": "Use 'wait for somebody to do something' structure for waiting for actions.",
+        "es": "Usa la estructura 'wait for somebody to do something' para esperar acciones."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Puedes esperar un segundo?"
+      },
+      "solution": "Can you wait a second?",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is optional with short durations.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es opcional con duraciones cortas."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperé a que se arreglara el ordenador."
+      },
+      "solution": "I waited for the computer to be fixed.",
+      "tip": {
+        "en": "Use 'wait for something to happen' structure for waiting for events.",
+        "es": "Usa la estructura 'wait for something to happen' para esperar eventos."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "No puedo esperar a empezar el nuevo trabajo."
+      },
+      "solution": "I can't wait to start the new job.",
+      "tip": {
+        "en": "'Can't wait to do something' expresses eagerness for an action you'll do.",
+        "es": "'Can't wait to do something' expresa impaciencia por una acción que harás."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperamos en el coche."
+      },
+      "solution": "We waited in the car.",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. Simple structure for location.",
+        "es": "Usa 'wait' para esperar físicamente. Estructura simple para ubicación."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Esperé a que cambiara de opinión."
+      },
+      "solution": "I waited for her to change her mind.",
+      "tip": {
+        "en": "Use 'wait for somebody to do something' structure for waiting for actions.",
+        "es": "Usa la estructura 'wait for somebody to do something' para esperar acciones."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Esperaste el avión en el aeropuerto?"
+      },
+      "solution": "Did you wait for the plane at the airport?",
+      "tip": {
+        "en": "Use 'wait' for physical waiting. 'For' is mandatory when waiting for transport.",
+        "es": "Usa 'wait' para esperar físicamente. 'For' es obligatorio cuando esperas transporte."
+      }
+    }
+  ]
+}

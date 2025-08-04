@@ -1,0 +1,615 @@
+{
+  "topicId": "was_were_there_questions_1",
+  "title": {
+    "en": "Was there...? Were there...? - Past Questions (¿Había...? preguntas en pasado)",
+    "es": "Was there...? Were there...? - Past Questions (¿Había...? preguntas en pasado)"
+  },
+  "description": {
+    "en": "Learn to form questions with 'Was there...?' for singular/uncountable nouns and 'Were there...?' for plural nouns in the past. Spanish speakers often struggle with subject-verb inversion and singular/plural distinction in past questions.",
+    "es": "Aprende a formar preguntas con 'Was there...?' para sustantivos singulares/incontables y 'Were there...?' para sustantivos plurales en el pasado. Los hispanohablantes a menudo luchan con la inversión sujeto-verbo y la distinción singular/plural en preguntas pasadas."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había un inspector de billetes en el tren?"
+      },
+      "solution": "Was there a ticket inspector on the train?",
+      "tip": {
+        "en": "Invert 'there' and 'was' to form questions: 'Was there...?'",
+        "es": "Invierte 'there' y 'was' para formar preguntas: 'Was there...?'"
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hubo algún problema con la reserva?"
+      },
+      "solution": "Was there a problem with the booking?",
+      "tip": {
+        "en": "Invert 'there' and 'was' to form questions: 'Was there...?'",
+        "es": "Invierte 'there' y 'was' para formar preguntas: 'Was there...?'"
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué había para comer en la fiesta?"
+      },
+      "solution": "What was there to eat at the party?",
+      "tip": {
+        "en": "Use 'was there' with question words for singular/uncountable nouns.",
+        "es": "Usa 'was there' con palabras interrogativas para sustantivos singulares/incontables."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había polvo en el cuadro?"
+      },
+      "solution": "Was there any dust on the painting?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like dust.",
+        "es": "Usa 'was there' para sustantivos incontables como polvo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quedaba mermelada en el tarro?"
+      },
+      "solution": "Was there any jam left in the jar?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like jam.",
+        "es": "Usa 'was there' para sustantivos incontables como mermelada."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había mucha gente cuando llegaste?"
+      },
+      "solution": "Were there many people when you arrived?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había muchos conductores por encima del límite en la última campaña contra el alcoholismo?"
+      },
+      "solution": "Were there a lot of drivers over the limit in the last drink-driving cut-down?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántas amas de casa había en la reunión?"
+      },
+      "solution": "How many housewives were there at the meeting?",
+      "tip": {
+        "en": "Use 'were there' with question words for plural nouns.",
+        "es": "Usa 'were there' con palabras interrogativas para sustantivos plurales."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había muchos tipos diferentes de tornillos entre los que elegir?"
+      },
+      "solution": "Were there lots of different types of screws to choose from?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había bastantes sillas para todo el mundo?"
+      },
+      "solution": "Were there enough chairs for everyone?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había un médico en el evento?"
+      },
+      "solution": "Was there a doctor at the event?",
+      "tip": {
+        "en": "Invert 'there' and 'was' to form questions: 'Was there...?'",
+        "es": "Invierte 'there' y 'was' para formar preguntas: 'Was there...?'"
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había estudiantes en la biblioteca ayer?"
+      },
+      "solution": "Were there any students in the library yesterday?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había agua caliente en el hotel?"
+      },
+      "solution": "Was there any hot water in the hotel?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like water.",
+        "es": "Usa 'was there' para sustantivos incontables como agua."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántos restaurantes había en esa calle?"
+      },
+      "solution": "How many restaurants were there on that street?",
+      "tip": {
+        "en": "Use 'were there' with question words for plural nouns.",
+        "es": "Usa 'were there' con palabras interrogativas para sustantivos plurales."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había ruido en el vecindario anoche?"
+      },
+      "solution": "Was there any noise in the neighbourhood last night?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like noise.",
+        "es": "Usa 'was there' para sustantivos incontables como ruido."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había un accidente en la autopista?"
+      },
+      "solution": "Was there an accident on the motorway?",
+      "tip": {
+        "en": "Invert 'there' and 'was' to form questions: 'Was there...?'",
+        "es": "Invierte 'there' y 'was' para formar preguntas: 'Was there...?'"
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había muchos turistas en la ciudad el verano pasado?"
+      },
+      "solution": "Were there many tourists in the city last summer?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había tráfico en el centro esta mañana?"
+      },
+      "solution": "Was there any traffic in the centre this morning?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like traffic.",
+        "es": "Usa 'was there' para sustantivos incontables como tráfico."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había problemas con el sistema informático?"
+      },
+      "solution": "Were there any problems with the computer system?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había una reunión importante ayer?"
+      },
+      "solution": "Was there an important meeting yesterday?",
+      "tip": {
+        "en": "Invert 'there' and 'was' to form questions: 'Was there...?'",
+        "es": "Invierte 'there' y 'was' para formar preguntas: 'Was there...?'"
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántas personas había en el concierto?"
+      },
+      "solution": "How many people were there at the concert?",
+      "tip": {
+        "en": "Use 'were there' with question words for plural nouns.",
+        "es": "Usa 'were there' con palabras interrogativas para sustantivos plurales."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había electricidad en todo el barrio?"
+      },
+      "solution": "Was there any electricity in the whole neighbourhood?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like electricity.",
+        "es": "Usa 'was there' para sustantivos incontables como electricidad."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había muchos errores en el informe?"
+      },
+      "solution": "Were there many mistakes in the report?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había humo saliendo del edificio?"
+      },
+      "solution": "Was there any smoke coming from the building?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like smoke.",
+        "es": "Usa 'was there' para sustantivos incontables como humo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había entradas disponibles para la función?"
+      },
+      "solution": "Were there any tickets available for the show?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había tiempo suficiente para terminar?"
+      },
+      "solution": "Was there enough time to finish?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like time.",
+        "es": "Usa 'was there' para sustantivos incontables como tiempo."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había tiendas abiertas el domingo?"
+      },
+      "solution": "Were there any shops open on Sunday?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había un mensaje en el contestador?"
+      },
+      "solution": "Was there a message on the answering machine?",
+      "tip": {
+        "en": "Invert 'there' and 'was' to form questions: 'Was there...?'",
+        "es": "Invierte 'there' y 'was' para formar preguntas: 'Was there...?'"
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántos coches había aparcados fuera?"
+      },
+      "solution": "How many cars were there parked outside?",
+      "tip": {
+        "en": "Use 'were there' with question words for plural nouns.",
+        "es": "Usa 'were there' con palabras interrogativas para sustantivos plurales."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había arena en la playa?"
+      },
+      "solution": "Was there any sand on the beach?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like sand.",
+        "es": "Usa 'was there' para sustantivos incontables como arena."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había muchos museos en el centro de la ciudad?"
+      },
+      "solution": "Were there many museums in the city centre?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había una farmacia cerca del hospital?"
+      },
+      "solution": "Was there a pharmacy near the hospital?",
+      "tip": {
+        "en": "Invert 'there' and 'was' to form questions: 'Was there...?'",
+        "es": "Invierte 'there' y 'was' para formar preguntas: 'Was there...?'"
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había alternativas al plan original?"
+      },
+      "solution": "Were there any alternatives to the original plan?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había información sobre el evento?"
+      },
+      "solution": "Was there any information about the event?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like information.",
+        "es": "Usa 'was there' para sustantivos incontables como información."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántos empleados había en la oficina el lunes?"
+      },
+      "solution": "How many employees were there in the office on Monday?",
+      "tip": {
+        "en": "Use 'were there' with question words for plural nouns.",
+        "es": "Usa 'were there' con palabras interrogativas para sustantivos plurales."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había calefacción en el edificio?"
+      },
+      "solution": "Was there any heating in the building?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like heating.",
+        "es": "Usa 'was there' para sustantivos incontables como calefacción."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había muchas nubes en el cielo ayer?"
+      },
+      "solution": "Were there many clouds in the sky yesterday?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había una exposición en el museo?"
+      },
+      "solution": "Was there an exhibition at the museum?",
+      "tip": {
+        "en": "Invert 'there' and 'was' to form questions: 'Was there...?'",
+        "es": "Invierte 'there' y 'was' para formar preguntas: 'Was there...?'"
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había suficientes profesores para todas las clases?"
+      },
+      "solution": "Were there enough teachers for all the classes?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había azúcar en el café?"
+      },
+      "solution": "Was there any sugar in the coffee?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like sugar.",
+        "es": "Usa 'was there' para sustantivos incontables como azúcar."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántas opciones había en el menú?"
+      },
+      "solution": "How many options were there on the menu?",
+      "tip": {
+        "en": "Use 'were there' with question words for plural nouns.",
+        "es": "Usa 'were there' con palabras interrogativas para sustantivos plurales."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había una biblioteca en el campus?"
+      },
+      "solution": "Was there a library on the campus?",
+      "tip": {
+        "en": "Invert 'there' and 'was' to form questions: 'Was there...?'",
+        "es": "Invierte 'there' y 'was' para formar preguntas: 'Was there...?'"
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había conexiones directas a Londres?"
+      },
+      "solution": "Were there any direct connections to London?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había nieve en las montañas?"
+      },
+      "solution": "Was there any snow on the mountains?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like snow.",
+        "es": "Usa 'was there' para sustantivos incontables como nieve."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había muchos participantes en la conferencia?"
+      },
+      "solution": "Were there many participants at the conference?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había aceite en el suelo del garaje?"
+      },
+      "solution": "Was there any oil on the garage floor?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like oil.",
+        "es": "Usa 'was there' para sustantivos incontables como aceite."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuántos invitados había en la boda?"
+      },
+      "solution": "How many guests were there at the wedding?",
+      "tip": {
+        "en": "Use 'were there' with question words for plural nouns.",
+        "es": "Usa 'were there' con palabras interrogativas para sustantivos plurales."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había una tormenta anoche?"
+      },
+      "solution": "Was there a storm last night?",
+      "tip": {
+        "en": "Invert 'there' and 'was' to form questions: 'Was there...?'",
+        "es": "Invierte 'there' y 'was' para formar preguntas: 'Was there...?'"
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había razones para preocuparse?"
+      },
+      "solution": "Were there any reasons to worry?",
+      "tip": {
+        "en": "Invert 'there' and 'were' for plural questions: 'Were there...?'",
+        "es": "Invierte 'there' y 'were' para preguntas plurales: 'Were there...?'"
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Había miel en el tarro de la despensa?"
+      },
+      "solution": "Was there any honey in the jar in the pantry?",
+      "tip": {
+        "en": "Use 'was there' for uncountable nouns like honey.",
+        "es": "Usa 'was there' para sustantivos incontables como miel."
+      }
+    }
+  ]
+}

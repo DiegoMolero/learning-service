@@ -1,0 +1,615 @@
+{
+  "topicId": "to_expect_2",
+  "title": {
+    "en": "To Expect (ii) - Taking for Granted & Demands (Dar por hecho y exigir)",
+    "es": "To Expect (ii) - Taking for Granted & Demands (Dar por hecho y exigir)"
+  },
+  "description": {
+    "en": "Learn to use 'expect' for taking things for granted and expressing demands. EXPECT + TO + infinitive (same subject). EXPECT + object + TO + infinitive (different subjects/demands). Critical for Spanish speakers confusing with 'hope'.",
+    "es": "Aprende a usar 'expect' para dar por hecho y expresar exigencias. EXPECT + TO + infinitivo (mismo sujeto). EXPECT + objeto + TO + infinitivo (sujetos diferentes/exigencias). Crítico para hispanohablantes que confunden con 'hope'."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero una subida salarial todos los años."
+      },
+      "solution": "I expect to get a pay rise every year.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero verte aquí a las cinco."
+      },
+      "solution": "I expect to see you here at five o'clock.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero terminar el proyecto en marzo como muy tarde."
+      },
+      "solution": "I expect to finish the project by March.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Él espera ser ascendido dentro de un mes."
+      },
+      "solution": "He expects to be promoted within a month.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero no encontrar problemas."
+      },
+      "solution": "I don't expect to encounter any problems.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que ella sea puntual todos los días."
+      },
+      "solution": "I expect her to be on time every day.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella espera que yo sea eficiente."
+      },
+      "solution": "She expects me to be efficient.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que termines esto el viernes como muy tarde."
+      },
+      "solution": "I expect you to finish this by Friday.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¡No esperes que haga eso!"
+      },
+      "solution": "Don't expect me to do that!",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "No esperes que friegue y limpie la casa."
+      },
+      "solution": "Don't expect me to wash up and clean the house.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero conseguir el trabajo mañana."
+      },
+      "solution": "I expect to get the job tomorrow.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que llegues a tiempo."
+      },
+      "solution": "I expect you to arrive on time.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero recibir una respuesta esta semana."
+      },
+      "solution": "I expect to receive an answer this week.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que me ayudes con esto."
+      },
+      "solution": "I expect you to help me with this.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Él espera ganar más dinero el próximo año."
+      },
+      "solution": "He expects to earn more money next year.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "No esperes que pague la cuenta."
+      },
+      "solution": "Don't expect me to pay the bill.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero aprobar todos los exámenes."
+      },
+      "solution": "I expect to pass all the exams.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que seas honesto conmigo."
+      },
+      "solution": "I expect you to be honest with me.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero encontrar aparcamiento fácilmente."
+      },
+      "solution": "I expect to find parking easily.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que mantengas el secreto."
+      },
+      "solution": "I expect you to keep the secret.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella espera tener éxito en su nuevo negocio."
+      },
+      "solution": "She expects to succeed in her new business.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "No esperes que te espere si llegas tarde."
+      },
+      "solution": "Don't expect me to wait for you if you're late.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero graduarme el próximo año."
+      },
+      "solution": "I expect to graduate next year.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que respetes mis decisiones."
+      },
+      "solution": "I expect you to respect my decisions.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero volver a casa antes de medianoche."
+      },
+      "solution": "I expect to be home before midnight.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que te comportes bien en la reunión."
+      },
+      "solution": "I expect you to behave well at the meeting.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero no tener problemas con el vuelo."
+      },
+      "solution": "I don't expect to have problems with the flight.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "No esperes que cambie de opinión."
+      },
+      "solution": "Don't expect me to change my mind.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero conocer gente interesante en la fiesta."
+      },
+      "solution": "I expect to meet interesting people at the party.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que me llames cuando llegues."
+      },
+      "solution": "I expect you to call me when you arrive.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Él espera jubilarse a los sesenta."
+      },
+      "solution": "He expects to retire at sixty.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que seas puntual mañana."
+      },
+      "solution": "I expect you to be punctual tomorrow.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero ahorrar dinero este año."
+      },
+      "solution": "I expect to save money this year.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "No esperes que haga todo el trabajo solo."
+      },
+      "solution": "Don't expect me to do all the work alone.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero sentirme mejor mañana."
+      },
+      "solution": "I expect to feel better tomorrow.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que sigas mis instrucciones."
+      },
+      "solution": "I expect you to follow my instructions.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero mudarme a una casa más grande."
+      },
+      "solution": "I expect to move to a bigger house.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que entiendas mi posición."
+      },
+      "solution": "I expect you to understand my position.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero completar el curso en seis meses."
+      },
+      "solution": "I expect to complete the course in six months.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "No esperes que trabaje los fines de semana."
+      },
+      "solution": "Don't expect me to work at weekends.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero recuperarme rápidamente."
+      },
+      "solution": "I expect to recover quickly.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que cumplas tu promesa."
+      },
+      "solution": "I expect you to keep your promise.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero aprender mucho en este trabajo."
+      },
+      "solution": "I expect to learn a lot in this job.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que me trates con respeto."
+      },
+      "solution": "I expect you to treat me with respect.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero estar de vuelta antes del lunes."
+      },
+      "solution": "I expect to be back before Monday.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "No esperes que recuerde todos los detalles."
+      },
+      "solution": "Don't expect me to remember all the details.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero mejorar mi inglés este año."
+      },
+      "solution": "I expect to improve my English this year.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que hagas tu mejor esfuerzo."
+      },
+      "solution": "I expect you to do your best.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero viajar a Europa el próximo verano."
+      },
+      "solution": "I expect to travel to Europe next summer.",
+      "tip": {
+        "en": "Use 'expect to + infinitive' when taking something for granted (same subject).",
+        "es": "Usa 'expect to + infinitivo' cuando das algo por hecho (mismo sujeto)."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Espero que me apoyes en esta decisión."
+      },
+      "solution": "I expect you to support me in this decision.",
+      "tip": {
+        "en": "Use 'expect + object + to + infinitive' for demands/expectations from others.",
+        "es": "Usa 'expect + objeto + to + infinitivo' para exigencias/expectativas de otros."
+      }
+    }
+  ]
+}

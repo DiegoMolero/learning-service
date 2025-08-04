@@ -1,0 +1,615 @@
+{
+  "topicId": "want_like_there_to_be_1",
+  "title": {
+    "en": "Want/Like There To Be - Complex Structures (Querer/Gustar que haya)",
+    "es": "Want/Like There To Be - Complex Structures (Querer/Gustar que haya)"
+  },
+  "description": {
+    "en": "Learn the complex structure 'want/like there to be' where 'there' functions as an object pronoun followed by the infinitive 'to be'. This structure is very different from Spanish and requires careful attention to word order.",
+    "es": "Aprende la estructura compleja 'want/like there to be' donde 'there' funciona como pronombre objeto seguido del infinitivo 'to be'. Esta estructura es muy diferente del español y requiere atención cuidadosa al orden de las palabras."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Quiero que haya paz en el mundo."
+      },
+      "solution": "I want there to be peace in the world.",
+      "tip": {
+        "en": "In 'want there to be', 'there' is an object pronoun, not an adverb of place.",
+        "es": "En 'want there to be', 'there' es un pronombre objeto, no un adverbio de lugar."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "No quiero que haya problemas."
+      },
+      "solution": "I don't want there to be any problems.",
+      "tip": {
+        "en": "Use 'any' in negative contexts with 'want there to be'.",
+        "es": "Usa 'any' en contextos negativos con 'want there to be'."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Realmente quieres que haya una imagen de una rana en la portada?"
+      },
+      "solution": "Do you really want there to be a picture of a frog on the front cover?",
+      "tip": {
+        "en": "In questions, maintain the order: want + there + to be.",
+        "es": "En preguntas, mantén el orden: want + there + to be."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Él quiere que haya una seguridad más rigurosa para el acontecimiento."
+      },
+      "solution": "He wants there to be tighter security for the event.",
+      "tip": {
+        "en": "Use 'tighter' for 'más rigurosa' when talking about security.",
+        "es": "Usa 'tighter' para 'más rigurosa' al hablar de seguridad."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Quiero que haya más gente allí la próxima vez."
+      },
+      "solution": "I want there to be more people there next time.",
+      "tip": {
+        "en": "Notice two uses of 'there': object pronoun + adverb of place.",
+        "es": "Nota dos usos de 'there': pronombre objeto + adverbio de lugar."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiese una mejor cobertura para móviles en tu pueblo?"
+      },
+      "solution": "Would you like there to be better mobile coverage in your village?",
+      "tip": {
+        "en": "'Would like there to be' is the polite form for expressing desires.",
+        "es": "'Would like there to be' es la forma cortés para expresar deseos."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiese tres o cuatro canapés diferentes en la boda?"
+      },
+      "solution": "Would you like there to be three or four different appetizers at the wedding?",
+      "tip": {
+        "en": "Use 'appetizers' for 'canapés' in American English.",
+        "es": "Usa 'appetizers' para 'canapés' en inglés americano."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiese menos contaminación?"
+      },
+      "solution": "Would you like there to be less pollution?",
+      "tip": {
+        "en": "Use 'less' with uncountable nouns like 'pollution'.",
+        "es": "Usa 'less' con sustantivos incontables como 'pollution'."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiera más árboles donde vives?"
+      },
+      "solution": "Would you like there to be more trees where you live?",
+      "tip": {
+        "en": "Use 'more' + countable plural nouns in 'want/like there to be'.",
+        "es": "Usa 'more' + sustantivos contables plurales en 'want/like there to be'."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiese un tren rápido que conecte tu barrio con la capital?"
+      },
+      "solution": "Would you like there to be a fast train linking your neighbourhood to the capital?",
+      "tip": {
+        "en": "Use 'linking' for 'que conecte' in this context.",
+        "es": "Usa 'linking' para 'que conecte' en este contexto."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella quiere que haya más opciones vegetarianas en el menú."
+      },
+      "solution": "She wants there to be more vegetarian options on the menu.",
+      "tip": {
+        "en": "Remember: want + there + to be + noun phrase.",
+        "es": "Recuerda: want + there + to be + frase nominal."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "No queremos que haya ruido después de las diez."
+      },
+      "solution": "We don't want there to be any noise after ten.",
+      "tip": {
+        "en": "Use 'any' in negative sentences with 'want there to be'.",
+        "es": "Usa 'any' en frases negativas con 'want there to be'."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que haya música en vivo en la fiesta?"
+      },
+      "solution": "Do you want there to be live music at the party?",
+      "tip": {
+        "en": "'Live music' means música en vivo/en directo.",
+        "es": "'Live music' significa música en vivo/en directo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Me gustaría que hubiera menos tráfico por las mañanas."
+      },
+      "solution": "I would like there to be less traffic in the mornings.",
+      "tip": {
+        "en": "'Would like there to be' is more polite than 'want there to be'.",
+        "es": "'Would like there to be' es más cortés que 'want there to be'."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Ellos quieren que haya más diversidad en el equipo."
+      },
+      "solution": "They want there to be more diversity in the team.",
+      "tip": {
+        "en": "'Diversity' is uncountable, so use 'more diversity', not 'more diversities'.",
+        "es": "'Diversity' es incontable, así que usa 'more diversity', no 'more diversities'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiese aire acondicionado en todas las habitaciones?"
+      },
+      "solution": "Would you like there to be air conditioning in all the rooms?",
+      "tip": {
+        "en": "'Air conditioning' is uncountable in English.",
+        "es": "'Air conditioning' es incontable en inglés."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "No quiero que haya malentendidos entre nosotros."
+      },
+      "solution": "I don't want there to be any misunderstandings between us.",
+      "tip": {
+        "en": "Use 'any' with plural countable nouns in negative contexts.",
+        "es": "Usa 'any' con sustantivos contables plurales en contextos negativos."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Queremos que haya una solución rápida al problema."
+      },
+      "solution": "We want there to be a quick solution to the problem.",
+      "tip": {
+        "en": "Use 'quick solution' for 'solución rápida'.",
+        "es": "Usa 'quick solution' para 'solución rápida'."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiera más tiempo para terminar el proyecto?"
+      },
+      "solution": "Would you like there to be more time to finish the project?",
+      "tip": {
+        "en": "'Time' is uncountable, so use 'more time', not 'more times'.",
+        "es": "'Time' es incontable, así que usa 'more time', no 'more times'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Él quiere que haya una explicación clara de las reglas."
+      },
+      "solution": "He wants there to be a clear explanation of the rules.",
+      "tip": {
+        "en": "Use 'clear explanation' for 'explicación clara'.",
+        "es": "Usa 'clear explanation' para 'explicación clara'."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "No queremos que haya interrupciones durante la presentación."
+      },
+      "solution": "We don't want there to be any interruptions during the presentation.",
+      "tip": {
+        "en": "'Interruptions' is countable, so use 'any interruptions'.",
+        "es": "'Interruptions' es contable, así que usa 'any interruptions'."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que haya postre después de la cena?"
+      },
+      "solution": "Do you want there to be dessert after dinner?",
+      "tip": {
+        "en": "'Dessert' can be uncountable when referring to the course.",
+        "es": "'Dessert' puede ser incontable cuando se refiere al plato."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Me gustaría que hubiese más comunicación en el equipo."
+      },
+      "solution": "I would like there to be more communication in the team.",
+      "tip": {
+        "en": "'Communication' is uncountable in this context.",
+        "es": "'Communication' es incontable en este contexto."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Ellos quieren que haya una reunión urgente mañana."
+      },
+      "solution": "They want there to be an urgent meeting tomorrow.",
+      "tip": {
+        "en": "Use 'urgent meeting' for 'reunión urgente'.",
+        "es": "Usa 'urgent meeting' para 'reunión urgente'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiese menos estrés en tu trabajo?"
+      },
+      "solution": "Would you like there to be less stress in your job?",
+      "tip": {
+        "en": "'Stress' is uncountable, so use 'less stress'.",
+        "es": "'Stress' es incontable, así que usa 'less stress'."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "No quiero que haya secretos entre nosotros."
+      },
+      "solution": "I don't want there to be any secrets between us.",
+      "tip": {
+        "en": "'Secrets' is countable, so use 'any secrets' in negatives.",
+        "es": "'Secrets' es contable, así que usa 'any secrets' en negativos."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Queremos que haya más oportunidades para todos."
+      },
+      "solution": "We want there to be more opportunities for everyone.",
+      "tip": {
+        "en": "'Opportunities' is countable plural, use 'more opportunities'.",
+        "es": "'Opportunities' es contable plural, usa 'more opportunities'."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiera una piscina en el hotel?"
+      },
+      "solution": "Would you like there to be a swimming pool in the hotel?",
+      "tip": {
+        "en": "Use 'swimming pool' for clarity, or just 'pool'.",
+        "es": "Usa 'swimming pool' para claridad, o simplemente 'pool'."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Él quiere que haya más transparencia en el proceso."
+      },
+      "solution": "He wants there to be more transparency in the process.",
+      "tip": {
+        "en": "'Transparency' is uncountable, use 'more transparency'.",
+        "es": "'Transparency' es incontable, usa 'more transparency'."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "No queremos que haya confusión sobre las fechas."
+      },
+      "solution": "We don't want there to be any confusion about the dates.",
+      "tip": {
+        "en": "'Confusion' is uncountable, use 'any confusion'.",
+        "es": "'Confusion' es incontable, usa 'any confusion'."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que haya más variedad en la comida?"
+      },
+      "solution": "Do you want there to be more variety in the food?",
+      "tip": {
+        "en": "'Variety' is uncountable when general, countable when specific types.",
+        "es": "'Variety' es incontable cuando es general, contable cuando son tipos específicos."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Me gustaría que hubiese una explicación detallada del procedimiento."
+      },
+      "solution": "I would like there to be a detailed explanation of the procedure.",
+      "tip": {
+        "en": "Use 'detailed explanation' for 'explicación detallada'.",
+        "es": "Usa 'detailed explanation' para 'explicación detallada'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Ellos quieren que haya justicia para todos."
+      },
+      "solution": "They want there to be justice for everyone.",
+      "tip": {
+        "en": "'Justice' is uncountable in this context.",
+        "es": "'Justice' es incontable en este contexto."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiese más flexibilidad en los horarios?"
+      },
+      "solution": "Would you like there to be more flexibility in the schedules?",
+      "tip": {
+        "en": "'Flexibility' is uncountable, use 'more flexibility'.",
+        "es": "'Flexibility' es incontable, usa 'more flexibility'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "No quiero que haya presión sobre los estudiantes."
+      },
+      "solution": "I don't want there to be any pressure on the students.",
+      "tip": {
+        "en": "'Pressure' is uncountable, use 'any pressure'.",
+        "es": "'Pressure' es incontable, usa 'any pressure'."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Queremos que haya una celebración especial para el aniversario."
+      },
+      "solution": "We want there to be a special celebration for the anniversary.",
+      "tip": {
+        "en": "Use 'special celebration' for 'celebración especial'.",
+        "es": "Usa 'special celebration' para 'celebración especial'."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiera menos burocracia en el proceso?"
+      },
+      "solution": "Would you like there to be less bureaucracy in the process?",
+      "tip": {
+        "en": "'Bureaucracy' is uncountable, use 'less bureaucracy'.",
+        "es": "'Bureaucracy' es incontable, usa 'less bureaucracy'."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Él quiere que haya más innovación en la empresa."
+      },
+      "solution": "He wants there to be more innovation in the company.",
+      "tip": {
+        "en": "'Innovation' is uncountable in this general context.",
+        "es": "'Innovation' es incontable en este contexto general."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "No queremos que haya discriminación en el lugar de trabajo."
+      },
+      "solution": "We don't want there to be any discrimination in the workplace.",
+      "tip": {
+        "en": "'Discrimination' is uncountable, use 'any discrimination'.",
+        "es": "'Discrimination' es incontable, usa 'any discrimination'."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que haya una segunda oportunidad para él?"
+      },
+      "solution": "Do you want there to be a second chance for him?",
+      "tip": {
+        "en": "Use 'second chance' for 'segunda oportunidad'.",
+        "es": "Usa 'second chance' para 'segunda oportunidad'."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Me gustaría que hubiese más colaboración entre los departamentos."
+      },
+      "solution": "I would like there to be more collaboration between the departments.",
+      "tip": {
+        "en": "'Collaboration' is uncountable, use 'more collaboration'.",
+        "es": "'Collaboration' es incontable, usa 'more collaboration'."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Ellos quieren que haya una investigación completa del incidente."
+      },
+      "solution": "They want there to be a complete investigation of the incident.",
+      "tip": {
+        "en": "Use 'complete investigation' for 'investigación completa'.",
+        "es": "Usa 'complete investigation' para 'investigación completa'."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiese menos competencia en el mercado?"
+      },
+      "solution": "Would you like there to be less competition in the market?",
+      "tip": {
+        "en": "'Competition' is uncountable in this context.",
+        "es": "'Competition' es incontable en este contexto."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "No quiero que haya tensión en la reunión familiar."
+      },
+      "solution": "I don't want there to be any tension at the family meeting.",
+      "tip": {
+        "en": "'Tension' is uncountable, use 'any tension'.",
+        "es": "'Tension' es incontable, usa 'any tension'."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Queremos que haya una respuesta clara a nuestras preguntas."
+      },
+      "solution": "We want there to be a clear answer to our questions.",
+      "tip": {
+        "en": "Use 'clear answer' for 'respuesta clara'.",
+        "es": "Usa 'clear answer' para 'respuesta clara'."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te gustaría que hubiera más privacidad en el apartamento?"
+      },
+      "solution": "Would you like there to be more privacy in the apartment?",
+      "tip": {
+        "en": "'Privacy' is uncountable, use 'more privacy'.",
+        "es": "'Privacy' es incontable, usa 'more privacy'."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Él quiere que haya una solución permanente al problema."
+      },
+      "solution": "He wants there to be a permanent solution to the problem.",
+      "tip": {
+        "en": "Use 'permanent solution' for 'solución permanente'.",
+        "es": "Usa 'permanent solution' para 'solución permanente'."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "No queremos que haya violencia en las protestas."
+      },
+      "solution": "We don't want there to be any violence in the protests.",
+      "tip": {
+        "en": "'Violence' is uncountable, use 'any violence'.",
+        "es": "'Violence' es incontable, usa 'any violence'."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que haya una evaluación independiente del proyecto?"
+      },
+      "solution": "Do you want there to be an independent evaluation of the project?",
+      "tip": {
+        "en": "Use 'independent evaluation' for 'evaluación independiente'.",
+        "es": "Usa 'independent evaluation' para 'evaluación independiente'."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Me gustaría que hubiese más comprensión entre las culturas."
+      },
+      "solution": "I would like there to be more understanding between cultures.",
+      "tip": {
+        "en": "'Understanding' is uncountable, use 'more understanding'.",
+        "es": "'Understanding' es incontable, usa 'more understanding'."
+      }
+    }
+  ]
+}

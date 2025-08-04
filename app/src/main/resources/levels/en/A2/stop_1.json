@@ -1,0 +1,615 @@
+{
+  "topicId": "stop_1",
+  "title": {
+    "en": "Stop + Gerund vs Stop + Infinitive - Different Meanings (Dejar de vs Pararse para)",
+    "es": "Stop + Gerund vs Stop + Infinitive - Different Meanings (Dejar de vs Pararse para)"
+  },
+  "description": {
+    "en": "Learn the crucial difference: 'stop + gerund' means 'cease doing something' (dejar de), while 'stop + infinitive' means 'stop in order to do something' (pararse para). The meaning changes completely.",
+    "es": "Aprende la diferencia crucial: 'stop + gerundio' significa 'dejar de hacer algo', mientras que 'stop + infinitivo' significa 'pararse para hacer algo'. El significado cambia completamente."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella dejó de salir con Tom el mes pasado."
+      },
+      "solution": "She stopped going out with Tom last month.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "La fábrica dejó de producir detergente hace mucho tiempo."
+      },
+      "solution": "The factory stopped making detergent a long time ago.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Estoy pensando en dejar de ir al gimnasio."
+      },
+      "solution": "I'm thinking about stopping going to the gym.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Él dejó de fumar tras su infarto."
+      },
+      "solution": "He stopped smoking after his heart attack.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Podéis dejar de hacer tanto ruido?"
+      },
+      "solution": "Can you stop making all that noise?",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Él paró cinco minutos para fumar un cigarro."
+      },
+      "solution": "He stopped for five minutes to smoke a cigarette.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella se paró para estornudar."
+      },
+      "solution": "She stopped to sneeze.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Pararé en Borgoña para comprar vino."
+      },
+      "solution": "I'll be stopping in Burgundy to buy some wine.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Los Guardias Civiles nos pararon para hacerle a mi marido el test de alcoholemia."
+      },
+      "solution": "The Police stopped us to breathalyse my husband.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Paraste para ver a tus padres?"
+      },
+      "solution": "Did you stop to see your parents?",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Dejé de comer carne hace dos años."
+      },
+      "solution": "I stopped eating meat two years ago.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Me paré para ayudar a la mujer mayor."
+      },
+      "solution": "I stopped to help the elderly woman.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella dejó de estudiar francés el año pasado."
+      },
+      "solution": "She stopped studying French last year.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Paramos para preguntar la dirección."
+      },
+      "solution": "We stopped to ask for directions.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Dejaste de beber café por la noche?"
+      },
+      "solution": "Did you stop drinking coffee at night?",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Él se paró para atar los cordones."
+      },
+      "solution": "He stopped to tie his shoelaces.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Los niños dejaron de gritar cuando llegó el profesor."
+      },
+      "solution": "The children stopped shouting when the teacher arrived.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Paramos para almorzar en un restaurante bonito."
+      },
+      "solution": "We stopped to have lunch at a nice restaurant.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hermano dejó de tocar el piano hace años."
+      },
+      "solution": "My brother stopped playing the piano years ago.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te paraste para comprar gasolina?"
+      },
+      "solution": "Did you stop to buy petrol?",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Dejé de ver esa serie porque era aburrida."
+      },
+      "solution": "I stopped watching that series because it was boring.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella se paró para sacar fotos del paisaje."
+      },
+      "solution": "She stopped to take photos of the landscape.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo dejaste de trabajar en esa empresa?"
+      },
+      "solution": "When did you stop working at that company?",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Nos paramos para admirar la vista."
+      },
+      "solution": "We stopped to admire the view.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "El bebé dejó de llorar cuando vio el juguete."
+      },
+      "solution": "The baby stopped crying when he saw the toy.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te paraste para hablar con tu vecino?"
+      },
+      "solution": "Did you stop to talk to your neighbour?",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Dejó de usar redes sociales por su salud mental."
+      },
+      "solution": "He stopped using social media for his mental health.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Paramos para descansar un poco."
+      },
+      "solution": "We stopped to rest for a bit.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ya dejaste de morder las uñas?"
+      },
+      "solution": "Have you stopped biting your nails yet?",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Me paré para leer el cartel informativo."
+      },
+      "solution": "I stopped to read the information sign.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella dejó de practicar deportes después de la lesión."
+      },
+      "solution": "She stopped playing sports after the injury.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Paraste para repostar en el viaje?"
+      },
+      "solution": "Did you stop to refuel on the journey?",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Dejé de comprar comida procesada."
+      },
+      "solution": "I stopped buying processed food.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Él se paró para contestar el teléfono."
+      },
+      "solution": "He stopped to answer the phone.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo dejó de llover?"
+      },
+      "solution": "When did it stop raining?",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Paramos para visitar el museo local."
+      },
+      "solution": "We stopped to visit the local museum.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi madre dejó de cocinar cuando se jubiló."
+      },
+      "solution": "My mother stopped cooking when she retired.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te paraste para comprar el periódico?"
+      },
+      "solution": "Did you stop to buy the newspaper?",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Dejaron de construir la autopista por problemas ambientales."
+      },
+      "solution": "They stopped building the motorway due to environmental problems.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella se paró para recoger las llaves que se le cayeron."
+      },
+      "solution": "She stopped to pick up the keys she dropped.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Ya dejaste de tomar azúcar en el café?"
+      },
+      "solution": "Have you stopped taking sugar in your coffee yet?",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Nos paramos para hacer una foto del grupo."
+      },
+      "solution": "We stopped to take a group photo.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Dejé de leer novelas románticas hace tiempo."
+      },
+      "solution": "I stopped reading romantic novels a long time ago.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Te paraste para preguntar el precio?"
+      },
+      "solution": "Did you stop to ask the price?",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "El coche dejó de funcionar en medio de la carretera."
+      },
+      "solution": "The car stopped working in the middle of the road.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Paramos para estirar las piernas."
+      },
+      "solution": "We stopped to stretch our legs.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Cuándo dejaste de ir a esas clases?"
+      },
+      "solution": "When did you stop going to those classes?",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Me paré para saludar a mi antigua profesora."
+      },
+      "solution": "I stopped to greet my former teacher.",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Ella dejó de cantar profesionalmente hace cinco años."
+      },
+      "solution": "She stopped singing professionally five years ago.",
+      "tip": {
+        "en": "Stop + gerund = cease doing something (dejar de).",
+        "es": "Stop + gerundio = dejar de hacer algo."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Paraste para observar las estrellas?"
+      },
+      "solution": "Did you stop to look at the stars?",
+      "tip": {
+        "en": "Stop + infinitive = stop in order to do something (pararse para).",
+        "es": "Stop + infinitivo = pararse para hacer algo."
+      }
+    }
+  ]
+}

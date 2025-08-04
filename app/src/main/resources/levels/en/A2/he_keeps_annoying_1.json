@@ -1,0 +1,375 @@
+{
+  "topicId": "he_keeps_annoying_1",
+  "title": {
+    "en": "Keep/Keeps + -ing - ¡No para de molestarme! (expresar irritación)",
+    "es": "Keep/Keeps + -ing - ¡No para de molestarme! (expresar irritación)"
+  },
+  "description": {
+    "en": "Learn to use 'keep/keeps + -ing' to express annoyance or irritation when someone doesn't stop doing something repeatedly. This structure is very common in English but often overlooked by Spanish speakers.",
+    "es": "Aprende a usar 'keep/keeps + -ing' para expresar molestia o irritación cuando alguien no para de hacer algo repetidamente. Esta estructura es muy común en inglés pero los hispanohablantes no la suelen usar."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Esa empresa de telemarketing no para de llamarme."
+      },
+      "solution": "That telemarketing company keeps phoning me.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi vecina no para de hablar de sus nietos."
+      },
+      "solution": "My neighbour keeps going on about her grandchildren.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi dentista no deja de cancelarme las citas."
+      },
+      "solution": "My dentist keeps cancelling my appointments.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Cuando era joven, mi hermano no dejaba de pegarme."
+      },
+      "solution": "When I was young, my brother kept hitting me.",
+      "tip": {
+        "en": "Use 'kept + -ing' for past repeated actions that caused annoyance.",
+        "es": "Usa 'kept + -ing' para acciones pasadas repetidas que causaban molestia."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi jefe no deja de darme trabajo."
+      },
+      "solution": "My boss keeps giving me work!",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Él no deja de molestarme con sus problemas."
+      },
+      "solution": "He keeps annoying me with his problems.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "A pesar de mis protestas, no deja de poner la música fuerte."
+      },
+      "solution": "Despite my protests, he keeps playing his music loud.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi impresora no deja de atascarse."
+      },
+      "solution": "My printer keeps jamming.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' for things that repeatedly malfunction or cause problems.",
+        "es": "Usa 'keep/keeps + -ing' para cosas que fallan repetidamente o causan problemas."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Ese empleado nuevo no deja de coquetear con las chicas de la oficina."
+      },
+      "solution": "That new employee keeps chatting up the girls in the office.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi coche no deja de calarse."
+      },
+      "solution": "My car keeps stalling.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' for things that repeatedly malfunction or cause problems.",
+        "es": "Usa 'keep/keeps + -ing' para cosas que fallan repetidamente o causan problemas."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi hermana no para de preguntarme cuándo me voy a casar."
+      },
+      "solution": "My sister keeps asking me when I'm going to get married.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Los niños no dejan de hacer ruido arriba."
+      },
+      "solution": "The children keep making noise upstairs.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi ordenador no para de reiniciarse solo."
+      },
+      "solution": "My computer keeps restarting by itself.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' for things that repeatedly malfunction or cause problems.",
+        "es": "Usa 'keep/keeps + -ing' para cosas que fallan repetidamente o causan problemas."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Ese perro no deja de ladrar toda la noche."
+      },
+      "solution": "That dog keeps barking all night.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi madre no para de decirme que coma más verduras."
+      },
+      "solution": "My mother keeps telling me to eat more vegetables.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "El grifo de la cocina no deja de gotear."
+      },
+      "solution": "The kitchen tap keeps dripping.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' for things that repeatedly malfunction or cause problems.",
+        "es": "Usa 'keep/keeps + -ing' para cosas que fallan repetidamente o causan problemas."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi compañero de trabajo no para de interrumpirme cuando hablo."
+      },
+      "solution": "My colleague keeps interrupting me when I speak.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi teléfono no deja de sonar durante las reuniones."
+      },
+      "solution": "My phone keeps ringing during meetings.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' for things that repeatedly cause problems at bad times.",
+        "es": "Usa 'keep/keeps + -ing' para cosas que causan problemas repetidamente en mal momento."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Ayer mi alarma no dejaba de sonar y no podía apagarla."
+      },
+      "solution": "Yesterday my alarm kept going off and I couldn't turn it off.",
+      "tip": {
+        "en": "Use 'kept + -ing' for past repeated actions that caused annoyance.",
+        "es": "Usa 'kept + -ing' para acciones pasadas repetidas que causaban molestia."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi profesor no para de darnos más deberes."
+      },
+      "solution": "My teacher keeps giving us more homework.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "La puerta de mi dormitorio no deja de hacer ruido cuando la abro."
+      },
+      "solution": "My bedroom door keeps making noise when I open it.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' for things that repeatedly malfunction or cause problems.",
+        "es": "Usa 'keep/keeps + -ing' para cosas que fallan repetidamente o causan problemas."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi ex novio no para de mandarme mensajes."
+      },
+      "solution": "My ex-boyfriend keeps sending me messages.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "El aire acondicionado no deja de hacer un ruido extraño."
+      },
+      "solution": "The air conditioning keeps making a strange noise.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' for things that repeatedly malfunction or cause problems.",
+        "es": "Usa 'keep/keeps + -ing' para cosas que fallan repetidamente o causan problemas."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi compañero de piso no para de usar mi comida sin permiso."
+      },
+      "solution": "My flatmate keeps using my food without permission.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi WiFi no deja de desconectarse cada cinco minutos."
+      },
+      "solution": "My WiFi keeps disconnecting every five minutes.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' for things that repeatedly malfunction or cause problems.",
+        "es": "Usa 'keep/keeps + -ing' para cosas que fallan repetidamente o causan problemas."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Mis padres no paran de preguntarme sobre mis notas."
+      },
+      "solution": "My parents keep asking me about my grades.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "La aplicación del banco no deja de bloquearse cuando intento usarla."
+      },
+      "solution": "The banking app keeps crashing when I try to use it.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' for things that repeatedly malfunction or cause problems.",
+        "es": "Usa 'keep/keeps + -ing' para cosas que fallan repetidamente o causan problemas."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi gato no deja de maullar por la mañana temprano."
+      },
+      "solution": "My cat keeps meowing early in the morning.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' to express annoyance about repeated actions.",
+        "es": "Usa 'keep/keeps + -ing' para expresar molestia por acciones repetidas."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi coche no para de consumir demasiada gasolina."
+      },
+      "solution": "My car keeps using too much petrol.",
+      "tip": {
+        "en": "Use 'keep/keeps + -ing' for things that repeatedly cause problems or work badly.",
+        "es": "Usa 'keep/keeps + -ing' para cosas que causan problemas repetidamente o funcionan mal."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Durante la conferencia, alguien no dejaba de toser muy fuerte."
+      },
+      "solution": "During the conference, someone kept coughing very loudly.",
+      "tip": {
+        "en": "Use 'kept + -ing' for past repeated actions that caused annoyance.",
+        "es": "Usa 'kept + -ing' para acciones pasadas repetidas que causaban molestia."
+      }
+    }
+  ]
+}

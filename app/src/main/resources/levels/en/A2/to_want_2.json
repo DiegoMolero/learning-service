@@ -1,0 +1,615 @@
+{
+  "topicId": "to_want_2",
+  "title": {
+    "en": "To Want (2) - With Nouns & Different Tenses (Querer que + nombres)",
+    "es": "To Want (2) - With Nouns & Different Tenses (Querer que + nombres)"
+  },
+  "description": {
+    "en": "Master 'want + noun/name + to + infinitive' structure with all subjects and tenses. The word 'that' is strictly prohibited after 'want' in English.",
+    "es": "Domina la estructura 'want + sustantivo/nombre + to + infinitivo' con todos los sujetos y tiempos. La palabra 'that' está estrictamente prohibida después de 'want' en inglés."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi jefe quiere que la empresa crezca."
+      },
+      "solution": "My boss wants the company to grow.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the company...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the company...'"
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "El alcalde quiere que la ciudad florezca."
+      },
+      "solution": "The mayor wants the city to flourish.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the city...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the city...'"
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "El gato quiere que el pájaro entre en el jardín."
+      },
+      "solution": "The cat wants the bird to fly into the garden.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the bird...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the bird...'"
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "La mayoría de los votantes no quieren que el gobierno suba los impuestos."
+      },
+      "solution": "Most voters don't want the government to put up taxes.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'don't want that the government...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'don't want that the government...'"
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Quieres que te derrumben la casa?"
+      },
+      "solution": "Do you want your house to be knocked down?",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'want that your house...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'want that your house...'"
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "El general quería que el enemigo cayera en su trampa."
+      },
+      "solution": "The general wanted the enemy to fall into his trap.",
+      "tip": {
+        "en": "Same structure in past tense: wanted + noun + to + infinitive",
+        "es": "Misma estructura en pasado: wanted + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "El director financiero no quería que los periodistas le hicieran preguntas difíciles."
+      },
+      "solution": "The C.F.O. didn't want the journalists to ask him any difficult questions.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Mi vecino no quería que su mujer se enterara."
+      },
+      "solution": "My neighbour didn't want his wife to find out.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "El agente de policía no quería que hubiera ningún problema."
+      },
+      "solution": "The policeman didn't want there to be any trouble.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Ella no querrá que venga su ex marido!"
+      },
+      "solution": "She won't want her ex-husband to come!",
+      "tip": {
+        "en": "Same structure in future: won't want + noun + to + infinitive",
+        "es": "Misma estructura en futuro: won't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "El profesor quiere que los estudiantes participen más."
+      },
+      "solution": "The teacher wants the students to participate more.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the students...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the students...'"
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El médico quiere que el paciente descanse?"
+      },
+      "solution": "Does the doctor want the patient to rest?",
+      "tip": {
+        "en": "In questions: Does + subject + want + noun + to + infinitive",
+        "es": "En preguntas: Does + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "La madre no quiere que sus hijos vean esa película."
+      },
+      "solution": "The mother doesn't want her children to see that film.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'doesn't want that her children...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'doesn't want that her children...'"
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿María quería que Pedro viniera a la fiesta?"
+      },
+      "solution": "Did María want Pedro to come to the party?",
+      "tip": {
+        "en": "In past questions: Did + subject + want + noun + to + infinitive",
+        "es": "En preguntas del pasado: Did + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "El cliente quiere que el camarero le traiga la cuenta."
+      },
+      "solution": "The customer wants the waiter to bring him the bill.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the waiter...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the waiter...'"
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Los padres no querían que sus hijos llegaran tarde."
+      },
+      "solution": "The parents didn't want their children to arrive late.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El director quiere que los empleados trabajen el sábado?"
+      },
+      "solution": "Does the director want the employees to work on Saturday?",
+      "tip": {
+        "en": "In questions: Does + subject + want + noun + to + infinitive",
+        "es": "En preguntas: Does + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "El entrenador quiere que el equipo entrene más duro."
+      },
+      "solution": "The coach wants the team to train harder.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the team...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the team...'"
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Ana no quería que sus amigos supieran su secreto."
+      },
+      "solution": "Ana didn't want her friends to know her secret.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El gobierno querrá que los ciudadanos paguen más impuestos?"
+      },
+      "solution": "Will the government want the citizens to pay more taxes?",
+      "tip": {
+        "en": "In future questions: Will + subject + want + noun + to + infinitive",
+        "es": "En preguntas del futuro: Will + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "El jardinero quiere que las plantas crezcan rápido."
+      },
+      "solution": "The gardener wants the plants to grow quickly.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the plants...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the plants...'"
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "La empresa no quería que los trabajadores se declararan en huelga."
+      },
+      "solution": "The company didn't want the workers to go on strike.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El chef quiere que los ingredientes estén frescos?"
+      },
+      "solution": "Does the chef want the ingredients to be fresh?",
+      "tip": {
+        "en": "In questions: Does + subject + want + noun + to + infinitive",
+        "es": "En preguntas: Does + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "El policía quiere que los conductores respeten las señales."
+      },
+      "solution": "The policeman wants the drivers to respect the signs.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the drivers...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the drivers...'"
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Los vecinos no querían que construyeran un centro comercial."
+      },
+      "solution": "The neighbours didn't want them to build a shopping centre.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El presidente quiere que la economía mejore?"
+      },
+      "solution": "Does the president want the economy to improve?",
+      "tip": {
+        "en": "In questions: Does + subject + want + noun + to + infinitive",
+        "es": "En preguntas: Does + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "La abuela quiere que la familia se reúna en Navidad."
+      },
+      "solution": "The grandmother wants the family to get together at Christmas.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the family...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the family...'"
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "El banco no quería que los clientes perdieran dinero."
+      },
+      "solution": "The bank didn't want the customers to lose money.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El doctor querrá que el hospital compre nuevo equipo?"
+      },
+      "solution": "Will the doctor want the hospital to buy new equipment?",
+      "tip": {
+        "en": "In future questions: Will + subject + want + noun + to + infinitive",
+        "es": "En preguntas del futuro: Will + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "El mecánico quiere que el coche funcione perfectamente."
+      },
+      "solution": "The mechanic wants the car to work perfectly.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the car...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the car...'"
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Los estudiantes no querían que el examen fuera tan difícil."
+      },
+      "solution": "The students didn't want the exam to be so difficult.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El artista quiere que la galería exponga sus cuadros?"
+      },
+      "solution": "Does the artist want the gallery to exhibit his paintings?",
+      "tip": {
+        "en": "In questions: Does + subject + want + noun + to + infinitive",
+        "es": "En preguntas: Does + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "El turista quiere que el guía le explique la historia."
+      },
+      "solution": "The tourist wants the guide to explain the history to him.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the guide...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the guide...'"
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "La compañía no quería que los competidores conocieran sus planes."
+      },
+      "solution": "The company didn't want the competitors to know their plans.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El escritor querrá que el público lea su nuevo libro?"
+      },
+      "solution": "Will the writer want the public to read his new book?",
+      "tip": {
+        "en": "In future questions: Will + subject + want + noun + to + infinitive",
+        "es": "En preguntas del futuro: Will + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "El agricultor quiere que la lluvia llegue pronto."
+      },
+      "solution": "The farmer wants the rain to come soon.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the rain...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the rain...'"
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Los músicos no querían que el concierto se cancelara."
+      },
+      "solution": "The musicians didn't want the concert to be cancelled.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El cocinero quiere que los comensales disfruten la comida?"
+      },
+      "solution": "Does the cook want the diners to enjoy the food?",
+      "tip": {
+        "en": "In questions: Does + subject + want + noun + to + infinitive",
+        "es": "En preguntas: Does + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "El piloto quiere que los pasajeros se abrochen los cinturones."
+      },
+      "solution": "The pilot wants the passengers to fasten their seatbelts.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the passengers...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the passengers...'"
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "La editorial no quería que el autor cambiara el final."
+      },
+      "solution": "The publisher didn't want the author to change the ending.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El diseñador querrá que el cliente apruebe los planos?"
+      },
+      "solution": "Will the designer want the client to approve the plans?",
+      "tip": {
+        "en": "In future questions: Will + subject + want + noun + to + infinitive",
+        "es": "En preguntas del futuro: Will + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "El vendedor quiere que los productos se vendan rápido."
+      },
+      "solution": "The salesman wants the products to sell quickly.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the products...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the products...'"
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Los turistas no querían que el tiempo estuviera nublado."
+      },
+      "solution": "The tourists didn't want the weather to be cloudy.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El bibliotecario quiere que los libros estén ordenados?"
+      },
+      "solution": "Does the librarian want the books to be organised?",
+      "tip": {
+        "en": "In questions: Does + subject + want + noun + to + infinitive",
+        "es": "En preguntas: Does + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "El propietario quiere que el inquilino pague el alquiler."
+      },
+      "solution": "The landlord wants the tenant to pay the rent.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the tenant...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the tenant...'"
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Los espectadores no querían que la obra terminara."
+      },
+      "solution": "The audience didn't want the play to end.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El fotógrafo querrá que los modelos sonrían?"
+      },
+      "solution": "Will the photographer want the models to smile?",
+      "tip": {
+        "en": "In future questions: Will + subject + want + noun + to + infinitive",
+        "es": "En preguntas del futuro: Will + sujeto + want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "El científico quiere que el experimento tenga éxito."
+      },
+      "solution": "The scientist wants the experiment to succeed.",
+      "tip": {
+        "en": "Use want + noun + to + infinitive. Never 'wants that the experiment...'",
+        "es": "Usa want + sustantivo + to + infinitivo. Nunca 'wants that the experiment...'"
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Los invitados no querían que la fiesta acabara tan temprano."
+      },
+      "solution": "The guests didn't want the party to end so early.",
+      "tip": {
+        "en": "Same structure in past tense: didn't want + noun + to + infinitive",
+        "es": "Misma estructura en pasado: didn't want + sustantivo + to + infinitivo"
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿El juez querrá que el jurado llegue a una decisión?"
+      },
+      "solution": "Will the judge want the jury to reach a decision?",
+      "tip": {
+        "en": "In future questions: Will + subject + want + noun + to + infinitive",
+        "es": "En preguntas del futuro: Will + sujeto + want + sustantivo + to + infinitivo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "topicId": "im_glad_you_won_1",
+  "title": {
+    "en": "I'm Glad You Won - Joy for Others (Me alegro de que hayas ganado)",
+    "es": "I'm Glad You Won - Joy for Others (Me alegro de que hayas ganado)"
+  },
+  "description": {
+    "en": "Learn to express happiness about other people's actions using 'I'm glad + subject + past tense'. CRITICAL: Use simple past, NOT subjunctive or perfect tense. Remember to pronounce the 'm' in 'I'm' by closing your lips.",
+    "es": "Aprende a expresar felicidad sobre las acciones de otras personas usando 'I'm glad + sujeto + pasado simple'. CRÍTICO: Usa pasado simple, NO subjuntivo o tiempo perfecto. Recuerda pronunciar la 'm' en 'I'm' cerrando los labios."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que consiguieras terminar tu novela."
+      },
+      "solution": "I'm glad you managed to finish your novel.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que él pudiera ayudarnos."
+      },
+      "solution": "I'm glad he was able to help us.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que se fueran temprano."
+      },
+      "solution": "I'm glad they went early.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que finalmente encontraras un buen trabajo."
+      },
+      "solution": "I'm glad you finally found a good job.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que mi jefe me pidiera que le ayudara con el proyecto."
+      },
+      "solution": "I'm glad my boss asked me to help him with the project.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no tuvieras que llamar al fontanero."
+      },
+      "solution": "I'm glad you didn't have to call the plumber out.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que ella no me pidiera que fuera."
+      },
+      "solution": "I'm glad she didn't ask me to go.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no lloviera."
+      },
+      "solution": "I'm glad it didn't rain.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no fuera importante."
+      },
+      "solution": "I'm glad it wasn't important.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no pudieran venir."
+      },
+      "solution": "I'm glad they couldn't make it.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que ganaras el concurso."
+      },
+      "solution": "I'm glad you won the competition.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que ella aprobara el examen."
+      },
+      "solution": "I'm glad she passed the exam.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no te hicieras daño."
+      },
+      "solution": "I'm glad you didn't hurt yourself.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que compraran la casa."
+      },
+      "solution": "I'm glad they bought the house.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que llegaran a tiempo."
+      },
+      "solution": "I'm glad they arrived on time.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no perdieras el vuelo."
+      },
+      "solution": "I'm glad you didn't miss your flight.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que resolvieran el problema."
+      },
+      "solution": "I'm glad they solved the problem.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que te gustara la película."
+      },
+      "solution": "I'm glad you liked the film.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no te enfadaras."
+      },
+      "solution": "I'm glad you didn't get angry.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que decidieran mudarse."
+      },
+      "solution": "I'm glad they decided to move.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no tuvieras que trabajar."
+      },
+      "solution": "I'm glad you didn't have to work.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que recordaras mi cumpleaños."
+      },
+      "solution": "I'm glad you remembered my birthday.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que ella viniera a la fiesta."
+      },
+      "solution": "I'm glad she came to the party.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no se perdieran."
+      },
+      "solution": "I'm glad they didn't get lost.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que obtuvieras la beca."
+      },
+      "solution": "I'm glad you got the scholarship.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no cancelaran el viaje."
+      },
+      "solution": "I'm glad they didn't cancel the trip.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que te recuperaras tan rápido."
+      },
+      "solution": "I'm glad you recovered so quickly.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que él aceptara la oferta."
+      },
+      "solution": "I'm glad he accepted the offer.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no gastaran tanto dinero."
+      },
+      "solution": "I'm glad they didn't spend so much money.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que encontraras las llaves."
+      },
+      "solution": "I'm glad you found the keys.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no se olvidaran de la reunión."
+      },
+      "solution": "I'm glad they didn't forget about the meeting.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que disfrutaras de las vacaciones."
+      },
+      "solution": "I'm glad you enjoyed your holidays.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que ella cambiara de opinión."
+      },
+      "solution": "I'm glad she changed her mind.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no te preocuparas por nada."
+      },
+      "solution": "I'm glad you didn't worry about anything.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que siguieran mi consejo."
+      },
+      "solution": "I'm glad they followed my advice.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no perdieran el tren."
+      },
+      "solution": "I'm glad they didn't miss the train.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que completaras el proyecto."
+      },
+      "solution": "I'm glad you completed the project.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que él aprendiera la lección."
+      },
+      "solution": "I'm glad he learned the lesson.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no discutieran."
+      },
+      "solution": "I'm glad they didn't argue.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que tomaras la decisión correcta."
+      },
+      "solution": "I'm glad you made the right decision.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no se rindieran."
+      },
+      "solution": "I'm glad they didn't give up.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que consiguieras entradas."
+      },
+      "solution": "I'm glad you got tickets.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que ella no se sintiera mal."
+      },
+      "solution": "I'm glad she didn't feel bad.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que organizaran la fiesta."
+      },
+      "solution": "I'm glad they organised the party.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no tuvieras problemas."
+      },
+      "solution": "I'm glad you didn't have any problems.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que el médico lo curara."
+      },
+      "solution": "I'm glad the doctor cured him.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no rompieras nada."
+      },
+      "solution": "I'm glad you didn't break anything.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que invitaran a todos."
+      },
+      "solution": "I'm glad they invited everyone.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que no se equivocaran."
+      },
+      "solution": "I'm glad they didn't make a mistake.",
+      "tip": {
+        "en": "For negatives, use 'didn't + base verb'. Avoid subjunctive forms.",
+        "es": "Para negativos, usa 'didn't + verbo base'. Evita formas subjuntivas."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de que solucionaras el problema."
+      },
+      "solution": "I'm glad you solved the problem.",
+      "tip": {
+        "en": "Use simple past, not subjunctive. Pronounce the 'm' in 'I'm' clearly.",
+        "es": "Usa pasado simple, no subjuntivo. Pronuncia la 'm' en 'I'm' claramente."
+      }
+    }
+  ]
+}

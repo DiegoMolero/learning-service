@@ -1,0 +1,495 @@
+{
+  "topicId": "im_glad_i_came_1",
+  "title": {
+    "en": "I'm Glad I Came - Past Actions (Me alegro de haber venido)",
+    "es": "I'm Glad I Came - Past Actions (Me alegro de haber venido)"
+  },
+  "description": {
+    "en": "Learn to use 'I'm glad I + past tense' for expressing satisfaction about past actions. CRITICAL: Use simple past, NOT perfect infinitive. Two subjects required even when referring to the same person. Avoid Spanglish constructions.",
+    "es": "Aprende a usar 'I'm glad I + pasado simple' para expresar satisfacción sobre acciones pasadas. CRÍTICO: Usa pasado simple, NO infinitivo perfecto. Se requieren dos sujetos aunque se refieran a la misma persona. Evita construcciones de Espanglish."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber venido."
+      },
+      "solution": "I'm glad I came.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber hecho el esfuerzo de venir."
+      },
+      "solution": "I'm glad I made the effort to come.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber tenido bastante dinero para pagar el taxi."
+      },
+      "solution": "I'm glad I had enough money to pay for the taxi.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber encontrado mi tarjeta de crédito."
+      },
+      "solution": "I'm glad I found my credit card.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haberte llamado."
+      },
+      "solution": "I'm glad I called you.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber ido a la fiesta."
+      },
+      "solution": "I'm glad I didn't go to the party.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber comprado aquella casa."
+      },
+      "solution": "I'm glad I didn't buy that house.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber dicho nada."
+      },
+      "solution": "I'm glad I didn't say anything.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber tenido que ir a la conferencia."
+      },
+      "solution": "I'm glad I didn't have to go to the conference.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber tenido que cambiar los neumáticos."
+      },
+      "solution": "I'm glad I didn't need to change my tyres.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber traído el paraguas."
+      },
+      "solution": "I'm glad I brought the umbrella.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber reservado una mesa."
+      },
+      "solution": "I'm glad I booked a table.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber perdido el tren."
+      },
+      "solution": "I'm glad I didn't miss the train.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber estudiado medicina."
+      },
+      "solution": "I'm glad I studied medicine.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber conocido a tu familia."
+      },
+      "solution": "I'm glad I met your family.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber gastado tanto dinero."
+      },
+      "solution": "I'm glad I didn't spend so much money.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber aprendido inglés."
+      },
+      "solution": "I'm glad I learned English.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber guardado el recibo."
+      },
+      "solution": "I'm glad I kept the receipt.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber vendido la casa."
+      },
+      "solution": "I'm glad I didn't sell the house.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber tomado esa decisión."
+      },
+      "solution": "I'm glad I made that decision.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber firmado el contrato."
+      },
+      "solution": "I'm glad I didn't sign the contract.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber llegado temprano."
+      },
+      "solution": "I'm glad I arrived early.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber escuchado tu consejo."
+      },
+      "solution": "I'm glad I listened to your advice.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber conducido anoche."
+      },
+      "solution": "I'm glad I didn't drive last night.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber cambiado de trabajo."
+      },
+      "solution": "I'm glad I changed jobs.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber comprado el seguro."
+      },
+      "solution": "I'm glad I bought the insurance.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber apostado dinero."
+      },
+      "solution": "I'm glad I didn't bet any money.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber preguntado el precio."
+      },
+      "solution": "I'm glad I asked the price.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber elegido este hotel."
+      },
+      "solution": "I'm glad I chose this hotel.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber esperado más tiempo."
+      },
+      "solution": "I'm glad I didn't wait any longer.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber leído las instrucciones."
+      },
+      "solution": "I'm glad I read the instructions.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber preparado la comida."
+      },
+      "solution": "I'm glad I prepared the food.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber perdido la paciencia."
+      },
+      "solution": "I'm glad I didn't lose my patience.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber cerrado la ventana."
+      },
+      "solution": "I'm glad I closed the window.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber recordado tu cumpleaños."
+      },
+      "solution": "I'm glad I remembered your birthday.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber olvidado las llaves."
+      },
+      "solution": "I'm glad I didn't forget the keys.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber aceptado la invitación."
+      },
+      "solution": "I'm glad I accepted the invitation.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber comprobado el horario."
+      },
+      "solution": "I'm glad I checked the timetable.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de no haber perdido los documentos."
+      },
+      "solution": "I'm glad I didn't lose the documents.",
+      "tip": {
+        "en": "For negatives, use 'I didn't + verb'. Avoid perfect infinitive.",
+        "es": "Para negativos, usa 'I didn't + verbo'. Evita infinitivo perfecto."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Me alegro de haber seguido tu sugerencia."
+      },
+      "solution": "I'm glad I followed your suggestion.",
+      "tip": {
+        "en": "Use simple past, not perfect infinitive. Repeat the subject 'I'.",
+        "es": "Usa pasado simple, no infinitivo perfecto. Repite el sujeto 'I'."
+      }
+    }
+  ]
+}

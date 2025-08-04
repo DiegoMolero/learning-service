@@ -1,0 +1,615 @@
+{
+  "topicId": "there_is_2",
+  "title": {
+    "en": "There is - Negative & Questions (Hay negativo e interrogativo)",
+    "es": "There is - Negative & Questions (Hay negativo e interrogativo)"
+  },
+  "description": {
+    "en": "Learn negative forms 'there isn't' and 'there's not', plus question formation with 'Is there...?'. Spanish speakers often struggle with English negative contractions and subject-verb inversion in questions.",
+    "es": "Aprende las formas negativas 'there isn't' y 'there's not', además de la formación de preguntas con 'Is there...?'. Los hispanohablantes a menudo luchan con las contracciones negativas del inglés y la inversión sujeto-verbo en preguntas."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "¡No hay nada para leer en esta casa!"
+      },
+      "solution": "There isn't anything to read in this house!",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¡No hay ni una sola persona en este pueblo!"
+      },
+      "solution": "There's not a single person in this village!",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay agua en el grifo."
+      },
+      "solution": "There isn't any water in the tap.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay dinero en mi cuenta."
+      },
+      "solution": "There's not any money in my account.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay arena en esta playa."
+      },
+      "solution": "There isn't any sand on this beach.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay una farmacia cerca de aquí?"
+      },
+      "solution": "Is there a chemist's near here?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay una forma fácil de solucionar este problema?"
+      },
+      "solution": "Is there an easy way to solve this problem?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay mayonesa en tu nevera?"
+      },
+      "solution": "Is there any mayonnaise in your fridge?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Se saltan los plomos a menudo cuando hay una tormenta?"
+      },
+      "solution": "Is there often a power cut when there's a storm?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay hielo en las carreteras?"
+      },
+      "solution": "Is there any ice on the roads?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay leche en el frigorífico."
+      },
+      "solution": "There's not any milk in the fridge.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay un médico en este edificio?"
+      },
+      "solution": "Is there a doctor in this building?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay tiempo suficiente para terminar."
+      },
+      "solution": "There isn't enough time to finish.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay una estación de tren cerca?"
+      },
+      "solution": "Is there a train station nearby?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay espacio en el coche."
+      },
+      "solution": "There's not any space in the car.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay wifi en este hotel?"
+      },
+      "solution": "Is there wifi in this hotel?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay azúcar en el café."
+      },
+      "solution": "There isn't any sugar in the coffee.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay un ascensor en este edificio?"
+      },
+      "solution": "Is there a lift in this building?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay aceite en la sartén."
+      },
+      "solution": "There's not any oil in the pan.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay una piscina en el complejo?"
+      },
+      "solution": "Is there a swimming pool in the complex?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay nadie en la oficina."
+      },
+      "solution": "There isn't anyone in the office.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay una biblioteca en la universidad?"
+      },
+      "solution": "Is there a library at the university?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay pan en la cocina."
+      },
+      "solution": "There's not any bread in the kitchen.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay un supermercado en esta zona?"
+      },
+      "solution": "Is there a supermarket in this area?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay ruido en la biblioteca."
+      },
+      "solution": "There isn't any noise in the library.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay aire acondicionado en la habitación?"
+      },
+      "solution": "Is there air conditioning in the room?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay sal en este plato."
+      },
+      "solution": "There's not any salt in this dish.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay un banco cerca del centro comercial?"
+      },
+      "solution": "Is there a bank near the shopping centre?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay electricidad en el edificio."
+      },
+      "solution": "There isn't any electricity in the building.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay una gasolinera en esta carretera?"
+      },
+      "solution": "Is there a petrol station on this road?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay calefacción en esta casa."
+      },
+      "solution": "There's not any heating in this house.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay un restaurante en el hotel?"
+      },
+      "solution": "Is there a restaurant in the hotel?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay miel en el tarro."
+      },
+      "solution": "There isn't any honey in the jar.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay un parque cerca de tu casa?"
+      },
+      "solution": "Is there a park near your house?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay papel en la impresora."
+      },
+      "solution": "There's not any paper in the printer.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay una farmacia abierta por la noche?"
+      },
+      "solution": "Is there a pharmacy open at night?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay champú en la ducha."
+      },
+      "solution": "There isn't any shampoo in the shower.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay un cajero automático en la estación?"
+      },
+      "solution": "Is there a cash machine at the station?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay mantequilla en la nevera."
+      },
+      "solution": "There's not any butter in the fridge.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay una sala de espera en la clínica?"
+      },
+      "solution": "Is there a waiting room at the clinic?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay jabón en el dispensador."
+      },
+      "solution": "There isn't any soap in the dispenser.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay un teléfono público en el aeropuerto?"
+      },
+      "solution": "Is there a public phone at the airport?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay yogur en el frigorífico."
+      },
+      "solution": "There's not any yogurt in the fridge.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay un gimnasio en el hotel?"
+      },
+      "solution": "Is there a gym in the hotel?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay vino en la bodega."
+      },
+      "solution": "There isn't any wine in the cellar.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay una tienda de ropa en el centro?"
+      },
+      "solution": "Is there a clothes shop in the centre?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay queso en el sándwich."
+      },
+      "solution": "There's not any cheese in the sandwich.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay una oficina de turismo en la ciudad?"
+      },
+      "solution": "Is there a tourist office in the city?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "No hay gasolina en el depósito."
+      },
+      "solution": "There isn't any petrol in the tank.",
+      "tip": {
+        "en": "Use 'there isn't' or 'there's not' for negative. Both are common.",
+        "es": "Usa 'there isn't' o 'there's not' para negativo. Ambas son comunes."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Hay una mesa libre en el restaurante?"
+      },
+      "solution": "Is there a free table at the restaurant?",
+      "tip": {
+        "en": "Invert 'there' and 'is' to form questions: 'Is there...?'",
+        "es": "Invierte 'there' e 'is' para formar preguntas: 'Is there...?'"
+      }
+    }
+  ]
+}

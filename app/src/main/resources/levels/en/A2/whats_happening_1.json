@@ -1,0 +1,615 @@
+{
+  "topicId": "whats_happening_1",
+  "title": {
+    "en": "What's Happening/What Happened - No Auxiliary 'Do' (¿Qué pasa?/¿Qué pasó?)",
+    "es": "What's Happening/What Happened - No Auxiliary 'Do' (¿Qué pasa?/¿Qué pasó?)"
+  },
+  "description": {
+    "en": "Learn how to ask 'What's happening?' and 'What happened?' without using 'do/did'. Understand that 'happen' doesn't use auxiliary verbs because we don't know the subject. Also learn different ways to say '¿Qué pasa?' as a greeting.",
+    "es": "Aprende a preguntar 'What's happening?' y 'What happened?' sin usar 'do/did'. Entiende que 'happen' no usa verbos auxiliares porque no sabemos el sujeto. También aprende diferentes formas de decir '¿Qué pasa?' como saludo."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasa? (como saludo)"
+      },
+      "solution": "What's up?",
+      "tip": {
+        "en": "'What's up?' is the most common casual greeting for '¿Qué pasa?'",
+        "es": "'What's up?' es el saludo casual más común para '¿Qué pasa?'"
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasa? (preguntando por el estado)"
+      },
+      "solution": "How are you?",
+      "tip": {
+        "en": "'How are you?' is the standard way to ask about someone's state.",
+        "es": "'How are you?' es la forma estándar de preguntar por el estado de alguien."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasa? (preguntando por novedades)"
+      },
+      "solution": "What's new?",
+      "tip": {
+        "en": "'What's new?' asks specifically about recent developments.",
+        "es": "'What's new?' pregunta específicamente por desarrollos recientes."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando?"
+      },
+      "solution": "What's happening?",
+      "tip": {
+        "en": "Use 'What's happening?' not 'What does happen?' - no auxiliary needed.",
+        "es": "Usa 'What's happening?' no 'What does happen?' - no se necesita auxiliar."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué ocurrió?"
+      },
+      "solution": "What happened?",
+      "tip": {
+        "en": "Use 'What happened?' not 'What did happen?' - no auxiliary needed.",
+        "es": "Usa 'What happened?' no 'What did happen?' - no se necesita auxiliar."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le pasó a él?"
+      },
+      "solution": "What happened to him?",
+      "tip": {
+        "en": "'Something happens to someone' - use 'to' + person.",
+        "es": "'Something happens to someone' - usa 'to' + persona."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué les pasará a ellos?"
+      },
+      "solution": "What will happen to them?",
+      "tip": {
+        "en": "Future form: 'will happen' - still no auxiliary 'do'.",
+        "es": "Forma futura: 'will happen' - aún no hay auxiliar 'do'."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le está pasando al país?"
+      },
+      "solution": "What's happening to the country?",
+      "tip": {
+        "en": "Present continuous: 'What's happening to...' for ongoing situations.",
+        "es": "Presente continuo: 'What's happening to...' para situaciones en curso."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasa? (saludo informal)"
+      },
+      "solution": "What's shaking?",
+      "tip": {
+        "en": "'What's shaking?' is very informal, used mainly by young people.",
+        "es": "'What's shaking?' es muy informal, usado principalmente por jóvenes."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué te pasó en la cara?"
+      },
+      "solution": "What happened to your face?",
+      "tip": {
+        "en": "Use 'What happened to your + body part' for injuries.",
+        "es": "Usa 'What happened to your + parte del cuerpo' para lesiones."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando aquí?"
+      },
+      "solution": "What's happening here?",
+      "tip": {
+        "en": "Add 'here' or 'there' to specify location.",
+        "es": "Añade 'here' o 'there' para especificar ubicación."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasó con tu coche?"
+      },
+      "solution": "What happened to your car?",
+      "tip": {
+        "en": "'What happened to...' works for objects and people.",
+        "es": "'What happened to...' funciona para objetos y personas."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le pasa a la televisión?"
+      },
+      "solution": "What's wrong with the television?",
+      "tip": {
+        "en": "'What's wrong with...' is common for malfunctioning objects.",
+        "es": "'What's wrong with...' es común para objetos que no funcionan."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasó en la reunión?"
+      },
+      "solution": "What happened in the meeting?",
+      "tip": {
+        "en": "Use 'in' for events that occur within a specific context.",
+        "es": "Usa 'in' para eventos que ocurren dentro de un contexto específico."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando con el proyecto?"
+      },
+      "solution": "What's happening with the project?",
+      "tip": {
+        "en": "'What's happening with...' asks about the progress or status.",
+        "es": "'What's happening with...' pregunta sobre el progreso o estado."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasa? (pregunta bromista)"
+      },
+      "solution": "How's tricks?",
+      "tip": {
+        "en": "'How's tricks?' is grammatically incorrect but commonly used jokingly.",
+        "es": "'How's tricks?' es gramaticalmente incorrecto pero se usa bromistamente."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué les pasó a mis llaves?"
+      },
+      "solution": "What happened to my keys?",
+      "tip": {
+        "en": "Perfect for asking about missing objects.",
+        "es": "Perfecto para preguntar sobre objetos perdidos."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando en el mundo?"
+      },
+      "solution": "What's happening in the world?",
+      "tip": {
+        "en": "Use for asking about current events or global situations.",
+        "es": "Usa para preguntar sobre eventos actuales o situaciones globales."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le pasará a la empresa?"
+      },
+      "solution": "What will happen to the company?",
+      "tip": {
+        "en": "Future speculation about consequences or outcomes.",
+        "es": "Especulación futura sobre consecuencias o resultados."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasó anoche en la fiesta?"
+      },
+      "solution": "What happened at the party last night?",
+      "tip": {
+        "en": "Use 'at' for events and 'last night' for time specification.",
+        "es": "Usa 'at' para eventos y 'last night' para especificar tiempo."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le está pasando a tu hermano?"
+      },
+      "solution": "What's happening to your brother?",
+      "tip": {
+        "en": "Present continuous suggests an ongoing situation affecting someone.",
+        "es": "Presente continuo sugiere una situación en curso que afecta a alguien."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasó con nuestros planes?"
+      },
+      "solution": "What happened to our plans?",
+      "tip": {
+        "en": "Perfect for asking about changed or cancelled arrangements.",
+        "es": "Perfecto para preguntar sobre arreglos cambiados o cancelados."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando en tu trabajo?"
+      },
+      "solution": "What's happening at your work?",
+      "tip": {
+        "en": "Use 'at work' or 'at your work' for workplace situations.",
+        "es": "Usa 'at work' o 'at your work' para situaciones laborales."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le pasó a tu teléfono?"
+      },
+      "solution": "What happened to your phone?",
+      "tip": {
+        "en": "Common question when someone's phone isn't working or is missing.",
+        "es": "Pregunta común cuando el teléfono de alguien no funciona o está perdido."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasará si llueve?"
+      },
+      "solution": "What will happen if it rains?",
+      "tip": {
+        "en": "Use 'What will happen if...' for conditional future scenarios.",
+        "es": "Usa 'What will happen if...' para escenarios futuros condicionales."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando entre vosotros dos?"
+      },
+      "solution": "What's happening between you two?",
+      "tip": {
+        "en": "'Between you two' asks about relationship or conflict issues.",
+        "es": "'Between you two' pregunta sobre problemas de relación o conflicto."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasó durante las vacaciones?"
+      },
+      "solution": "What happened during the holidays?",
+      "tip": {
+        "en": "Use 'during' for events within a time period.",
+        "es": "Usa 'during' para eventos dentro de un período de tiempo."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le está pasando a la economía?"
+      },
+      "solution": "What's happening to the economy?",
+      "tip": {
+        "en": "Perfect for asking about economic or political situations.",
+        "es": "Perfecto para preguntar sobre situaciones económicas o políticas."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasó con el wifi?"
+      },
+      "solution": "What happened to the wifi?",
+      "tip": {
+        "en": "Modern question about internet connectivity problems.",
+        "es": "Pregunta moderna sobre problemas de conectividad a internet."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando en la cocina?"
+      },
+      "solution": "What's happening in the kitchen?",
+      "tip": {
+        "en": "Use 'in' for specific rooms or enclosed spaces.",
+        "es": "Usa 'in' para habitaciones específicas o espacios cerrados."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué les pasó a los niños?"
+      },
+      "solution": "What happened to the children?",
+      "tip": {
+        "en": "Shows concern about children's welfare or whereabouts.",
+        "es": "Muestra preocupación por el bienestar o paradero de los niños."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasará mañana en la oficina?"
+      },
+      "solution": "What will happen tomorrow at the office?",
+      "tip": {
+        "en": "Future inquiry about workplace events or meetings.",
+        "es": "Consulta futura sobre eventos o reuniones en el lugar de trabajo."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando con el tiempo?"
+      },
+      "solution": "What's happening with the weather?",
+      "tip": {
+        "en": "'What's happening with the weather?' asks about weather changes.",
+        "es": "'What's happening with the weather?' pregunta sobre cambios climáticos."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le pasó a mi ordenador?"
+      },
+      "solution": "What happened to my computer?",
+      "tip": {
+        "en": "Common question when technology stops working properly.",
+        "es": "Pregunta común cuando la tecnología deja de funcionar correctamente."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando en el centro de la ciudad?"
+      },
+      "solution": "What's happening in the city centre?",
+      "tip": {
+        "en": "Asking about events or situations in a specific area.",
+        "es": "Preguntando sobre eventos o situaciones en un área específica."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasó con tu examen?"
+      },
+      "solution": "What happened with your exam?",
+      "tip": {
+        "en": "Asking about exam results or experience.",
+        "es": "Preguntando sobre resultados o experiencia del examen."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le está pasando al gobierno?"
+      },
+      "solution": "What's happening to the government?",
+      "tip": {
+        "en": "Political question about governmental changes or crises.",
+        "es": "Pregunta política sobre cambios gubernamentales o crisis."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasó en el accidente?"
+      },
+      "solution": "What happened in the accident?",
+      "tip": {
+        "en": "Asking for details about what occurred during an incident.",
+        "es": "Pidiendo detalles sobre lo que ocurrió durante un incidente."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando con nuestro pedido?"
+      },
+      "solution": "What's happening with our order?",
+      "tip": {
+        "en": "Perfect for checking on delivery or service status.",
+        "es": "Perfecto para verificar el estado de entrega o servicio."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le pasó a tu mano?"
+      },
+      "solution": "What happened to your hand?",
+      "tip": {
+        "en": "Showing concern about a visible injury or bandage.",
+        "es": "Mostrando preocupación por una lesión visible o vendaje."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasará con el clima el fin de semana?"
+      },
+      "solution": "What will happen with the weather this weekend?",
+      "tip": {
+        "en": "Future weather prediction question.",
+        "es": "Pregunta de predicción meteorológica futura."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando en tu vida?"
+      },
+      "solution": "What's happening in your life?",
+      "tip": {
+        "en": "Personal question about life events and changes.",
+        "es": "Pregunta personal sobre eventos y cambios de la vida."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasó con la electricidad?"
+      },
+      "solution": "What happened to the electricity?",
+      "tip": {
+        "en": "Question about power outages or electrical problems.",
+        "es": "Pregunta sobre cortes de energía o problemas eléctricos."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando en las noticias?"
+      },
+      "solution": "What's happening in the news?",
+      "tip": {
+        "en": "Asking about current events or news stories.",
+        "es": "Preguntando sobre eventos actuales o noticias."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le pasó a tu bicicleta?"
+      },
+      "solution": "What happened to your bicycle?",
+      "tip": {
+        "en": "Question about damaged, stolen, or missing transportation.",
+        "es": "Pregunta sobre transporte dañado, robado o perdido."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasará cuando termine la universidad?"
+      },
+      "solution": "What will happen when university finishes?",
+      "tip": {
+        "en": "Future planning question about post-graduation life.",
+        "es": "Pregunta de planificación futura sobre la vida después de graduarse."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando con mi aplicación?"
+      },
+      "solution": "What's happening with my application?",
+      "tip": {
+        "en": "Status check for job, university, or service applications.",
+        "es": "Verificación de estado para aplicaciones de trabajo, universidad o servicios."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué pasó en el partido?"
+      },
+      "solution": "What happened in the match?",
+      "tip": {
+        "en": "Asking about sports game results or key events.",
+        "es": "Preguntando sobre resultados de juegos deportivos o eventos clave."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué está pasando contigo últimamente?"
+      },
+      "solution": "What's happening with you lately?",
+      "tip": {
+        "en": "Add 'lately' to ask about recent changes in someone's life.",
+        "es": "Añade 'lately' para preguntar sobre cambios recientes en la vida de alguien."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Qué le pasó al ascensor?"
+      },
+      "solution": "What happened to the lift?",
+      "tip": {
+        "en": "Question about malfunctioning building equipment or services.",
+        "es": "Pregunta sobre equipos o servicios del edificio que no funcionan."
+      }
+    }
+  ]
+}

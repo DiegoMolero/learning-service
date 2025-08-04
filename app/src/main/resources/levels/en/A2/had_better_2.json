@@ -1,0 +1,615 @@
+{
+  "topicId": "had_better_2",
+  "title": {
+    "en": "Had Better (2) - Polite Departure & Contractions ('d better)",
+    "es": "Had Better (2) - Polite Departure & Contractions ('d better)"
+  },
+  "description": {
+    "en": "Learn to use 'had better' for polite announcements of departure with a soft tone, plus essential contractions. 'I'd better go' is very different from warning uses - it's polite and gentle for leaving situations.",
+    "es": "Aprende a usar 'had better' para anuncios corteses de partida con tono suave, además de contracciones esenciales. 'I'd better go' es muy diferente del uso de advertencia - es cortés y suave para situaciones de despedida."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Bueno, debería irme."
+      },
+      "solution": "Well, I had better be off.",
+      "tip": {
+        "en": "'Had better be off' is a polite way to announce departure.",
+        "es": "'Had better be off' es una forma cortés de anunciar la partida."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Bueno, debería marcharme."
+      },
+      "solution": "Well, I had better be going.",
+      "tip": {
+        "en": "'Had better be going' uses continuous form for gentle departure.",
+        "es": "'Had better be going' usa forma continua para partida suave."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos irnos."
+      },
+      "solution": "We had better be leaving.",
+      "tip": {
+        "en": "The tone is much softer than warning usage of 'had better'.",
+        "es": "El tono es mucho más suave que el uso de advertencia de 'had better'."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería irme."
+      },
+      "solution": "I had better be making a move.",
+      "tip": {
+        "en": "'Make a move' is British English for starting to leave.",
+        "es": "'Make a move' es inglés británico para empezar a irse."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos levantar el vuelo."
+      },
+      "solution": "We had better be heading off.",
+      "tip": {
+        "en": "'Head off' means to leave/depart in a specific direction.",
+        "es": "'Head off' significa irse/partir en una dirección específica."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería irme. (contracción)"
+      },
+      "solution": "I'd better be moving.",
+      "tip": {
+        "en": "Contractions are almost always used in speaking: I'd = I had.",
+        "es": "Las contracciones casi siempre se usan al hablar: I'd = I had."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que se acuerde de lo que tiene que decir! (contracción)"
+      },
+      "solution": "She'd better remember what she has to say!",
+      "tip": {
+        "en": "She'd = She had. Contractions work for all persons.",
+        "es": "She'd = She had. Las contracciones funcionan para todas las personas."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que se pongan el cinturón de seguridad! (contracción)"
+      },
+      "solution": "They'd better fasten their seatbelts!",
+      "tip": {
+        "en": "They'd = They had. 'Fasten seatbelts' is the standard expression.",
+        "es": "They'd = They had. 'Fasten seatbelts' es la expresión estándar."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería largarme. (contracción)"
+      },
+      "solution": "I'd better hit the road.",
+      "tip": {
+        "en": "'Hit the road' is informal for leaving, especially for journeys.",
+        "es": "'Hit the road' es informal para irse, especialmente para viajes."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no vuelvas a hacer eso! (contracción)"
+      },
+      "solution": "You'd better not do that again!",
+      "tip": {
+        "en": "You'd = You had. Negative still uses 'not' after 'better'.",
+        "es": "You'd = You had. El negativo aún usa 'not' después de 'better'."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Creo que debería irme ya. (contracción)"
+      },
+      "solution": "I think I'd better go now.",
+      "tip": {
+        "en": "'Go now' is simple and direct for immediate departure.",
+        "es": "'Go now' es simple y directo para partida inmediata."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos salir antes de que empiece a llover. (contracción)"
+      },
+      "solution": "We'd better leave before it starts raining.",
+      "tip": {
+        "en": "'Before it starts raining' shows the time pressure for leaving.",
+        "es": "'Before it starts raining' muestra la presión de tiempo para irse."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que llegue a tiempo! (contracción)"
+      },
+      "solution": "He'd better arrive on time!",
+      "tip": {
+        "en": "He'd = He had. 'On time' means punctually.",
+        "es": "He'd = He had. 'On time' significa puntualmente."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería irme a casa. (contracción)"
+      },
+      "solution": "I'd better go home.",
+      "tip": {
+        "en": "'Go home' doesn't need 'to' - home is an adverb here.",
+        "es": "'Go home' no necesita 'to' - home es adverbio aquí."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no se olvide! (contracción)"
+      },
+      "solution": "She'd better not forget!",
+      "tip": {
+        "en": "She'd = She had. Contraction + negative is very common.",
+        "es": "She'd = She had. Contracción + negativo es muy común."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos irnos pronto. (contracción)"
+      },
+      "solution": "We'd better leave soon.",
+      "tip": {
+        "en": "'Soon' is more gentle than 'now' for departure timing.",
+        "es": "'Soon' es más suave que 'now' para el momento de partida."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería estar yéndome. (contracción)"
+      },
+      "solution": "I'd better be getting going.",
+      "tip": {
+        "en": "'Be getting going' combines continuous forms for gentle departure.",
+        "es": "'Be getting going' combina formas continuas para partida suave."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que funcione! (contracción)"
+      },
+      "solution": "It'd better work!",
+      "tip": {
+        "en": "It'd = It had. Used for things/situations, not just people.",
+        "es": "It'd = It had. Usado para cosas/situaciones, no solo personas."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería marcharme antes de las seis. (contracción)"
+      },
+      "solution": "I'd better leave before six.",
+      "tip": {
+        "en": "'Before six' is more natural than 'before six o'clock'.",
+        "es": "'Before six' es más natural que 'before six o'clock'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no llueva! (contracción)"
+      },
+      "solution": "It'd better not rain!",
+      "tip": {
+        "en": "Weather expressions with 'had better' show hope/concern.",
+        "es": "Expresiones de tiempo con 'had better' muestran esperanza/preocupación."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos ponernos en marcha. (contracción)"
+      },
+      "solution": "We'd better get moving.",
+      "tip": {
+        "en": "'Get moving' means to start the process of leaving.",
+        "es": "'Get moving' significa empezar el proceso de irse."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que tengas razón! (contracción)"
+      },
+      "solution": "You'd better be right!",
+      "tip": {
+        "en": "'Be right' means to be correct about something.",
+        "es": "'Be right' significa tener razón sobre algo."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería irme corriendo. (contracción)"
+      },
+      "solution": "I'd better dash off.",
+      "tip": {
+        "en": "'Dash off' means to leave quickly/hurriedly.",
+        "es": "'Dash off' significa irse rápida/apresuradamente."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no sea demasiado tarde! (contracción)"
+      },
+      "solution": "It'd better not be too late!",
+      "tip": {
+        "en": "Expressing concern about timing with 'had better'.",
+        "es": "Expresando preocupación por el tiempo con 'had better'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos irnos ya. (contracción)"
+      },
+      "solution": "We'd better go now.",
+      "tip": {
+        "en": "'Go now' is direct but polite for immediate departure.",
+        "es": "'Go now' es directo pero cortés para partida inmediata."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería irme andando. (contracción)"
+      },
+      "solution": "I'd better head off on foot.",
+      "tip": {
+        "en": "'On foot' specifies walking as the method of transport.",
+        "es": "'On foot' especifica caminar como método de transporte."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que esté listo! (contracción)"
+      },
+      "solution": "He'd better be ready!",
+      "tip": {
+        "en": "'Be ready' is common with 'had better' for preparation.",
+        "es": "'Be ready' es común con 'had better' para preparación."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería estar saliendo. (contracción)"
+      },
+      "solution": "I'd better be heading out.",
+      "tip": {
+        "en": "'Be heading out' uses continuous for ongoing departure.",
+        "es": "'Be heading out' usa continuo para partida en curso."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que valga la pena! (contracción)"
+      },
+      "solution": "It'd better be worth it!",
+      "tip": {
+        "en": "'Be worth it' means the effort/time should be justified.",
+        "es": "'Be worth it' significa que el esfuerzo/tiempo debe justificarse."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos estar marchándonos. (contracción)"
+      },
+      "solution": "We'd better be setting off.",
+      "tip": {
+        "en": "'Set off' means to begin a journey or departure.",
+        "es": "'Set off' significa comenzar un viaje o partida."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería largarme de aquí. (contracción)"
+      },
+      "solution": "I'd better get out of here.",
+      "tip": {
+        "en": "'Get out of here' can be urgent or just casual departure.",
+        "es": "'Get out of here' puede ser urgente o simplemente partida casual."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no nos perdamos! (contracción)"
+      },
+      "solution": "We'd better not get lost!",
+      "tip": {
+        "en": "'Get lost' means to lose your way while traveling.",
+        "es": "'Get lost' significa perderse mientras viajas."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería irme pitando. (contracción)"
+      },
+      "solution": "I'd better make tracks.",
+      "tip": {
+        "en": "'Make tracks' is informal for leaving quickly.",
+        "es": "'Make tracks' es informal para irse rápidamente."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que haga buen tiempo! (contracción)"
+      },
+      "solution": "It'd better be good weather!",
+      "tip": {
+        "en": "Weather hopes expressed with 'had better' for events/plans.",
+        "es": "Esperanzas del tiempo expresadas con 'had better' para eventos/planes."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos estar yéndonos ya. (contracción)"
+      },
+      "solution": "We'd better be going now.",
+      "tip": {
+        "en": "'Be going now' combines continuous with time pressure.",
+        "es": "'Be going now' combina continuo con presión de tiempo."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería escabullirme. (contracción)"
+      },
+      "solution": "I'd better slip away.",
+      "tip": {
+        "en": "'Slip away' means to leave quietly/discretely.",
+        "es": "'Slip away' significa irse silenciosa/discretamente."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no haya tráfico! (contracción)"
+      },
+      "solution": "There'd better not be traffic!",
+      "tip": {
+        "en": "'There'd better' is used with 'there is/are' constructions.",
+        "es": "'There'd better' se usa con construcciones 'there is/are'."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería estar dirigiéndome a casa. (contracción)"
+      },
+      "solution": "I'd better be heading home.",
+      "tip": {
+        "en": "'Head home' doesn't need 'to' - home is an adverb.",
+        "es": "'Head home' no necesita 'to' - home es adverbio."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no se retrase! (contracción)"
+      },
+      "solution": "It'd better not be delayed!",
+      "tip": {
+        "en": "Transport/event delays expressed with concern using 'had better'.",
+        "es": "Retrasos de transporte/eventos expresados con preocupación usando 'had better'."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos alzar el vuelo. (contracción)"
+      },
+      "solution": "We'd better take flight.",
+      "tip": {
+        "en": "'Take flight' is poetic/humorous for leaving quickly.",
+        "es": "'Take flight' es poético/humorístico para irse rápidamente."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería estar alejándome. (contracción)"
+      },
+      "solution": "I'd better be moving away.",
+      "tip": {
+        "en": "'Move away' emphasizes distance from current location.",
+        "es": "'Move away' enfatiza distancia de la ubicación actual."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que encuentre un taxi! (contracción)"
+      },
+      "solution": "I'd better find a taxi!",
+      "tip": {
+        "en": "Transport needs expressed urgently with 'had better'.",
+        "es": "Necesidades de transporte expresadas urgentemente con 'had better'."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos estar partiendo. (contracción)"
+      },
+      "solution": "We'd better be departing.",
+      "tip": {
+        "en": "'Depart' is more formal than 'leave' or 'go'.",
+        "es": "'Depart' es más formal que 'leave' o 'go'."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería irme volando. (contracción)"
+      },
+      "solution": "I'd better fly off.",
+      "tip": {
+        "en": "'Fly off' is metaphorical for leaving very quickly.",
+        "es": "'Fly off' es metafórico para irse muy rápidamente."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que no haya problemas! (contracción)"
+      },
+      "solution": "There'd better not be problems!",
+      "tip": {
+        "en": "General concerns about situations using 'there'd better'.",
+        "es": "Preocupaciones generales sobre situaciones usando 'there'd better'."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos estar retirándons. (contracción)"
+      },
+      "solution": "We'd better be withdrawing.",
+      "tip": {
+        "en": "'Withdraw' is formal/military for strategic departure.",
+        "es": "'Withdraw' es formal/militar para partida estratégica."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería escurrirme. (contracción)"
+      },
+      "solution": "I'd better sneak off.",
+      "tip": {
+        "en": "'Sneak off' means to leave secretly/without being noticed.",
+        "es": "'Sneak off' significa irse secretamente/sin ser notado."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "¡Más vale que llegue el autobús! (contracción)"
+      },
+      "solution": "The bus'd better come!",
+      "tip": {
+        "en": "Even with nouns, contractions are possible: bus'd = bus had.",
+        "es": "Incluso con sustantivos, las contracciones son posibles: bus'd = bus had."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Deberíamos estar esfumándonos. (contracción)"
+      },
+      "solution": "We'd better be vanishing.",
+      "tip": {
+        "en": "'Vanish' is dramatic/humorous for disappearing/leaving.",
+        "es": "'Vanish' es dramático/humorístico para desaparecer/irse."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Debería estar largándome de una vez. (contracción)"
+      },
+      "solution": "I'd better be clearing off once and for all.",
+      "tip": {
+        "en": "'Clear off' + 'once and for all' emphasizes final departure.",
+        "es": "'Clear off' + 'once and for all' enfatiza partida final."
+      }
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "topicId": "happen_to_do_1",
+  "title": {
+    "en": "Happen To Do - Coincidence & Polite Requests (Dar la casualidad/Por casualidad)",
+    "es": "Happen To Do - Coincidence & Polite Requests (Dar la casualidad/Por casualidad)"
+  },
+  "description": {
+    "en": "Learn the elegant structure 'happen to do' to express coincidence ('dar la casualidad') and make polite requests. This sophisticated structure is very common among native speakers and adds refinement to your English.",
+    "es": "Aprende la elegante estructura 'happen to do' para expresar casualidad ('dar la casualidad') y hacer peticiones corteses. Esta estructura sofisticada es muy común entre hablantes nativos y añade refinamiento a tu inglés."
+  },
+  "level": "A2",
+  "targetLanguage": "en",
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Dío la casualidad de que estaba en el aeropuerto cuando el Rey llegó."
+      },
+      "solution": "I happened to be at the airport when the King arrived.",
+      "tip": {
+        "en": "Use 'happened to' + infinitive to express past coincidence.",
+        "es": "Usa 'happened to' + infinitivo para expresar casualidad en pasado."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad, él me dio una información muy útil."
+      },
+      "solution": "He happened to give me some very useful information.",
+      "tip": {
+        "en": "'Happened to' expresses that something occurred by chance.",
+        "es": "'Happened to' expresa que algo ocurrió por casualidad."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que tienen un Rolls Royce precioso que podrías alquilar."
+      },
+      "solution": "They happen to have a very nice Rolls Royce you could hire.",
+      "tip": {
+        "en": "Use 'happen to' + infinitive for present coincidences.",
+        "es": "Usa 'happen to' + infinitivo para casualidades en presente."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad sé que ella le va a dejar."
+      },
+      "solution": "I happen to know that she's going to leave him.",
+      "tip": {
+        "en": "'Happen to know' is a common expression for coincidental knowledge.",
+        "es": "'Happen to know' es una expresión común para conocimiento casual."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que ella no está de acuerdo contigo."
+      },
+      "solution": "She happens to disagree with you.",
+      "tip": {
+        "en": "Use 'happens to' with third person singular in present.",
+        "es": "Usa 'happens to' con tercera persona singular en presente."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No sabrá por casualidad qué hora es?"
+      },
+      "solution": "You wouldn't happen to know what time it is, would you?",
+      "tip": {
+        "en": "'Wouldn't happen to' + infinitive makes very polite requests.",
+        "es": "'Wouldn't happen to' + infinitivo hace peticiones muy corteses."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No tendrá fuego por casualidad?"
+      },
+      "solution": "You wouldn't happen to have a light, would you?",
+      "tip": {
+        "en": "Add 'would you?' at the end for extra politeness.",
+        "es": "Añade 'would you?' al final para cortesía extra."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No hablarás italiano, por casualidad?"
+      },
+      "solution": "You wouldn't happen to speak Italian, would you?",
+      "tip": {
+        "en": "This structure is much more polite than direct questions.",
+        "es": "Esta estructura es mucho más cortés que preguntas directas."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Perdón. ¿No sabrá dónde está la estación por casualidad?"
+      },
+      "solution": "Excuse me; you wouldn't happen to know where the station is, would you?",
+      "tip": {
+        "en": "Perfect for asking directions politely to strangers.",
+        "es": "Perfecto para pedir direcciones cortésmente a desconocidos."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "¿Por casualidad no tendrá cinco minutos?"
+      },
+      "solution": "You wouldn't happen to have five minutes, would you?",
+      "tip": {
+        "en": "Use this structure to politely ask for someone's time.",
+        "es": "Usa esta estructura para pedir cortésmente el tiempo de alguien."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que vivo cerca de tu oficina."
+      },
+      "solution": "I happen to live near your office.",
+      "tip": {
+        "en": "'Happen to live' expresses coincidental location.",
+        "es": "'Happen to live' expresa ubicación casual."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad estaba leyendo el mismo libro."
+      },
+      "solution": "I happened to be reading the same book.",
+      "tip": {
+        "en": "Use past continuous with 'happened to be' for ongoing actions.",
+        "es": "Usa pasado continuo con 'happened to be' para acciones en curso."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No conocerá a mi hermano por casualidad?"
+      },
+      "solution": "You wouldn't happen to know my brother, would you?",
+      "tip": {
+        "en": "Perfect for discovering unexpected connections between people.",
+        "es": "Perfecto para descubrir conexiones inesperadas entre personas."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que tengo experiencia en ese campo."
+      },
+      "solution": "I happen to have experience in that field.",
+      "tip": {
+        "en": "'Happen to have' introduces relevant qualifications modestly.",
+        "es": "'Happen to have' introduce cualificaciones relevantes modestamente."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad vi a tu madre ayer en el supermercado."
+      },
+      "solution": "I happened to see your mother yesterday at the supermarket.",
+      "tip": {
+        "en": "'Happened to see' expresses an unexpected encounter.",
+        "es": "'Happened to see' expresa un encuentro inesperado."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No tendrá cambio de veinte libras por casualidad?"
+      },
+      "solution": "You wouldn't happen to have change for twenty pounds, would you?",
+      "tip": {
+        "en": "Very polite way to ask for change from strangers.",
+        "es": "Forma muy cortés de pedir cambio a desconocidos."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que ella trabaja en la misma empresa."
+      },
+      "solution": "She happens to work at the same company.",
+      "tip": {
+        "en": "Use 'happens to work' for coincidental employment.",
+        "es": "Usa 'happens to work' para empleo casual."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad encontré las llaves en mi otro bolsillo."
+      },
+      "solution": "I happened to find the keys in my other pocket.",
+      "tip": {
+        "en": "'Happened to find' suggests discovering something by chance.",
+        "es": "'Happened to find' sugiere descubrir algo por casualidad."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No sabrá el número de teléfono del hospital por casualidad?"
+      },
+      "solution": "You wouldn't happen to know the hospital's phone number, would you?",
+      "tip": {
+        "en": "Use possessive 's with 'the hospital's phone number'.",
+        "es": "Usa el posesivo 's con 'the hospital's phone number'."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que hablo tres idiomas."
+      },
+      "solution": "I happen to speak three languages.",
+      "tip": {
+        "en": "'Happen to speak' modestly introduces language skills.",
+        "es": "'Happen to speak' introduce habilidades lingüísticas modestamente."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad escuché su conversación en el ascensor."
+      },
+      "solution": "I happened to hear their conversation in the lift.",
+      "tip": {
+        "en": "'Happened to hear' suggests accidental eavesdropping.",
+        "es": "'Happened to hear' sugiere escuchar accidentalmente."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No tendrá un mapa de la ciudad por casualidad?"
+      },
+      "solution": "You wouldn't happen to have a city map, would you?",
+      "tip": {
+        "en": "Useful for tourists asking for directions politely.",
+        "es": "Útil para turistas pidiendo direcciones cortésmente."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que conozco al director personalmente."
+      },
+      "solution": "I happen to know the director personally.",
+      "tip": {
+        "en": "Add 'personally' to emphasize direct personal connection.",
+        "es": "Añade 'personally' para enfatizar conexión personal directa."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad estaba en la misma reunión que tú."
+      },
+      "solution": "I happened to be in the same meeting as you.",
+      "tip": {
+        "en": "Use 'the same ... as' for comparisons with 'happened to be'.",
+        "es": "Usa 'the same ... as' para comparaciones con 'happened to be'."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No recordará dónde aparcó el coche por casualidad?"
+      },
+      "solution": "You wouldn't happen to remember where you parked the car, would you?",
+      "tip": {
+        "en": "'Wouldn't happen to remember' is very polite for memory questions.",
+        "es": "'Wouldn't happen to remember' es muy cortés para preguntas de memoria."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que tenemos un cuarto libre esta noche."
+      },
+      "solution": "We happen to have a room free tonight.",
+      "tip": {
+        "en": "Perfect for hotel or accommodation offers.",
+        "es": "Perfecto para ofertas de hotel o alojamiento."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad me enteré de la noticia por la radio."
+      },
+      "solution": "I happened to hear the news on the radio.",
+      "tip": {
+        "en": "'Happened to hear' can mean both physical hearing and learning news.",
+        "es": "'Happened to hear' puede significar oír físicamente y enterarse de noticias."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No tendrá la hora por casualidad?"
+      },
+      "solution": "You wouldn't happen to have the time, would you?",
+      "tip": {
+        "en": "'Have the time' is the polite way to ask for the time.",
+        "es": "'Have the time' es la forma cortés de preguntar la hora."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que ella estudió en la misma universidad."
+      },
+      "solution": "She happens to have studied at the same university.",
+      "tip": {
+        "en": "Use 'happens to have studied' for completed past education.",
+        "es": "Usa 'happens to have studied' para educación pasada completada."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad pasé por tu casa cuando salías."
+      },
+      "solution": "I happened to pass by your house when you were leaving.",
+      "tip": {
+        "en": "'Happened to pass by' suggests coincidental timing.",
+        "es": "'Happened to pass by' sugiere coincidencia temporal."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No conocerá un buen restaurante italiano por casualidad?"
+      },
+      "solution": "You wouldn't happen to know a good Italian restaurant, would you?",
+      "tip": {
+        "en": "Perfect for asking locals for recommendations.",
+        "es": "Perfecto para pedir recomendaciones a locales."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que mi hermano es médico."
+      },
+      "solution": "My brother happens to be a doctor.",
+      "tip": {
+        "en": "'Happens to be' + profession introduces relevant family connections.",
+        "es": "'Happens to be' + profesión introduce conexiones familiares relevantes."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad leí tu artículo en el periódico ayer."
+      },
+      "solution": "I happened to read your article in the newspaper yesterday.",
+      "tip": {
+        "en": "'Happened to read' suggests coincidental discovery of written material.",
+        "es": "'Happened to read' sugiere descubrimiento casual de material escrito."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No sabrá cuándo cierra el banco por casualidad?"
+      },
+      "solution": "You wouldn't happen to know when the bank closes, would you?",
+      "tip": {
+        "en": "Useful for asking about business hours politely.",
+        "es": "Útil para preguntar cortésmente sobre horarios comerciales."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que tengo dos entradas para el concierto."
+      },
+      "solution": "I happen to have two tickets for the concert.",
+      "tip": {
+        "en": "'Happen to have' can introduce generous offers.",
+        "es": "'Happen to have' puede introducir ofertas generosas."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad estaba pensando en lo mismo."
+      },
+      "solution": "I happened to be thinking about the same thing.",
+      "tip": {
+        "en": "'Happened to be thinking' shows coincidental mental activity.",
+        "es": "'Happened to be thinking' muestra actividad mental coincidental."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No tendrá un bolígrafo que me pueda prestar por casualidad?"
+      },
+      "solution": "You wouldn't happen to have a pen I could borrow, would you?",
+      "tip": {
+        "en": "Combine 'wouldn't happen to have' with 'I could borrow' for lending requests.",
+        "es": "Combina 'wouldn't happen to have' con 'I could borrow' para pedir prestado."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que ella es vegetariana también."
+      },
+      "solution": "She happens to be vegetarian too.",
+      "tip": {
+        "en": "Add 'too' or 'also' to show shared characteristics.",
+        "es": "Añade 'too' o 'also' para mostrar características compartidas."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad me encontré con tu profesor en el café."
+      },
+      "solution": "I happened to run into your teacher at the café.",
+      "tip": {
+        "en": "'Happened to run into' means accidentally meeting someone.",
+        "es": "'Happened to run into' significa encontrarse accidentalmente con alguien."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No sabrá si el metro funciona los domingos por casualidad?"
+      },
+      "solution": "You wouldn't happen to know if the underground runs on Sundays, would you?",
+      "tip": {
+        "en": "Use 'if' with 'wouldn't happen to know' for yes/no information.",
+        "es": "Usa 'if' con 'wouldn't happen to know' para información de sí/no."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que hoy es mi cumpleaños."
+      },
+      "solution": "Today happens to be my birthday.",
+      "tip": {
+        "en": "'Happens to be' can introduce surprising or relevant dates.",
+        "es": "'Happens to be' puede introducir fechas sorprendentes o relevantes."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad sabía la respuesta a esa pregunta."
+      },
+      "solution": "I happened to know the answer to that question.",
+      "tip": {
+        "en": "'Happened to know' suggests fortunate coincidental knowledge.",
+        "es": "'Happened to know' sugiere conocimiento coincidental afortunado."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No tendrá wifi en su casa por casualidad?"
+      },
+      "solution": "You wouldn't happen to have wifi at your house, would you?",
+      "tip": {
+        "en": "Modern polite way to ask about internet access.",
+        "es": "Forma cortés moderna de preguntar sobre acceso a internet."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que vamos al mismo gimnasio."
+      },
+      "solution": "We happen to go to the same gym.",
+      "tip": {
+        "en": "'Happen to go' shows coincidental destination or routine.",
+        "es": "'Happen to go' muestra destino o rutina coincidental."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad tenía el teléfono en silencio."
+      },
+      "solution": "I happened to have my phone on silent.",
+      "tip": {
+        "en": "'Happened to have' can explain why you missed calls/messages.",
+        "es": "'Happened to have' puede explicar por qué perdiste llamadas/mensajes."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No recordará el nombre del hotel por casualidad?"
+      },
+      "solution": "You wouldn't happen to remember the name of the hotel, would you?",
+      "tip": {
+        "en": "Very polite way to test someone's memory without pressure.",
+        "es": "Forma muy cortés de probar la memoria de alguien sin presión."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que tenemos los mismos gustos musicales."
+      },
+      "solution": "We happen to have the same musical tastes.",
+      "tip": {
+        "en": "'Happen to have the same' shows surprising similarities.",
+        "es": "'Happen to have the same' muestra similitudes sorprendentes."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Por casualidad estaba despierto cuando llamaste."
+      },
+      "solution": "I happened to be awake when you called.",
+      "tip": {
+        "en": "'Happened to be awake' explains why you answered at unusual times.",
+        "es": "'Happened to be awake' explica por qué contestaste a horas raras."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "¿No tendrá cargador de iPhone por casualidad?"
+      },
+      "solution": "You wouldn't happen to have an iPhone charger, would you?",
+      "tip": {
+        "en": "Modern way to ask for phone charging help politely.",
+        "es": "Forma moderna de pedir ayuda para cargar el teléfono cortésmente."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Da la casualidad de que esa es mi canción favorita también."
+      },
+      "solution": "That happens to be my favourite song too.",
+      "tip": {
+        "en": "Perfect for showing unexpected shared preferences.",
+        "es": "Perfecto para mostrar preferencias compartidas inesperadas."
+      }
+    }
+  ]
+}
