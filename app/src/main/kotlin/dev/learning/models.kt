@@ -194,7 +194,8 @@ data class UserSettingsResponse(
     val nativeLanguage: String,
     val targetLanguage: String,
     val darkMode: Boolean,
-    val onboardingStep: String
+    val onboardingStep: String,
+    val userLevel: String? = null // A1, A2, B1, B2, C1, C2
 )
 
 @Serializable
@@ -202,7 +203,8 @@ data class UpdateUserSettingsRequest(
     val nativeLanguage: String? = null,
     val targetLanguage: String? = null,
     val darkMode: Boolean? = null,
-    val onboardingStep: String? = null
+    val onboardingStep: String? = null,
+    val userLevel: String? = null // A1, A2, B1, B2, C1, C2
 )
 
 // Response for settings update that includes warnings
@@ -232,6 +234,15 @@ enum class AnswerStatus {
     INCORRECT,   // Usuario respondió incorrectamente
     SKIPPED,     // Usuario saltó la pregunta
     REVEALED     // Usuario pidió ver la respuesta sin intentar
+}
+
+// Onboarding steps enum
+@Serializable
+enum class OnboardingStep {
+    NATIVE,      // User selects native language
+    LEARNING,    // User selects target language  
+    LEVEL,       // User selects initial level (new step)
+    COMPLETE     // Onboarding completed
 }
 
 @Serializable

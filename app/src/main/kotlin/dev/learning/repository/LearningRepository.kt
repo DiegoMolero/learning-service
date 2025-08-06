@@ -40,7 +40,7 @@ interface LearningRepository {
     suspend fun getUserProgressForLevel(userId: String, levelId: String): UserProgressResponse?
     suspend fun updateUserProgress(userId: String, levelId: String, completedPhraseIds: List<String>): Boolean
     suspend fun getUserSettings(userId: String): UserSettingsResponse?
-    suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?): Pair<Boolean, List<String>>
+    suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?, userLevel: String?): Pair<Boolean, List<String>>
     suspend fun createDefaultUserSettings(userId: String): Boolean
     
     // User management methods for auth service
@@ -86,7 +86,8 @@ object UserSettings : UUIDTable("user_settings") {
     val nativeLanguage = varchar("native_language", 10)
     val targetLanguage = varchar("target_language", 10)
     val darkMode = bool("dark_mode").default(false)
-    val onboardingStep = varchar("onboarding_step", 50).default("welcome")
+    val onboardingStep = varchar("onboarding_step", 50).default("native")
+    val userLevel = varchar("user_level", 5).nullable() // A1, A2, B1, B2, C1, C2
     val createdAt = timestamp("created_at").defaultExpression(CurrentTimestamp())
     val updatedAt = timestamp("updated_at").defaultExpression(CurrentTimestamp())
 }
@@ -405,6 +406,7 @@ class DatabaseLearningRepository(
                     it[targetLanguage] = "es"
                     it[darkMode] = false
                     it[onboardingStep] = "native"
+                    it[userLevel] = null // Will be set during level selection step
                 }
                 true
             }
@@ -467,15 +469,122 @@ class DatabaseLearningRepository(
     }
 
     override suspend fun getUserSettings(userId: String): UserSettingsResponse? {
-        TODO("Not yet implemented")
+        return try {
+            transaction {
+                UserSettings.select { UserSettings.userId eq UUID.fromString(userId) }
+                    .singleOrNull()
+                    ?.let { row ->
+                        UserSettingsResponse(
+                            userId = userId,
+                            nativeLanguage = row[UserSettings.nativeLanguage],
+                            targetLanguage = row[UserSettings.targetLanguage],
+                            darkMode = row[UserSettings.darkMode],
+                            onboardingStep = row[UserSettings.onboardingStep],
+                            userLevel = row[UserSettings.userLevel]
+                        )
+                    }
+            }
+        } catch (e: Exception) {
+            println("Error getting user settings: ${e.message}")
+            null
+        }
     }
 
-    override suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?): Pair<Boolean, List<String>> {
-        TODO("Not yet implemented")
+    override suspend fun updateUserSettingsWithWarnings(userId: String, nativeLanguage: String?, targetLanguage: String?, darkMode: Boolean?, onboardingStep: String?, userLevel: String?): Pair<Boolean, List<String>> {
+        return try {
+            val warnings = mutableListOf<String>()
+            val userUuid = UUID.fromString(userId)
+            
+            // Validate onboarding step if provided
+            onboardingStep?.let { step ->
+                val validSteps = listOf("native", "learning", "level", "complete")
+                if (step !in validSteps) {
+                    warnings.add("Invalid onboarding step. Valid steps are: ${validSteps.joinToString(", ")}")
+                    return Pair(false, warnings)
+                }
+            }
+            
+            // Validate user level if provided
+            userLevel?.let { level ->
+                val validLevels = listOf("A1", "A2", "B1", "B2", "C1", "C2")
+                if (level !in validLevels) {
+                    warnings.add("Invalid user level. Valid levels are: ${validLevels.joinToString(", ")}")
+                    return Pair(false, warnings)
+                }
+            }
+            
+            // Handle language conflicts
+            if (nativeLanguage != null && targetLanguage != null && nativeLanguage == targetLanguage) {
+                warnings.add("Native language and target language cannot be the same")
+                return Pair(false, warnings)
+            }
+            
+            transaction {
+                val existing = UserSettings.select { UserSettings.userId eq userUuid }.singleOrNull()
+                
+                if (existing != null) {
+                    // Update existing settings
+                    UserSettings.update({ UserSettings.userId eq userUuid }) { row ->
+                        nativeLanguage?.let { 
+                            row[UserSettings.nativeLanguage] = it
+                            // Auto-switch target language if conflict
+                            if (it == existing[UserSettings.targetLanguage]) {
+                                val autoTarget = if (it == "en") "es" else "en"
+                                row[UserSettings.targetLanguage] = autoTarget
+                                warnings.add("Target language automatically changed to $autoTarget to avoid conflict")
+                            }
+                        }
+                        targetLanguage?.let { 
+                            row[UserSettings.targetLanguage] = it
+                            // Auto-switch native language if conflict
+                            if (it == existing[UserSettings.nativeLanguage]) {
+                                val autoNative = if (it == "en") "es" else "en"
+                                row[UserSettings.nativeLanguage] = autoNative
+                                warnings.add("Native language automatically changed to $autoNative to avoid conflict")
+                            }
+                        }
+                        darkMode?.let { row[UserSettings.darkMode] = it }
+                        onboardingStep?.let { row[UserSettings.onboardingStep] = it }
+                        userLevel?.let { row[UserSettings.userLevel] = it }
+                        row[UserSettings.updatedAt] = kotlinx.datetime.Clock.System.now()
+                    }
+                } else {
+                    // Create new settings if they don't exist
+                    UserSettings.insert { row ->
+                        row[UserSettings.userId] = userUuid
+                        row[UserSettings.nativeLanguage] = nativeLanguage ?: "en"
+                        row[UserSettings.targetLanguage] = targetLanguage ?: "es"
+                        row[UserSettings.darkMode] = darkMode ?: false
+                        row[UserSettings.onboardingStep] = onboardingStep ?: "native"
+                        row[UserSettings.userLevel] = userLevel
+                    }
+                }
+                
+                Pair(true, warnings)
+            }
+        } catch (e: Exception) {
+            println("Error updating user settings: ${e.message}")
+            Pair(false, listOf("Failed to update settings: ${e.message}"))
+        }
     }
 
     override suspend fun createDefaultUserSettings(userId: String): Boolean {
-        TODO("Not yet implemented")
+        return try {
+            transaction {
+                UserSettings.insert {
+                    it[UserSettings.userId] = UUID.fromString(userId)
+                    it[nativeLanguage] = "en"
+                    it[targetLanguage] = "es"
+                    it[darkMode] = false
+                    it[onboardingStep] = "native"
+                    it[userLevel] = null // Will be set during level selection step
+                }
+                true
+            }
+        } catch (e: Exception) {
+            println("Error creating default user settings: ${e.message}")
+            false
+        }
     }
 
     override suspend fun submitExerciseAnswer(userId: String, targetLanguage: String, level: String, topicId: String, exerciseId: String, userAnswer: String, answerStatus: AnswerStatus): Pair<Boolean, TopicProgress?> {
