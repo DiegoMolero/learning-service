@@ -104,8 +104,19 @@ data class LevelOverviewResponse(
 data class LevelSummary(
     val level: String, // A1, A2, B1, etc.
     val title: Map<String, String>,
+    val description: Map<String, String>? = null,
     val progress: LevelProgress,
     val status: String // "locked", "in_progress", "completed"
+)
+
+// Level categories configuration models
+@Serializable
+data class CategoryConfig(
+    val id: String,
+    val path: String,
+    val difficulty: List<String>,
+    val title: Map<String, String>,
+    val description: Map<String, String>
 )
 
 @Serializable

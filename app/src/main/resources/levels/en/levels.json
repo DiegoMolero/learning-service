@@ -1,0 +1,121 @@
+{
+    "articles-determiners": {
+        "id": "articles-determiners",
+        "path": "articles-determiners",
+        "difficulty": ["A2", "B1"],
+        "title": {
+            "en": "Articles & Determiners",
+            "es": "Artículos y Determinantes"
+        },
+        "description": {
+            "en": "Master the use of articles (a, an, the) and determiners",
+            "es": "Domina el uso de artículos (a, an, the) y determinantes"
+        }
+    },
+    "fundamentals": {
+        "id": "fundamentals", 
+        "path": "fundamentals",
+        "difficulty": ["A1", "A2"],
+        "title": {
+            "en": "Fundamentals",
+            "es": "Fundamentos"
+        },
+        "description": {
+            "en": "Essential grammar structures for elementary level",
+            "es": "Estructuras gramaticales esenciales para nivel elemental"
+        }
+    },
+    "tense-aspect": {
+        "id": "tense-aspect",
+        "path": "tense-aspect",
+        "difficulty": ["A2", "B1", "B2"],
+        "title": {
+            "en": "Tense & Aspect",
+            "es": "Tiempo y Aspecto"
+        },
+        "description": {
+            "en": "Basic tenses and time expressions",
+            "es": "Tiempos básicos y expresiones temporales"
+        }
+    },
+    "modal-systems": {
+        "id": "modal-systems",
+        "path": "modal-systems",
+        "difficulty": ["B1", "B2"],
+        "title": {
+            "en": "Modal Systems", 
+            "es": "Sistemas Modales"
+        },
+        "description": {
+            "en": "Basic modal verbs and their uses",
+            "es": "Verbos modales básicos y sus usos"
+        }
+    },
+    "phrasal-verbs": {
+        "id": "phrasal-verbs",
+        "path": "phrasal-verbs",
+        "difficulty": ["B1", "B2", "C1"],
+        "title": {
+            "en": "Phrasal Verbs",
+            "es": "Verbos Frasales"
+        },
+        "description": {
+            "en": "Common phrasal verbs in everyday contexts",
+            "es": "Verbos frasales comunes en contextos cotidianos"
+        }
+    },
+    "quantifiers": {
+        "id": "quantifiers",
+        "path": "quantifiers",
+        "difficulty": ["A2", "B1"],
+        "title": {
+            "en": "Quantifiers",
+            "es": "Cuantificadores"
+        },
+        "description": {
+            "en": "Basic expressions of quantity and amount",
+            "es": "Expresiones básicas de cantidad y cantidad"
+        }
+    },
+    "complex-structures": {
+        "id": "complex-structures",
+        "path": "complex-structures",
+        "difficulty": ["B2", "C1", "C2"],
+        "title": {
+            "en": "Complex Structures",
+            "es": "Estructuras Complejas"
+        },
+        "description": {
+            "en": "More advanced grammatical patterns",
+            "es": "Patrones gramaticales más avanzados"
+        }
+    },
+    "existential-constructions": {
+        "id": "existential-constructions", 
+        "path": "existential-constructions",
+        "difficulty": ["B1", "B2"],
+        "title": {
+            "en": "Existential Constructions",
+            "es": "Construcciones Existenciales"
+        },
+        "description": {
+            "en": "Ways to express existence and presence",
+            "es": "Formas de expresar existencia y presencia"
+        }
+    },
+    "word-formation": {
+        "id": "word-formation",
+        "path": "word-formation",
+        "difficulty": ["B2", "C1", "C2"],
+        "title": {
+            "en": "Word Formation",
+            "es": "Formación de Palabras"
+        },
+        "description": {
+            "en": "Basic word formation patterns and prefixes/suffixes",
+            "es": "Patrones básicos de formación de palabras y prefijos/sufijos"
+        }
+    }
+}
+
+
