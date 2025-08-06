@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5d2f3c-0133-42ec-9527-147ab554dc70" name="Changes" comment="" />
+    <list default="true" id="5a5d2f3c-0133-42ec-9527-147ab554dc70" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/config.default.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/config.default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/config.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/config.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/init.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14.2-bin/2pb3mgt1p815evrl3weanttgr/gradle-8.14.2" javaHome="/opt/homebrew/opt/java/libexec/openjdk.jdk/Contents/Home" gradleVersion="8.14.2" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -35,22 +44,27 @@
     "Gradle.ExerciseSubmissionTest.executor": "Run",
     "Gradle.NextExerciseTest.GET next exercise should return first exercise when no progress.executor": "Debug",
     "Gradle.NextExerciseTest.executor": "Run",
+    "Gradle.Run Server.executor": "Run",
     "Gradle.SettingsRouteTest.PUT settings should update native language successfully.executor": "Run",
     "Gradle.SettingsRouteTest.executor": "Run",
     "Gradle.Tests in 'learning-service.app.test'.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.ExerciseSubmissionTest">
+  <component name="RunManager" selected="Gradle.Run Server">
     <configuration name="ExerciseSubmissionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,17 +185,14 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="learning-service" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="learning-service" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Gradle.Run Server" />
+      <item itemvalue="Gradle.ExerciseSubmissionTest" />
+      <item itemvalue="Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully" />
+      <item itemvalue="Gradle.ExerciseSubmissionTest.POST submit answer should record wrong answer successfully" />
+      <item itemvalue="Gradle.NextExerciseTest" />
+      <item itemvalue="Gradle.NextExerciseTest.GET next exercise should return first exercise when no progress" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ExerciseSubmissionTest" />
@@ -195,8 +206,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>

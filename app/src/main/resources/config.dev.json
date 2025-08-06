@@ -6,7 +6,7 @@
   "issuer": "auth-service",
   "internalSecret": "internal-auth-secret-123",
   "database": {
-    "url": "jdbc:postgresql://localhost:5432/learningdb",
+    "url": "jdbc:postgresql://localhost:5433/learningdb",
     "user": "postgres",
     "password": "postgres",
     "dropOnStart": true
