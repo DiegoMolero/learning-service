@@ -7,21 +7,10 @@
     <list default="true" id="5a5d2f3c-0133-42ec-9527-147ab554dc70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/content/ContentLibrary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/content/ContentLibrary.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/ContentRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/ContentRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/DatabaseTables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/DatabaseTables.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/UserRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/UserRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/ProgressRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/ProgressRoute.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/UserManagementRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/UserManagementRoute.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/content/en/modules/basic-expressions/meta.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/content/en/modules/basic-expressions/units/unit-1/unit.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/test/levels/en/A2/test_topic_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/test/levels/en/levels.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/ExerciseSubmissionTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/NextExerciseTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/SettingsRouteTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/UserManagementRouteTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/UserManagementRoute.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +21,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.ContentLibraryTest.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
     "Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully.executor": "Run",
     "Gradle.ExerciseSubmissionTest.POST submit answer should record wrong answer successfully.executor": "Debug",
@@ -58,6 +58,12 @@
     "Gradle.SettingsRouteTest.PUT settings should update native language successfully.executor": "Run",
     "Gradle.SettingsRouteTest.executor": "Run",
     "Gradle.Tests in 'learning-service.app.test'.executor": "Run",
+    "Gradle.UserManagementRouteTest.executor": "Run",
+    "Gradle.UserSettingsRouteTest.GET settings should return 401 without valid token.executor": "Run",
+    "Gradle.UserSettingsRouteTest.executor": "Run",
+    "Gradle.UserSettingsRouteTest.onboarding flow should handle language conflicts during target language selection.executor": "Run",
+    "Gradle.UserSettingsRouteTest.onboarding should not allow completion without both languages set.executor": "Run",
+    "Gradle.UserSettingsRouteTest.onboarding should validate phase values.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -74,8 +80,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.Run Server">
-    <configuration name="ExerciseSubmissionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UserSettingsRouteTest.onboarding should validate phase values">
+    <configuration name="UserSettingsRouteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -88,7 +94,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.ExerciseSubmissionTest&quot;" />
+            <option value="&quot;dev.learning.routes.UserSettingsRouteTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -99,7 +105,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ExerciseSubmissionTest.POST submit answer should record correct answer successfully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserSettingsRouteTest.GET settings should return 401 without valid token" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -112,7 +118,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.ExerciseSubmissionTest.POST submit answer should record correct answer successfully&quot;" />
+            <option value="&quot;dev.learning.routes.UserSettingsRouteTest.GET settings should return 401 without valid token&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -123,7 +129,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ExerciseSubmissionTest.POST submit answer should record wrong answer successfully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserSettingsRouteTest.onboarding flow should handle language conflicts during target language selection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,7 +142,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.ExerciseSubmissionTest.POST submit answer should record wrong answer successfully&quot;" />
+            <option value="&quot;dev.learning.routes.UserSettingsRouteTest.onboarding flow should handle language conflicts during target language selection&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +153,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="NextExerciseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserSettingsRouteTest.onboarding should not allow completion without both languages set" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +166,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.NextExerciseTest&quot;" />
+            <option value="&quot;dev.learning.routes.UserSettingsRouteTest.onboarding should not allow completion without both languages set&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -171,7 +177,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="NextExerciseTest.GET next exercise should return first exercise when no progress" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserSettingsRouteTest.onboarding should validate phase values" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -184,7 +190,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.NextExerciseTest.GET next exercise should return first exercise when no progress&quot;" />
+            <option value="&quot;dev.learning.routes.UserSettingsRouteTest.onboarding should validate phase values&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,19 +203,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.Run Server" />
-      <item itemvalue="Gradle.ExerciseSubmissionTest" />
-      <item itemvalue="Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully" />
-      <item itemvalue="Gradle.ExerciseSubmissionTest.POST submit answer should record wrong answer successfully" />
-      <item itemvalue="Gradle.NextExerciseTest" />
-      <item itemvalue="Gradle.NextExerciseTest.GET next exercise should return first exercise when no progress" />
+      <item itemvalue="Gradle.UserSettingsRouteTest" />
+      <item itemvalue="Gradle.UserSettingsRouteTest.GET settings should return 401 without valid token" />
+      <item itemvalue="Gradle.UserSettingsRouteTest.onboarding flow should handle language conflicts during target language selection" />
+      <item itemvalue="Gradle.UserSettingsRouteTest.onboarding should not allow completion without both languages set" />
+      <item itemvalue="Gradle.UserSettingsRouteTest.onboarding should validate phase values" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ExerciseSubmissionTest" />
-        <item itemvalue="Gradle.ExerciseSubmissionTest.POST submit answer should record wrong answer successfully" />
-        <item itemvalue="Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully" />
-        <item itemvalue="Gradle.NextExerciseTest" />
-        <item itemvalue="Gradle.NextExerciseTest.GET next exercise should return first exercise when no progress" />
+        <item itemvalue="Gradle.UserSettingsRouteTest.onboarding should validate phase values" />
+        <item itemvalue="Gradle.UserSettingsRouteTest.onboarding should not allow completion without both languages set" />
+        <item itemvalue="Gradle.UserSettingsRouteTest" />
+        <item itemvalue="Gradle.UserSettingsRouteTest.onboarding flow should handle language conflicts during target language selection" />
+        <item itemvalue="Gradle.UserSettingsRouteTest.GET settings should return 401 without valid token" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +237,7 @@
       <workItem from="1753362010158" duration="4946000" />
       <workItem from="1753436181644" duration="624000" />
       <workItem from="1754211047319" duration="4126000" />
-      <workItem from="1754599640930" duration="1420000" />
+      <workItem from="1754599640930" duration="4151000" />
     </task>
     <servers />
   </component>
@@ -241,10 +247,14 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt</url>
-          <line>111</line>
-          <option name="timeStamp" value="8" />
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/UserSettingsRouteTest.kt</url>
+          <line>20</line>
+          <properties class="dev.learning.routes.UserSettingsRouteTest" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

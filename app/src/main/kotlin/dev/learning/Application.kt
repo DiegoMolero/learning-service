@@ -147,7 +147,7 @@ fun Application.module(config: Config) {
     configureCors(config)
 
     // Use user repository for user management
-    val userRepository: UserRepository = DatabaseUserRepository(config.database, config.environmentName)
+    val userRepository: UserRepository = DatabaseUserRepository(config.database)
     
     // Create dedicated content repository for new content system
     val contentRepository = DatabaseContentRepository(config.database, config.environmentName)
@@ -205,10 +205,7 @@ fun Application.module(config: Config) {
         healthRoute()
         contentRoute(contentRepository)
         
-        settingsRoute(userRepository)
-        
-        // User management routes for auth service (X-Internal-Secret authentication required)
-        userManagementRoute(userRepository, config)
+        userRoute(userRepository, config)
     }
 
 }

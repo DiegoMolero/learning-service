@@ -22,9 +22,7 @@ interface UserRepository {
 }
 
 class DatabaseUserRepository(
-    private val databaseConfig: DatabaseConfig,
-    private val environmentName: String
-) : UserRepository {
+    private val databaseConfig: DatabaseConfig) : UserRepository {
     
     private val dataSource: HikariDataSource
     
@@ -85,30 +83,73 @@ class DatabaseUserRepository(
         // Get current settings first, outside of transaction
         val existingSettings = getUserSettings(userId)
         
-        // Validate target language change
-        targetLanguage?.let { newTargetLang ->
-            if (existingSettings?.targetLanguage != null && 
-                existingSettings.targetLanguage != newTargetLang) {
-                warnings.add("Changing target language will reset your progress")
+        // Determine final languages with conflict resolution
+        val currentNative = existingSettings?.nativeLanguage ?: "en"
+        val currentTarget = existingSettings?.targetLanguage ?: "es"
+        
+        var finalNative = nativeLanguage ?: currentNative
+        var finalTarget = targetLanguage ?: currentTarget
+        
+        // Check for language conflicts and auto-resolve
+        if (finalNative == finalTarget) {
+            when {
+                // If user is updating native language and it conflicts with current target
+                nativeLanguage != null && nativeLanguage == currentTarget -> {
+                    finalTarget = if (finalNative == "es") "en" else "es"
+                    warnings.add("Target language automatically changed to avoid conflict with native language")
+                }
+                // If user is updating target language and it conflicts with current native
+                targetLanguage != null && targetLanguage == currentNative -> {
+                    finalNative = if (finalTarget == "es") "en" else "es"
+                    warnings.add("Native language automatically changed to avoid conflict with target language")
+                }
+                // Default case - if somehow they're the same, make target different
+                else -> {
+                    finalTarget = if (finalNative == "es") "en" else "es"
+                    warnings.add("Languages automatically adjusted to avoid conflict")
+                }
             }
         }
         
+        // Validate target language change
+        if (targetLanguage != null && currentTarget != finalTarget) {
+            warnings.add("Changing target language will reset your progress")
+        }
+        
         // Validate native language change  
-        nativeLanguage?.let { newNativeLang ->
-            if (existingSettings?.nativeLanguage != null && 
-                existingSettings.nativeLanguage != newNativeLang) {
-                warnings.add("Changing native language may affect your learning experience")
+        if (nativeLanguage != null && currentNative != finalNative) {
+            warnings.add("Changing native language may affect your learning experience")
+        }
+        
+        // Validate onboarding completion - prevent completion without both languages set
+        var finalOnboardingStep = onboardingStep ?: existingSettings?.onboardingStep ?: "native"
+        
+        // Validate onboarding step values
+        val validOnboardingSteps = setOf("native", "learning", "level", "complete")
+        if (onboardingStep != null && !validOnboardingSteps.contains(onboardingStep)) {
+            throw IllegalArgumentException("Invalid onboarding step: $onboardingStep. Valid values are: ${validOnboardingSteps.joinToString(", ")}")
+        }
+        
+        if (finalOnboardingStep == "complete") {
+            // Check if both languages are explicitly set (not just defaults)
+            val hasNativeSet = existingSettings?.nativeLanguage != null || nativeLanguage != null
+            val hasTargetSet = existingSettings?.targetLanguage != null || targetLanguage != null
+            
+            if (!hasNativeSet || !hasTargetSet) {
+                // Don't allow completion, keep current step or default to "native"
+                finalOnboardingStep = existingSettings?.onboardingStep ?: "native"
+                warnings.add("Cannot complete onboarding without setting both native and target languages")
             }
         }
 
         return transaction {
-            // Create updated settings object
+            // Create updated settings object using resolved languages and validated onboarding step
             val updatedSettings = UserSettingsResponse(
                 userId = userId,
-                nativeLanguage = nativeLanguage ?: existingSettings?.nativeLanguage ?: "en",
-                targetLanguage = targetLanguage ?: existingSettings?.targetLanguage ?: "es", 
+                nativeLanguage = finalNative,
+                targetLanguage = finalTarget,
                 darkMode = darkMode ?: existingSettings?.darkMode ?: false,
-                onboardingStep = onboardingStep ?: existingSettings?.onboardingStep ?: "native",
+                onboardingStep = finalOnboardingStep,
                 userLevel = userLevel ?: existingSettings?.userLevel
             )
 

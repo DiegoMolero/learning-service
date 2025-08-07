@@ -43,28 +43,42 @@ class DatabaseContentRepository(
     private val environment: String
 ) : ContentRepository {
     
-    private val contentLibrary = ContentLibrary(if (environment == "test") "src/test/resources" else environment)
+    private val contentLibrary = ContentLibrary(if (environment == "test") "/test/content" else environment)
     private lateinit var dataSource: HikariDataSource
 
     init {
-        setupDatabase()
-    }
-
-    private fun setupDatabase() {
         val hikariConfig = HikariConfig().apply {
             jdbcUrl = databaseConfig.url
             username = databaseConfig.user
             password = databaseConfig.password
-            driverClassName = "org.postgresql.Driver"
+            driverClassName = when {
+                databaseConfig.url.contains("postgresql") -> "org.postgresql.Driver"
+                databaseConfig.url.contains("h2") -> "org.h2.Driver"
+                else -> throw IllegalArgumentException("Unsupported database type")
+            }
             maximumPoolSize = 10
-            isAutoCommit = false
-            transactionIsolation = "TRANSACTION_REPEATABLE_READ"
+            minimumIdle = 2
+            connectionTimeout = 30000
+            idleTimeout = 600000
+            maxLifetime = 1800000
         }
-        
         dataSource = HikariDataSource(hikariConfig)
+        
         Database.connect(dataSource)
-
+        initializeDatabase()
+    }
+    
+    private fun initializeDatabase() {
         transaction {
+            if (databaseConfig.dropOnStart) {
+                SchemaUtils.drop(
+                    ModuleProgressTable,
+                    UnitProgressTable,
+                    ExerciseProgressTable,
+                    UserSettings,
+                    ExerciseAttempts
+                )
+            }
             SchemaUtils.createMissingTablesAndColumns(
                 ModuleProgressTable,
                 UnitProgressTable,
