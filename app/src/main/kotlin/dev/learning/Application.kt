@@ -22,6 +22,7 @@ import com.auth0.jwt.JWT
 import dev.learning.routes.*
 import dev.learning.repository.DatabaseLearningRepository
 import dev.learning.repository.LearningRepository
+import dev.learning.repository.DatabaseContentRepository
 import dev.learning.ErrorTypes
 import java.io.File
 import java.io.FileNotFoundException
@@ -147,6 +148,9 @@ fun Application.module(config: Config) {
 
     // Use learning repository instead of user repository
     val learningRepository: LearningRepository = DatabaseLearningRepository(config.database, config.environmentName)
+    
+    // Create dedicated content repository for new content system
+    val contentRepository = DatabaseContentRepository(config.database, config.environmentName)
 
     if (config.environmentName == "dev") {
         install(CallLogging) {
@@ -199,7 +203,12 @@ fun Application.module(config: Config) {
 
     routing {
         healthRoute()
-        levelsRoute(learningRepository)
+        
+        // NEW API: Module → Unit → Exercise structure
+        contentRoute(contentRepository)
+        
+        // Legacy API (will be deprecated)
+        // levelsRoute(learningRepository)
         progressRoute(learningRepository)
         settingsRoute(learningRepository)
         

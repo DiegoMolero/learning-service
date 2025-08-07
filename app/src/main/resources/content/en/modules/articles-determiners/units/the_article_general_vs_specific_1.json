@@ -1,0 +1,615 @@
+{
+  "unitId": "the_article_general_vs_specific_1",
+  "moduleId": "articles-determiners",
+  "targetLanguage": "en",
+  "title": {
+    "en": "The Article 'The' - General vs Specific (Artículo 'the' - general vs específico)",
+    "es": "The Article 'The' - General vs Specific (Artículo 'the' - general vs específico)"
+  },
+  "description": {
+    "en": "Learn when NOT to use 'the' (general statements) and when TO use 'the' (specific references). Unlike Spanish, English doesn't use 'the' when talking about things in general.",
+    "es": "Aprende cuándo NO usar 'the' (afirmaciones generales) y cuándo SÍ usar 'the' (referencias específicas). A diferencia del español, el inglés no usa 'the' cuando habla de cosas en general."
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "translation",
+      "prompt": {
+        "es": "Los hombres no entienden a las mujeres."
+      },
+      "solution": "Men don't understand women.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_2",
+      "type": "translation",
+      "prompt": {
+        "es": "En general, a los españoles les gusta ir a la playa."
+      },
+      "solution": "In general, Spaniards like going to the beach.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_3",
+      "type": "translation",
+      "prompt": {
+        "es": "A las mujeres les gusta recibir flores."
+      },
+      "solution": "Women like getting flowers.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_4",
+      "type": "translation",
+      "prompt": {
+        "es": "Los cigarros son malos para la salud."
+      },
+      "solution": "Cigarettes are bad for your health.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_5",
+      "type": "translation",
+      "prompt": {
+        "es": "Los aviones son más seguros que los coches."
+      },
+      "solution": "Planes are safer than cars.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_6",
+      "type": "translation",
+      "prompt": {
+        "es": "Ninguno de los hombres que conozco entiende a las mujeres."
+      },
+      "solution": "None of the men I know understands women.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_7",
+      "type": "translation",
+      "prompt": {
+        "es": "A los españoles que conocí en el avión les gusta ir a la playa."
+      },
+      "solution": "The Spaniards I met on the plane like going to the beach.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_8",
+      "type": "translation",
+      "prompt": {
+        "es": "A todas las mujeres con quienes he salido les gustaba recibir flores."
+      },
+      "solution": "All the women I've been out with liked getting flowers.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_9",
+      "type": "translation",
+      "prompt": {
+        "es": "Los cigarros que fuma él son especialmente malos para la salud."
+      },
+      "solution": "The cigarettes he smokes are particularly bad for your health.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_10",
+      "type": "translation",
+      "prompt": {
+        "es": "Los aviones que tiene mi amigo el empresario no son muy seguros."
+      },
+      "solution": "The planes my friend, the entrepreneur, owns are not very safe.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_11",
+      "type": "translation",
+      "prompt": {
+        "es": "Los perros son animales leales."
+      },
+      "solution": "Dogs are loyal animals.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_12",
+      "type": "translation",
+      "prompt": {
+        "es": "Los perros que viven en esta casa son muy ruidosos."
+      },
+      "solution": "The dogs that live in this house are very noisy.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_13",
+      "type": "translation",
+      "prompt": {
+        "es": "Los libros educan la mente."
+      },
+      "solution": "Books educate the mind.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_14",
+      "type": "translation",
+      "prompt": {
+        "es": "Los libros que compraste ayer son muy interesantes."
+      },
+      "solution": "The books you bought yesterday are very interesting.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_15",
+      "type": "translation",
+      "prompt": {
+        "es": "Los niños necesitan mucho amor."
+      },
+      "solution": "Children need lots of love.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_16",
+      "type": "translation",
+      "prompt": {
+        "es": "Los niños que están jugando en el parque son mis vecinos."
+      },
+      "solution": "The children playing in the park are my neighbours.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_17",
+      "type": "translation",
+      "prompt": {
+        "es": "Los ordenadores han cambiado el mundo."
+      },
+      "solution": "Computers have changed the world.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_18",
+      "type": "translation",
+      "prompt": {
+        "es": "Los ordenadores que vendemos son de alta calidad."
+      },
+      "solution": "The computers we sell are high quality.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_19",
+      "type": "translation",
+      "prompt": {
+        "es": "Los profesores trabajan mucho."
+      },
+      "solution": "Teachers work a lot.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_20",
+      "type": "translation",
+      "prompt": {
+        "es": "Los profesores que trabajan en mi escuela son excelentes."
+      },
+      "solution": "The teachers who work at my school are excellent.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_21",
+      "type": "translation",
+      "prompt": {
+        "es": "Los gatos son independientes."
+      },
+      "solution": "Cats are independent.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_22",
+      "type": "translation",
+      "prompt": {
+        "es": "Los gatos que veo desde mi ventana son adorables."
+      },
+      "solution": "The cats I see from my window are adorable.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_23",
+      "type": "translation",
+      "prompt": {
+        "es": "Las flores alegran cualquier habitación."
+      },
+      "solution": "Flowers brighten any room.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_24",
+      "type": "translation",
+      "prompt": {
+        "es": "Las flores que trajiste huelen maravillosamente."
+      },
+      "solution": "The flowers you brought smell wonderful.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_25",
+      "type": "translation",
+      "prompt": {
+        "es": "Los estudiantes necesitan motivación."
+      },
+      "solution": "Students need motivation.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_26",
+      "type": "translation",
+      "prompt": {
+        "es": "Los estudiantes que estudian medicina están muy ocupados."
+      },
+      "solution": "The students studying medicine are very busy.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_27",
+      "type": "translation",
+      "prompt": {
+        "es": "Los teléfonos móviles son muy útiles."
+      },
+      "solution": "Mobile phones are very useful.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_28",
+      "type": "translation",
+      "prompt": {
+        "es": "Los teléfonos móviles que están en la mesa son nuevos."
+      },
+      "solution": "The mobile phones on the table are new.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_29",
+      "type": "translation",
+      "prompt": {
+        "es": "Los médicos salvan vidas."
+      },
+      "solution": "Doctors save lives.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_30",
+      "type": "translation",
+      "prompt": {
+        "es": "Los médicos que trabajan en este hospital son especialistas."
+      },
+      "solution": "The doctors who work in this hospital are specialists.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_31",
+      "type": "translation",
+      "prompt": {
+        "es": "Los coches eléctricos son el futuro."
+      },
+      "solution": "Electric cars are the future.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_32",
+      "type": "translation",
+      "prompt": {
+        "es": "Los coches eléctricos que están en el concesionario son caros."
+      },
+      "solution": "The electric cars at the dealership are expensive.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_33",
+      "type": "translation",
+      "prompt": {
+        "es": "Las películas de terror me dan miedo."
+      },
+      "solution": "Horror films scare me.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_34",
+      "type": "translation",
+      "prompt": {
+        "es": "Las películas de terror que vimos anoche eran terribles."
+      },
+      "solution": "The horror films we watched last night were terrible.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_35",
+      "type": "translation",
+      "prompt": {
+        "es": "Los restaurantes italianos sirven pasta deliciosa."
+      },
+      "solution": "Italian restaurants serve delicious pasta.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_36",
+      "type": "translation",
+      "prompt": {
+        "es": "Los restaurantes italianos que están en esta calle son muy buenos."
+      },
+      "solution": "The Italian restaurants on this street are very good.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_37",
+      "type": "translation",
+      "prompt": {
+        "es": "Los deportes son buenos para la salud."
+      },
+      "solution": "Sports are good for your health.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_38",
+      "type": "translation",
+      "prompt": {
+        "es": "Los deportes que practica mi hermano requieren mucha resistencia."
+      },
+      "solution": "The sports my brother practises require a lot of stamina.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_39",
+      "type": "translation",
+      "prompt": {
+        "es": "Los idiomas abren puertas."
+      },
+      "solution": "Languages open doors.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_40",
+      "type": "translation",
+      "prompt": {
+        "es": "Los idiomas que está aprendiendo son muy difíciles."
+      },
+      "solution": "The languages he's learning are very difficult.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_41",
+      "type": "translation",
+      "prompt": {
+        "es": "Los videojuegos pueden ser educativos."
+      },
+      "solution": "Video games can be educational.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_42",
+      "type": "translation",
+      "prompt": {
+        "es": "Los videojuegos que juegan mis hijos son muy violentos."
+      },
+      "solution": "The video games my children play are very violent.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_43",
+      "type": "translation",
+      "prompt": {
+        "es": "Los músicos necesitan mucha práctica."
+      },
+      "solution": "Musicians need lots of practice.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_44",
+      "type": "translation",
+      "prompt": {
+        "es": "Los músicos que tocaron en el concierto eran fantásticos."
+      },
+      "solution": "The musicians who played at the concert were fantastic.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_45",
+      "type": "translation",
+      "prompt": {
+        "es": "Las bicicletas son ecológicas."
+      },
+      "solution": "Bicycles are eco-friendly.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_46",
+      "type": "translation",
+      "prompt": {
+        "es": "Las bicicletas que están en el garaje necesitan reparación."
+      },
+      "solution": "The bicycles in the garage need repair.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_47",
+      "type": "translation",
+      "prompt": {
+        "es": "Los científicos buscan respuestas."
+      },
+      "solution": "Scientists look for answers.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_48",
+      "type": "translation",
+      "prompt": {
+        "es": "Los científicos que trabajan en este laboratorio son brillantes."
+      },
+      "solution": "The scientists working in this laboratory are brilliant.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    },
+    {
+      "id": "ex_49",
+      "type": "translation",
+      "prompt": {
+        "es": "Los robots cambiarán el futuro."
+      },
+      "solution": "Robots will change the future.",
+      "tip": {
+        "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+        "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+      }
+    },
+    {
+      "id": "ex_50",
+      "type": "translation",
+      "prompt": {
+        "es": "Los robots que construimos en la fábrica son muy avanzados."
+      },
+      "solution": "The robots we build in the factory are very advanced.",
+      "tip": {
+        "en": "Use 'the' when talking about specific things or people.",
+        "es": "Usa 'the' cuando hablas de cosas o personas específicas."
+      }
+    }
+  ]
+}

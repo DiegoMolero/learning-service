@@ -11,23 +11,65 @@ import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
 import kotlinx.serialization.json.*
 
-// Level models
+// New hierarchical structure: Module → Unit → Exercise
+
+// Module models
 @Serializable
-data class Level(
-    val id: String? = null, // Optional for backward compatibility
+data class ModuleResponse(
+    val id: String,
     val title: Map<String, String>,
-    val description: Map<String, String>? = null,
-    val tip: Map<String, String>? = null, // Optional tip for the topic
-    val level: String? = null, // A1, A2, B1, etc.
-    val targetLanguage: String? = null,
-    val phrases: List<Phrase>? = null, // For backward compatibility
-    val exercises: List<Exercise>? = null // New structure
+    val description: Map<String, String>,
+    val level: String, // A1, A2, B1, etc.
+    val totalUnits: Int,
+    val completedUnits: Int,
+    val status: String // "available", "in_progress", "completed", "locked"
 )
 
 @Serializable
-data class Phrase(
+data class ModuleDetailResponse(
     val id: String,
-    val text: Map<String, String>
+    val title: Map<String, String>,
+    val description: Map<String, String>,
+    val level: String,
+    val units: List<UnitSummary>
+)
+
+@Serializable
+data class ModuleMeta(
+    val id: String,
+    val title: Map<String, String>,
+    val description: Map<String, String>,
+    val level: String,
+    val order: Int = 0
+)
+
+// Unit models
+@Serializable
+data class UnitSummary(
+    val id: String,
+    val title: Map<String, String>,
+    val description: Map<String, String>? = null,
+    val totalExercises: Int,
+    val completedExercises: Int,
+    val status: String // "available", "in_progress", "completed", "locked"
+)
+
+@Serializable
+data class UnitDetailResponse(
+    val id: String,
+    val title: Map<String, String>,
+    val description: Map<String, String>? = null,
+    val tip: Map<String, String>? = null,
+    val exercises: List<ExerciseSummary>
+)
+
+// Exercise models
+@Serializable
+data class ExerciseSummary(
+    val id: String,
+    val type: String, // "translation", "fill-in-the-blank", "multiple-choice"
+    val status: String, // "available", "completed"
+    val isCorrect: Boolean? = null // null if not attempted, true/false if attempted
 )
 
 @Serializable
@@ -94,58 +136,29 @@ object ExercisePromptSerializer : KSerializer<ExercisePrompt> {
     }
 }
 
-// Dashboard level overview models
+// Legacy models for backward compatibility (will be removed later)
 @Serializable
-data class LevelOverviewResponse(
-    val levels: List<LevelSummary>
-)
-
-@Serializable
-data class LevelSummary(
-    val level: String, // Category ID like "articles-determiners"
-    val title: Map<String, String>,
-    val description: Map<String, String>? = null,
-    val progress: LevelProgress,
-    val status: String, // "locked", "available", "in_progress", "completed"
-    val difficulty: String? = null // Difficulty levels as comma-separated string
-)
-
-// Level categories configuration models
-@Serializable
-data class CategoryConfig(
-    val id: String,
-    val path: String,
-    val difficulty: List<String>,
-    val title: Map<String, String>,
-    val description: Map<String, String>
-)
-
-@Serializable
-data class LevelProgress(
-    val completedTopics: Int,
-    val totalTopics: Int
-)
-
-// Topic models for level detail view
-@Serializable
-data class LevelTopicsResponse(
-    val level: String,
-    val topics: List<TopicSummary>
-)
-
-@Serializable
-data class TopicSummary(
-    val id: String,
+data class Level(
+    val id: String? = null,
     val title: Map<String, String>,
     val description: Map<String, String>? = null,
     val tip: Map<String, String>? = null,
-    val status: String, // "locked", "in_progress", "completed"
-    val progress: TopicProgress? = null,
-    val lockedReason: Map<String, String>? = null
+    val level: String? = null,
+    val targetLanguage: String? = null,
+    val phrases: List<Phrase>? = null,
+    val exercises: List<Exercise>? = null
 )
 
 @Serializable
-data class TopicProgress(
+data class Phrase(
+    val id: String,
+    val text: Map<String, String>
+)
+
+// User progress models
+@Serializable
+data class UnitProgress(
+    val unitId: String,
     val completedExercises: Int,
     val correctAnswers: Int,
     val wrongAnswers: Int,
@@ -153,39 +166,43 @@ data class TopicProgress(
     val lastAttempted: String? = null // ISO 8601 timestamp
 )
 
-// Exercise detail response
 @Serializable
-data class ExerciseResponse(
-    val id: String,
-    val topicId: String,
-    val type: String,
-    val prompt: ExercisePrompt,
-    val solution: String? = null, // Only include in practice mode
-    val options: List<String>? = null, // For multiple-choice
-    val previousAttempts: Int = 0,
-    val isCompleted: Boolean = false,
-    val tip: Map<String, String>? = null // Educational tip for this exercise
+data class ExerciseProgress(
+    val exerciseId: String,
+    val isCompleted: Boolean,
+    val isCorrect: Boolean? = null,
+    val attempts: Int = 0,
+    val lastAttempted: String? = null
+)
+
+// Submit exercise request/response models
+@Serializable
+enum class AnswerStatus {
+    CORRECT,     // Usuario respondió correctamente
+    INCORRECT,   // Usuario respondió incorrectamente
+    SKIPPED,     // Usuario saltó la pregunta
+    REVEALED     // Usuario pidió ver la respuesta sin intentar
+}
+
+@Serializable
+data class SubmitExerciseRequest(
+    val userAnswer: String,
+    val answerStatus: AnswerStatus
 )
 
 @Serializable
-data class NextExerciseResponse(
-    val exercise: ExerciseResponse? = null,
-    val hasMoreExercises: Boolean,
-    val message: String? = null
-)
-
-// User progress models
-@Serializable
-data class UserProgressResponse(
-    val userId: String,
-    val levelId: String,
-    val completedPhraseIds: List<String>
+data class SubmitExerciseResponse(
+    val success: Boolean,
+    val answerStatus: AnswerStatus,
+    val correctAnswer: String,
+    val explanation: Map<String, String>? = null,
+    val progress: UnitProgress? = null
 )
 
 @Serializable
-data class UpdateProgressRequest(
-    val levelId: String,
-    val completedPhraseIds: List<String>
+data class SubmitResult(
+    val success: Boolean,
+    val progress: UnitProgress? = null
 )
 
 // User settings models
@@ -208,14 +225,13 @@ data class UpdateUserSettingsRequest(
     val userLevel: String? = null // A1, A2, B1, B2, C1, C2
 )
 
-// Response for settings update that includes warnings
 @Serializable
 data class UpdateUserSettingsResponse(
     val settings: UserSettingsResponse,
     val warnings: List<String> = emptyList()
 )
 
-// User management models for auth service
+// User management models
 @Serializable
 data class CreateUserRequest(
     val userId: String
@@ -228,23 +244,104 @@ data class UserManagementResponse(
     val userId: String? = null
 )
 
-// Exercise answer submission models
-@Serializable
-enum class AnswerStatus {
-    CORRECT,     // Usuario respondió correctamente
-    INCORRECT,   // Usuario respondió incorrectamente
-    SKIPPED,     // Usuario saltó la pregunta
-    REVEALED     // Usuario pidió ver la respuesta sin intentar
-}
-
 // Onboarding steps enum
 @Serializable
 enum class OnboardingStep {
     NATIVE,      // User selects native language
     LEARNING,    // User selects target language  
-    LEVEL,       // User selects initial level (new step)
+    LEVEL,       // User selects initial level
     COMPLETE     // Onboarding completed
 }
+
+// Legacy models that will be removed
+@Serializable
+data class LevelOverviewResponse(
+    val levels: List<LevelSummary>
+)
+
+@Serializable
+data class LevelSummary(
+    val level: String,
+    val title: Map<String, String>,
+    val description: Map<String, String>? = null,
+    val progress: LevelProgress,
+    val status: String,
+    val difficulty: String? = null
+)
+
+@Serializable
+data class CategoryConfig(
+    val id: String,
+    val path: String,
+    val difficulty: List<String>,
+    val title: Map<String, String>,
+    val description: Map<String, String>
+)
+
+@Serializable
+data class LevelProgress(
+    val completedTopics: Int,
+    val totalTopics: Int
+)
+
+@Serializable
+data class LevelTopicsResponse(
+    val level: String,
+    val topics: List<TopicSummary>
+)
+
+@Serializable
+data class TopicSummary(
+    val id: String,
+    val title: Map<String, String>,
+    val description: Map<String, String>? = null,
+    val tip: Map<String, String>? = null,
+    val status: String,
+    val progress: TopicProgress? = null,
+    val lockedReason: Map<String, String>? = null
+)
+
+@Serializable
+data class TopicProgress(
+    val completedExercises: Int,
+    val correctAnswers: Int,
+    val wrongAnswers: Int,
+    val totalExercises: Int,
+    val lastAttempted: String? = null
+)
+
+@Serializable
+data class ExerciseResponse(
+    val id: String,
+    val topicId: String,
+    val type: String,
+    val prompt: ExercisePrompt,
+    val solution: String? = null,
+    val options: List<String>? = null,
+    val previousAttempts: Int = 0,
+    val isCompleted: Boolean = false,
+    val tip: Map<String, String>? = null
+)
+
+@Serializable
+data class NextExerciseResponse(
+    val exercise: ExerciseResponse? = null,
+    val hasMoreExercises: Boolean,
+    val message: String? = null
+)
+
+@Serializable
+data class UserProgressResponse(
+    val userId: String,
+    val levelId: String,
+    val completedPhraseIds: List<String>
+)
+
+@Serializable
+data class UpdateProgressRequest(
+    val levelId: String,
+    val completedPhraseIds: List<String>
+)
 
 @Serializable
 data class SubmitAnswerRequest(
@@ -261,6 +358,6 @@ data class SubmitAnswerResponse(
     val success: Boolean,
     val answerStatus: AnswerStatus,
     val correctAnswer: String,
-    val explanation: Map<String, String>? = null, // Educational tip
+    val explanation: Map<String, String>? = null,
     val progress: TopicProgress
 )
