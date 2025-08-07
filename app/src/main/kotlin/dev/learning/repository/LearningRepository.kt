@@ -254,73 +254,70 @@ class DatabaseLearningRepository(
 
     override suspend fun getLevelOverview(userId: String, targetLanguage: String): LevelOverviewResponse {
         return try {
-            val availableLevels = getAllAvailableLevels()[targetLanguage] ?: emptyMap()
+            // Load the levels.json configuration for the target language
+            val categoriesConfig = loadLevelCategoriesConfig(targetLanguage)
+            if (categoriesConfig == null) {
+                println("No configuration found for language: $targetLanguage")
+                return LevelOverviewResponse(levels = emptyList())
+            }
             
             transaction {
                 val levelSummaries = mutableListOf<LevelSummary>()
+                val userUuid = UUID.fromString(userId)
                 
-                // Define level order, titles and descriptions
-                val levelOrder = listOf("A1", "A2", "B1", "B2", "C1", "C2")
-                val levelInfo = mapOf(
-                    "A1" to Pair(
-                        mapOf("en" to "Beginner", "es" to "Principiante"),
-                        mapOf("en" to "Start your English journey with basic grammar and vocabulary", "es" to "Comienza tu viaje en inglés con gramática y vocabulario básico")
-                    ),
-                    "A2" to Pair(
-                        mapOf("en" to "Elementary", "es" to "Elemental"),
-                        mapOf("en" to "Build confidence with essential grammar and everyday expressions", "es" to "Gana confianza con gramática esencial y expresiones cotidianas")
-                    ),
-                    "B1" to Pair(
-                        mapOf("en" to "Intermediate", "es" to "Intermedio"),
-                        mapOf("en" to "Develop fluency with complex grammar and varied vocabulary", "es" to "Desarrolla fluidez con gramática compleja y vocabulario variado")
-                    ),
-                    "B2" to Pair(
-                        mapOf("en" to "Upper Intermediate", "es" to "Intermedio Alto"),
-                        mapOf("en" to "Express yourself clearly on complex topics with nuanced grammar", "es" to "Exprésate claramente sobre temas complejos con gramática matizada")
-                    ),
-                    "C1" to Pair(
-                        mapOf("en" to "Advanced", "es" to "Avanzado"),
-                        mapOf("en" to "Achieve near-native proficiency with sophisticated language use", "es" to "Alcanza competencia casi nativa con uso sofisticado del idioma")
-                    ),
-                    "C2" to Pair(
-                        mapOf("en" to "Proficient", "es" to "Competente"),
-                        mapOf("en" to "Perfect your English with native-like precision and subtlety", "es" to "Perfecciona tu inglés con precisión y sutileza como nativo")
-                    )
-                )
+                // Get user's selected level from settings to determine availability
+                val userSettings = UserSettings.select { UserSettings.userId eq userUuid }.singleOrNull()
+                val userSelectedLevel = userSettings?.get(UserSettings.userLevel)
                 
-                for (level in levelOrder) {
-                    val topicsInLevel = availableLevels[level] ?: emptyList()
-                    val (title, description) = levelInfo[level] ?: continue
+                // Create level summaries for each category
+                for ((categoryId, categoryConfig) in categoriesConfig) {
+                    // Count total topics and completed topics for this category
+                    var totalTopics = 0
+                    var completedTopics = 0
                     
-                    if (topicsInLevel.isNotEmpty()) {
-                        // Count completed topics for this level
-                        val userUuid = UUID.fromString(userId)
-                        val completedTopics = TopicProgressTable.select {
+                    // Count topics in this category
+                    val categoryDir = File(
+                        {}::class.java.getResource("${getResourceBasePath()}/$targetLanguage/${categoryConfig.path}")?.toURI() ?: continue
+                    )
+                    
+                    if (categoryDir.exists() && categoryDir.isDirectory) {
+                        totalTopics = categoryDir.listFiles { file -> file.name.endsWith(".json") }?.size ?: 0
+                        
+                        // Count completed topics in this category
+                        completedTopics = TopicProgressTable.select {
                             (TopicProgressTable.userId eq userUuid) and
-                            TopicProgressTable.topicId.like("$targetLanguage-$level-%")
+                            TopicProgressTable.topicId.like("$targetLanguage-%-%") and
+                            TopicProgressTable.topicId.like("%$categoryId%")
                         }.count().toInt()
-                        
-                        val totalTopics = topicsInLevel.size
-                        
-                        val status = when {
-                            completedTopics == 0 -> if (level == "A1") "available" else "locked"
-                            completedTopics == totalTopics -> "completed"
-                            else -> "in_progress"
-                        }
-                        
-                        levelSummaries.add(
-                            LevelSummary(
-                                level = level,
-                                title = title,
-                                description = description,
-                                progress = LevelProgress(
-                                    completedTopics = completedTopics,
-                                    totalTopics = totalTopics
-                                ),
-                                status = status
-                            )
-                        )
                     }
+                    
+                    // Determine status based on user level and progress
+                    val categoryDifficulty = categoryConfig.difficulty.joinToString(", ")
+                    val isUnlocked = userSelectedLevel != null && 
+                        categoryConfig.difficulty.any { diffLevel ->
+                            isLevelUnlockedForUser(diffLevel, userSelectedLevel)
+                        }
+                    
+                    val status = when {
+                        !isUnlocked -> "locked"
+                        completedTopics == totalTopics && totalTopics > 0 -> "completed"
+                        completedTopics > 0 -> "in_progress"
+                        else -> "available"
+                    }
+                    
+                    levelSummaries.add(
+                        LevelSummary(
+                            level = categoryId, // Use categoryId as levelId
+                            title = categoryConfig.title,
+                            description = categoryConfig.description,
+                            progress = LevelProgress(
+                                completedTopics = completedTopics,
+                                totalTopics = totalTopics
+                            ),
+                            status = status,
+                            difficulty = categoryDifficulty // Add difficulty as a label
+                        )
+                    )
                 }
                 
                 LevelOverviewResponse(levels = levelSummaries)
@@ -329,6 +326,15 @@ class DatabaseLearningRepository(
             println("Error getting level overview: ${e.message}")
             LevelOverviewResponse(levels = emptyList())
         }
+    }
+    
+    private fun isLevelUnlockedForUser(categoryDifficultyLevel: String, userSelectedLevel: String): Boolean {
+        val levelOrder = listOf("A1", "A2", "B1", "B2", "C1", "C2")
+        val categoryLevelIndex = levelOrder.indexOf(categoryDifficultyLevel)
+        val userLevelIndex = levelOrder.indexOf(userSelectedLevel)
+        
+        // User can access categories at their level or below
+        return categoryLevelIndex <= userLevelIndex
     }
 
     override suspend fun getLevelTopics(userId: String, targetLanguage: String, level: String): LevelTopicsResponse {
