@@ -20,8 +20,8 @@ import io.ktor.server.auth.jwt.*
 import com.auth0.jwt.algorithms.Algorithm
 import com.auth0.jwt.JWT
 import dev.learning.routes.*
-import dev.learning.repository.DatabaseLearningRepository
-import dev.learning.repository.LearningRepository
+import dev.learning.repository.DatabaseUserRepository
+import dev.learning.repository.UserRepository
 import dev.learning.repository.DatabaseContentRepository
 import dev.learning.ErrorTypes
 import java.io.File
@@ -146,8 +146,8 @@ fun Application.configureCors(config: Config) {
 fun Application.module(config: Config) {
     configureCors(config)
 
-    // Use learning repository instead of user repository
-    val learningRepository: LearningRepository = DatabaseLearningRepository(config.database, config.environmentName)
+    // Use user repository for user management
+    val userRepository: UserRepository = DatabaseUserRepository(config.database, config.environmentName)
     
     // Create dedicated content repository for new content system
     val contentRepository = DatabaseContentRepository(config.database, config.environmentName)
@@ -203,17 +203,12 @@ fun Application.module(config: Config) {
 
     routing {
         healthRoute()
-        
-        // NEW API: Module → Unit → Exercise structure
         contentRoute(contentRepository)
         
-        // Legacy API (will be deprecated)
-        // levelsRoute(learningRepository)
-        progressRoute(learningRepository)
-        settingsRoute(learningRepository)
+        settingsRoute(userRepository)
         
         // User management routes for auth service (X-Internal-Secret authentication required)
-        userManagementRoute(learningRepository, config)
+        userManagementRoute(userRepository, config)
     }
 
 }

@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5d2f3c-0133-42ec-9527-147ab554dc70" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/config.default.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/config.default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/config.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/config.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/content/ContentLibrary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/content/ContentLibrary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/ContentRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/ContentRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/DatabaseTables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/DatabaseTables.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/UserRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/UserRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/ProgressRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/ProgressRoute.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/UserManagementRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/UserManagementRoute.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/content/en/modules/basic-expressions/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/content/en/modules/basic-expressions/units/unit-1/unit.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/test/levels/en/A2/test_topic_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/test/levels/en/levels.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/ExerciseSubmissionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/NextExerciseTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/SettingsRouteTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/UserManagementRouteTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +63,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "migration",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -207,6 +217,7 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
@@ -220,6 +231,7 @@
       <workItem from="1753362010158" duration="4946000" />
       <workItem from="1753436181644" duration="624000" />
       <workItem from="1754211047319" duration="4126000" />
+      <workItem from="1754599640930" duration="1420000" />
     </task>
     <servers />
   </component>
@@ -229,11 +241,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/LearningRepository.kt</url>
-          <line>354</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt</url>
           <line>111</line>

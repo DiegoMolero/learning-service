@@ -1,0 +1,12 @@
+{
+    "moduleId": "articles-determiners",
+    "difficulty": ["A2", "B1"],
+    "title": {
+        "en": "Articles & Determiners",
+        "es": "Artículos y Determinantes"
+    },
+    "description": {
+        "en": "Master the use of articles (a, an, the) and determiners",
+        "es": "Domina el uso de artículos (a, an, the) y determinantes"
+    }
+}

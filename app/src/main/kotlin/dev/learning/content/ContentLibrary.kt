@@ -34,7 +34,7 @@ data class UnitContent(
     val exercises: List<Exercise>
 )
 
-class ContentLibrary(private val basePath: String = "/content") {
+open class ContentLibrary(private val basePath: String = "/content") {
     private val json = Json { ignoreUnknownKeys = true }
     
     /**
@@ -42,17 +42,11 @@ class ContentLibrary(private val basePath: String = "/content") {
      * @param targetLanguage The target language code (e.g., "en", "es")
      * @return List of module metadata
      */
-    fun getModules(targetLanguage: String): List<ModuleMeta> {
+    open fun getModules(targetLanguage: String): List<ModuleMeta> {
         return try {
             val modulesPath = "$basePath/$targetLanguage/modules"
-            val modulesResource = {}::class.java.getResource(modulesPath)
+            val modulesDir = File(modulesPath)
             
-            if (modulesResource == null) {
-                println("Modules directory not found: $modulesPath")
-                return emptyList()
-            }
-            
-            val modulesDir = File(modulesResource.toURI())
             if (!modulesDir.exists() || !modulesDir.isDirectory) {
                 println("Modules directory is not valid: $modulesPath")
                 return emptyList()
@@ -87,17 +81,11 @@ class ContentLibrary(private val basePath: String = "/content") {
      * @param moduleId The module identifier
      * @return List of unit metadata (without exercises)
      */
-    fun getUnits(targetLanguage: String, moduleId: String): List<UnitMeta> {
+    open fun getUnits(targetLanguage: String, moduleId: String): List<UnitMeta> {
         return try {
             val modulePath = "$basePath/$targetLanguage/modules/$moduleId"
-            val moduleResource = {}::class.java.getResource(modulePath)
+            val moduleDir = File(modulePath)
             
-            if (moduleResource == null) {
-                println("Module directory not found: $modulePath")
-                return emptyList()
-            }
-            
-            val moduleDir = File(moduleResource.toURI())
             val unitsDir = File(moduleDir, "units")
             
             if (!unitsDir.exists() || !unitsDir.isDirectory) {
@@ -200,17 +188,11 @@ class ContentLibrary(private val basePath: String = "/content") {
      * @param unitId The unit identifier
      * @return The complete unit content or null if not found
      */
-    fun getUnitContent(targetLanguage: String, moduleId: String, unitId: String): UnitContent? {
+    open fun getUnitContent(targetLanguage: String, moduleId: String, unitId: String): UnitContent? {
         return try {
             val modulePath = "$basePath/$targetLanguage/modules/$moduleId"
-            val moduleResource = {}::class.java.getResource(modulePath)
+            val moduleDir = File(modulePath)
             
-            if (moduleResource == null) {
-                println("Module directory not found: $modulePath")
-                return null
-            }
-            
-            val moduleDir = File(moduleResource.toURI())
             val unitsDir = File(moduleDir, "units")
             
             // Try unit directory structure first

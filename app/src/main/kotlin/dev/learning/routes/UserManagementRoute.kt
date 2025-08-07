@@ -4,7 +4,7 @@ import dev.learning.Config
 import dev.learning.CreateUserRequest
 import dev.learning.ErrorResponses
 import dev.learning.UserManagementResponse
-import dev.learning.repository.LearningRepository
+import dev.learning.repository.UserRepository
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.request.*
@@ -15,7 +15,7 @@ import io.ktor.server.routing.*
  * Routes for user management - exclusively for auth service
  * These endpoints should only be accessible by the auth service, not end users
  */
-fun Route.userManagementRoute(learningRepository: LearningRepository, config: Config) {
+fun Route.userManagementRoute(userRepository: UserRepository, config: Config) {
     route("/users") {
         
         /**
@@ -55,7 +55,7 @@ fun Route.userManagementRoute(learningRepository: LearningRepository, config: Co
                 }
                 
                 try {
-                    val success = learningRepository.createUser(request.userId)
+                    val success = userRepository.createUser(request.userId)
                     
                     if (success) {
                         call.respond(
@@ -132,7 +132,7 @@ fun Route.userManagementRoute(learningRepository: LearningRepository, config: Co
             }
             
             try {
-                val success = learningRepository.deleteUser(userId)
+                val success = userRepository.deleteUser(userId)
                 
                 if (success) {
                     call.respond(
