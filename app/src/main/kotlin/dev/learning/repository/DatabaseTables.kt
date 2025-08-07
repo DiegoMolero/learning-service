@@ -83,6 +83,11 @@ object UserSettings : UUIDTable("user_settings") {
     val settings = text("settings") // JSON string
     val createdAt = timestamp("created_at").clientDefault { Clock.System.now() }
     val updatedAt = timestamp("updated_at").clientDefault { Clock.System.now() }
+    
+    // Unique constraint to ensure only one settings record per user
+    init {
+        uniqueIndex(userId)
+    }
 }
 
 object ExerciseAttempts : UUIDTable("exercise_attempts") {

@@ -15,6 +15,7 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import io.ktor.http.*
 import io.ktor.util.pipeline.*
+import java.util.UUID
 
 fun Route.userRoute(userRepository: UserRepository, config: Config) {
     route("/users") {
@@ -56,6 +57,20 @@ fun Route.userRoute(userRepository: UserRepository, config: Config) {
                     return@post
                 }
                 
+                // Validate UUID format
+                try {
+                    UUID.fromString(request.userId)
+                } catch (e: IllegalArgumentException) {
+                    call.respond(
+                        HttpStatusCode.BadRequest,
+                        UserManagementResponse(
+                            success = false,
+                            message = "Invalid user ID format"
+                        )
+                    )
+                    return@post
+                }
+                
                 try {
                     val success = userRepository.createUser(request.userId)
                     
@@ -78,6 +93,16 @@ fun Route.userRoute(userRepository: UserRepository, config: Config) {
                             )
                         )
                     }
+                } catch (e: IllegalStateException) {
+                    // Handle duplicate user case
+                    call.respond(
+                        HttpStatusCode.Conflict,
+                        UserManagementResponse(
+                            success = false,
+                            message = "User already exists",
+                            userId = request.userId
+                        )
+                    )
                 } catch (e: IllegalArgumentException) {
                     call.respond(
                         HttpStatusCode.BadRequest,
@@ -133,7 +158,36 @@ fun Route.userRoute(userRepository: UserRepository, config: Config) {
                 return@delete
             }
             
+            // Validate UUID format
             try {
+                UUID.fromString(userId)
+            } catch (e: IllegalArgumentException) {
+                call.respond(
+                    HttpStatusCode.BadRequest,
+                    UserManagementResponse(
+                        success = false,
+                        message = "Invalid user ID format",
+                        userId = userId
+                    )
+                )
+                return@delete
+            }
+            
+            try {
+                // First check if user exists
+                val existingSettings = userRepository.getUserSettings(userId)
+                if (existingSettings == null) {
+                    call.respond(
+                        HttpStatusCode.NotFound,
+                        UserManagementResponse(
+                            success = false,
+                            message = "User not found",
+                            userId = userId
+                        )
+                    )
+                    return@delete
+                }
+                
                 val success = userRepository.deleteUser(userId)
                 
                 if (success) {

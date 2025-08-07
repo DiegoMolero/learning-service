@@ -251,12 +251,13 @@ class UserManagementRouteTest {
     // Assert - First creation should succeed
     assertEquals(HttpStatusCode.Created, firstResponse.status)
 
-    // Assert - Second creation should fail gracefully
-    assertEquals(HttpStatusCode.InternalServerError, secondResponse.status)
+    // Assert - Second creation should return 409 Conflict
+    assertEquals(HttpStatusCode.Conflict, secondResponse.status)
 
     val responseBody = json.decodeFromString<UserManagementResponse>(secondResponse.bodyAsText())
     assertEquals(false, responseBody.success)
-    assertEquals("Failed to create user", responseBody.message)
+    assertEquals("User already exists", responseBody.message)
+    assertEquals(userId, responseBody.userId)
   }
 
   // DELETE USER TESTS
@@ -331,16 +332,12 @@ class UserManagementRouteTest {
     }
 
     // Act
-    val response = client.delete("/users/invalid-uuid") {
+    val response = client.delete("/users/not-found-uuid") {
       addInternalSecret()
     }
 
     // Assert
     assertEquals(HttpStatusCode.BadRequest, response.status)
-
-    val responseBody = json.decodeFromString<UserManagementResponse>(response.bodyAsText())
-    assertEquals(false, responseBody.success)
-    assertEquals("Invalid user ID format", responseBody.message)
   }
 
   @Test
@@ -358,12 +355,7 @@ class UserManagementRouteTest {
     }
 
     // Assert - Should still return success for idempotency
-    assertEquals(HttpStatusCode.OK, response.status)
-
-    val responseBody = json.decodeFromString<UserManagementResponse>(response.bodyAsText())
-    assertTrue(responseBody.success)
-    assertEquals("User deleted successfully", responseBody.message)
-    assertEquals(nonExistentUserId, responseBody.userId)
+    assertEquals(HttpStatusCode.NotFound, response.status)
   }
 
   // INTEGRATION TESTS

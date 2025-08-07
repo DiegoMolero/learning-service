@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5d2f3c-0133-42ec-9527-147ab554dc70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/Application.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/ContentRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/ContentRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/UserRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/UserRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/SettingsRoute.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/UserManagementRoute.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/UserRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/UserRoute.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/UserManagementRouteTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/UserManagementRouteTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +55,10 @@
     "Gradle.SettingsRouteTest.PUT settings should update native language successfully.executor": "Run",
     "Gradle.SettingsRouteTest.executor": "Run",
     "Gradle.Tests in 'learning-service.app.test'.executor": "Run",
+    "Gradle.UserManagementRouteTest.DELETE users should handle non-existent user gracefully.executor": "Run",
+    "Gradle.UserManagementRouteTest.DELETE users should return 400 for invalid UUID format.executor": "Run",
+    "Gradle.UserManagementRouteTest.DELETE users should return 404 for invalid UUID format.executor": "Run",
+    "Gradle.UserManagementRouteTest.POST users should return 400 for invalid UUID format.executor": "Run",
     "Gradle.UserManagementRouteTest.executor": "Run",
     "Gradle.UserSettingsRouteTest.GET settings should return 401 without valid token.executor": "Run",
     "Gradle.UserSettingsRouteTest.executor": "Run",
@@ -80,8 +81,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.UserSettingsRouteTest.onboarding should validate phase values">
-    <configuration name="UserSettingsRouteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UserManagementRouteTest">
+    <configuration name="UserManagementRouteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -94,7 +95,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.UserSettingsRouteTest&quot;" />
+            <option value="&quot;dev.learning.routes.UserManagementRouteTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -105,7 +106,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserSettingsRouteTest.GET settings should return 401 without valid token" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserManagementRouteTest.DELETE users should handle non-existent user gracefully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -118,7 +119,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.UserSettingsRouteTest.GET settings should return 401 without valid token&quot;" />
+            <option value="&quot;dev.learning.routes.UserManagementRouteTest.DELETE users should handle non-existent user gracefully&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -129,7 +130,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserSettingsRouteTest.onboarding flow should handle language conflicts during target language selection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserManagementRouteTest.DELETE users should return 400 for invalid UUID format" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -142,7 +143,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.UserSettingsRouteTest.onboarding flow should handle language conflicts during target language selection&quot;" />
+            <option value="&quot;dev.learning.routes.UserManagementRouteTest.DELETE users should return 400 for invalid UUID format&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -153,7 +154,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserSettingsRouteTest.onboarding should not allow completion without both languages set" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserManagementRouteTest.DELETE users should return 404 for invalid UUID format" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -166,7 +167,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.UserSettingsRouteTest.onboarding should not allow completion without both languages set&quot;" />
+            <option value="&quot;dev.learning.routes.UserManagementRouteTest.DELETE users should return 404 for invalid UUID format&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,7 +178,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserSettingsRouteTest.onboarding should validate phase values" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserManagementRouteTest.POST users should return 400 for invalid UUID format" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -190,7 +191,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.UserSettingsRouteTest.onboarding should validate phase values&quot;" />
+            <option value="&quot;dev.learning.routes.UserManagementRouteTest.POST users should return 400 for invalid UUID format&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -203,19 +204,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.Run Server" />
-      <item itemvalue="Gradle.UserSettingsRouteTest" />
-      <item itemvalue="Gradle.UserSettingsRouteTest.GET settings should return 401 without valid token" />
-      <item itemvalue="Gradle.UserSettingsRouteTest.onboarding flow should handle language conflicts during target language selection" />
-      <item itemvalue="Gradle.UserSettingsRouteTest.onboarding should not allow completion without both languages set" />
-      <item itemvalue="Gradle.UserSettingsRouteTest.onboarding should validate phase values" />
+      <item itemvalue="Gradle.UserManagementRouteTest" />
+      <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should handle non-existent user gracefully" />
+      <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should return 400 for invalid UUID format" />
+      <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should return 404 for invalid UUID format" />
+      <item itemvalue="Gradle.UserManagementRouteTest.POST users should return 400 for invalid UUID format" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.UserSettingsRouteTest.onboarding should validate phase values" />
-        <item itemvalue="Gradle.UserSettingsRouteTest.onboarding should not allow completion without both languages set" />
-        <item itemvalue="Gradle.UserSettingsRouteTest" />
-        <item itemvalue="Gradle.UserSettingsRouteTest.onboarding flow should handle language conflicts during target language selection" />
-        <item itemvalue="Gradle.UserSettingsRouteTest.GET settings should return 401 without valid token" />
+        <item itemvalue="Gradle.UserManagementRouteTest" />
+        <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should handle non-existent user gracefully" />
+        <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should return 400 for invalid UUID format" />
+        <item itemvalue="Gradle.UserManagementRouteTest.POST users should return 400 for invalid UUID format" />
+        <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should return 404 for invalid UUID format" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +238,7 @@
       <workItem from="1753362010158" duration="4946000" />
       <workItem from="1753436181644" duration="624000" />
       <workItem from="1754211047319" duration="4126000" />
-      <workItem from="1754599640930" duration="4151000" />
+      <workItem from="1754599640930" duration="5174000" />
     </task>
     <servers />
   </component>

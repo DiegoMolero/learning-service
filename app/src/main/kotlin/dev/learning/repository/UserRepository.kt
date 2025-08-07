@@ -200,6 +200,13 @@ class DatabaseUserRepository(
                 }
                 true
             } catch (e: Exception) {
+                // Check if it's a constraint violation (duplicate user)
+                if (e.message?.contains("constraint", ignoreCase = true) == true || 
+                    e.message?.contains("unique", ignoreCase = true) == true ||
+                    e.message?.contains("duplicate", ignoreCase = true) == true) {
+                    throw IllegalStateException("User with ID $userId already exists")
+                }
+                // For other exceptions, return false
                 false
             }
         }
