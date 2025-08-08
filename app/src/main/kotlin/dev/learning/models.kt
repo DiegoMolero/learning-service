@@ -11,6 +11,15 @@ import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
 import kotlinx.serialization.json.*
 
+// Answer status for exercise submissions
+@Serializable
+enum class AnswerStatus {
+    CORRECT,
+    INCORRECT,
+    SKIPPED,
+    REVEALED
+}
+
 // New hierarchical structure: Module → Unit → Exercise
 
 // Module models
@@ -174,15 +183,6 @@ data class ExerciseProgress(
     val attempts: Int = 0,
     val lastAttempted: String? = null
 )
-
-// Submit exercise request/response models
-@Serializable
-enum class AnswerStatus {
-    CORRECT,     // Usuario respondió correctamente
-    INCORRECT,   // Usuario respondió incorrectamente
-    SKIPPED,     // Usuario saltó la pregunta
-    REVEALED     // Usuario pidió ver la respuesta sin intentar
-}
 
 @Serializable
 data class SubmitExerciseRequest(

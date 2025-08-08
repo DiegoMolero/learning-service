@@ -204,6 +204,7 @@ fun Application.module(config: Config) {
     routing {
         healthRoute()
         contentRoute(contentRepository)
+        progressRoutes(contentRepository, userRepository)
         
         userRoute(userRepository, config)
     }

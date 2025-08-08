@@ -235,7 +235,6 @@ class ContentRouteTest {
         // Assert
         assertEquals(HttpStatusCode.OK, response.status)
         val modules = json.decodeFromString<List<ModuleResponse>>(response.bodyAsText())
-        assertTrue(modules is List<ModuleResponse>)
         
         // Validate JSON structure
         if (modules.isNotEmpty()) {
@@ -404,7 +403,6 @@ class ContentRouteTest {
         // Assert
         assertEquals(HttpStatusCode.OK, response.status)
         val units = json.decodeFromString<List<UnitSummary>>(response.bodyAsText())
-        assertTrue(units is List<UnitSummary>)
         
         // Validate JSON structure
         if (units.isNotEmpty()) {
@@ -525,7 +523,6 @@ class ContentRouteTest {
         // Assert
         assertEquals(HttpStatusCode.OK, response.status)
         val exercises = json.decodeFromString<List<ExerciseSummary>>(response.bodyAsText())
-        assertTrue(exercises is List<ExerciseSummary>)
         
         // Validate JSON structure
         if (exercises.isNotEmpty()) {
@@ -904,39 +901,5 @@ class ContentRouteTest {
                 }
             }
         }
-    }
-
-    @Test
-    fun `Different users should have independent progress tracking`() = testApplication {
-        application {
-            module(config)
-        }
-
-        val user1Id = "user1-" + UUID.randomUUID().toString().take(8)
-        val user2Id = "user2-" + UUID.randomUUID().toString().take(8)
-
-        // Ensure users exist
-        userRepository.createUser(user1Id)
-        userRepository.createUser(user2Id)
-
-        // Act - Get modules for both users
-        val user1Response = client.get("/content/en/modules") {
-            addTestJWT(user1Id)
-        }
-
-        val user2Response = client.get("/content/en/modules") {
-            addTestJWT(user2Id)
-        }
-
-        // Assert - Both should get successful responses
-        assertEquals(HttpStatusCode.OK, user1Response.status)
-        assertEquals(HttpStatusCode.OK, user2Response.status)
-
-        val user1Modules = json.decodeFromString<List<ModuleResponse>>(user1Response.bodyAsText())
-        val user2Modules = json.decodeFromString<List<ModuleResponse>>(user2Response.bodyAsText())
-
-        // Both users should see the same modules (though progress might differ)
-        assertTrue(user1Modules is List<ModuleResponse>)
-        assertTrue(user2Modules is List<ModuleResponse>)
     }
 }

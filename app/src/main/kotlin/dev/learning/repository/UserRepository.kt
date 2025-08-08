@@ -2,6 +2,8 @@ package dev.learning.repository
 
 import dev.learning.DatabaseConfig
 import dev.learning.UserSettingsResponse
+import dev.learning.UnitProgress
+import dev.learning.AnswerStatus
 import kotlinx.serialization.json.Json
 import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.SqlExpressionBuilder.eq
@@ -19,6 +21,10 @@ interface UserRepository {
     // User management methods for auth service
     suspend fun createUser(userId: String): Boolean
     suspend fun deleteUser(userId: String): Boolean
+    
+    // Progress tracking methods
+    suspend fun recordExerciseProgress(userId: String, lang: String, moduleId: String, unitId: String, exerciseId: String, answerStatus: AnswerStatus, userAnswer: String): Boolean
+    suspend fun getUnitProgress(userId: String, lang: String, moduleId: String, unitId: String): UnitProgress?
 }
 
 class DatabaseUserRepository(
@@ -228,6 +234,103 @@ class DatabaseUserRepository(
             } catch (e: Exception) {
                 false
             }
+        }
+    }
+
+    override suspend fun recordExerciseProgress(
+        userId: String,
+        lang: String,
+        moduleId: String,
+        unitId: String,
+        exerciseId: String,
+        answerStatus: AnswerStatus,
+        userAnswer: String
+    ): Boolean {
+        return transaction {
+            try {
+                // Record the exercise attempt
+                ExerciseAttempts.insert {
+                    it[this.userId] = userId
+                    it[this.moduleId] = moduleId
+                    it[this.unitId] = unitId
+                    it[this.exerciseId] = exerciseId
+                    it[this.userAnswer] = userAnswer
+                    it[this.isCorrect] = answerStatus == AnswerStatus.CORRECT
+                    it[this.attemptedAt] = Clock.System.now()
+                }
+
+                // Update or create unit progress
+                val existingProgress = UnitProgressTable.select { 
+                    (UnitProgressTable.userId eq userId) and 
+                    (UnitProgressTable.moduleId eq moduleId) and 
+                    (UnitProgressTable.unitId eq unitId)
+                }.singleOrNull()
+
+                if (existingProgress != null) {
+                    // Update existing progress
+                    UnitProgressTable.update({ 
+                        (UnitProgressTable.userId eq userId) and 
+                        (UnitProgressTable.moduleId eq moduleId) and 
+                        (UnitProgressTable.unitId eq unitId)
+                    }) {
+                        it[this.updatedAt] = Clock.System.now()
+                        // Could update completion status here based on business logic
+                    }
+                } else {
+                    // Create new progress record
+                    UnitProgressTable.insert {
+                        it[this.userId] = userId
+                        it[this.moduleId] = moduleId
+                        it[this.unitId] = unitId
+                        it[this.isCompleted] = false
+                        it[this.progressPercentage] = if (answerStatus == AnswerStatus.CORRECT) 1 else 0
+                        it[this.createdAt] = Clock.System.now()
+                        it[this.updatedAt] = Clock.System.now()
+                    }
+                }
+
+                true
+            } catch (e: Exception) {
+                false
+            }
+        }
+    }
+
+    override suspend fun getUnitProgress(userId: String, lang: String, moduleId: String, unitId: String): UnitProgress? {
+        return transaction {
+            // Get unit progress
+            val progress = UnitProgressTable.select { 
+                (UnitProgressTable.userId eq userId) and 
+                (UnitProgressTable.moduleId eq moduleId) and 
+                (UnitProgressTable.unitId eq unitId)
+            }.singleOrNull()
+
+            // Count exercise attempts
+            val correctAnswers = ExerciseAttempts.select {
+                (ExerciseAttempts.userId eq userId) and
+                (ExerciseAttempts.moduleId eq moduleId) and
+                (ExerciseAttempts.unitId eq unitId) and
+                (ExerciseAttempts.isCorrect eq true)
+            }.count().toInt()
+
+            val wrongAnswers = ExerciseAttempts.select {
+                (ExerciseAttempts.userId eq userId) and
+                (ExerciseAttempts.moduleId eq moduleId) and
+                (ExerciseAttempts.unitId eq unitId) and
+                (ExerciseAttempts.isCorrect eq false)
+            }.count().toInt()
+
+            val completedExercises = correctAnswers
+            val totalExercises = 50 // This should be calculated from the content library
+
+            UnitProgress(
+                unitId = unitId,
+                completedExercises = completedExercises,
+                correctAnswers = correctAnswers,
+                wrongAnswers = wrongAnswers,
+                totalExercises = totalExercises,
+                lastAttempted = progress?.get(UnitProgressTable.updatedAt)?.toString()
+            )
         }
     }
 }

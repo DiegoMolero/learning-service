@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5d2f3c-0133-42ec-9527-147ab554dc70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/content/ContentLibrary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/content/ContentLibrary.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/ContentRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/ContentRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/test/content/en/modules/articles-determiners/meta.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/test/content/en/modules/articles-determiners/units/the_article_general_vs_specific_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/content/ContentLibraryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/content/ContentLibraryTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,47 +40,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.ContentLibraryTest.executor": "Run",
-    "Gradle.ContentRouteTest.GET modules should match expected JSON structure exactly.executor": "Debug",
-    "Gradle.ContentRouteTest.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully.executor": "Run",
-    "Gradle.ExerciseSubmissionTest.POST submit answer should record wrong answer successfully.executor": "Debug",
-    "Gradle.ExerciseSubmissionTest.executor": "Run",
-    "Gradle.NextExerciseTest.GET next exercise should return first exercise when no progress.executor": "Debug",
-    "Gradle.NextExerciseTest.executor": "Run",
-    "Gradle.Run Server.executor": "Run",
-    "Gradle.SettingsRouteTest.PUT settings should update native language successfully.executor": "Run",
-    "Gradle.SettingsRouteTest.executor": "Run",
-    "Gradle.Tests in 'learning-service.app.test'.executor": "Run",
-    "Gradle.UserManagementRouteTest.DELETE users should handle non-existent user gracefully.executor": "Run",
-    "Gradle.UserManagementRouteTest.DELETE users should return 400 for invalid UUID format.executor": "Run",
-    "Gradle.UserManagementRouteTest.DELETE users should return 404 for invalid UUID format.executor": "Run",
-    "Gradle.UserManagementRouteTest.POST users should return 400 for invalid UUID format.executor": "Run",
-    "Gradle.UserManagementRouteTest.executor": "Run",
-    "Gradle.UserSettingsRouteTest.GET settings should return 401 without valid token.executor": "Run",
-    "Gradle.UserSettingsRouteTest.executor": "Run",
-    "Gradle.UserSettingsRouteTest.onboarding flow should handle language conflicts during target language selection.executor": "Run",
-    "Gradle.UserSettingsRouteTest.onboarding should not allow completion without both languages set.executor": "Run",
-    "Gradle.UserSettingsRouteTest.onboarding should validate phase values.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "migration",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.ContentLibraryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ContentRouteTest.GET modules should match expected JSON structure exactly.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.ContentRouteTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ExerciseSubmissionTest.POST submit answer should record wrong answer successfully.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.ExerciseSubmissionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NextExerciseTest.GET next exercise should return first exercise when no progress.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.NextExerciseTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Run Server.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SettingsRouteTest.PUT settings should update native language successfully.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SettingsRouteTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'learning-service.app.test'.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserManagementRouteTest.DELETE users should handle non-existent user gracefully.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserManagementRouteTest.DELETE users should return 400 for invalid UUID format.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserManagementRouteTest.DELETE users should return 404 for invalid UUID format.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserManagementRouteTest.POST users should return 400 for invalid UUID format.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserManagementRouteTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserSettingsRouteTest.GET settings should return 401 without valid token.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserSettingsRouteTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserSettingsRouteTest.onboarding flow should handle language conflicts during target language selection.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserSettingsRouteTest.onboarding should not allow completion without both languages set.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserSettingsRouteTest.onboarding should validate phase values.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;migration&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.ContentLibraryTest">
     <configuration name="ContentLibraryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -243,7 +238,7 @@
       <workItem from="1753362010158" duration="4946000" />
       <workItem from="1753436181644" duration="624000" />
       <workItem from="1754211047319" duration="4126000" />
-      <workItem from="1754599640930" duration="8510000" />
+      <workItem from="1754599640930" duration="9488000" />
     </task>
     <servers />
   </component>
