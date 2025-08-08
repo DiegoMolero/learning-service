@@ -60,6 +60,7 @@ class DatabaseUserRepository(
                 UserSettings,
                 UserProgress,
                 TopicProgressTable,
+                UnitProgressTable,
                 ExerciseAttempts
             )
         }
@@ -251,6 +252,7 @@ class DatabaseUserRepository(
                 // Record the exercise attempt
                 ExerciseAttempts.insert {
                     it[this.userId] = userId
+                    it[this.lang] = lang
                     it[this.moduleId] = moduleId
                     it[this.unitId] = unitId
                     it[this.exerciseId] = exerciseId
@@ -262,6 +264,7 @@ class DatabaseUserRepository(
                 // Update or create unit progress
                 val existingProgress = UnitProgressTable.select { 
                     (UnitProgressTable.userId eq userId) and 
+                    (UnitProgressTable.lang eq lang) and
                     (UnitProgressTable.moduleId eq moduleId) and 
                     (UnitProgressTable.unitId eq unitId)
                 }.singleOrNull()
@@ -270,6 +273,7 @@ class DatabaseUserRepository(
                     // Update existing progress
                     UnitProgressTable.update({ 
                         (UnitProgressTable.userId eq userId) and 
+                        (UnitProgressTable.lang eq lang) and
                         (UnitProgressTable.moduleId eq moduleId) and 
                         (UnitProgressTable.unitId eq unitId)
                     }) {
@@ -280,6 +284,7 @@ class DatabaseUserRepository(
                     // Create new progress record
                     UnitProgressTable.insert {
                         it[this.userId] = userId
+                        it[this.lang] = lang
                         it[this.moduleId] = moduleId
                         it[this.unitId] = unitId
                         it[this.isCompleted] = false
@@ -301,6 +306,7 @@ class DatabaseUserRepository(
             // Get unit progress
             val progress = UnitProgressTable.select { 
                 (UnitProgressTable.userId eq userId) and 
+                (UnitProgressTable.lang eq lang) and
                 (UnitProgressTable.moduleId eq moduleId) and 
                 (UnitProgressTable.unitId eq unitId)
             }.singleOrNull()
@@ -308,6 +314,7 @@ class DatabaseUserRepository(
             // Count exercise attempts
             val correctAnswers = ExerciseAttempts.select {
                 (ExerciseAttempts.userId eq userId) and
+                (ExerciseAttempts.lang eq lang) and
                 (ExerciseAttempts.moduleId eq moduleId) and
                 (ExerciseAttempts.unitId eq unitId) and
                 (ExerciseAttempts.isCorrect eq true)
@@ -315,22 +322,28 @@ class DatabaseUserRepository(
 
             val wrongAnswers = ExerciseAttempts.select {
                 (ExerciseAttempts.userId eq userId) and
+                (ExerciseAttempts.lang eq lang) and
                 (ExerciseAttempts.moduleId eq moduleId) and
                 (ExerciseAttempts.unitId eq unitId) and
                 (ExerciseAttempts.isCorrect eq false)
             }.count().toInt()
 
-            val completedExercises = correctAnswers
-            val totalExercises = 50 // This should be calculated from the content library
+            // Only return progress if there are attempts or progress records
+            if (progress != null || correctAnswers > 0 || wrongAnswers > 0) {
+                val completedExercises = correctAnswers
+                val totalExercises = 50 // This should be calculated from the content library
 
-            UnitProgress(
-                unitId = unitId,
-                completedExercises = completedExercises,
-                correctAnswers = correctAnswers,
-                wrongAnswers = wrongAnswers,
-                totalExercises = totalExercises,
-                lastAttempted = progress?.get(UnitProgressTable.updatedAt)?.toString()
-            )
+                UnitProgress(
+                    unitId = unitId,
+                    completedExercises = completedExercises,
+                    correctAnswers = correctAnswers,
+                    wrongAnswers = wrongAnswers,
+                    totalExercises = totalExercises,
+                    lastAttempted = progress?.get(UnitProgressTable.updatedAt)?.toString()
+                )
+            } else {
+                null // No progress found
+            }
         }
     }
 }
