@@ -43,7 +43,7 @@ class DatabaseContentRepository(
     private val environment: String
 ) : ContentRepository {
     
-    private val contentLibrary = ContentLibrary(if (environment == "test") "/test/content" else environment)
+    private val contentLibrary = ContentLibrary()
     private lateinit var dataSource: HikariDataSource
 
     init {

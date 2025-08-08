@@ -11,8 +11,7 @@ class ContentLibraryTest {
     @BeforeEach
     fun setUp() {
         // Use ContentLibrary with test content path  
-        val testBasePath = "/Users/diego.molero/Diego/Projects/Lingaru/learning-service/app/src/main/resources/test/content"
-        contentLibrary = ContentLibrary(testBasePath)
+        contentLibrary = ContentLibrary()
     }
 
     @Test

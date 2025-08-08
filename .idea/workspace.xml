@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5d2f3c-0133-42ec-9527-147ab554dc70" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/UserRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/routes/UserRoute.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/UserManagementRouteTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/routes/UserManagementRouteTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/content/ContentLibrary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/content/ContentLibrary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/ContentRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/dev/learning/repository/ContentRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/test/content/en/modules/articles-determiners/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/test/content/en/modules/articles-determiners/units/the_article_general_vs_specific_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/content/ContentLibraryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/dev/learning/content/ContentLibraryTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.ContentLibraryTest.executor": "Run",
+    "Gradle.ContentRouteTest.GET modules should match expected JSON structure exactly.executor": "Debug",
+    "Gradle.ContentRouteTest.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
     "Gradle.ExerciseSubmissionTest.POST submit answer should record correct answer successfully.executor": "Run",
     "Gradle.ExerciseSubmissionTest.POST submit answer should record wrong answer successfully.executor": "Debug",
@@ -81,7 +86,79 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.UserManagementRouteTest">
+  <component name="RunManager" selected="Gradle.ContentLibraryTest">
+    <configuration name="ContentLibraryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;dev.learning.content.ContentLibraryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContentRouteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;dev.learning.routes.ContentRouteTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContentRouteTest.GET modules should match expected JSON structure exactly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;dev.learning.routes.ContentRouteTest.GET modules should match expected JSON structure exactly&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="UserManagementRouteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -106,7 +183,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserManagementRouteTest.DELETE users should handle non-existent user gracefully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserSettingsRouteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -119,79 +196,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;dev.learning.routes.UserManagementRouteTest.DELETE users should handle non-existent user gracefully&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserManagementRouteTest.DELETE users should return 400 for invalid UUID format" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;dev.learning.routes.UserManagementRouteTest.DELETE users should return 400 for invalid UUID format&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserManagementRouteTest.DELETE users should return 404 for invalid UUID format" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;dev.learning.routes.UserManagementRouteTest.DELETE users should return 404 for invalid UUID format&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserManagementRouteTest.POST users should return 400 for invalid UUID format" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;dev.learning.routes.UserManagementRouteTest.POST users should return 400 for invalid UUID format&quot;" />
+            <option value="&quot;dev.learning.routes.UserSettingsRouteTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -204,19 +209,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.Run Server" />
+      <item itemvalue="Gradle.ContentLibraryTest" />
+      <item itemvalue="Gradle.ContentRouteTest" />
+      <item itemvalue="Gradle.ContentRouteTest.GET modules should match expected JSON structure exactly" />
       <item itemvalue="Gradle.UserManagementRouteTest" />
-      <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should handle non-existent user gracefully" />
-      <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should return 400 for invalid UUID format" />
-      <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should return 404 for invalid UUID format" />
-      <item itemvalue="Gradle.UserManagementRouteTest.POST users should return 400 for invalid UUID format" />
+      <item itemvalue="Gradle.UserSettingsRouteTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ContentLibraryTest" />
+        <item itemvalue="Gradle.ContentRouteTest" />
+        <item itemvalue="Gradle.ContentRouteTest.GET modules should match expected JSON structure exactly" />
+        <item itemvalue="Gradle.UserSettingsRouteTest" />
         <item itemvalue="Gradle.UserManagementRouteTest" />
-        <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should handle non-existent user gracefully" />
-        <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should return 400 for invalid UUID format" />
-        <item itemvalue="Gradle.UserManagementRouteTest.POST users should return 400 for invalid UUID format" />
-        <item itemvalue="Gradle.UserManagementRouteTest.DELETE users should return 404 for invalid UUID format" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +243,7 @@
       <workItem from="1753362010158" duration="4946000" />
       <workItem from="1753436181644" duration="624000" />
       <workItem from="1754211047319" duration="4126000" />
-      <workItem from="1754599640930" duration="5174000" />
+      <workItem from="1754599640930" duration="8510000" />
     </task>
     <servers />
   </component>
@@ -256,6 +261,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/dev/learning/content/ContentLibrary.kt</url>
+          <line>73</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/dev/learning/content/ContentLibrary.kt</url>
+          <line>70</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/dev/learning/content/ContentLibrary.kt</url>
+          <line>94</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
