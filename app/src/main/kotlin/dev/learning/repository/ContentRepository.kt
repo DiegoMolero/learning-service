@@ -33,6 +33,7 @@ interface ContentRepository {
     suspend fun getExercises(userId: String, lang: String, moduleId: String, unitId: String): List<ExerciseSummary>
     suspend fun getExerciseDetails(userId: String, lang: String, moduleId: String, unitId: String, exerciseId: String): Exercise?
     suspend fun submitExercise(userId: String, lang: String, moduleId: String, unitId: String, exerciseId: String, userAnswer: String, answerStatus: AnswerStatus): SubmitExerciseResponse
+    suspend fun getNextExercise(userId: String, lang: String, moduleId: String, unitId: String, currentExerciseId: String): Exercise?
 }
 
 class DatabaseContentRepository(
@@ -263,6 +264,96 @@ class DatabaseContentRepository(
                 correctAnswer = correctAnswer,
                 explanation = exercise?.tip
             )
+        }
+    }
+
+    override suspend fun getNextExercise(userId: String, lang: String, moduleId: String, unitId: String, currentExerciseId: String): Exercise? {
+        return transaction {
+            // Get all exercises from content
+            val unitContent = contentLibrary.getUnitContent(lang, moduleId, unitId)
+            if (unitContent == null) {
+                return@transaction null
+            }
+
+            val allExercises = unitContent.exercises
+            if (allExercises.isEmpty()) {
+                return@transaction null
+            }
+
+            // Get user's exercise results for this unit
+            val exerciseResults = ExerciseProgressTable.select { 
+                (ExerciseProgressTable.userId eq userId) and 
+                (ExerciseProgressTable.lang eq lang) and
+                (ExerciseProgressTable.moduleId eq moduleId) and 
+                (ExerciseProgressTable.unitId eq unitId)
+            }.orderBy(ExerciseProgressTable.attemptedAt, SortOrder.DESC)
+
+            // Group by exerciseId to get the latest attempt for each exercise
+            val latestAttempts = mutableMapOf<String, ResultRow>()
+            exerciseResults.forEach { result ->
+                val exerciseId = result[ExerciseProgressTable.exerciseId]
+                if (!latestAttempts.containsKey(exerciseId)) {
+                    latestAttempts[exerciseId] = result
+                }
+            }
+
+            // Categorize exercises
+            val completedCorrectly = mutableSetOf<String>()
+            val failedExercises = mutableSetOf<String>()
+            val notAttempted = mutableSetOf<String>()
+
+            allExercises.forEach { exercise ->
+                val latestAttempt = latestAttempts[exercise.id]
+                if (latestAttempt == null) {
+                    notAttempted.add(exercise.id)
+                } else {
+                    val status = latestAttempt[ExerciseProgressTable.answerStatus]
+                    if (status == "CORRECT") {
+                        completedCorrectly.add(exercise.id)
+                    } else {
+                        failedExercises.add(exercise.id)
+                    }
+                }
+            }
+
+            // Remove current exercise from all sets to avoid returning the same exercise
+            notAttempted.remove(currentExerciseId)
+            failedExercises.remove(currentExerciseId)
+            completedCorrectly.remove(currentExerciseId)
+
+            // Decide which exercise to return based on priority:
+            // 1. Prioritize new exercises (not attempted)
+            // 2. Every 6th time (1/6 chance), return a failed exercise for review
+            // 3. If all exercises are completed, return any exercise for review
+
+            val nextExerciseId = when {
+                notAttempted.isNotEmpty() -> {
+                    // Randomly decide if we should review a failed exercise (1/6 chance)
+                    val shouldReview = failedExercises.isNotEmpty() && (1..6).random() == 1
+                    if (shouldReview) {
+                        failedExercises.random()
+                    } else {
+                        notAttempted.random()
+                    }
+                }
+                failedExercises.isNotEmpty() -> {
+                    // Only failed exercises remain, pick one randomly
+                    failedExercises.random()
+                }
+                completedCorrectly.isNotEmpty() -> {
+                    // All exercises completed correctly, pick any for review
+                    completedCorrectly.random()
+                }
+                else -> {
+                    // Fallback - this shouldn't happen, but return a random exercise
+                    allExercises.filter { it.id != currentExerciseId }.randomOrNull()?.id
+                }
+            }
+
+            // Find and return the exercise
+            nextExerciseId?.let { exerciseId ->
+                allExercises.find { it.id == exerciseId }
+            }
         }
     }
 }

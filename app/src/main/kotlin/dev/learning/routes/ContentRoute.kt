@@ -302,6 +302,71 @@ fun Route.contentRoute(contentRepository: ContentRepository) {
                     )
                 }
             }
+            
+            // Get next exercise - GET /content/:lang/modules/:moduleId/units/:unitId/exercises/:exerciseId/next
+            get("/{lang}/modules/{moduleId}/units/{unitId}/exercises/{exerciseId}/next") {
+                val principal = call.principal<JWTPrincipal>()
+                val userId = principal?.getClaim("userId", String::class)
+                val language = call.parameters["lang"]
+                val moduleId = call.parameters["moduleId"]
+                val unitId = call.parameters["unitId"]
+                val exerciseId = call.parameters["exerciseId"]
+                
+                if (userId.isNullOrBlank()) {
+                    call.respond(
+                        HttpStatusCode.Unauthorized,
+                        ErrorResponses.unauthorized("Invalid token", call.request.local.uri)
+                    )
+                    return@get
+                }
+                
+                if (language.isNullOrBlank() || moduleId.isNullOrBlank() || unitId.isNullOrBlank() || exerciseId.isNullOrBlank()) {
+                    call.respond(
+                        HttpStatusCode.BadRequest,
+                        ErrorResponses.badRequest("Language, module ID, unit ID, and exercise ID are required", call.request.local.uri)
+                    )
+                    return@get
+                }
+                
+                try {
+                    val nextExercise = contentRepository.getNextExercise(userId, language, moduleId, unitId, exerciseId)
+                    
+                    if (nextExercise != null) {
+                        // Convert Exercise to ExerciseResponse format
+                        val exerciseResponse = dev.learning.ExerciseResponse(
+                            id = nextExercise.id,
+                            topicId = unitId, // Using unitId as topicId for backward compatibility
+                            type = nextExercise.type,
+                            prompt = nextExercise.prompt,
+                            solution = nextExercise.solution,
+                            options = nextExercise.options,
+                            previousAttempts = 0, // Could be enhanced to show actual attempt count
+                            isCompleted = false, // This is the next exercise, so not completed yet
+                            tip = nextExercise.tip
+                        )
+                        
+                        val response = dev.learning.NextExerciseResponse(
+                            exercise = exerciseResponse,
+                            hasMoreExercises = true,
+                            message = null
+                        )
+                        call.respond(HttpStatusCode.OK, response)
+                    } else {
+                        // No more exercises available
+                        val response = dev.learning.NextExerciseResponse(
+                            exercise = null,
+                            hasMoreExercises = false,
+                            message = "No more exercises available in this unit"
+                        )
+                        call.respond(HttpStatusCode.OK, response)
+                    }
+                } catch (e: Exception) {
+                    call.respond(
+                        HttpStatusCode.InternalServerError,
+                        ErrorResponses.internalServerError("Failed to fetch next exercise", call.request.local.uri)
+                    )
+                }
+            }
         }
     }
 }

@@ -26,7 +26,16 @@ interface UserRepository {
     // Progress tracking methods
     suspend fun recordExerciseProgress(userId: String, lang: String, moduleId: String, unitId: String, exerciseId: String, answerStatus: AnswerStatus, userAnswer: String): Boolean
     suspend fun getUnitProgress(userId: String, lang: String, moduleId: String, unitId: String): UnitProgress?
+    suspend fun getExerciseResults(userId: String, lang: String, moduleId: String, unitId: String): Map<String, ExerciseResult>
 }
+
+data class ExerciseResult(
+    val exerciseId: String,
+    val lastStatus: AnswerStatus,
+    val isCorrect: Boolean,
+    val attemptCount: Int,
+    val lastAttempted: String
+)
 
 class DatabaseUserRepository(
     private val databaseConfig: DatabaseConfig
@@ -335,6 +344,39 @@ class DatabaseUserRepository(
                 totalExercises = totalExercises,
                 lastAttempted = lastAttemptedTime
             )
+        }
+    }
+
+    override suspend fun getExerciseResults(userId: String, lang: String, moduleId: String, unitId: String): Map<String, ExerciseResult> {
+        return transaction {
+            val exerciseResults = ExerciseProgressTable.select { 
+                (ExerciseProgressTable.userId eq userId) and 
+                (ExerciseProgressTable.lang eq lang) and
+                (ExerciseProgressTable.moduleId eq moduleId) and 
+                (ExerciseProgressTable.unitId eq unitId)
+            }.orderBy(ExerciseProgressTable.attemptedAt, SortOrder.DESC)
+
+            val exerciseMap = mutableMapOf<String, MutableList<ResultRow>>()
+            
+            // Group by exerciseId
+            exerciseResults.forEach { result ->
+                val exerciseId = result[ExerciseProgressTable.exerciseId]
+                exerciseMap.computeIfAbsent(exerciseId) { mutableListOf() }.add(result)
+            }
+
+            // Convert to ExerciseResult objects
+            exerciseMap.mapValues { (exerciseId, attempts) ->
+                val latestAttempt = attempts.first() // Already ordered by attemptedAt DESC
+                val isCorrect = latestAttempt[ExerciseProgressTable.answerStatus] == "CORRECT"
+                
+                ExerciseResult(
+                    exerciseId = exerciseId,
+                    lastStatus = AnswerStatus.valueOf(latestAttempt[ExerciseProgressTable.answerStatus]),
+                    isCorrect = isCorrect,
+                    attemptCount = attempts.size,
+                    lastAttempted = latestAttempt[ExerciseProgressTable.attemptedAt].toString()
+                )
+            }
         }
     }
 }
