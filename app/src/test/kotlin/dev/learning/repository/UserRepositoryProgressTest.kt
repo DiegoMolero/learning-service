@@ -18,10 +18,10 @@ class UserRepositoryProgressTest {
     private lateinit var repository: UserRepository
     private lateinit var config: Config
     private val testUserId = "test-${UUID.randomUUID().toString().take(20)}"
-    private val testLang = "es"
-    private val testModuleId = "module-1"
-    private val testUnitId = "unit-1"
-    private val testExerciseId = "exercise-1"
+    private val testLang = "en"
+    private val testModuleId = "articles-determiners"
+    private val testUnitId = "the_article_general_vs_specific_1"
+    private val testExerciseId = "ex_1"
 
     @BeforeEach
     fun setUp() {
@@ -65,7 +65,21 @@ class UserRepositoryProgressTest {
 
     @Test
     fun `getUnitProgress should return null when no progress exists`() = runBlocking {
-        // Act
+        // Act - using a non-existent unit
+        val progress = repository.getUnitProgress(
+            userId = testUserId,
+            lang = testLang,
+            moduleId = testModuleId,
+            unitId = "non-existent-unit"
+        )
+
+        // Assert
+        assertNull(progress, "getUnitProgress should return null when no progress exists and unit doesn't exist")
+    }
+
+    @Test
+    fun `getUnitProgress should return initial progress for real unit with no attempts`() = runBlocking {
+        // Act - using a real unit with no progress
         val progress = repository.getUnitProgress(
             userId = testUserId,
             lang = testLang,
@@ -74,7 +88,13 @@ class UserRepositoryProgressTest {
         )
 
         // Assert
-        assertNull(progress, "getUnitProgress should return null when no progress exists")
+        assertNotNull(progress, "getUnitProgress should return initial progress for real unit")
+        assertEquals(testUnitId, progress!!.unitId)
+        assertEquals(0, progress.completedExercises)
+        assertEquals(0, progress.correctAnswers)
+        assertEquals(0, progress.wrongAnswers)
+        assertEquals(50, progress.totalExercises) // the_article_general_vs_specific_1 has 50 exercises
+        assertNull(progress.lastAttempted)
     }
 
     @Test
@@ -109,7 +129,7 @@ class UserRepositoryProgressTest {
         assertEquals(1, progress.completedExercises)
         assertEquals(1, progress.correctAnswers)
         assertEquals(0, progress.wrongAnswers)
-        assertEquals(50, progress.totalExercises) // Default value from implementation
+        assertEquals(50, progress.totalExercises) // Real unit has 50 exercises
         assertNotNull(progress.lastAttempted)
     }
 
@@ -153,11 +173,11 @@ class UserRepositoryProgressTest {
     fun `recordExerciseProgress and getUnitProgress should handle multiple exercises`() = runBlocking {
         // Arrange - Multiple exercises with different statuses
         val exercises = listOf(
-            Triple("exercise-1", "Correct answer 1", AnswerStatus.CORRECT),
-            Triple("exercise-2", "Wrong answer", AnswerStatus.INCORRECT),
-            Triple("exercise-3", "Correct answer 2", AnswerStatus.CORRECT),
-            Triple("exercise-4", "Skipped", AnswerStatus.SKIPPED),
-            Triple("exercise-5", "Revealed", AnswerStatus.REVEALED)
+            Triple("ex_1", "Correct answer 1", AnswerStatus.CORRECT),
+            Triple("ex_2", "Wrong answer", AnswerStatus.INCORRECT),
+            Triple("ex_3", "Correct answer 2", AnswerStatus.CORRECT),
+            Triple("ex_4", "Skipped", AnswerStatus.SKIPPED),
+            Triple("ex_5", "Revealed", AnswerStatus.REVEALED)
         )
 
         // Act - Record progress for multiple exercises
@@ -195,7 +215,7 @@ class UserRepositoryProgressTest {
     @Test
     fun `recordExerciseProgress should handle same exercise multiple attempts`() = runBlocking {
         // Arrange - Same exercise attempted multiple times
-        val sameExerciseId = "exercise-retry"
+        val sameExerciseId = "ex_6"
         val attempts = listOf(
             Pair("First wrong attempt", AnswerStatus.INCORRECT),
             Pair("Second wrong attempt", AnswerStatus.INCORRECT),
@@ -235,49 +255,44 @@ class UserRepositoryProgressTest {
     }
 
     @Test
-    fun `recordExerciseProgress should work across different units for same user`() = runBlocking {
-        // Arrange - Different units
-        val unit1 = "unit-1"
-        val unit2 = "unit-2"
+    fun `recordExerciseProgress should work across different exercises in same unit`() = runBlocking {
+        // Arrange - Different exercises in same unit
+        val exercise1 = "ex_1"
+        val exercise2 = "ex_2"
 
-        // Act - Record progress in different units
+        // Act - Record progress for different exercises
         val result1 = repository.recordExerciseProgress(
             userId = testUserId,
             lang = testLang,
             moduleId = testModuleId,
-            unitId = unit1,
-            exerciseId = "exercise-1",
+            unitId = testUnitId,
+            exerciseId = exercise1,
             answerStatus = AnswerStatus.CORRECT,
-            userAnswer = "Answer for unit 1"
+            userAnswer = "Answer for exercise 1"
         )
 
         val result2 = repository.recordExerciseProgress(
             userId = testUserId,
             lang = testLang,
             moduleId = testModuleId,
-            unitId = unit2,
-            exerciseId = "exercise-1",
+            unitId = testUnitId,
+            exerciseId = exercise2,
             answerStatus = AnswerStatus.INCORRECT,
-            userAnswer = "Answer for unit 2"
+            userAnswer = "Answer for exercise 2"
         )
 
-        // Get progress for both units
-        val progress1 = repository.getUnitProgress(testUserId, testLang, testModuleId, unit1)
-        val progress2 = repository.getUnitProgress(testUserId, testLang, testModuleId, unit2)
+        // Get progress for the unit
+        val progress = repository.getUnitProgress(testUserId, testLang, testModuleId, testUnitId)
 
         // Assert
-        assertTrue(result1, "recordExerciseProgress should succeed for unit 1")
-        assertTrue(result2, "recordExerciseProgress should succeed for unit 2")
+        assertTrue(result1, "recordExerciseProgress should succeed for exercise 1")
+        assertTrue(result2, "recordExerciseProgress should succeed for exercise 2")
 
-        assertNotNull(progress1, "Should have progress for unit 1")
-        assertEquals(unit1, progress1.unitId)
-        assertEquals(1, progress1.correctAnswers)
-        assertEquals(0, progress1.wrongAnswers)
-
-        assertNotNull(progress2, "Should have progress for unit 2")
-        assertEquals(unit2, progress2.unitId)
-        assertEquals(0, progress2.correctAnswers)
-        assertEquals(1, progress2.wrongAnswers)
+        assertNotNull(progress, "Should have progress for unit")
+        assertEquals(testUnitId, progress.unitId)
+        assertEquals(1, progress.correctAnswers) // 1 correct from exercise1
+        assertEquals(1, progress.wrongAnswers)   // 1 incorrect from exercise2
+        assertEquals(1, progress.completedExercises) // Only correct answers count as completed
     }
 
     @Test
@@ -291,7 +306,7 @@ class UserRepositoryProgressTest {
         )
 
         statuses.forEachIndexed { index, status ->
-            val exerciseId = "exercise-status-$index"
+            val exerciseId = "ex_${7 + index}" // Use real exercise IDs
             
             // Act
             val result = repository.recordExerciseProgress(

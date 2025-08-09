@@ -22,11 +22,8 @@ import org.jetbrains.exposed.sql.transactions.transaction
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
 import java.util.*
-import dev.learning.repository.ModuleProgressTable
-import dev.learning.repository.UnitProgressTable
 import dev.learning.repository.ExerciseProgressTable
 import dev.learning.repository.UserSettings
-import dev.learning.repository.ExerciseAttempts
 
 interface ContentRepository {
     suspend fun getModules(userId: String, lang: String): List<ModuleResponse>
@@ -72,19 +69,13 @@ class DatabaseContentRepository(
         transaction {
             if (databaseConfig.dropOnStart) {
                 SchemaUtils.drop(
-                    ModuleProgressTable,
-                    UnitProgressTable,
                     ExerciseProgressTable,
-                    UserSettings,
-                    ExerciseAttempts
+                    UserSettings
                 )
             }
             SchemaUtils.createMissingTablesAndColumns(
-                ModuleProgressTable,
-                UnitProgressTable,
                 ExerciseProgressTable,
-                UserSettings,
-                ExerciseAttempts
+                UserSettings
             )
         }
     }
@@ -94,19 +85,41 @@ class DatabaseContentRepository(
         
         return transaction {
             modules.map { module ->
-                val progress = ModuleProgressTable.select {
-                    (ModuleProgressTable.userId eq userId) and
-                    (ModuleProgressTable.moduleId eq module.moduleId)
-                }.singleOrNull()
+                // Get all units for this module to calculate totals
+                val units = contentLibrary.getUnits(lang, module.moduleId)
+                val totalUnits = units.size
+                
+                // Count completed units for this module
+                var completedUnits = 0
+                units.forEach { unit ->
+                    val unitContent = contentLibrary.getUnitContent(lang, module.moduleId, unit.unitId)
+                    if (unitContent != null) {
+                        val totalExercises = unitContent.exercises.size
+                        
+                        // Get correct answers for this unit
+                        val correctAnswers = ExerciseProgressTable.select {
+                            (ExerciseProgressTable.userId eq userId) and
+                            (ExerciseProgressTable.lang eq lang) and
+                            (ExerciseProgressTable.moduleId eq module.moduleId) and
+                            (ExerciseProgressTable.unitId eq unit.unitId) and
+                            (ExerciseProgressTable.answerStatus eq "CORRECT")
+                        }.withDistinct().count()
+                        
+                        // Unit is completed if all exercises are correct
+                        if (correctAnswers >= totalExercises) {
+                            completedUnits++
+                        }
+                    }
+                }
 
                 ModuleResponse(
                     id = module.moduleId,
                     title = module.title,
                     description = module.description,
                     level = module.difficulty.firstOrNull() ?: "A1",
-                    totalUnits = 0, // Will be calculated
-                    completedUnits = 0, // Will be calculated from progress
-                    status = if (progress?.get(ModuleProgressTable.isCompleted) == true) "completed" else "available"
+                    totalUnits = totalUnits,
+                    completedUnits = completedUnits,
+                    status = if (completedUnits >= totalUnits) "completed" else "available"
                 )
             }
         }
@@ -119,29 +132,26 @@ class DatabaseContentRepository(
         
         return transaction {
             val unitsWithProgress = units.map { unit ->
-                val unitProgress = UnitProgressTable.select {
-                    (UnitProgressTable.userId eq userId) and
-                    (UnitProgressTable.unitId eq unit.unitId)
-                }.singleOrNull()
-
-                // Count exercises in this unit
+                // Get real exercise count from content
                 val unitContent = contentLibrary.getUnitContent(lang, moduleId, unit.unitId)
                 val totalExercises = unitContent?.exercises?.size ?: 0
                 
-                // Count completed exercises
-                val completedExercises = ExerciseProgressTable.select {
+                // Get all distinct correct answers for this unit
+                val correctAnswers = ExerciseProgressTable.select {
                     (ExerciseProgressTable.userId eq userId) and
+                    (ExerciseProgressTable.lang eq lang) and
+                    (ExerciseProgressTable.moduleId eq moduleId) and
                     (ExerciseProgressTable.unitId eq unit.unitId) and
-                    (ExerciseProgressTable.isCompleted eq true)
-                }.count().toInt()
+                    (ExerciseProgressTable.answerStatus eq "CORRECT")
+                }.withDistinct().count().toInt()
 
                 UnitSummary(
                     id = unit.unitId,
                     title = unit.title,
                     description = unit.description,
                     totalExercises = totalExercises,
-                    completedExercises = completedExercises,
-                    status = if (unitProgress?.get(UnitProgressTable.isCompleted) == true) "completed" else "available"
+                    completedExercises = correctAnswers,
+                    status = if (correctAnswers >= totalExercises && totalExercises > 0) "completed" else "available"
                 )
             }
 
@@ -160,29 +170,26 @@ class DatabaseContentRepository(
         
         return transaction {
             units.map { unit ->
-                val unitProgress = UnitProgressTable.select {
-                    (UnitProgressTable.userId eq userId) and
-                    (UnitProgressTable.unitId eq unit.unitId)
-                }.singleOrNull()
-
-                // Count exercises in this unit
+                // Get real exercise count from content
                 val unitContent = contentLibrary.getUnitContent(lang, moduleId, unit.unitId)
                 val totalExercises = unitContent?.exercises?.size ?: 0
                 
-                // Count completed exercises
-                val completedExercises = ExerciseProgressTable.select {
+                // Get all distinct correct answers for this unit
+                val correctAnswers = ExerciseProgressTable.select {
                     (ExerciseProgressTable.userId eq userId) and
+                    (ExerciseProgressTable.lang eq lang) and
+                    (ExerciseProgressTable.moduleId eq moduleId) and
                     (ExerciseProgressTable.unitId eq unit.unitId) and
-                    (ExerciseProgressTable.isCompleted eq true)
-                }.count().toInt()
+                    (ExerciseProgressTable.answerStatus eq "CORRECT")
+                }.withDistinct().count().toInt()
 
                 UnitSummary(
                     id = unit.unitId,
                     title = unit.title,
                     description = unit.description,
                     totalExercises = totalExercises,
-                    completedExercises = completedExercises,
-                    status = if (unitProgress?.get(UnitProgressTable.isCompleted) == true) "completed" else "available"
+                    completedExercises = correctAnswers,
+                    status = if (correctAnswers >= totalExercises && totalExercises > 0) "completed" else "available"
                 )
             }
         }
@@ -193,16 +200,11 @@ class DatabaseContentRepository(
         
         return transaction {
             val exercisesWithProgress = unitContent.exercises.map { exercise ->
-                val exerciseProgress = ExerciseProgressTable.select {
-                    (ExerciseProgressTable.userId eq userId) and
-                    (ExerciseProgressTable.exerciseId eq exercise.id)
-                }.singleOrNull()
-
                 ExerciseSummary(
                     id = exercise.id,
                     type = exercise.type,
-                    status = if (exerciseProgress?.get(ExerciseProgressTable.isCompleted) == true) "completed" else "available",
-                    isCorrect = exerciseProgress?.get(ExerciseProgressTable.isCompleted)
+                    status = "available", // Simplified - no individual exercise tracking
+                    isCorrect = null
                 )
             }
 
@@ -221,16 +223,11 @@ class DatabaseContentRepository(
         
         return transaction {
             unitContent.exercises.map { exercise ->
-                val progress = ExerciseProgressTable.select {
-                    (ExerciseProgressTable.userId eq userId) and
-                    (ExerciseProgressTable.exerciseId eq exercise.id)
-                }.singleOrNull()
-
                 ExerciseSummary(
                     id = exercise.id,
                     type = exercise.type,
-                    status = if (progress?.get(ExerciseProgressTable.isCompleted) == true) "completed" else "available",
-                    isCorrect = progress?.get(ExerciseProgressTable.isCompleted)
+                    status = "available", // Simplified - no individual exercise tracking
+                    isCorrect = null
                 )
             }
         }
@@ -243,67 +240,29 @@ class DatabaseContentRepository(
 
     override suspend fun submitExercise(userId: String, lang: String, moduleId: String, unitId: String, exerciseId: String, userAnswer: String, answerStatus: AnswerStatus): SubmitExerciseResponse {
         return transaction {
-            // Record the exercise attempt
-            ExerciseAttempts.insert {
+            // Simply record the exercise result
+            ExerciseProgressTable.insert {
                 it[this.userId] = userId
                 it[this.lang] = lang
-                it[this.exerciseId] = exerciseId
                 it[this.moduleId] = moduleId
                 it[this.unitId] = unitId
+                it[this.exerciseId] = exerciseId
                 it[this.userAnswer] = userAnswer
-                it[this.isCorrect] = answerStatus == AnswerStatus.CORRECT
+                it[this.answerStatus] = answerStatus.name
                 it[this.attemptedAt] = kotlinx.datetime.Clock.System.now()
             }
 
-            // Update exercise progress
-            val existingProgress = ExerciseProgressTable.select {
-                (ExerciseProgressTable.userId eq userId) and
-                (ExerciseProgressTable.exerciseId eq exerciseId)
-            }.singleOrNull()
-
-            if (existingProgress == null) {
-                ExerciseProgressTable.insert {
-                    it[this.userId] = userId
-                    it[this.lang] = lang
-                    it[this.moduleId] = moduleId
-                    it[this.unitId] = unitId
-                    it[this.exerciseId] = exerciseId
-                    it[this.isCompleted] = answerStatus == AnswerStatus.CORRECT
-                    it[this.createdAt] = kotlinx.datetime.Clock.System.now()
-                    it[this.updatedAt] = kotlinx.datetime.Clock.System.now()
-                }
-            } else if (answerStatus == AnswerStatus.CORRECT && !existingProgress[ExerciseProgressTable.isCompleted]) {
-                ExerciseProgressTable.update({
-                    (ExerciseProgressTable.userId eq userId) and
-                    (ExerciseProgressTable.exerciseId eq exerciseId)
-                }) {
-                    it[this.isCompleted] = true
-                    it[this.updatedAt] = kotlinx.datetime.Clock.System.now()
-                }
-            }
-
-            // Update unit progress if exercise was completed
-            if (answerStatus == AnswerStatus.CORRECT) {
-                updateUnitProgress(userId, lang, moduleId, unitId)
-                updateModuleProgress(userId, lang, moduleId)
-            }
+            // Get the correct answer from the exercise if available
+            val unitContent = contentLibrary.getUnitContent(lang, moduleId, unitId)
+            val exercise = unitContent?.exercises?.find { it.id == exerciseId }
+            val correctAnswer = exercise?.solution ?: ""
 
             SubmitExerciseResponse(
                 success = true,
                 answerStatus = answerStatus,
-                correctAnswer = "", // We could fetch this from the exercise data if needed
-                explanation = null
+                correctAnswer = correctAnswer,
+                explanation = exercise?.tip
             )
         }
-    }
-
-    private fun updateUnitProgress(userId: String, lang: String, moduleId: String, unitId: String) {
-        // Implementation would calculate unit progress based on completed exercises
-        // This is a simplified version
-    }
-
-    private fun updateModuleProgress(userId: String, lang: String, moduleId: String) {
-        // Implementation would calculate module progress based on completed units
-        // This is a simplified version
     }
 }
