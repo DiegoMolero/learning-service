@@ -115,7 +115,29 @@ fun Route.contentRoute(contentRepository: ContentRepository) {
                 
                 try {
                     val units = contentRepository.getUnits(userId, language, moduleId)
-                    call.respond(HttpStatusCode.OK, units)
+                    
+                    // Convert units to UnitSummary format with proper status logic
+                    val unitResponses = units.map { unit ->
+                        val status = when {
+                            unit.completedExercises == 0 -> "available"
+                            unit.completedExercises == unit.totalExercises -> "completed"
+                            unit.completedExercises > 0 && unit.completedExercises < unit.totalExercises -> "in_progress"
+                            else -> "available" // fallback
+                        }
+                        
+                        dev.learning.UnitSummary(
+                            id = unit.id,
+                            title = unit.title,
+                            description = unit.description,
+                            totalExercises = unit.totalExercises,
+                            completedExercises = unit.completedExercises,
+                            status = status
+                        )
+                    }
+                    
+                    // Wrap in UnitsResponse
+                    val response = dev.learning.UnitsResponse(units = unitResponses)
+                    call.respond(HttpStatusCode.OK, response)
                 } catch (e: Exception) {
                     call.respond(
                         HttpStatusCode.InternalServerError,
@@ -243,8 +265,8 @@ fun Route.contentRoute(contentRepository: ContentRepository) {
                             tip = exercise.tip
                         )
                         
-                        // Wrap the exercise in an object with "exercise" property
-                        val response = mapOf("exercise" to exerciseResponse)
+                        // Wrap the exercise in an array under "exercises" property
+                        val response = mapOf("exercises" to listOf(exerciseResponse))
                         call.respond(HttpStatusCode.OK, response)
                     } else {
                         call.respond(
@@ -360,19 +382,12 @@ fun Route.contentRoute(contentRepository: ContentRepository) {
                             tip = nextExercise.tip
                         )
                         
-                        val response = dev.learning.NextExerciseResponse(
-                            exercise = exerciseResponse,
-                            hasMoreExercises = true,
-                            message = null
-                        )
+                        // Wrap the exercise in an array under "exercises" property
+                        val response = mapOf("exercises" to listOf(exerciseResponse))
                         call.respond(HttpStatusCode.OK, response)
                     } else {
-                        // No more exercises available
-                        val response = dev.learning.NextExerciseResponse(
-                            exercise = null,
-                            hasMoreExercises = false,
-                            message = "No more exercises available in this unit"
-                        )
+                        // No more exercises available - return empty array
+                        val response = mapOf("exercises" to emptyList<dev.learning.ExerciseResponse>())
                         call.respond(HttpStatusCode.OK, response)
                     }
                 } catch (e: Exception) {

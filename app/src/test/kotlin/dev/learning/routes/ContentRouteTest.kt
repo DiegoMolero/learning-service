@@ -402,7 +402,8 @@ class ContentRouteTest {
 
         // Assert
         assertEquals(HttpStatusCode.OK, response.status)
-        val units = json.decodeFromString<List<UnitSummary>>(response.bodyAsText())
+        val unitsResponse = json.decodeFromString<UnitsResponse>(response.bodyAsText())
+        val units = unitsResponse.units
         
         // Validate JSON structure
         if (units.isNotEmpty()) {
@@ -573,8 +574,10 @@ class ContentRouteTest {
 
         // Assert
         if (response.status == HttpStatusCode.OK) {
-            val exerciseDetail = json.decodeFromString<ExerciseDetailResponse>(response.bodyAsText())
-            val exercise = exerciseDetail.exercise
+            val exercisesResponse = json.decodeFromString<ExercisesListResponse>(response.bodyAsText())
+            val exercises = exercisesResponse.exercises
+            assertTrue(exercises.isNotEmpty())
+            val exercise = exercises.first()
             
             // Validate required fields
             assertEquals(exerciseId, exercise.id)
@@ -621,8 +624,10 @@ class ContentRouteTest {
             }
             
             if (response.status == HttpStatusCode.OK) {
-                val exerciseDetail = json.decodeFromString<ExerciseDetailResponse>(response.bodyAsText())
-                val exercise = exerciseDetail.exercise
+                val exercisesResponse = json.decodeFromString<ExercisesListResponse>(response.bodyAsText())
+                val exercises = exercisesResponse.exercises
+                assertTrue(exercises.isNotEmpty())
+                val exercise = exercises.first()
                 
                 // Validate structure for all exercises
                 assertNotNull(exercise.id)
@@ -796,7 +801,7 @@ class ContentRouteTest {
             // Expected JSON structure for exercise details:
             /*
             {
-              "exercise": {
+              "exercises": [{
                 "id": "ex_1",
                 "topicId": "topic1",
                 "type": "translation",
@@ -811,12 +816,14 @@ class ContentRouteTest {
                   "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
                   "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
                 }
-              }
+              }]
             }
             */
             
-            val exerciseDetail = json.decodeFromString<ExerciseDetailResponse>(jsonString)
-            val exercise = exerciseDetail.exercise
+            val exercisesResponse = json.decodeFromString<ExercisesListResponse>(jsonString)
+            val exercises = exercisesResponse.exercises
+            assertTrue(exercises.isNotEmpty())
+            val exercise = exercises.first()
             
             with(exercise) {
                 assertEquals("ex_1", id)
@@ -889,7 +896,8 @@ class ContentRouteTest {
                     addTestJWT()
                 }
                 assertEquals(HttpStatusCode.OK, unitsResponse.status)
-                val units = json.decodeFromString<List<UnitSummary>>(unitsResponse.bodyAsText())
+                val unitsResponseData = json.decodeFromString<UnitsResponse>(unitsResponse.bodyAsText())
+                val units = unitsResponseData.units
 
                 if (units.isNotEmpty()) {
                     val unitId = units.first().id

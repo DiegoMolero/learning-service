@@ -329,10 +329,20 @@ data class ExerciseDetailResponse(
 )
 
 @Serializable
+data class ExercisesListResponse(
+    val exercises: List<ExerciseResponse>
+)
+
+@Serializable
 data class NextExerciseResponse(
     val exercise: ExerciseResponse? = null,
     val hasMoreExercises: Boolean,
     val message: String? = null
+)
+
+@Serializable
+data class UnitsResponse(
+    val units: List<UnitSummary>
 )
 
 @Serializable
