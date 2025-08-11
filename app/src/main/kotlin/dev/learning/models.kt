@@ -324,6 +324,11 @@ data class ExerciseResponse(
 )
 
 @Serializable
+data class ExerciseDetailResponse(
+    val exercise: ExerciseResponse
+)
+
+@Serializable
 data class NextExerciseResponse(
     val exercise: ExerciseResponse? = null,
     val hasMoreExercises: Boolean,

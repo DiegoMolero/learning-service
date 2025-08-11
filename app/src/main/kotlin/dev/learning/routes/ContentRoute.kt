@@ -230,7 +230,22 @@ fun Route.contentRoute(contentRepository: ContentRepository) {
                 try {
                     val exercise = contentRepository.getExerciseDetails(userId, language, moduleId, unitId, exerciseId)
                     if (exercise != null) {
-                        call.respond(HttpStatusCode.OK, exercise)
+                        // Create ExerciseResponse with topicId set to unitId for compatibility
+                        val exerciseResponse = dev.learning.ExerciseResponse(
+                            id = exercise.id,
+                            topicId = unitId, // Using unitId as topicId for backward compatibility
+                            type = exercise.type,
+                            prompt = exercise.prompt,
+                            solution = exercise.solution,
+                            options = exercise.options,
+                            previousAttempts = 0, // Could be enhanced to show actual attempt count
+                            isCompleted = false, // Could be enhanced based on user progress
+                            tip = exercise.tip
+                        )
+                        
+                        // Wrap the exercise in an object with "exercise" property
+                        val response = mapOf("exercise" to exerciseResponse)
+                        call.respond(HttpStatusCode.OK, response)
                     } else {
                         call.respond(
                             HttpStatusCode.NotFound,

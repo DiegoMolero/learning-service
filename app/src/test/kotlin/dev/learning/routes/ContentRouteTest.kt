@@ -573,7 +573,8 @@ class ContentRouteTest {
 
         // Assert
         if (response.status == HttpStatusCode.OK) {
-            val exercise = json.decodeFromString<Exercise>(response.bodyAsText())
+            val exerciseDetail = json.decodeFromString<ExerciseDetailResponse>(response.bodyAsText())
+            val exercise = exerciseDetail.exercise
             
             // Validate required fields
             assertEquals(exerciseId, exercise.id)
@@ -620,7 +621,8 @@ class ContentRouteTest {
             }
             
             if (response.status == HttpStatusCode.OK) {
-                val exercise = json.decodeFromString<Exercise>(response.bodyAsText())
+                val exerciseDetail = json.decodeFromString<ExerciseDetailResponse>(response.bodyAsText())
+                val exercise = exerciseDetail.exercise
                 
                 // Validate structure for all exercises
                 assertNotNull(exercise.id)
@@ -794,21 +796,27 @@ class ContentRouteTest {
             // Expected JSON structure for exercise details:
             /*
             {
-              "id": "ex_1",
-              "type": "translation",
-              "prompt": {
-                "es": "Los hombres no entienden a las mujeres."
-              },
-              "solution": "Men don't understand women.",
-              "options": null,
-              "tip": {
-                "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
-                "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+              "exercise": {
+                "id": "ex_1",
+                "topicId": "topic1",
+                "type": "translation",
+                "prompt": {
+                  "es": "Los hombres no entienden a las mujeres."
+                },
+                "solution": "Men don't understand women.",
+                "options": null,
+                "previousAttempts": 0,
+                "isCompleted": false,
+                "tip": {
+                  "en": "Don't use 'the' when talking about things in general (unlike Spanish).",
+                  "es": "No uses 'the' cuando hablas de cosas en general (a diferencia del español)."
+                }
               }
             }
             */
             
-            val exercise = json.decodeFromString<Exercise>(jsonString)
+            val exerciseDetail = json.decodeFromString<ExerciseDetailResponse>(jsonString)
+            val exercise = exerciseDetail.exercise
             
             with(exercise) {
                 assertEquals("ex_1", id)
