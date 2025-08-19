@@ -340,14 +340,13 @@ fun Route.contentRoute(contentRepository: ContentRepository) {
                 }
             }
             
-            // Get next exercise - GET /content/:lang/modules/:moduleId/units/:unitId/exercises/:exerciseId/next
-            get("/{lang}/modules/{moduleId}/units/{unitId}/exercises/{exerciseId}/next") {
+            // Get next exercise - GET /content/:lang/modules/:moduleId/units/:unitId/exercises/next
+            get("/{lang}/modules/{moduleId}/units/{unitId}/exercises/next") {
                 val principal = call.principal<JWTPrincipal>()
                 val userId = principal?.getClaim("userId", String::class)
                 val language = call.parameters["lang"]
                 val moduleId = call.parameters["moduleId"]
                 val unitId = call.parameters["unitId"]
-                val exerciseId = call.parameters["exerciseId"]
                 
                 if (userId.isNullOrBlank()) {
                     call.respond(
@@ -357,16 +356,18 @@ fun Route.contentRoute(contentRepository: ContentRepository) {
                     return@get
                 }
                 
-                if (language.isNullOrBlank() || moduleId.isNullOrBlank() || unitId.isNullOrBlank() || exerciseId.isNullOrBlank()) {
+                if (language.isNullOrBlank() || moduleId.isNullOrBlank() || unitId.isNullOrBlank()) {
                     call.respond(
                         HttpStatusCode.BadRequest,
-                        ErrorResponses.badRequest("Language, module ID, unit ID, and exercise ID are required", call.request.local.uri)
+                        ErrorResponses.badRequest("Language, module ID, and unit ID are required", call.request.local.uri)
                     )
                     return@get
                 }
                 
                 try {
-                    val nextExercise = contentRepository.getNextExercise(userId, language, moduleId, unitId, exerciseId)
+                    // Get the next exercise without requiring the current exerciseId
+                    // The repository will determine the next exercise based on user progress
+                    val nextExercise = contentRepository.getNextExercise(userId, language, moduleId, unitId, null)
                     
                     if (nextExercise != null) {
                         // Convert Exercise to ExerciseResponse format

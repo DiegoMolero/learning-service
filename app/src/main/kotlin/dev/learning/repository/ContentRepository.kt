@@ -33,7 +33,7 @@ interface ContentRepository {
     suspend fun getExercises(userId: String, lang: String, moduleId: String, unitId: String): List<ExerciseSummary>
     suspend fun getExerciseDetails(userId: String, lang: String, moduleId: String, unitId: String, exerciseId: String): Exercise?
     suspend fun submitExercise(userId: String, lang: String, moduleId: String, unitId: String, exerciseId: String, userAnswer: String, answerStatus: AnswerStatus): SubmitExerciseResponse
-    suspend fun getNextExercise(userId: String, lang: String, moduleId: String, unitId: String, currentExerciseId: String): Exercise?
+    suspend fun getNextExercise(userId: String, lang: String, moduleId: String, unitId: String, currentExerciseId: String? = null): Exercise?
 }
 
 class DatabaseContentRepository(
@@ -267,7 +267,7 @@ class DatabaseContentRepository(
         }
     }
 
-    override suspend fun getNextExercise(userId: String, lang: String, moduleId: String, unitId: String, currentExerciseId: String): Exercise? {
+    override suspend fun getNextExercise(userId: String, lang: String, moduleId: String, unitId: String, currentExerciseId: String?): Exercise? {
         return transaction {
             // Get all exercises from content
             val unitContent = contentLibrary.getUnitContent(lang, moduleId, unitId)
@@ -317,9 +317,11 @@ class DatabaseContentRepository(
             }
 
             // Remove current exercise from all sets to avoid returning the same exercise
-            notAttempted.remove(currentExerciseId)
-            failedExercises.remove(currentExerciseId)
-            completedCorrectly.remove(currentExerciseId)
+            currentExerciseId?.let { id ->
+                notAttempted.remove(id)
+                failedExercises.remove(id)
+                completedCorrectly.remove(id)
+            }
 
             // Decide which exercise to return based on priority:
             // 1. Prioritize new exercises (not attempted)
