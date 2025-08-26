@@ -1,0 +1,16 @@
+{
+    "moduleId": "tense-aspect",
+    "difficulty": [
+        "A2",
+        "B1",
+        "B2"
+    ],
+    "title": {
+        "en": "Tense & Aspect",
+        "es": "Tiempo y Aspecto"
+    },
+    "description": {
+        "en": "Basic tenses and time expressions",
+        "es": "Tiempos básicos y expresiones temporales"
+    }
+}

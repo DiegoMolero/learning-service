@@ -1,0 +1,15 @@
+{
+    "moduleId": "fundamentals",
+    "difficulty": [
+        "A1",
+        "A2"
+    ],
+    "title": {
+        "en": "Fundamentals",
+        "es": "Fundamentos"
+    },
+    "description": {
+        "en": "Essential grammar structures for elementary level",
+        "es": "Estructuras gramaticales esenciales para nivel elemental"
+    }
+}

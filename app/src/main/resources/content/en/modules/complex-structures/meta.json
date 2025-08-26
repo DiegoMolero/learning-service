@@ -1,0 +1,16 @@
+{
+    "moduleId": "complex-structures",
+    "difficulty": [
+        "B2",
+        "C1",
+        "C2"
+    ],
+    "title": {
+        "en": "Complex Structures",
+        "es": "Estructuras Complejas"
+    },
+    "description": {
+        "en": "More advanced grammatical patterns",
+        "es": "Patrones gramaticales más avanzados"
+    }
+}

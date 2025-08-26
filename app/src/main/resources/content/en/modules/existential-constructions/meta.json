@@ -1,0 +1,15 @@
+{
+    "moduleId": "existential-constructions",
+    "difficulty": [
+        "B1",
+        "B2"
+    ],
+    "title": {
+        "en": "Existential Constructions",
+        "es": "Construcciones Existenciales"
+    },
+    "description": {
+        "en": "Ways to express existence and presence",
+        "es": "Formas de expresar existencia y presencia"
+    }
+}

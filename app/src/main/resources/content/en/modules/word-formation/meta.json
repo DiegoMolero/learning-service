@@ -1,0 +1,16 @@
+{
+    "moduleId": "word-formation",
+    "difficulty": [
+        "B2",
+        "C1",
+        "C2"
+    ],
+    "title": {
+        "en": "Word Formation",
+        "es": "Formación de Palabras"
+    },
+    "description": {
+        "en": "Basic word formation patterns and prefixes/suffixes",
+        "es": "Patrones básicos de formación de palabras y prefijos/sufijos"
+    }
+}

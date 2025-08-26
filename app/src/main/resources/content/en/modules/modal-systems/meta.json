@@ -1,0 +1,15 @@
+{
+    "moduleId": "modal-systems",
+    "difficulty": [
+        "B1",
+        "B2"
+    ],
+    "title": {
+        "en": "Modal Systems",
+        "es": "Sistemas Modales"
+    },
+    "description": {
+        "en": "Basic modal verbs and their uses",
+        "es": "Verbos modales básicos y sus usos"
+    }
+}

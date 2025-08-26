@@ -1,0 +1,16 @@
+{
+    "moduleId": "phrasal-verbs",
+    "difficulty": [
+        "B1",
+        "B2",
+        "C1"
+    ],
+    "title": {
+        "en": "Phrasal Verbs",
+        "es": "Verbos Frasales"
+    },
+    "description": {
+        "en": "Common phrasal verbs in everyday contexts",
+        "es": "Verbos frasales comunes en contextos cotidianos"
+    }
+}

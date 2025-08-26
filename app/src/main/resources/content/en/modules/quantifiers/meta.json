@@ -1,0 +1,15 @@
+{
+    "moduleId": "quantifiers",
+    "difficulty": [
+        "A2",
+        "B1"
+    ],
+    "title": {
+        "en": "Quantifiers",
+        "es": "Cuantificadores"
+    },
+    "description": {
+        "en": "Basic expressions of quantity and amount",
+        "es": "Expresiones básicas de cantidad y cantidad"
+    }
+}
